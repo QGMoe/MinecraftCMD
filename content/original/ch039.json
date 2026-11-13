@@ -1,0 +1,2095 @@
+{
+ "id": "ch039",
+ "kind": "chapter",
+ "number": 39,
+ "title": "第三十九章 particle-在MC里做特效",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   2797,
+   2908
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第三十九章_particle-在MC里做特效"
+    },
+    {
+     "t": "第三十九章 particle-在MC里做特效",
+     "p": {}
+    }
+   ],
+   "text": "第三十九章 particle-在MC里做特效",
+   "sha256": "550765fb13e806356c311421ebdc67b8f06581310b6dbf577a6b08b50b6db05f",
+   "i": 2797
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "MC里有一种东西，会在很多地方出现。它不会伤及到任何人，也不会和方块互动。",
+     "p": {}
+    }
+   ],
+   "text": "MC里有一种东西，会在很多地方出现。它不会伤及到任何人，也不会和方块互动。",
+   "sha256": "e1addeb6b4fdc33a22481ba82d6182712ee40ad2a550a20811c4b07d6e795490",
+   "i": 2798
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "它经常在岩浆上跳跃；经常在拥有效果的玩家身边出现；也经常在地下的红石矿周边逗留。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "它经常在岩浆上跳跃；经常在拥有效果的玩家身边出现；也经常在地下的红石矿周边逗留。",
+   "sha256": "0f1db836171775c78efc52abc57fe27d9fa3c870195ef527eb1ee7e91f583ca4",
+   "i": 2799
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "它是什么？粒子效果。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "它是什么？粒子效果。",
+   "sha256": "d036661fda1a8eaec2473b7cf0d32b3bd361053c977fbd22cb6c841c253e75a5",
+   "i": 2800
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "粒子效果很容易被忽视，因为它没有实际的作用，只是一种特效。但是如果没有粒子效果，那么整个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft将会发生一次大改变：岩浆不再向外喷火、玩家有效果时不再有外部提示、破坏方块再无特效......",
+     "p": {}
+    }
+   ],
+   "text": "粒子效果很容易被忽视，因为它没有实际的作用，只是一种特效。但是如果没有粒子效果，那么整个Minecraft将会发生一次大改变：岩浆不再向外喷火、玩家有效果时不再有外部提示、破坏方块再无特效......",
+   "sha256": "a06e416f8351d55b1611f1f6396ff5e756c69139b5b83b42dce86887b82aa5e6",
+   "i": 2801
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "因为使用粒子效果可以更好的建设",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft，所以粒子特效被很多大型服务器所用。",
+     "p": {}
+    }
+   ],
+   "text": "因为使用粒子效果可以更好的建设Minecraft，所以粒子特效被很多大型服务器所用。",
+   "sha256": "a16cb264277d058688ef3e7ef420d9eb5c637ba82419308c76f339b0a05ed517",
+   "i": 2802
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看起来粒子效果很高级。其实，使用粒子效果只需要一条指令：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/particle。",
+     "p": {}
+    }
+   ],
+   "text": "看起来粒子效果很高级。其实，使用粒子效果只需要一条指令：/particle。",
+   "sha256": "0b283637736798cf3febbc984149c58581eb531d658cec3bcefd446352f404f3",
+   "i": 2803
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/particle，意为“粒子、颗粒”。所以，其大致的功能就已经猜到了：肯定跟粒子有关系（不然为何使用了200多字讲粒子）。在很多指令玩家中，/particle有一个外号：“粒子发射器”。",
+     "p": {}
+    }
+   ],
+   "text": "/particle，意为“粒子、颗粒”。所以，其大致的功能就已经猜到了：肯定跟粒子有关系（不然为何使用了200多字讲粒子）。在很多指令玩家中，/particle有一个外号：“粒子发射器”。",
+   "sha256": "e247669d02ce8efb388504d7639350233aa04814b222f64906a49d5094568f96",
+   "i": 2804
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/particle",
+     "p": {}
+    }
+   ],
+   "text": "/particle",
+   "sha256": "983aa9af43372a2204b24938922a1c7e3b37117d7cabf8c318e899d08084d2f0",
+   "i": 2805
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：在一个区域内生成一些粒子。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：在一个区域内生成一些粒子。",
+   "sha256": "b4f9fa1e6e7fe20d47129ef99a6e442967ff1d3dbfb94cfcac0c7e3fd4f414ab",
+   "i": 2806
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2，基岩-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2，基岩-1",
+   "sha256": "04ff054666196c9f14a59c65f5ddb9a79efed2f3d2b519540dd5715299ff7c53",
+   "i": 2807
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 2808
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 2809
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.12.2之后",
+     "p": {}
+    }
+   ],
+   "text": "Java1.12.2之后",
+   "sha256": "ac9bd3329e93abfddba3407b93e55ccddc8962a82049fd849fb9125dd01cacb3",
+   "i": 2810
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/particle <粒子ID><坐标：xyz>[<延伸坐标：dxdydz>][速度][数量][模式:force|normal][目标玩家：目标选择器]",
+     "p": {}
+    }
+   ],
+   "text": "/particle <粒子ID><坐标：xyz>[<延伸坐标：dxdydz>][速度][数量][模式:force|normal][目标玩家：目标选择器]",
+   "sha256": "32d770125d40632929a81ff680db57d597274ea0fc531b6c64e6d32b2802a21e",
+   "i": 2811
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.13之前",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13之前",
+   "sha256": "d39cab2b6ceac47f3e4b5445f85f0b42ed461eae8793295e1828edd18cb15894",
+   "i": 2812
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/particle <粒子ID><坐标：xyz><延伸坐标：dxdydz><速度>[数量][模式：force|normal][目标玩家：目标选择器][参数]",
+     "p": {}
+    }
+   ],
+   "text": "/particle <粒子ID><坐标：xyz><延伸坐标：dxdydz><速度>[数量][模式：force|normal][目标玩家：目标选择器][参数]",
+   "sha256": "66301689a85d50bb55caeb3427132e93475f59d107f0e592bc20e8a0dd092995",
+   "i": 2813
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "基岩",
+   "sha256": "aeddf2a534cd58b9e5842fbc242faee30e0dfb207b5079136c9b370ee21f518f",
+   "i": 2814
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/particle <粒子ID><坐标>",
+     "p": {}
+    }
+   ],
+   "text": "/particle <粒子ID><坐标>",
+   "sha256": "99212f7569940f03eb1dc8eb2d4eccdca6611a430659ac24c901cfc4ac085d7b",
+   "i": 2815
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/particle最简单的使用方法就正如基岩版一样，一个粒子ID加坐标就搞定了。比如：",
+     "p": {}
+    }
+   ],
+   "text": "/particle最简单的使用方法就正如基岩版一样，一个粒子ID加坐标就搞定了。比如：",
+   "sha256": "12d98b7497588f7c9c7274e8a8d70f384e8913f62374142838822024558ded11",
+   "i": 2816
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/particle bubble ~~~",
+     "p": {}
+    }
+   ],
+   "text": "/particle bubble ~~~",
+   "sha256": "e6eaf6abc5b5629d1bb2621518748386112cbb7de6d2f5f837b996a8f10435cd",
+   "i": 2817
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "就可以生成一个泡泡粒子。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "就可以生成一个泡泡粒子。",
+   "sha256": "32a9ea680737ef2c15a4b2a8be44ffa24177cf53caf34cfcc81ef5c878f34fbc",
+   "i": 2818
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "下面作者列出一些粒子",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "ID：",
+     "p": {}
+    }
+   ],
+   "text": "下面作者列出一些粒子ID：",
+   "sha256": "39b455f158eb3e55567d23d1877276b37a2163d3ba3cd2b53b2b57301170601d",
+   "i": 2819
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "hugeexplosion——超大爆炸",
+     "p": {}
+    }
+   ],
+   "text": "hugeexplosion——超大爆炸",
+   "sha256": "8b8d3af7b9c84c820eb0a5a763be452e0563002b95622c80c7b9bd5ddb0d62fd",
+   "i": 2820
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "largeexplode——大型爆炸",
+     "p": {}
+    }
+   ],
+   "text": "largeexplode——大型爆炸",
+   "sha256": "44af65f57c5db05a3997f0414e5926e71ede38683df98a6d233454ad7f8e60e6",
+   "i": 2821
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ireworksSpark——烟花火箭飞起来的特效",
+     "p": {}
+    }
+   ],
+   "text": "ireworksSpark——烟花火箭飞起来的特效",
+   "sha256": "c297891734913e06b6f36d7fe3d1efabb0ce53d8dad90ea6cf95bc184e1a0ced",
+   "i": 2822
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "bubble——泡泡",
+     "p": {}
+    }
+   ],
+   "text": "bubble——泡泡",
+   "sha256": "7b1d9ac8a1b3a72e362a49a52b1a3c1920fb459c8f5b61af05583d181982371a",
+   "i": 2823
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "crit——跳劈击打的效果",
+     "p": {}
+    }
+   ],
+   "text": "crit——跳劈击打的效果",
+   "sha256": "1f3046d9697de500613ba81d1b25ecac2722733aea476da1f25c13e0c6145028",
+   "i": 2824
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "smoke——烟雾",
+     "p": {}
+    }
+   ],
+   "text": "smoke——烟雾",
+   "sha256": "eaad8cfd2da7d12124c64e26bc533b38f3c2f26146d30b4b6bfc666175c82986",
+   "i": 2825
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "mobspell——黑色圈形颗粒",
+     "p": {}
+    }
+   ],
+   "text": "mobspell——黑色圈形颗粒",
+   "sha256": "856b6c7286a0ca3f54719b0563949fa174f6c84e4c556c737c89eb9150630e92",
+   "i": 2826
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "spell——白色圈形颗粒",
+     "p": {}
+    }
+   ],
+   "text": "spell——白色圈形颗粒",
+   "sha256": "0d35c1a20def5cf308757c6326793b7a8a840ba80bab749f98bedf78ae02e9c2",
+   "i": 2827
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "instantspell——白色X形颗粒",
+     "p": {}
+    }
+   ],
+   "text": "instantspell——白色X形颗粒",
+   "sha256": "5071da44ff4fee52d8a65b92a12cc97158323a3259c470b5663fe951bd56b2f4",
+   "i": 2828
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "note——音符盒的音符",
+     "p": {}
+    }
+   ],
+   "text": "note——音符盒的音符",
+   "sha256": "c5ee82630e6132214e9e983d28fd818650ff371ee89a0515ee1ba81b83693e58",
+   "i": 2829
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "portal——地狱门和末影人周围环绕的紫色颗粒",
+     "p": {}
+    }
+   ],
+   "text": "portal——地狱门和末影人周围环绕的紫色颗粒",
+   "sha256": "10d23b260d4752f500c94c9d63803e203e2975846e72f7612f16ec92b45ed718",
+   "i": 2830
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "enchantmenttable——从书架飘向附魔台的文字（听说这个有点意思）",
+     "p": {}
+    }
+   ],
+   "text": "enchantmenttable——从书架飘向附魔台的文字（听说这个有点意思）",
+   "sha256": "c7deca117dc48611ae938e63e468bb7687bc3df2bff4c003c9de384d08fc8574",
+   "i": 2831
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "explode——爆炸",
+     "p": {}
+    }
+   ],
+   "text": "explode——爆炸",
+   "sha256": "e0c4d65a44aacaa101e283445b7d43f7c681164683480a9d14ad49e8be3c0449",
+   "i": 2832
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "flame——刷怪笼刷出一次怪物时出现的火花",
+     "p": {}
+    }
+   ],
+   "text": "flame——刷怪笼刷出一次怪物时出现的火花",
+   "sha256": "e1cf69726da0cf6023cf800a34b87c2fb8d7e9c15e5bedb0f4b9aaed7e602132",
+   "i": 2833
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "lava——岩浆飞溅出的火花",
+     "p": {}
+    }
+   ],
+   "text": "lava——岩浆飞溅出的火花",
+   "sha256": "a804c98e6d3dddee35d76c1add1cf23710b22c48ff14390290b742a0d45ccb2c",
+   "i": 2834
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "footstep——脚印（好像在某些版本时玩家走路时会有脚印粒子）",
+     "p": {}
+    }
+   ],
+   "text": "footstep——脚印（好像在某些版本时玩家走路时会有脚印粒子）",
+   "sha256": "1456f250d15fae5962e094e9bb9e6b95c93e2c37b81532e69e59a70821e0f011",
+   "i": 2835
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "splash——溅起的水花",
+     "p": {}
+    }
+   ],
+   "text": "splash——溅起的水花",
+   "sha256": "2c70ea752880a4bd9a863584811b1459d45769420b5c3c02e4f598c6f99da6f5",
+   "i": 2836
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "largesmoke——大型烟雾",
+     "p": {}
+    }
+   ],
+   "text": "largesmoke——大型烟雾",
+   "sha256": "5d3ed03043e5b974ba4d0020b9bd748b842480b123e6a5ed5bfcce8f78a7f765",
+   "i": 2837
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "cloud——云(类似烟雾)",
+     "p": {}
+    }
+   ],
+   "text": "cloud——云(类似烟雾)",
+   "sha256": "01085accde96dba7fb977f22f3a92a47975c35f8da5101b74c3340b841a0a3c4",
+   "i": 2838
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "reddust——黑色的颗粒",
+     "p": {}
+    }
+   ],
+   "text": "reddust——黑色的颗粒",
+   "sha256": "f5c3ec90ad1416a5a637b660611c8ba634bb551a12793dbbd6305149fc9f33cd",
+   "i": 2839
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "snowballpoof——雪球打到生物时雪球破碎的效果",
+     "p": {}
+    }
+   ],
+   "text": "snowballpoof——雪球打到生物时雪球破碎的效果",
+   "sha256": "1f2a515cd8dbd7444dc28ed66b0c379ed391ded6bdec170617eb85cc67ef990d",
+   "i": 2840
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "dripwater——天花板滴下的水",
+     "p": {}
+    }
+   ],
+   "text": "dripwater——天花板滴下的水",
+   "sha256": "b8a1d932dc0c033d21d56ebb3c8c44c42d3ea44650d5ed6fc309d8e8e5f55553",
+   "i": 2841
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "driplava——天花板滴下的岩浆",
+     "p": {}
+    }
+   ],
+   "text": "driplava——天花板滴下的岩浆",
+   "sha256": "52d792cf31449586b999cf3c951a27d94a166f21e20560a99078ec047c85ab03",
+   "i": 2842
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "snowshovel——白色的颗粒",
+     "p": {}
+    }
+   ],
+   "text": "snowshovel——白色的颗粒",
+   "sha256": "ec71273e4bad1a6601c9a2c5e043284d921cb099bac72da375f21582d8dcf012",
+   "i": 2843
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "slime——史莱姆跳动时的绿色粒子",
+     "p": {}
+    }
+   ],
+   "text": "slime——史莱姆跳动时的绿色粒子",
+   "sha256": "0f0a160a633d0e05895f02ab5b625bfdc50273d388cf8e9f46aa562f5335aa4d",
+   "i": 2844
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "heart——爱心",
+     "p": {}
+    }
+   ],
+   "text": "heart——爱心",
+   "sha256": "e38305c3386dadc11864c744aa00ec917c0f85cb68e7f86b85a6e353a1459486",
+   "i": 2845
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "wake——蓝色的颗粒",
+     "p": {}
+    }
+   ],
+   "text": "wake——蓝色的颗粒",
+   "sha256": "6158c249467f268e0a600aad86618c09597f07a4b684473e42b525a003b1a557",
+   "i": 2846
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "mobspellambient——淡灰色的圈形颗粒",
+     "p": {}
+    }
+   ],
+   "text": "mobspellambient——淡灰色的圈形颗粒",
+   "sha256": "fbd3bb0e8bd0f18430c40caecbaf3bc270856927f0d52a6921cb5cf0ce51fcbe",
+   "i": 2847
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "angryvillager——村民生气的粒子",
+     "p": {}
+    }
+   ],
+   "text": "angryvillager——村民生气的粒子",
+   "sha256": "c0b5ed8c7988d05b930edf73587fc1a29f248fbabd90ba4ecb5c1aae9b78c4d3",
+   "i": 2848
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "happyvillager——村民快乐的粒子",
+     "p": {}
+    }
+   ],
+   "text": "happyvillager——村民快乐的粒子",
+   "sha256": "c5e590a4986dbe524b4bb4faf07c77990632f9ad29c33da2502b01b4ced86323",
+   "i": 2849
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "...............................................",
+     "p": {}
+    }
+   ],
+   "text": "...............................................",
+   "sha256": "8971f6d844af0a99a9e1f183395a631f6b962091bccd29785a84a2c18f28253d",
+   "i": 2850
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你对这些粒子不满意，你还可以自定义粒子效果。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "如果你对这些粒子不满意，你还可以自定义粒子效果。",
+   "sha256": "15b123083938417fc6cdad900503159229410fd5390bb70f39dba1f09b2f7d58",
+   "i": 2851
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.13版本，使用dust、block和item可以自定义一些粒子效果：",
+     "p": {}
+    }
+   ],
+   "text": "在Java1.13版本，使用dust、block和item可以自定义一些粒子效果：",
+   "sha256": "c147e4c897fada4d923190d2ebf55b81623145979e2ae5217ac1089b77d5067d",
+   "i": 2852
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "dust可以自定义粒子烟雾的颜色：",
+     "p": {}
+    }
+   ],
+   "text": "dust可以自定义粒子烟雾的颜色：",
+   "sha256": "791a5256ceb94e3c4709cead4a6720288b27eb1a93017d8d28a6b36e90bb66fb",
+   "i": 2853
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/particle dust <红色占比><绿色占比><蓝色占比><大小>......",
+     "p": {}
+    }
+   ],
+   "text": "/particle dust <红色占比><绿色占比><蓝色占比><大小>......",
+   "sha256": "a1ab9d6027a32561b4744b7d78ac1131cd376534a4da218cab9ed4116c3b8882",
+   "i": 2854
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这里的四个值以",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1为100%，从0.0开始，到1.0。比如生成一个30大小的蓝色粒子：",
+     "p": {}
+    }
+   ],
+   "text": "这里的四个值以1为100%，从0.0开始，到1.0。比如生成一个30大小的蓝色粒子：",
+   "sha256": "16af9d481963681fd4e28755bb312f88336f7441ecdf75b358cb560a6819f330",
+   "i": 2855
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/particle dust 0 0 1 30 ~~~",
+     "p": {}
+    }
+   ],
+   "text": "/particle dust 0 0 1 30 ~~~",
+   "sha256": "04f410db7b17269ce34ea387c70c3afca30e469bc2988eecaaba72d55a307421",
+   "i": 2856
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "item可以生成指定物品被破坏时的粒子：",
+     "p": {}
+    }
+   ],
+   "text": "item可以生成指定物品被破坏时的粒子：",
+   "sha256": "9d39dcaa893e4a8eaa282c55e1041d32393b34f428f1279dae02e49b3c02915a",
+   "i": 2857
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/...... item <物品ID>.......",
+     "p": {}
+    }
+   ],
+   "text": "/...... item <物品ID>.......",
+   "sha256": "adea5eaa65c2a6c541311a4d3958e60eff40705513d069d609664fddaebca188",
+   "i": 2858
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如生成一个钻石被破坏的粒子效果：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "比如生成一个钻石被破坏的粒子效果：",
+   "sha256": "daed680a7ffdd0a367fdfbf980a76c039c1fea0ce3d6544ab2f4e1a42047a1a9",
+   "i": 2859
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/particle item diamond ~~~",
+     "p": {}
+    }
+   ],
+   "text": "/particle item diamond ~~~",
+   "sha256": "a9c3d7c07c9513aaeb4ec171dc72e2111aca78265fb9e2758fec88d11ab8d1a0",
+   "i": 2860
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "block可以自定义破坏方块显示的粒子：",
+     "p": {}
+    }
+   ],
+   "text": "block可以自定义破坏方块显示的粒子：",
+   "sha256": "1cac0535215d7409ef471f706169c07ea0b52e0f7c50f08dd7c0a13b00b831b0",
+   "i": 2861
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/particle block <方块ID>.......",
+     "p": {}
+    }
+   ],
+   "text": "/particle block <方块ID>.......",
+   "sha256": "bbc9dfebf40a9ed2a73cbfe8112673dffa961168e68a1d7b740c51eb78b5a715",
+   "i": 2862
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/particle block command_block ~~~，就可以生成一个破坏命令方块时的粒子效果。",
+     "p": {}
+    }
+   ],
+   "text": "比如/particle block command_block ~~~，就可以生成一个破坏命令方块时的粒子效果。",
+   "sha256": "bec7b13f3e81cecc4c4a5ab3173b80fd5671c807c4550a221e570f8934d7377f",
+   "i": 2863
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java版，/particle有更多的参数可以自定义：",
+     "p": {}
+    }
+   ],
+   "text": "在Java版，/particle有更多的参数可以自定义：",
+   "sha256": "f4a9082383038837424426b4337e5022025bf47c568e805e6d584edf155820a8",
+   "i": 2864
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "延伸坐标——还记得之前讲的目标选择器的“",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "dx”、“dy”、“dz”吗，这里的延伸坐标就是这个意思。不记得的赶紧回到第二十五章：更加精确的目标选择器。指定后粒子效果会均匀生成在指定的范围内，在1.13版本之前为必填项。",
+     "p": {}
+    }
+   ],
+   "text": "延伸坐标——还记得之前讲的目标选择器的“dx”、“dy”、“dz”吗，这里的延伸坐标就是这个意思。不记得的赶紧回到第二十五章：更加精确的目标选择器。指定后粒子效果会均匀生成在指定的范围内，在1.13版本之前为必填项。",
+   "sha256": "484f7ed72f47fd1f2120c59fa84a21b183ff8c8c1c5405b7bc20cf889aa1b45f",
+   "i": 2865
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "速度——指定颗粒飞行的速度。默认是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0，且至少为0，在1.13版本之前是必填项。",
+     "p": {}
+    }
+   ],
+   "text": "速度——指定颗粒飞行的速度。默认是0，且至少为0，在1.13版本之前是必填项。",
+   "sha256": "9a95bf847aafeffb1e4624364b374363a76e4c3c20b067ad6f431fe5832658a5",
+   "i": 2866
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "数量——指定颗粒生成的数量，不填默认为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0，且至少为0（产生一个粒子）。",
+     "p": {}
+    }
+   ],
+   "text": "数量——指定颗粒生成的数量，不填默认为0，且至少为0（产生一个粒子）。",
+   "sha256": "1cc7a7ff1dd8b9e98fdc181ffe8e096013259fb2b358d92de00bdba6c9f53c2d",
+   "i": 2867
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "模式——指定颗粒的显示模式，可以选择“",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "force”和“normal”。",
+     "p": {}
+    }
+   ],
+   "text": "模式——指定颗粒的显示模式，可以选择“force”和“normal”。",
+   "sha256": "d1a7a5aab16c1a3aa4f52a65f6cf5937d54a755bd8cebcc3ca341c2a58c522a5",
+   "i": 2868
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "force：强制设置颗粒的显示范围为256格，包括已经设定好颗粒效果的可视距离的玩家。",
+     "p": {}
+    }
+   ],
+   "text": "force：强制设置颗粒的显示范围为256格，包括已经设定好颗粒效果的可视距离的玩家。",
+   "sha256": "88387f805d0dae21bbbcd91a4da7836c7bc9cb43e953417efb341d993fa700e2",
+   "i": 2869
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "normal：正常情况（默认的情况，真的是正常的）",
+     "p": {}
+    }
+   ],
+   "text": "normal：正常情况（默认的情况，真的是正常的）",
+   "sha256": "647ae8769dac32634fd6788c8b5be057824cd97bb73697f81377299ae89c263c",
+   "i": 2870
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "目标玩家——指定可以看到该粒子效果的玩家。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "目标玩家——指定可以看到该粒子效果的玩家。",
+   "sha256": "80d8d98781d752e1589dd03350d98d2d577d261e02e6c6cd0ea8e3b2f0fe4a3c",
+   "i": 2871
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 2872
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute @a ~~~ particle heart ~~1 ~ 0 -2 0 3 10 normal @s——仅Java1.13之前",
+     "p": {}
+    }
+   ],
+   "text": "/execute @a ~~~ particle heart ~~1 ~ 0 -2 0 3 10 normal @s——仅Java1.13之前",
+   "sha256": "15badcc110818a9a98bc7124b7257665c494bc0ed344cdbcda18dfa160c928e6",
+   "i": 2873
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面这条指令的作用是：在所有玩家身上显示",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "10个朝上飘的爱心，并且此粒子效果只能由该玩家看到。",
+     "p": {}
+    }
+   ],
+   "text": "上面这条指令的作用是：在所有玩家身上显示10个朝上飘的爱心，并且此粒子效果只能由该玩家看到。",
+   "sha256": "74ee1e616febec7d2577d394130dbea8c9aa51277646caf90b40e7e69bc35f66",
+   "i": 2874
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java版1.13版本之前，没有dust、block和item该怎么自定义粒子效果呢？",
+     "p": {}
+    }
+   ],
+   "text": "在Java版1.13版本之前，没有dust、block和item该怎么自定义粒子效果呢？",
+   "sha256": "4da6f7f312357e12db08519580b768d61c93b38a416df97e8b9b19d1a99f1855",
+   "i": 2875
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看到那个在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.13被移除的叫做参数的参数了吧？这个参数只能在粒子ID是blockdust、iconcrack、blockcrack和fallingdust时修改。",
+     "p": {}
+    }
+   ],
+   "text": "看到那个在Java1.13被移除的叫做参数的参数了吧？这个参数只能在粒子ID是blockdust、iconcrack、blockcrack和fallingdust时修改。",
+   "sha256": "f2f80331ed0e914231ce662061bbeddb9f88656bc0ddab870ac1aedda3de55f0",
+   "i": 2876
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "唉，发现了没有？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "唉，发现了没有？",
+   "sha256": "7ecfb512e58d8c905f848e1765a62eaea3e30ced40511f65e0aa701f1c244838",
+   "i": 2877
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "blockdust是方块破坏时的粒子，blockcrack是方块挖掘时的粒子，在1.13中合并成了block粒子效果。iconcrack是物品破坏时的粒子效果，对应了1.13版本更新后的item。fallingdust是烟尘效果，对应了1.13版本之后的dust。",
+     "p": {}
+    }
+   ],
+   "text": "blockdust是方块破坏时的粒子，blockcrack是方块挖掘时的粒子，在1.13中合并成了block粒子效果。iconcrack是物品破坏时的粒子效果，对应了1.13版本更新后的item。fallingdust是烟尘效果，对应了1.13版本之后的dust。",
+   "sha256": "75fa08636e2e62dd91107df93591c2cdecbc90e6baf7054714c0df90b88d926b",
+   "i": 2878
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "blockdust和blockcrack的参数是这样的：",
+     "p": {}
+    }
+   ],
+   "text": "blockdust和blockcrack的参数是这样的：",
+   "sha256": "2edb90436c24f1017e865062a81841c75719b473547e89f396d853a29a5bda0d",
+   "i": 2879
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最终参数值",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "=方块数字ID+方块数据值×4096",
+     "p": {}
+    }
+   ],
+   "text": "最终参数值=方块数字ID+方块数据值×4096",
+   "sha256": "fbc0190f04276110ed55c8494d87bac980e90a85ab9eaa5da96eb9315779740d",
+   "i": 2880
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我勒个去，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Mojang你是神.....好吧，举个例子，假设你要在Java1.12.2搞到红色羊毛被破坏的粒子效果，那么你就得先知道羊毛的数字ID是35，然后知道红色羊毛的数字ID是14，再然后通过计算器计算：",
+     "p": {}
+    }
+   ],
+   "text": "我勒个去，Mojang你是神.....好吧，举个例子，假设你要在Java1.12.2搞到红色羊毛被破坏的粒子效果，那么你就得先知道羊毛的数字ID是35，然后知道红色羊毛的数字ID是14，再然后通过计算器计算：",
+   "sha256": "67e1bf991dcc9affa66232db850232a9d10c109eaf04dbda31c87bd8c4580a09",
+   "i": 2881
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "35+14×4096",
+     "p": {}
+    }
+   ],
+   "text": "35+14×4096",
+   "sha256": "a2409e1b1c6987875d7c4c3007878d437f7e828744998c52c12f41d7d475e954",
+   "i": 2882
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "35+57344",
+     "p": {}
+    }
+   ],
+   "text": "35+57344",
+   "sha256": "fddbd6a76836620f0b08ca245ac348ac765d40d36af9736f022d58c0dbcd302e",
+   "i": 2883
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "57379",
+     "p": {}
+    }
+   ],
+   "text": "57379",
+   "sha256": "2415ad41c531cb6ec3897f3f26517892ee12231b871e1741944c0717a2121406",
+   "i": 2884
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后输入指令",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/particle blockdust ~~~ 1 1 1 0 10 normal @s 57379。",
+     "p": {}
+    }
+   ],
+   "text": "最后输入指令/particle blockdust ~~~ 1 1 1 0 10 normal @s 57379。",
+   "sha256": "a8dc47d26b88ef213a07a781b3b45efe9072c8d7872dd0a2166d35be350247c2",
+   "i": 2885
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "恭喜你，你搞到了红色羊毛的粒子效果！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "恭喜你，你搞到了红色羊毛的粒子效果！",
+   "sha256": "e40a1692954586b9c85b60c940927948119ecc116ee48bf1adbe125ffc84df56",
+   "i": 2886
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要注意的是，这里仅支持数字",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "ID，不支持字符串，所以这里也算是MinecraftJava1.8更新时的一个残留。",
+     "p": {}
+    }
+   ],
+   "text": "需要注意的是，这里仅支持数字ID，不支持字符串，所以这里也算是MinecraftJava1.8更新时的一个残留。",
+   "sha256": "5e7b1b3ac7d25802eb294e719d7bf06f45f6341e216c9173d360832733c11b93",
+   "i": 2887
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "fallingdust也不同于1.13版本后的dust，颜色并不能自定义，而是有一个现在已经很难找到的颜色ID。",
+     "p": {}
+    }
+   ],
+   "text": "fallingdust也不同于1.13版本后的dust，颜色并不能自定义，而是有一个现在已经很难找到的颜色ID。",
+   "sha256": "af60aa9c26326692018e8235fe19304f2966b6f44edeb921e7866a260260fc7c",
+   "i": 2888
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "iconcrack和1.13版本后的item差别不大，其参数有两个（Mojang你终于智商在线了），分别是物品数字ID和数据值。",
+     "p": {}
+    }
+   ],
+   "text": "iconcrack和1.13版本后的item差别不大，其参数有两个（Mojang你终于智商在线了），分别是物品数字ID和数据值。",
+   "sha256": "020632c1939e018e5b4f2c3af40a3ca680fe1d693d984599fc15ddd368cd9289",
+   "i": 2889
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.13之前的版本fallingdust并不能自定义颜色，但这不代表没有粒子效果可以自定义颜色。",
+     "p": {}
+    }
+   ],
+   "text": "在Java1.13之前的版本fallingdust并不能自定义颜色，但这不代表没有粒子效果可以自定义颜色。",
+   "sha256": "8eae99d17b4dd674d5331a31aa7e22952f1cb8d5b88cce2c26789cf59930a330",
+   "i": 2890
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当粒子效果是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "reddust、mobSpell或mobSpellAmbient时，延伸坐标、速度和数量参数将不再是普通的参数，而是：",
+     "p": {}
+    }
+   ],
+   "text": "当粒子效果是reddust、mobSpell或mobSpellAmbient时，延伸坐标、速度和数量参数将不再是普通的参数，而是：",
+   "sha256": "20358ca39e6d2e23322c00ac2de63dd023a5b43f8a71c7e28fde1abaf43dba7f",
+   "i": 2891
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "延伸坐标——速度参数＞",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0、数量=0时，为粒子颜色RGB值，1为100%，dx为红、dy为绿、dz为蓝。",
+     "p": {}
+    }
+   ],
+   "text": "延伸坐标——速度参数＞0、数量=0时，为粒子颜色RGB值，1为100%，dx为红、dy为绿、dz为蓝。",
+   "sha256": "a7b1444ad0f32b71c0b7c244c1b921404719b023787605eb22dcac22724e9aa3",
+   "i": 2892
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "速度——不等于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0且数量=0时，作为颜色RGB值的乘数",
+     "p": {}
+    }
+   ],
+   "text": "速度——不等于0且数量=0时，作为颜色RGB值的乘数",
+   "sha256": "dad59270361dbb9cb58340d7154cfa73eef50711d12f7db58c2ea2128664d36c",
+   "i": 2893
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "数量——为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0时可自定义，大于0时颜色会随机（即变成彩色），并且延伸坐标和速度变为本来的作用",
+     "p": {}
+    }
+   ],
+   "text": "数量——为0时可自定义，大于0时颜色会随机（即变成彩色），并且延伸坐标和速度变为本来的作用",
+   "sha256": "8583c08a9b4e4447c0c5b32a26cb59ee7665212926f610f4d478dd17e348d111",
+   "i": 2894
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "神奇的是，这三个粒子效果在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.13版本更新后还在，只不过稍微有亿些改动：",
+     "p": {}
+    }
+   ],
+   "text": "神奇的是，这三个粒子效果在1.13版本更新后还在，只不过稍微有亿些改动：",
+   "sha256": "a153c9d2eca2265be5481e851931fc3462a1564cdff9826c1bf915451301f5e4",
+   "i": 2895
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "reddust变成dust，并拥有了自己的格式。",
+     "p": {}
+    }
+   ],
+   "text": "reddust变成dust，并拥有了自己的格式。",
+   "sha256": "7b51c27d5a5398138cac5209cb27e43e6aaea3db623a8861f69d2d39e7d45b48",
+   "i": 2896
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "mobSpell和mobSpellAmbient变成了entity_effect和ambient_entity_effect，虽然没有自己的格式，但原本的延伸坐标作为RGB颜色值的格式仍在，且格式基本差不多，甚至在Java1.17.1版本中都还可以使用这个及其离谱的格式！",
+     "p": {}
+    }
+   ],
+   "text": "mobSpell和mobSpellAmbient变成了entity_effect和ambient_entity_effect，虽然没有自己的格式，但原本的延伸坐标作为RGB颜色值的格式仍在，且格式基本差不多，甚至在Java1.17.1版本中都还可以使用这个及其离谱的格式！",
+   "sha256": "5755f699e4db20771a9f8c40f008201c247f025f60077c798781a55ffba269cd",
+   "i": 2897
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（本章于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2021年8月末大修时大改）",
+     "p": {}
+    }
+   ],
+   "text": "（本章于2021年8月末大修时大改）",
+   "sha256": "6de620bc4ede579aadfe0b9706d33ccd5fac3784695f9d412d964786b07a7fc2",
+   "i": 2898
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "历史",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "历史",
+   "sha256": "b0385cfe4b424d835963f2ce8a27a7fec98018affaf7c44645933266b8869727",
+   "i": 2899
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {}
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 2900
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.8——加入了/particle命令和force显示模式",
+     "p": {}
+    }
+   ],
+   "text": "1.8——加入了/particle命令和force显示模式",
+   "sha256": "83571b99d1a19daf904f7c77289946b875af0f4911a8e1395580c077a41ef25e",
+   "i": 2901
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.9——加入了“目标玩家”和“参数”参数",
+     "p": {}
+    }
+   ],
+   "text": "1.9——加入了“目标玩家”和“参数”参数",
+   "sha256": "de0f62aa5ff5d986fe05c67d0bd65d74db50d89718ed9cb762de588eec74cfbf",
+   "i": 2902
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——更改了粒子名称，“参数”参数惨遭删除，将部分/particle参数改为选填。加入了dust、block、item特殊格式，移除了fallingdust、blockdust、blockcrack和iconcrack。",
+     "p": {}
+    }
+   ],
+   "text": "1.13——更改了粒子名称，“参数”参数惨遭删除，将部分/particle参数改为选填。加入了dust、block、item特殊格式，移除了fallingdust、blockdust、blockcrack和iconcrack。",
+   "sha256": "e291549f8f318407674f8a0f076a4e6afa396869585decd6e65a866d3cc5f624",
+   "i": 2903
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版和携带版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "基岩版和携带版",
+   "sha256": "1e256a8980f873c2c50e24364788197d5861609287e80e2d78a0bd7a52a78e9b",
+   "i": 2904
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.0.5——加入又移除了/particle",
+     "p": {}
+    }
+   ],
+   "text": "1.0.5——加入又移除了/particle",
+   "sha256": "275ad2bbbd2a0b13f5ce8fe18863f3e79215538cdc1178ff2dcd2b050f3b44ee",
+   "i": 2905
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.8.0——又加入了/particle",
+     "p": {}
+    }
+   ],
+   "text": "1.8.0——又加入了/particle",
+   "sha256": "b5c85fd4ffba85ef0595841d9d5cfd230d83beb44640de6dd7dec218c78a72e6",
+   "i": 2906
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.9.0——加入了一些新的粒子",
+     "p": {}
+    }
+   ],
+   "text": "1.9.0——加入了一些新的粒子",
+   "sha256": "36cf16df5e6fa06abadb01ad9e26fc2760a627c16974a10401ef746887225948",
+   "i": 2907
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.0——加入了些新的粒子",
+     "p": {}
+    }
+   ],
+   "text": "1.12.0——加入了些新的粒子",
+   "sha256": "8ccb435e86b7eaad4ac94c61616f9a1a36cbe7dc09d61495bf01ca7e2c0528b1",
+   "i": 2908
+  }
+ ],
+ "text_sha256": "ee336db56ccd884323d2beaeca2f584fac7395e2910f7c1efc30ef1afd1eb92f",
+ "chars": 3557
+}

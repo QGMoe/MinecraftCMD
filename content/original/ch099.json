@@ -1,0 +1,4534 @@
+{
+ "id": "ch099",
+ "kind": "chapter",
+ "number": 99,
+ "title": "第九十九章 初识模块-简单的注册/登录系统 下",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   7608,
+   7807
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第九十九章_初识模块-简单的注册/登录系统_下"
+    },
+    {
+     "t": "第九十九章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " 初识模块-简单的注册/登录系统 下",
+     "p": {}
+    }
+   ],
+   "text": "第九十九章 初识模块-简单的注册/登录系统 下",
+   "sha256": "ec6515f58138c94b873ce2ec4765c6c9956c4d140672755a89f717f5be6799c0",
+   "i": 7608
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此章节已于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2022年7月31日重写）",
+     "p": {}
+    }
+   ],
+   "text": "（此章节已于2022年7月31日重写）",
+   "sha256": "57675cf2e1ce9ba4dd0e8ac51fd8b927c2e960612c6f0bd97780ba15948326ff",
+   "i": 7609
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在上一章，我们解决了一个世纪难题：输入。这一章，我们将会尝试实现『注册』这个功能。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "在上一章，我们解决了一个世纪难题：输入。这一章，我们将会尝试实现『注册』这个功能。",
+   "sha256": "676a5b80ff9b570a8781ae50f54d4fa5d320dde9820cf36a62f9e209d68c4b2d",
+   "i": 7610
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们先理一下这个系统到底是怎样的：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "我们先理一下这个系统到底是怎样的：",
+   "sha256": "e785417d6fce734fb961fec7fa4fae70926d850c89cffc5454b8951485cad722",
+   "i": 7611
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①有一个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "password触发器，存储着玩家的密码，注册时玩家要填写的字段",
+     "p": {}
+    }
+   ],
+   "text": "①有一个password触发器，存储着玩家的密码，注册时玩家要填写的字段",
+   "sha256": "59a39f88deb4356a041d3bc32eb0a4d941a40f5386712bb450472618da5efcba",
+   "i": 7612
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "2886710",
+      "cy": "1523365"
+     },
+     "name": "图片 77",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image40.png"
+    },
+    {
+     "t": "②有一个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "is_typed计分项，用来检测玩家是否填写了密码",
+     "p": {}
+    }
+   ],
+   "text": "②有一个is_typed计分项，用来检测玩家是否填写了密码",
+   "sha256": "d115d8a22cb7b2070aa7030989008f6734185798fbe51a6bb2918efd4b040cde",
+   "i": 7613
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 78",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "9",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "9",
+         "p": {}
+        },
+        {
+         "t": "- 1",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        }
+       ],
+       "text": "99- 1",
+       "sha256": "937d3d3a751b6c98583315f3d1b6aa5719abedb46bdc6fc6ef02fe8469e68c7d"
+      }
+     ]
+    },
+    {
+     "t": "③玩家按下按钮后，为玩家打开",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "password触发器，并指示玩家通过/trigger指令填写密码。玩家填写密码后，检测玩家的密码是否符合要求，如果符合则通过检测并传送走玩家，如果不符合则返回错误信息，并再次为玩家打开触发器指示玩家填写。",
+     "p": {}
+    }
+   ],
+   "text": "③玩家按下按钮后，为玩家打开password触发器，并指示玩家通过/trigger指令填写密码。玩家填写密码后，检测玩家的密码是否符合要求，如果符合则通过检测并传送走玩家，如果不符合则返回错误信息，并再次为玩家打开触发器指示玩家填写。",
+   "sha256": "b1ea261c8a4cf5eef0b77da36fe049e773453915df1bfb1ea67bd8607af7a8c6",
+   "i": 7614
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "理清楚之后，我们就可以开始动工了。我们将会采用前几章刚了解的『红石逻辑组』作为基础来建设这个系统。先搭建一个简单的结构：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "理清楚之后，我们就可以开始动工了。我们将会采用前几章刚了解的『红石逻辑组』作为基础来建设这个系统。先搭建一个简单的结构：",
+   "sha256": "69b2c4bcdd0d487ea4eb5ab6c8ef9933e8dccfbe906edff65e721e89db9f3dfa",
+   "i": 7615
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "◎墙→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A→B （插图99-1）",
+     "p": {}
+    }
+   ],
+   "text": "◎墙→A→B （插图99-1）",
+   "sha256": "898baae3dffaa73a46021449d7ef325d4f336c03b9091a97356d802a11517d10",
+   "i": 7616
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "◎······按钮",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "◎······按钮",
+   "sha256": "63a0862e70217f70362b744374a6bf1f72b3b85ad2952bc4368a918ca6e27460",
+   "i": 7617
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→······红石中继器",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "→······红石中继器",
+   "sha256": "a48e5f4092d7e68821c31e8f79752e1058628388a63abfbacb60de50758dedc8",
+   "i": 7618
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，既然要『玩家按下按钮后，为玩家打开",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "password触发器』，那么第一个命令方块A就应该填写：",
+     "p": {}
+    }
+   ],
+   "text": "首先，既然要『玩家按下按钮后，为玩家打开password触发器』，那么第一个命令方块A就应该填写：",
+   "sha256": "272d1ca6dd32d0b954142ed523ce4dab594d3595ac58b43a63a79d8553bf5b53",
+   "i": 7619
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "scoreboard players enable @p password",
+     "p": {}
+    }
+   ],
+   "text": "scoreboard players enable @p password",
+   "sha256": "273d437867410c3591af123c3bcd8491f0e5708463d40f21c523c96357a39409",
+   "i": 7620
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\为最近的玩家开启它的password计分项\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\为最近的玩家开启它的password计分项\\\\",
+   "sha256": "160cc2f4e4d593c69d0dfb42574f10da2e9899c3b1ed24a31616e119a57109eb",
+   "i": 7621
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "命令方块",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "B用来实现『指示玩家通过/trigger指令填写密码』，因此填写：",
+     "p": {}
+    }
+   ],
+   "text": "命令方块B用来实现『指示玩家通过/trigger指令填写密码』，因此填写：",
+   "sha256": "0050d4682ce60ae810afa686cf893c17180df552f3421bd0f73e245d26c03d85",
+   "i": 7622
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "tellraw @p {\"text\":\"请运行指令 \\\"/trigger password set <密码>\\\" 输入账户密码来注册\",\"color\":\"yellow\"}",
+     "p": {}
+    }
+   ],
+   "text": "tellraw @p {\"text\":\"请运行指令 \\\"/trigger password set <密码>\\\" 输入账户密码来注册\",\"color\":\"yellow\"}",
+   "sha256": "98200526852c93d2ce53059ed8089c2445baaa2b9f6ce56743f91be61aabbbbe",
+   "i": 7623
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\告诉最近的玩家『请运行指令 \"/trigger password set <密码>\"输入账户密码来注册』\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\告诉最近的玩家『请运行指令 \"/trigger password set <密码>\"输入账户密码来注册』\\\\",
+   "sha256": "e9ede4113a894d916af283942e65c48f9e1821350c83d11e52eb85e69c4f0a72",
+   "i": 7624
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后呢？我们需要一个一直处于运行状态的红石逻辑组来不断检测玩家是否已经输入密码，所以我们要在旁边搭建一个红石脉冲并配上一些命令方块：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "然后呢？我们需要一个一直处于运行状态的红石逻辑组来不断检测玩家是否已经输入密码，所以我们要在旁边搭建一个红石脉冲并配上一些命令方块：",
+   "sha256": "8b5cb5bf0beb9960435547d1eff8a60b83c1205c300c4f49b69f3b553f4a8197",
+   "i": 7625
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "脉冲→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "C→D→E （插图99-2）",
+     "p": {}
+    }
+   ],
+   "text": "脉冲→C→D→E （插图99-2）",
+   "sha256": "089e7be0e3e24e824b91cf6e8d7cab0b9b8a0f93f77ea25dbd95e1af8fdd0b4e",
+   "i": 7626
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C：execute as @p store success score @s is_typed run scoreboard players enable @s password",
+     "p": {}
+    }
+   ],
+   "text": "C：execute as @p store success score @s is_typed run scoreboard players enable @s password",
+   "sha256": "7af3aafa56f781357ed3a3dc60bac66a084d529b977990a664a4b4d2d146230d",
+   "i": 7627
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\检测玩家是否输入密码\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\检测玩家是否输入密码\\\\",
+   "sha256": "c8dd6d87cd6068c96a63457c2325a9f3669e1ac28e7a890faf6e2b2e2a461e48",
+   "i": 7628
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "D：tellraw @p[scores={is_typed=1}] {\"text\":\"注册成功，请记好你的密码哦！\",\"color\":\"green\"}",
+     "p": {}
+    }
+   ],
+   "text": "D：tellraw @p[scores={is_typed=1}] {\"text\":\"注册成功，请记好你的密码哦！\",\"color\":\"green\"}",
+   "sha256": "c5e99b9bc3e24b838f91cb96ced0f86126221e9937c6160ce3f94f49e53f4549",
+   "i": 7629
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\给已输入密码的玩家发送成功提示\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\给已输入密码的玩家发送成功提示\\\\",
+   "sha256": "49fa868e3ae4449acef38d257213e931292a0a83960da13c6c497d6e1387781f",
+   "i": 7630
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "E：execute as @p[scores={is_typed=1}] run tp @s 13 -60 10 180 0",
+     "p": {}
+    }
+   ],
+   "text": "E：execute as @p[scores={is_typed=1}] run tp @s 13 -60 10 180 0",
+   "sha256": "01e45e66061b23f67a7d13431681aa7640d521e4b8a16255c782c2af01850835",
+   "i": 7631
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "2907030",
+      "cy": "1534795"
+     },
+     "name": "图片 79",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image41.png"
+    },
+    {
+     "t": "\\\\把注册成功的玩家传送走\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\把注册成功的玩家传送走\\\\",
+   "sha256": "e843042405f0ad43a6074e6f774f35cd7ebc219250dd818252c1d1125a92faf0",
+   "i": 7632
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子，我们的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Beta1.0注册登录系统就做好了！让我们来试一试：",
+     "p": {}
+    }
+   ],
+   "text": "这样子，我们的Beta1.0注册登录系统就做好了！让我们来试一试：",
+   "sha256": "18a8f424e5f2978b837acaef551d5e981444ebea5819458766655717f7686157",
+   "i": 7633
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "*按下按钮*",
+     "p": {}
+    }
+   ],
+   "text": "*按下按钮*",
+   "sha256": "763f910622e54ee471c684b6e11539007f3cfe8a4bd31dcae7504e7f3232e730",
+   "i": 7634
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "请运行指令",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " \"/trigger password set <密码>\" 输入账户密码来注册",
+     "p": {}
+    }
+   ],
+   "text": "请运行指令 \"/trigger password set <密码>\" 输入账户密码来注册",
+   "sha256": "bdf8fcb79ad70c56be5f65dfae1d601c28c269467430c519b5946fd623195820",
+   "i": 7635
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 80",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "9",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "9",
+         "p": {}
+        },
+        {
+         "t": "- ",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "2",
+         "p": {}
+        }
+       ],
+       "text": "99- 2",
+       "sha256": "1b9037d15df45176e7022fbf27d69b888adb7d3bcab5be34a221badb444fcf0d"
+      }
+     ]
+    },
+    {
+     "t": "*输入指令：/trigger password set 114514*",
+     "p": {}
+    }
+   ],
+   "text": "*输入指令：/trigger password set 114514*",
+   "sha256": "10aeb2c036c534f59596a6a641b2e715e471f2e880a9c43761e9d066a713dea6",
+   "i": 7636
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已触发",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "[password]（数值已设置为114514）",
+     "p": {}
+    }
+   ],
+   "text": "已触发[password]（数值已设置为114514）",
+   "sha256": "1e75a0b5f4c803966a489502df6b6721c7960b29e310892d6aeaf1401a37b5ad",
+   "i": 7637
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "注册成功，请记好你的密码哦！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "注册成功，请记好你的密码哦！",
+   "sha256": "f5b56745d352c20c0ab7d8e04c8d5a1d66a5419e4e08472424fa549e2422ca63",
+   "i": 7638
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "*被传送走*",
+     "p": {}
+    }
+   ],
+   "text": "*被传送走*",
+   "sha256": "9b103443e6803e9feb8d8961473f0185060bf0cf4242bb0fe50afcfc8e56f793",
+   "i": 7639
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "运作得十分棒！但是，如果你再次尝试使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "trigger指令的话......",
+     "p": {}
+    }
+   ],
+   "text": "运作得十分棒！但是，如果你再次尝试使用trigger指令的话......",
+   "sha256": "8d5913132660e08556eac13ab63a1142eb1148475fd1cb69f41d49ba337fd433",
+   "i": 7640
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "*输入指令：/trigger password set 1919810*",
+     "p": {}
+    }
+   ],
+   "text": "*输入指令：/trigger password set 1919810*",
+   "sha256": "90a41378f7de7b748005e3ed05dc9d1932d41719c6657a69e5adffb0576eedef",
+   "i": 7641
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已触发",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "[password]（数值已设置为1919810）",
+     "p": {}
+    }
+   ],
+   "text": "已触发[password]（数值已设置为1919810）",
+   "sha256": "d30a25b48a2fa8981b98b2afa89661b84337c534f59bfc0deaf80daf0c343da1",
+   "i": 7642
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "注册成功，请记好你的密码哦！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "注册成功，请记好你的密码哦！",
+   "sha256": "f5b56745d352c20c0ab7d8e04c8d5a1d66a5419e4e08472424fa549e2422ca63",
+   "i": 7643
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "？我不是注册过了吗？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "？我不是注册过了吗？",
+   "sha256": "e2f8f6957c581ba535ac173f9c93afb71d67eb9be8ad4e2073406a40becce2f1",
+   "i": 7644
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错，这个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Beta1.0的系统漏洞百出，它起码有这几个问题：",
+     "p": {}
+    }
+   ],
+   "text": "没错，这个Beta1.0的系统漏洞百出，它起码有这几个问题：",
+   "sha256": "b782a6104b98e7628ebed0d6dfac82797aad8908c7beea909cd41abda6e91fb1",
+   "i": 7645
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①已注册的玩家可再注册",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "①已注册的玩家可再注册",
+   "sha256": "006c206d5032ad66f6b88c12c324d977a974b708fa7bb70b36be8defa0ac2570",
+   "i": 7646
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "password一直可以被修改",
+     "p": {}
+    }
+   ],
+   "text": "②password一直可以被修改",
+   "sha256": "d608d2f93f7f7b2449e42f856824adf82c6c6e6d3a174c3e075246cc083fc3f1",
+   "i": 7647
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③可能无法很好应对多玩家情况",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "③可能无法很好应对多玩家情况",
+   "sha256": "f416431022a59f7510dd9f9707e024b26f931742e352209531adb6ec98d20895",
+   "i": 7648
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "④系统运作较慢",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "④系统运作较慢",
+   "sha256": "f2ab1990be9d65f1df04f99d9030339eda06914bd79e8857498386e29901cc31",
+   "i": 7649
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "⑤对于后续扩展出『登录』功能不友好",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "⑤对于后续扩展出『登录』功能不友好",
+   "sha256": "2f508129267b4bfba73e267ed0a97040afbe738d606877cca16c2b21816e7175",
+   "i": 7650
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为了解决这些问题，我们可以采用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "tag标签对玩家进行标记。那么我们会用到哪些tag标签呢？",
+     "p": {}
+    }
+   ],
+   "text": "为了解决这些问题，我们可以采用tag标签对玩家进行标记。那么我们会用到哪些tag标签呢？",
+   "sha256": "d9c05106d30c79d09799603f0e3af92126231d48fe81c74b1d13acae0cb5a718",
+   "i": 7651
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "•对于注册中的玩家，需要",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "registering标签",
+     "p": {}
+    }
+   ],
+   "text": "•对于注册中的玩家，需要registering标签",
+   "sha256": "367075c0dc3683bf7acaff2ebc0e507dbb763ad2585cd468cd4548a5a1cb23da",
+   "i": 7652
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "•对于已经注册的玩家，需要",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "registered标签",
+     "p": {}
+    }
+   ],
+   "text": "•对于已经注册的玩家，需要registered标签",
+   "sha256": "b8013d293961b01b4655c19c81be76a7124165c0940b8f18520bd58cbe521126",
+   "i": 7653
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "•对于处于登录中的玩家，需要",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "logging_in标签",
+     "p": {}
+    }
+   ],
+   "text": "•对于处于登录中的玩家，需要logging_in标签",
+   "sha256": "ec9ffd477989bd5a65af745b4e3973476c895f931fd58ffe08c66b1b6bcd133b",
+   "i": 7654
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "•对于已经登录的玩家，需要",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "logged_in标签",
+     "p": {}
+    }
+   ],
+   "text": "•对于已经登录的玩家，需要logged_in标签",
+   "sha256": "86f2e14e89b09b20bbbd3c5265e136ef67df8f395593ca044401286564c06f89",
+   "i": 7655
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "2877820",
+      "cy": "1518285"
+     },
+     "name": "图片 81",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image42.png"
+    },
+    {
+     "t": "其中，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "register是注册的意思，log in是登录的意思。",
+     "p": {}
+    }
+   ],
+   "text": "其中，register是注册的意思，log in是登录的意思。",
+   "sha256": "b639de60ff1e27733aec92493f225bdb352cb7ee26bd98a74a2546fd28789631",
+   "i": 7656
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 82",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "9",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "9",
+         "p": {}
+        },
+        {
+         "t": "- ",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "3",
+         "p": {}
+        }
+       ],
+       "text": "99- 3",
+       "sha256": "d877ab9d0bbe31cdac7f9334d92675af6c1e798eaed430d37e04cd1baf3048db"
+      }
+     ]
+    },
+    {
+     "t": "我们需要在玩家刚刚开始注册",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/登录时给玩家添加上registering或logging_in标签以防止选择到那些已经登录和注册的人，给那些注册成功的玩家添加上registered标签和logged_in标签并移除掉registering标签，给那些登录成功的玩家添加上logged_in标签并移除掉logging_in。在后面，我们还会使用更多的标签来完善整个系统的运作。",
+     "p": {}
+    }
+   ],
+   "text": "我们需要在玩家刚刚开始注册/登录时给玩家添加上registering或logging_in标签以防止选择到那些已经登录和注册的人，给那些注册成功的玩家添加上registered标签和logged_in标签并移除掉registering标签，给那些登录成功的玩家添加上logged_in标签并移除掉logging_in。在后面，我们还会使用更多的标签来完善整个系统的运作。",
+   "sha256": "4a89f073aef4e91d542067e00c714d8327f38a0b54ab865c11f34258529b9534",
+   "i": 7657
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "另外，我们还需要关闭成功注册玩家的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "password触发器以防止注册了还能再修改password，还需要在每次红石逻辑组结束运行时重置每名玩家的is_typed的分数值。前者我们可以通过execute以玩家为执行者运行一遍trigger password add 0来实现，后者可以通过加上写有『scoreboard players set @a is_typed 0』的命令方块来实现。",
+     "p": {}
+    }
+   ],
+   "text": "另外，我们还需要关闭成功注册玩家的password触发器以防止注册了还能再修改password，还需要在每次红石逻辑组结束运行时重置每名玩家的is_typed的分数值。前者我们可以通过execute以玩家为执行者运行一遍trigger password add 0来实现，后者可以通过加上写有『scoreboard players set @a is_typed 0』的命令方块来实现。",
+   "sha256": "813ba20b5f10590a700ac930802ba99057cfef09a1a7e51e49eabc4ff8348bd2",
+   "i": 7658
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们在系统中加入标签进行筛选，并加入上面的指令，看一看是否能够解决一些问题：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "让我们在系统中加入标签进行筛选，并加入上面的指令，看一看是否能够解决一些问题：",
+   "sha256": "1da0ff839847e37d58d9d537bb36f08d0d36a778e5f1c492ed74789e3c36e218",
+   "i": 7659
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "◎墙→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A→B→C（插图：99-3）",
+     "p": {}
+    }
+   ],
+   "text": "◎墙→A→B→C（插图：99-3）",
+   "sha256": "558f0f964679572da7f391ae5aebc98a58dc313fb347926c2e5af98fd9d1099c",
+   "i": 7660
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "脉冲→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "D→E→F→G→H→I→J",
+     "p": {}
+    }
+   ],
+   "text": "脉冲→D→E→F→G→H→I→J",
+   "sha256": "c289181efe8d731f9299257f016e80aeaa5821b0ddebc097ed951569b94dd445",
+   "i": 7661
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A：execute positioned ~ ~ ~-4 run tag @a[distance=..3,tag=!registered,tag=!logged_in] add registering",
+     "p": {}
+    }
+   ],
+   "text": "A：execute positioned ~ ~ ~-4 run tag @a[distance=..3,tag=!registered,tag=!logged_in] add registering",
+   "sha256": "d1335cea6d8cd8eea490ec565d362cebce1b2d0423c790c960f6847431e8809e",
+   "i": 7662
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\给未登录且未注册的玩家添加registering标签\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\给未登录且未注册的玩家添加registering标签\\\\",
+   "sha256": "7000d8976bd03301192cb7ab78022b407bc2ecf983fb0eebeafbe59d3b8ffab1",
+   "i": 7663
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B：scoreboard players enable @a[tag=registering] password",
+     "p": {}
+    }
+   ],
+   "text": "B：scoreboard players enable @a[tag=registering] password",
+   "sha256": "297588e11e7db3bae47ef118aa16a1ba4ea9d061d3ea1606ff1c8b71ebc21740",
+   "i": 7664
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C：tellraw @a[tag=registering] {\"text\":\"请运行指令 \\\"/trigger password set <密码>\\\" 输入账户密码来注册\",\"color\":\"yellow\"}",
+     "p": {}
+    }
+   ],
+   "text": "C：tellraw @a[tag=registering] {\"text\":\"请运行指令 \\\"/trigger password set <密码>\\\" 输入账户密码来注册\",\"color\":\"yellow\"}",
+   "sha256": "44272b71d3c3d608fad344a738d34001c44bf10eb1a20490b2d3c047aabe243c",
+   "i": 7665
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "D：execute as @a[tag=registering] store success score @s is_typed run scoreboard players enable @s password",
+     "p": {}
+    }
+   ],
+   "text": "D：execute as @a[tag=registering] store success score @s is_typed run scoreboard players enable @s password",
+   "sha256": "c78f861978acc6ae6dd112d02a92d03f5a5dc0d804850eafb8d4198f6acf77be",
+   "i": 7666
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "E：execute as @a[tag=registering,scores={is_typed=1}] run tag @s add registered",
+     "p": {}
+    }
+   ],
+   "text": "E：execute as @a[tag=registering,scores={is_typed=1}] run tag @s add registered",
+   "sha256": "06e822984649636ba4291eb5a8c3343f2499dc8a7c0b9fe9f70a08bddb368aee",
+   "i": 7667
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\给成功注册的玩家添加registered标签\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\给成功注册的玩家添加registered标签\\\\",
+   "sha256": "3b6c68cb7d56618fd0f41310e5d1c4927864073e98aa1fda8fef38c341652769",
+   "i": 7668
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "F：tellraw @a[tag=registering,scores={is_typed=1}] {\"text\":\"注册成功，请记好你的密码哦！\",\"color\":\"green\"}",
+     "p": {}
+    }
+   ],
+   "text": "F：tellraw @a[tag=registering,scores={is_typed=1}] {\"text\":\"注册成功，请记好你的密码哦！\",\"color\":\"green\"}",
+   "sha256": "0f7d84f9476ffadd90f84d0566ab8493681d4f57f782f0f59a4133d4bd8d85a3",
+   "i": 7669
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "G：execute as @a[tag=registering,scores={is_typed=1}] run trigger password add 0",
+     "p": {}
+    }
+   ],
+   "text": "G：execute as @a[tag=registering,scores={is_typed=1}] run trigger password add 0",
+   "sha256": "f29946f2ed8c9e0cd65a9561b1198df6815f2c1b86ee6580a1baaf931ee9f2cb",
+   "i": 7670
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\将成功注册玩家的password触发器使用一遍以关闭\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\将成功注册玩家的password触发器使用一遍以关闭\\\\",
+   "sha256": "2ce459d54abfd0ecefccca1c55d5a43272e70bc934e277db25b5954e456d1d09",
+   "i": 7671
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "H：execute as @a[tag=registering,scores={is_typed=1}] run tp @s 13 -60 10 180 0",
+     "p": {}
+    }
+   ],
+   "text": "H：execute as @a[tag=registering,scores={is_typed=1}] run tp @s 13 -60 10 180 0",
+   "sha256": "9e7df91dc9e8b9bc371b500440e3823b77cc40f3ab9f039628e48a8a00ccb9cb",
+   "i": 7672
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "I：execute as @a[tag=registering,scores={is_typed=1}] run tag @s remove registering",
+     "p": {}
+    }
+   ],
+   "text": "I：execute as @a[tag=registering,scores={is_typed=1}] run tag @s remove registering",
+   "sha256": "05102342b08aeb25b15ec7c510e636d8af75bd9b579fb373b5514a46af7f424b",
+   "i": 7673
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "J：scoreboard players set @a is_typed 0",
+     "p": {}
+    }
+   ],
+   "text": "J：scoreboard players set @a is_typed 0",
+   "sha256": "31694920fc4dc26abcc25df0bbb6e27c34f4872ce447b9d560ee5b810b3a4166",
+   "i": 7674
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\重置is_typed\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\重置is_typed\\\\",
+   "sha256": "c5be4439c58b1be08c4a387eb9affd9be84ea7038dfdf0a8afbd0b0d3947790d",
+   "i": 7675
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们的『注册",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/登录系统』Beta2.0测试版出来了！让我们测试一下：",
+     "p": {}
+    }
+   ],
+   "text": "现在，我们的『注册/登录系统』Beta2.0测试版出来了！让我们测试一下：",
+   "sha256": "44aa30a4a50b5ba54c1906c89cb95ad8cfc36b06b9380702ad21782971ccf58d",
+   "i": 7676
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "n个『已将XXX的[is_typed]分数设为0』",
+     "p": {}
+    }
+   ],
+   "text": "n个『已将XXX的[is_typed]分数设为0』",
+   "sha256": "9d26a949c506ccad6e5362b2e848d89235b1842cb465e46d64cd0a8d201ff922",
+   "i": 7677
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "*按下按钮*",
+     "p": {}
+    }
+   ],
+   "text": "*按下按钮*",
+   "sha256": "763f910622e54ee471c684b6e11539007f3cfe8a4bd31dcae7504e7f3232e730",
+   "i": 7678
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX添加了标签'registering'",
+     "p": {}
+    }
+   ],
+   "text": "已为XXX添加了标签'registering'",
+   "sha256": "8f90c60465f6a8cfd54e1b686a3c11e3f9057f0b5cf4350b31fe75a0dbbe29c4",
+   "i": 7679
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "请运行指令",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " \"/trigger password set <密码>\" 输入账户密码来注册",
+     "p": {}
+    }
+   ],
+   "text": "请运行指令 \"/trigger password set <密码>\" 输入账户密码来注册",
+   "sha256": "bdf8fcb79ad70c56be5f65dfae1d601c28c269467430c519b5946fd623195820",
+   "i": 7680
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "n个『已将XXX的[is_typed]分数设为0』",
+     "p": {}
+    }
+   ],
+   "text": "n个『已将XXX的[is_typed]分数设为0』",
+   "sha256": "9d26a949c506ccad6e5362b2e848d89235b1842cb465e46d64cd0a8d201ff922",
+   "i": 7681
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "*输入密码*",
+     "p": {}
+    }
+   ],
+   "text": "*输入密码*",
+   "sha256": "bad2cdbcbda2c9c6af6dcb62280d63db5d7ef56f9b1abceb927d835128143a62",
+   "i": 7682
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已触发",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "[password]（数值已设置为1919810）",
+     "p": {}
+    }
+   ],
+   "text": "已触发[password]（数值已设置为1919810）",
+   "sha256": "d30a25b48a2fa8981b98b2afa89661b84337c534f59bfc0deaf80daf0c343da1",
+   "i": 7683
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX启用了触发器[password]",
+     "p": {}
+    }
+   ],
+   "text": "已为XXX启用了触发器[password]",
+   "sha256": "cd6dff17175f942eaeee080128f872fbe3413e9c4a11564640c1b080031f03ca",
+   "i": 7684
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已移除",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX的标签'registering'",
+     "p": {}
+    }
+   ],
+   "text": "已移除XXX的标签'registering'",
+   "sha256": "4063bc1a3267a8e928fd0c69268f3f200328ac1119034f8ce1f12a9037a9c47b",
+   "i": 7685
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "n个『已将XXX的[is_typed]分数设为0』",
+     "p": {}
+    }
+   ],
+   "text": "n个『已将XXX的[is_typed]分数设为0』",
+   "sha256": "9d26a949c506ccad6e5362b2e848d89235b1842cb465e46d64cd0a8d201ff922",
+   "i": 7686
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 7687
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "出",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BUG了，还是个很严重的BUG。",
+     "p": {}
+    }
+   ],
+   "text": "出BUG了，还是个很严重的BUG。",
+   "sha256": "1cb9b7c79585ef6842fd203927e0a3950e6d07d2850b6380b425da286f2d1a68",
+   "i": 7688
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不要慌张，让我们来排查一下到底是什么问题。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "不要慌张，让我们来排查一下到底是什么问题。",
+   "sha256": "be861b0005af468f794574b23a5c002c4280c607534bb4afbea3ee26d9fe9564",
+   "i": 7689
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "仔细阅读上面的日志，你会发现：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "仔细阅读上面的日志，你会发现：",
+   "sha256": "89a04dc1ac8762615db65196ac41d9ae0aa2277c1fad03d511ad7906432774d5",
+   "i": 7690
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3118485",
+      "cy": "1645920"
+     },
+     "name": "图片 83",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image43.png"
+    },
+    {
+     "t": "由于红石逻辑组的特性，在过长的逻辑组中，执行顺序会难以把控，然后就出现了上面的问题。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "由于红石逻辑组的特性，在过长的逻辑组中，执行顺序会难以把控，然后就出现了上面的问题。",
+   "sha256": "5192f02400f18f70eac62ce06eba59d66c074164be0ac8d283efafa699ce1eb0",
+   "i": 7691
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那该怎么办？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "那该怎么办？",
+   "sha256": "f93ebd83ff6b233ccfa066eff3467a9cf24a2ca5a97ccf0b6b4866ef892f2969",
+   "i": 7692
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "改用『纯指令逻辑组』。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "改用『纯指令逻辑组』。",
+   "sha256": "5ade721884cdd688f84ed21acb5d7dceb17072f6ca8c1c5b3b16744733c8bf5f",
+   "i": 7693
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『纯指令逻辑组』，其实是目前最常见的逻辑组。它有一个更加专业的说法：模块。在本书中，它也被称之为『命令块链』。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "『纯指令逻辑组』，其实是目前最常见的逻辑组。它有一个更加专业的说法：模块。在本书中，它也被称之为『命令块链』。",
+   "sha256": "74a9fdb103e37d6d172dc43a89ed92d1dea973278186b98d1398e7f7cc620076",
+   "i": 7694
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 84",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "9",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "9",
+         "p": {}
+        },
+        {
+         "t": "- ",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "4",
+         "p": {}
+        }
+       ],
+       "text": "99- 4",
+       "sha256": "ecf81912c03fdc407e35c92530db84b3f81e805bbd552c0b6ebf110ca3ba16e1"
+      }
+     ]
+    },
+    {
+     "t": "我们其实已经见过很多次『纯指令逻辑组』了，它其实就是由一个脉冲或循环型命令方块",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "+一大串连锁型命令方块组成的。比如下面的这串命令方块：",
+     "p": {}
+    }
+   ],
+   "text": "我们其实已经见过很多次『纯指令逻辑组』了，它其实就是由一个脉冲或循环型命令方块+一大串连锁型命令方块组成的。比如下面的这串命令方块：",
+   "sha256": "84b09b5ad4d559e3e224c96fa168f98f2edb2823d869a8ce3a09729d2c54b760",
+   "i": 7695
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A→B→C→D→ （插图：99-4）",
+     "p": {}
+    }
+   ],
+   "text": "A→B→C→D→ （插图：99-4）",
+   "sha256": "7a465377989961f5231bce99a9bea895b6c70411fbd69a7f8ef13710395b61c8",
+   "i": 7696
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（为了方便，下面我都会称这东西为『模块』）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（为了方便，下面我都会称这东西为『模块』）",
+   "sha256": "83e8a38eb32912e2e44031ce45abb1c453484a9e2843d4f54f0cf7951140b8eb",
+   "i": 7697
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在这边，箭头代表着命令方块的朝向，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A为循环型，BCD均为连锁。这些命令方块的朝向使得它们环环相扣。",
+     "p": {}
+    }
+   ],
+   "text": "在这边，箭头代表着命令方块的朝向，A为循环型，BCD均为连锁。这些命令方块的朝向使得它们环环相扣。",
+   "sha256": "eaa2e88d2e3ce3d7288528374b4253d7057470d22170df7bff38ba40d7226871",
+   "i": 7698
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "循环型命令方块",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A是整个模块的核心，它负责整个模块的更新。如果A还是『始终活动』，那么A还具有维持整个模块运行的功能。我们从A是循环型这一点也不难看出，这个逻辑组还是个重复型逻辑组。",
+     "p": {}
+    }
+   ],
+   "text": "循环型命令方块A是整个模块的核心，它负责整个模块的更新。如果A还是『始终活动』，那么A还具有维持整个模块运行的功能。我们从A是循环型这一点也不难看出，这个逻辑组还是个重复型逻辑组。",
+   "sha256": "b3edff54b3bb6dc78667ec04bac8cef6839c2ed5d3e2b4e3178e8be408bae2e4",
+   "i": 7699
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "连锁型命令方块",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BCD是整个模块的通路。相比红石逻辑组通过红石元件来控制执行顺序，模块通路的执行顺序更加直观也不容易出乱子——因为它是通过命令方块的朝向来决定执行顺序。这也就是为什么在上面的模块中，执行顺序是从左到右的原因。",
+     "p": {}
+    }
+   ],
+   "text": "连锁型命令方块BCD是整个模块的通路。相比红石逻辑组通过红石元件来控制执行顺序，模块通路的执行顺序更加直观也不容易出乱子——因为它是通过命令方块的朝向来决定执行顺序。这也就是为什么在上面的模块中，执行顺序是从左到右的原因。",
+   "sha256": "537f7e474924836d4b33d6462b27d04aaa6973d005b2ffb5d11b6b2a3a8de0e3",
+   "i": 7700
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "模块的难点在于对通路的理解，更确切地说是对『连锁型命令方块』运作机制的理解。还记得我们在第二章提到的内容吗？让我们回顾一下：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "模块的难点在于对通路的理解，更确切地说是对『连锁型命令方块』运作机制的理解。还记得我们在第二章提到的内容吗？让我们回顾一下：",
+   "sha256": "bb9fe808d3f389afca8350b8772b8833bf627df46a50c48d479565de1f6d01e4",
+   "i": 7701
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『青得一批的那个是链（又叫做连锁），作用是你叫它动一下（接入红石信号），它不会动。它只会在收到执行信号时，将该执行信号立马传递给下一个它指向的链命令方块，然后再根据当前条件判断是否要执行。听起来似乎有点复杂？举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "『青得一批的那个是链（又叫做连锁），作用是你叫它动一下（接入红石信号），它不会动。它只会在收到执行信号时，将该执行信号立马传递给下一个它指向的链命令方块，然后再根据当前条件判断是否要执行。听起来似乎有点复杂？举个例子：",
+   "sha256": "0fda9c10a04f30c8857e254c134b7b23e81422e17de1dd108939269f298c6313",
+   "i": 7702
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "E→F→G→H→",
+     "p": {}
+    }
+   ],
+   "text": "E→F→G→H→",
+   "sha256": "ea338cd8d477ab2d3c27b47fbf8148fedbb4036b98f247800ec0a96519f4d795",
+   "i": 7703
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "E是未被激活的脉冲命令块，FGH三个命令方块都是已被激活且无条件限制的链命令块。当E激活时，EFGH将会同时执行指令，因为E激活时向F发出了执行信号，F收到后也向G发出了信号，G也向H发出了信号，三个链命令方块也都没有条件限制。』",
+     "p": {}
+    }
+   ],
+   "text": "其中，E是未被激活的脉冲命令块，FGH三个命令方块都是已被激活且无条件限制的链命令块。当E激活时，EFGH将会同时执行指令，因为E激活时向F发出了执行信号，F收到后也向G发出了信号，G也向H发出了信号，三个链命令方块也都没有条件限制。』",
+   "sha256": "c9fe35fcc6ff815d133c5cfab7d3fcf79e25a6e39b74867d28a66e2193a3e910",
+   "i": 7704
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，让我们仔细研究一下上面的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "EFGH为何会这样子执行。为了搞清楚为何这样子，我们就得研究一个东西：",
+     "p": {}
+    }
+   ],
+   "text": "现在，让我们仔细研究一下上面的EFGH为何会这样子执行。为了搞清楚为何这样子，我们就得研究一个东西：",
+   "sha256": "853ccdc8b5ac17cfac52844656fd2f8267fc5c824e23c7338c1254bab4e2ed95",
+   "i": 7705
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "执行信号",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "执行信号",
+   "sha256": "02dc4cc1d07c9ece698f2904ab24c1ed6736ddc90990d624d8176a38d17d54dd",
+   "i": 7706
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "可以肯定的是，游戏本身并没有『执行信号』这东西，但为了方便大家理解，我就根据命令方块的性质总结出来了『执行信号』这个东西。那么这东西有什么特别的呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "可以肯定的是，游戏本身并没有『执行信号』这东西，但为了方便大家理解，我就根据命令方块的性质总结出来了『执行信号』这个东西。那么这东西有什么特别的呢？",
+   "sha256": "fdc5320c21bc90401ca2d5e14f43c4ce9b1688fbd6157b6ed02ed3dc97b4b6f7",
+   "i": 7707
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "脉冲型和循环型命令方块，在被激活的同时不仅仅会尝试运行指令，还会产生执行信号并尝试将其传递给它所朝向的连锁型命令方块。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "脉冲型和循环型命令方块，在被激活的同时不仅仅会尝试运行指令，还会产生执行信号并尝试将其传递给它所朝向的连锁型命令方块。",
+   "sha256": "2dfd65bb2caeb03944e7bdbe3a52103dbfc2d967dbe7f35edef56f010bc0a428",
+   "i": 7708
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3091452",
+      "cy": "1631983"
+     },
+     "name": "图片 85",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image44.png"
+    },
+    {
+     "t": "连锁型命令方块不管是无条件还是条件限制、需要红石还是始终活动、有被激活还是没被激活，只要它收到了执行信号，那么它就一定会尝试将该信号传递给它所朝向的下一个连锁型命令方块，当然它在传递的同时也会根据当前条件决定是否要运行指令。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "连锁型命令方块不管是无条件还是条件限制、需要红石还是始终活动、有被激活还是没被激活，只要它收到了执行信号，那么它就一定会尝试将该信号传递给它所朝向的下一个连锁型命令方块，当然它在传递的同时也会根据当前条件决定是否要运行指令。",
+   "sha256": "739d6d080b90cf38b474b496814ef84ca9cb723a7429a8b683c5ea63fae8edfb",
+   "i": 7709
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 86",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "9",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "9",
+         "p": {}
+        },
+        {
+         "t": "- ",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "5",
+         "p": {}
+        }
+       ],
+       "text": "99- 5",
+       "sha256": "997a131fb1a974706f0ddd8fefc65b3f9189360455338ede2acbbd94cc26af0a"
+      }
+     ]
+    },
+    {
+     "t": "举个简单的例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个简单的例子：",
+   "sha256": "0f1f7bcbe3ada99ff50c28306e8147bcbef9cc65538c0a120fdb4a746ccf2b78",
+   "i": 7710
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "甲→乙→丙→丁→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " （插图：99-5）",
+     "p": {}
+    }
+   ],
+   "text": "甲→乙→丙→丁→ （插图：99-5）",
+   "sha256": "626e5c57f8dee1def73dd186dc8c1a1a4579a9f5f38c7bba7115f5d32fdb7599",
+   "i": 7711
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "甲：脉冲型，需要红石，无条件，没有写指令",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "甲：脉冲型，需要红石，无条件，没有写指令",
+   "sha256": "7d888a618eda346370c5294503c91be1240266c681d8502bd844df57e5a46342",
+   "i": 7712
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "乙：连锁型，没有写指令",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "乙：连锁型，没有写指令",
+   "sha256": "4046f3ee01856d1509b44b57b7901c6f5293758a723c675b25ed4ffed7620466",
+   "i": 7713
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "丙：连锁型，没有写指令",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "丙：连锁型，没有写指令",
+   "sha256": "8005f68c96392d7eb518659d2e0cbafd495fd24fa8acd28a43e3e620223ac79d",
+   "i": 7714
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "丁：连锁型，需要红石，无条件，写有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/setblock ~ ~1 ~ diamond_block",
+     "p": {}
+    }
+   ],
+   "text": "丁：连锁型，需要红石，无条件，写有/setblock ~ ~1 ~ diamond_block",
+   "sha256": "c610821f6c2aa33c7636942d75a42709794f52303e73d7543735760dd63ba320",
+   "i": 7715
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "2958465",
+      "cy": "1562100"
+     },
+     "name": "图片 87",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image45.png"
+    },
+    {
+     "t": "当我们同时激活甲和丁时，尽管甲乙丙都会因为没有填写指令而执行失败，但丁却因为收到了由甲产生并经过乙丙传递的执行信号，加上本身已被激活且没有条件限制，就执行了指令，在上面放置了一个钻石块。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "当我们同时激活甲和丁时，尽管甲乙丙都会因为没有填写指令而执行失败，但丁却因为收到了由甲产生并经过乙丙传递的执行信号，加上本身已被激活且没有条件限制，就执行了指令，在上面放置了一个钻石块。",
+   "sha256": "cb70ecddcf1307d74879d10d5be9c7c9fb0eac90e21f6d1059afa1d789b52c0c",
+   "i": 7716
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是执行信号。但连锁型命令方块并不一定会在接收到执行信号后立马就执行指令，它还会看一下情况：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这就是执行信号。但连锁型命令方块并不一定会在接收到执行信号后立马就执行指令，它还会看一下情况：",
+   "sha256": "aea07c164d85c6daab933a6719193837b8a7bcf2075591540dc0a3747ff4f90c",
+   "i": 7717
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 88",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "9",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "9",
+         "p": {}
+        },
+        {
+         "t": "- ",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "6",
+         "p": {}
+        }
+       ],
+       "text": "99- 6",
+       "sha256": "636e8ae9a5d821e3310221de49fa868c7bb3ccf6aac3b5b6964b5170ee76f54f"
+      }
+     ]
+    },
+    {
+     "t": "①如果自身未被激活",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "①如果自身未被激活",
+   "sha256": "840d415a63968e8cc0b557692423d4e4b098fed0964a5bfe5cc92142c3233abc",
+   "i": 7718
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→不会运行指令，仅仅会传递执行信号",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "→不会运行指令，仅仅会传递执行信号",
+   "sha256": "5cdc5d06e76fc49aed5dc372f6ad5c674bb8b48482c81c5caad505111d96c13c",
+   "i": 7719
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②如果自身已被激活",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "②如果自身已被激活",
+   "sha256": "2e9c762d07edaee4d60e043be6ba2e4c22a860837ec05bb144fa94d2b17eb84c",
+   "i": 7720
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.如果没有条件限制",
+     "p": {}
+    }
+   ],
+   "text": "→1.如果没有条件限制",
+   "sha256": "bc5a3dc5cc997dd552cdd6f7ba5c5c89a7d3914d8aa47772cd4061437ca3d61f",
+   "i": 7721
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→→尝试运行指令，然后再传递执行信号",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "→→尝试运行指令，然后再传递执行信号",
+   "sha256": "4439ef74ea5d57dbf048bda72ff102fe7a5e7287a1dc0880eae101a26a87b55c",
+   "i": 7722
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→→否则不会运行指令，仅仅会传递执行信号",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "→→否则不会运行指令，仅仅会传递执行信号",
+   "sha256": "3cbf3281ad6f402d22ef198969bbd232def6cea6af14355a676ec9158fbadd17",
+   "i": 7723
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2.如果有条件限制",
+     "p": {}
+    }
+   ],
+   "text": "→2.如果有条件限制",
+   "sha256": "cd76ab42438d0d082466fcad1b5b18f8d9f64ac98d121aaa9b7833604d922e56",
+   "i": 7724
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→→如果正后方的命令方块上一次执行指令成功",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "→→如果正后方的命令方块上一次执行指令成功",
+   "sha256": "455ae7f05549668f250a3fe0646387bccc0c554e9889e74e897feb8e6b02406e",
+   "i": 7725
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→→→尝试运行指令，然后再传递执行信号",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "→→→尝试运行指令，然后再传递执行信号",
+   "sha256": "7ee773d2e1046b21b041e731b65d966a18f580014cbe58ee72d4750824486f5c",
+   "i": 7726
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→→→否则不会运行指令，仅仅会传递执行信号",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "→→→否则不会运行指令，仅仅会传递执行信号",
+   "sha256": "965fd52d312c9e7aeb44066cd765438a65825851466d82baa2b6ae1856adaba9",
+   "i": 7727
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 7728
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "戊→己→庚→（插图：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "99-6）",
+     "p": {}
+    }
+   ],
+   "text": "戊→己→庚→（插图：99-6）",
+   "sha256": "ef3b512f4e2a160d4c203e02be4f6cda13909e4522ffee2326571b42903f7d63",
+   "i": 7729
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "戊：脉冲、不受制约、需要红石，填有『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "setblock ~ ~1 ~ minecraft:diamond_block』",
+     "p": {}
+    }
+   ],
+   "text": "戊：脉冲、不受制约、需要红石，填有『setblock ~ ~1 ~ minecraft:diamond_block』",
+   "sha256": "fe047657e32fccc907ed86087be3b512a488e3a5fb1162acf1e09d3969edd7ed",
+   "i": 7730
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "己：连锁、条件制约、始终活动，填有『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "say yes』",
+     "p": {}
+    }
+   ],
+   "text": "己：连锁、条件制约、始终活动，填有『say yes』",
+   "sha256": "aee8b58db1c6a01ce2f63f91d1dd6727132ff98b8cb0cd0e849009d9f642c80b",
+   "i": 7731
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "庚：连锁、不受制约、始终活动，填有『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "say no』",
+     "p": {}
+    }
+   ],
+   "text": "庚：连锁、不受制约、始终活动，填有『say no』",
+   "sha256": "994b31dda454bc5ffb20cfa42d00bc020643452afb28a2ae2b71927964f6118b",
+   "i": 7732
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当我们第一次激活『戊』命令方块时，戊就会在上方放一个钻石块，己由于戊执行成功，就会发送『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "yes』的消息，庚由于不受制约所以肯定会发出『no』的消息，最终三个命令方块都运行了指令。",
+     "p": {}
+    }
+   ],
+   "text": "当我们第一次激活『戊』命令方块时，戊就会在上方放一个钻石块，己由于戊执行成功，就会发送『yes』的消息，庚由于不受制约所以肯定会发出『no』的消息，最终三个命令方块都运行了指令。",
+   "sha256": "9c8b6650b5bebaee7baad8d3ca92cc99d39b8806cbc16af4ccbe11b5197ac3de",
+   "i": 7733
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当我们第二次激活『戊』命令方块时，由于戊上方已经有钻石块了，所以指令执行失败。己由于戊执行失败，自己也不会执行。最终只有戊和庚执行并且只有庚执行成功。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "当我们第二次激活『戊』命令方块时，由于戊上方已经有钻石块了，所以指令执行失败。己由于戊执行失败，自己也不会执行。最终只有戊和庚执行并且只有庚执行成功。",
+   "sha256": "62df705d013a96619a157626f567f01f21b1cde44821cbc062c39a7d17a27e42",
+   "i": 7734
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你能看懂并理解上面的内容，那么恭喜你，你已经基本上掌握了连锁型命令方块的运作机制，模块本身最难以理解的点已被攻破。现在让我们回到注册",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/登录系统上，尝试以模块的形式替代原有的红石逻辑组：",
+     "p": {}
+    }
+   ],
+   "text": "如果你能看懂并理解上面的内容，那么恭喜你，你已经基本上掌握了连锁型命令方块的运作机制，模块本身最难以理解的点已被攻破。现在让我们回到注册/登录系统上，尝试以模块的形式替代原有的红石逻辑组：",
+   "sha256": "019115adf1446429631a94f5f166680a3c52c358466b5c18b05d7ef0e70bac2a",
+   "i": 7735
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "◎墙",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A→B→C→（插图：99-7）",
+     "p": {}
+    }
+   ],
+   "text": "◎墙A→B→C→（插图：99-7）",
+   "sha256": "32461e0513810bf987f24f6fb73cae5c12eb0ac0b1d55284993a17adc6d79d76",
+   "i": 7736
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "D→E→F→G→H→I→J→",
+     "p": {}
+    }
+   ],
+   "text": "D→E→F→G→H→I→J→",
+   "sha256": "9c121a211d4312f1538dd324814bc65210a69eec4015f88da78e33c518892e64",
+   "i": 7737
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A[脉][无][红]——execute positioned ~ ~ ~-3 run tag @a[distance=..3,tag=!registered,tag=!logged_in] add registering",
+     "p": {}
+    }
+   ],
+   "text": "A[脉][无][红]——execute positioned ~ ~ ~-3 run tag @a[distance=..3,tag=!registered,tag=!logged_in] add registering",
+   "sha256": "610150a50cd0aba71bb8ae7a0ff160a9bd1381d80f32792676a22bc22ff6eae2",
+   "i": 7738
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B[链][无][始]——同替代前",
+     "p": {}
+    }
+   ],
+   "text": "B[链][无][始]——同替代前",
+   "sha256": "00ab0dd17c52214bb09ad52847e1412a26d23c232271f30cd1f8b7cbee8f6d4f",
+   "i": 7739
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3215640",
+      "cy": "1697355"
+     },
+     "name": "图片 89",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image46.png"
+    },
+    {
+     "t": "C[链][无][始]——同替代前",
+     "p": {}
+    }
+   ],
+   "text": "C[链][无][始]——同替代前",
+   "sha256": "21bf4e32f2308186f4b0a06fb2358bee7d9ab6dff0bb5aec207e508417a04d41",
+   "i": 7740
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "D[重][无][红]",
+     "p": {}
+    }
+   ],
+   "text": "D[重][无][红]",
+   "sha256": "e0e6f59dc366d6a3e591c82baf978898baeadd73531b02d7b35b2839375701fa",
+   "i": 7741
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "E[链][无][始]",
+     "p": {}
+    }
+   ],
+   "text": "E[链][无][始]",
+   "sha256": "e3ff36a11470c349368ae1511aa28d5038fcf0be2821ce7e3a34cd2f2638a630",
+   "i": 7742
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "F[链][无][始]",
+     "p": {}
+    }
+   ],
+   "text": "F[链][无][始]",
+   "sha256": "5e908a9f5862cc68f78d39b814b2659cf30283e4fd75c0c3351a6829373c33ba",
+   "i": 7743
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "G[链][无][始]",
+     "p": {}
+    }
+   ],
+   "text": "G[链][无][始]",
+   "sha256": "5802e24aec97337c28f05e3cd7d8a925032b857367bd38e96a8b18c364c223c2",
+   "i": 7744
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "H[链][无][始]",
+     "p": {}
+    }
+   ],
+   "text": "H[链][无][始]",
+   "sha256": "80f50d30b1c1ecbdadf5d0515d8b8011c90cf28e5deb89e53a3804c470422864",
+   "i": 7745
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "I[链][无][始]",
+     "p": {}
+    }
+   ],
+   "text": "I[链][无][始]",
+   "sha256": "2277e394ab5dbcc198a9782bb254c82b17faa84885498f3ad7045c23cc5c45b1",
+   "i": 7746
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 90",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "9",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "9",
+         "p": {}
+        },
+        {
+         "t": "- ",
+         "p": {
+          "font": {
+           "hint": "eastAsia"
+          }
+         }
+        },
+        {
+         "t": "7",
+         "p": {}
+        }
+       ],
+       "text": "99- 7",
+       "sha256": "b3267b526da22ba834714bf2d52a58b083d8c0d035d2227b9374691f090cd212"
+      }
+     ]
+    },
+    {
+     "t": "J[链][无][始]",
+     "p": {}
+    }
+   ],
+   "text": "J[链][无][始]",
+   "sha256": "008ce18a77112e8c15ba729c0eea1dbc2fa4673044936a6a9ec4d764578f0a88",
+   "i": 7747
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们系统的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Beta3.0版本出来了，让我们测试一下BUG有无解决：",
+     "p": {}
+    }
+   ],
+   "text": "现在，我们系统的Beta3.0版本出来了，让我们测试一下BUG有无解决：",
+   "sha256": "5866be9b22a0c47f2f92ead1552763dec639f4b31ac3a4812c3f092ec26bc954",
+   "i": 7748
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "*按下按钮*",
+     "p": {}
+    }
+   ],
+   "text": "*按下按钮*",
+   "sha256": "763f910622e54ee471c684b6e11539007f3cfe8a4bd31dcae7504e7f3232e730",
+   "i": 7749
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX添加了标签'registering'",
+     "p": {}
+    }
+   ],
+   "text": "已为XXX添加了标签'registering'",
+   "sha256": "8f90c60465f6a8cfd54e1b686a3c11e3f9057f0b5cf4350b31fe75a0dbbe29c4",
+   "i": 7750
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "请运行指令",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " \"/trigger password set <密码>\" 输入账户密码来注册",
+     "p": {}
+    }
+   ],
+   "text": "请运行指令 \"/trigger password set <密码>\" 输入账户密码来注册",
+   "sha256": "bdf8fcb79ad70c56be5f65dfae1d601c28c269467430c519b5946fd623195820",
+   "i": 7751
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "n个『已将XXX的[is_typed]分数设为0』",
+     "p": {}
+    }
+   ],
+   "text": "n个『已将XXX的[is_typed]分数设为0』",
+   "sha256": "9d26a949c506ccad6e5362b2e848d89235b1842cb465e46d64cd0a8d201ff922",
+   "i": 7752
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "*输入密码*",
+     "p": {}
+    }
+   ],
+   "text": "*输入密码*",
+   "sha256": "bad2cdbcbda2c9c6af6dcb62280d63db5d7ef56f9b1abceb927d835128143a62",
+   "i": 7753
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已触发",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "[password]（数值已设置为1919810）",
+     "p": {}
+    }
+   ],
+   "text": "已触发[password]（数值已设置为1919810）",
+   "sha256": "d30a25b48a2fa8981b98b2afa89661b84337c534f59bfc0deaf80daf0c343da1",
+   "i": 7754
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX启用了触发器[password]",
+     "p": {}
+    }
+   ],
+   "text": "已为XXX启用了触发器[password]",
+   "sha256": "cd6dff17175f942eaeee080128f872fbe3413e9c4a11564640c1b080031f03ca",
+   "i": 7755
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX添加了标签'registered'",
+     "p": {}
+    }
+   ],
+   "text": "已为XXX添加了标签'registered'",
+   "sha256": "2335b8772e5d098bcbf69e5c73b0005fe532331e70f9fa482044760c0719f120",
+   "i": 7756
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "注册成功，请记好你的密码哦！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "注册成功，请记好你的密码哦！",
+   "sha256": "f5b56745d352c20c0ab7d8e04c8d5a1d66a5419e4e08472424fa549e2422ca63",
+   "i": 7757
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已触发",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "[password]（数值已增加0）",
+     "p": {}
+    }
+   ],
+   "text": "已触发[password]（数值已增加0）",
+   "sha256": "9faf42d98787abc5867eb36c16840cd7c83e30c50140f010dd1773acb23bff97",
+   "i": 7758
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已将",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX传送到 13.500000, -60.000000, 10.500000",
+     "p": {}
+    }
+   ],
+   "text": "已将XXX传送到 13.500000, -60.000000, 10.500000",
+   "sha256": "7d6161656d29d3ba86985c045974862e67c725da4bfeecf5df03bd842223eabc",
+   "i": 7759
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已移除",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX的标签'registering'",
+     "p": {}
+    }
+   ],
+   "text": "已移除XXX的标签'registering'",
+   "sha256": "4063bc1a3267a8e928fd0c69268f3f200328ac1119034f8ce1f12a9037a9c47b",
+   "i": 7760
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "n个『已将XXX的[is_typed]分数设为0』",
+     "p": {}
+    }
+   ],
+   "text": "n个『已将XXX的[is_typed]分数设为0』",
+   "sha256": "9d26a949c506ccad6e5362b2e848d89235b1842cb465e46d64cd0a8d201ff922",
+   "i": 7761
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "解决了！！！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "解决了！！！",
+   "sha256": "cff122cce9e66fc6a106c61be169fa44cdc5f75ec3a97303bee31683d303c688",
+   "i": 7762
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们已经完成了这个系统的大半部分，接下来我们将会尝试完成『检测玩家的密码是否符合要求，如果符合则通过检测并传送走玩家，如果不符合则返回错误信息，并再次为玩家打开触发器指示玩家填写』这个部分。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "现在，我们已经完成了这个系统的大半部分，接下来我们将会尝试完成『检测玩家的密码是否符合要求，如果符合则通过检测并传送走玩家，如果不符合则返回错误信息，并再次为玩家打开触发器指示玩家填写』这个部分。",
+   "sha256": "2cf30b1867741404a265e74884ecc978ff13941585df6a3feaa152f0d8f00e3b",
+   "i": 7763
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其实这个部分相当简单。比如我们想要玩家不能设定密码为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0，就可以这么干：",
+     "p": {}
+    }
+   ],
+   "text": "其实这个部分相当简单。比如我们想要玩家不能设定密码为0，就可以这么干：",
+   "sha256": "1e818362a08f3bc71f55781bc78e6584894274eda9735e3fed60c55f4280cb31",
+   "i": 7764
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "D命令方块后面插入两个新的命令方块，写入以下内容",
+     "p": {}
+    }
+   ],
+   "text": "在D命令方块后面插入两个新的命令方块，写入以下内容",
+   "sha256": "842873167af9ba6bd78f72edf5ce2cd508d7eb702be26909193d85c22a3882c2",
+   "i": 7765
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "execute as @a[tag=registering,scores={is_typed=1}] unless score @s password matches 0 run tag @s add correct_input",
+     "p": {}
+    }
+   ],
+   "text": "execute as @a[tag=registering,scores={is_typed=1}] unless score @s password matches 0 run tag @s add correct_input",
+   "sha256": "8084d7c5be9184e00ff4f6b46d31d6c69e3e75ada90f5aea5f49f3bb6e14110e",
+   "i": 7766
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\为密码不是0的玩家添加标签correct_input（正确输入）\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\为密码不是0的玩家添加标签correct_input（正确输入）\\\\",
+   "sha256": "a6189006ca38c9549ffcf5fbd863d803e9b0c8d05959da7ec1818bf8fed1b20b",
+   "i": 7767
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "execute as @a[tag=registering,scores={is_typed=1}] if score @s password matches 0 run tag @s add error_input",
+     "p": {}
+    }
+   ],
+   "text": "execute as @a[tag=registering,scores={is_typed=1}] if score @s password matches 0 run tag @s add error_input",
+   "sha256": "00792ad96358a40890178166decfe7cb26f7c5bc9a688f3f9cbf5dba7db9da81",
+   "i": 7768
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\为密码是0的玩家添加标签error_input（错误输入）\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\为密码是0的玩家添加标签error_input（错误输入）\\\\",
+   "sha256": "79b2d5851a8abbee1c001059f4cebb83f2bb8190c4f32893ca86ec77c0b60225",
+   "i": 7769
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "修改",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "E、F、G、H、I命令方块的内容为",
+     "p": {}
+    }
+   ],
+   "text": "修改E、F、G、H、I命令方块的内容为",
+   "sha256": "69deb980f286e72fb3f141ef95dc8bb7235221c15d6c9fdd09e3a0d7e85e12fc",
+   "i": 7770
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "execute as @a[tag=correct_input,tag=registering] run tag @s add registered",
+     "p": {}
+    }
+   ],
+   "text": "execute as @a[tag=correct_input,tag=registering] run tag @s add registered",
+   "sha256": "7ef00e64805d40af3ba4e8650c377d616578b8cb25994b4a05cf9c4c055cbafe",
+   "i": 7771
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "tellraw @a[tag=correct_input,tag=registering] {\"text\":\"注册成功，请记好你的密码哦！\",\"color\":\"green\"}",
+     "p": {}
+    }
+   ],
+   "text": "tellraw @a[tag=correct_input,tag=registering] {\"text\":\"注册成功，请记好你的密码哦！\",\"color\":\"green\"}",
+   "sha256": "8032b866eba819b13b1e6188dcd471a2683cb61591ea67848e2f856c552c8256",
+   "i": 7772
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "execute as @a[tag=correct_input,tag=registering] run trigger password add 0",
+     "p": {}
+    }
+   ],
+   "text": "execute as @a[tag=correct_input,tag=registering] run trigger password add 0",
+   "sha256": "72fa1df8d34483ff567394029b2da34199804c0ee865d3a49e989efc8fada314",
+   "i": 7773
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "execute as @a[tag=correct_input,tag=registering] run tp @s 13 -60 10 180 0",
+     "p": {}
+    }
+   ],
+   "text": "execute as @a[tag=correct_input,tag=registering] run tp @s 13 -60 10 180 0",
+   "sha256": "0cdd262c281a4bc00294b514b16e4e563b82dabcc1491e5b9e21e1511dcf9b5a",
+   "i": 7774
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "execute as @a[tag=correct_input,tag=registering] run tag @s remove registering",
+     "p": {}
+    }
+   ],
+   "text": "execute as @a[tag=correct_input,tag=registering] run tag @s remove registering",
+   "sha256": "636916bf488870260a5cc6f6a7e81bb11256a98c1261cbde6faca2c2f7b98faa",
+   "i": 7775
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "I后新增命令方块3个，内容为",
+     "p": {}
+    }
+   ],
+   "text": "在I后新增命令方块3个，内容为",
+   "sha256": "ccc46e39eec2bd59887a82424fad2ef1a8d43b088afe54bcb126871110c1a816",
+   "i": 7776
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "execute as @a[tag=correct_input,tag=registered] run tag @s remove correct_input",
+     "p": {}
+    }
+   ],
+   "text": "execute as @a[tag=correct_input,tag=registered] run tag @s remove correct_input",
+   "sha256": "ba4f7104e3f61426d2c67c3c8f654726006f37250f1e1ded4e4d42c774cbacbe",
+   "i": 7777
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "execute as @a[tag=registering,tag=error_input] run tellraw @s {\"text\":\"请不要将0作为你的密码，请重新输入\",\"color\":\"red\"}",
+     "p": {}
+    }
+   ],
+   "text": "execute as @a[tag=registering,tag=error_input] run tellraw @s {\"text\":\"请不要将0作为你的密码，请重新输入\",\"color\":\"red\"}",
+   "sha256": "6753bf4b320dd88074a849f3f82fc3645bdf17ebd5f82963372d5577b5d4d13a",
+   "i": 7778
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "execute as @a[tag=registering,tag=error_input] run tag @s remove error_input",
+     "p": {}
+    }
+   ],
+   "text": "execute as @a[tag=registering,tag=error_input] run tag @s remove error_input",
+   "sha256": "30857bffb7e225aaaa97985dbf46d8d03914c6ed94b2fd9186c754bb52bbd4db",
+   "i": 7779
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们测试一下：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "让我们测试一下：",
+   "sha256": "203ee80c8c8863dc832faaea29b4b16bb66c06ae2d1756ae042b644eb546253f",
+   "i": 7780
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 7781
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "*输入密码*",
+     "p": {}
+    }
+   ],
+   "text": "*输入密码*",
+   "sha256": "bad2cdbcbda2c9c6af6dcb62280d63db5d7ef56f9b1abceb927d835128143a62",
+   "i": 7782
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已触发",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "[password]（数值已设置为0）",
+     "p": {}
+    }
+   ],
+   "text": "已触发[password]（数值已设置为0）",
+   "sha256": "f68f6fa3a42d0da1996b3259baf6b3c3c1d535ec08589ed3d671c3473caa7e9d",
+   "i": 7783
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX启用了触发器[password]",
+     "p": {}
+    }
+   ],
+   "text": "已为XXX启用了触发器[password]",
+   "sha256": "cd6dff17175f942eaeee080128f872fbe3413e9c4a11564640c1b080031f03ca",
+   "i": 7784
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX添加了标签'error_input'",
+     "p": {}
+    }
+   ],
+   "text": "已为XXX添加了标签'error_input'",
+   "sha256": "9298c6975ec10624b6744852fa22ba90f7f8d7079dca0e3e2d23a3d68281b738",
+   "i": 7785
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "请不要将",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0作为你的密码，请重新输入",
+     "p": {}
+    }
+   ],
+   "text": "请不要将0作为你的密码，请重新输入",
+   "sha256": "8c0a0b6446ccd8135e6af1c3af57a2ef4cd4c1189c999402f119c0593c0bb314",
+   "i": 7786
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已移除",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX的标签'error_input'",
+     "p": {}
+    }
+   ],
+   "text": "已移除XXX的标签'error_input'",
+   "sha256": "40941fd7a1b1714a5a1ec807a60021ca68d4a5238d28702938ed5eb42b245041",
+   "i": 7787
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "*再次输入密码*",
+     "p": {}
+    }
+   ],
+   "text": "*再次输入密码*",
+   "sha256": "23e39793bdd69f4329e3f80f7ec7607c141b3b347f1e0de8180777d393d1b1d5",
+   "i": 7788
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已触发",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "[password]（数值已设置为1）",
+     "p": {}
+    }
+   ],
+   "text": "已触发[password]（数值已设置为1）",
+   "sha256": "8b07b6f856d3a1895e9f1d97240851bbce2994c2e32b9790a973baa2ec84806b",
+   "i": 7789
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX启用了触发器[password]",
+     "p": {}
+    }
+   ],
+   "text": "已为XXX启用了触发器[password]",
+   "sha256": "cd6dff17175f942eaeee080128f872fbe3413e9c4a11564640c1b080031f03ca",
+   "i": 7790
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX添加了标签'correct_input'",
+     "p": {}
+    }
+   ],
+   "text": "已为XXX添加了标签'correct_input'",
+   "sha256": "162d7e7ced43598a2537f8eaf073c9a2af28ed593be74e990e74d0d98a235848",
+   "i": 7791
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX添加了标签'registered'",
+     "p": {}
+    }
+   ],
+   "text": "已为XXX添加了标签'registered'",
+   "sha256": "2335b8772e5d098bcbf69e5c73b0005fe532331e70f9fa482044760c0719f120",
+   "i": 7792
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "注册成功，请记好你的密码哦！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "注册成功，请记好你的密码哦！",
+   "sha256": "f5b56745d352c20c0ab7d8e04c8d5a1d66a5419e4e08472424fa549e2422ca63",
+   "i": 7793
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已触发",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "[password]（数值已增加0）",
+     "p": {}
+    }
+   ],
+   "text": "已触发[password]（数值已增加0）",
+   "sha256": "9faf42d98787abc5867eb36c16840cd7c83e30c50140f010dd1773acb23bff97",
+   "i": 7794
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已将",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX传送到 13.500000, -60.000000, 10.500000",
+     "p": {}
+    }
+   ],
+   "text": "已将XXX传送到 13.500000, -60.000000, 10.500000",
+   "sha256": "7d6161656d29d3ba86985c045974862e67c725da4bfeecf5df03bd842223eabc",
+   "i": 7795
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已移除",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX的标签'registering'",
+     "p": {}
+    }
+   ],
+   "text": "已移除XXX的标签'registering'",
+   "sha256": "4063bc1a3267a8e928fd0c69268f3f200328ac1119034f8ce1f12a9037a9c47b",
+   "i": 7796
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已移除",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XXX的标签'correct_input'",
+     "p": {}
+    }
+   ],
+   "text": "已移除XXX的标签'correct_input'",
+   "sha256": "047eed4e82abca7ba44a09163424d40e9f9af9b2bb9181d51b32047f157511b3",
+   "i": 7797
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "OK，完美运行，这就是系统的Beta4.0版本。",
+     "p": {}
+    }
+   ],
+   "text": "OK，完美运行，这就是系统的Beta4.0版本。",
+   "sha256": "944b8f95ad7fcbbe30808b58cc1656ffc925bb082052b5036688f053e00163dd",
+   "i": 7798
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "只不过由于篇幅限制，我们就讲到这里。接下来对于『登录』功能甚至『登出』功能的实现，请你自己独立完成。这边有几个要求和提示：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "只不过由于篇幅限制，我们就讲到这里。接下来对于『登录』功能甚至『登出』功能的实现，请你自己独立完成。这边有几个要求和提示：",
+   "sha256": "589196bc674d4bbd5da9c402bfbe3c46010176bc00103b769d02b4060ab9cdb6",
+   "i": 7799
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①登录模块和注册模块要分开，但其实两者的原理都差不多",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "①登录模块和注册模块要分开，但其实两者的原理都差不多",
+   "sha256": "9a491091d6c35406b44c9f6a700804ead6ab05057b510f430be5e961608b8900",
+   "i": 7800
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②创建一个新的触发器",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "enter_password，用于登录密码的输入",
+     "p": {}
+    }
+   ],
+   "text": "②创建一个新的触发器enter_password，用于登录密码的输入",
+   "sha256": "7fd96cff4bc43906234ab7ab03eed66c4f4cf21d5a76bb99d0d42e6eced1ae89",
+   "i": 7801
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③优化模块的运行，使得玩家在按下按钮后才会调用登录和注册模块，并在没有处于登录",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/注册中的玩家后停止模块运行（提示：setblock或fill红石块）",
+     "p": {}
+    }
+   ],
+   "text": "③优化模块的运行，使得玩家在按下按钮后才会调用登录和注册模块，并在没有处于登录/注册中的玩家后停止模块运行（提示：setblock或fill红石块）",
+   "sha256": "205e097b611b5263e548f15e02f7f16a5547cd6608841a6385209da2c2dcacdf",
+   "i": 7802
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "④创建一个新的触发器，已登录的玩家可以修改此触发器到一个特定的值来退出登录",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "④创建一个新的触发器，已登录的玩家可以修改此触发器到一个特定的值来退出登录",
+   "sha256": "4f4e082eb9ec42abef8aef78b8ab9280a21e52c8d0f46267c1087682843c02eb",
+   "i": 7803
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "⑤新玩家进来后必须要出生在注册",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/登录房里",
+     "p": {}
+    }
+   ],
+   "text": "⑤新玩家进来后必须要出生在注册/登录房里",
+   "sha256": "f2b5828cd1d0f276d93cbf42f67213732f0c5c91cddb0d2bd8dd94f44895900b",
+   "i": 7804
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "⑥未追踪玩家的分数无法被比较。所以如果你拿未追踪玩家的分数来比较，由于没有分数，所以游戏总会返回",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "false（假）",
+     "p": {}
+    }
+   ],
+   "text": "⑥未追踪玩家的分数无法被比较。所以如果你拿未追踪玩家的分数来比较，由于没有分数，所以游戏总会返回false（假）",
+   "sha256": "63ebc07c7ccc4f1379ae76be485537b122d3dc6505632a7a0a592d09b4943924",
+   "i": 7805
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你可以加",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "QQ群或通过作家的话中的网盘链接获取到我做的完整『注册/登录系统』的存档（Minecraft Java1.19版本，非网易版）。",
+     "p": {}
+    }
+   ],
+   "text": "你可以加QQ群或通过作家的话中的网盘链接获取到我做的完整『注册/登录系统』的存档（Minecraft Java1.19版本，非网易版）。",
+   "sha256": "0b78dc39c08efcff6dedb170b7da4ab9b564305261ab48ccc227c948d519137d",
+   "i": 7806
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本章到此为止。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "本章到此为止。",
+   "sha256": "ad685ca57aa13e9c4e1c57947d7483a10b82160c3f878d96d224fec5f0b63a78",
+   "i": 7807
+  }
+ ],
+ "text_sha256": "e5416227c56978aad7c2b0242d28100650d311897c31e9d960a91004e476d2d2",
+ "chars": 7593
+}

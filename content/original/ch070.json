@@ -1,0 +1,2882 @@
+{
+ "id": "ch070",
+ "kind": "chapter",
+ "number": 70,
+ "title": "第七十章 修饰子命令 下 剩下的5个修饰子命令",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   4995,
+   5138
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "第七十章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " 修饰子命令 下 剩下的5个修饰子命令",
+     "p": {}
+    }
+   ],
+   "text": "第七十章 修饰子命令 下 剩下的5个修饰子命令",
+   "sha256": "72e5e217902846ea3bfc6d5ce8dede9690090bf97a657c5679306cda256f627c",
+   "i": 4995
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2022/7/15重写）",
+     "p": {}
+    }
+   ],
+   "text": "（于2022/7/15重写）",
+   "sha256": "af735ce3b5a808744b7cfc5bd9a2b64480d86496bf329aa145486d33716c1ca5",
+   "i": 4996
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在上一章，我们总结出了新『指令执行三要素』，并初步学习了修饰子命令中的『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "as、at和in』子命令，了解了execute的『流水线思维』（注：这个思维名称是作者自己编的）。那么接下来我们就应该快马加鞭，看看剩下的五个修饰子命令：",
+     "p": {}
+    }
+   ],
+   "text": "在上一章，我们总结出了新『指令执行三要素』，并初步学习了修饰子命令中的『as、at和in』子命令，了解了execute的『流水线思维』（注：这个思维名称是作者自己编的）。那么接下来我们就应该快马加鞭，看看剩下的五个修饰子命令：",
+   "sha256": "3db90620766ea158ae3d2dd1152b4405cf8a9854cbb993e9bb11baade0315c9b",
+   "i": 4997
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "facing ——更改旋转角度",
+     "p": {}
+    }
+   ],
+   "text": "facing ——更改旋转角度",
+   "sha256": "9e807636cdad71669fc7668b64c496cee0a2ebd18f153e1a5d54ab0d55e075a3",
+   "i": 4998
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "rotated——更改旋转角度",
+     "p": {}
+    }
+   ],
+   "text": "rotated——更改旋转角度",
+   "sha256": "ddb44cd3410412798238e8a89fb208380bbd2bbb6456793073ccec2582fd169d",
+   "i": 4999
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "anchored——更改基准部位",
+     "p": {}
+    }
+   ],
+   "text": "anchored——更改基准部位",
+   "sha256": "3766517e44c2b485581f5bb60c3d91b78a3530ca54bb5309de168dac67acee62",
+   "i": 5000
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "positioned ——更改执行位置中的坐标",
+     "p": {}
+    }
+   ],
+   "text": "positioned ——更改执行位置中的坐标",
+   "sha256": "c24e0b9fa568389bc82c2d3e6bb4a74ab4ad4b5edf77518ebb939dbca05efa1e",
+   "i": 5001
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "align——将执行位置中的坐标转化为方块坐标",
+     "p": {}
+    }
+   ],
+   "text": "align——将执行位置中的坐标转化为方块坐标",
+   "sha256": "aa7cfbaf4eeb6e1f3ce75460ed4c7b61345f6dfd8022cc563d8be622973c3333",
+   "i": 5002
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们先从前几章在讲",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "tp指令就接触过的facing子命令入手：",
+     "p": {}
+    }
+   ],
+   "text": "我们先从前几章在讲tp指令就接触过的facing子命令入手：",
+   "sha256": "03eb7908927b94209fbb6ab51772120661babd24f18cec05eac7afd9cf707fef",
+   "i": 5003
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（？怎么就接触了？）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（？怎么就接触了？）",
+   "sha256": "c992ebdb679aa2bb847815b9785e302d9a662ea7adad34d76d9eb97862fda1d3",
+   "i": 5004
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（因为两者非常像，算接触也可以啊）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（因为两者非常像，算接触也可以啊）",
+   "sha256": "40c0a0a30542d9e203c73df2a74a76115717c0a1bcb2a984df44a1c4f57e8da1",
+   "i": 5005
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "execute的facing子命令，和tp/teleport指令的facing参数十分类似，都是『改变朝向为面向指定的坐标或某个实体』，只不过前者改变的是命令的执行朝向，后者改变的是传送目标的朝向。",
+     "p": {}
+    }
+   ],
+   "text": "execute的facing子命令，和tp/teleport指令的facing参数十分类似，都是『改变朝向为面向指定的坐标或某个实体』，只不过前者改变的是命令的执行朝向，后者改变的是传送目标的朝向。",
+   "sha256": "f0556324b5f6c4ca2f392840e8c3198de37cf79c4dafe6bec42cae14f3d94d64",
+   "i": 5006
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "facing子命令的语法相比tp的facing语法，不能说是十分类似，至少也是一模一样了：",
+     "p": {}
+    }
+   ],
+   "text": "所以facing子命令的语法相比tp的facing语法，不能说是十分类似，至少也是一模一样了：",
+   "sha256": "e593b3a10a47de7325f7aa8b3a15bc581fd9029a7d5a5b2bea7ca268d70d2c20",
+   "i": 5007
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... facing <坐标> ...",
+     "p": {}
+    }
+   ],
+   "text": "... facing <坐标> ...",
+   "sha256": "40118a9e565867d9298a56c7c1ed149c1022ed932c40cab871767c31e6eaf697",
+   "i": 5008
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... facing entity <实体> <朝向部位> ...",
+     "p": {}
+    }
+   ],
+   "text": "... facing entity <实体> <朝向部位> ...",
+   "sha256": "77f53432b6c46dd60aa18909dd5ca257e09191304558bc819a238f5a068e4a48",
+   "i": 5009
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "是不是？也就『朝向部位』这个参数从可选变成了必填而已。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "是不是？也就『朝向部位』这个参数从可选变成了必填而已。",
+   "sha256": "315d5a8208f45f2df78fa0177c133ce3aa26e8ff28cb32ab8d3fdca62e6cde6b",
+   "i": 5010
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "既然功能都完全一样，这里也就不多介绍了，直接上例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "既然功能都完全一样，这里也就不多介绍了，直接上例子：",
+   "sha256": "0825a818139a3f3686fb0be6b0e340ec0bb3f7346b924269473417925c89e7d2",
+   "i": 5011
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute facing ^5 ^ ^ run tp ^ ^ ^",
+     "p": {}
+    }
+   ],
+   "text": "/execute facing ^5 ^ ^ run tp ^ ^ ^",
+   "sha256": "0be83c7f46dd823a231caec771f188761fc9ac2296fa4dfd89553a4d588d63b7",
+   "i": 5012
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令是什么意思呢？它竟然有两个局部坐标！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令是什么意思呢？它竟然有两个局部坐标！",
+   "sha256": "f7e7e525ce08ca420afc68e304d6c626a37f3defde3ba4bdd6f6b01e4a9a797e",
+   "i": 5013
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但这两个局部坐标的朝向并不一致。第一个局部坐标的朝向和执行者的朝向一致，所以",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "facing ^5 ^ ^在这的意思是『改变执行朝向为面向执行者左边5格』，第二个局部坐标的朝向和facing子命令指定的朝向一样，所以最终你将会看向你原本左边5格的位置。",
+     "p": {}
+    }
+   ],
+   "text": "但这两个局部坐标的朝向并不一致。第一个局部坐标的朝向和执行者的朝向一致，所以facing ^5 ^ ^在这的意思是『改变执行朝向为面向执行者左边5格』，第二个局部坐标的朝向和facing子命令指定的朝向一样，所以最终你将会看向你原本左边5格的位置。",
+   "sha256": "f3a7867e5000270f77dea9a1328182d3ca6782b0ddebf4fb9a6e9a3860803e44",
+   "i": 5014
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute facing entity @e[distance=1..,sort=nearest,limit=1] feet run tp ^ ^ ^",
+     "p": {}
+    }
+   ],
+   "text": "/execute facing entity @e[distance=1..,sort=nearest,limit=1] feet run tp ^ ^ ^",
+   "sha256": "243d1d8316ae95d815a0f97d6259cf8c5421f4394aca76c928c6aa3a4aa35a1c",
+   "i": 5015
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令将会使得执行者看向最近实体的眼睛。至于为什么是眼睛，我们已经在第六十四章讨论过了。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令将会使得执行者看向最近实体的眼睛。至于为什么是眼睛，我们已经在第六十四章讨论过了。",
+   "sha256": "12f7d0b54b6833f72f611c0955be00568bbb6aeea88f63fc143d807758665d9b",
+   "i": 5016
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果我们要实现看向最近实体的脚该怎么办？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "如果我们要实现看向最近实体的脚该怎么办？",
+   "sha256": "28a754961d3857db7ad5b7a3a00289ea96d261c8d606453c732889c3a728ba45",
+   "i": 5017
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "想一想，当你看向一个人的脚时，你是用什么看的？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "想一想，当你看向一个人的脚时，你是用什么看的？",
+   "sha256": "3ae26c179b3345dd194f1b7562a39748776a930329c22c5fa297a373aa457134",
+   "i": 5018
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "眼睛啊！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "眼睛啊！",
+   "sha256": "6af6cca6a5d66ac27c7bec55cda10a90eefa76d6096a09a7e83f5acf30901c95",
+   "i": 5019
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以说，我们得把局部坐标的基准点从默认的脚部改到眼睛的位置，也就是更改执行朝向的基准部位。这时候，我们就需要用到",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "anchored（/",
+     "p": {}
+    },
+    {
+     "t": "ˈ",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "æ",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "ŋ",
+     "p": {
+      "font": {
+       "cs": "Cambria"
+      }
+     }
+    },
+    {
+     "t": "k",
+     "p": {}
+    },
+    {
+     "t": "ə",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "r/）子命令。",
+     "p": {}
+    }
+   ],
+   "text": "所以说，我们得把局部坐标的基准点从默认的脚部改到眼睛的位置，也就是更改执行朝向的基准部位。这时候，我们就需要用到anchored（/ˈæŋkər/）子命令。",
+   "sha256": "eec75b217f2a96e7ae55cee10c0b60d1113fe3f5cc6b5e5df209d4b70c1eec0b",
+   "i": 5020
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "anchored子命令的用法十分简单：",
+     "p": {}
+    }
+   ],
+   "text": "anchored子命令的用法十分简单：",
+   "sha256": "6f0966c5b2795e82c4556f6cef3d69ac86b0a02cac3ca4c9b0e694ad7e7ae57e",
+   "i": 5021
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... anchored <实体锚点> ...",
+     "p": {}
+    }
+   ],
+   "text": "... anchored <实体锚点> ...",
+   "sha256": "07535e71330095ffb47588b2b8996b0c61184a62fa16991d3e8d6f8de7dd5f9f",
+   "i": 5022
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，『实体锚点』参数也就是『基准部位』参数，前者是官方的叫法，后者是本书的叫法。它仅仅可以填写两个东西：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "eyes和feet。执行指令时默认是使用feet，这里我们尝试填写为eyes：",
+     "p": {}
+    }
+   ],
+   "text": "其中，『实体锚点』参数也就是『基准部位』参数，前者是官方的叫法，后者是本书的叫法。它仅仅可以填写两个东西：eyes和feet。执行指令时默认是使用feet，这里我们尝试填写为eyes：",
+   "sha256": "08b69168727487a517c081da008e89b86c9f77f6ac25471a8355a4d4b8da62ac",
+   "i": 5023
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们试一试：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "让我们试一试：",
+   "sha256": "fbe61c3e440f52d31a05fc9acce6a808a6fac61ebf2dd4dd95692b3664eb9bce",
+   "i": 5024
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute anchored eyes run tp @s ~ ~ ~ facing entity @e[distance=1..,sort=nearest,limit=1] feet",
+     "p": {}
+    }
+   ],
+   "text": "/execute anchored eyes run tp @s ~ ~ ~ facing entity @e[distance=1..,sort=nearest,limit=1] feet",
+   "sha256": "da029394b54451393a21bc2ff24597deb133e4f36e663e6642870858bb1bd7f4",
+   "i": 5025
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令可以使得执行者看向最近实体的脚部（从执行者的眼睛看向最近实体的脚部）。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令可以使得执行者看向最近实体的脚部（从执行者的眼睛看向最近实体的脚部）。",
+   "sha256": "4dacbaef0ec5a9a2e70067cff6cdddb8e0b45f1b451eda565b259f9ffa932dc9",
+   "i": 5026
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "更改执行指令的基准部位后，就会有一些有趣的效果。比如：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "更改执行指令的基准部位后，就会有一些有趣的效果。比如：",
+   "sha256": "a87651e45062b953a0b05f38c2a9def6bd84b05ff28ad5c4ef9fe12bca1b14e5",
+   "i": 5027
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute anchored eyes run tp @s ^ ^ ^",
+     "p": {}
+    }
+   ],
+   "text": "/execute anchored eyes run tp @s ^ ^ ^",
+   "sha256": "2e67f9a8ab8d0c88f5bf9c7066c581d3346810bfb6592e552ba8a5801c8197a1",
+   "i": 5028
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会将你传送到你眼睛的位置，更确切地说是将你的脚传送到你眼睛的位置。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会将你传送到你眼睛的位置，更确切地说是将你的脚传送到你眼睛的位置。",
+   "sha256": "ee09bdd837c538127e054dd6e3d500f0cedd1f91f78dd2caa307d1825f10f577",
+   "i": 5029
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "facing可以更改旋转角度，但rotated子命令也能，那它俩有什么区别呢？",
+     "p": {}
+    }
+   ],
+   "text": "facing可以更改旋转角度，但rotated子命令也能，那它俩有什么区别呢？",
+   "sha256": "5e8849f0202825a88ffc480e3a3086342ec85ce3c3c5f41d6e20ec325894fa2e",
+   "i": 5030
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "rotated子命令并不是将执行朝向改为朝向某个地方，而是直接更改旋转角度为指定的旋转角度，或某个实体的旋转角度。其语法如下：",
+     "p": {}
+    }
+   ],
+   "text": "rotated子命令并不是将执行朝向改为朝向某个地方，而是直接更改旋转角度为指定的旋转角度，或某个实体的旋转角度。其语法如下：",
+   "sha256": "475da0c45e9ccab7f679539e76b064d02ebfcb45c1603150941b15fd04a987ef",
+   "i": 5031
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... rotated <水平旋转角度> <垂直旋转角度> ...",
+     "p": {}
+    }
+   ],
+   "text": "... rotated <水平旋转角度> <垂直旋转角度> ...",
+   "sha256": "08f47ecee0f41009b9fcf9569951e627edbe741e85d3834647b6470a6adcf110",
+   "i": 5032
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... rotated as <实体> ... ",
+     "p": {}
+    }
+   ],
+   "text": "... rotated as <实体> ... ",
+   "sha256": "fe08b0413cab7eca9c8ae7a3fe7e6f3a13bff87862bca54f009d5e0b1b1a0595",
+   "i": 5033
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这有点类似于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "tp指令的部分功能，execute相当于把这部分功能独立了出来（tp：怎么又是我）。",
+     "p": {}
+    }
+   ],
+   "text": "这有点类似于tp指令的部分功能，execute相当于把这部分功能独立了出来（tp：怎么又是我）。",
+   "sha256": "350ad6648ff2e2ae50ca6fddf69d8a49e6bbe9bdae902989f6f13f4b6bb8bdc4",
+   "i": 5034
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 5035
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute rotated 270 0 ...",
+     "p": {}
+    }
+   ],
+   "text": "/execute rotated 270 0 ...",
+   "sha256": "a19f06fa3913c9ebf0c1be481ec23ef0a5de2d9dc60b027b78bdab173603b97b",
+   "i": 5036
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute rotated -90 0 ...",
+     "p": {}
+    }
+   ],
+   "text": "/execute rotated -90 0 ...",
+   "sha256": "888ff4675eb7911c152331700de83ee39892ed47f001b352f48e81911e02ffcc",
+   "i": 5037
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这两条指令都可以将执行朝向改为水平朝向正东方，只不过前者是采用我们在第九章教的『真南方位角』，后者是采用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft中标准的方位角。",
+     "p": {}
+    }
+   ],
+   "text": "这两条指令都可以将执行朝向改为水平朝向正东方，只不过前者是采用我们在第九章教的『真南方位角』，后者是采用Minecraft中标准的方位角。",
+   "sha256": "63d5033ce7d16b1133b946740f8dd44854612fb658474820935b90b706495c2b",
+   "i": 5038
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute rotated as @e[sort=nearest,limit=1] ...",
+     "p": {}
+    }
+   ],
+   "text": "/execute rotated as @e[sort=nearest,limit=1] ...",
+   "sha256": "692c19fa70a8d02e0fe1be1a6106d38fe45a24e1c57a09b5b25e7d6ac3389761",
+   "i": 5039
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会使执行朝向与距离执行地点最近的实体一致。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会使执行朝向与距离执行地点最近的实体一致。",
+   "sha256": "37de92dd2a4abe6e41d9e7f35ce39fbeb92447b65d3db56da7cb9c91ebd0d388",
+   "i": 5040
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "十分简单，是不是？但请注意，和",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "as、at子命令一样，当facing entity和rotated as选择到多个实体时，指令都会在每一种情况下分别运行一遍。",
+     "p": {}
+    }
+   ],
+   "text": "十分简单，是不是？但请注意，和as、at子命令一样，当facing entity和rotated as选择到多个实体时，指令都会在每一种情况下分别运行一遍。",
+   "sha256": "d8a0285604201f907916724ab645f16f54a0f8488c8443b627d0e55ec9916ad1",
+   "i": 5041
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "at、facing、rotated、anchored这四个与旋转角度有关的子命令已经全部讲完了，剩下的两个子命令positioned和align仅仅和执行位置中的坐标有关系。让我们继续学习一下。",
+     "p": {}
+    }
+   ],
+   "text": "现在，at、facing、rotated、anchored这四个与旋转角度有关的子命令已经全部讲完了，剩下的两个子命令positioned和align仅仅和执行位置中的坐标有关系。让我们继续学习一下。",
+   "sha256": "cb0cf66e933cd5d7a1b46157ecbbecd074eec2bcb0144ae48ee5a32bc9c207cb",
+   "i": 5042
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "positioned子命令乍一看和at子命令很像，都是改变执行位置，但其实两者的区别很大。",
+     "p": {}
+    }
+   ],
+   "text": "positioned子命令乍一看和at子命令很像，都是改变执行位置，但其实两者的区别很大。",
+   "sha256": "52d71f7427cb29ed06a072b68eee5b87b61c664e6157436def812514582a3b4e",
+   "i": 5043
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "positioned ——仅仅只能修改执行位置中的坐标",
+     "p": {}
+    }
+   ],
+   "text": "positioned ——仅仅只能修改执行位置中的坐标",
+   "sha256": "9252cf83d35ca0ce80b37265176e561f69918c75a71833e3f9843176dc6a5a9d",
+   "i": 5044
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "at ——不仅仅能修改执行位置中的坐标，还可以修改维度位置和旋转角度。",
+     "p": {}
+    }
+   ],
+   "text": "at ——不仅仅能修改执行位置中的坐标，还可以修改维度位置和旋转角度。",
+   "sha256": "95364a6fe11616db712d841b229f06fb9e684df5ab1876d24f6fb590449cc9f6",
+   "i": 5045
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "记住两者的区别之后，让我们来看看",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "positioned子命令的使用方式：",
+     "p": {}
+    }
+   ],
+   "text": "记住两者的区别之后，让我们来看看positioned子命令的使用方式：",
+   "sha256": "45e8be731546c308be1e93c027b37c124764552868be4234f9a1873d7534b5cb",
+   "i": 5046
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... positioned <坐标> ...",
+     "p": {}
+    }
+   ],
+   "text": "... positioned <坐标> ...",
+   "sha256": "91a2963559ad8e6be02e21958fe76bc4642a0744ed8e411214de5e37cf841e9b",
+   "i": 5047
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\修改执行位置中的坐标为指定坐标\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\修改执行位置中的坐标为指定坐标\\\\",
+   "sha256": "3e4ca4a3df719655dc41d40aaf420dec90ee4073fad230b25bad6d8f7a812ce9",
+   "i": 5048
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... positioned as <实体> ...",
+     "p": {}
+    }
+   ],
+   "text": "... positioned as <实体> ...",
+   "sha256": "b20bada8c5a232cf32694f3f3a9a2303292cf3ce6c2e8982f7c5f5b38d1bf3f9",
+   "i": 5049
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\修改执行位置中的坐标为指定实体的坐标，如果有多个实体，则分别以每个实体的坐标作为执行位置的坐标，多次运行指令\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\修改执行位置中的坐标为指定实体的坐标，如果有多个实体，则分别以每个实体的坐标作为执行位置的坐标，多次运行指令\\\\",
+   "sha256": "cd6683d8846f6c9fab25474e30d2daebe58f10a4cb5f27bd40f97c6ba6c29131",
+   "i": 5050
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "还是很简单，让我们来试一试：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "还是很简单，让我们来试一试：",
+   "sha256": "ac9aea7d5fb38194c0f7a45bf51b22eae774120a95119e90d0b0882b8d01ba17",
+   "i": 5051
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute positioned 1 1 1 run tp @s ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/execute positioned 1 1 1 run tp @s ~ ~ ~",
+   "sha256": "1f31e5bc5bdd710c9557b0b33ca6572befef41812626a1e90261bb8fa1cf5de2",
+   "i": 5052
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会把你",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "tp到(1.5,1,1.5)的位置。至于为什么不会tp到(1,1,1)处，我们在前几章已经讲过了。",
+     "p": {}
+    }
+   ],
+   "text": "这将会把你tp到(1.5,1,1.5)的位置。至于为什么不会tp到(1,1,1)处，我们在前几章已经讲过了。",
+   "sha256": "bbe07a67f0728669bfac4598d39342209c1f2611fca9ff3eafd8f89bf81dbcc5",
+   "i": 5053
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute positioned as @e[type=villager] run setblock ~ ~-1 ~ minecraft:diamond_block",
+     "p": {}
+    }
+   ],
+   "text": "/execute positioned as @e[type=villager] run setblock ~ ~-1 ~ minecraft:diamond_block",
+   "sha256": "6cbfa5359d808283cf21e29d77ac1bbbc83662eabafd8271b89610846f5b7bb4",
+   "i": 5054
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令将会在每名村民的脚下放置一个钻石块。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令将会在每名村民的脚下放置一个钻石块。",
+   "sha256": "cfce0128a36f86dbc6470677850f14e5e9f3fabc669d47451eaeaad94e0c0928",
+   "i": 5055
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但还是请注意，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "positioned仅仅只会修改执行位置中的坐标。",
+     "p": {}
+    }
+   ],
+   "text": "但还是请注意，positioned仅仅只会修改执行位置中的坐标。",
+   "sha256": "eab3e417042457fa8f3e1d77e3ed2cb7a7e28f3f84f5922965c3a2cc25f5e9e6",
+   "i": 5056
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为什么我要多次强调这个东西？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "为什么我要多次强调这个东西？",
+   "sha256": "f3d824c873345ebd5430d3cabae04cad40570c58d3387ccd4afaa1e17fa903af",
+   "i": 5057
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个最简单的例子，假设你在下界，主世界有一个村民位于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1,23,1)的位置，此时你在下界运行一遍上面的指令，你就会发现：",
+     "p": {}
+    }
+   ],
+   "text": "举个最简单的例子，假设你在下界，主世界有一个村民位于(1,23,1)的位置，此时你在下界运行一遍上面的指令，你就会发现：",
+   "sha256": "2a8b1e601cf7ed918df4195bc3454bfc28116a0a27e501e9b99f387ada7e99d8",
+   "i": 5058
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在下界的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1,22,1)处，放置了一个钻石块，但理想情况下应该是在主世界放置。",
+     "p": {}
+    }
+   ],
+   "text": "在下界的(1,22,1)处，放置了一个钻石块，但理想情况下应该是在主世界放置。",
+   "sha256": "651b295e6a4ce28fe4eb0bab43f74689e9a6ed5c2cb3bdadcb47d94567c70bbc",
+   "i": 5059
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是怎么回事？答案很简单：因为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "positioned只会修改坐标，不会修改维度。如果你真的要使得在下界也能够让主世界的村民脚下生钻，有两种方法：",
+     "p": {}
+    }
+   ],
+   "text": "这是怎么回事？答案很简单：因为positioned只会修改坐标，不会修改维度。如果你真的要使得在下界也能够让主世界的村民脚下生钻，有两种方法：",
+   "sha256": "0d838c360914913c3ccf03c9e4571e4e541839765c901d79aadbac723407e821",
+   "i": 5060
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/execute as @e[type=villager] run setblock ~ ~-1 ~ minecraft:diamond_block \\\\将positioned as替换为as\\\\",
+     "p": {}
+    }
+   ],
+   "text": "①/execute as @e[type=villager] run setblock ~ ~-1 ~ minecraft:diamond_block \\\\将positioned as替换为as\\\\",
+   "sha256": "caef1287c8a05994490a77057164a3dfb1cf2e3f8dd383f8506512ee19f314ea",
+   "i": 5061
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/execute positioned as @e[type=villager] in minecraft:overworld run setblock ~ ~-1 ~ minecraft:diamond_block \\\\ 加上in子命令，指定维度位置是主世界\\\\",
+     "p": {}
+    }
+   ],
+   "text": "②/execute positioned as @e[type=villager] in minecraft:overworld run setblock ~ ~-1 ~ minecraft:diamond_block \\\\ 加上in子命令，指定维度位置是主世界\\\\",
+   "sha256": "37de82785233d104e313128ede5ac21a9ce6c70d3aad5f2dc69be47462a58bf2",
+   "i": 5062
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后，我们只剩下了一个修饰子命令：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "align",
+     "p": {}
+    }
+   ],
+   "text": "最后，我们只剩下了一个修饰子命令：align",
+   "sha256": "8693ab7b3a718d1fc978717891ce06d0a8a5b01312d86fb386f7d928868de550",
+   "i": 5063
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "align这个子命令比较特殊，它并不是说修改维度位置为某个实体所处的维度，也不是说修改旋转角度为某个方块的朝向，而是对执行位置中的坐标小修小补：对小数向下取整，对整数保留不变，将坐标改为方块坐标。其语法如下：",
+     "p": {}
+    }
+   ],
+   "text": "align这个子命令比较特殊，它并不是说修改维度位置为某个实体所处的维度，也不是说修改旋转角度为某个方块的朝向，而是对执行位置中的坐标小修小补：对小数向下取整，对整数保留不变，将坐标改为方块坐标。其语法如下：",
+   "sha256": "3d3d8b17c934dac2998874368f0610c7749dc8ff9db70adf1f18f31e77c9d6d7",
+   "i": 5064
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... align <坐标组合> ...",
+     "p": {}
+    }
+   ],
+   "text": "... align <坐标组合> ...",
+   "sha256": "d1682474b383d779bc5cdfd6b26e73db9d4c787e0979586d83f7ddc2c7f1a3a3",
+   "i": 5065
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，『坐标组合』参数可以填写任意的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "xyz。注意啊，这里不是填写具体的数字，而是就填写xyz这三个字母的任意组合，甚至缺个x缺个y之类的都可以，只是不能重复而已。",
+     "p": {}
+    }
+   ],
+   "text": "其中，『坐标组合』参数可以填写任意的xyz。注意啊，这里不是填写具体的数字，而是就填写xyz这三个字母的任意组合，甚至缺个x缺个y之类的都可以，只是不能重复而已。",
+   "sha256": "1506ef898e62bd898ee06ec1ef4f2b60bac503210fe70a48d4d925318e5d2549",
+   "i": 5066
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "比如：",
+   "sha256": "a9527ddcd686491dc2f56c436383c4f102e02b2389a057e3d7bfc0caf93382a4",
+   "i": 5067
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute align xyz run tp @s ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/execute align xyz run tp @s ~ ~ ~",
+   "sha256": "cff3deccdae73462a60dca3ca250d08308e7d5e1a860b108bd6bef70fa33bfec",
+   "i": 5068
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "假设你原本的坐标是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(-105.315,-57.50609,-25.875)，使用上述指令后你会传送到(-106,-58,-26)，也就是将你的xyz三个坐标分别向下取整再传送。",
+     "p": {}
+    }
+   ],
+   "text": "假设你原本的坐标是(-105.315,-57.50609,-25.875)，使用上述指令后你会传送到(-106,-58,-26)，也就是将你的xyz三个坐标分别向下取整再传送。",
+   "sha256": "28af621a56cfcb0dbdfb3b5dec9b01d9fa4789f5cad96db5b496765e952c7bfe",
+   "i": 5069
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面这条指令你也可以写成：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "上面这条指令你也可以写成：",
+   "sha256": "c92f3b1c1734e0ec1379fb630db1352d084fd85a1f99b47069204fa9075f8e4e",
+   "i": 5070
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute align yzx run tp @s ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/execute align yzx run tp @s ~ ~ ~",
+   "sha256": "461c4309b39c850f45ff0bb15b0b915275f4d47d1cae789f23d4075b0aaaf595",
+   "i": 5071
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute align zxy run tp @s ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/execute align zxy run tp @s ~ ~ ~",
+   "sha256": "1cfe897514b5dd283a1f6f9e144cf7db9e0296eb6753a09460c811110465a361",
+   "i": 5072
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "都可以，就是不能这么写：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "都可以，就是不能这么写：",
+   "sha256": "65db87f844828351b41db1d8250638c15e9ee534e1cc76d531766191fed6a045",
+   "i": 5073
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute align 1 1 1 run tp @s ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/execute align 1 1 1 run tp @s ~ ~ ~",
+   "sha256": "d7a51d58531bb9459a81c3a755e174fb1cde1179a5623199b7973b9901c8c08c",
+   "i": 5074
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute align xxyyzz run tp @s ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/execute align xxyyzz run tp @s ~ ~ ~",
+   "sha256": "52696356c7e525cf008731681abeb90f501dee2638bdfe331ee774add86f87db",
+   "i": 5075
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子是不行的。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这样子是不行的。",
+   "sha256": "65d6b6ed0fc6c99a119bcc75c9862e03fcbe82bbdbb198f59759d5720e8eb14f",
+   "i": 5076
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你只想对",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "x坐标和z坐标进行向下取整，只需要去掉一个y就可以了：",
+     "p": {}
+    }
+   ],
+   "text": "如果你只想对x坐标和z坐标进行向下取整，只需要去掉一个y就可以了：",
+   "sha256": "0de4009cce7e5ef43cda5b2b97db7b6ca6432ef1ed409d7b7d6e2f0355cfbc9c",
+   "i": 5077
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute align xz ...",
+     "p": {}
+    }
+   ],
+   "text": "/execute align xz ...",
+   "sha256": "c809ca125bed57e9cd2098a98ad6d7bdc1434bac5f3b4ac928502de95785f685",
+   "i": 5078
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "8条修饰子命令都已经学完了，让我们来将它们一齐运用一下：",
+     "p": {}
+    }
+   ],
+   "text": "现在，8条修饰子命令都已经学完了，让我们来将它们一齐运用一下：",
+   "sha256": "68cf3f84560f88feb069b4e91a7cac9cb528399e2e09c2f804c6526e93d88a3d",
+   "i": 5079
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute in minecraft:the_nether positioned as @s run tp @s ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/execute in minecraft:the_nether positioned as @s run tp @s ~ ~ ~",
+   "sha256": "92d88859da607df5acf54a2c5f9497d93a1ef784bffc86ca559420387813a160",
+   "i": 5080
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会把你传送到地狱，并使得坐标不会变化。假设你原本在主世界是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1,1,1)，使用这条指令你只会跑到下界的(1,1,1)，x和z轴并不会除以8。",
+     "p": {}
+    }
+   ],
+   "text": "这将会把你传送到地狱，并使得坐标不会变化。假设你原本在主世界是(1,1,1)，使用这条指令你只会跑到下界的(1,1,1)，x和z轴并不会除以8。",
+   "sha256": "f34f14e7eff2e67d112c8a53c501553461937785179635a5e20c69954a654e80",
+   "i": 5081
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为何？让我们来使用『流水线思维』分析一下：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "为何？让我们来使用『流水线思维』分析一下：",
+   "sha256": "ce350f5701ecc5881ab594a27f9ef301090ebb25e9e4edcddac3f15755dfdf95",
+   "i": 5082
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "At First——你自己、(1,1,1)、主世界、你自己的旋转角度、feet",
+     "p": {}
+    }
+   ],
+   "text": "At First——你自己、(1,1,1)、主世界、你自己的旋转角度、feet",
+   "sha256": "96197f0655ac0934f6647374d2a956716a67ce00e217990209d71fae99c14a58",
+   "i": 5083
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "in——你自己、(0.125,1.0,125)、地狱、你自己的旋转角度、feet",
+     "p": {}
+    }
+   ],
+   "text": "in——你自己、(0.125,1.0,125)、地狱、你自己的旋转角度、feet",
+   "sha256": "ce4a5402f9cf2ec96d48b4b61f8162db4d86b3ddd1e0770d135ec7cdb4a50dd3",
+   "i": 5084
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\in修改了维度位置到地狱，并且由于是从主世界到地狱，x和z轴就被分别除以8\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\in修改了维度位置到地狱，并且由于是从主世界到地狱，x和z轴就被分别除以8\\\\",
+   "sha256": "c40dc91983073c7a02e63a4257d07ec30a288696f8d376ea2cc660bd04f57a44",
+   "i": 5085
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "positioned——你自己、(1,1,1)、地狱、你自己的旋转角度、feet",
+     "p": {}
+    }
+   ],
+   "text": "positioned——你自己、(1,1,1)、地狱、你自己的旋转角度、feet",
+   "sha256": "2752aefeb7ee5bd7488d37d96f8785b9175cb7fa8e91892f53ed6596e7f74d91",
+   "i": 5086
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\positioned将坐标重新改成了你自己的坐标\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\positioned将坐标重新改成了你自己的坐标\\\\",
+   "sha256": "f9af32e5685926def7221a377b1e60ad003f8157c2843a69cecfdbc6457fc5e9",
+   "i": 5087
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以，你才会传送到地狱的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1,1,1)处，而不是(0.125,1,0.125)。",
+     "p": {}
+    }
+   ],
+   "text": "所以，你才会传送到地狱的(1,1,1)处，而不是(0.125,1,0.125)。",
+   "sha256": "d49c0e95fd75125c8ce1ab2dbfeeaa3f5d2a629557e2df11cb7a046bf680d5f7",
+   "i": 5088
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "再来看看第二条：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "再来看看第二条：",
+   "sha256": "5fd92c5fbe6c5c1ae44839878de7ddfc12a4bf642a07e6b35754a8649a6090b2",
+   "i": 5089
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute as @e[limit=13,sort=nearest] at @s rotated 360 -45 anchored eyes facing entity @e[limit=1,sort=nearest,distance=0.1..] feet align yzx in minecraft:the_end positioned 1 24 1.0 if predicate snow_king:0.3 run tp @s ^ ^ ^",
+     "p": {}
+    }
+   ],
+   "text": "/execute as @e[limit=13,sort=nearest] at @s rotated 360 -45 anchored eyes facing entity @e[limit=1,sort=nearest,distance=0.1..] feet align yzx in minecraft:the_end positioned 1 24 1.0 if predicate snow_king:0.3 run tp @s ^ ^ ^",
+   "sha256": "30d64e554d18bfe56cb64fafb322757f6147f881aec7cc5b27f723901f0f9b23",
+   "i": 5090
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute用到了10个子命令：as、at、rotated、anchored、facing、align、in、positioned、if和run，其中if子命令是我们接下来的内容，但早点接触也没事。",
+     "p": {}
+    }
+   ],
+   "text": "这条execute用到了10个子命令：as、at、rotated、anchored、facing、align、in、positioned、if和run，其中if子命令是我们接下来的内容，但早点接触也没事。",
+   "sha256": "2ee64404cc4f9b1eebdacff60a3d88e01f7f6285d9371d2b0a2bf478ef1f3fb2",
+   "i": 5091
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看起来很复杂的样子，但我们只需要使用『流水线思维』，拆开来逐个分析即可。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "看起来很复杂的样子，但我们只需要使用『流水线思维』，拆开来逐个分析即可。",
+   "sha256": "e51483e404e6ec1bbdec3e607a7d1509ecdc03a6dc23d220261aa978cca81079",
+   "i": 5092
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "假设我们使用一个位于主世界",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1,25,1)处的命令方块运行此指令（聊天框装不下这么长的指令）：",
+     "p": {}
+    }
+   ],
+   "text": "假设我们使用一个位于主世界(1,25,1)处的命令方块运行此指令（聊天框装不下这么长的指令）：",
+   "sha256": "bb53b4b89b2046c7842122fe91b245eeeac7b3355f4ff4493eeafcf140fad5ef",
+   "i": 5093
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "At First",
+     "p": {}
+    }
+   ],
+   "text": "At First",
+   "sha256": "95e0d8f494de04abe9da65a2e74d9642ea74b9a3ff2dd4f90ab41af1a0c75261",
+   "i": 5094
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→无、",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1,25,1)、主世界、(0°,0°)、feet",
+     "p": {}
+    }
+   ],
+   "text": "→无、(1,25,1)、主世界、(0°,0°)、feet",
+   "sha256": "dd00a5a79aaae7a09e20ce266fcc93e498d59899c4ff514414352eda7d74e539",
+   "i": 5095
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "as @e[limit=13,sort=nearest]",
+     "p": {}
+    }
+   ],
+   "text": "as @e[limit=13,sort=nearest]",
+   "sha256": "945b1a639fddcc5e72b84e19bda0451f5c3ac607be7b4f3a46f685f15bad2220",
+   "i": 5096
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→距离命令方块最近的实体、",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1,25,1)、主世界、(0°,0°)、feet",
+     "p": {}
+    }
+   ],
+   "text": "→距离命令方块最近的实体、(1,25,1)、主世界、(0°,0°)、feet",
+   "sha256": "7661942a95cd21c0acce0c6041aadbd6c404751cf5a79d253c2d4077a994dae0",
+   "i": 5097
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→距离命令方块第二近的实体、",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1,25,1)、主世界、(0°,0°)、feet",
+     "p": {}
+    }
+   ],
+   "text": "→距离命令方块第二近的实体、(1,25,1)、主世界、(0°,0°)、feet",
+   "sha256": "e8ebc61e51f52eff77a6ca88e6450815e7a1cda7116314b9b504bdaa521967c3",
+   "i": 5098
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→距离命令方块第三近的实体、",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1,25,1)、主世界、(0°,0°)、feet",
+     "p": {}
+    }
+   ],
+   "text": "→距离命令方块第三近的实体、(1,25,1)、主世界、(0°,0°)、feet",
+   "sha256": "77044b425d1c8411be9d83809ad883d2f53f90e52e636b528d04b8bcd2e452ce",
+   "i": 5099
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5100
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→距离命令方块第",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "13近的实体、(1,25,1)、主世界、(0°,0°)、feet",
+     "p": {}
+    }
+   ],
+   "text": "→距离命令方块第13近的实体、(1,25,1)、主世界、(0°,0°)、feet",
+   "sha256": "5e50ec195a8fdbe19f7d657ea22beaf254fd5575c6e662e96a90167a1de34c30",
+   "i": 5101
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "at @s",
+     "p": {}
+    }
+   ],
+   "text": "at @s",
+   "sha256": "945680a6cbc19d9df4435353dbcde4603bf6b4b41cbb3b687899ea1189c9d611",
+   "i": 5102
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→距离命令方块最近的实体、距离命令方块最近的实体的位置、主世界、距离命令方块最近的实体的旋转角度、",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "feet",
+     "p": {}
+    }
+   ],
+   "text": "→距离命令方块最近的实体、距离命令方块最近的实体的位置、主世界、距离命令方块最近的实体的旋转角度、feet",
+   "sha256": "5d7ef34d50944fae920697fd06fdf44e5db0754d9b12df350eb03d7b21bab8c2",
+   "i": 5103
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5104
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "rotated 360 -45",
+     "p": {}
+    }
+   ],
+   "text": "rotated 360 -45",
+   "sha256": "ac33d6db00fdaa6999278c1ec3abada60f0ff1fe92db4590f8fa9275dcec08f6",
+   "i": 5105
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→距离命令方块最近的实体、距离命令方块最近的实体的位置、主世界、",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(0°,-45°)、feet",
+     "p": {}
+    }
+   ],
+   "text": "→距离命令方块最近的实体、距离命令方块最近的实体的位置、主世界、(0°,-45°)、feet",
+   "sha256": "ba2224f6019f8be534f0165cb8cb7917773cc2f30b2a1c06b2c80bc5b7c05680",
+   "i": 5106
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5107
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "注：大多数情况下，当水平旋转角度为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "360°的倍数时，游戏会将其转化为0°。",
+     "p": {}
+    }
+   ],
+   "text": "注：大多数情况下，当水平旋转角度为360°的倍数时，游戏会将其转化为0°。",
+   "sha256": "c5c27bd42517112fce0270283f34232d5564a7d7da94c177e3c12e93c4b3ff72",
+   "i": 5108
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "anchored eyes",
+     "p": {}
+    }
+   ],
+   "text": "anchored eyes",
+   "sha256": "ab3965afdc6d645f4c0608a0ae544df2e783760c2ed5fd48c44a91ed653b2a9d",
+   "i": 5109
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→距离命令方块最近的实体、距离命令方块最近的实体的位置、主世界、",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(0°,-45°)、eyes",
+     "p": {}
+    }
+   ],
+   "text": "→距离命令方块最近的实体、距离命令方块最近的实体的位置、主世界、(0°,-45°)、eyes",
+   "sha256": "3cb1f17b5c21cc5f722a4973a0f064d3d61ed2c9625ef9811c75bd11a85632d0",
+   "i": 5110
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5111
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "facing entity @e[limit=1,sort=nearest,distance=0.1..] feet",
+     "p": {}
+    }
+   ],
+   "text": "facing entity @e[limit=1,sort=nearest,distance=0.1..] feet",
+   "sha256": "ce76e7ca64ef7d63f78b63cbca15901ca5c4c4a7dc8f90dc2f4ae88a9abd9b62",
+   "i": 5112
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→距离命令方块最近的实体、距离命令方块最近的实体的位置、主世界、距离命令方块最近的实体用眼睛看向距离它最近实体的脚的朝向、",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "eyes",
+     "p": {}
+    }
+   ],
+   "text": "→距离命令方块最近的实体、距离命令方块最近的实体的位置、主世界、距离命令方块最近的实体用眼睛看向距离它最近实体的脚的朝向、eyes",
+   "sha256": "9ae5f3cd20b79baa95e720997863ffacb18e4986aa69af3883db1a77f2d52039",
+   "i": 5113
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5114
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "align yzx",
+     "p": {}
+    }
+   ],
+   "text": "align yzx",
+   "sha256": "765cc1513565e963fb8fbcc0b1f993fbb406cab57e7dd87246805e95fe4c4a5b",
+   "i": 5115
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→距离命令方块最近的实体、距离命令方块最近的实体的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "xyz轴向下取整的值（整数会保留）、主世界、距离命令方块最近的实体用眼睛看向距离它最近实体的脚的朝向、eyes",
+     "p": {}
+    }
+   ],
+   "text": "→距离命令方块最近的实体、距离命令方块最近的实体的xyz轴向下取整的值（整数会保留）、主世界、距离命令方块最近的实体用眼睛看向距离它最近实体的脚的朝向、eyes",
+   "sha256": "ee169694723a71635bd2c5d48fa46d23b7433d1347832955a137dbb2f0c087ac",
+   "i": 5116
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5117
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "in minecraft:the_end",
+     "p": {}
+    }
+   ],
+   "text": "in minecraft:the_end",
+   "sha256": "30cf671bb898c7bf49711166186240faa74f7f60850a9b4fd43e600a85727659",
+   "i": 5118
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→距离命令方块最近的实体、距离命令方块最近的实体的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "xyz轴向下取整的值（整数会保留）、末地、距离命令方块最近的实体用眼睛看向距离它最近实体的脚的朝向、eyes",
+     "p": {}
+    }
+   ],
+   "text": "→距离命令方块最近的实体、距离命令方块最近的实体的xyz轴向下取整的值（整数会保留）、末地、距离命令方块最近的实体用眼睛看向距离它最近实体的脚的朝向、eyes",
+   "sha256": "df088d8895b78442720597caa112d57b283155ca4f92affa8587fc10eb39cc78",
+   "i": 5119
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5120
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "positioned 1 24 1.0",
+     "p": {}
+    }
+   ],
+   "text": "positioned 1 24 1.0",
+   "sha256": "02d57fd776ea8bedd1ec305f0dee514dfa45b244db423e0c65eb1feccea7378c",
+   "i": 5121
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→距离命令方块最近的实体、",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1.5,24.0,1.0)、末地、距离命令方块最近的实体用眼睛看向距离它最近实体的脚的朝向、eyes",
+     "p": {}
+    }
+   ],
+   "text": "→距离命令方块最近的实体、(1.5,24.0,1.0)、末地、距离命令方块最近的实体用眼睛看向距离它最近实体的脚的朝向、eyes",
+   "sha256": "eb6ea3dd96d6827ab5476ba45e44b1241d98c6cb944e43941cf776cba293c72c",
+   "i": 5122
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5123
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "if predicate snow_king:0.3",
+     "p": {}
+    }
+   ],
+   "text": "if predicate snow_king:0.3",
+   "sha256": "cd5e0513b5be389b937aba66f6afa660c5b64f430bca22fed40eb166b45d9961",
+   "i": 5124
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "解释如下：如果谓词条件『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "snow_king:0.3』通过，即运行指令",
+     "p": {}
+    }
+   ],
+   "text": "解释如下：如果谓词条件『snow_king:0.3』通过，即运行指令",
+   "sha256": "0200a553d633c1f9b31af6dc81300cee78d2d6164d8aa787d7a6d094f92d3a01",
+   "i": 5125
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，谓词条件『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "snow_king:0.3』是数据包雪王（Snow King）中的一个谓词条件（没错，就是那个『蜜雪冰城甜蜜蜜』的那个数据包），这个条件会随机一个0到1的浮点数（类似于小数），如果随机的数小于0.3就算条件通过，即运行这条指令有30%的概率。",
+     "p": {}
+    }
+   ],
+   "text": "其中，谓词条件『snow_king:0.3』是数据包雪王（Snow King）中的一个谓词条件（没错，就是那个『蜜雪冰城甜蜜蜜』的那个数据包），这个条件会随机一个0到1的浮点数（类似于小数），如果随机的数小于0.3就算条件通过，即运行这条指令有30%的概率。",
+   "sha256": "c890bbe68b0599ed09e4c584ae396b564917b13f561dd961fa1792ca27e3c0c5",
+   "i": 5126
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "什么是谓词条件呢？在我们讲数据包之前（也有可能永远不会讲到），你可以将这东西当作是一个打包好的『判断函数』，在这个『判断函数』里面写了一些东西，可以判断当前游戏的情况是否符合指定的条件，如果符合则通过判断，如果不符合则不通过判断。比如里面写了一个『当前游戏正在下雨』的条件，当这个条件被调用时就会看看现在游戏是否在下雨，如果下雨就会通过判断，你的指令也就能够运行，反之就不会运行。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "什么是谓词条件呢？在我们讲数据包之前（也有可能永远不会讲到），你可以将这东西当作是一个打包好的『判断函数』，在这个『判断函数』里面写了一些东西，可以判断当前游戏的情况是否符合指定的条件，如果符合则通过判断，如果不符合则不通过判断。比如里面写了一个『当前游戏正在下雨』的条件，当这个条件被调用时就会看看现在游戏是否在下雨，如果下雨就会通过判断，你的指令也就能够运行，反之就不会运行。",
+   "sha256": "92ca2c6a58a076525b63fa2573e542e1e21fb31ddd5313296c8e80d896dad39d",
+   "i": 5127
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当然，你只需要在目标选择器或",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute指令中通过这个谓词的命名空间ID来调用即可使用这个谓词了。只不过可惜的是，原版并没有任何的谓词条件，这谓词是专门给数据包用的东西。",
+     "p": {}
+    }
+   ],
+   "text": "当然，你只需要在目标选择器或execute指令中通过这个谓词的命名空间ID来调用即可使用这个谓词了。只不过可惜的是，原版并没有任何的谓词条件，这谓词是专门给数据包用的东西。",
+   "sha256": "e70ade0bcdcd6b679aa565449a2a410b96e89ebfec08e5159479113c770ffc7f",
+   "i": 5128
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "run tp @s ^ ^ ^",
+     "p": {}
+    }
+   ],
+   "text": "run tp @s ^ ^ ^",
+   "sha256": "b6d138f57613fd92e03993d25defc7f7bcddb0260e7f878e2405dfab30509fb4",
+   "i": 5129
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最多运行",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "13次指令，分别以距离命令方块最近的实体、距离命令方块第二近的实体、第三近的实体......为执行者，(1.5,24.0,1.0)为执行坐标，末地为执行维度，执行者用眼睛看向距离它最近实体的脚的朝向作为执行朝向，eyes作为朝向基准部位。将执行者传送至(1.5,24.0,1.0)，并将其旋转角度更改为执行朝向的旋转角度。",
+     "p": {}
+    }
+   ],
+   "text": "最多运行13次指令，分别以距离命令方块最近的实体、距离命令方块第二近的实体、第三近的实体......为执行者，(1.5,24.0,1.0)为执行坐标，末地为执行维度，执行者用眼睛看向距离它最近实体的脚的朝向作为执行朝向，eyes作为朝向基准部位。将执行者传送至(1.5,24.0,1.0)，并将其旋转角度更改为执行朝向的旋转角度。",
+   "sha256": "4d3ede1338a3cdec5e56a38f6217aec5a2269f7284f69dadd4124dc2c65a57ed",
+   "i": 5130
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样分析下来，是不是就清楚了许多？所以说不要慌张，这种东西仅仅只是纸老虎而已。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这样分析下来，是不是就清楚了许多？所以说不要慌张，这种东西仅仅只是纸老虎而已。",
+   "sha256": "e9e10b5d90aa2cc869f80ea087491cf51684773c3e9ab8badb30c5e0fbf7af0c",
+   "i": 5131
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你已经是一个对",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "NBT和方块状态较为了解的人，或许你还可以看看第三条：",
+     "p": {}
+    }
+   ],
+   "text": "如果你已经是一个对NBT和方块状态较为了解的人，或许你还可以看看第三条：",
+   "sha256": "6b8d74d784bc02f23ed38c13479706c6eb4e13f27b2131f781cc983240398f10",
+   "i": 5132
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（实际上这有两条指令）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（实际上这有两条指令）",
+   "sha256": "5230f5fdb1d20b5b9eb3ee2a4968b35edb42aa0e0ba10d029ceca7612bfa62e4",
+   "i": 5133
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute as @e[type=arrow,nbt={inGround:1b},tag=!used] at @s align xyz run summon falling_block ~ ~6 ~ {Time:1,BlockState:{Name:\"redstone_block\"},Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"activator_rail\"},Passengers:[{id:\"command_block_minecart\",Command:\"/setblock ~ ~1 ~ command_block[facing=east]{Command:\\\"/execute positioned ~ ~-2 ~ at @e[type=item,distance=..5] run setblock ~ ~-1 ~ diamond_block\\\",auto:1}\",Passengers:[{id:\"command_block_minecart\",Command:\"/setblock ~1 ~1 ~ chain_command_block[facing=east]{Command:\\\"/execute positioned ~-1 ~-2 ~ as @e[type=item,distance=..5] run kill @s\\\",auto:1}\",Passengers:[{id:\"command_block_minecart\",Command:\"/setblock ~2 ~1 ~ chain_command_block[facing=east]{Command:\\\"/execute positioned ~-2 ~-2 ~ as @e[type=arrow,distance=..5] run kill @s\\\",auto:1}\",Passengers:[{id:\"command_block_minecart\",Command:\"/setblock ~3 ~1 ~ chain_command_block[facing=east]{Command:\\\"/execute positioned ~-3 ~-1 ~ run kill @e[type=command_block_minecart,distance=..2]\\\",auto:1}\",Passengers:[{id:\"command_block_minecart\",Command:\"/setblock ~4 ~1 ~ chain_command_block[facing=east]{Command:\\\"/fill ~-4 ~ ~ ~-4 ~-2 ~ minecraft:air\\\",auto:1}\",Passengers:[{id:\"command_block_minecart\",Command:\"/setblock ~5 ~1 ~ chain_command_block[facing=east]{Command:\\\"/fill ~ ~ ~ ~-5 ~ ~ minecraft:air\\\",auto:1}\"}]}]}]}]}]}]}]}",
+     "p": {}
+    }
+   ],
+   "text": "/execute as @e[type=arrow,nbt={inGround:1b},tag=!used] at @s align xyz run summon falling_block ~ ~6 ~ {Time:1,BlockState:{Name:\"redstone_block\"},Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"activator_rail\"},Passengers:[{id:\"command_block_minecart\",Command:\"/setblock ~ ~1 ~ command_block[facing=east]{Command:\\\"/execute positioned ~ ~-2 ~ at @e[type=item,distance=..5] run setblock ~ ~-1 ~ diamond_block\\\",auto:1}\",Passengers:[{id:\"command_block_minecart\",Command:\"/setblock ~1 ~1 ~ chain_command_block[facing=east]{Command:\\\"/execute positioned ~-1 ~-2 ~ as @e[type=item,distance=..5] run kill @s\\\",auto:1}\",Passengers:[{id:\"command_block_minecart\",Command:\"/setblock ~2 ~1 ~ chain_command_block[facing=east]{Command:\\\"/execute positioned ~-2 ~-2 ~ as @e[type=arrow,distance=..5] run kill @s\\\",auto:1}\",Passengers:[{id:\"command_block_minecart\",Command:\"/setblock ~3 ~1 ~ chain_command_block[facing=east]{Command:\\\"/execute positioned ~-3 ~-1 ~ run kill @e[type=command_block_minecart,distance=..2]\\\",auto:1}\",Passengers:[{id:\"command_block_minecart\",Command:\"/setblock ~4 ~1 ~ chain_command_block[facing=east]{Command:\\\"/fill ~-4 ~ ~ ~-4 ~-2 ~ minecraft:air\\\",auto:1}\",Passengers:[{id:\"command_block_minecart\",Command:\"/setblock ~5 ~1 ~ chain_command_block[facing=east]{Command:\\\"/fill ~ ~ ~ ~-5 ~ ~ minecraft:air\\\",auto:1}\"}]}]}]}]}]}]}]}",
+   "sha256": "9d35ec42ca1afbdd3cd8206b43fd8ef5cc49a6330d910132905211d3bc5317b7",
+   "i": 5134
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/tag @e[type=arrow,nbt={inGround:1b},tag=!used] add used",
+     "p": {}
+    }
+   ],
+   "text": "/tag @e[type=arrow,nbt={inGround:1b},tag=!used] add used",
+   "sha256": "9c722a070a692e7fe64ebef17b1e7150421dba2a3bf03f084d8cebb9582cc990",
+   "i": 5135
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是一个作者自己写的十分典型的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "OOC指令，关于什么是OOC我们已经在第六十二章讲命令方块矿车时遇到过了，即『仅有一条指令』。虽然我们在那一章已经讲过了OOC的原理，但这是我们第一次在本书中遇到真正的OOC指令。很长是不是？但其实它是由多个指令，通过实体NBT的形式套娃而成的，其中用到了大量的execute指令。",
+     "p": {}
+    }
+   ],
+   "text": "这是一个作者自己写的十分典型的OOC指令，关于什么是OOC我们已经在第六十二章讲命令方块矿车时遇到过了，即『仅有一条指令』。虽然我们在那一章已经讲过了OOC的原理，但这是我们第一次在本书中遇到真正的OOC指令。很长是不是？但其实它是由多个指令，通过实体NBT的形式套娃而成的，其中用到了大量的execute指令。",
+   "sha256": "ecb91b5248fbfc4acaecc9c1d72174e472bf404c1ca74e4722c00c2fe9c523c4",
+   "i": 5136
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你对此感兴趣，可以尝试拆分一下这一大串指令，猜一猜这是干什么的。我们会在之后具体讲到",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "OOC时讲解这一大串指令。",
+     "p": {}
+    }
+   ],
+   "text": "如果你对此感兴趣，可以尝试拆分一下这一大串指令，猜一猜这是干什么的。我们会在之后具体讲到OOC时讲解这一大串指令。",
+   "sha256": "25c6cfaf9dad0a8f97cc41c394ad5cd7ab2950ee577885e7ce9a97b4e6c6676e",
+   "i": 5137
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么本章就到此结束了。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "那么本章就到此结束了。",
+   "sha256": "26cfc9ab455b0710fea02e0edd03f3974f20b0ce391b0f04939a149c9878c557",
+   "i": 5138
+  }
+ ],
+ "text_sha256": "00d99be62910e45dcef1f5371654d3eb19f49554f324efbd7c87c9caeb514f61",
+ "chars": 7525
+}

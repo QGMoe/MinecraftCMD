@@ -1,0 +1,2795 @@
+{
+ "id": "ch134",
+ "kind": "chapter",
+ "number": 134,
+ "title": "第一百三十四章 生物的共通NBT-4",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   10773,
+   10945
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第一百三十四章_生物的共通NBT-4"
+    },
+    {
+     "t": "第一百三十四章 生物的共通NBT-4",
+     "p": {}
+    }
+   ],
+   "text": "第一百三十四章 生物的共通NBT-4",
+   "sha256": "706fd513fd98f8b4b93312e06b506502e7ecbd065c8644cca82520cfde22b0b2",
+   "i": 10773
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上一章讲到生物的共通NBT的最后一个：",
+     "p": {}
+    }
+   ],
+   "text": "上一章讲到生物的共通NBT的最后一个：",
+   "sha256": "d8e3253c3a8fb5d99faa4a2f55d5ecc5b0139f0e6fe4cbfdc64882d8ee8d4f93",
+   "i": 10774
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Brain",
+     "p": {}
+    }
+   ],
+   "text": "Brain",
+   "sha256": "7e4d5c460c04457ee9f1bc63bad577f7c312fc20a590f1b710aff1242d580a79",
+   "i": 10775
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "而这个Brain里面的memories就是存储记忆的地方。记忆有这么几个：",
+     "p": {}
+    }
+   ],
+   "text": "而这个Brain里面的memories就是存储记忆的地方。记忆有这么几个：",
+   "sha256": "b0c6ba94766ccf7fbc897f2bcd922e4edbbe87df213d494499c64a81eb42b6e3",
+   "i": 10776
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:meeting_point——这个村民聚会的位置",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:meeting_point——这个村民聚会的位置",
+   "sha256": "805f7a0266612bf66e98e85dbe947ef39719338862188fe0f2ab0256a08e1f8d",
+   "i": 10777
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:home——这个村民床的位置",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:home——这个村民床的位置",
+   "sha256": "8965d67752293e67e9a56b43fcfe68b08511ec0a5f45a6634e3c2ca17d958840",
+   "i": 10778
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:job_site——这个村民工作的地方（就是这个村民的工作站坐标）",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:job_site——这个村民工作的地方（就是这个村民的工作站坐标）",
+   "sha256": "da131edc97ba7c97492bee1370b0c3c6a6bc5e5b3a32fa52e513eee7d7a7565d",
+   "i": 10779
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:last_slept——这个村民已经睡觉多长时间了",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:last_slept——这个村民已经睡觉多长时间了",
+   "sha256": "801bf6fe0f29882c276a225971ed83d31afa1f41778d6e8f54c0504151925429",
+   "i": 10780
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:last_woken——这个村民已经多久没睡觉了",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:last_woken——这个村民已经多久没睡觉了",
+   "sha256": "26109e64b8d6aac3f6ba99d31b54b2140067a4e360d67166830d5ab29608ac4c",
+   "i": 10781
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:last_worked_at_poi——这个村民多久没工作了",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:last_worked_at_poi——这个村民多久没工作了",
+   "sha256": "8f6ccae2cd998e231c7729445cdaf1bc8cbeb2ac513a12c51ece8f604ff05c2d",
+   "i": 10782
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:angry_at——这个猪灵的目标",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:angry_at——这个猪灵的目标",
+   "sha256": "03d9159a30011b19aa9f328f1842cfee3c34d63b1b9f57084de593aebd9f4282",
+   "i": 10783
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:admiring_item——这个猪灵端详物品的状态",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:admiring_item——这个猪灵端详物品的状态",
+   "sha256": "dd0bf41fa5c79095b1e2ee45d92b315556e500b173ab8d8e23cc175df159e0a3",
+   "i": 10784
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:admiring_disabled——这个猪灵拿起物品端详这个技能的冷却状态",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:admiring_disabled——这个猪灵拿起物品端详这个技能的冷却状态",
+   "sha256": "3e92a1ca1eb2fb781b2eb138f4ca7b267e996858355b560c7ece2045519941b3",
+   "i": 10785
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:hunted_recently——这个猪灵追猎这个技能的冷却状态",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:hunted_recently——这个猪灵追猎这个技能的冷却状态",
+   "sha256": "4d9ff52b845c967e8cf462928a3fd0b5062555f272556982153bb5e607cff48c",
+   "i": 10786
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这些记忆都带有“minecraft:”，说明mod也可以对记忆进行增加。",
+     "p": {}
+    }
+   ],
+   "text": "这些记忆都带有“minecraft:”，说明mod也可以对记忆进行增加。",
+   "sha256": "8f92d18bdda23ebf198861bb25b12a48decb98a3f55f4af1cbae1a126958c303",
+   "i": 10787
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，6项都是村民的，剩下4项都是猪灵的。",
+     "p": {}
+    }
+   ],
+   "text": "其中，6项都是村民的，剩下4项都是猪灵的。",
+   "sha256": "c7a33540fee0f94698f6ccd4fc2b02bd4fa2833a7a5fcdfe8c119fe020f818af",
+   "i": 10788
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在我们来看第一项记忆：",
+     "p": {}
+    }
+   ],
+   "text": "现在我们来看第一项记忆：",
+   "sha256": "f4971ba1b7945534a219cf56041105841007a5ff19acd0754254ae52c77e8d53",
+   "i": 10789
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:meeting_point——这个村民聚会的位置",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:meeting_point——这个村民聚会的位置",
+   "sha256": "805f7a0266612bf66e98e85dbe947ef39719338862188fe0f2ab0256a08e1f8d",
+   "i": 10790
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个记忆是个复合标签（{}），实际上所有记忆都是复合标签：",
+     "p": {}
+    }
+   ],
+   "text": "这个记忆是个复合标签（{}），实际上所有记忆都是复合标签：",
+   "sha256": "a80adddb6353aebbdcbe01b9f8c131ea5e3084f20853c9a199643b2c95a76edc",
+   "i": 10791
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{Brain:{memories:{minecraft:meeting_point:{}}}}",
+     "p": {}
+    }
+   ],
+   "text": "{Brain:{memories:{minecraft:meeting_point:{}}}}",
+   "sha256": "351a50b1201f39692920966e66172cab2c869544426dc0fd4bbf0e3a8adabcd6",
+   "i": 10792
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "里面只有一个标签value（值：复合标签）：",
+     "p": {}
+    }
+   ],
+   "text": "里面只有一个标签value（值：复合标签）：",
+   "sha256": "492f87b9edb1978789bb8c0734e40c176bf15afc666c37e1561025314f011d48",
+   "i": 10793
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:meeting_point:{value:{}}}}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:meeting_point:{value:{}}}}}",
+   "sha256": "30ae0bb8505367fc8d540ee431a6055dce3483b8fc84bb1ec25f5d62ecc5ae9b",
+   "i": 10794
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（老套复合标签了啊）",
+     "p": {}
+    }
+   ],
+   "text": "（老套复合标签了啊）",
+   "sha256": "8f9127e3fca9a838a3414a40f918b92420767ae093bf23791779ee787f0059e0",
+   "i": 10795
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "value里有这么几个参数：",
+     "p": {}
+    }
+   ],
+   "text": "value里有这么几个参数：",
+   "sha256": "6b29d227f3c1361d8abcd69b4e5f7835c503bf9a21e06f6828e2ec611b308a45",
+   "i": 10796
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "pos（值：列表）——聚会地点的X、Y、Z坐标",
+     "p": {}
+    }
+   ],
+   "text": "pos（值：列表）——聚会地点的X、Y、Z坐标",
+   "sha256": "e7942a91a5cef13d66e79c99ddb3bc645e2c9e140e175d834c7f221279d04f14",
+   "i": 10797
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "dimension（值：字符串）——聚会地点的纬度id",
+     "p": {}
+    }
+   ],
+   "text": "dimension（值：字符串）——聚会地点的纬度id",
+   "sha256": "1305e6e557674ae24da9cc7d37ef3728d012394dc9c5e737c384b397a0166bd7",
+   "i": 10798
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:meeting_point:{value:{pos:[X，Y，Z]，dimension:“纬度id“}}}}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:meeting_point:{value:{pos:[X，Y，Z]，dimension:“纬度id“}}}}}",
+   "sha256": "9961956def59f84716cf4dd6025a5aa047aa9e32fb267ce64c1260815696f8c2",
+   "i": 10799
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在我们举个例子，比如这个村民它的聚会场所是在主世界的X=45，Y=77，Z=1862的地方，那么它的这项记忆就将是：",
+     "p": {}
+    }
+   ],
+   "text": "现在我们举个例子，比如这个村民它的聚会场所是在主世界的X=45，Y=77，Z=1862的地方，那么它的这项记忆就将是：",
+   "sha256": "840712e768d39c8eb39c643c465b7b75bcfbd56e26a1e2bb830fc30b799ee42a",
+   "i": 10800
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:meeting_point:{value:{pos:[45，77，1862]，dimension:“0“}}}}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:meeting_point:{value:{pos:[45，77，1862]，dimension:“0“}}}}}",
+   "sha256": "f0c210f5089e473da21898133b7d818b995ab30261d03153fa2707a79d981385",
+   "i": 10801
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "是不是很简单？对了，这里的纬度id也就是世界id，主世界的世界id是0，下界是-1，末地是1（好像讲过了哎）。",
+     "p": {}
+    }
+   ],
+   "text": "是不是很简单？对了，这里的纬度id也就是世界id，主世界的世界id是0，下界是-1，末地是1（好像讲过了哎）。",
+   "sha256": "11af45677b2853244a215cb011f5f4ed996b94eeafbc0d79b6270fb7c603f168",
+   "i": 10802
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:home（这个村民床的位置）的格式和minecraft:meeting_point几乎一样，都是：",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:home（这个村民床的位置）的格式和minecraft:meeting_point几乎一样，都是：",
+   "sha256": "886f0564ea5d9b9900efa3a678833f1663338bfc595b1237ebf4e4e54d6d177b",
+   "i": 10803
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:home:{value:{pos:[床的X，床的Y，床的Z]，dimension:“床的纬度“}}}}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:home:{value:{pos:[床的X，床的Y，床的Z]，dimension:“床的纬度“}}}}}",
+   "sha256": "99f088029e9487fc201af80de1ab84383fbab3b1809c9b2a1e7cff99855626c5",
+   "i": 10804
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如一个村民的床在下界的X=45，Y=87，Z=106的位置，那么：",
+     "p": {}
+    }
+   ],
+   "text": "比如一个村民的床在下界的X=45，Y=87，Z=106的位置，那么：",
+   "sha256": "3f908e1960d00839ffb873cea4987f500cb52fda75fbe2dd0bb73d911bd123b5",
+   "i": 10805
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:home:{value:{pos:[45，87，106]，dimension:“-1“}}}}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:home:{value:{pos:[45，87，106]，dimension:“-1“}}}}}",
+   "sha256": "726a1e1ae8622cc8d5fe182f221b9089847833bef03877b3468ecadc05f2519f",
+   "i": 10806
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "嗯。对哦，村民在下界睡觉床不会爆炸吗？",
+     "p": {}
+    }
+   ],
+   "text": "嗯。对哦，村民在下界睡觉床不会爆炸吗？",
+   "sha256": "8a266cee7a28148ec9d0870af13c0f12f7a70d0639d47372cd124e8ed4063666",
+   "i": 10807
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "还真的不会爆炸（奇怪的知识增加了！）。",
+     "p": {}
+    }
+   ],
+   "text": "还真的不会爆炸（奇怪的知识增加了！）。",
+   "sha256": "63516301136031049a26536648fa7bbf3faaba73481c1ea0d7f228d4ef46b9e3",
+   "i": 10808
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "既然minecraft:home的格式和minecraft:meeting_point几乎一样，而minecraft:job_site（这个村民工作的地方）也是记录着坐标，所以minecraft:job_site实际上格式也和前面两个一样：",
+     "p": {}
+    }
+   ],
+   "text": "既然minecraft:home的格式和minecraft:meeting_point几乎一样，而minecraft:job_site（这个村民工作的地方）也是记录着坐标，所以minecraft:job_site实际上格式也和前面两个一样：",
+   "sha256": "0a26d4d440db732e2254b39071a74a36a5556b3236ff5c18385168019546ac8b",
+   "i": 10809
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:home:{value:{pos:[工作方块X，工作方块Y，工作方块Z]，dimension:“工作方块的纬度“}}}}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:home:{value:{pos:[工作方块X，工作方块Y，工作方块Z]，dimension:“工作方块的纬度“}}}}}",
+   "sha256": "be5e925a324a16fc29a65105888aa5368dd58be599bef24ae122179d855bb91f",
+   "i": 10810
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举例子就不用举了，都懂。",
+     "p": {}
+    }
+   ],
+   "text": "举例子就不用举了，都懂。",
+   "sha256": "2903c4defb671fa47c3943601eb9e3c32b7697e09b63b401bf95e904d5693999",
+   "i": 10811
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然鹅接下来这三个就不一样了：",
+     "p": {}
+    }
+   ],
+   "text": "然鹅接下来这三个就不一样了：",
+   "sha256": "2522248645c3d4c79811eaff8159ec2696a3251894cc18e1e5e7a7133dec4bc6",
+   "i": 10812
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:last_slept——这个村民已经睡觉多长时间了",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:last_slept——这个村民已经睡觉多长时间了",
+   "sha256": "801bf6fe0f29882c276a225971ed83d31afa1f41778d6e8f54c0504151925429",
+   "i": 10813
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:last_woken——这个村民已经多久没睡觉了",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:last_woken——这个村民已经多久没睡觉了",
+   "sha256": "26109e64b8d6aac3f6ba99d31b54b2140067a4e360d67166830d5ab29608ac4c",
+   "i": 10814
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:last_worked_at_poi——这个村民多久没工作了",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:last_worked_at_poi——这个村民多久没工作了",
+   "sha256": "8f6ccae2cd998e231c7729445cdaf1bc8cbeb2ac513a12c51ece8f604ff05c2d",
+   "i": 10815
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "它们都是存储时间的，所以格式就和之前三个存储坐标的不一样。但既然它们都是存储时间的，所以它们的格式.......",
+     "p": {}
+    }
+   ],
+   "text": "它们都是存储时间的，所以格式就和之前三个存储坐标的不一样。但既然它们都是存储时间的，所以它们的格式.......",
+   "sha256": "12fff2411d1828c78fb0ea98b543b027ef53e0af8a78760555518f10026546e2",
+   "i": 10816
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错！它们三的格式也是完全一样的。比如minecraft:last_slept（这个村民已经睡觉多长时间了）的格式是这样的：",
+     "p": {}
+    }
+   ],
+   "text": "没错！它们三的格式也是完全一样的。比如minecraft:last_slept（这个村民已经睡觉多长时间了）的格式是这样的：",
+   "sha256": "78d4359ea88b7ad5f28a8bf54bcdfdc8060f378a89beac39e6560c95e9032004",
+   "i": 10817
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:last_slept:{value:时间（单位：刻）}}}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:last_slept:{value:时间（单位：刻）}}}}",
+   "sha256": "bb8130bd924b0a3fa1f905d98dd9fd74552088aba71d090cf498d7da33d1c065",
+   "i": 10818
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子，假设这个村民已经睡了2个小时了（村民：？），那么这个村民的这个记忆的值就是：",
+     "p": {}
+    }
+   ],
+   "text": "举个例子，假设这个村民已经睡了2个小时了（村民：？），那么这个村民的这个记忆的值就是：",
+   "sha256": "39331c089c860d9bffff3da0e06f524acc8bb4ccaab0a39b411497f136df66f5",
+   "i": 10819
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:last_slept:{value:144000}}}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:last_slept:{value:144000}}}}",
+   "sha256": "936d8d507c3a808569209bdd975ae87e4b0a110ae5cfd726a5e77bf1f9ede043",
+   "i": 10820
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "代表着这个村民已经睡了144000刻了，也就是120分钟，即两小时。",
+     "p": {}
+    }
+   ],
+   "text": "代表着这个村民已经睡了144000刻了，也就是120分钟，即两小时。",
+   "sha256": "9c5cd49bfa1019e647d65093379fa2913ee86e006b7409abe38a4913d4de4e14",
+   "i": 10821
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "而我们已经知道了minecraft:last_woken（这个村民已经多久没睡觉了）和minecraft:last_worked_at_poi（这个村民多久没工作了）格式都和minecraft:last_slept一样，所以：",
+     "p": {}
+    }
+   ],
+   "text": "而我们已经知道了minecraft:last_woken（这个村民已经多久没睡觉了）和minecraft:last_worked_at_poi（这个村民多久没工作了）格式都和minecraft:last_slept一样，所以：",
+   "sha256": "df33225daa493e5e9938f3f70d9aa0b735b0107926f6d5317a0b83e53bd40c48",
+   "i": 10822
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:last_woken格式——",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:last_woken格式——",
+   "sha256": "6a9971e9e16179bf84d26234fbb25093fa3db078ff7dcc2d7cbf4a50a0a629d7",
+   "i": 10823
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:last_woken:{value:这个村民没睡觉的时间（单位：刻）}}}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:last_woken:{value:这个村民没睡觉的时间（单位：刻）}}}}",
+   "sha256": "ff469615c8a97e462837942e5cdee31a19d5fbfc0ce8f24e10bde39959667abd",
+   "i": 10824
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:last_worked_at_poi格式——",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:last_worked_at_poi格式——",
+   "sha256": "1d827445067f3125ab04aece4ee1164b5121ef926c447cde1c9fc48a4b0a5f6a",
+   "i": 10825
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:last_worked_at_poi:{value:这个村民没工作的时间（单位：刻）}}}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:last_worked_at_poi:{value:这个村民没工作的时间（单位：刻）}}}}",
+   "sha256": "35b69bd49e3453af3dfde336c16b411c4df5cc714abaed27e5582266f9e5045a",
+   "i": 10826
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "至于举例子嘛......这么简单就不用举了，况且格式都一样。",
+     "p": {}
+    }
+   ],
+   "text": "至于举例子嘛......这么简单就不用举了，况且格式都一样。",
+   "sha256": "c9a4589fe53e6c9b681294573b04ad1350f8363b100f0aec797c694efc8965a7",
+   "i": 10827
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "接下来就是猪灵了。猪灵一共有4个记忆，即：",
+     "p": {}
+    }
+   ],
+   "text": "接下来就是猪灵了。猪灵一共有4个记忆，即：",
+   "sha256": "0a85c3aff0b2a6d1bf68212c4ae9b38a28a70dfd3f5d30616fde2c0a6da3047e",
+   "i": 10828
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:angry_at——这个猪灵的目标",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:angry_at——这个猪灵的目标",
+   "sha256": "03d9159a30011b19aa9f328f1842cfee3c34d63b1b9f57084de593aebd9f4282",
+   "i": 10829
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:admiring_item——这个猪灵端详物品的状态",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:admiring_item——这个猪灵端详物品的状态",
+   "sha256": "dd0bf41fa5c79095b1e2ee45d92b315556e500b173ab8d8e23cc175df159e0a3",
+   "i": 10830
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:admiring_disabled——这个猪灵拿起物品端详这个技能的冷却状态",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:admiring_disabled——这个猪灵拿起物品端详这个技能的冷却状态",
+   "sha256": "3e92a1ca1eb2fb781b2eb138f4ca7b267e996858355b560c7ece2045519941b3",
+   "i": 10831
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:hunted_recently——这个猪灵追猎这个技能的冷却状态",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:hunted_recently——这个猪灵追猎这个技能的冷却状态",
+   "sha256": "4d9ff52b845c967e8cf462928a3fd0b5062555f272556982153bb5e607cff48c",
+   "i": 10832
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这四个标签的内容，都有一个“ttl”标签。这个标签的值是数值，实际作用就是：",
+     "p": {}
+    }
+   ],
+   "text": "这四个标签的内容，都有一个“ttl”标签。这个标签的值是数值，实际作用就是：",
+   "sha256": "84fd49da37947ce2ccd0080d45491b81e2cc0fe78f67391081522be7f6c974ba",
+   "i": 10833
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这项记忆还有多久消失（单位：刻）",
+     "p": {}
+    }
+   ],
+   "text": "这项记忆还有多久消失（单位：刻）",
+   "sha256": "35041115241ea2390ad731643eeefdbc7799fd63dbe59dafdd74b0a7e1880d09",
+   "i": 10834
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "又或者可以说是：",
+     "p": {}
+    }
+   ],
+   "text": "又或者可以说是：",
+   "sha256": "e4a28476eb0e00981ae520dc0c82329eb25e1730c99e73a52d750746224e9f59",
+   "i": 10835
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "猪灵的技能冷却剩下时间（单位：刻）",
+     "p": {}
+    }
+   ],
+   "text": "猪灵的技能冷却剩下时间（单位：刻）",
+   "sha256": "dfd0d1d99bbdd7a957de688e933046221bab2c67911aebb574a6790d4498b497",
+   "i": 10836
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当然，具体的作用会根据不同的记忆会出现一些出入。",
+     "p": {}
+    }
+   ],
+   "text": "当然，具体的作用会根据不同的记忆会出现一些出入。",
+   "sha256": "662270c221fd7080976171c9d4d5792dcedfa7332ab7cf5c9050202e29e1658e",
+   "i": 10837
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一个minecraft:angry_at（这个猪灵的目标），它的值有两个：",
+     "p": {}
+    }
+   ],
+   "text": "第一个minecraft:angry_at（这个猪灵的目标），它的值有两个：",
+   "sha256": "7c16806fa08a90920048efa8c58360b5eba0c6354371261c47823cc0d5b9d228",
+   "i": 10838
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "value（值：UUID整形数组）",
+     "p": {}
+    }
+   ],
+   "text": "value（值：UUID整形数组）",
+   "sha256": "bbacc73b761875d01625fc52582c5a384dd5fe5e791e414d70ab04c5ced8681d",
+   "i": 10839
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ttl（值：数值）",
+     "p": {}
+    }
+   ],
+   "text": "ttl（值：数值）",
+   "sha256": "b57f45b351e9a91228a51ccfa999f0fc74228c7da238710e044104a273576ff3",
+   "i": 10840
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ttl刚才说过了。这个value存储着UUID，再联系一下“目标”，你想到了什么？",
+     "p": {}
+    }
+   ],
+   "text": "ttl刚才说过了。这个value存储着UUID，再联系一下“目标”，你想到了什么？",
+   "sha256": "e01aca68f9cfa2809a5110ef4341b270f4c7a67c4bf53db48e2fad574b00987f",
+   "i": 10841
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个value填的就是猪灵的目标实体的UUID！",
+     "p": {}
+    }
+   ],
+   "text": "这个value填的就是猪灵的目标实体的UUID！",
+   "sha256": "4cffa5555df872173823cc7ffdefbcc7309fe09fccfd74460a481e9e1c7a03d7",
+   "i": 10842
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "嗯，没错。现在我们举个例子，假设这个猪灵已经锁定了一个UUID为[I;-478658285，1942176603，-2057916122，-1995913697]的凋零骷髅，而且距离这个猪灵忘记这个凋零骷髅的时间还有1分57秒，那么其这项记忆就是：",
+     "p": {}
+    }
+   ],
+   "text": "嗯，没错。现在我们举个例子，假设这个猪灵已经锁定了一个UUID为[I;-478658285，1942176603，-2057916122，-1995913697]的凋零骷髅，而且距离这个猪灵忘记这个凋零骷髅的时间还有1分57秒，那么其这项记忆就是：",
+   "sha256": "c842888a7df86885f6e6556d509aa60e442b3c7cf93d0cf6571a27936a26cada",
+   "i": 10843
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:angry_at:{value:[I;-478658285，1942176603，-2057916122，-1995913697]，ttl:2340}}}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:angry_at:{value:[I;-478658285，1942176603，-2057916122，-1995913697]，ttl:2340}}}}",
+   "sha256": "a88ddac58ec943d30302ec7dd9d7df9cecbd34538fb0fb63094e995496ac37f9",
+   "i": 10844
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "嗯，除了UUID有点长之外，其他都挺简单的。",
+     "p": {}
+    }
+   ],
+   "text": "嗯，除了UUID有点长之外，其他都挺简单的。",
+   "sha256": "02f1261f0c2015c5edb111f0b5f00d66ae9a76c15aea6a77b964eca90f621e9f",
+   "i": 10845
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后是minecraft:admiring_item（这个猪灵端详物品的状态）。其值也有两个：",
+     "p": {}
+    }
+   ],
+   "text": "然后是minecraft:admiring_item（这个猪灵端详物品的状态）。其值也有两个：",
+   "sha256": "a4af67d682c11543e2e5691b5cdacddfa94ac14737cfb8dddfed564bab523468",
+   "i": 10846
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "value（值：布尔值）",
+     "p": {}
+    }
+   ],
+   "text": "value（值：布尔值）",
+   "sha256": "391061f2abf9375142912a0fb989b36062394e398780347518a7341171c511cf",
+   "i": 10847
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ttl（值：数值）",
+     "p": {}
+    }
+   ],
+   "text": "ttl（值：数值）",
+   "sha256": "b57f45b351e9a91228a51ccfa999f0fc74228c7da238710e044104a273576ff3",
+   "i": 10848
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这里的value是布尔值，也就是true和false。如果是true，那么就代表着这个猪灵在端详物品。false则不是。",
+     "p": {}
+    }
+   ],
+   "text": "这里的value是布尔值，也就是true和false。如果是true，那么就代表着这个猪灵在端详物品。false则不是。",
+   "sha256": "900f1bd2729203fcabac0750e5bb72b391456eb87398928f756b0c4f6102adbe",
+   "i": 10849
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ttl在这里的作用是：端详还剩下的时间（单位：刻）",
+     "p": {}
+    }
+   ],
+   "text": "ttl在这里的作用是：端详还剩下的时间（单位：刻）",
+   "sha256": "1539e8673bc865ce529fde153d9eee8624f82c9268fafcb00814badb67f0a5c6",
+   "i": 10850
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子，比如一个猪灵它正在端详，且剩下的端详时间还有7秒，那么其这项记忆就是：",
+     "p": {}
+    }
+   ],
+   "text": "举个例子，比如一个猪灵它正在端详，且剩下的端详时间还有7秒，那么其这项记忆就是：",
+   "sha256": "17f230ca859af6c169313d55018a744f039fdc94b63b3ca930c0d4493bd8bc06",
+   "i": 10851
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:angry_at:{value:“true“，ttl:140}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:angry_at:{value:“true“，ttl:140}}",
+   "sha256": "5c8eed20c3981ab71fe07f5c5405e1c8a2b56669f4a654d2227b1c919bb5d381",
+   "i": 10852
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "接着是minecraft:admiring_disabled（这个猪灵拿起物品端详这个技能的冷却状态）。其值仍然有两个：",
+     "p": {}
+    }
+   ],
+   "text": "接着是minecraft:admiring_disabled（这个猪灵拿起物品端详这个技能的冷却状态）。其值仍然有两个：",
+   "sha256": "ddd94b54008329f51732afeec78f3a0e483a0c29d609c6509b1f34dc881a6ac6",
+   "i": 10853
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "value（值：布尔值）",
+     "p": {}
+    }
+   ],
+   "text": "value（值：布尔值）",
+   "sha256": "391061f2abf9375142912a0fb989b36062394e398780347518a7341171c511cf",
+   "i": 10854
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ttl（值：数值）",
+     "p": {}
+    }
+   ],
+   "text": "ttl（值：数值）",
+   "sha256": "b57f45b351e9a91228a51ccfa999f0fc74228c7da238710e044104a273576ff3",
+   "i": 10855
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "既然是冷却状态，我们就得了解一下“猪灵”其“端详”这个技能的冷却会因为什么而触发。一共有3种触发方式：",
+     "p": {}
+    }
+   ],
+   "text": "既然是冷却状态，我们就得了解一下“猪灵”其“端详”这个技能的冷却会因为什么而触发。一共有3种触发方式：",
+   "sha256": "5c23941514195bbc74daacfb040cee69e6b952a145eff2233a4865d07a9cae89",
+   "i": 10856
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.正在转化成僵尸猪灵",
+     "p": {}
+    }
+   ],
+   "text": "1.正在转化成僵尸猪灵",
+   "sha256": "85858dc29de1139e23979fef52642c4e48af6b0ed61b15ac56b8519044bbdc35",
+   "i": 10857
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "2.受到伤害",
+     "p": {}
+    }
+   ],
+   "text": "2.受到伤害",
+   "sha256": "204243ef195f54508f1b728765c6147494abbdcd4eae720dee2d2dab951698a0",
+   "i": 10858
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "3.使用完了”端详”这个技能",
+     "p": {}
+    }
+   ],
+   "text": "3.使用完了”端详”这个技能",
+   "sha256": "71110bc91963640b5f224309cb4e5f2a6620932a5d8799ae3d98dc0f4b327dde",
+   "i": 10859
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当上面3个条件的任意一项达成时，“端详”技能将会进入冷却。同时，该记忆也将会改变。",
+     "p": {}
+    }
+   ],
+   "text": "当上面3个条件的任意一项达成时，“端详”技能将会进入冷却。同时，该记忆也将会改变。",
+   "sha256": "3fb8cfa9e543016af982bc394be95fa5e39c553ff942ac359f1b25020509b5f6",
+   "i": 10860
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "value在这条记忆里的作用是：",
+     "p": {}
+    }
+   ],
+   "text": "value在这条记忆里的作用是：",
+   "sha256": "86a87a3f5eee9cb35da9c94a5cf9e58470c901aec98d8a02f970518819425f88",
+   "i": 10861
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当值为true，代表“端详”技能处于冷却状态。当值为false，代表“端详”技能可以使用。",
+     "p": {}
+    }
+   ],
+   "text": "当值为true，代表“端详”技能处于冷却状态。当值为false，代表“端详”技能可以使用。",
+   "sha256": "098089213948b464b802d6efddda95d60d140652cc69c8ded157b41352441468",
+   "i": 10862
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ttl在这条记忆里的作用是：",
+     "p": {}
+    }
+   ],
+   "text": "ttl在这条记忆里的作用是：",
+   "sha256": "0fd37aa0526a32ddf312766d3fe03f3fec8f76cc34155fe40027acc3c878b2fa",
+   "i": 10863
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "“端详”技能的剩余冷却时间（单位：刻）",
+     "p": {}
+    }
+   ],
+   "text": "“端详”技能的剩余冷却时间（单位：刻）",
+   "sha256": "634480f5750c2094f1a9faf71b6949d4bf644c02be224cb53b4f066479549dcd",
+   "i": 10864
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个粒子。假设一个猪灵刚刚端详完成，其“端详”技能已经进入冷却状态，冷却时间为8.4s，那么这个记忆就将是：",
+     "p": {}
+    }
+   ],
+   "text": "举个粒子。假设一个猪灵刚刚端详完成，其“端详”技能已经进入冷却状态，冷却时间为8.4s，那么这个记忆就将是：",
+   "sha256": "da9b539f00ab5dca73d79291ebc2aed97cee86685cfe264953ee1bc796b92137",
+   "i": 10865
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:admiring_disabled:{value:“true“，ttl:168}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:admiring_disabled:{value:“true“，ttl:168}}",
+   "sha256": "f62e392a2c4281329214b477e88e11778c84de2779ca85c12ee33728148922d9",
+   "i": 10866
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "懂了吧？懂了就下一个：minecraft:hunted_recently（这个猪灵追猎这个技能的冷却状态）",
+     "p": {}
+    }
+   ],
+   "text": "懂了吧？懂了就下一个：minecraft:hunted_recently（这个猪灵追猎这个技能的冷却状态）",
+   "sha256": "d12d25f6a3ce3d716fc3b9f7763d2ddcddb9765dfc9bedadd1267e650c2b21f0",
+   "i": 10867
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "和minecraft:admiring_disabled一样，这也是技能的冷却。但这次的技能是“追猎”。",
+     "p": {}
+    }
+   ],
+   "text": "和minecraft:admiring_disabled一样，这也是技能的冷却。但这次的技能是“追猎”。",
+   "sha256": "c143b9b9c3436136bdcb3f839067a3b20d791a78542fd011df5d3474b892e4b4",
+   "i": 10868
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，minecraft:hunted_recently仍然有这几个值：",
+     "p": {}
+    }
+   ],
+   "text": "首先，minecraft:hunted_recently仍然有这几个值：",
+   "sha256": "6297e135b4b37ad10500e9bb648fba72f63c0fd14aa68de486ea30e50b2fb0bc",
+   "i": 10869
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "value（值：布尔值）",
+     "p": {}
+    }
+   ],
+   "text": "value（值：布尔值）",
+   "sha256": "391061f2abf9375142912a0fb989b36062394e398780347518a7341171c511cf",
+   "i": 10870
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ttl（值：数值）",
+     "p": {}
+    }
+   ],
+   "text": "ttl（值：数值）",
+   "sha256": "b57f45b351e9a91228a51ccfa999f0fc74228c7da238710e044104a273576ff3",
+   "i": 10871
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后，“追猎”技能会在出现以下任何一种情况都会冷却：",
+     "p": {}
+    }
+   ],
+   "text": "然后，“追猎”技能会在出现以下任何一种情况都会冷却：",
+   "sha256": "8334487850bc4388cf1e645a6ed35ad8e526852724f5a286c854c1117f6043b4",
+   "i": 10872
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.使用完“追猎”技能",
+     "p": {}
+    }
+   ],
+   "text": "1.使用完“追猎”技能",
+   "sha256": "6834e8e8ef0a073284b77e10d9ecf50bc836dd3d32abb9c2713474a258c8e09f",
+   "i": 10873
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后，这里的value当为true时，就代表着“追猎”技能正在冷却。为false，就是可以正常使用。ttl跟minecraft:admiring_disabled一样，也是技能冷却的剩余时间。",
+     "p": {}
+    }
+   ],
+   "text": "最后，这里的value当为true时，就代表着“追猎”技能正在冷却。为false，就是可以正常使用。ttl跟minecraft:admiring_disabled一样，也是技能冷却的剩余时间。",
+   "sha256": "0efe05fe6af6bfec4cf8c078e4b383d67b77c5640d3b249a1078652a0d62a39a",
+   "i": 10874
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个栗子：假设一只猪灵刚刚追猎完成，其“追猎”技能已经进入冷却状态，冷却时间为1m24s，那么这个记忆就将是：",
+     "p": {}
+    }
+   ],
+   "text": "举个栗子：假设一只猪灵刚刚追猎完成，其“追猎”技能已经进入冷却状态，冷却时间为1m24s，那么这个记忆就将是：",
+   "sha256": "2df7e45fc5f60d3ccb6045817af9ecb17b1163eecb9eef668d63acbc9ffb4a2b",
+   "i": 10875
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{......:{minecraft:hunted_recently:{value:“true“，ttl:1680}}",
+     "p": {}
+    }
+   ],
+   "text": "{......:{minecraft:hunted_recently:{value:“true“，ttl:1680}}",
+   "sha256": "cb7b8cf70434898ebae5fd7afabf50196e2078a1f23805a20d6ed2140c74dafd",
+   "i": 10876
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "是不是简洁明了？",
+     "p": {}
+    }
+   ],
+   "text": "是不是简洁明了？",
+   "sha256": "4ffbb55de9f63f8d29c6e08584939528adc799383ee3a1407de5f340ab36a6f2",
+   "i": 10877
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以，这就是原版Brain的全部内容。",
+     "p": {}
+    }
+   ],
+   "text": "所以，这就是原版Brain的全部内容。",
+   "sha256": "92cb26893801cad96359187b7730f46a8de6cf372d1075e6a67d2f78e7fc7d9b",
+   "i": 10878
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "太棒了！生物共通NBT终于完了！",
+     "p": {}
+    }
+   ],
+   "text": "太棒了！生物共通NBT终于完了！",
+   "sha256": "a729d79f61a92ffbb3ed23f68348a7fd363ea0cbc478d2d79842439e970e2326",
+   "i": 10879
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 10880
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——生物共通NBT：",
+     "p": {}
+    }
+   ],
+   "text": "——生物共通NBT：",
+   "sha256": "96a65e7a67735b46c0b582876367ef56360ae965fc6d82c4ce0f77a5f83c7bae",
+   "i": 10881
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "包含所有实体共通NBT",
+     "p": {}
+    }
+   ],
+   "text": "包含所有实体共通NBT",
+   "sha256": "f8592de5780d80b5af574f3d90fd8eeb1ab95e8b0325fff7a9d11d661a84c25d",
+   "i": 10882
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Health——生物当前生命值。值：浮点数",
+     "p": {}
+    }
+   ],
+   "text": "Health——生物当前生命值。值：浮点数",
+   "sha256": "d76c7d3e1fc1ce3160e305fac1b0a3fc5b0f4f515b7c553991a0d00c6bbcfa6c",
+   "i": 10883
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "AbsorptionAmount——生物可抵消攻击的值。值：浮点数",
+     "p": {}
+    }
+   ],
+   "text": "AbsorptionAmount——生物可抵消攻击的值。值：浮点数",
+   "sha256": "83ec2d733a334e1ce10d5db4d261124b76625d364dd33893766111da732b390b",
+   "i": 10884
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "HurtTime——生物已经发红的时间，单位刻。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "HurtTime——生物已经发红的时间，单位刻。值：整数",
+   "sha256": "f3bca89429bd94de71dcdf51e83985fc7af03f2123f29c540438b8c7dd91744c",
+   "i": 10885
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "HurtByTimestamp——生物距上次受到伤害的时间值，或是距生成的时间值，单位刻。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "HurtByTimestamp——生物距上次受到伤害的时间值，或是距生成的时间值，单位刻。值：整数",
+   "sha256": "c21f9e36747daa8d5292a727b961a0bd31effade657ffa55f1d4099a5b5266e1",
+   "i": 10886
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DeathTime——距生物死亡的时间刻数。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "DeathTime——距生物死亡的时间刻数。值：整数",
+   "sha256": "824a39df6f22903afb0effef24e569932b0d0276170fc494501a6096b55089f8",
+   "i": 10887
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "FallFlying——生物是否滑翔。值：布尔值（1 or 0）",
+     "p": {}
+    }
+   ],
+   "text": "FallFlying——生物是否滑翔。值：布尔值（1 or 0）",
+   "sha256": "75f6c725b42f8cefca4a7ea6e7c96e3ce7e8a6cc907c983d2f4c2c1ecfbeb6f2",
+   "i": 10888
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "SleepingX——生物正在睡的床X坐标。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "SleepingX——生物正在睡的床X坐标。值：整数",
+   "sha256": "44cac6fb356997ea008bacbea9acf630257e79ec212dfd9cfe9a21e0efa32d12",
+   "i": 10889
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "SleepingY——生物正在睡的床Y坐标。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "SleepingY——生物正在睡的床Y坐标。值：整数",
+   "sha256": "ffa90d6750a8bc608355f28cccba39c725ffa7c986f17347b97a68c31cc7efd4",
+   "i": 10890
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "SleepingZ——生物正在睡的床Z坐标。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "SleepingZ——生物正在睡的床Z坐标。值：整数",
+   "sha256": "b29dd356f4a8f6955ee3c5f194978b51f54cb4b40fc3f975886e843c2963184b",
+   "i": 10891
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Brain——生物的记忆。值：复合标签（{}）",
+     "p": {}
+    }
+   ],
+   "text": "Brain——生物的记忆。值：复合标签（{}）",
+   "sha256": "ea15de2f2b3f237804cfc93db0f5aff0ad265e0def0667774a028a5980640036",
+   "i": 10892
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——memories——值：复合标签（{}）",
+     "p": {}
+    }
+   ],
+   "text": "——memories——值：复合标签（{}）",
+   "sha256": "aec2f2e1a920ca4627ec4cf291c2dddb9d5e1d062f2779702085675f1bf7ca72",
+   "i": 10893
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Attributes——生物的属性。值：列表（[]）",
+     "p": {}
+    }
+   ],
+   "text": "Attributes——生物的属性。值：列表（[]）",
+   "sha256": "d1f52be567c24a67a9e15941fa71424ba2a1a2a9670ce2666498635c77137440",
+   "i": 10894
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——一个属性——值：复合标签（{}）",
+     "p": {}
+    }
+   ],
+   "text": "——一个属性——值：复合标签（{}）",
+   "sha256": "0bba0b8dd4027a456499d382db405d50399a8918f5214a44ee85c0dcad806957",
+   "i": 10895
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————Name——属性名称id。值：字符串",
+     "p": {}
+    }
+   ],
+   "text": "————Name——属性名称id。值：字符串",
+   "sha256": "5836aad5fbef5a0e0a13bcdd29950a17ccce068efd84a7909e5c78f360b6e295",
+   "i": 10896
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————Base——属性基础值。值：浮点数",
+     "p": {}
+    }
+   ],
+   "text": "————Base——属性基础值。值：浮点数",
+   "sha256": "1aafdc9927095641cc8e85ce899c11968cca9acb7fe38f2fbd51a84488239b12",
+   "i": 10897
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————Modifiers——属性修饰符。值：列表（[]）",
+     "p": {}
+    }
+   ],
+   "text": "————Modifiers——属性修饰符。值：列表（[]）",
+   "sha256": "f5fd6e20b1eed83c663cb8d97d36227fcc563ad639cd8b3d53a86c7d941461e0",
+   "i": 10898
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——————一个属性修饰符——值：复合标签（{}）",
+     "p": {}
+    }
+   ],
+   "text": "——————一个属性修饰符——值：复合标签（{}）",
+   "sha256": "55e848997c8e77939a6d3ba991daafd1d47b88d8cd533e6cffa5b112824b572e",
+   "i": 10899
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————————Name——修饰符的名称，可随便。值：字符串",
+     "p": {}
+    }
+   ],
+   "text": "————————Name——修饰符的名称，可随便。值：字符串",
+   "sha256": "c76d2a10ad4d9c4672f0ef0fe9f8bfab15b11af92c8b49e42b30ffb6141361fc",
+   "i": 10900
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————————Amount——修饰符调整属性基础值的数值。值：浮点数",
+     "p": {}
+    }
+   ],
+   "text": "————————Amount——修饰符调整属性基础值的数值。值：浮点数",
+   "sha256": "dc08de208c63c195a221fee9b4a1eab21129e80112e179bb3678a2a38d7df54d",
+   "i": 10901
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————————Operation——修饰符对属性修饰符调整的基础算法。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "————————Operation——修饰符对属性修饰符调整的基础算法。值：整数",
+   "sha256": "a2ee32b7154e132b2e8b2f484d68c25d9075245971bafe799a54adfa6e8f997c",
+   "i": 10902
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————————UUID[1.16版本及以上]——修饰符的UUID，用于区分修饰符。值：整形数组（[I;1，2，3，4]）",
+     "p": {}
+    }
+   ],
+   "text": "————————UUID[1.16版本及以上]——修饰符的UUID，用于区分修饰符。值：整形数组（[I;1，2，3，4]）",
+   "sha256": "727fd590fe96b0b50b97860d9da7654fe1781c226eb7c596782dccdd4c0148b3",
+   "i": 10903
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————————UUIDMost[1.16以下]——修饰符的UUID高位，用于区分修饰符。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "————————UUIDMost[1.16以下]——修饰符的UUID高位，用于区分修饰符。值：整数",
+   "sha256": "f245bb9b16f9bf0c43265e36671557ce1895452e158258b150c6dcc9c934b0bd",
+   "i": 10904
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————————UUIDLeast[1.16以下]——修饰符的UUID低位，用于区分修饰符。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "————————UUIDLeast[1.16以下]——修饰符的UUID低位，用于区分修饰符。值：整数",
+   "sha256": "8eb71878b0a0b558872814b7a97b184939adb7e37911042c63927483a19120ad",
+   "i": 10905
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ActiveEffects——生物所有的状态效果。值：列表（[]）",
+     "p": {}
+    }
+   ],
+   "text": "ActiveEffects——生物所有的状态效果。值：列表（[]）",
+   "sha256": "c059ca275b8c499314de5627e1ceca343d585452d6129fbe8946428913591736",
+   "i": 10906
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——一项状态效果——值：复合标签（{}）",
+     "p": {}
+    }
+   ],
+   "text": "——一项状态效果——值：复合标签（{}）",
+   "sha256": "66a5314ce83eaf7a1c298cfee042bf115c2f7f543b2c898d02d16ff252910ab2",
+   "i": 10907
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————状态效果NBT（见第一百三十三章）",
+     "p": {}
+    }
+   ],
+   "text": "————状态效果NBT（见第一百三十三章）",
+   "sha256": "1742215fb7a82148451d9afbd59c2f6372e7c24ecafdae7556e930eb0d029b73",
+   "i": 10908
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "HandItems——生物手持的物品。值：列表（[]）",
+     "p": {}
+    }
+   ],
+   "text": "HandItems——生物手持的物品。值：列表（[]）",
+   "sha256": "732dd36684232928c9c62bcc120baa82fdc4a7a561be2ca2ce805e6a03aeb413",
+   "i": 10909
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——主手手持物品——值：复合标签（{}）",
+     "p": {}
+    }
+   ],
+   "text": "——主手手持物品——值：复合标签（{}）",
+   "sha256": "82c71cc58e46674a192bdda91ffd3824dff211a3487fb92a4162036bf666fecd",
+   "i": 10910
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————物品共通NBT（见第一百零八章）",
+     "p": {}
+    }
+   ],
+   "text": "————物品共通NBT（见第一百零八章）",
+   "sha256": "93c0027aa1fe6fbf01e3dad2cbc953fb45fc5c8532880670ae5aff987f970c33",
+   "i": 10911
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——副手手持物品——值：复合标签（{}）",
+     "p": {}
+    }
+   ],
+   "text": "——副手手持物品——值：复合标签（{}）",
+   "sha256": "0eee7cd4d18359342708cd1cc34ce77535665bec8d9b6012aed393e4e0b095c6",
+   "i": 10912
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————物品共通NBT（见第一百零八章）",
+     "p": {}
+    }
+   ],
+   "text": "————物品共通NBT（见第一百零八章）",
+   "sha256": "93c0027aa1fe6fbf01e3dad2cbc953fb45fc5c8532880670ae5aff987f970c33",
+   "i": 10913
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ArmorItems——生物穿在身上的物品。值：列表（[]）",
+     "p": {}
+    }
+   ],
+   "text": "ArmorItems——生物穿在身上的物品。值：列表（[]）",
+   "sha256": "cbd4bce87b80b8c29d2d35d197613a3dca1c6c9f315a44ce3b2b45af2c026ac9",
+   "i": 10914
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——脚上穿的物品——值：复合标签",
+     "p": {}
+    }
+   ],
+   "text": "——脚上穿的物品——值：复合标签",
+   "sha256": "5c0c63c64b281af966baf507abdd6efd6da0b7ca6ccad699d83348a2f98330d0",
+   "i": 10915
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————物品共通NBT（见第一百零八章）",
+     "p": {}
+    }
+   ],
+   "text": "————物品共通NBT（见第一百零八章）",
+   "sha256": "93c0027aa1fe6fbf01e3dad2cbc953fb45fc5c8532880670ae5aff987f970c33",
+   "i": 10916
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——腿上穿的物品——值：复合标签",
+     "p": {}
+    }
+   ],
+   "text": "——腿上穿的物品——值：复合标签",
+   "sha256": "2f0f6860083f7a7a4599ae67d2c69ea4d57eaa4f2b5aad5d922af947217184b6",
+   "i": 10917
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————物品共通NBT（见第一百零八章）",
+     "p": {}
+    }
+   ],
+   "text": "————物品共通NBT（见第一百零八章）",
+   "sha256": "93c0027aa1fe6fbf01e3dad2cbc953fb45fc5c8532880670ae5aff987f970c33",
+   "i": 10918
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——胸前穿的物品——值：复合标签",
+     "p": {}
+    }
+   ],
+   "text": "——胸前穿的物品——值：复合标签",
+   "sha256": "85fb2e72662fb790a37f085cebab6da03e80cfccadd31335ddcb3751b27ffa56",
+   "i": 10919
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————物品共通NBT（见第一百零八章）",
+     "p": {}
+    }
+   ],
+   "text": "————物品共通NBT（见第一百零八章）",
+   "sha256": "93c0027aa1fe6fbf01e3dad2cbc953fb45fc5c8532880670ae5aff987f970c33",
+   "i": 10920
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——头上戴的物品——值：复合标签",
+     "p": {}
+    }
+   ],
+   "text": "——头上戴的物品——值：复合标签",
+   "sha256": "4deec0b56e253a4cedf3bd3fa5692dcd1be2d0f983dd55473db6a9a2d0a2eef8",
+   "i": 10921
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "————物品共通NBT（见第一百零八章）",
+     "p": {}
+    }
+   ],
+   "text": "————物品共通NBT（见第一百零八章）",
+   "sha256": "93c0027aa1fe6fbf01e3dad2cbc953fb45fc5c8532880670ae5aff987f970c33",
+   "i": 10922
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "HandDropChances——手持物品掉落几率。值：列表（[]）",
+     "p": {}
+    }
+   ],
+   "text": "HandDropChances——手持物品掉落几率。值：列表（[]）",
+   "sha256": "18ad771f61efd43970878d619585bae6cdb745c83ba6650dedc6cc93fdbba769",
+   "i": 10923
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——主手物品掉落几率。值：浮点数",
+     "p": {}
+    }
+   ],
+   "text": "——主手物品掉落几率。值：浮点数",
+   "sha256": "0de119cc70c7ee71316170836a58062295f89520a89aa79deb2fb7252787a533",
+   "i": 10924
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——副手物品掉落几率。值：浮点数",
+     "p": {}
+    }
+   ],
+   "text": "——副手物品掉落几率。值：浮点数",
+   "sha256": "8067915703c71ce4846941727de8db4a501c6a7b8af44257ad398339297f87a5",
+   "i": 10925
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ArmorDropChances——盔甲掉落几率。值：列表（[]）",
+     "p": {}
+    }
+   ],
+   "text": "ArmorDropChances——盔甲掉落几率。值：列表（[]）",
+   "sha256": "4cc3acd5fbd66aeb0cd2fc622aca73f8b7fb940aca41281f005d53034a2e506e",
+   "i": 10926
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——靴子栏物品掉落几率。值：浮点数",
+     "p": {}
+    }
+   ],
+   "text": "——靴子栏物品掉落几率。值：浮点数",
+   "sha256": "642cc52c52a3d7ae908f7d8ec9770e9a92c7cc1e8d36b175f7927618a49c3d2d",
+   "i": 10927
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——护腿栏物品掉落几率。值：浮点数",
+     "p": {}
+    }
+   ],
+   "text": "——护腿栏物品掉落几率。值：浮点数",
+   "sha256": "b3d141dee9f1b334acdd7f1ba0de240e7237175ca3a69581e05cedb69213fede",
+   "i": 10928
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——胸甲栏物品掉落几率。值：浮点数",
+     "p": {}
+    }
+   ],
+   "text": "——胸甲栏物品掉落几率。值：浮点数",
+   "sha256": "8205c1dee165017e1268fb8567980c87dc33341405fbc895334b81985639bd72",
+   "i": 10929
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——头盔栏物品掉落几率。值：浮点数",
+     "p": {}
+    }
+   ],
+   "text": "——头盔栏物品掉落几率。值：浮点数",
+   "sha256": "1437ec679f4c4f578e7e23ff1cf7267d12cc5e8f337c99de09aec41499362a38",
+   "i": 10930
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DeathLootTable——生物战利品表。值：字符串",
+     "p": {}
+    }
+   ],
+   "text": "DeathLootTable——生物战利品表。值：字符串",
+   "sha256": "a68062594b7503c380befb1d35ccb0e7fbf7a0ce0d0f93bdef8f51fc0c48ae96",
+   "i": 10931
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DeathLootTableSeed——生成战利品表的种子。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "DeathLootTableSeed——生成战利品表的种子。值：整数",
+   "sha256": "4fad6a3fd8c26fb764f27d59ca82db49db1ad982f22f340c6836934ec4d654c0",
+   "i": 10932
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "CanPickUpLoot——生物是否可捡起战利品。值：布尔值（true|false）",
+     "p": {}
+    }
+   ],
+   "text": "CanPickUpLoot——生物是否可捡起战利品。值：布尔值（true|false）",
+   "sha256": "0ef2f83aff8920faf7dd7e39bacc54c569c704a988e0270fda4c8978b29df9cb",
+   "i": 10933
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NoAI——生物是否没有AI。值：布尔值（true|false）",
+     "p": {}
+    }
+   ],
+   "text": "NoAI——生物是否没有AI。值：布尔值（true|false）",
+   "sha256": "7ce4c3cf51387f25719204eb7fd175b245915496c12a50405e7603cc9825830b",
+   "i": 10934
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "PersistenceRequired——生物是否不会自然消失。值：布尔值（true|false）",
+     "p": {}
+    }
+   ],
+   "text": "PersistenceRequired——生物是否不会自然消失。值：布尔值（true|false）",
+   "sha256": "bde966ba33a17727686934930528179cfe961333f02038016d9b883f34a7c472",
+   "i": 10935
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "LeftHanded——生物是否渲染时的主手为左手。值：布尔值（true|false）",
+     "p": {}
+    }
+   ],
+   "text": "LeftHanded——生物是否渲染时的主手为左手。值：布尔值（true|false）",
+   "sha256": "db5e33d79bb88a9bf5f94391458e9b7dad2028f165c9ea395f6972b36e2de3da",
+   "i": 10936
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Leashed——生物是否被拴住。值：布尔值（true|false）",
+     "p": {}
+    }
+   ],
+   "text": "Leashed——生物是否被拴住。值：布尔值（true|false）",
+   "sha256": "ba2101972687ff188e8e2c80321b3f58b033e15cd1255f06af91db8b07c355d6",
+   "i": 10937
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Team——生物要加入的队伍，这实际上不是生物的NBT。值：字符串",
+     "p": {}
+    }
+   ],
+   "text": "Team——生物要加入的队伍，这实际上不是生物的NBT。值：字符串",
+   "sha256": "5185e4fdd3275dadc9c557937da53ebe07f0741be8b8be1bdf25d5625564aa86",
+   "i": 10938
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Leash——这里说不清楚，具体见第一百三十三章。值：复合标签",
+     "p": {}
+    }
+   ],
+   "text": "Leash——这里说不清楚，具体见第一百三十三章。值：复合标签",
+   "sha256": "f286242c8ca4b3f7c796e7415de36b2f64f9d369faa3278bbc84a2d06dff5b03",
+   "i": 10939
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——UUID[1.16及以上]——被拴住的生物的UUID。值：整形数组",
+     "p": {}
+    }
+   ],
+   "text": "——UUID[1.16及以上]——被拴住的生物的UUID。值：整形数组",
+   "sha256": "60b1c8cc649d37d986fa6904d2c38ac7b6ed29c7d33b719538070fb2d5cd29a9",
+   "i": 10940
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——UUIDMost[1.16以下]——被拴住的生物的UUID高位。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "——UUIDMost[1.16以下]——被拴住的生物的UUID高位。值：整数",
+   "sha256": "7e5c22ffa0fa4bccf99f15a3575af98e505e7257e43b19847b184d849396fbc3",
+   "i": 10941
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——UUIDLeast[1.16以下]——被拴住的生物的UUID低位。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "——UUIDLeast[1.16以下]——被拴住的生物的UUID低位。值：整数",
+   "sha256": "93884a70fe14632388d2545b6e9ac14f4fa25e36c78ea335a8e5a2b714840418",
+   "i": 10942
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——X——拴绳的位置的X坐标。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "——X——拴绳的位置的X坐标。值：整数",
+   "sha256": "b2216d958f6456f4938bc4657d023dfaf62ae6d59eaa0f1b46e3e91b3a2f43d3",
+   "i": 10943
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——Y——拴绳的位置的Y坐标。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "——Y——拴绳的位置的Y坐标。值：整数",
+   "sha256": "4096af84eef29db0b6a410ce52d3cc6b6e07b94fb32e1ef42959926b607d8728",
+   "i": 10944
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——Z——拴绳的位置的Z坐标。值：整数",
+     "p": {}
+    }
+   ],
+   "text": "——Z——拴绳的位置的Z坐标。值：整数",
+   "sha256": "611d7c27cdbbb8ee5b41b4de2a75cbc81a06a90a301ff5565e25176508df6be7",
+   "i": 10945
+  }
+ ],
+ "text_sha256": "17cc00f6319a8983ae359b78e8f0063816506b25e4c8d7e5d6ee3a6be6ab19f1",
+ "chars": 5763
+}

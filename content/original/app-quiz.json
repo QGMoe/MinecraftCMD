@@ -1,0 +1,114 @@
+{
+ "id": "app-quiz",
+ "kind": "appendix",
+ "number": null,
+ "title": "测试试题",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   13005,
+   13007
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "left"
+   },
+   "c": [
+    {
+     "t": "测试试题",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "测试试题",
+   "sha256": "4d040512be5e7d13ec64e40517242b67a6d8239a1ffde8f2fada11a66cb18363",
+   "i": 13005
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一卷~第二卷——",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "field": "begin"
+    },
+    {
+     "field": "separate",
+     "instr": " HYPERLINK \"https://ks.wjx.top/jq/92897173.aspx\" "
+    },
+    {
+     "t": "https://ks.wjx.top/jq/92897173.aspx",
+     "p": {
+      "style": "Hyperlink"
+     }
+    },
+    {
+     "field": "end",
+     "instr": " HYPERLINK \"https://ks.wjx.top/jq/92897173.aspx\" "
+    }
+   ],
+   "text": "第一卷~第二卷——https://ks.wjx.top/jq/92897173.aspx",
+   "sha256": "e18e23fc48ccb381fd3cf5d227e0eb01f07cb0b2ade173e96e024033042526c3",
+   "i": 13006
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三卷~第五卷——",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "field": "begin"
+    },
+    {
+     "field": "separate",
+     "instr": " HYPERLINK \"https://ks.wjx.top/vm/OSkazUA.aspx\" "
+    },
+    {
+     "t": "https://ks.wjx.top/vm/OSkazUA.aspx",
+     "p": {
+      "style": "Hyperlink"
+     }
+    },
+    {
+     "field": "end",
+     "instr": " HYPERLINK \"https://ks.wjx.top/vm/OSkazUA.aspx\" "
+    }
+   ],
+   "text": "第三卷~第五卷——https://ks.wjx.top/vm/OSkazUA.aspx",
+   "sha256": "59f4de3a76f1678e40e159d00195b39b216fd0acd4ace61c80bf91185d5f0f67",
+   "i": 13007
+  }
+ ],
+ "text_sha256": "c1c332b2b25a130ca672b614cf598415b65253df578d5b85c15cff0777ad6994",
+ "chars": 91
+}

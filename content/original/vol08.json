@@ -1,0 +1,116 @@
+{
+ "id": "vol08",
+ "kind": "volume",
+ "number": 8,
+ "title": "第八卷 更高级的execute",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   4868,
+   4870
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "bookmark": "_第八卷_更高级的execute"
+    },
+    {
+     "t": "第八卷 更高级的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute",
+     "p": {}
+    }
+   ],
+   "text": "第八卷 更高级的execute",
+   "sha256": "54cfc503cc435f5cb068cf44f529a7016364595b1a2f6c1cbc1f8e7da1944023",
+   "i": 4868
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "新版本的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    },
+    {
+     "t": "execute针不戳",
+     "p": {
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "新版本的execute针不戳",
+   "sha256": "4c8472536a3dfd8274ed3ae15465c1f21cb0a6bb2d30199e10b2d044e89cab6a",
+   "i": 4869
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "PS：目前尚未正式更新的1.19.1版本中，基岩版也有了类似的功能了",
+     "p": {
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "PS：目前尚未正式更新的1.19.1版本中，基岩版也有了类似的功能了",
+   "sha256": "35c8dd45d4f94dcd57d09dd8e46e4b59545b35824f5933363cf533c3ab9e5395",
+   "i": 4870
+  }
+ ],
+ "text_sha256": "1fbaae77ec9d42c963b3ecd2775b3a8b2e720ff84121871d83bfbcd28b9cd050",
+ "chars": 63
+}

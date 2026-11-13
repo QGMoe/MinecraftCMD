@@ -1,0 +1,77 @@
+{
+ "id": "vol11",
+ "kind": "volume",
+ "number": 11,
+ "title": "第十一卷 NBT时代",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   7808,
+   7809
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "bookmark": "_第十一卷_NBT时代"
+    },
+    {
+     "t": "第十一卷 ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "NBT时代",
+     "p": {}
+    }
+   ],
+   "text": "第十一卷 NBT时代",
+   "sha256": "4f0bbf2e46bf9c3b05e17fa64af092817cd1c648ac586a81bade28b02d076aab",
+   "i": 7808
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "大人，时代变了，去学NBT吧。",
+     "p": {
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "大人，时代变了，去学NBT吧。",
+   "sha256": "cbb5e33888993edeeb51f6e6fd8a274656b57b4c0310b136d84a8bcb04c71781",
+   "i": 7809
+  }
+ ],
+ "text_sha256": "ac1f66bfe5cf745c8ff58c54d0cb7ad370f3d093b93e0afacb168ab65e59cd0f",
+ "chars": 25
+}

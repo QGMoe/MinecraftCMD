@@ -1,0 +1,1233 @@
+{
+ "id": "ch102",
+ "kind": "chapter",
+ "number": 102,
+ "title": "第一百零二章 物品组件",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   7928,
+   7994
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第一百零二章_物品组件"
+    },
+    {
+     "t": "第一百零二章 物品组件",
+     "p": {}
+    }
+   ],
+   "text": "第一百零二章 物品组件",
+   "sha256": "003833cd37a84306935a86ef71eb09c394f6c733b131e31aaf60fd0cf4379f55",
+   "i": 7928
+  },
+  {
+   "ppr": {
+    "style": "caption",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此章节已于2022年8月5日重写）",
+     "p": {}
+    }
+   ],
+   "text": "（此章节已于2022年8月5日重写）",
+   "sha256": "bb1fa38b2d6c8158a6811e2d448aee44f625145cddacf202134e79900b1a54e4",
+   "i": 7929
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在第八章中，我们了解了/give指令的用法。让我们回顾一下：",
+     "p": {}
+    }
+   ],
+   "text": "在第八章中，我们了解了/give指令的用法。让我们回顾一下：",
+   "sha256": "aee2cbbcc554d324576b34cbf5d226b5b05da1e7793e498782e48dbcce89aa8a",
+   "i": 7930
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "style": "Subtle Reference"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.13以下",
+     "p": {
+      "style": "Subtle Reference"
+     }
+    }
+   ],
+   "text": "Java1.13以下",
+   "sha256": "c1ccbe8ed5e38a5d7eac1a4be7241b4c93c2deebec8869b505d60711cfbaa253",
+   "i": 7931
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Reference"
+    }
+   },
+   "c": [
+    {
+     "t": "/give <玩家：目标选择器> <物品id：字符串> [物品数量：整数] [物品数据值：整数] [NBT标签]",
+     "p": {
+      "style": "Subtle Reference"
+     }
+    }
+   ],
+   "text": "/give <玩家：目标选择器> <物品id：字符串> [物品数量：整数] [物品数据值：整数] [NBT标签]",
+   "sha256": "18401457f5c35d82dfa3f159e59dda9dae5d8e3bded55ad112e0dc1e0b0de70c",
+   "i": 7932
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "style": "Subtle Reference"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.13及以上",
+     "p": {
+      "style": "Subtle Reference"
+     }
+    }
+   ],
+   "text": "Java1.13及以上",
+   "sha256": "83cd5f078d962ddd3b76b030c759b02c59989e24fdd57215e9858dca8bf22c55",
+   "i": 7933
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Reference"
+    }
+   },
+   "c": [
+    {
+     "t": "/give <玩家：目标选择器> <物品英文id：字符串> [物品数量：整数]",
+     "p": {
+      "style": "Subtle Reference"
+     }
+    }
+   ],
+   "text": "/give <玩家：目标选择器> <物品英文id：字符串> [物品数量：整数]",
+   "sha256": "3584bb2ae97cd9e2c4c60200278f47d85981b8e76af2c5516db23223a64c1eea",
+   "i": 7934
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "style": "Subtle Reference"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版",
+     "p": {
+      "style": "Subtle Reference"
+     }
+    }
+   ],
+   "text": "基岩版",
+   "sha256": "e1ef194dc07360ceff0a1bfe2e5ddb80aa088939ada629f4c1c7f9bde5641ae2",
+   "i": 7935
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Reference"
+    }
+   },
+   "c": [
+    {
+     "t": "/give <玩家：目标选择器> <物品id：字符串> [物品数量：整数] [物品数据值：整数] [附加标签：JSON]",
+     "p": {
+      "style": "Subtle Reference"
+     }
+    }
+   ],
+   "text": "/give <玩家：目标选择器> <物品id：字符串> [物品数量：整数] [物品数据值：整数] [附加标签：JSON]",
+   "sha256": "0bed7746550cb02ba23f24aa19f3f9827a549557137cb64b1986ae1e7fd7184e",
+   "i": 7936
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "值得注意的是，在基岩版的格式中，『物品数据值』参数后面竟然还有一个『附加标签』参数。等等，附加『标签』？难不成基岩版的指令中也可以使用NBT？",
+     "p": {}
+    }
+   ],
+   "text": "值得注意的是，在基岩版的格式中，『物品数据值』参数后面竟然还有一个『附加标签』参数。等等，附加『标签』？难不成基岩版的指令中也可以使用NBT？",
+   "sha256": "34892460cab6665d5d9612aed63fe5b364d1a4a1c94de62dadf84d4d30450c46",
+   "i": 7937
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你想多了，这当然不是NBT，而是一个基岩版独有的非常类似于NBT但实际上是JSON的东西：",
+     "p": {}
+    }
+   ],
+   "text": "你想多了，这当然不是NBT，而是一个基岩版独有的非常类似于NBT但实际上是JSON的东西：",
+   "sha256": "517f57cd0cfc015c905cd62b0b81088d9fcabe6d9652ad09b6213775069c69f0",
+   "i": 7938
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "style": "Intense Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "物品组件（Item Components）",
+     "p": {
+      "style": "Intense Emphasis"
+     }
+    }
+   ],
+   "text": "物品组件（Item Components）",
+   "sha256": "c7140c44a2900507c3fbfcfb1a0017bf5c84a84f81d80296474dde57555f0686",
+   "i": 7939
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "物品组件这东西，正如其名，是可以用在物品上的JSON组件。由于使用的是JSON而不是SNBT的语法，因此物品组件的格式和Java版的NBT有些许不同。那到底有哪些物品组件？我们又该如何使用它们呢？",
+     "p": {}
+    }
+   ],
+   "text": "物品组件这东西，正如其名，是可以用在物品上的JSON组件。由于使用的是JSON而不是SNBT的语法，因此物品组件的格式和Java版的NBT有些许不同。那到底有哪些物品组件？我们又该如何使用它们呢？",
+   "sha256": "2d853920ad78fcbddad2eee2ce8132b112cfe5309fda178f82cd34a4feb782a5",
+   "i": 7940
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "截止基岩版1.19.10版本，一共有4个物品组件：",
+     "p": {}
+    }
+   ],
+   "text": "截止基岩版1.19.10版本，一共有4个物品组件：",
+   "sha256": "d069fd3b3fbf7271f51166ada4b11dce70098007411d9c74fcc83e4d6a4403a1",
+   "i": 7941
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "can_place_on",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "can_place_on",
+   "sha256": "84270477a24c284400429417c96058904d269b64c653ddb64feaf3b9c47f4731",
+   "i": 7942
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "can_destroy",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "can_destroy",
+   "sha256": "e5026ad3c0cd184fbfbb9fc425e9cbfdfd42b7eac3f46303a04a9fde7cb0dac3",
+   "i": 7943
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "item_lock",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "item_lock",
+   "sha256": "eff9e7facda27bd0aee72b9ae446113ffb8c4aa2ebd66442dbe9c5df77deea42",
+   "i": 7944
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "keep_on_death",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "keep_on_death",
+   "sha256": "6f4ddf0466c9fcc7e751f9fec665f5fadb9071c7dbb18a838e2730b48c287a6d",
+   "i": 7945
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "虽然这里的JSON不是JSON文本，但这些组件和普通的原始JSON文本组件的用法仍然一样。",
+     "p": {}
+    }
+   ],
+   "text": "虽然这里的JSON不是JSON文本，但这些组件和普通的原始JSON文本组件的用法仍然一样。",
+   "sha256": "366ccbccab8b89c2bf336868cdc49d4dcc3be06a51dbc5c84e88c03f49c05399",
+   "i": 7946
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "物品组件的值必须是一个JSON对象，也就是像下面这样：",
+     "p": {}
+    }
+   ],
+   "text": "物品组件的值必须是一个JSON对象，也就是像下面这样：",
+   "sha256": "35a212b24ca450610151047f0379dc59b2651e803dd92d9e7dc5b1b4ba59a767",
+   "i": 7947
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{\"物品组件\":{}}",
+     "p": {}
+    }
+   ],
+   "text": "{\"物品组件\":{}}",
+   "sha256": "0be6267f1f6fbef206af68f683023dac2e6c97f1148b8633e80e95bf56ac260b",
+   "i": 7948
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "而具体这个JSON对象内能够填写哪些东西，得看使用的是什么物品组件。",
+     "p": {}
+    }
+   ],
+   "text": "而具体这个JSON对象内能够填写哪些东西，得看使用的是什么物品组件。",
+   "sha256": "0267b0275a3aaf39587edb61e023cb15f05617e930b764be9d08fbf042c0c572",
+   "i": 7949
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "can_place_on和can_destroy这两个物品组件十分类似，它们俩也是最年长的物品组件，你或许早已知道它们的用途：",
+     "p": {}
+    }
+   ],
+   "text": "can_place_on和can_destroy这两个物品组件十分类似，它们俩也是最年长的物品组件，你或许早已知道它们的用途：",
+   "sha256": "eb5c0f17d1aee3099acd24eea77d3bbd018c3c683884ccfba6ad42e73d6d5e72",
+   "i": 7950
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "can_place_on——指定该『方块类物品』可以被放置于哪些方块上方",
+     "p": {}
+    }
+   ],
+   "text": "can_place_on——指定该『方块类物品』可以被放置于哪些方块上方",
+   "sha256": "34191405c8c3053808d4b11f46c53d67041b11aa1892b13be50e1aa443dfe3e8",
+   "i": 7951
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "can_destroy——指定该物品可以破坏哪些方块",
+     "p": {}
+    }
+   ],
+   "text": "can_destroy——指定该物品可以破坏哪些方块",
+   "sha256": "c39d69eed6d4d8445f9baa879b566c112cc8c0461e4c91d0979bf4923332c320",
+   "i": 7952
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这两个物品组件适用于冒险模式。你应该知道，在基岩版中，处于冒险模式的玩家无法破坏或放置任何方块。因此，妥善运用上述组件，就可以指定玩家能够破坏或放置哪些方块，使得玩家的自由度更高，也能够弄出更多的玩法。",
+     "p": {}
+    }
+   ],
+   "text": "这两个物品组件适用于冒险模式。你应该知道，在基岩版中，处于冒险模式的玩家无法破坏或放置任何方块。因此，妥善运用上述组件，就可以指定玩家能够破坏或放置哪些方块，使得玩家的自由度更高，也能够弄出更多的玩法。",
+   "sha256": "ca8073cca100df80f59a24a6141b590fddb897d32344db48f12ae48d723365f9",
+   "i": 7953
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么它们到底该怎么使用呢？",
+     "p": {}
+    }
+   ],
+   "text": "那么它们到底该怎么使用呢？",
+   "sha256": "43577630bfda706612c25bca5409f10f9fa16d494d570d4879c98a03b42ecfe1",
+   "i": 7954
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你需要在这两个组件的值，也就是它们的JSON对象中，使用blocks组件（值类型为字符串列表），指定具体可以破坏或放置的方块。比如：",
+     "p": {}
+    }
+   ],
+   "text": "你需要在这两个组件的值，也就是它们的JSON对象中，使用blocks组件（值类型为字符串列表），指定具体可以破坏或放置的方块。比如：",
+   "sha256": "cd3b81e335409e0f6c565084d2fc26dab29e07e854480549a8d9d1dfa6cedce7",
+   "i": 7955
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s diamond_shovel 1 0 {\"can_destroy\":{\"blocks\":[\"minecraft:dirt\",\"minecraft:grass\"]}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond_shovel 1 0 {\"can_destroy\":{\"blocks\":[\"minecraft:dirt\",\"minecraft:grass\"]}}",
+   "sha256": "11e007d23d7707c70f815f06429a8314d6a102e57df38f63dfe438ddb8dae83a",
+   "i": 7956
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会给你一把在冒险模式中能够破坏泥土和草方块的钻石铲铲。can_place_on组件的使用方法同理：",
+     "p": {}
+    }
+   ],
+   "text": "这将会给你一把在冒险模式中能够破坏泥土和草方块的钻石铲铲。can_place_on组件的使用方法同理：",
+   "sha256": "c933a206335cf8494281c2fd2002dd2613fec8b00523337f9cdd4beabae21132",
+   "i": 7957
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s diamond_block 1 0 {\"can_place_on\":{\"blocks\":[\"minecraft:dirt\",\"minecraft:grass\"]}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond_block 1 0 {\"can_place_on\":{\"blocks\":[\"minecraft:dirt\",\"minecraft:grass\"]}}",
+   "sha256": "5931d2b5ed186350639faf9acd786fa0f2fabc7758cd25cc4c0569a6e43fd5f7",
+   "i": 7958
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会给你一块在冒险模式中能够放置于泥土和草方块上方的钻石块。",
+     "p": {}
+    }
+   ],
+   "text": "这将会给你一块在冒险模式中能够放置于泥土和草方块上方的钻石块。",
+   "sha256": "74928268510a6748c2251fa650218501dfdc281a703cda7056db81e5e8e636c1",
+   "i": 7959
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "可惜的是，这两个组件似乎无法指定具体的方块数据值以及方块状态，这就限制了这两个组件的使用范围。",
+     "p": {}
+    }
+   ],
+   "text": "可惜的是，这两个组件似乎无法指定具体的方块数据值以及方块状态，这就限制了这两个组件的使用范围。",
+   "sha256": "0be0bb750e08120152d5e133d102c07f50288a8a3dd4c74ac3fd8c45fb50edaa",
+   "i": 7960
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "item_lock和keep_on_death这两个组件是基岩版于1.16.100版本中新添加的。由于它们俩比较新，所以目前知道的人并不多。但这两个的用处可不是一般的大：",
+     "p": {}
+    }
+   ],
+   "text": "item_lock和keep_on_death这两个组件是基岩版于1.16.100版本中新添加的。由于它们俩比较新，所以目前知道的人并不多。但这两个的用处可不是一般的大：",
+   "sha256": "53c9baa76841cf28738968586ad46ccaa637aa0ae275272c8af7b3ec61d29ec2",
+   "i": 7961
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "item_lock——将物品锁定于背包或指定栏位中，使得物品无法被移除、丢弃或用于合成。",
+     "p": {}
+    }
+   ],
+   "text": "item_lock——将物品锁定于背包或指定栏位中，使得物品无法被移除、丢弃或用于合成。",
+   "sha256": "14e87758672076f73321a36d047104edfdc37e5c0126031771b11655ac7ff0c9",
+   "i": 7962
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "keep_on_death——使得物品在死亡后不会掉落",
+     "p": {}
+    }
+   ],
+   "text": "keep_on_death——使得物品在死亡后不会掉落",
+   "sha256": "cffc3ba152ff3cf95bb9941c5111beadde0e6a0997a94177f7e5d6a534d8ac6f",
+   "i": 7963
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "keep_on_death组件的使用方法非常简单，你甚至不需要指定它的JSON对象内到底该填写什么，只需要放一个空空如也的JSON对象作为它的值即可：",
+     "p": {}
+    }
+   ],
+   "text": "keep_on_death组件的使用方法非常简单，你甚至不需要指定它的JSON对象内到底该填写什么，只需要放一个空空如也的JSON对象作为它的值即可：",
+   "sha256": "0c1f6b02563008dd54274d2fe5de4bfa46ae850a535e163be081eb1fb9235fa5",
+   "i": 7964
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s diamond_shovel 1 0 {\"minecraft:keep_on_death\":{}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond_shovel 1 0 {\"minecraft:keep_on_death\":{}}",
+   "sha256": "cde18f4f11d09a4cf78a024c4dfac8c78a3defbd1d4629d5a97e3bbfc7dc8a21",
+   "i": 7965
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会给你一把不会因死亡而掉落的钻石铲（不受游戏规则『死亡不掉落』是否开启的影响），可以说十分简单且有用。你应该注意到了，物品组件也具有命名空间。",
+     "p": {}
+    }
+   ],
+   "text": "这将会给你一把不会因死亡而掉落的钻石铲（不受游戏规则『死亡不掉落』是否开启的影响），可以说十分简单且有用。你应该注意到了，物品组件也具有命名空间。",
+   "sha256": "055163f28958f21693f0bfb95f5f5ab90f2634f0eb0b463a412375db1454075f",
+   "i": 7966
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "item_lock组件可以将物品锁定在玩家的物品栏中。它具有两个模式，需要使用mode组件在它的JSON对象中指定：",
+     "p": {}
+    }
+   ],
+   "text": "item_lock组件可以将物品锁定在玩家的物品栏中。它具有两个模式，需要使用mode组件在它的JSON对象中指定：",
+   "sha256": "52cd83661943afc6071f49711932e34ff5f364703701bcfa205f316800910358",
+   "i": 7967
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "lock_in_inventory——锁定在玩家的背包中，玩家可以在背包中调整物品的位置，但物品无法被移除、丢弃或用于合成。",
+     "p": {}
+    }
+   ],
+   "text": "lock_in_inventory——锁定在玩家的背包中，玩家可以在背包中调整物品的位置，但物品无法被移除、丢弃或用于合成。",
+   "sha256": "174e26536686126e3f8b5192f4498216252555219116c2517ab3792f9dc00234",
+   "i": 7968
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "lock_in_slot——锁定在玩家的栏位中，玩家不可在背包中调整物品的位置，物品也无法被移除、丢弃或用于合成。",
+     "p": {}
+    }
+   ],
+   "text": "lock_in_slot——锁定在玩家的栏位中，玩家不可在背包中调整物品的位置，物品也无法被移除、丢弃或用于合成。",
+   "sha256": "e868fcdb08d65474bd8f5dc92d41a36d897a02d2c4492974723764c6f42b7067",
+   "i": 7969
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {}
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 7970
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s apple 64 0 {\"item_lock\":{\"mode\":\"lock_in_inventory\"}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s apple 64 0 {\"item_lock\":{\"mode\":\"lock_in_inventory\"}}",
+   "sha256": "fbd1ec088a17d50dac17edb2efa47bde87517a655938f5d493c24537078cb321",
+   "i": 7971
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会给你自己一组苹果。你虽然可以使用它并调整它的位置，但这些苹果无法被销毁、丢弃或用于合成，你也无法将这些苹果放到其他容器中。但如果你死亡的话，这些苹果仍然会掉落。另外，这些苹果也可以通过指令移除掉。",
+     "p": {}
+    }
+   ],
+   "text": "这将会给你自己一组苹果。你虽然可以使用它并调整它的位置，但这些苹果无法被销毁、丢弃或用于合成，你也无法将这些苹果放到其他容器中。但如果你死亡的话，这些苹果仍然会掉落。另外，这些苹果也可以通过指令移除掉。",
+   "sha256": "8d870c89906a83ff642d6ccad7d8e777fcd25689d8031851253d9e5ce364078e",
+   "i": 7972
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "再来一个例子：",
+     "p": {}
+    }
+   ],
+   "text": "再来一个例子：",
+   "sha256": "dc667e3b9431380a4edae8bb5535dcddd7b84157680e7d0f0f152c482af5daa7",
+   "i": 7973
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/replaceitem entity @a slot.hotbar 0 book 1 0 {\"item_lock\":{\"mode\":\"lock_in_slot\"}}",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem entity @a slot.hotbar 0 book 1 0 {\"item_lock\":{\"mode\":\"lock_in_slot\"}}",
+   "sha256": "10a41550d476f5b51664240cbd4d9a6a3f7a99e445acecdfbb3b3c765000cddf",
+   "i": 7974
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会把所有玩家的快捷栏第一格的物品替换为一本书，并且这本书会被锁定在这个栏位中。当然，这本书也会在死亡时掉落。",
+     "p": {}
+    }
+   ],
+   "text": "这将会把所有玩家的快捷栏第一格的物品替换为一本书，并且这本书会被锁定在这个栏位中。当然，这本书也会在死亡时掉落。",
+   "sha256": "29abd54fa2f8a251baa138e830285e45b426c226fdc0b4817259a4a9bd44f319",
+   "i": 7975
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "有趣的是，虽然你握不住空气，但是下面这条指令却可以强制让你『握住空气』：",
+     "p": {}
+    }
+   ],
+   "text": "有趣的是，虽然你握不住空气，但是下面这条指令却可以强制让你『握住空气』：",
+   "sha256": "d66c37ee8a3cb375bcf572a3e434202e4db3948bb1a9abbaf33f169c64f6ddc7",
+   "i": 7976
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/replaceitem entity @s slot.hotbar 0 air 1 0 {\"item_lock\":{\"mode\":\"lock_in_slot\"}}",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem entity @s slot.hotbar 0 air 1 0 {\"item_lock\":{\"mode\":\"lock_in_slot\"}}",
+   "sha256": "7d281ecfecb708a6912cbd34eb193f6673d70e12317accbab9a5a4a2fabba00a",
+   "i": 7977
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当你使用上述指令后，看起来你的快捷栏第一格只是变空了而已，也可以把其他物品放在这一格。但如果你把主手切换到这一格然后去尝试挖或使用方块，你就会发现：你破坏不了也使用不了方块了！破坏方块后方块会迅速恢复原来的状态，就像服务器保护一样！只不过，当你把其他东西放到这一格时，使用这一格来挖或破坏方块便不会出现什么问题。",
+     "p": {}
+    }
+   ],
+   "text": "当你使用上述指令后，看起来你的快捷栏第一格只是变空了而已，也可以把其他物品放在这一格。但如果你把主手切换到这一格然后去尝试挖或使用方块，你就会发现：你破坏不了也使用不了方块了！破坏方块后方块会迅速恢复原来的状态，就像服务器保护一样！只不过，当你把其他东西放到这一格时，使用这一格来挖或破坏方块便不会出现什么问题。",
+   "sha256": "b9b3b48a96075b77f616b4bac07ad64b2b61e694488d01fe2d3e112b7d57723c",
+   "i": 7978
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面这些就是基岩版的JSON物品组件的全部内容。既然基岩版有类似NBT的物品组件，那么Java版有没有类似这些功能的NBT标签呢？",
+     "p": {}
+    }
+   ],
+   "text": "上面这些就是基岩版的JSON物品组件的全部内容。既然基岩版有类似NBT的物品组件，那么Java版有没有类似这些功能的NBT标签呢？",
+   "sha256": "685fca869770e6dd133c017aa2f2cb6a48b642a0ddad2e65e6a138e33f985f27",
+   "i": 7979
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案当然是有的，只不过是部分有，也就是：",
+     "p": {}
+    }
+   ],
+   "text": "答案当然是有的，只不过是部分有，也就是：",
+   "sha256": "7f97a900967efe388ea3d1234f972537f148201ec507d84f2a8ce8b83bd96d11",
+   "i": 7980
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "can_place_on → CanPlaceOn",
+     "p": {}
+    }
+   ],
+   "text": "can_place_on → CanPlaceOn",
+   "sha256": "5c104b5bf2b2ed86480b87bc5c228627d162b78df84282ce4163e484d60d34ad",
+   "i": 7981
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "can_destroy → CanDestroy",
+     "p": {}
+    }
+   ],
+   "text": "can_destroy → CanDestroy",
+   "sha256": "51dfaaa91dc747375d41354c04b3759416f7c6166dec6746cc2214daf2372537",
+   "i": 7982
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在Java版中，CanPlaceOn和CanDestroy这两个NBT标签的用途和基岩版的对应物品组件一模一样，唯一的区别就在于使用的方法。Java版的这两个标签的数据类型都是『文本列表』，而不是一个复合标签。列表内就直接填写能够放置或破坏的方块ID，比如：",
+     "p": {}
+    }
+   ],
+   "text": "在Java版中，CanPlaceOn和CanDestroy这两个NBT标签的用途和基岩版的对应物品组件一模一样，唯一的区别就在于使用的方法。Java版的这两个标签的数据类型都是『文本列表』，而不是一个复合标签。列表内就直接填写能够放置或破坏的方块ID，比如：",
+   "sha256": "5186b220674a5e3d16eb075b63f756f24ff9c401c5d01da6cc612025326ca9c8",
+   "i": 7983
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s diamond_shovel{CanDestroy:[\"minecraft:dirt\",\"minecraft:grass_block\"]} 1",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond_shovel{CanDestroy:[\"minecraft:dirt\",\"minecraft:grass_block\"]} 1",
+   "sha256": "fbbb1a35aa62eb8aa45e8f856bf4d07c77049f1e3572f54308dd8b024b0d2472",
+   "i": 7984
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令是刚才的『",
+     "p": {}
+    },
+    {
+     "t": "/give @s diamond_shovel 1 0 {\"can_destroy\":{\"blocks\":[\"minecraft:dirt\",\"minecraft:grass\"]}}",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    },
+    {
+     "t": "』在Java1.13及以上版本的写法，它们具有同样的作用：给你一把在冒险模式中能够破坏泥土和草方块的钻石铲铲。CanPlaceOn的用法和CanDestroy标签一样，这里就不多讲解了。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令是刚才的『/give @s diamond_shovel 1 0 {\"can_destroy\":{\"blocks\":[\"minecraft:dirt\",\"minecraft:grass\"]}}』在Java1.13及以上版本的写法，它们具有同样的作用：给你一把在冒险模式中能够破坏泥土和草方块的钻石铲铲。CanPlaceOn的用法和CanDestroy标签一样，这里就不多讲解了。",
+   "sha256": "304c48b6c5061cbca3ef44751fc98dd743ab32681a19237e21519edadc1b8a82",
+   "i": 7985
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是本章的全部内容。",
+     "p": {}
+    }
+   ],
+   "text": "这就是本章的全部内容。",
+   "sha256": "bd655fa960580257d0b104486bb197969c06aedfc13307be1d23f2f670f5b8cc",
+   "i": 7986
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "附录",
+     "p": {}
+    },
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "：物品组件历史",
+     "p": {}
+    }
+   ],
+   "text": "附录①：物品组件历史",
+   "sha256": "db6767daebdd02d68dc3b49e569468fbc741a1260ce5757478fa28a4d1c33cc4",
+   "i": 7987
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "携带版/基岩版",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "携带版/基岩版",
+   "sha256": "d45b284e2340115de225260f453e519450c84f1e997d49953aa43baae83bc3e3",
+   "i": 7988
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "?——加入了can_place_on和can_destroy两个物品组件，但没有用",
+     "p": {}
+    }
+   ],
+   "text": "?——加入了can_place_on和can_destroy两个物品组件，但没有用",
+   "sha256": "16efdbe9da1e7abb81035687a79a1fe486d14845a7cf9f6047d86dfcfae3b014",
+   "i": 7989
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.1.0——can_place_on和can_destroy两个物品组件现在可正常使用",
+     "p": {}
+    }
+   ],
+   "text": "1.1.0——can_place_on和can_destroy两个物品组件现在可正常使用",
+   "sha256": "654e92fff222f25f3024271f70d1066c39d775adc786994452253a4d81e564f4",
+   "i": 7990
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16.100——加入了item_lock和keep_on_death两个物品组件",
+     "p": {}
+    }
+   ],
+   "text": "1.16.100——加入了item_lock和keep_on_death两个物品组件",
+   "sha256": "3407b70a26fe8addab87eef2745ac6ee2e49d7455c29d9b0fa8757c7db063ad2",
+   "i": 7991
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "附录",
+     "p": {}
+    },
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "：类似物品组件的NBT标签历史",
+     "p": {}
+    }
+   ],
+   "text": "附录②：类似物品组件的NBT标签历史",
+   "sha256": "a844c65e4787db125bd85aaffdf57bf868c808f1310374543fdfc724c8d38209",
+   "i": 7992
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "Java版",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "Java版",
+   "sha256": "3a03cb4251ad4eca8294ce2df1e1d604cf434e4df0b17d0a3266dcc63e3afa15",
+   "i": 7993
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.8——加入了CanPlaceOn和CanDestroy标签",
+     "p": {}
+    }
+   ],
+   "text": "1.8——加入了CanPlaceOn和CanDestroy标签",
+   "sha256": "1e3816e31353ddb59f5382eda55043da1ae5531786cab1b99eee25f376339a96",
+   "i": 7994
+  }
+ ],
+ "text_sha256": "c00647017ebfc2c32be23f63eb92024237137da80bec64784204050af6085f01",
+ "chars": 3148
+}

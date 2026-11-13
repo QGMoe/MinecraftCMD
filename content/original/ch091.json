@@ -1,0 +1,4485 @@
+{
+ "id": "ch091",
+ "kind": "chapter",
+ "number": 91,
+ "title": "第九十一章 红石比较器",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   6784,
+   6959
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第九十一章_红石比较器"
+    },
+    {
+     "t": "第九十一章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " 红石比较器",
+     "p": {}
+    }
+   ],
+   "text": "第九十一章 红石比较器",
+   "sha256": "1b9d1e8e452c3736a82c03c9cb578706f1bcfa1593b1a3d4f77ef207d9396530",
+   "i": 6784
+  },
+  {
+   "ppr": {
+    "style": "caption",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此章节原为『循环装置",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "-牛顿的棺材板快要按不住了啊！！！』，于2022年7月26日改为『红石比较器』）",
+     "p": {}
+    }
+   ],
+   "text": "（此章节原为『循环装置-牛顿的棺材板快要按不住了啊！！！』，于2022年7月26日改为『红石比较器』）",
+   "sha256": "ff14fd2269003cf3dee4411e716f63d96c7f4f5976c166a9fd38c511d5c841cd",
+   "i": 6785
+  },
+  {
+   "ppr": {
+    "style": "caption",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此章节有用到本章说来插入图片，因此最好在起点中文网上阅读本章）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（此章节有用到本章说来插入图片，因此最好在起点中文网上阅读本章）",
+   "sha256": "c3496ef7fd3ac09ef5f558230538f0facbfd7642a334da66b55079272b8b7de5",
+   "i": 6786
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在我们已经了解了很多指令，但是仅仅知道各种指令如何使用，最多也就称得上是一个『会用指令的玩家』而已。那该怎么办呢？我们现在要做的是，将各个指令和游戏特性互相联系起来，这也就是这一卷的主要内容。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "现在我们已经了解了很多指令，但是仅仅知道各种指令如何使用，最多也就称得上是一个『会用指令的玩家』而已。那该怎么办呢？我们现在要做的是，将各个指令和游戏特性互相联系起来，这也就是这一卷的主要内容。",
+   "sha256": "b9b95b513d2b6e7d8f48e42f3b94be70eb3db2783acc537cb278697b4150b7bf",
+   "i": 6787
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    }
+   },
+   "c": [
+    {
+     "t": "红石比较器（",
+     "p": {
+      "style": "Intense Emphasis",
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Redstone Comparator）",
+     "p": {
+      "style": "Intense Emphasis"
+     }
+    },
+    {
+     "t": "，你应该知道这是个什么东西吧？作为红石电路的重要组成部分之一，它有许许多多的的用途。",
+     "p": {}
+    }
+   ],
+   "text": "红石比较器（Redstone Comparator），你应该知道这是个什么东西吧？作为红石电路的重要组成部分之一，它有许许多多的的用途。",
+   "sha256": "7b653c2a72528a5e716ac3013c5f7029dc7240856c8538a0786f8fd0520ef1aa",
+   "i": 6788
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作者的红石并不怎么好，所以这边并不会讲什么特别高深的红石相关内容（我也不会讲）。但基础的一些特性我们还是要了解了解。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作者的红石并不怎么好，所以这边并不会讲什么特别高深的红石相关内容（我也不会讲）。但基础的一些特性我们还是要了解了解。",
+   "sha256": "5ad78382c2f48d909b75bdc8a6e9f888c627a3362a71948aeb7685b1359e7dfe",
+   "i": 6789
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们拿出一个红石比较器，放在地上，你应该注意到了这东西上面插着三个看起来像是红石火把的东西（其实就是红石火把），并组成了一个三角形（△）。这个三角形的一边平行于红石比较器的一侧，另一头指向另一侧（见插图",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "91-1）。",
+     "p": {}
+    }
+   ],
+   "text": "让我们拿出一个红石比较器，放在地上，你应该注意到了这东西上面插着三个看起来像是红石火把的东西（其实就是红石火把），并组成了一个三角形（△）。这个三角形的一边平行于红石比较器的一侧，另一头指向另一侧（见插图91-1）。",
+   "sha256": "2a53f58b0a02b07cc831ad5cb93e0f9dca0b152c4bdd1d703128007d3ace05b3",
+   "i": 6790
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    }
+   },
+   "c": [
+    {
+     "placement": "inline",
+     "extent": {
+      "cx": "5007428",
+      "cy": "2642343"
+     },
+     "name": "图片 1",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image4.png"
+    }
+   ],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6791
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "767080",
+      "cy": "157480"
+     },
+     "name": "文本框 4",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "91- ",
+         "p": {}
+        },
+        {
+         "field": "begin"
+        },
+        {
+         "field": "separate",
+         "instr": " SEQ 91- \\* ARABIC "
+        },
+        {
+         "t": "1",
+         "p": {
+          "misc": [
+           "noProof"
+          ]
+         }
+        },
+        {
+         "field": "end",
+         "instr": " SEQ 91- \\* ARABIC "
+        }
+       ],
+       "text": "91- 1",
+       "sha256": "e3f55186571a14a624f33d3a51dba15cfeb6b3af9f51db096f5d969ad2d5491f"
+      }
+     ]
+    },
+    {
+     "t": "这个三角形意味着什么呢？让我们换一个方式来看待红石比较器：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这个三角形意味着什么呢？让我们换一个方式来看待红石比较器：",
+   "sha256": "50875518e6f8311058e1e3f37f0f74fa83ecc840e122e040a357c7a2e3477de7",
+   "i": 6792
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6793
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┏━┓北",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┏━┓北",
+   "sha256": "e897a29f6931768806f9eb73744c0734bcdfc9acede6b32264dc5967aa056cbe",
+   "i": 6794
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┃△┃↑",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " （插图：91-2）",
+     "p": {}
+    }
+   ],
+   "text": "┃△┃↑ （插图：91-2）",
+   "sha256": "606e66a6097f823e21850e80fe07c1d7971f434f0e139db18d00aa956a5558b1",
+   "i": 6795
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┗━┛",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┗━┛",
+   "sha256": "39da3fb79c6aa6ee6ca3ccec6540c0b8d0c12d2fc7dba0228c7db312cf972edd",
+   "i": 6796
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（长方形的红石比较器？）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（长方形的红石比较器？）",
+   "sha256": "350ba7d03755f3658f86d7eca86d684b696180a67c0a97090fda133550c420f8",
+   "i": 6797
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（额，就这样子将就看吧",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ，能够看配图的话那更好）",
+     "p": {}
+    }
+   ],
+   "text": "（额，就这样子将就看吧 ，能够看配图的话那更好）",
+   "sha256": "935ae77f8198744263336ae7000c6f3222ce87314c36cd51560a385b650a7897",
+   "i": 6798
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "inline",
+     "extent": {
+      "cx": "4980214",
+      "cy": "2628107"
+     },
+     "name": "图片 2",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image5.png"
+    }
+   ],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6799
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是一个朝向正北（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Z-）的红石比较器，这个红石比较器有三个输入口和一个输出口：",
+     "p": {}
+    }
+   ],
+   "text": "这是一个朝向正北（Z-）的红石比较器，这个红石比较器有三个输入口和一个输出口：",
+   "sha256": "5fb5a9cfd91f3525379ec3c0a83da3983828507cb07484c2605b93947dd80acc",
+   "i": 6800
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┏",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O",
+     "p": {}
+    },
+    {
+     "t": "┓",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┏O┓",
+   "sha256": "ac00fa14a57ba4904a05bb7ad9949a7489b607aa9014dda63e3a1cd437894c14",
+   "i": 6801
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B",
+     "p": {}
+    },
+    {
+     "t": "△",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "C（插图：91-3）",
+     "p": {}
+    }
+   ],
+   "text": "B△C（插图：91-3）",
+   "sha256": "c19967124be4c89054b376dc5a04934a9cb42a30dfc4df38f141237810c757b5",
+   "i": 6802
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┗",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A",
+     "p": {}
+    },
+    {
+     "t": "┛",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┗A┛",
+   "sha256": "5f8a8b9f3cc0522d232539abaa566906d46c6e49a72adedde3f10aa75a7cafa2",
+   "i": 6803
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A······后侧输入口",
+     "p": {}
+    }
+   ],
+   "text": "A······后侧输入口",
+   "sha256": "c68c1bd35924c5b3fe8c8e6015bfaf719e382689a37a784c51cc0f031e749bcd",
+   "i": 6804
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B······左侧输入口",
+     "p": {}
+    }
+   ],
+   "text": "B······左侧输入口",
+   "sha256": "2e0e2947748535f721fa1e4527828bfb6a49759171fdae83232a1eeab10136f5",
+   "i": 6805
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C······右侧输入口",
+     "p": {}
+    }
+   ],
+   "text": "C······右侧输入口",
+   "sha256": "cda98d568411b1a025c5a759df0b9c3e4cdfafcd6aac6790dc993125dfde1043",
+   "i": 6806
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "O······输出口",
+     "p": {}
+    }
+   ],
+   "text": "O······输出口",
+   "sha256": "6b12249983c9e8703a67721ca13d0860b61f5e140cb04525a142af7475b94817",
+   "i": 6807
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "left"
+   },
+   "c": [
+    {
+     "placement": "inline",
+     "extent": {
+      "cx": "5097252",
+      "cy": "2690746"
+     },
+     "name": "图片 3",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image6.png"
+    }
+   ],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6808
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 6",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "91- 3",
+         "p": {}
+        }
+       ],
+       "text": "91- 3",
+       "sha256": "400be1577acda6aaa924fd5d1cf93b59aa936122c9531aeee33a9e9aa4152b1d"
+      }
+     ]
+    },
+    {
+     "t": "其中，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A后侧输入口是很重要的一个输入口，你可以向这个输入口输入红石信号。当然，单纯的输入红石信号并不会发生什么事情，因为我们没有在O输出口放置一些能够接收红石信号的东西。让我们在A侧放置一个红石块，O侧放置一个红石粉看看：",
+     "p": {}
+    }
+   ],
+   "text": "其中，A后侧输入口是很重要的一个输入口，你可以向这个输入口输入红石信号。当然，单纯的输入红石信号并不会发生什么事情，因为我们没有在O输出口放置一些能够接收红石信号的东西。让我们在A侧放置一个红石块，O侧放置一个红石粉看看：",
+   "sha256": "2d94b2062524b237f657f7b74fd3ccad0f617d8ae26e67f80f7ae710b90688ca",
+   "i": 6809
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "亮起来的红石粉",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "亮起来的红石粉",
+   "sha256": "f3b9d46c73ec0a42231e35489e2bee052baabecef5722503c7a0e621cfe56e88",
+   "i": 6810
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┏",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O",
+     "p": {}
+    },
+    {
+     "t": "┓",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┏O┓",
+   "sha256": "ac00fa14a57ba4904a05bb7ad9949a7489b607aa9014dda63e3a1cd437894c14",
+   "i": 6811
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B",
+     "p": {}
+    },
+    {
+     "t": "△",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "C（插图：91-4）",
+     "p": {}
+    }
+   ],
+   "text": "B△C（插图：91-4）",
+   "sha256": "1922efeba65fcae8348734f1fc46936fb63073710873f4cf530aa1bab572606f",
+   "i": 6812
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┗",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A",
+     "p": {}
+    },
+    {
+     "t": "┛",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┗A┛",
+   "sha256": "5f8a8b9f3cc0522d232539abaa566906d46c6e49a72adedde3f10aa75a7cafa2",
+   "i": 6813
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "红石块",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "红石块",
+   "sha256": "770fdcdd6d6f3e7d6dfcc9b47fa0ac11a9b18b351152e0e38b82f10319981be2",
+   "i": 6814
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "inline",
+     "extent": {
+      "cx": "4991100",
+      "cy": "2633990"
+     },
+     "name": "图片 7",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image7.png"
+    }
+   ],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6815
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你会发现",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O侧的红石粉亮起来了。这是为什么？",
+     "p": {}
+    }
+   ],
+   "text": "你会发现O侧的红石粉亮起来了。这是为什么？",
+   "sha256": "edb8674b9bc014d6c0797cc0abe5b9803cc48faf861fab3ea39354e48fecc77d",
+   "i": 6816
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 8",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "91- 4",
+         "p": {}
+        }
+       ],
+       "text": "91- 4",
+       "sha256": "3523d55bbf83cbf925705b62317ce96fd25b0bfd3f5609359cfbd706fdf4bd6f"
+      }
+     ]
+    },
+    {
+     "t": "因为红石比较器在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A侧收到了红石块产生的红石信号，于是就从O侧输出来了。那么问题来了：我们都知道红石信号有强度等级之分，在普通的红石线中传递的红石信号每过一格就会衰减一级，直到完全没有信号。那么红石信号在穿过红石比较器的过程中会发生衰减吗？",
+     "p": {}
+    }
+   ],
+   "text": "因为红石比较器在A侧收到了红石块产生的红石信号，于是就从O侧输出来了。那么问题来了：我们都知道红石信号有强度等级之分，在普通的红石线中传递的红石信号每过一格就会衰减一级，直到完全没有信号。那么红石信号在穿过红石比较器的过程中会发生衰减吗？",
+   "sha256": "288a879a28778c1aa3cdfd7e348326aeaa7b3e462f8d60b69a8ab0ae2951c634",
+   "i": 6817
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "由于红石块能够产生出",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "15级的红石信号，因此我们只需要测试O侧输出的红石信号是否为15级即可。我们当然可以通过延长O侧的红石线路，观察红石信号是否传递了15格。但别忘了本书是一个指令教程，因此我们干脆直接用指令对O侧的红石粉进行方块状态测试：",
+     "p": {}
+    }
+   ],
+   "text": "由于红石块能够产生出15级的红石信号，因此我们只需要测试O侧输出的红石信号是否为15级即可。我们当然可以通过延长O侧的红石线路，观察红石信号是否传递了15格。但别忘了本书是一个指令教程，因此我们干脆直接用指令对O侧的红石粉进行方块状态测试：",
+   "sha256": "a8dd1a01f83dd03300d796b871b13957bc82f9572f4748da1b159d94535e1341",
+   "i": 6818
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.13及之后版本",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13及之后版本",
+   "sha256": "5f1156a77fbd8276d8b4b8957a2438b0b3456aaea05aabbe134f724116739bd3",
+   "i": 6819
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute if block ~ ~ ~ minecraft:redstone_wire[power=15] ",
+     "p": {}
+    }
+   ],
+   "text": "/execute if block ~ ~ ~ minecraft:redstone_wire[power=15] ",
+   "sha256": "bdbb3958981f95bacee4dba994360b0cd100f0a960ecf3940ca828045b887989",
+   "i": 6820
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.12.2-1.11",
+     "p": {}
+    }
+   ],
+   "text": "Java1.12.2-1.11",
+   "sha256": "97fce0e83c706c99996b691d614ce1c2d6b91f3f5d4e932348ee1ee47f2a9384",
+   "i": 6821
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblock ~ ~ ~ minecraft:redstone_wire [power=15] ",
+     "p": {}
+    }
+   ],
+   "text": "/testforblock ~ ~ ~ minecraft:redstone_wire [power=15] ",
+   "sha256": "2c7f545b71319d424e3d69ef0a52c93c9df6a476b97de074266a89e89c259bf7",
+   "i": 6822
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "基岩版",
+     "p": {}
+    }
+   ],
+   "text": "基岩版",
+   "sha256": "e1ef194dc07360ceff0a1bfe2e5ddb80aa088939ada629f4c1c7f9bde5641ae2",
+   "i": 6823
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblock ~ ~ ~ minecraft:redstone_wire [\"redstone_signal\":15] ",
+     "p": {}
+    }
+   ],
+   "text": "/testforblock ~ ~ ~ minecraft:redstone_wire [\"redstone_signal\":15] ",
+   "sha256": "97f8940550fa7afee64e3aece5736a6ca2433619e17b6a9815a723477262b96a",
+   "i": 6824
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "虽然方块状态我们并没有了解过，但也快了，这边先预习一下也无妨。上面的指令的作用是：探测指令执行地点（也就是你的位置）的方块是否是红石线，且",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "power（redstone_signal）方块状态的值为15。其中，power（redstone_signal）方块状态的作用就是储存该红石粉的红石信号强度等级。",
+     "p": {}
+    }
+   ],
+   "text": "虽然方块状态我们并没有了解过，但也快了，这边先预习一下也无妨。上面的指令的作用是：探测指令执行地点（也就是你的位置）的方块是否是红石线，且power（redstone_signal）方块状态的值为15。其中，power（redstone_signal）方块状态的作用就是储存该红石粉的红石信号强度等级。",
+   "sha256": "1665d78c13ce7082af91557cf8c9e287d5fd4caa10d2d39eac0b0061b2fc9bf9",
+   "i": 6825
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "站在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O侧的红石粉上，根据你的版本选择性运行上面的指令。如果指令运行成功，那么就代表着这个红石粉具有15级的红石信号，也就验证了我们上述的猜想。那么实际情况怎么样呢？",
+     "p": {}
+    }
+   ],
+   "text": "站在O侧的红石粉上，根据你的版本选择性运行上面的指令。如果指令运行成功，那么就代表着这个红石粉具有15级的红石信号，也就验证了我们上述的猜想。那么实际情况怎么样呢？",
+   "sha256": "44a133a232bba1d73846134b8ed2d1f78d586f28f196de6bc52041709c42248d",
+   "i": 6826
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "指令确实运行成功了。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "指令确实运行成功了。",
+   "sha256": "ad96060776eaa2b9fccb087818e5c61ed995cdd3c251d48ce996ec5d1b561cf8",
+   "i": 6827
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这意味着什么呢？这意味着，红石比较器不会导致红石信号的衰减。但随之而来就有另一个问题——红石比较器会像红石中继器一样增强信号吗？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这意味着什么呢？这意味着，红石比较器不会导致红石信号的衰减。但随之而来就有另一个问题——红石比较器会像红石中继器一样增强信号吗？",
+   "sha256": "51152be3e43241e013a259e38d8c6061fce063b81490334e0b3c0e2606d1f53c",
+   "i": 6828
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们再测试一下，将上面的结构改成下面这样：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "让我们再测试一下，将上面的结构改成下面这样：",
+   "sha256": "a1449c55b0ab19d99659fb959252c88c81ae870dc82983203b011f7bb8ed48b1",
+   "i": 6829
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——究竟是14级还是15级？",
+     "p": {}
+    }
+   ],
+   "text": "┊ ——究竟是14级还是15级？",
+   "sha256": "8b7924b2ffd0c3b06aaba8e6fc2c9400f405d653bfad9ffe695e8b91523f5cb5",
+   "i": 6830
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┏",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O",
+     "p": {}
+    },
+    {
+     "t": "┓",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┏O┓",
+   "sha256": "ac00fa14a57ba4904a05bb7ad9949a7489b607aa9014dda63e3a1cd437894c14",
+   "i": 6831
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B",
+     "p": {}
+    },
+    {
+     "t": "△",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "C（插图：91-5）",
+     "p": {}
+    }
+   ],
+   "text": "B△C（插图：91-5）",
+   "sha256": "aeb205a7fab2783ddc1c9c2b2d9413c3872f6168380fdd9b186e032dc865cff2",
+   "i": 6832
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┗",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A",
+     "p": {}
+    },
+    {
+     "t": "┛",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┗A┛",
+   "sha256": "5f8a8b9f3cc0522d232539abaa566906d46c6e49a72adedde3f10aa75a7cafa2",
+   "i": 6833
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——14级红石信号",
+     "p": {}
+    }
+   ],
+   "text": "┊ ——14级红石信号",
+   "sha256": "9a8c819e67d26cb493ba159f49323708b2bf03087c3526abefe14cf68d02bbe0",
+   "i": 6834
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——15级红石信号",
+     "p": {}
+    }
+   ],
+   "text": "┊ ——15级红石信号",
+   "sha256": "905d380a885485f7de23f96fe17ea8908a1e7d543e98eb297fc5c7a4c7f3faa9",
+   "i": 6835
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "▦",
+   "sha256": "7326f15984d2965d589a2c26449cfbce79b1f61597ee26f4e3206763197a8008",
+   "i": 6836
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "图例",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "图例",
+   "sha256": "5f6a03b217245ff838c75a71623ccf9478f181e15394c02e4b0cfbbaa074e9c2",
+   "i": 6837
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊······红石线",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┊······红石线",
+   "sha256": "d948447113d335743947aa49bf0f33e19efee9f9c00b965127f3932d9c9a4a7e",
+   "i": 6838
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "红石块",
+     "p": {}
+    }
+   ],
+   "text": "▦······红石块",
+   "sha256": "73a71038b2cb7eed79821dd584f3fac1a120f5c66eb4ff24180397ee00655a15",
+   "i": 6839
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "inline",
+     "extent": {
+      "cx": "5382986",
+      "cy": "2841489"
+     },
+     "name": "图片 9",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image8.png"
+    }
+   ],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6840
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后还是老样子，对",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O侧的红石线进行方块状态测试，只需要把『15』改成『14』就行。那么结果如何呢？",
+     "p": {}
+    }
+   ],
+   "text": "然后还是老样子，对O侧的红石线进行方块状态测试，只需要把『15』改成『14』就行。那么结果如何呢？",
+   "sha256": "cf1ac43c8f8735539930db9b144f611b7d067acca352f677206fc4faeb4cc156",
+   "i": 6841
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "指令也是成功运行！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "指令也是成功运行！",
+   "sha256": "1c45f869692bcdf2780b9bc7e5a88da7a4e964de6f8cb0f12911eb878570ca19",
+   "i": 6842
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你不放心，你还可以重新测试一下『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "15』的值，然后你就会发现指令执行失败。",
+     "p": {}
+    }
+   ],
+   "text": "如果你不放心，你还可以重新测试一下『15』的值，然后你就会发现指令执行失败。",
+   "sha256": "7849423a72c738f613fecc872bd7f1762d303109496b769ed28a90fb3e675882",
+   "i": 6843
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以说，总结下来，红石比较器并不会导致红石信号衰减，也不会增强红石信号。借此原理，红石比较器的第一个重要用途就出来了：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "所以说，总结下来，红石比较器并不会导致红石信号衰减，也不会增强红石信号。借此原理，红石比较器的第一个重要用途就出来了：",
+   "sha256": "9710b6a2887b396cb2ab4f66f7cb210adf98aa1ee459587bdaa7fd80510a9d81",
+   "i": 6844
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "保持信号强度（插图：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "91-6）",
+     "p": {}
+    }
+   ],
+   "text": "保持信号强度（插图：91-6）",
+   "sha256": "ed2051c36c71fe0afd3498d6540cc90c47f50593759baf88e40111d918dd7e95",
+   "i": 6845
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "inline",
+     "extent": {
+      "cx": "5014562",
+      "cy": "2645229"
+     },
+     "name": "图片 11",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image9.png"
+    }
+   ],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6846
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们上面的讨论都仅仅基于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A后侧输入口和O输出口，但红石比较器还有两个输入口：B左侧输入口和C右侧输入口。这两个输入口有什么用呢？",
+     "p": {}
+    }
+   ],
+   "text": "我们上面的讨论都仅仅基于A后侧输入口和O输出口，但红石比较器还有两个输入口：B左侧输入口和C右侧输入口。这两个输入口有什么用呢？",
+   "sha256": "5e18526cb0422cc1ab0555a292f93e6a4f89f3ded0b358324ccb3bc945f9c691",
+   "i": 6847
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "说到这两个输入口，就不得不提——红石比较器的模式。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "说到这两个输入口，就不得不提——红石比较器的模式。",
+   "sha256": "2ca4d988e209e15b124a59a517a8bd0625bf83686ce6e62e8d7be936e8e54d35",
+   "i": 6848
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "红石比较器具有两种模式，可以通过观察靠近",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O输出口的那个红石火把的开关状态来判断此时比较器处于哪种模式：",
+     "p": {}
+    }
+   ],
+   "text": "红石比较器具有两种模式，可以通过观察靠近O输出口的那个红石火把的开关状态来判断此时比较器处于哪种模式：",
+   "sha256": "f8b1d6668e4a157fe5e090ffb48c2bae050c98381c3b11169d5fe52b2c5a2da4",
+   "i": 6849
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "比较模式——",
+     "p": {
+      "style": "Subtle Emphasis",
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O输出口的红石火把关闭",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "比较模式——O输出口的红石火把关闭",
+   "sha256": "5e284e1f45056c11113d0756ba0e9d926d64788e03191b2370d1f23eea92ed60",
+   "i": 6850
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "作差模式——",
+     "p": {
+      "style": "Subtle Emphasis",
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O输出口的红石火把开启",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "作差模式——O输出口的红石火把开启",
+   "sha256": "9f553fb5a37de116ddffe9129d961b1294ef9553eee111c219d8c14b46db44fd",
+   "i": 6851
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "先来讲讲比较模式。当红石比较器处于比较模式时，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "B或C输入口输入的红石信号强度会和A输入口的红石信号强度作比较，如果B或C＞A则O不输出，B或C≤A则O输出，也就是像下面这样子：",
+     "p": {}
+    }
+   ],
+   "text": "先来讲讲比较模式。当红石比较器处于比较模式时，B或C输入口输入的红石信号强度会和A输入口的红石信号强度作比较，如果B或C＞A则O不输出，B或C≤A则O输出，也就是像下面这样子：",
+   "sha256": "c07051c762d62407b575f23a9688473ff71bea17d9f42d746864a9c6769998c7",
+   "i": 6852
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——0级",
+     "p": {}
+    }
+   ],
+   "text": "┊ ——0级",
+   "sha256": "25ee61d28f6812770c9c0dd1bf38a47180a65e5298570f41c9b05bee71653389",
+   "i": 6853
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┏",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O",
+     "p": {}
+    },
+    {
+     "t": "┓",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "（插图：91-7）",
+     "p": {}
+    }
+   ],
+   "text": "┏O┓（插图：91-7）",
+   "sha256": "a11bfbe41744df9815d48efd8a0421acee232e4b05b012ae69826322bb0cd57f",
+   "i": 6854
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B",
+     "p": {}
+    },
+    {
+     "t": "△",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "C",
+     "p": {}
+    },
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "B△C▦",
+   "sha256": "31a43a427cd5e93bd9f36a1d7863875404d397d72bc51d326cd43dc53880a15c",
+   "i": 6855
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┗",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A",
+     "p": {}
+    },
+    {
+     "t": "┛",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┗A┛",
+   "sha256": "5f8a8b9f3cc0522d232539abaa566906d46c6e49a72adedde3f10aa75a7cafa2",
+   "i": 6856
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——14级",
+     "p": {}
+    }
+   ],
+   "text": "┊ ——14级",
+   "sha256": "b4b4e46c37a6f39ca82296cbb631d315993bdfb4aa7b2cb6e50b4802715f5853",
+   "i": 6857
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——15级",
+     "p": {}
+    }
+   ],
+   "text": "┊ ——15级",
+   "sha256": "5d7eefde6097912836d290822f1ea3d2c162828cbff98323319d1b104087141b",
+   "i": 6858
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "▦",
+   "sha256": "7326f15984d2965d589a2c26449cfbce79b1f61597ee26f4e3206763197a8008",
+   "i": 6859
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∵",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "C=15,A=14",
+     "p": {}
+    }
+   ],
+   "text": "∵C=15,A=14",
+   "sha256": "e7cc0bee879feffa22f8cc98a90dd99c2c69b166e2b9a44dee4b887434dda918",
+   "i": 6860
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∴",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "C＞A",
+     "p": {}
+    }
+   ],
+   "text": "∴C＞A",
+   "sha256": "a1db968cbd12c36d4990c20e7d4bbcc8dccc808e542311c4b80452bc633baee6",
+   "i": 6861
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∴",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O=0（不输出）",
+     "p": {}
+    }
+   ],
+   "text": "∴O=0（不输出）",
+   "sha256": "c0b253a47c8e862f0aad691401b5cff27be502b6112bda1dcaa37ecaf93553a7",
+   "i": 6862
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "inline",
+     "extent": {
+      "cx": "5089071",
+      "cy": "2685720"
+     },
+     "name": "图片 13",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image10.png"
+    }
+   ],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6863
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "——————————",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "——————————",
+   "sha256": "ca9f570bbb716b9b6a0ca874007a185d56e18093a4ecd1f1118d25fca6e958a6",
+   "i": 6864
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——14级",
+     "p": {}
+    }
+   ],
+   "text": "┊ ——14级",
+   "sha256": "b4b4e46c37a6f39ca82296cbb631d315993bdfb4aa7b2cb6e50b4802715f5853",
+   "i": 6865
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┏",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O",
+     "p": {}
+    },
+    {
+     "t": "┓",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "（插图：91-8）",
+     "p": {}
+    }
+   ],
+   "text": "┏O┓（插图：91-8）",
+   "sha256": "67dafe42aa6e34021a7895bb38674e19d96caa4ba4d4b1de7babc89f47704ed1",
+   "i": 6866
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B",
+     "p": {}
+    },
+    {
+     "t": "△",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "C",
+     "p": {}
+    },
+    {
+     "t": "┈┈┈",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "（这里有3格的红石线）",
+     "p": {}
+    }
+   ],
+   "text": "B△C┈┈┈▦（这里有3格的红石线）",
+   "sha256": "8f3a0dcc00edca39162801ace7c0f3a92fc206fbfb00ef82e772618a647e3ce6",
+   "i": 6867
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┗",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A",
+     "p": {}
+    },
+    {
+     "t": "┛",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┗A┛",
+   "sha256": "5f8a8b9f3cc0522d232539abaa566906d46c6e49a72adedde3f10aa75a7cafa2",
+   "i": 6868
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——14级",
+     "p": {}
+    }
+   ],
+   "text": "┊ ——14级",
+   "sha256": "b4b4e46c37a6f39ca82296cbb631d315993bdfb4aa7b2cb6e50b4802715f5853",
+   "i": 6869
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——15级",
+     "p": {}
+    }
+   ],
+   "text": "┊ ——15级",
+   "sha256": "5d7eefde6097912836d290822f1ea3d2c162828cbff98323319d1b104087141b",
+   "i": 6870
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "▦",
+   "sha256": "7326f15984d2965d589a2c26449cfbce79b1f61597ee26f4e3206763197a8008",
+   "i": 6871
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∵",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "C=13,A=14",
+     "p": {}
+    }
+   ],
+   "text": "∵C=13,A=14",
+   "sha256": "6a527a8b07a821c9b6b9c41254cd64afdc7e8eeaa48a27cb8db2901328efbb3e",
+   "i": 6872
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∴",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "C＜A",
+     "p": {}
+    }
+   ],
+   "text": "∴C＜A",
+   "sha256": "4e3384a32727224f4113d1bea0ee0ba70d938e9559c0bfe2dbe0b7a3d5af61e4",
+   "i": 6873
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∴",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O=14（输出）",
+     "p": {}
+    }
+   ],
+   "text": "∴O=14（输出）",
+   "sha256": "0739852d7aff2d767168f579cdcdc30a4307d1440d65fb34418802ac15498537",
+   "i": 6874
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "inline",
+     "extent": {
+      "cx": "5073045",
+      "cy": "2677885"
+     },
+     "name": "图片 15",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image11.png"
+    }
+   ],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6875
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "懂了吧？需要注意的是，如果",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "B和C都有输入，那么游戏会先比较B和C，拿强度最大的和A比较：",
+     "p": {}
+    }
+   ],
+   "text": "懂了吧？需要注意的是，如果B和C都有输入，那么游戏会先比较B和C，拿强度最大的和A比较：",
+   "sha256": "f892e249ca0d206044ad79fff7ea36f0cbfad6616c16f0a21e98902b95c31dbb",
+   "i": 6876
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空空┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——15级",
+     "p": {}
+    }
+   ],
+   "text": "空空┊ ——15级",
+   "sha256": "a87f1789a2abc61659435a84057ae3536ab471fc51fefaecacce25a4c424dde4",
+   "i": 6877
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空空┏",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O",
+     "p": {}
+    },
+    {
+     "t": "┓",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "（插图：91-9）",
+     "p": {}
+    }
+   ],
+   "text": "空空┏O┓（插图：91-9）",
+   "sha256": "aab4cbc9d96d3a1163cf09a3ec9ec0356b6c87aa1ea0cbb98b873c9c87bcf665",
+   "i": 6878
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "┈┈",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "B",
+     "p": {}
+    },
+    {
+     "t": "△",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "C",
+     "p": {}
+    },
+    {
+     "t": "┈┈┈",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "▦┈┈B△C┈┈┈▦",
+   "sha256": "c7cba9f8f0a86cd6bab93b96e24af83c80f86b932a695a199566bef604940d1a",
+   "i": 6879
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空空┗",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A",
+     "p": {}
+    },
+    {
+     "t": "┛",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "空空┗A┛",
+   "sha256": "825f57fd71ed716fe9aa6e4c605f7bcba86f34fc613ad5ed2cfba226cd1047d4",
+   "i": 6880
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空空┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——15级",
+     "p": {}
+    }
+   ],
+   "text": "空空┊ ——15级",
+   "sha256": "a87f1789a2abc61659435a84057ae3536ab471fc51fefaecacce25a4c424dde4",
+   "i": 6881
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空空",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "空空▦",
+   "sha256": "e726c9a61777c327616549a6f7c0c403af4c9dcf5f999341de983e7d4a2bc9ad",
+   "i": 6882
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∵",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "B=14,C=13",
+     "p": {}
+    }
+   ],
+   "text": "∵B=14,C=13",
+   "sha256": "c50f905e3269b8df0c7e164d4c0920184a13a255e4790e9a29a276b5143a8cc2",
+   "i": 6883
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∴",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "B＞C",
+     "p": {}
+    }
+   ],
+   "text": "∴B＞C",
+   "sha256": "8f28a6accdcff062dbf80bd570dcd094e88de94e60673a83cdb58f7815bdad75",
+   "i": 6884
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∵",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A=15",
+     "p": {}
+    }
+   ],
+   "text": "∵A=15",
+   "sha256": "7bee9dcb0c1dfc7ed3d8681c454cce39b1314b50141b525b64693048a73a0686",
+   "i": 6885
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∴",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "B＜A",
+     "p": {}
+    }
+   ],
+   "text": "∴B＜A",
+   "sha256": "cd9e5f83632b1b40074bc5139aa29caa9ee2cc3e5f5cfe013df83c42284745dd",
+   "i": 6886
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∴",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O=15（输出）",
+     "p": {}
+    }
+   ],
+   "text": "∴O=15（输出）",
+   "sha256": "f3b079cd2a17201c4703bdda1ce9658ba2d8a6f7e215f38ab876ec3790a14c4f",
+   "i": 6887
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "inline",
+     "extent": {
+      "cx": "5003709",
+      "cy": "2639994"
+     },
+     "name": "图片 17",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image12.png"
+    }
+   ],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6888
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "红石比较器的这个比较模式就是这样，同时这可以引出比较器第二个重要用途：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "红石比较器的这个比较模式就是这样，同时这可以引出比较器第二个重要用途：",
+   "sha256": "2b574a4216355373657207acd0ede50e9de00ba36178ee131fe418a1aa354c8e",
+   "i": 6889
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比较信号强度",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "比较信号强度",
+   "sha256": "4d4a3e8ed3e62459a345b023c2928c4d5d8c36ab4fd79f0b37393642ff206d88",
+   "i": 6890
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当红石比较器靠近",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O输出口的红石火把开启时，红石比较器就进入了『作差模式』。作差模式的红石比较器会将A输入口的红石信号强度和B或C的红石信号强度相减，并将相减后的红石信号强度从O侧输出：",
+     "p": {}
+    }
+   ],
+   "text": "当红石比较器靠近O输出口的红石火把开启时，红石比较器就进入了『作差模式』。作差模式的红石比较器会将A输入口的红石信号强度和B或C的红石信号强度相减，并将相减后的红石信号强度从O侧输出：",
+   "sha256": "1cfc6093ba9c48ef8d65b0fcf36a67138dad34c0f140ef79ab4e9651f05e36e8",
+   "i": 6891
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空空┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——1级",
+     "p": {}
+    }
+   ],
+   "text": "空空┊ ——1级",
+   "sha256": "ea647490b5b24a7c6bc66dc8026dec10fb828b8f65761afbc09c67bbb12b8185",
+   "i": 6892
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空空┏",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O",
+     "p": {}
+    },
+    {
+     "t": "┓",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "（插图：91-10）",
+     "p": {}
+    }
+   ],
+   "text": "空空┏O┓（插图：91-10）",
+   "sha256": "edd929dda9aeb7ebc554ff1b102e3fa01106d7f6fb6d28f0478717ec542ca49a",
+   "i": 6893
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "┈┈",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "B",
+     "p": {}
+    },
+    {
+     "t": "△",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "C",
+     "p": {}
+    },
+    {
+     "t": "┈┈┈",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "▦┈┈B△C┈┈┈▦",
+   "sha256": "c7cba9f8f0a86cd6bab93b96e24af83c80f86b932a695a199566bef604940d1a",
+   "i": 6894
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空空┗",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A",
+     "p": {}
+    },
+    {
+     "t": "┛",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "空空┗A┛",
+   "sha256": "825f57fd71ed716fe9aa6e4c605f7bcba86f34fc613ad5ed2cfba226cd1047d4",
+   "i": 6895
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空空┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——15级",
+     "p": {}
+    }
+   ],
+   "text": "空空┊ ——15级",
+   "sha256": "a87f1789a2abc61659435a84057ae3536ab471fc51fefaecacce25a4c424dde4",
+   "i": 6896
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空空",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "空空▦",
+   "sha256": "e726c9a61777c327616549a6f7c0c403af4c9dcf5f999341de983e7d4a2bc9ad",
+   "i": 6897
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∵",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "B=14,C=13",
+     "p": {}
+    }
+   ],
+   "text": "∵B=14,C=13",
+   "sha256": "c50f905e3269b8df0c7e164d4c0920184a13a255e4790e9a29a276b5143a8cc2",
+   "i": 6898
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∴",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "B＞C",
+     "p": {}
+    }
+   ],
+   "text": "∴B＞C",
+   "sha256": "8f28a6accdcff062dbf80bd570dcd094e88de94e60673a83cdb58f7815bdad75",
+   "i": 6899
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∵",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A=15",
+     "p": {}
+    }
+   ],
+   "text": "∵A=15",
+   "sha256": "7bee9dcb0c1dfc7ed3d8681c454cce39b1314b50141b525b64693048a73a0686",
+   "i": 6900
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∴",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O=A-B=15-14=1（输出）",
+     "p": {}
+    }
+   ],
+   "text": "∴O=A-B=15-14=1（输出）",
+   "sha256": "346754d5e62432e84ea48931fbfbf9a6ab7902dabe1da89d937b8f788ffe8ded",
+   "i": 6901
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "inline",
+     "extent": {
+      "cx": "5003165",
+      "cy": "2640698"
+     },
+     "name": "图片 19",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image13.png"
+    }
+   ],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6902
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不难发现，不管是在哪个模式，红石比较器都会先比较",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "B和C输入口的信号强度，将最大的信号强度抽出来之后再操作A输入口的信号强度。",
+     "p": {}
+    }
+   ],
+   "text": "不难发现，不管是在哪个模式，红石比较器都会先比较B和C输入口的信号强度，将最大的信号强度抽出来之后再操作A输入口的信号强度。",
+   "sha256": "83bdff208c76b83ecd137fa2b1b6881484b5a9b4c9ac4c9086028330659c464c",
+   "i": 6903
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个『作差模式』也就是这样，同时这也引出比较器第三个重要用途：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这个『作差模式』也就是这样，同时这也引出比较器第三个重要用途：",
+   "sha256": "f35d116113ababd9b3954426f6f2af118c225c2656248c80c1dd68f187dc82a2",
+   "i": 6904
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "信号强度作差",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "信号强度作差",
+   "sha256": "18007489b7dd09070d3d7e82747b5183dbcfaf9845055e01c4c28b4403ecc5b9",
+   "i": 6905
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么比较器就这么讲完了吗？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "那么比较器就这么讲完了吗？",
+   "sha256": "7f19f86a19a86186086f2d743aa1cf5d62771f7533165b86c8ae1d6b66d07984",
+   "i": 6906
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "No，因为红石比较器还有第四个重要用途：",
+     "p": {}
+    }
+   ],
+   "text": "No，因为红石比较器还有第四个重要用途：",
+   "sha256": "06f3c0facef7a3983e82449e41aea8e8bde72c432b3361dfe7d65bdee92f29f2",
+   "i": 6907
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "检测方块状态、方块实体和物品展示框",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "检测方块状态、方块实体和物品展示框",
+   "sha256": "96139a0cada14559c5be0e2ef7f8fb12a18d2d601dc66955054d1ad162eccaa3",
+   "i": 6908
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们知道，红石比较器可以检测命令方块上一次的执行成功次数，然后将次数转化为红石信号强度进行输出。还可以检测许多容器，以及各种东西，然后输出特定的红石信号。对于隔壁红石来说，红石比较器常常用来检测容器内物品数量，甚至是通过不可堆叠和可堆叠的物品不断在漏斗内运动，然后使用红石比较器检测，来达到『随机数运算』的目的。只不过我们这边不需要用到这么复杂的东西（其实那也没多复杂），我们只需要能够用红石比较器检测命令方块的成功次数就行了：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "我们知道，红石比较器可以检测命令方块上一次的执行成功次数，然后将次数转化为红石信号强度进行输出。还可以检测许多容器，以及各种东西，然后输出特定的红石信号。对于隔壁红石来说，红石比较器常常用来检测容器内物品数量，甚至是通过不可堆叠和可堆叠的物品不断在漏斗内运动，然后使用红石比较器检测，来达到『随机数运算』的目的。只不过我们这边不需要用到这么复杂的东西（其实那也没多复杂），我们只需要能够用红石比较器检测命令方块的成功次数就行了：",
+   "sha256": "8d84b8e2149d483f75df9e9a59a969f97a18674880e202b5e68130480d3e1548",
+   "i": 6909
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——13级",
+     "p": {}
+    }
+   ],
+   "text": "┊ ——13级",
+   "sha256": "3dfe6db1e6d8bab8872ed29ade869cd504ba2c4c5ad5274fa49de3370886cca0",
+   "i": 6910
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┏",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O",
+     "p": {}
+    },
+    {
+     "t": "┓",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "（插图：91-11）",
+     "p": {}
+    }
+   ],
+   "text": "┏O┓（插图：91-11）",
+   "sha256": "77719d45980d1563ee09ebf48a010799ed436302a3616518a8c7b1df4b025741",
+   "i": 6911
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B",
+     "p": {}
+    },
+    {
+     "t": "△",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "C",
+     "p": {}
+    }
+   ],
+   "text": "B△C",
+   "sha256": "d6165e01475b246af2fcd3af143554ca285ff0b93c76d8859db50df3180c2e0d",
+   "i": 6912
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┗",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A",
+     "p": {}
+    },
+    {
+     "t": "┛",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┗A┛",
+   "sha256": "5f8a8b9f3cc0522d232539abaa566906d46c6e49a72adedde3f10aa75a7cafa2",
+   "i": 6913
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "▤",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "▤",
+   "sha256": "c77c3829943adf9c1e21eb2a39b1c4d3fa86acdc5eb67273f12d52191fc424c3",
+   "i": 6914
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "图例",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "图例",
+   "sha256": "5f6a03b217245ff838c75a71623ccf9478f181e15394c02e4b0cfbbaa074e9c2",
+   "i": 6915
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "▤",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "命令方块，上次成功运行次数为13次",
+     "p": {}
+    }
+   ],
+   "text": "▤······命令方块，上次成功运行次数为13次",
+   "sha256": "f73a93af51a1099893cd0965a46b53d544336770cd0d361b24ab0b42ce0b14e0",
+   "i": 6916
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "inline",
+     "extent": {
+      "cx": "4958443",
+      "cy": "2616981"
+     },
+     "name": "图片 21",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image14.png"
+    }
+   ],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6917
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面是一个简易的例子——一个上次运行指令成功次数为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "13次的命令方块，通过比较器成功将成功次数转化为信号强度。",
+     "p": {}
+    }
+   ],
+   "text": "上面是一个简易的例子——一个上次运行指令成功次数为13次的命令方块，通过比较器成功将成功次数转化为信号强度。",
+   "sha256": "de94dfb53695bad27590c77f869b63ea5015b116bb08b7b574c143cf197fe88d",
+   "i": 6918
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以这就是本章的全部内容了。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "所以这就是本章的全部内容了。",
+   "sha256": "f30ee040274d657f24d672645fae1352cf4a34f8b1883a5731839da0be5ea4e8",
+   "i": 6919
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "附录：红石比较器历史",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "附录：红石比较器历史",
+   "sha256": "c7367bc98f25e5b91b5c008f84ba1c934ad84425aeafdb11bd7928e49ba908a5",
+   "i": 6920
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 6921
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.5——加入了红石比较器",
+     "p": {}
+    }
+   ],
+   "text": "1.5——加入了红石比较器",
+   "sha256": "cf5b5ec535575ec218f3350000e6dbf263a1800afd852cf530bd2dbf7738661f",
+   "i": 6922
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.6——能检测末地传送门框架和炼药锅了",
+     "p": {}
+    }
+   ],
+   "text": "1.6——能检测末地传送门框架和炼药锅了",
+   "sha256": "63ec48064d71d7d4b655147f66e16c3bd1c46e4479fa182b17165e41f465205e",
+   "i": 6923
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.8——能检测物品展示框和蛋糕了",
+     "p": {}
+    }
+   ],
+   "text": "1.8——能检测物品展示框和蛋糕了",
+   "sha256": "b1d0394773008365ffc23dc7c87690df70d0154db291fcba2427f59b641c8bfd",
+   "i": 6924
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.9——比较器现在能够输入红石块的红石信号",
+     "p": {}
+    }
+   ],
+   "text": "1.9——比较器现在能够输入红石块的红石信号",
+   "sha256": "0b6115197c862fcbc356d0e822fad3867e872a069c30e0e1073a1ee526eb1593",
+   "i": 6925
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.14——能检测讲台和堆肥桶",
+     "p": {}
+    }
+   ],
+   "text": "1.14——能检测讲台和堆肥桶",
+   "sha256": "575cb08698e20d14379e42c242764c233ce88f37b7bff5b375b21107f33956a1",
+   "i": 6926
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.15——能检测蜂巢和蜂箱",
+     "p": {}
+    }
+   ],
+   "text": "1.15——能检测蜂巢和蜂箱",
+   "sha256": "0cc5b7a3607b3ed2f82f0a5137f705fe6cebd21e9f498903e26fc913e4bdb98a",
+   "i": 6927
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16——能检测重生锚",
+     "p": {}
+    }
+   ],
+   "text": "1.16——能检测重生锚",
+   "sha256": "7014d2afde56376e781bb4b4bbe103cc15c70225142f4d32d94b2ef60024b992",
+   "i": 6928
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.17——能检测幽匿感测体",
+     "p": {}
+    }
+   ],
+   "text": "1.17——能检测幽匿感测体",
+   "sha256": "ff0280aa04e06197255b85d41259c43fe8fbae4efe0e7a121c682780e6dee268",
+   "i": 6929
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "携带",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "b": true,
+      "bCs": true
+     }
+    },
+    {
+     "t": "/基岩版",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "携带/基岩版",
+   "sha256": "c2d57a43828e9d574f54b4ff52e2ef54dcf2d870e3289a0dca1b5becd462c9b8",
+   "i": 6930
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Alpha0.14.0——加入了红石比较器",
+     "p": {}
+    }
+   ],
+   "text": "Alpha0.14.0——加入了红石比较器",
+   "sha256": "698db928593c638c2e01de1142e7d744f205f4bd78aa7c2500ed17b08203784a",
+   "i": 6931
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.0.0——可检测末地传送门框架",
+     "p": {}
+    }
+   ],
+   "text": "1.0.0——可检测末地传送门框架",
+   "sha256": "a18b38bd3a529ec5824048ecb49c3caad929c78a52e30fd64928e46ebd64304e",
+   "i": 6932
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.0.5——可检测命令方块",
+     "p": {}
+    }
+   ],
+   "text": "1.0.5——可检测命令方块",
+   "sha256": "6b6bbf8ce93600f7c34a73d027cccadbd15b7310c3f460f297d53e99d789daf6",
+   "i": 6933
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.1.0——可检测潜影贝",
+     "p": {}
+    }
+   ],
+   "text": "1.1.0——可检测潜影贝",
+   "sha256": "b71eac28adcfbb33675dfe2ce6b38d87b18680111fe52e0ee4f2510595a3444e",
+   "i": 6934
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.2.0——可检测唱片机",
+     "p": {}
+    }
+   ],
+   "text": "1.2.0——可检测唱片机",
+   "sha256": "da48e248ce620b623d7aaba6026d92772d26ab40832a26bf2a13c0ba99e240d6",
+   "i": 6935
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.11.0——可检测烟熏炉、高炉、讲台和堆肥桶",
+     "p": {}
+    }
+   ],
+   "text": "1.11.0——可检测烟熏炉、高炉、讲台和堆肥桶",
+   "sha256": "88808ab8fe559008d059418e26e6d624df525501f1d0d56e90223283583dd6fd",
+   "i": 6936
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6937
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6938
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6939
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6940
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们知道，红石信号等级上限为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "15，所以当命令方块的执行成功次数等于甚至大于15时，红石比较器就没作用了。",
+     "p": {}
+    }
+   ],
+   "text": "我们知道，红石信号等级上限为15，所以当命令方块的执行成功次数等于甚至大于15时，红石比较器就没作用了。",
+   "sha256": "9b240d21ecc1f84ab1184b723f090f710929c380599e22ea134644cba4bb0abc",
+   "i": 6941
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "真的吗？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "真的吗？",
+   "sha256": "8b731e02a311e245e3fbde03548efaf70fa78e6542c3897403bc961762e034c6",
+   "i": 6942
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们来看一个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "让我们来看一个例子：",
+   "sha256": "486ab53218c221854834ac1d7cca5d283385b0a6472aa357026a390be1b428ec",
+   "i": 6943
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ——6级",
+     "p": {}
+    }
+   ],
+   "text": "┊ ——6级",
+   "sha256": "9dc375b7627f0a66852c21a0b9dcd9393db1f48707d245cf517905e4e27aa170",
+   "i": 6944
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┏",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O",
+     "p": {}
+    },
+    {
+     "t": "┓",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "（插图：91-12）",
+     "p": {}
+    }
+   ],
+   "text": "┏O┓（插图：91-12）",
+   "sha256": "3fe93a6a5eae17a1e6e8b71a296d8f925a0622a0fe284462d7329f1ee053b1f0",
+   "i": 6945
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B",
+     "p": {}
+    },
+    {
+     "t": "△",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "C",
+     "p": {}
+    },
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "B△C▦",
+   "sha256": "31a43a427cd5e93bd9f36a1d7863875404d397d72bc51d326cd43dc53880a15c",
+   "i": 6946
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┗",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A",
+     "p": {}
+    },
+    {
+     "t": "┛",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┗A┛",
+   "sha256": "5f8a8b9f3cc0522d232539abaa566906d46c6e49a72adedde3f10aa75a7cafa2",
+   "i": 6947
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "▤",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "▤",
+   "sha256": "c77c3829943adf9c1e21eb2a39b1c4d3fa86acdc5eb67273f12d52191fc424c3",
+   "i": 6948
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "图例",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "图例",
+   "sha256": "5f6a03b217245ff838c75a71623ccf9478f181e15394c02e4b0cfbbaa074e9c2",
+   "i": 6949
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "▤",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "命令方块，上次执行成功次数为21次",
+     "p": {}
+    }
+   ],
+   "text": "▤······命令方块，上次执行成功次数为21次",
+   "sha256": "410c5324fa6d1329fdc0d67ceb482af60d160d3109589d368c2084830305c725",
+   "i": 6950
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "▦",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "红石块",
+     "p": {}
+    }
+   ],
+   "text": "▦······红石块",
+   "sha256": "73a71038b2cb7eed79821dd584f3fac1a120f5c66eb4ff24180397ee00655a15",
+   "i": 6951
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "inline",
+     "extent": {
+      "cx": "4939471",
+      "cy": "2607128"
+     },
+     "name": "图片 23",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image15.png"
+    }
+   ],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6952
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是一个处于『作差模式』的红石比较器，不难发现它的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "O=6，C=15。所以它的A为多少呢？",
+     "p": {}
+    }
+   ],
+   "text": "这是一个处于『作差模式』的红石比较器，不难发现它的O=6，C=15。所以它的A为多少呢？",
+   "sha256": "d09d34a1f6f13bc6d5a72a1f89f3a5d24239486a54fe37143defff59f77c8c86",
+   "i": 6953
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A=O+C=21，也就是命令方块执行成功的次数",
+     "p": {}
+    }
+   ],
+   "text": "A=O+C=21，也就是命令方块执行成功的次数",
+   "sha256": "fd7c1b2ece80e50131d369ce78f4b3583c471c2547ba545cc4386f73e259aee2",
+   "i": 6954
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "等等，不是说好红石信号等级上限为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "15的吗？怎么跑21去了？",
+     "p": {}
+    }
+   ],
+   "text": "等等，不是说好红石信号等级上限为15的吗？怎么跑21去了？",
+   "sha256": "003e6dd88c3bcba05a438d46838704de2daff4d7e56755ecd8c6f3cedb9df8c6",
+   "i": 6955
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "严格来说，并不是说红石信号等级上限为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "15，而是『红石线的承载能力最大为15级』。所以如果我们不使用红石线，也就不会把命令方块的输出压到15级。",
+     "p": {}
+    }
+   ],
+   "text": "严格来说，并不是说红石信号等级上限为15，而是『红石线的承载能力最大为15级』。所以如果我们不使用红石线，也就不会把命令方块的输出压到15级。",
+   "sha256": "15be58302f05045382f3e78b46f55f7a800e03ba3e00b5196f220b111ee8c13b",
+   "i": 6956
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但是不使用红石线我们该怎样传导大于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "15级的红石信号呢？",
+     "p": {}
+    }
+   ],
+   "text": "但是不使用红石线我们该怎样传导大于15级的红石信号呢？",
+   "sha256": "6edd3199fb0383ec70201dc3391705c42e87a10a05d2abacc168dd4fe6579c49",
+   "i": 6957
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用红石比较器。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "用红石比较器。",
+   "sha256": "46a7981e8e9dccb46ef0cbdf5be97af290e4169c83aac28f64855b71ecd388cf",
+   "i": 6958
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "由于篇幅限制，我们这边就不详细展开，接下来就请你自行研究去吧！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "由于篇幅限制，我们这边就不详细展开，接下来就请你自行研究去吧！",
+   "sha256": "6b163901503082feddc339a3ce45e434a9a7068e18e6eb14c850de335d4b235c",
+   "i": 6959
+  }
+ ],
+ "text_sha256": "e04a0cab4e51d8781ed242386641776999807882fd16eaddc180fdea0feee6c8",
+ "chars": 3679
+}

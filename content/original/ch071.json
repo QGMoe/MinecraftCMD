@@ -1,0 +1,2480 @@
+{
+ "id": "ch071",
+ "kind": "chapter",
+ "number": 71,
+ "title": "第七十一章 条件子命令",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   5139,
+   5260
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "第七十一章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " 条件子命令",
+     "p": {}
+    }
+   ],
+   "text": "第七十一章 条件子命令",
+   "sha256": "3af5ea197de159ff0fd27b72ed7cb74f5407aa0d128c874d6301008ee6533558",
+   "i": 5139
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2022/7/15重写）",
+     "p": {}
+    }
+   ],
+   "text": "（于2022/7/15重写）",
+   "sha256": "af735ce3b5a808744b7cfc5bd9a2b64480d86496bf329aa145486d33716c1ca5",
+   "i": 5140
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "还记得那些被",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute替代的指令吗？其中，/testfor、/testforblock、/testforblocks和/scoreboard players test的功能被合并到了条件子命令中，也就是if和unless子命令。",
+     "p": {}
+    }
+   ],
+   "text": "还记得那些被execute替代的指令吗？其中，/testfor、/testforblock、/testforblocks和/scoreboard players test的功能被合并到了条件子命令中，也就是if和unless子命令。",
+   "sha256": "ab3fabcbdb54532e0d8d7a50f076c46c1eea1ad63e5eb4a56a6761926d640541",
+   "i": 5141
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "if和unless这两个子命令虽说是子命令，但它们毕竟是多条指令融合而成的，自然而然也就有『子命令』的『子命令』，所以说我们是否可以把子命令的子命令称之为execute的『孙子命令』呢？",
+     "p": {}
+    }
+   ],
+   "text": "if和unless这两个子命令虽说是子命令，但它们毕竟是多条指令融合而成的，自然而然也就有『子命令』的『子命令』，所以说我们是否可以把子命令的子命令称之为execute的『孙子命令』呢？",
+   "sha256": "e12659f4f399f9920b86377684d83be7f131b0a111ad9224aad6f95023a68ecd",
+   "i": 5142
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（滑稽）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（滑稽）",
+   "sha256": "7babf1d6643b5705d583a57e38ef127ea5a268fd0574b62aa065b2ce274b2705",
+   "i": 5143
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "虽然",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "if和unless这两个子命令有完全相同的格式，但它们俩的效果是完全相反的：",
+     "p": {}
+    }
+   ],
+   "text": "虽然if和unless这两个子命令有完全相同的格式，但它们俩的效果是完全相反的：",
+   "sha256": "0f5a4d9459cffb834e5e65250914272fd76b54a6a18290e572e3625ae0382792",
+   "i": 5144
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "if——如果给出的条件为真（true），也就是条件成立，即通过检测，运行指令",
+     "p": {}
+    }
+   ],
+   "text": "if——如果给出的条件为真（true），也就是条件成立，即通过检测，运行指令",
+   "sha256": "ecafab4b3f08f682aac3868791a570806e2d9697855846c40adcc7d1b6469740",
+   "i": 5145
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "unless——如果给出的条件为假（false），也就是条件不成立，即通过检测，运行指令",
+     "p": {}
+    }
+   ],
+   "text": "unless——如果给出的条件为假（false），也就是条件不成立，即通过检测，运行指令",
+   "sha256": "3acda9dfcfc3718f9046f6bbd3e5ddc893ddc8710eea1bfd78e7397fce8bb788",
+   "i": 5146
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你看不懂上面的描述，没关系，待会我们会举些例子，毕竟上面的描述比较偏向于编程思维。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "如果你看不懂上面的描述，没关系，待会我们会举些例子，毕竟上面的描述比较偏向于编程思维。",
+   "sha256": "c707d9bcc8f618bba6321c8f109a21a31a5835cb4c9e020b307da05d82acbb83",
+   "i": 5147
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "条件子命令的子命令，截止",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft Java1.19版本，一共有六个：",
+     "p": {}
+    }
+   ],
+   "text": "条件子命令的子命令，截止Minecraft Java1.19版本，一共有六个：",
+   "sha256": "862dc93480a1a3226045c346db45d054ffe1a58f46c57b40d7ad5d1ba1945f10",
+   "i": 5148
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "block ——探测指定位置是否为某种方块",
+     "p": {}
+    }
+   ],
+   "text": "block ——探测指定位置是否为某种方块",
+   "sha256": "4514252ac54c4caeb7ad3c12d5828d060ac9c1c12516ff57317f711be8bcdc7f",
+   "i": 5149
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "blocks ——将指定区域与另外一个指定区域进行对比",
+     "p": {}
+    }
+   ],
+   "text": "blocks ——将指定区域与另外一个指定区域进行对比",
+   "sha256": "fc6480423a0cf46f1f52d813f0d5556353f7d04497847581510e136a21d2d47a",
+   "i": 5150
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "entity ——探测指定实体是否存在。",
+     "p": {}
+    }
+   ],
+   "text": "entity ——探测指定实体是否存在。",
+   "sha256": "8e9291ae7cf15212e4c8570e1e0090659fc1811603ddb56e13f1b288599dca64",
+   "i": 5151
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "score ——探测指定玩家在指定计分项上的分数是否与另一个玩家在指定计分项上的分数符合指定的关系",
+     "p": {}
+    }
+   ],
+   "text": "score ——探测指定玩家在指定计分项上的分数是否与另一个玩家在指定计分项上的分数符合指定的关系",
+   "sha256": "b6ff8c3a488332bc1f0b0948357d401ac658a31f149f7e7b888c54c9e82f59a1",
+   "i": 5152
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "data ——探测指定方块、实体和存储NBT是否拥有指定的NBT标签",
+     "p": {}
+    }
+   ],
+   "text": "data ——探测指定方块、实体和存储NBT是否拥有指定的NBT标签",
+   "sha256": "e9c082c240c613155d5e51fe24ac8d8548864a1ab90f8597cbaf9c5ff027be6f",
+   "i": 5153
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "predicate ——检查指定谓词是否通过",
+     "p": {}
+    }
+   ],
+   "text": "predicate ——检查指定谓词是否通过",
+   "sha256": "f244f5e0494f270b12f229919703c5a2a4a2aff52297d782f3b361ff727db533",
+   "i": 5154
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "data子命令我们放到以后讲NBT时再来（这玩意儿作为一个孙子命令，竟然还有三个子命令，也就是说execute有曾孙子了），predicate子命令我们在上一章已经遇到过了，所以我们这边就先来看看这剩下的四个子命令：",
+     "p": {}
+    }
+   ],
+   "text": "其中，data子命令我们放到以后讲NBT时再来（这玩意儿作为一个孙子命令，竟然还有三个子命令，也就是说execute有曾孙子了），predicate子命令我们在上一章已经遇到过了，所以我们这边就先来看看这剩下的四个子命令：",
+   "sha256": "19e9977b9f3a02994c607d990739bdba5289b2f5504ca76b7a76971b76183c23",
+   "i": 5155
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "block、blocks、entity和score",
+     "p": {}
+    }
+   ],
+   "text": "block、blocks、entity和score",
+   "sha256": "b06e1a97bdd702c06a1de1015b74329cfe54e9e819df7f310ebdd4e8c8d0f684",
+   "i": 5156
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，前三者实际上根本就不用讲。为何呢？让我们看一下它们的用法：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "其中，前三者实际上根本就不用讲。为何呢？让我们看一下它们的用法：",
+   "sha256": "e409322629b9e391db8c3de018333319db9d6f098dcb48c38f281a4c2203ddaf",
+   "i": 5157
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... if|unless block <方块位置> <方块ID或标签> ...",
+     "p": {}
+    }
+   ],
+   "text": "... if|unless block <方块位置> <方块ID或标签> ...",
+   "sha256": "229bcf6c378ed65710106c41e5e6112c1b95d663b032678290b035b265c80a51",
+   "i": 5158
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... if|unless blocks <源区域起始坐标><源区域终止坐标><比较区域下西北角坐标> <对比模式:masked|all> ...",
+     "p": {}
+    }
+   ],
+   "text": "... if|unless blocks <源区域起始坐标><源区域终止坐标><比较区域下西北角坐标> <对比模式:masked|all> ...",
+   "sha256": "0c06c54e3e916c103437b2ea14b3c0c6f19743106ae3ef5f6f0b3dbd46ea3d07",
+   "i": 5159
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... if|unless entity <检测目标：目标选择器> ...",
+     "p": {}
+    }
+   ],
+   "text": "... if|unless entity <检测目标：目标选择器> ...",
+   "sha256": "f692c50892ea2693419be03ede5dd0faacb4eb4a89814c4073f237fb87cf2392",
+   "i": 5160
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "是不是有些熟悉？这难不成就是：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "是不是有些熟悉？这难不成就是：",
+   "sha256": "cd2ff53cddc2bc9bfc4dd6005e65d466d00ed791875f3530ab7189fb8b4bcf57",
+   "i": 5161
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.13之前",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13之前",
+   "sha256": "d39cab2b6ceac47f3e4b5445f85f0b42ed461eae8793295e1828edd18cb15894",
+   "i": 5162
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testfor <指定目标：目标选择器>[探测NBT是否符合]",
+     "p": {}
+    }
+   ],
+   "text": "/testfor <指定目标：目标选择器>[探测NBT是否符合]",
+   "sha256": "729f2ed08ebee6e922295405ca0c42ae7defd4b5e1a5d380363e8dfcc45c4945",
+   "i": 5163
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblock <探测位置：坐标><方块ID：字符串>[数据值：整数]",
+     "p": {}
+    }
+   ],
+   "text": "/testforblock <探测位置：坐标><方块ID：字符串>[数据值：整数]",
+   "sha256": "b1128b7a36a56dea3ad0a085cead620deb6eb2b71403ca8f232a7b6ba4f7ab85",
+   "i": 5164
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblock <探测位置：坐标><方块ID：字符串>[方块状态]",
+     "p": {}
+    }
+   ],
+   "text": "/testforblock <探测位置：坐标><方块ID：字符串>[方块状态]",
+   "sha256": "39de22669dbe52b81c90ae065a292e611d48e8d0e4319b1c4df0d2b1a56de7e8",
+   "i": 5165
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblocks <源区域起始坐标><源区域终止坐标><比较区域下西北角坐标>[<模式:masked|all>]",
+     "p": {}
+    }
+   ],
+   "text": "/testforblocks <源区域起始坐标><源区域终止坐标><比较区域下西北角坐标>[<模式:masked|all>]",
+   "sha256": "d6d105d26be6bd91c1ed343212cebe7dcf0fca4cdc2649d3b96face5e5bfc33d",
+   "i": 5166
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Mojang这是直接移植过来的啊，模式名都不带改一下的。",
+     "p": {}
+    }
+   ],
+   "text": "Mojang这是直接移植过来的啊，模式名都不带改一下的。",
+   "sha256": "646cc1c3e16d683293551d12ae482ee150f1afc1403c1646394ceba23923e5b3",
+   "i": 5167
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "既然这些子命令和被删除的那些指令用法几乎完全一样，我们这边也就不多讲了，直接上例子。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "既然这些子命令和被删除的那些指令用法几乎完全一样，我们这边也就不多讲了，直接上例子。",
+   "sha256": "6246169078f13e1eeee8d63c4c5e682143071833e99db35eea3eed8c781fcb02",
+   "i": 5168
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "例子一：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "例子一：",
+   "sha256": "56597b15c0bbb7fe1c12e5a0136c26bbeae72913768c8a9ec4fa0fa2ccaa117f",
+   "i": 5169
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute as @e[type=player] at @s if entity @e[distance=..1,nbt={Item:{id:\"minecraft:snowball\",tag:{display:{Name:'{\"text\":\"回城雪球\"}'}}}},type=item,limit=1,sort=nearest] run tag @s add hub",
+     "p": {}
+    }
+   ],
+   "text": "/execute as @e[type=player] at @s if entity @e[distance=..1,nbt={Item:{id:\"minecraft:snowball\",tag:{display:{Name:'{\"text\":\"回城雪球\"}'}}}},type=item,limit=1,sort=nearest] run tag @s add hub",
+   "sha256": "ef46b91d59cfac1e09678f6ce6ee2c45de84def7c4580bb47c9f39a4d734e2a6",
+   "i": 5170
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute有四个子命令：as、at、if和run，其效果是：",
+     "p": {}
+    }
+   ],
+   "text": "这条execute有四个子命令：as、at、if和run，其效果是：",
+   "sha256": "e8006442c267c0d448f4817eaa2f5738b8952c6d9f623f99865b0a2475d72de3",
+   "i": 5171
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "将所有在线且活着的玩家分别作为执行者，他们的位置作为执行位置，他们的旋转角度作为执行朝向，如果执行者周围",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1米有一个叫做『回城雪球』的雪球掉落物，就给执行者自己添加上标签hub。",
+     "p": {}
+    }
+   ],
+   "text": "将所有在线且活着的玩家分别作为执行者，他们的位置作为执行位置，他们的旋转角度作为执行朝向，如果执行者周围1米有一个叫做『回城雪球』的雪球掉落物，就给执行者自己添加上标签hub。",
+   "sha256": "1c23f4df4b9dfebe7306de9642d0ee9a8403fcc6d8d9ec0046ed1141c133827c",
+   "i": 5172
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，我们重点看一下",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "if子命令这一段：",
+     "p": {}
+    }
+   ],
+   "text": "其中，我们重点看一下if子命令这一段：",
+   "sha256": "37bad11443a56e3764d0d885528809bdcd490a0b45f488f58b289742f2f7f491",
+   "i": 5173
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "if entity @e[distance=..1,nbt=物品是叫做『回城雪球』的雪球,type=item,limit=1,sort=nearest]",
+     "p": {}
+    }
+   ],
+   "text": "if entity @e[distance=..1,nbt=物品是叫做『回城雪球』的雪球,type=item,limit=1,sort=nearest]",
+   "sha256": "9e0264621b86dea9dbf9f0ee17cc2c2ca3279f8a23e9123370eb8a8b4acfc57a",
+   "i": 5174
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "if子命令用到了entity，也就是相当于1.13之前的testfor指令，用于探测指定实体是否存在。在这边，entity的参数就不讲了，涉及到nbt，你大概知道是探测一个叫做『回城雪球』的掉落物就行。",
+     "p": {}
+    }
+   ],
+   "text": "这个if子命令用到了entity，也就是相当于1.13之前的testfor指令，用于探测指定实体是否存在。在这边，entity的参数就不讲了，涉及到nbt，你大概知道是探测一个叫做『回城雪球』的掉落物就行。",
+   "sha256": "7017a81ab2bfb96ed88c31ff1e6854c3cce526e544bbc73cb1925205d90afa0b",
+   "i": 5175
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们试一试将上面这一段",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "if子命令转化为testfor指令：",
+     "p": {}
+    }
+   ],
+   "text": "让我们试一试将上面这一段if子命令转化为testfor指令：",
+   "sha256": "aab3dc9016e7c509ada625960246a1f6039fe8f4b0cde47647a747838a2ff5a0",
+   "i": 5176
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testfor @e[r=1,name=回城雪球,type=item,c=1]",
+     "p": {}
+    }
+   ],
+   "text": "/testfor @e[r=1,name=回城雪球,type=item,c=1]",
+   "sha256": "afd6e3c69fd4cc498752f1c89f107adb29b11176ab1d343e1c83c645a5746dd0",
+   "i": 5177
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "是不是立马就理解了？所以，在使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "if子命令的block、entity和blocks子命令时，不妨可以回忆回忆以前的指令是怎么个用法。",
+     "p": {}
+    }
+   ],
+   "text": "是不是立马就理解了？所以，在使用if子命令的block、entity和blocks子命令时，不妨可以回忆回忆以前的指令是怎么个用法。",
+   "sha256": "50ce407908545130e25241ccba7368ad619e01592b5ee1f8ba166e4f00928eeb",
+   "i": 5178
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "例子二：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "例子二：",
+   "sha256": "3c70e4b512adb000e780e4bdde098e9aa8bd608c3ed3efcabe61b24348787fd1",
+   "i": 5179
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblocks ~-1 ~-1 ~-1 ~1 ~-1 ~1 ~-1 ~2 ~-1",
+     "p": {}
+    }
+   ],
+   "text": "/testforblocks ~-1 ~-1 ~-1 ~1 ~-1 ~1 ~-1 ~2 ~-1",
+   "sha256": "c043387042e89bbf2d8d8d583f683e5953b099560f3159dbcee19e90fcff5511",
+   "i": 5180
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是我们在第三十七章讲",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/testforblocks时引用的例子，其作用是『检测执行者脚下3×3的区域是否和头顶3×3的区域完全一样』，现在我们尝试将这一串指令转化为1.13+的版本：",
+     "p": {}
+    }
+   ],
+   "text": "这是我们在第三十七章讲/testforblocks时引用的例子，其作用是『检测执行者脚下3×3的区域是否和头顶3×3的区域完全一样』，现在我们尝试将这一串指令转化为1.13+的版本：",
+   "sha256": "7dfbcb280499a73008a795e8090e4b30bbe16ee866e8cb592854262839b35456",
+   "i": 5181
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute if blocks ~-1 ~-1 ~-1 ~1 ~-1 ~1 ~-1 ~2 ~-1 all",
+     "p": {}
+    }
+   ],
+   "text": "/execute if blocks ~-1 ~-1 ~-1 ~1 ~-1 ~1 ~-1 ~2 ~-1 all",
+   "sha256": "ac85c0b4ea4e19467f9d890f4225c427454f6dbf56a49cd6dabc009f11bcd9b8",
+   "i": 5182
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.13+版本的指令和上面的testforblocks例子的效果是完全一样的，唯一需要注意的是比较模式参数从可选变成了必选，并且由于testforblocks默认就是all比较模式，所以转化后要在最后加上个『all』。",
+     "p": {}
+    }
+   ],
+   "text": "这个1.13+版本的指令和上面的testforblocks例子的效果是完全一样的，唯一需要注意的是比较模式参数从可选变成了必选，并且由于testforblocks默认就是all比较模式，所以转化后要在最后加上个『all』。",
+   "sha256": "b387248a95add52f6ffbb3ec2c137cecdf1fb73a2ceba84960c5763ede1c1124",
+   "i": 5183
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你可能会疑惑：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "run呢？run子命令呢？我那么大一个run呢？",
+     "p": {}
+    }
+   ],
+   "text": "你可能会疑惑：run呢？run子命令呢？我那么大一个run呢？",
+   "sha256": "ae0d67b7864ec21326d04b524c7c706321ebe8162f243ae58e79a48944acb6df",
+   "i": 5184
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其实，当一个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute指令中含有条件子命令时，就不一定要含有run子命令了。因为条件子命令也可以看做是一个具有功能的，能够返回东西的指令（毕竟原来就是由几条单独指令结合在一起的嘛）。",
+     "p": {}
+    }
+   ],
+   "text": "其实，当一个execute指令中含有条件子命令时，就不一定要含有run子命令了。因为条件子命令也可以看做是一个具有功能的，能够返回东西的指令（毕竟原来就是由几条单独指令结合在一起的嘛）。",
+   "sha256": "03ec0659d09c6eca79820f8a7ad2195334039430b207b31d9f6bc73c15b0a67b",
+   "i": 5185
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "例子三：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "例子三：",
+   "sha256": "84cabc367fdaef3d7ca326eb5d38145a1977c198a84e79dfa46c62bb80f92b00",
+   "i": 5186
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute as @a at @s if block ~ ~-1 ~ redstone_block run camerashake add @s",
+     "p": {}
+    }
+   ],
+   "text": "/execute as @a at @s if block ~ ~-1 ~ redstone_block run camerashake add @s",
+   "sha256": "aca53a1d30455a52331493649be9974acc894a08b76cb8b0e27dc28d16ac0729",
+   "i": 5187
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令并不适用于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java版，而是适用于基岩版。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令并不适用于Java版，而是适用于基岩版。",
+   "sha256": "20c5f77846d311c776664a1ceaffbc38afb077848c58ab82362511a99f4d10fa",
+   "i": 5188
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错，这个例子是使用目前基岩版还在测试中的新版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute指令写成的，不难发现基岩版的新版execute和Java版的几乎没差别。",
+     "p": {}
+    }
+   ],
+   "text": "没错，这个例子是使用目前基岩版还在测试中的新版execute指令写成的，不难发现基岩版的新版execute和Java版的几乎没差别。",
+   "sha256": "8d3ef5a718a6b73f53e66981fceabeaa00de25bd5d081dd11bab2849ad501df2",
+   "i": 5189
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令的作用是：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令的作用是：",
+   "sha256": "4467538f066202f7a9fd0d23f562f9ccf254293f13fbba4a8825d9da309ae44b",
+   "i": 5190
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "将所有玩家分别作为执行者，将执行者的位置作为执行位置，将执行者的旋转角度作为执行朝向，如果执行位置下方一格方块（玩家脚底下的方块）是红石块，就摇晃玩家的镜头（站久就变鬼畜了）。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "将所有玩家分别作为执行者，将执行者的位置作为执行位置，将执行者的旋转角度作为执行朝向，如果执行位置下方一格方块（玩家脚底下的方块）是红石块，就摇晃玩家的镜头（站久就变鬼畜了）。",
+   "sha256": "98b7319f0f20a11f44ef3f133106e201695a66c2151327e30a39c9e74843bb54",
+   "i": 5191
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，指令",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "camerashake是基岩版目前较为冷门的一个指令，因为是新添加的所以还有许多人不太了解。其实基岩版在1.16版本时添加了许多有用的指令，以后可能会专门抽出来几章讲一讲。",
+     "p": {}
+    }
+   ],
+   "text": "其中，指令camerashake是基岩版目前较为冷门的一个指令，因为是新添加的所以还有许多人不太了解。其实基岩版在1.16版本时添加了许多有用的指令，以后可能会专门抽出来几章讲一讲。",
+   "sha256": "a7810f5c5477c594b92a22a3a236d5bcb2f9a553cf477e6cbd06c10a07364231",
+   "i": 5192
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "既然说到了基岩版的新版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute，那就不妨来看看基岩版的条件子命令格式和Java版有何不同：",
+     "p": {}
+    }
+   ],
+   "text": "既然说到了基岩版的新版execute，那就不妨来看看基岩版的条件子命令格式和Java版有何不同：",
+   "sha256": "72c2b46521f62fff0aa6eea9aa1b0e5c82c46a8819110fbef55768c0483a53b1",
+   "i": 5193
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... if|unless block <坐标> <方块ID> [方块数据值|方块状态] ...",
+     "p": {}
+    }
+   ],
+   "text": "... if|unless block <坐标> <方块ID> [方块数据值|方块状态] ...",
+   "sha256": "5de9f841ba3f055fd660e7a2d8a2e2af3a110f7859ec74727f3e988107b7046a",
+   "i": 5194
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看看，基岩版做得多么人性化，不一定要填写的参数就不一定要填写，一定要填写的参数就一定要填写，在这一方面",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java版的if blocks就做得不好，为什么一定要填写『比较模式』呢？",
+     "p": {}
+    }
+   ],
+   "text": "看看，基岩版做得多么人性化，不一定要填写的参数就不一定要填写，一定要填写的参数就一定要填写，在这一方面Java版的if blocks就做得不好，为什么一定要填写『比较模式』呢？",
+   "sha256": "1059ea82f422df1272d3972ef7dc57def095686944e790f9ec819f33a80b13f8",
+   "i": 5195
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "block、blocks和entity三条子命令我们都会用了，接下来我们来看看score：",
+     "p": {}
+    }
+   ],
+   "text": "现在，block、blocks和entity三条子命令我们都会用了，接下来我们来看看score：",
+   "sha256": "2d1a635eec5d5ee7035e5c35191a6abc66d7681dfd1354485a2be07b577be144",
+   "i": 5196
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... if|unless score <A目标> <a计分项> <比较模式> <B目标> <b计分项> ...",
+     "p": {}
+    }
+   ],
+   "text": "... if|unless score <A目标> <a计分项> <比较模式> <B目标> <b计分项> ...",
+   "sha256": "b870e62dcb49a4f67915c3c9c97613a3aa6c7733baeaf2e6ca2c714950c2c7cf",
+   "i": 5197
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... if|unless score <A目标><a计分项> matches <范围> ...",
+     "p": {}
+    }
+   ],
+   "text": "... if|unless score <A目标><a计分项> matches <范围> ...",
+   "sha256": "aae40b931fb34f4208d29143e1d02ade2b7de9555fb33e719eb193d158622f8a",
+   "i": 5198
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "虽然",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "score是用来替代scoreboard players test的，但这个格式第一眼给人的感觉却像是另外一个东西：scoreboard players operation",
+     "p": {}
+    }
+   ],
+   "text": "虽然score是用来替代scoreboard players test的，但这个格式第一眼给人的感觉却像是另外一个东西：scoreboard players operation",
+   "sha256": "d8b642502b4ed3289448ad2c1f3b902d347e043623e7e1d76ddc1b4bfb069305",
+   "i": 5199
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但这两个东西有很大的区别——前者（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "score）仅仅是对比分数，并不会修改两个分数；后者（scoreboard players operation）虽然也可以对比，但更多的作用是修改分数。",
+     "p": {}
+    }
+   ],
+   "text": "但这两个东西有很大的区别——前者（score）仅仅是对比分数，并不会修改两个分数；后者（scoreboard players operation）虽然也可以对比，但更多的作用是修改分数。",
+   "sha256": "1d0132e06a760874b06c69a50c3767c4fa99665a84d02a24af536528097d6c1f",
+   "i": 5200
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "而且，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "score可比scoreboard players operation要简单多了，因为你并不需要考虑A新A旧，以及有多个比较目标的情况，其中的目标选择器都只能选取一个目标（看来Mojang还是很人性化的对不对？）。",
+     "p": {}
+    }
+   ],
+   "text": "而且，score可比scoreboard players operation要简单多了，因为你并不需要考虑A新A旧，以及有多个比较目标的情况，其中的目标选择器都只能选取一个目标（看来Mojang还是很人性化的对不对？）。",
+   "sha256": "59e81fcc307bc0c31958431bb639f28412fc0c1e47f4bbbbb2af87ba8d5a5a0a",
+   "i": 5201
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们来仔细看看上面的格式，可以发现相比",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "scoreboard players test，新的score不仅仅可以用来测试单个分数，还可以比较两个分数。",
+     "p": {}
+    }
+   ],
+   "text": "让我们来仔细看看上面的格式，可以发现相比scoreboard players test，新的score不仅仅可以用来测试单个分数，还可以比较两个分数。",
+   "sha256": "6cf19bbd51e878dd9ccc43b17f0b2eb65ba11eb1dd318ee2fda441c8f2a89fa4",
+   "i": 5202
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，前面部分的『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "A目标』『a计分项』两个参数，以及后面的『B目标』『b计分项』两个参数，就不需要我多说了吧？前者是用于指定『式子』的左侧分数x，后者是用于指定『式子』的右侧分数y。",
+     "p": {}
+    }
+   ],
+   "text": "其中，前面部分的『A目标』『a计分项』两个参数，以及后面的『B目标』『b计分项』两个参数，就不需要我多说了吧？前者是用于指定『式子』的左侧分数x，后者是用于指定『式子』的右侧分数y。",
+   "sha256": "595b1fc502a8787298f0c790519c86e88d0b822547f965eab97ae88c3534af90",
+   "i": 5203
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "中间部分的『比较模式』参数，也就是填写在数学上大名鼎鼎的五个符号：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "中间部分的『比较模式』参数，也就是填写在数学上大名鼎鼎的五个符号：",
+   "sha256": "feb7ff89cd72d46cd1cfdecafc67cc4126d4e686be3eb595b3b0c6757ef93fd2",
+   "i": 5204
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "> ——如果分数x大于分数y，则为真",
+     "p": {}
+    }
+   ],
+   "text": "> ——如果分数x大于分数y，则为真",
+   "sha256": "eaf99ab109d6fd5a5c7fbbfa5ccf614f78f8fc703411649e15f31510087f0439",
+   "i": 5205
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ">= ——如果分数x大于等于分数y，则为真",
+     "p": {}
+    }
+   ],
+   "text": ">= ——如果分数x大于等于分数y，则为真",
+   "sha256": "bc65f2f81254ae94fbf1da5ef4dcb7de6f2b5833600f89fdb5ee713d6214ba3e",
+   "i": 5206
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "= ——如果分数x等于分数y，则为真",
+     "p": {}
+    }
+   ],
+   "text": "= ——如果分数x等于分数y，则为真",
+   "sha256": "55831f8005e33aab118b8f90908e1049edf218be8c60983dbc40c11082878bb1",
+   "i": 5207
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "<= ——如果分数x小于等于分数y，则为真",
+     "p": {}
+    }
+   ],
+   "text": "<= ——如果分数x小于等于分数y，则为真",
+   "sha256": "021d5754d20eea590b878369f87c9bbee539fff6c41c72478593c38d9059850c",
+   "i": 5208
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "< ——如果分数x小于分数y，则为真",
+     "p": {}
+    }
+   ],
+   "text": "< ——如果分数x小于分数y，则为真",
+   "sha256": "e66240eb61c3bc12d441dc3c7b80b767a2d0f45f456b0618f082f02c99345d06",
+   "i": 5209
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 5210
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives add death deathCount \"死亡榜\"",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives add death deathCount \"死亡榜\"",
+   "sha256": "131154b86929707216016b3c2f680d3ac11bfeea9c0d8c5da6ab7d17303c087b",
+   "i": 5211
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives add duibi dummy \"分数对比专用\"",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives add duibi dummy \"分数对比专用\"",
+   "sha256": "2d65b8d798556cc37fb165b1fc74c2e3b519a5fd75c2dca6c1ffa0d4e0f05ea0",
+   "i": 5212
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard players set many_dead_times duibi 50",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard players set many_dead_times duibi 50",
+   "sha256": "db59439147106fe47db93ab6053c241a32939cd3d65f1d7b49ba560f6a065d0f",
+   "i": 5213
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute as @a if score @s death >= many_dead_times duibi run tellraw @s [{\"text\":\"兄弟，你已经死了\"},{\"score\":{\"name\":\"@s\",\"objective\":\"death\"},\"color\":\"red\"},{\"text\":\"次了！\",\"color\":\"reset\"}]",
+     "p": {}
+    }
+   ],
+   "text": "/execute as @a if score @s death >= many_dead_times duibi run tellraw @s [{\"text\":\"兄弟，你已经死了\"},{\"score\":{\"name\":\"@s\",\"objective\":\"death\"},\"color\":\"red\"},{\"text\":\"次了！\",\"color\":\"reset\"}]",
+   "sha256": "e100d92dafc1c4637b18778a72532d767172859927d6013a71abb958925204fb",
+   "i": 5214
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "前面的三条指令就不多讲了，你应该知道是干什么的。最后一条",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute指令，将会让所有玩家分别作为执行者，如果其死亡次数（death计分项中的分数）大于等于50（也就是many_dead_times这个假玩家在duibi计分项中的值），玩家自己就会收到一条消息：",
+     "p": {}
+    }
+   ],
+   "text": "前面的三条指令就不多讲了，你应该知道是干什么的。最后一条execute指令，将会让所有玩家分别作为执行者，如果其死亡次数（death计分项中的分数）大于等于50（也就是many_dead_times这个假玩家在duibi计分项中的值），玩家自己就会收到一条消息：",
+   "sha256": "7b070a79ac58cfe6bd01ce60cde61054ad04c9fa9cc3ac05f2df4486e954b5f8",
+   "i": 5215
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "兄弟，你已经死了",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "x次了！",
+     "p": {}
+    }
+   ],
+   "text": "兄弟，你已经死了x次了！",
+   "sha256": "35a50ca35e669cb583e3437e7bf4c5a3011f8bcd46e42556bfc768332085268e",
+   "i": 5216
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "x指的是这名玩家在计分板death上的分数，也就是他死亡的次数。",
+     "p": {}
+    }
+   ],
+   "text": "其中，x指的是这名玩家在计分板death上的分数，也就是他死亡的次数。",
+   "sha256": "c4074fe6b8dbcd4cd6638e3afa175b2c25d7eacbd9c524901e81981984b88e90",
+   "i": 5217
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "除去这个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "tellraw内的JSON文本有一部分我们没学过以外，其他部分还是很容易理解的。",
+     "p": {}
+    }
+   ],
+   "text": "除去这个tellraw内的JSON文本有一部分我们没学过以外，其他部分还是很容易理解的。",
+   "sha256": "9fd64a9f78cf1e69bbad38f1f267fd41327ce189c7a2a85de4fb58c661ea35e8",
+   "i": 5218
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "至于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "matches模式的比较就更简单了，这就是原本players test子命令的功能。其中的『范围』也就是采用和目标选择器一样的『两点法』。举个例子：",
+     "p": {}
+    }
+   ],
+   "text": "至于matches模式的比较就更简单了，这就是原本players test子命令的功能。其中的『范围』也就是采用和目标选择器一样的『两点法』。举个例子：",
+   "sha256": "0a9b66cebd07e583625aeb2284110e6e98d0a276bfa9df86d5c2c4de5496efeb",
+   "i": 5219
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute as @a if score @s death matches 50.. run 同上",
+     "p": {}
+    }
+   ],
+   "text": "/execute as @a if score @s death matches 50.. run 同上",
+   "sha256": "120df75510e087dd9439f3b3c703ab6ccbf6f6414ddab58d8849938d5405e36a",
+   "i": 5220
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是上面例子的简化版，功能还是一样的。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这是上面例子的简化版，功能还是一样的。",
+   "sha256": "d65fecfe4e1fe0dcbc69772d4f7399044a9d216d00e791bfc69ca86fae1c5e1d",
+   "i": 5221
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "值得注意的是，在基岩版中，『两点法』可以使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "!来反选。比如：",
+     "p": {}
+    }
+   ],
+   "text": "值得注意的是，在基岩版中，『两点法』可以使用!来反选。比如：",
+   "sha256": "4a1a805aa753e976265ab84aadad8c86d164b7459e0f39d1d3f9c18f591f6756",
+   "i": 5222
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute if score @s death matches !10..15",
+     "p": {}
+    }
+   ],
+   "text": "/execute if score @s death matches !10..15",
+   "sha256": "c2299e6640611e036ab14c26679d448a17648d3b357f35ab4659833e645871aa",
+   "i": 5223
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会测试执行者自己在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "death计分板上的分数，如果分数不在10~15（含）的范围内就会测试通过。同样的，基岩版在其他能用到这种『两点法』的地方基本上也能够用『!』来反选，比如目标选择器。",
+     "p": {}
+    }
+   ],
+   "text": "这将会测试执行者自己在death计分板上的分数，如果分数不在10~15（含）的范围内就会测试通过。同样的，基岩版在其他能用到这种『两点法』的地方基本上也能够用『!』来反选，比如目标选择器。",
+   "sha256": "c4f019254bb07e9123e022a54a4577129a04e5c8b3c9732610130746d126fe38",
+   "i": 5224
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后，我们来看看前一章节就已经碰到过的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "predicate子命令：",
+     "p": {}
+    }
+   ],
+   "text": "最后，我们来看看前一章节就已经碰到过的predicate子命令：",
+   "sha256": "41339ec9b699de493d92e9eaec9dcf502276b580c66749b45681579fe1563eb5",
+   "i": 5225
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... if|unless predicate <谓词条件ID> ...",
+     "p": {}
+    }
+   ],
+   "text": "... if|unless predicate <谓词条件ID> ...",
+   "sha256": "9f4623e316f1326e7c4adacaf59f4814e1f755f29875d4b45f320de58e003d7a",
+   "i": 5226
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "什么是谓词？我在上一章已经解释过了：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "什么是谓词？我在上一章已经解释过了：",
+   "sha256": "558050f003a1eaabda81b48c5c2a523286360f830496d6a8bc61e7bc4a1aea99",
+   "i": 5227
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『在我们讲数据包之前（也有可能永远不会讲到），你可以将这东西当作是一个打包好的『判断函数』，在这个『判断函数』里面写了一些东西，可以判断当前游戏的情况是否符合指定的条件，如果符合则通过判断，如果不符合则不通过判断。比如里面写了一个『当前游戏正在下雨』的条件，当这个条件被调用时就会看看现在游戏是否在下雨，如果下雨就会通过判断，你的指令也就能够运行，反之就不会运行。』",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "『在我们讲数据包之前（也有可能永远不会讲到），你可以将这东西当作是一个打包好的『判断函数』，在这个『判断函数』里面写了一些东西，可以判断当前游戏的情况是否符合指定的条件，如果符合则通过判断，如果不符合则不通过判断。比如里面写了一个『当前游戏正在下雨』的条件，当这个条件被调用时就会看看现在游戏是否在下雨，如果下雨就会通过判断，你的指令也就能够运行，反之就不会运行。』",
+   "sha256": "57d2ef335cea472e027c072f39e70bb88bc6cecc5fd47fc1aa1f1efdbef64101",
+   "i": 5228
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个简单的例子，假设有一位大佬做了一个数据包，其命名空间为『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "the_dark_forest』，里面有一个叫做『isRaining.json』的谓词条件。这个条件会判断当前世界是否在下雨，如果下的是普通的雨，就随机50%的几率使条件成立，如果下的是暴雨，这个几率会提升到80%。",
+     "p": {}
+    }
+   ],
+   "text": "举个简单的例子，假设有一位大佬做了一个数据包，其命名空间为『the_dark_forest』，里面有一个叫做『isRaining.json』的谓词条件。这个条件会判断当前世界是否在下雨，如果下的是普通的雨，就随机50%的几率使条件成立，如果下的是暴雨，这个几率会提升到80%。",
+   "sha256": "15f0dd22e6c8acd626bc31a9b345d1b1a4dc125b2211f683454ec1603731d301",
+   "i": 5229
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们可以通过如下命令来调用这个谓词条件：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "我们可以通过如下命令来调用这个谓词条件：",
+   "sha256": "a1d85e30b14b58ca4b8778549b2be7b3a20605179c0b397e3e7558b13b139cce",
+   "i": 5230
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute ... if predicate the_dark_forest:isRaining ...",
+     "p": {}
+    }
+   ],
+   "text": "/execute ... if predicate the_dark_forest:isRaining ...",
+   "sha256": "16f9555888abb4d405cf6d14ff0c2c21b667142f5a5da82f4aa2666b47d727c4",
+   "i": 5231
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你调用这个谓词条件时，游戏里正在下普通的雨，那么你的指令就有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "50%的几率能够运行。如果下的是雷暴雨，那么就有80%的几率会运行。如果是晴天，那么不可能会运行。",
+     "p": {}
+    }
+   ],
+   "text": "如果你调用这个谓词条件时，游戏里正在下普通的雨，那么你的指令就有50%的几率能够运行。如果下的是雷暴雨，那么就有80%的几率会运行。如果是晴天，那么不可能会运行。",
+   "sha256": "0d9a20b3e7b1dee6c4e4c4a6a8396b6dae9c020aaa28e2e2c8119a4afbc2b9fe",
+   "i": 5232
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当然，你也可以将",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "if改为unless来反转条件：",
+     "p": {}
+    }
+   ],
+   "text": "当然，你也可以将if改为unless来反转条件：",
+   "sha256": "3157fa1e3ebd31e2b0ce7f12294cb540bd8e0b46e7a094e17dc1c4910da3e36f",
+   "i": 5233
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute ... unless predicate the_dark_forest:isRaining ...",
+     "p": {}
+    }
+   ],
+   "text": "/execute ... unless predicate the_dark_forest:isRaining ...",
+   "sha256": "14c470e2f7b018a779c11d5b9234ad75c064eb01e02aefeb36506e04958592c5",
+   "i": 5234
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令和上面指令的运行条件完全是反着来的：如果是晴天，那么必定会运行；如果是普通的雨天，有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "50%的几率会运行；如果是雷暴雨，只剩下20%的几率会运行。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令和上面指令的运行条件完全是反着来的：如果是晴天，那么必定会运行；如果是普通的雨天，有50%的几率会运行；如果是雷暴雨，只剩下20%的几率会运行。",
+   "sha256": "3d3db298350b78c5330038463c07b31393ba44175e32d15185d96f46cb1aecfa",
+   "i": 5235
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在你懂了吧？让我们来做几道题目，巩固一下知识。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "现在你懂了吧？让我们来做几道题目，巩固一下知识。",
+   "sha256": "dc6c04d8b97295bc573c04e24361284f6a82c819cae8a7d03bb96fadbc4bfbc2",
+   "i": 5236
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一题：请写出下列",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute指令成功运行的条件",
+     "p": {}
+    }
+   ],
+   "text": "第一题：请写出下列execute指令成功运行的条件",
+   "sha256": "0070b99734efc086eab4ec20198ca491b5e7f5f4caf0f28d7f1ecc2fd3f078f5",
+   "i": 5237
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:grass_block run kill @s",
+     "p": {}
+    }
+   ],
+   "text": "①/execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:grass_block run kill @s",
+   "sha256": "c48bcbf5f3e47b51cf46a279ac80f60eaacbba26cb301355969343c9e8a57af3",
+   "i": 5238
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/execute positioned 1.0 1.0 1.0 if block ~ ~ ~ minecraft:air if entity @e[distance=..2,limit=1,sort=nearest]",
+     "p": {}
+    }
+   ],
+   "text": "②/execute positioned 1.0 1.0 1.0 if block ~ ~ ~ minecraft:air if entity @e[distance=..2,limit=1,sort=nearest]",
+   "sha256": "6961fd97ac47443acb6b5c127031267ca626f8bd1e1e7a4ac3703737b2a35581",
+   "i": 5239
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/execute unless blocks ~1 ~1 ~1 ~-1 ~1 ~-1 0 0 0 all",
+     "p": {}
+    }
+   ],
+   "text": "③/execute unless blocks ~1 ~1 ~1 ~-1 ~1 ~-1 0 0 0 all",
+   "sha256": "33789178e5ef107495eea4580a5ccf225254b78f170fb054d5f112b61a836c84",
+   "i": 5240
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二题：请写出下列",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute指令最大的成功运行次数",
+     "p": {}
+    }
+   ],
+   "text": "第二题：请写出下列execute指令最大的成功运行次数",
+   "sha256": "d9fb913260ae40e4c2f86f3356ddb632a1ae93914e290d6c1611843f80d58a22",
+   "i": 5241
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/execute as @e[limit=10] rotated as @a[limit=10] run tp 1 1 1",
+     "p": {}
+    }
+   ],
+   "text": "①/execute as @e[limit=10] rotated as @a[limit=10] run tp 1 1 1",
+   "sha256": "9a18cb909f6005c4a0cc4b0c796178ed227b6b78c7b95da01d2a02b3b7cd18c7",
+   "i": 5242
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/execute if predicate the_dark_forest:isRaining",
+     "p": {}
+    }
+   ],
+   "text": "②/execute if predicate the_dark_forest:isRaining",
+   "sha256": "12c0aa160f5fa74ae3fa78e81c9318ffd6b2dc9f5382ca7ac3341c4588a39271",
+   "i": 5243
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/execute if score @e = score @e run say hello!",
+     "p": {}
+    }
+   ],
+   "text": "③/execute if score @e = score @e run say hello!",
+   "sha256": "7c3b16045479db71cccec322b33fa72bcd4de4b14aa2f077f055b0004cd4c449",
+   "i": 5244
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以这就是我们本章的全部内容，下一章我们将会来初步了解一下存储子命令。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "所以这就是我们本章的全部内容，下一章我们将会来初步了解一下存储子命令。",
+   "sha256": "b22228b693bd0204460de1f8cbc6ef5f676e97694c507db0276658ac0c451291",
+   "i": 5245
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5246
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5247
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5248
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5249
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5250
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5251
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "参考答案",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "参考答案",
+   "sha256": "525d4c4881e913067271dbdd653f9a32bbb3779c91b844bf5a6689510cd012cf",
+   "i": 5252
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一题：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "第一题：",
+   "sha256": "0321b6be238280bc02f92188a62cbb6388950d02ee34f7d3e8b784967532011b",
+   "i": 5253
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①所有维度的已加载区块内必须要有掉落物类型的实体，且至少有一个掉落物的下方方块是草方块",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "①所有维度的已加载区块内必须要有掉落物类型的实体，且至少有一个掉落物的下方方块是草方块",
+   "sha256": "bc3d9c56150655a1716ecde0bbc92bea435f5c23174d564afc1c1dbef8660a34",
+   "i": 5254
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②坐标",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1.0,1.0,1.0)处的方块必须是一个空气方块，且范围2米内必须要有一个实体存在。",
+     "p": {}
+    }
+   ],
+   "text": "②坐标(1.0,1.0,1.0)处的方块必须是一个空气方块，且范围2米内必须要有一个实体存在。",
+   "sha256": "9cc6b80eabe34acbb210983ed22cc5900883432cc359437f57b72eb5316755ce",
+   "i": 5255
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③执行地点上方",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "3×3的范围与范围(0,0,0)-(3,0,3)完全一致，且执行地点上方3×3的范围没有超出世界边界",
+     "p": {}
+    }
+   ],
+   "text": "③执行地点上方3×3的范围与范围(0,0,0)-(3,0,3)完全一致，且执行地点上方3×3的范围没有超出世界边界",
+   "sha256": "2bf91a843e5243a12af76fdefb9d63e28307dc906323e75778eef8b5e70880cf",
+   "i": 5256
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二题：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "第二题：",
+   "sha256": "aa54d9fde6c5052b6f47f740b9ac76291055419f5f02309e40bda5e279b5e98a",
+   "i": 5257
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "100（as的参数指定了10个实体，rotated的参数也指定了10个实体）",
+     "p": {}
+    }
+   ],
+   "text": "①100（as的参数指定了10个实体，rotated的参数也指定了10个实体）",
+   "sha256": "3a25490c1a7d95986fa7f5994518e655546be02eb1c093f3398885de75c17bfa",
+   "i": 5258
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1（跟if子命令没关系）",
+     "p": {}
+    }
+   ],
+   "text": "②1（跟if子命令没关系）",
+   "sha256": "679f11d107b452d38bd773d26874e94d53831ad2dd65b570d8360b2e16464869",
+   "i": 5259
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0（在Java版中，score子命令的两个目标选择器参数都不能指定多个实体）或1（在基岩版中，只要@e实际只选择到了1个实体就行）",
+     "p": {}
+    }
+   ],
+   "text": "③0（在Java版中，score子命令的两个目标选择器参数都不能指定多个实体）或1（在基岩版中，只要@e实际只选择到了1个实体就行）",
+   "sha256": "650b53ece67b0be115861649b72644eb14f0d8a5cf786ab5fd60e1cef409ee39",
+   "i": 5260
+  }
+ ],
+ "text_sha256": "51c174726674fa49149522fe4154c4705691141c372c04eb9e1f9ea5c038a410",
+ "chars": 5974
+}

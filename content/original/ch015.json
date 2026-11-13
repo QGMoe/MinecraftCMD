@@ -1,0 +1,857 @@
+{
+ "id": "ch015",
+ "kind": "chapter",
+ "number": 15,
+ "title": "第十五章 发送消息",
+ "source": {
+  "file": "MineBBS/208第十五章.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "第十五章 发送消息"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月5日 19:54 1032字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在 Minecraft，如何与玩家交流，那肯定是在聊天框打字了。\r\n　　但是如果得像服务器里“自动化”，那么命令方块肯定就派上用场了。\r\n　　之前说过命令方块有三种文本输出形式。第一种是聊天栏显示运行结果；第二种是命令方块界面显示运行结果；第三种是给命令方块取名。\r\n　　但前两种都是只能管理员查看，第三种又太短，且不美观。这时候我们就需要可以发送消息的指令。在 Minecraft 中，可以发送消息的指令有很多种，但功能都差不多，接下来就来一一讲一下，这里先全部列出来：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "/say <消息>\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "/tell\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "/tellraw\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "/w\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "/me\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "/msg\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "/teammsg\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "/tm（？）\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　首先第一个是 /say。say 可以发送广播消息。发送消息的格式长这样：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "[XXX]XXXXXXXX"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　我们再来拿用聊天栏发出的信息的话来对比一下：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "<XXX>XXXXXXX"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　可以发现，除了名字的显示形式是不一样之外，其他都一样。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/say"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　作用"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：广播\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　需要权限等级"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：Java-2，基岩-1\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　格式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/say <消息内容>"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　显示信息格式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "[发出人的昵称]“内容”"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　/say 这个指令很简单，但又有些那么不简单。\r\n　　/say 的消息内容不止可以写消息，还可以包括目标选择器和玩家名！\r\n　　比如：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/say @p"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　就可以广播最靠近命令执行地点的玩家。\r\n　　这功能的适用性非常广，你可以在你的 RPG 地图里使用 /say 目标选择器来让 NPC 说出玩家名，也可以在服务器中检测持有违禁品的玩家并将其用户名广播。\r\n　　普通玩家无法使用 /say，但这些玩家干嘛要用 /say，好好的在聊天栏内发送消息不好吗？\r\n　　但 Mojang 就这么神奇，也向普通玩家添加了一条广播指令，它就是 /me。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/me"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　作用"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：广播（实际上 Mojang 官方本意是显示一条关于自己正在做什么的信息）\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　需要权限等级"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：0\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　格式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/me [消息内容（动作）]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　显示信息格式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "* 玩家名 消息内容"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　和 say 一样，me 也可以在消息中参杂目标选择器和玩家名，只不过这功能暂且只有基岩版有，Java 版还未添加。me 如果不填消息只会限速玩家昵称。\r\n　　广播的指令暂且只有这么多。但一个游戏只有世界聊天室那肯定是不行的，所以 Mojang 还添加了一堆用于私信的指令：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "/tell"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "/w"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "/msg"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　作用"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：告诉一个或多个玩家消息。\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　需要权限等级"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：0（目标选择器只能使用 @s 和玩家名，其他类型选择器需要 2 级 [Java] 或 1 级[基岩]权限）\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　格式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/tell <收信者：目标选择器> <内容>"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/w <收信者：目标选择器> <内容>"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/msg <收信者：目标选择器> <内容>"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　这些指令都很简单，也没有什么好讲的，只是需要注意权限等级不够目标选择器不能使用除 @s 以外选择器。\r\n　　/msg 有个变种，这个变种是在 Java1.14 版本加入的，仅 Java 版有："
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/teammsg"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　/teammsg 即在队伍频道发送消息，可以简写为/tm（？）、\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/teammsg、/tm"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　作用"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：队伍频道发送消息\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　需要权限等级"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：0\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　格式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "/teammsg <消息>\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "/tm <消息>\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　显示信息格式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "->[队伍名]<玩家名>消息内容"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　关于队伍是个什么东西，讲记分板时会讲到。"
+  }
+ ],
+ "raw_sha256": "989e2dc2d6be2f1c5ebdba15d5cfe06d53abc6f69618d4512a144fabbc1168b8",
+ "text_sha256": "10eef7251fd332477847f33a4302bd6bfe6f311071e8a317b894c92518c4188d",
+ "chars": 1546
+}

@@ -1,0 +1,1175 @@
+{
+ "id": "ch085",
+ "kind": "chapter",
+ "number": 85,
+ "title": "第八十五章 item-更高级的replaceitem",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   6163,
+   6232
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第八十五章_item-更高级的replaceitem"
+    },
+    {
+     "t": "第八十五章 item-更高级的replaceitem",
+     "p": {}
+    }
+   ],
+   "text": "第八十五章 item-更高级的replaceitem",
+   "sha256": "ec545bfa1edd1631474c630b75f2ad27f015d304fa5a507a76efb4d839738ff7",
+   "i": 6163
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在第三十八章中，我们了解了/replaceitem的使用方法。可惜这么一个厉害的指令，却在Java1.17版本中被移除。只不过你并不需要担心，因为取而代之的是一个更加厉害的指令——item。",
+     "p": {}
+    }
+   ],
+   "text": "在第三十八章中，我们了解了/replaceitem的使用方法。可惜这么一个厉害的指令，却在Java1.17版本中被移除。只不过你并不需要担心，因为取而代之的是一个更加厉害的指令——item。",
+   "sha256": "eee631d0aae959592e8c06e98b833bfecd954eaa03387ff5d6605dfccddef940",
+   "i": 6164
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "item比replaceitem少了一个单词replace（替代），这说明了item的功能不仅仅局限在替代物品，还有一些其他的功能。具体有哪些其他功能呢？让我们来看看item这个指令的格式，你就知道了：",
+     "p": {}
+    }
+   ],
+   "text": "item比replaceitem少了一个单词replace（替代），这说明了item的功能不仅仅局限在替代物品，还有一些其他的功能。具体有哪些其他功能呢？让我们来看看item这个指令的格式，你就知道了：",
+   "sha256": "eb8a11d8528f05ef46de159442b2398294f8411a1f495c921feb2fc31a20d0d4",
+   "i": 6165
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/item",
+     "p": {}
+    }
+   ],
+   "text": "/item",
+   "sha256": "db1e08f73ee63b81bad8aaa340238b766a1f06c153e225c5dda1446c9c816580",
+   "i": 6166
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：修改方块或实体物品栏内的物品",
+     "p": {}
+    }
+   ],
+   "text": "作用：修改方块或实体物品栏内的物品",
+   "sha256": "c5f9ced023330f2d9b75b5fa7779c574c2fecca38347b6878e3a910a55a5e7d8",
+   "i": 6167
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：Java1.17-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：Java1.17-今",
+   "sha256": "a699af65c19eed866e7b0406d272cfcb53f06cc1796a65cad2536a190c16c47a",
+   "i": 6168
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：Java-2",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2",
+   "sha256": "948049f793c1bc733cdc3425f5f9a24dded5751cb88df6d6a984f5b81bd9c6cd",
+   "i": 6169
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：否",
+     "p": {}
+    }
+   ],
+   "text": "需要作弊：否",
+   "sha256": "b3a9c3c7cb901faebf261066d5ee0cbf4b4552bf726ddbf04e48ff9ad9e0f423",
+   "i": 6170
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {}
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 6171
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/item modify ...",
+     "p": {}
+    }
+   ],
+   "text": "/item modify ...",
+   "sha256": "30f21a85f586757f792f429d8ac9f981e5883a31bd79b35d339a49b357b0678d",
+   "i": 6172
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... block <方块坐标> <栏位> <物品修饰器ID>",
+     "p": {}
+    }
+   ],
+   "text": "... block <方块坐标> <栏位> <物品修饰器ID>",
+   "sha256": "ae3787ec215f6f33debe0a24725bb33a4ff4c96f7036f0c62815e2144d92bb9d",
+   "i": 6173
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... entity <目标实体> <栏位> <物品修饰器ID>",
+     "p": {}
+    }
+   ],
+   "text": "... entity <目标实体> <栏位> <物品修饰器ID>",
+   "sha256": "0010e9f592230ac77d8a44b44e177770a194d69d3515049b3edecdee94b37fda",
+   "i": 6174
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\为指定方块或实体的指定栏位内物品添加指定的物品修饰器\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\为指定方块或实体的指定栏位内物品添加指定的物品修饰器\\\\",
+   "sha256": "f5467a8bbf830a930403cd932274f0ff1a423dd99df47224cb899a34163ffde6",
+   "i": 6175
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/item replace ...",
+     "p": {}
+    }
+   ],
+   "text": "/item replace ...",
+   "sha256": "d9450c9fc0a327b72e6722b1113e09b6459061b1db6aff2e8c4242374870685c",
+   "i": 6176
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... (block <方块坐标>|entity <目标实体>) <栏位> ... ",
+     "p": {}
+    }
+   ],
+   "text": "... (block <方块坐标>|entity <目标实体>) <栏位> ... ",
+   "sha256": "cec0317c1b16bed393e9a5547e4cae5f80f4522efb5ecdcc5f4090bcb997e24d",
+   "i": 6177
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... ... with <物品ID> [数量]",
+     "p": {}
+    }
+   ],
+   "text": "... ... with <物品ID> [数量]",
+   "sha256": "bac5ddff83bac522837b446cbdde06907ffa94674a13838b473aee28d7581c21",
+   "i": 6178
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\修改指定方块或实体的指定栏位内的物品为指定的物品\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\修改指定方块或实体的指定栏位内的物品为指定的物品\\\\",
+   "sha256": "4b0d4debd8c88305c63406d96da6d3cbfa1e075b7656f5e22cd22c17703a98c6",
+   "i": 6179
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... ... from (block <方块坐标>|entity <目标实体>) <栏位> [物品修饰器ID]",
+     "p": {}
+    }
+   ],
+   "text": "... ... from (block <方块坐标>|entity <目标实体>) <栏位> [物品修饰器ID]",
+   "sha256": "fb8e434cb4f51c0f35cb4acdedcbd512226a1dc55ee18df0c6b256d0d4fc50c0",
+   "i": 6180
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\修改指定方块或实体的指定栏位内的物品为另一个方块或实体内指定栏位内的物品\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\修改指定方块或实体的指定栏位内的物品为另一个方块或实体内指定栏位内的物品\\\\",
+   "sha256": "e39405c595ab2674427ce6f29e3bbdff00a82c69a1553d32ce9a7ce0f646ff72",
+   "i": 6181
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不难发现，相比以前的/replaceitem，新的/item不仅仅保留并升级了replace替代的功能，还新增了一个modify为物品添加修饰器的功能。",
+     "p": {}
+    }
+   ],
+   "text": "不难发现，相比以前的/replaceitem，新的/item不仅仅保留并升级了replace替代的功能，还新增了一个modify为物品添加修饰器的功能。",
+   "sha256": "52c870f96012d06e2316d1bdb13a717e6e4f4ea5cc650fd2fcbc2d303ec7bbd5",
+   "i": 6182
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们先来看看遗传下来的替代功能。新版本的替代功能不仅仅可以替代某个物品栏位为指定的物品，还可以把另外一个容器内的物品复制过来",
+     "p": {}
+    }
+   ],
+   "text": "我们先来看看遗传下来的替代功能。新版本的替代功能不仅仅可以替代某个物品栏位为指定的物品，还可以把另外一个容器内的物品复制过来",
+   "sha256": "112117bd03f4e5e7ca41358fd49b364574c09482265f7daa7a0795f41371898b",
+   "i": 6183
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们先来试试传统的功能：替代某个物品栏位为指定的物品。比如我们要将自己帽子栏位内的物品替换为一个TNT，就需要使用：",
+     "p": {}
+    }
+   ],
+   "text": "我们先来试试传统的功能：替代某个物品栏位为指定的物品。比如我们要将自己帽子栏位内的物品替换为一个TNT，就需要使用：",
+   "sha256": "27b82968ceb0a4eb7dada86e1b96a10c5aaf3d5383d4cb0e8b9b6ab955d50e77",
+   "i": 6184
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/item replace entity @s armor.head with minecraft:tnt 1",
+     "p": {}
+    }
+   ],
+   "text": "/item replace entity @s armor.head with minecraft:tnt 1",
+   "sha256": "9cf1de1807c195fa9ec90c372a9c6a7fbba447a58fc14352ea876ead2ff4d086",
+   "i": 6185
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们来对比一下上述指令在1.17版本前的写法：",
+     "p": {}
+    }
+   ],
+   "text": "我们来对比一下上述指令在1.17版本前的写法：",
+   "sha256": "bbb3f81313322f8903f2372748ab8719b94de87172e354a45e81ee1530117819",
+   "i": 6186
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem entity @s slot.armor.head minecraft:TNT",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem entity @s slot.armor.head minecraft:TNT",
+   "sha256": "ad690e463d1016698ac04584a03059f1aaa9cd45ba8a1efd2fa2ca263fc33398",
+   "i": 6187
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你会发现两者总体的变化并不是很大，最主要的变化也就是在『栏位』参数和『物品ID』参数间多出了一个with，这个with的作用是用来告诉游戏：我仅仅只是指定一个要替换成的物品而已，也就是使用传统的替换功能。还有一个比较小的变化就是，栏位ID前面没有『slot.』前缀了。",
+     "p": {}
+    }
+   ],
+   "text": "你会发现两者总体的变化并不是很大，最主要的变化也就是在『栏位』参数和『物品ID』参数间多出了一个with，这个with的作用是用来告诉游戏：我仅仅只是指定一个要替换成的物品而已，也就是使用传统的替换功能。还有一个比较小的变化就是，栏位ID前面没有『slot.』前缀了。",
+   "sha256": "294b0cb1115fc822035cbf963811c96f508cd8eeafb98ad16d65f2245fbc7f44",
+   "i": 6188
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们现在来看看新的替换模式：from复制模式",
+     "p": {}
+    }
+   ],
+   "text": "我们现在来看看新的替换模式：from复制模式",
+   "sha256": "4cba2c4c15d5513839e9f2c049597e0e0f5a0a6d67cafeab17c5e2b34489ebc8",
+   "i": 6189
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "item新添加的『复制模式』要指定两个物品栏位，第一个栏位是目的地，第二个栏位是来源。比如：",
+     "p": {}
+    }
+   ],
+   "text": "item新添加的『复制模式』要指定两个物品栏位，第一个栏位是目的地，第二个栏位是来源。比如：",
+   "sha256": "fd0b972e03191421b071d0a4849d644166c7064a707aa01506f3802b10d8ef77",
+   "i": 6190
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/item replace entity @s armor.head from entity @s weapon.offhand",
+     "p": {}
+    }
+   ],
+   "text": "/item replace entity @s armor.head from entity @s weapon.offhand",
+   "sha256": "6393a6f589555910467563de6136ae69390ac78ff4bff5d8e522f2b4ce1afa22",
+   "i": 6191
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会把你副手（weapon.offhand）所持有的物品复制到你的头上。第一个指定的『entity @s armor.head』即目的地，第二个指定的『entity @s weapon.offhand』即来源。",
+     "p": {}
+    }
+   ],
+   "text": "这将会把你副手（weapon.offhand）所持有的物品复制到你的头上。第一个指定的『entity @s armor.head』即目的地，第二个指定的『entity @s weapon.offhand』即来源。",
+   "sha256": "75d480cd53a62793c4cbc3416b5cf5a910e38719156f417e4ed1be5d00954d37",
+   "i": 6192
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "再来一个例子：",
+     "p": {}
+    }
+   ],
+   "text": "再来一个例子：",
+   "sha256": "dc667e3b9431380a4edae8bb5535dcddd7b84157680e7d0f0f152c482af5daa7",
+   "i": 6193
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute as @a at @s if block ~ ~-1 ~ minecraft:furnace run item replace block ~ ~-1 ~ container.2 from block 35 65 26 container.0",
+     "p": {}
+    }
+   ],
+   "text": "/execute as @a at @s if block ~ ~-1 ~ minecraft:furnace run item replace block ~ ~-1 ~ container.2 from block 35 65 26 container.0",
+   "sha256": "660ade7b971f628c63becebd431db8a2c47594b360187a023173fd75a69c71a0",
+   "i": 6194
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会把所有玩家脚底下熔炉输出槽内的物品替换为坐标为(35,65,26)的容器的第一个槽位内的物品。假设这个容器是一个箱子，箱子的最左上角放着三颗钻石，那么运行上述指令过后，所有玩家脚底下熔炉的输出槽内都会有三颗钻石。（注：箱子最左上角的栏位ID为container.0，熔炉输出槽栏位为container.2）",
+     "p": {}
+    }
+   ],
+   "text": "这将会把所有玩家脚底下熔炉输出槽内的物品替换为坐标为(35,65,26)的容器的第一个槽位内的物品。假设这个容器是一个箱子，箱子的最左上角放着三颗钻石，那么运行上述指令过后，所有玩家脚底下熔炉的输出槽内都会有三颗钻石。（注：箱子最左上角的栏位ID为container.0，熔炉输出槽栏位为container.2）",
+   "sha256": "1b572a83133f1b330fba6d7e5a6b827ec30963b64c480bd5eb07b89137ac100b",
+   "i": 6195
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "还是比较简单的嘛。接下来我们来看看item添加的全新功能：物品修饰器。",
+     "p": {}
+    }
+   ],
+   "text": "还是比较简单的嘛。接下来我们来看看item添加的全新功能：物品修饰器。",
+   "sha256": "284eacf9f3876597479f0e5bdebd58bdf6b4e591da77a1124c61df373f5e1bf7",
+   "i": 6196
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "什么是物品修饰器呢？简单来说，物品修饰器里面设定了一些程序，这些程序会对物品本身进行一些修改。我们可以通过item命令给指定栏位内的物品添加上一个物品修饰器，然后这个物品就会被物品修饰器所修饰。",
+     "p": {}
+    }
+   ],
+   "text": "什么是物品修饰器呢？简单来说，物品修饰器里面设定了一些程序，这些程序会对物品本身进行一些修改。我们可以通过item命令给指定栏位内的物品添加上一个物品修饰器，然后这个物品就会被物品修饰器所修饰。",
+   "sha256": "27e4dbf990365f4da778bcbe8acbd622bc07f84b0fbab6bcf9cff201826b6e55",
+   "i": 6197
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子，假设有一个ID为『arcaea:kill_tairitsu』的物品修饰器，这个物品修饰器会对物品本身进行一些修改，使得该物品在攻击名为『Tairitsu』的实体时能够发挥出超强的攻击力。我们可以通过以下指令给我们主手上的物品添加上这个物品修饰器：",
+     "p": {}
+    }
+   ],
+   "text": "举个例子，假设有一个ID为『arcaea:kill_tairitsu』的物品修饰器，这个物品修饰器会对物品本身进行一些修改，使得该物品在攻击名为『Tairitsu』的实体时能够发挥出超强的攻击力。我们可以通过以下指令给我们主手上的物品添加上这个物品修饰器：",
+   "sha256": "d9a051b48faef05e41c485ab7a1b44a455dfaf936f26b465d75ee6ac387905ff",
+   "i": 6198
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/item modify entity @s weapon.mainhand arcaea:kill_tairitsu",
+     "p": {}
+    }
+   ],
+   "text": "/item modify entity @s weapon.mainhand arcaea:kill_tairitsu",
+   "sha256": "a2d1a54a177bf66e56aebdd19d11b9d94973772e558a799863fc4ccf19a7f6df",
+   "i": 6199
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会给我们主手拿着的物品添加上这个物品修饰器，然后你就能拿着这个物品去挑战名为『Tairitsu』的实体了。",
+     "p": {}
+    }
+   ],
+   "text": "这将会给我们主手拿着的物品添加上这个物品修饰器，然后你就能拿着这个物品去挑战名为『Tairitsu』的实体了。",
+   "sha256": "31ad0b2528c98320512b3c885fc7b22161b9bb5baaef761bc391c895758ca038",
+   "i": 6200
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "虽然物品修饰器功能强大，但它和谓词一样，都是数据包才有的，原版并没有任何的物品修饰器。因此如果你要使用物品修饰器，首先你就得弄一个具有物品修饰器的数据包出来。",
+     "p": {}
+    }
+   ],
+   "text": "虽然物品修饰器功能强大，但它和谓词一样，都是数据包才有的，原版并没有任何的物品修饰器。因此如果你要使用物品修饰器，首先你就得弄一个具有物品修饰器的数据包出来。",
+   "sha256": "950ee7034c1c6e136cebb60dd4ac418dd8516459751468a885df76d0b0e7fa7f",
+   "i": 6201
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是本章的全部内容了。",
+     "p": {}
+    }
+   ],
+   "text": "这就是本章的全部内容了。",
+   "sha256": "38aed95fc62aa8970b9b69cce48ba51bec682bb477bc43b9e44957392c60113b",
+   "i": 6202
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "附录",
+     "p": {}
+    },
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "：Java1.17新版本槽位ID",
+     "p": {}
+    }
+   ],
+   "text": "附录①：Java1.17新版本槽位ID",
+   "sha256": "7bfb5f59d5f046402e812f271d121eaa127a3108368345dc6acd7e30de73f8af",
+   "i": 6203
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "箱子、陷阱箱、发射器、投掷器、漏斗",
+     "p": {}
+    }
+   ],
+   "text": "箱子、陷阱箱、发射器、投掷器、漏斗",
+   "sha256": "ac204b1ad965242199c22064d1e54e31b03fe08d3b2c85e8c992a4de9123d145",
+   "i": 6204
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "container.<槽位编号> ——从左到右、从上往下、从0递增",
+     "p": {}
+    }
+   ],
+   "text": "container.<槽位编号> ——从左到右、从上往下、从0递增",
+   "sha256": "3a609a207b643a236f398eeccef43552cead6f7894a14797a80e0c3a5366e9fd",
+   "i": 6205
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "酿造台",
+     "p": {}
+    }
+   ],
+   "text": "酿造台",
+   "sha256": "679594cfb7c471b6e559039c0340a1c2f32111bdc237b726c9c116eefd843cb1",
+   "i": 6206
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "container.0-2 ——底部从左到右",
+     "p": {}
+    }
+   ],
+   "text": "container.0-2 ——底部从左到右",
+   "sha256": "b58c7e060de6b9a31af0e79adb1e555da28ccd1f814c0865eb18b22bf2c8cf18",
+   "i": 6207
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "container.3 ——顶部",
+     "p": {}
+    }
+   ],
+   "text": "container.3 ——顶部",
+   "sha256": "cd1677f366317f9b97a7033aab8226b9096678f009ed612e55bea81f93634f93",
+   "i": 6208
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "container.4 ——烈焰粉槽位",
+     "p": {}
+    }
+   ],
+   "text": "container.4 ——烈焰粉槽位",
+   "sha256": "3a4a16a617fccc81c8b3a215e1ae6ec368f9379353646dc64b504b61ebefc917",
+   "i": 6209
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "熔炉",
+     "p": {}
+    }
+   ],
+   "text": "熔炉",
+   "sha256": "91428796519802e0d3c0b0329782ff696ed51060126a9b286a0579e9eb541429",
+   "i": 6210
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "container.0 ——输入",
+     "p": {}
+    }
+   ],
+   "text": "container.0 ——输入",
+   "sha256": "542e712831240da51b769a266db452a156523e655b93727a0da469bda3d9d0b5",
+   "i": 6211
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "container.1 ——燃料",
+     "p": {}
+    }
+   ],
+   "text": "container.1 ——燃料",
+   "sha256": "df71ac6c3afadb296b1ee218b9eca793e1ca18ce97a00cdba01d0464423ec961",
+   "i": 6212
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "container.2 ——输出",
+     "p": {}
+    }
+   ],
+   "text": "container.2 ——输出",
+   "sha256": "96bc0363ffa6d9b2ca92ffb9f59e49ea62e39c893bc4e98404326c55f2268d22",
+   "i": 6213
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "实体",
+     "p": {}
+    }
+   ],
+   "text": "实体",
+   "sha256": "eb4308300e839a84307bc709417a6aef40797cfac925e884a56d48d58ca71882",
+   "i": 6214
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "armor.chest ——胸",
+     "p": {}
+    }
+   ],
+   "text": "armor.chest ——胸",
+   "sha256": "91937b1b0727c9255642358ee4cf987900686467653d6be019282e43fd9bc925",
+   "i": 6215
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "armor.feet ——脚",
+     "p": {}
+    }
+   ],
+   "text": "armor.feet ——脚",
+   "sha256": "17cb1d7f6fb314c6dcea149977deefc399b073af969fd071ec0fb03ffc8768c1",
+   "i": 6216
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "armor.head ——头",
+     "p": {}
+    }
+   ],
+   "text": "armor.head ——头",
+   "sha256": "5fb655a5265cfce9f813cc56d5fe01f3276b142332f1731606c8c6f49ee86c76",
+   "i": 6217
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "armor.legs ——腿",
+     "p": {}
+    }
+   ],
+   "text": "armor.legs ——腿",
+   "sha256": "17a5bc868659e8dfbac5674d640895f86cb62bb406f91450ffc3e2167973bec6",
+   "i": 6218
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "weapon.mainhand ——主手",
+     "p": {}
+    }
+   ],
+   "text": "weapon.mainhand ——主手",
+   "sha256": "5ac5916bf61dad12848c2c9de055fb1763dad15539c1f26fcaedf35927b0d236",
+   "i": 6219
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "weapon.offhand ——副手",
+     "p": {}
+    }
+   ],
+   "text": "weapon.offhand ——副手",
+   "sha256": "07059990509497ed47e04daa511fbb1d525e0b4de33114e12bcd83f199bb140d",
+   "i": 6220
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "container.<槽位编号> ——？？？",
+     "p": {}
+    }
+   ],
+   "text": "container.<槽位编号> ——？？？",
+   "sha256": "08b4ea3773cdd898ba3a60d28fc59a794791f9feb4bfad2afe2d199c139ebfe2",
+   "i": 6221
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "enderchest.<槽位编号> ——末影箱",
+     "p": {}
+    }
+   ],
+   "text": "enderchest.<槽位编号> ——末影箱",
+   "sha256": "ffe78ee6e1915b502e7241e26a39bbd1f2bb7a69c4ecdee54b1cdda6370ebacf",
+   "i": 6222
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "hotbar.<槽位编号> ——快捷栏",
+     "p": {}
+    }
+   ],
+   "text": "hotbar.<槽位编号> ——快捷栏",
+   "sha256": "c58c1dd15073f1d4ecb831795de466f251c5b993e9e50ffa349fb35502bbee6f",
+   "i": 6223
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "inventory.<槽位编号> ——玩家背包",
+     "p": {}
+    }
+   ],
+   "text": "inventory.<槽位编号> ——玩家背包",
+   "sha256": "8b06822c003a8c52b2190f21f07ade9e17ee3a66cd22f3438f101492ca16383e",
+   "i": 6224
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "horse.saddle ——鞍的槽位",
+     "p": {}
+    }
+   ],
+   "text": "horse.saddle ——鞍的槽位",
+   "sha256": "7c900943d4ff0c811ed4aecf9af14d666812ea997d59cabf5fbb6c95e141e660",
+   "i": 6225
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "horse.chest ——（羊驼、骡或驴）驮着的箱子",
+     "p": {}
+    }
+   ],
+   "text": "horse.chest ——（羊驼、骡或驴）驮着的箱子",
+   "sha256": "98dd34da65a2997892cd800992754dcf9f6fcb1932f9f83cd545299c4ba96020",
+   "i": 6226
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "horse.armor ——马铠或地毯的槽位",
+     "p": {}
+    }
+   ],
+   "text": "horse.armor ——马铠或地毯的槽位",
+   "sha256": "5e0299116b48a48211b4071936ebdc82736ee49e72a25c3c5433cf73385ae59b",
+   "i": 6227
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "horse.<槽位编号> ——驮着箱子的羊驼、骡和驴",
+     "p": {}
+    }
+   ],
+   "text": "horse.<槽位编号> ——驮着箱子的羊驼、骡和驴",
+   "sha256": "380c5564375b9ab788026ac032b5bc7db191598f6399b3297bebaaeb848c0796",
+   "i": 6228
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "villager.<槽位编号> ——村民或猪灵的背包",
+     "p": {}
+    }
+   ],
+   "text": "villager.<槽位编号> ——村民或猪灵的背包",
+   "sha256": "b503160646f4e1b5893edbca7731405a06fdc1dbef6a6522e6e65fa2f09d6b7b",
+   "i": 6229
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "附录",
+     "p": {}
+    },
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "：/item历史",
+     "p": {}
+    }
+   ],
+   "text": "附录②：/item历史",
+   "sha256": "b2bdd444da0762563c885c0f516c042505ae2df06748f9b3b4b1adaa315533ef",
+   "i": 6230
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {}
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 6231
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.17——加入了/item",
+     "p": {}
+    }
+   ],
+   "text": "1.17——加入了/item",
+   "sha256": "8de9cbf26622eac52d001e1f9bd150adfdde84e68fa728e298fcad32783a91eb",
+   "i": 6232
+  }
+ ],
+ "text_sha256": "45fcec1bf4a59be7455991552c6f741efaea2e0517fb1e40a0eb460f43520951",
+ "chars": 2566
+}

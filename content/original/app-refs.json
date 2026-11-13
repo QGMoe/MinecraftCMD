@@ -1,0 +1,442 @@
+{
+ "id": "app-refs",
+ "kind": "appendix",
+ "number": null,
+ "title": "参考/引用文献列表",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   13239,
+   13245
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "t": "参考/引用文献列表",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "参考/引用文献列表",
+   "sha256": "739a4dac22a93d182d759784d9b24f310ac61b791a749c7ffe1f1ee64c4c2e31",
+   "i": 13239
+  },
+  {
+   "ppr": {
+    "style": "List Paragraph",
+    "num": {
+     "ilvl": "0",
+     "numId": "3"
+    },
+    "ind": {
+     "firstLineChars": "0"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft.fandom.com",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "url": "http://minecraft.fandom.com"
+     }
+    },
+    {
+     "t": " ",
+     "p": {}
+    },
+    {
+     "t": "→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  Minecraft Wiki",
+     "p": {}
+    }
+   ],
+   "text": "minecraft.fandom.com →  Minecraft Wiki",
+   "sha256": "53262750bf6db04333667cac712c3e0e95f22c1f496ad934979672b7337e590a",
+   "i": 13240
+  },
+  {
+   "ppr": {
+    "style": "List Paragraph",
+    "num": {
+     "ilvl": "0",
+     "numId": "3"
+    },
+    "ind": {
+     "firstLineChars": "0"
+    }
+   },
+   "c": [
+    {
+     "t": "mcmod.cn",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "url": "http://mcmod.cn"
+     }
+    },
+    {
+     "t": " ",
+     "p": {}
+    },
+    {
+     "t": "→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " MC",
+     "p": {}
+    },
+    {
+     "t": "百科",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "br": "textWrapping",
+     "p": {}
+    },
+    {
+     "t": "www.minecraft.net",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "url": "http://www.minecraft.net"
+     }
+    },
+    {
+     "t": " ",
+     "p": {}
+    },
+    {
+     "t": "→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " Minecraft",
+     "p": {}
+    },
+    {
+     "t": "官网",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "mcmod.cn → MC百科\nwww.minecraft.net → Minecraft官网",
+   "sha256": "30a902a193aa4d3ad4a8adffadb20a8c6979d97ff6eec5b3bce1ced039a2c2f7",
+   "i": 13241
+  },
+  {
+   "ppr": {
+    "style": "List Paragraph",
+    "num": {
+     "ilvl": "0",
+     "numId": "3"
+    },
+    "ind": {
+     "firstLineChars": "0"
+    }
+   },
+   "c": [
+    {
+     "t": "www.mcbbs.net/thread-594698-1-1.html",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "url": "http://www.mcbbs.net/thread-594698-1-1.html"
+     }
+    },
+    {
+     "t": " ",
+     "p": {}
+    },
+    {
+     "t": "→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  pca006132 ",
+     "p": {}
+    },
+    {
+     "t": "-《[答案]",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "CBer的execute问题",
+     "p": {}
+    },
+    {
+     "t": "》",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "www.mcbbs.net/thread-594698-1-1.html →  pca006132 -《[答案]CBer的execute问题》",
+   "sha256": "70e19a17141ca1fa81e038d4a7a74fe8ef390d598a103ea5b14c05c95eca5c26",
+   "i": 13242
+  },
+  {
+   "ppr": {
+    "style": "List Paragraph",
+    "num": {
+     "ilvl": "0",
+     "numId": "3"
+    },
+    "ind": {
+     "firstLineChars": "0"
+    }
+   },
+   "c": [
+    {
+     "t": "www.mcbbs.net/thread-594475-1-1.html",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "url": "http://www.mcbbs.net/thread-594475-1-1.html"
+     }
+    },
+    {
+     "t": " ",
+     "p": {}
+    },
+    {
+     "t": "→ ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " pca006132 -",
+     "p": {}
+    },
+    {
+     "t": "《",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "[猜猜乐]CBer的execute问题",
+     "p": {}
+    },
+    {
+     "t": "》",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "www.mcbbs.net/thread-594475-1-1.html →  pca006132 -《[猜猜乐]CBer的execute问题》",
+   "sha256": "4771e330863f0fa1c748c44e105ff48990468ac2efac7266c99668cf74bb3e36",
+   "i": 13243
+  },
+  {
+   "ppr": {
+    "style": "List Paragraph",
+    "num": {
+     "ilvl": "0",
+     "numId": "3"
+    },
+    "ind": {
+     "firstLineChars": "0"
+    }
+   },
+   "c": [
+    {
+     "t": "tes.vstab.com/thread-7603-1-1.html",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "url": "http://tes.vstab.com/thread-7603-1-1.html"
+     }
+    },
+    {
+     "t": " ",
+     "p": {}
+    },
+    {
+     "t": "→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  Command Block Logic",
+     "p": {}
+    },
+    {
+     "t": "[CBL",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "]",
+     "p": {}
+    },
+    {
+     "t": " -《",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "指令方块进阶教程——模块（面向过程）",
+     "p": {}
+    },
+    {
+     "t": "》",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ",
+     "p": {}
+    },
+    {
+     "t": "（网址已失效）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "tes.vstab.com/thread-7603-1-1.html →  Command Block Logic[CBL] -《指令方块进阶教程——模块（面向过程）》 （网址已失效）",
+   "sha256": "aa4218d1b4c02acc99d7b3a1fd4eb08a14000a8bc0aa1621b7397d41f368f26e",
+   "i": 13244
+  },
+  {
+   "ppr": {
+    "style": "List Paragraph",
+    "num": {
+     "ilvl": "0",
+     "numId": "3"
+    },
+    "ind": {
+     "firstLineChars": "0"
+    }
+   },
+   "c": [
+    {
+     "t": "www.gamedog.cn/minecraft/gl2447318.html",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "url": "http://www.gamedog.cn/minecraft/gl2447318.html"
+     }
+    },
+    {
+     "t": " ",
+     "p": {}
+    },
+    {
+     "t": "→",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " 恍若心逝",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "-",
+     "p": {}
+    },
+    {
+     "t": "《超级实用的指令我的世界简单盘点介绍》",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "www.gamedog.cn/minecraft/gl2447318.html → 恍若心逝 -《超级实用的指令我的世界简单盘点介绍》",
+   "sha256": "2821680986f579236b761db4b876203e4b80788a044f1230f0dd9783f66f72ab",
+   "i": 13245
+  }
+ ],
+ "text_sha256": "e65ebb0c44acaee97ac914f086aae4117d7189b0323f5278df4941ddd9131902",
+ "chars": 396
+}

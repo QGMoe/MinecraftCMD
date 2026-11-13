@@ -1,0 +1,1850 @@
+{
+ "id": "ch142",
+ "kind": "chapter",
+ "number": 142,
+ "title": "第一百四十二章 矿车共通标签",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   11716,
+   11827
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "第一百四十二章 矿车共通标签",
+     "p": {}
+    }
+   ],
+   "text": "第一百四十二章 矿车共通标签",
+   "sha256": "791fc0ec3251782858c90bda09322af0ae332cbf25794d3a82a60ea266d1385e",
+   "i": 11716
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们知道，在Minecraft中，共通标签有这么几个：",
+     "p": {}
+    }
+   ],
+   "text": "我们知道，在Minecraft中，共通标签有这么几个：",
+   "sha256": "0b9a54f5140a1a02c35a32e81d54f5555ede067e5eddaecb0830a1d26ef47d77",
+   "i": 11717
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "实体共通标签",
+     "p": {}
+    }
+   ],
+   "text": "实体共通标签",
+   "sha256": "88ee3b364da9ad06639769976b7bf8b6ba66d46e1614dde3985da1fcc5814feb",
+   "i": 11718
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "生物共同标签",
+     "p": {}
+    }
+   ],
+   "text": "生物共同标签",
+   "sha256": "84ee0ddd3e243081d85887c43bd66fbab65473034c89394f75da0d121eedf2d0",
+   "i": 11719
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "物品共通标签",
+     "p": {}
+    }
+   ],
+   "text": "物品共通标签",
+   "sha256": "a404b6c7cb053c16d4fdb203847a612897b6177fca053621065cd96a3ea7df41",
+   "i": 11720
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "方块实体共通标签",
+     "p": {}
+    }
+   ],
+   "text": "方块实体共通标签",
+   "sha256": "106d165d52b5939398bd2129c300be382f4062442b76a22f1a6822480fdc6b38",
+   "i": 11721
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但你们可能不知道，还有这么一个神奇的共通标签：",
+     "p": {}
+    }
+   ],
+   "text": "但你们可能不知道，还有这么一个神奇的共通标签：",
+   "sha256": "d0925beed525f72899985a77365c8066fc892523406758d3c313df2e24da7102",
+   "i": 11722
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "矿车共通标签",
+     "p": {}
+    }
+   ],
+   "text": "矿车共通标签",
+   "sha256": "50caa9b9b1a406b5c5b1305ff94c3b79218b53f61be7be56b214bdbf6cc316dd",
+   "i": 11723
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错，矿车也有共同标签。可能是因为矿车的种类比较多吧。",
+     "p": {}
+    }
+   ],
+   "text": "没错，矿车也有共同标签。可能是因为矿车的种类比较多吧。",
+   "sha256": "a9f5b051f24374e94b93f1c9e3c8561cd18daebff2e27663459a26bc6d7c72e0",
+   "i": 11724
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——第一节：什么是矿车共通标签？",
+     "p": {}
+    }
+   ],
+   "text": "——第一节：什么是矿车共通标签？",
+   "sha256": "9b18db4d8ccee1ac6c02d642c884d6533785b836e1667cb41853f3308c723220",
+   "i": 11725
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "矿车共通标签，相信懂中文的都看得懂，就是矿车们的NBT中互通的标签。只不过“矿车共通标签”相对来说比较冷门，除了矿车本身比较冷门，还有一点是因为：",
+     "p": {}
+    }
+   ],
+   "text": "矿车共通标签，相信懂中文的都看得懂，就是矿车们的NBT中互通的标签。只不过“矿车共通标签”相对来说比较冷门，除了矿车本身比较冷门，还有一点是因为：",
+   "sha256": "32352ecd9df66c28993446e6f7e3dcc0a8954197546b3f636752d5517676d67b",
+   "i": 11726
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "矿车共通标签内的标签都是非必填项！",
+     "p": {}
+    }
+   ],
+   "text": "矿车共通标签内的标签都是非必填项！",
+   "sha256": "e56be047f68948a10070e20688e8871c60a65f4de41532dfe3764973e28fe1f9",
+   "i": 11727
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就导致了一点，就是该共通标签就算知道了也很少用到（毕竟谁会去研究一个没有盖子的铁盒子呢？）。",
+     "p": {}
+    }
+   ],
+   "text": "这就导致了一点，就是该共通标签就算知道了也很少用到（毕竟谁会去研究一个没有盖子的铁盒子呢？）。",
+   "sha256": "40292b9c82b46da038d0a3516291d47107410fe94f7d304c232b91adf4b13db2",
+   "i": 11728
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但有时候也是会用到的。",
+     "p": {}
+    }
+   ],
+   "text": "但有时候也是会用到的。",
+   "sha256": "9fd8567d8eb98cdf9d0c5c0829c875f6b87703be60e444656201528d5ff86f6c",
+   "i": 11729
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，就让我们康康这些标签到底是个什么东西。",
+     "p": {}
+    }
+   ],
+   "text": "现在，就让我们康康这些标签到底是个什么东西。",
+   "sha256": "5468ccd0f37e7d120b8d00aab8c812348a92e00bad2fbb7f12034f37e0297feb",
+   "i": 11730
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——第二节：矿车共通标签的内容",
+     "p": {}
+    }
+   ],
+   "text": "——第二节：矿车共通标签的内容",
+   "sha256": "091dc70d938abe79bb711e479236e7cbfa7829f1835c41e83062d27523b4bbfb",
+   "i": 11731
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "内容准确的来说，只有三项：",
+     "p": {}
+    }
+   ],
+   "text": "内容准确的来说，只有三项：",
+   "sha256": "434c70bf532bb8747e9885b4f329e112434870681ae05e46ce148fd41144f377",
+   "i": 11732
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "CustomDisplayTile（Byte字节型：1 or 0[true|false]）：选择是否展示矿车里我们搞出来的方块。1为展示。0为不展示。",
+     "p": {}
+    }
+   ],
+   "text": "CustomDisplayTile（Byte字节型：1 or 0[true|false]）：选择是否展示矿车里我们搞出来的方块。1为展示。0为不展示。",
+   "sha256": "94e101e6e9ba6ef38a0fd83669a6fac3f15a20b9dc1f269585ad983ecc22ad31",
+   "i": 11733
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DisplayState（复合）：设置放在矿车里的方块。",
+     "p": {}
+    }
+   ],
+   "text": "DisplayState（复合）：设置放在矿车里的方块。",
+   "sha256": "ed466f98df19384853be683ed765239e512a55229280319435a7172008b36ec8",
+   "i": 11734
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DisplayOffset（Int整形）：设置放在矿车里的方块其位置会偏移多少像素。为正数+时向上偏移，为负数-时向下偏移。由于MC中1方块边长都是16像素（一米），所以当值为16的倍数时会让方块正好移动一米。",
+     "p": {}
+    }
+   ],
+   "text": "DisplayOffset（Int整形）：设置放在矿车里的方块其位置会偏移多少像素。为正数+时向上偏移，为负数-时向下偏移。由于MC中1方块边长都是16像素（一米），所以当值为16的倍数时会让方块正好移动一米。",
+   "sha256": "598426ed182b99d4506170e279f6f33effceaac52f6078c39dc7fe0bf6bab202",
+   "i": 11735
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "CustomDisplayTile这就不用说了，因为上面已经讲得很清楚了。我们只需要举个例子：",
+     "p": {}
+    }
+   ],
+   "text": "CustomDisplayTile这就不用说了，因为上面已经讲得很清楚了。我们只需要举个例子：",
+   "sha256": "99266fe53122bb8a1348b6e388f3a8ef151611cc63e9f64a39904cddbadbbd4a",
+   "i": 11736
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "假设这个矿车是一个TNT矿车。如果要该矿车里的TNT消失，就要设置该TNT矿车中的",
+     "p": {}
+    }
+   ],
+   "text": "假设这个矿车是一个TNT矿车。如果要该矿车里的TNT消失，就要设置该TNT矿车中的",
+   "sha256": "aa486a6bc640f0f56b47317bfdfceae2fac54e8c83bb2f2b64db755bdd2e039d",
+   "i": 11737
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{CustomDisplayTile:1}→{CustomDisplayTile:0}",
+     "p": {}
+    }
+   ],
+   "text": "{CustomDisplayTile:1}→{CustomDisplayTile:0}",
+   "sha256": "aa9cfe6ab2a4d4ad17497ad381ba7f6bac7ce42960322f6e25a58926532ba62c",
+   "i": 11738
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "+++++++++",
+     "p": {}
+    }
+   ],
+   "text": "+++++++++",
+   "sha256": "963b29f07b9c24a234123676dfad905fd61d93e9c8bcca1002625966535ff96a",
+   "i": 11739
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DisplayState是一个复合标签，我们已经知道这是用于设置矿车里的方块的。",
+     "p": {}
+    }
+   ],
+   "text": "DisplayState是一个复合标签，我们已经知道这是用于设置矿车里的方块的。",
+   "sha256": "f3ef595017588a3c94ef5fe9375166a087372b7c66daa25fc289197244ba39dd",
+   "i": 11740
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那该如何设置呢？",
+     "p": {}
+    }
+   ],
+   "text": "那该如何设置呢？",
+   "sha256": "c435755313a6595bcf949a79344d73f0f63598817603886071fb5265074055aa",
+   "i": 11741
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很简单，让我们康康其内容：",
+     "p": {}
+    }
+   ],
+   "text": "很简单，让我们康康其内容：",
+   "sha256": "fba909f894bbacbfdf26aba4dc78828fb9a1f19efbea83785cccf4a9e8394259",
+   "i": 11742
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Name（字符串）：该方块的方块id",
+     "p": {}
+    }
+   ],
+   "text": "Name（字符串）：该方块的方块id",
+   "sha256": "caeb7e271bb3e49c3d2c4c21ef35c9dd14b2a15c69118d641e74a6d6a5dfc5db",
+   "i": 11743
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Properties（复合）：非必填。该方块的方块状态。",
+     "p": {}
+    }
+   ],
+   "text": "Properties（复合）：非必填。该方块的方块状态。",
+   "sha256": "d43c8a65278e57dfd844c84ba1a6d6cef8617d5fb0938e8188761fca51a8b4b6",
+   "i": 11744
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "嗯......这基本上和我们下落的方块是一样的。",
+     "p": {}
+    }
+   ],
+   "text": "嗯......这基本上和我们下落的方块是一样的。",
+   "sha256": "894e607f0619fef8b2a8f767872c784a312f0d1ccdc2bac904920bbce9cf112d",
+   "i": 11745
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Properties不用说，以后再来研究。",
+     "p": {}
+    }
+   ],
+   "text": "Properties不用说，以后再来研究。",
+   "sha256": "c5d0c8448beac01dc0d28b3df7d0605c624e142ab86848d220d8f2c0cb86864b",
+   "i": 11746
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Name就更不用说，直接举个例子：",
+     "p": {}
+    }
+   ],
+   "text": "Name就更不用说，直接举个例子：",
+   "sha256": "1185a5146510c7037956461fcc8fb7f1a47d61806e6d41b6033077118da71bdc",
+   "i": 11747
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/summon minecraft:minecart ~~~{CustomDisplayTile:1，DisplayState:{Name:“minecraft:diamond_block“}}",
+     "p": {}
+    }
+   ],
+   "text": "/summon minecraft:minecart ~~~{CustomDisplayTile:1，DisplayState:{Name:“minecraft:diamond_block“}}",
+   "sha256": "8b41584b843c7be0c536082c8d94045c0c33c229ecf2c49a51238c8905f5fe31",
+   "i": 11748
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子，你就会获得一个里面放着钻石块的矿车！而且你还可以坐上去！",
+     "p": {}
+    }
+   ],
+   "text": "这样子，你就会获得一个里面放着钻石块的矿车！而且你还可以坐上去！",
+   "sha256": "e7bd63d2d3a2266aa8b72a9fa7f74d8cc2133b4092b072548773d4dca74b6bb5",
+   "i": 11749
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（只不过打掉好像并不会获得钻石块）",
+     "p": {}
+    }
+   ],
+   "text": "（只不过打掉好像并不会获得钻石块）",
+   "sha256": "20246e9d430d42aeefdaf6935c1e6757dc3c32c723248814dd8b084da1ef9785",
+   "i": 11750
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "+++++++++",
+     "p": {}
+    }
+   ],
+   "text": "+++++++++",
+   "sha256": "963b29f07b9c24a234123676dfad905fd61d93e9c8bcca1002625966535ff96a",
+   "i": 11751
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们只剩下了一个：DisplayOffset",
+     "p": {}
+    }
+   ],
+   "text": "现在，我们只剩下了一个：DisplayOffset",
+   "sha256": "fe1b0afacaa5bf0fd32c8017f536c2f1719dac6e20f657319b570ff0c01a4c62",
+   "i": 11752
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DisplayOffset仍然很简单。直接上例子：",
+     "p": {}
+    }
+   ],
+   "text": "DisplayOffset仍然很简单。直接上例子：",
+   "sha256": "6b1ee0cd56fb5721e637125dcf37d2f6076b0f0ddebd5fdd4e18817fa5fb3c86",
+   "i": 11753
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/summon minecraft:minecart ~~~{CustomDisplayTile:1，DisplayState:{Name:“minecraft:diamond_block“}，DisplayOffset:32}",
+     "p": {}
+    }
+   ],
+   "text": "/summon minecraft:minecart ~~~{CustomDisplayTile:1，DisplayState:{Name:“minecraft:diamond_block“}，DisplayOffset:32}",
+   "sha256": "0a67747a5aef66175ccb5d814bdeed331eb99cded8efc6e113172ee08cc42c8f",
+   "i": 11754
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "执行它，你将会获得一个上面飘着钻石块的矿车！",
+     "p": {}
+    }
+   ],
+   "text": "执行它，你将会获得一个上面飘着钻石块的矿车！",
+   "sha256": "d77228ee79950025e5358a1c1bc4c837cf462a1f4c26d7d57a9c76c187709486",
+   "i": 11755
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你坐上去，这个钻石块也会刚好顶在你的头上。",
+     "p": {}
+    }
+   ],
+   "text": "如果你坐上去，这个钻石块也会刚好顶在你的头上。",
+   "sha256": "1da73bb51a5985e81d5264d8b68e10908b5d9abf9c3263408c82936c0cd6a34c",
+   "i": 11756
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（把32改为-32会怎么样？）",
+     "p": {}
+    }
+   ],
+   "text": "（把32改为-32会怎么样？）",
+   "sha256": "b9aec506cbc3ae26bd90b8cc917dbda925afc7e1cdc9e8ed4041e0c3ddb8cff3",
+   "i": 11757
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——第三节：旧版本",
+     "p": {}
+    }
+   ],
+   "text": "——第三节：旧版本",
+   "sha256": "79d79bef5cf7fe7c99a3581a7f59ba215cb9ea47741240a500e8f2c07a613f90",
+   "i": 11758
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你看过修改后的上一章，那你应该就看过在此章末尾的小剧场。在此小剧场中，王五、张三、刘一三人四处查找，最终找到了1.12.2版本下落的方块的正确使用方式。",
+     "p": {}
+    }
+   ],
+   "text": "如果你看过修改后的上一章，那你应该就看过在此章末尾的小剧场。在此小剧场中，王五、张三、刘一三人四处查找，最终找到了1.12.2版本下落的方块的正确使用方式。",
+   "sha256": "f39d21fa0a04e2cbf270d1a2b0eb05ec59e30a1514b20e61b6274df4796f19a8",
+   "i": 11759
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在上面，我们发现DisplayState其内容和下落的方块BlockState标签基本相同。而下落的方块BlockState经过他们三人的探索后，发现其是在1.13扁平化时由Block和Data组成。",
+     "p": {}
+    }
+   ],
+   "text": "在上面，我们发现DisplayState其内容和下落的方块BlockState标签基本相同。而下落的方块BlockState经过他们三人的探索后，发现其是在1.13扁平化时由Block和Data组成。",
+   "sha256": "37c7ec64ff4c4ca238cccdac6b22dd8ca8ada68195fd914d20308b3df304d99c",
+   "i": 11760
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么，既然DisplayState和BlockState这么像，那么......",
+     "p": {}
+    }
+   ],
+   "text": "那么，既然DisplayState和BlockState这么像，那么......",
+   "sha256": "a5109ee6b73b6c26bf3907cc3830a756b9555ed2efdf7246a540c1c36fa973e0",
+   "i": 11761
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在1.12.2版本使用/summon minecraft:minecart ~~~{CustomDisplayTile:1，DisplayState:{Name:“minecraft:diamond_block“}}会发生什么？",
+     "p": {}
+    }
+   ],
+   "text": "在1.12.2版本使用/summon minecraft:minecart ~~~{CustomDisplayTile:1，DisplayState:{Name:“minecraft:diamond_block“}}会发生什么？",
+   "sha256": "155b8026bbd9e2c16e44504b8977c8e828cd49d44d3b99c2dd53e0c1bca7dbc8",
+   "i": 11762
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案很简单，生成一个空空如也的矿车。",
+     "p": {}
+    }
+   ],
+   "text": "答案很简单，生成一个空空如也的矿车。",
+   "sha256": "e39c0435089c08d7a18cda8f4f29a923af71872de8f126329af63613cc418cb2",
+   "i": 11763
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这到底是为什么呢？",
+     "p": {}
+    }
+   ],
+   "text": "这到底是为什么呢？",
+   "sha256": "b2d638d409f50da57a2b996f38ff098ed869935fa6f70ed2e64850e9374b2b8c",
+   "i": 11764
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案已经很明确了：",
+     "p": {}
+    }
+   ],
+   "text": "答案已经很明确了：",
+   "sha256": "106017f57c79b3230aa4145d307e39ba19c9ae6486818d3c6847902260eb3176",
+   "i": 11765
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DisplayState也是在JAVA1.13扁平化后由两个标签组合而成的。",
+     "p": {}
+    }
+   ],
+   "text": "DisplayState也是在JAVA1.13扁平化后由两个标签组合而成的。",
+   "sha256": "7db4f2a62d8eb4b215c24a9b2041e2a5f2d24f497774593e88f5bc480ecf11e0",
+   "i": 11766
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那，这两个标签是什么呢？",
+     "p": {}
+    }
+   ],
+   "text": "那，这两个标签是什么呢？",
+   "sha256": "71ea6c098a94e32d3ff4f4f576c1d52bbf0b0b514ca0997c1877a1e96a6afcaa",
+   "i": 11767
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∵",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "Block+Data=BlockState",
+     "p": {}
+    }
+   ],
+   "text": "∵Block+Data=BlockState",
+   "sha256": "8d2c88106e9b6892badc6213404c9dd4624f5456fdbb91cbe6d6f42d163790de",
+   "i": 11768
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "又",
+     "p": {}
+    },
+    {
+     "t": "∵",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "BlockState=DisplayState",
+     "p": {}
+    }
+   ],
+   "text": "又∵BlockState=DisplayState",
+   "sha256": "a22eed3b086c3a9609c0fafc3e54bdb36986fa3cad3e7e38b671909363874a22",
+   "i": 11769
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∴",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "Block+Data=DisplayState",
+     "p": {}
+    }
+   ],
+   "text": "∴Block+Data=DisplayState",
+   "sha256": "22699bf45c502cfb85009a150ab712cdf6b1a189b898c0590739c8b4e678eea0",
+   "i": 11770
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "既然我们通过数学的思维得出来了答案，那就去试一试：",
+     "p": {}
+    }
+   ],
+   "text": "既然我们通过数学的思维得出来了答案，那就去试一试：",
+   "sha256": "7edc0244c2b59ba3897d0d7061a0420761ae4b083e6f563f49ca24b5907f5806",
+   "i": 11771
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/summon minecraft:minecart ~~~{CustomDisplayTile:1，Block:“minecraft:diamond_block“}",
+     "p": {}
+    }
+   ],
+   "text": "/summon minecraft:minecart ~~~{CustomDisplayTile:1，Block:“minecraft:diamond_block“}",
+   "sha256": "f50f138ed2231e630dccc72bbec43d9215ef2a771e9600e06446a3a60bba7fc9",
+   "i": 11772
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "执行该指令，我们会发现——————",
+     "p": {}
+    }
+   ],
+   "text": "执行该指令，我们会发现——————",
+   "sha256": "03e1a61f5b8692f02f08a586df7098e63891a1d57a93a658db8bc43ec0873bae",
+   "i": 11773
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "又是一个空空如也的矿车！！！！！",
+     "p": {}
+    }
+   ],
+   "text": "又是一个空空如也的矿车！！！！！",
+   "sha256": "58d953d5de10dc1fa3e2a67a823cfc7cd393872029b351fd06d207360e9b656d",
+   "i": 11774
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很明显，数学思维在这里单枪匹马是不行的，我们得弄个帮手：",
+     "p": {}
+    }
+   ],
+   "text": "很明显，数学思维在这里单枪匹马是不行的，我们得弄个帮手：",
+   "sha256": "bc2c22a07f32298d85cfe447683bb415caf1c3efec758404899fbc42ba7e9823",
+   "i": 11775
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "语言学",
+     "p": {}
+    }
+   ],
+   "text": "语言学",
+   "sha256": "80d7f8467ad480756d9cdfb40b11885a6d39eb33186713cc64aabb615fa3edd5",
+   "i": 11776
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-What does “DisplayState“ mean in Chinese?",
+     "p": {}
+    }
+   ],
+   "text": "-What does “DisplayState“ mean in Chinese?",
+   "sha256": "146a5df0db0141e904b6b6ee0cad28f5c45bf85fada894d59778c8d3ca334492",
+   "i": 11777
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-It means “显示状态“",
+     "p": {}
+    }
+   ],
+   "text": "-It means “显示状态“",
+   "sha256": "a187baf0ab323cbfe82cea0f3eef47a0cbf1eff52fff9b0c811293fc64d5020c",
+   "i": 11778
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-What does “BlockState“ mean in Chinese?",
+     "p": {}
+    }
+   ],
+   "text": "-What does “BlockState“ mean in Chinese?",
+   "sha256": "cb642f86f127309159afd943279adf450c60f3ef8ef3a84096112f93dea79bc9",
+   "i": 11779
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-It means “方块状态“",
+     "p": {}
+    }
+   ],
+   "text": "-It means “方块状态“",
+   "sha256": "ab2bc60c26c6f76a1985c3b65eea8a3cc27aeeb1384d867869b915dd0a9aa637",
+   "i": 11780
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "一个是“显示状态”，一个是“方块状态”。它们的用途都是设置方块，但一个名字含“方块”，一个不含。",
+     "p": {}
+    }
+   ],
+   "text": "一个是“显示状态”，一个是“方块状态”。它们的用途都是设置方块，但一个名字含“方块”，一个不含。",
+   "sha256": "1f68b526a9602a29e3f8433fe4f2045d67cd78c6f657e63b8ebb4f508aa2bfe2",
+   "i": 11781
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就说明了什么？",
+     "p": {}
+    }
+   ],
+   "text": "这就说明了什么？",
+   "sha256": "c8e0779ea8dcb9e360e74ffdc1036f07de5ba9486a988ef0d1a2c4f180562d03",
+   "i": 11782
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "“显示状态”其实是把方块省略了！其真正的全称是“显示方块状态”！",
+     "p": {}
+    }
+   ],
+   "text": "“显示状态”其实是把方块省略了！其真正的全称是“显示方块状态”！",
+   "sha256": "c22fab4276343073363cf7c6b94dd84a8fc2621f41d90e5161a89b1d2b2df2a7",
+   "i": 11783
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "好！既然：",
+     "p": {}
+    }
+   ],
+   "text": "好！既然：",
+   "sha256": "d669f71825aaa5be44035393d25d3e33e825b527459966f372a6d987aff37d7f",
+   "i": 11784
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "方块（Block）+Data=方块状态",
+     "p": {}
+    }
+   ],
+   "text": "方块（Block）+Data=方块状态",
+   "sha256": "93d30e6af5d197ab1fbf2a087842370f70e0c4331a64115f73deeb6e415547b5",
+   "i": 11785
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么：",
+     "p": {}
+    }
+   ],
+   "text": "那么：",
+   "sha256": "5bfda620fa9537c30f159de1c8b5ce2f23a6c7a141c8a514ceae68e8de1d45e7",
+   "i": 11786
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "显示方块（DisplayBlock）+Data=显示方块状态",
+     "p": {}
+    }
+   ],
+   "text": "显示方块（DisplayBlock）+Data=显示方块状态",
+   "sha256": "e10ebdc3b32328b67568cdd0ff625f7bdd558f713aef642fb01248e7fb9ce97c",
+   "i": 11787
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "按照结果，我们再来试下：",
+     "p": {}
+    }
+   ],
+   "text": "按照结果，我们再来试下：",
+   "sha256": "cca93cceba40cfa0df7de78bc87799400c91b6d4187053f6b2be17cf77214a96",
+   "i": 11788
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/summon minecraft:minecart ~~~{CustomDisplayTile:1，DisplayBlock:“minecraft:diamond_block“}",
+     "p": {}
+    }
+   ],
+   "text": "/summon minecraft:minecart ~~~{CustomDisplayTile:1，DisplayBlock:“minecraft:diamond_block“}",
+   "sha256": "8d837def41e67f3c6b900600f50c1b29c0f738d8dd990f510be095a76477ddbc",
+   "i": 11789
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "执行，你就会发现......",
+     "p": {}
+    }
+   ],
+   "text": "执行，你就会发现......",
+   "sha256": "5f3394f7d2d60bfa174f4b9ac8a234bd0fbc4d94ff2386cacccae9fc1fc512a4",
+   "i": 11790
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 11791
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 11792
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "咋还是个空空如也的矿车！",
+     "p": {}
+    }
+   ],
+   "text": "咋还是个空空如也的矿车！",
+   "sha256": "e59e136da3a857d8d7b8b07ed7a06b7486537d9e72135edd477b2c957ff5326e",
+   "i": 11793
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 11794
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 11795
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "CustomDisplayTile的作用是“是否显示方块”",
+     "p": {}
+    }
+   ],
+   "text": "CustomDisplayTile的作用是“是否显示方块”",
+   "sha256": "ea6c1686c282e4e3b0f3a67903373e16ce777e6ac0fa3b8e3f21fa952c98f8c4",
+   "i": 11796
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果我们把CustomDisplayTile和“是否显示方块”进行一个配对，那么：",
+     "p": {}
+    }
+   ],
+   "text": "如果我们把CustomDisplayTile和“是否显示方块”进行一个配对，那么：",
+   "sha256": "5360e9ed8fff4b7ac463020680769a3948544d93cbe38bf3fb0159a27b303632",
+   "i": 11797
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Custom——是否",
+     "p": {}
+    }
+   ],
+   "text": "Custom——是否",
+   "sha256": "0f2a4c35a92a69667b9eadcd4628265220495f1007b4e2bf6eb2f024cd69b7a6",
+   "i": 11798
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Display——显示",
+     "p": {}
+    }
+   ],
+   "text": "Display——显示",
+   "sha256": "a300edc86d872b75e63b25db99e81da6530ff8b9939bd94d7125a3a27b2bf56c",
+   "i": 11799
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Tile——方块",
+     "p": {}
+    }
+   ],
+   "text": "Tile——方块",
+   "sha256": "a27f12201cf82c69aaeeeea24368434c71244887326325e84555ed5ad75d6e0f",
+   "i": 11800
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "把“是否”去掉，就变成了：",
+     "p": {}
+    }
+   ],
+   "text": "把“是否”去掉，就变成了：",
+   "sha256": "9b631d678f0265633a7684254f3f2ed1d9591bb186c88bc1748729338148b30a",
+   "i": 11801
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DisplayTile（显示方块）",
+     "p": {}
+    }
+   ],
+   "text": "DisplayTile（显示方块）",
+   "sha256": "68d84e823d8cee58f2edb2e283167cd4c66a0694b946535fdcb7c97bf70b4567",
+   "i": 11802
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这和我们的DisplayBlock是一样的意思。",
+     "p": {}
+    }
+   ],
+   "text": "这和我们的DisplayBlock是一样的意思。",
+   "sha256": "606d1a5bc9305723c48da0cc3f0daa5c52b83ad8023d5e6bc5e53e20abf91656",
+   "i": 11803
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么......使用DisplayTile代替DisplayBlock会发生什么？",
+     "p": {}
+    }
+   ],
+   "text": "那么......使用DisplayTile代替DisplayBlock会发生什么？",
+   "sha256": "7d2ff858083ff0383a35951e113ca4f1fad6b3de5a4da64edf4088b7866c4fd0",
+   "i": 11804
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/summon minecraft:minecart ~~~{CustomDisplayTile:1，DisplayTile:“minecraft:diamond_block“}",
+     "p": {}
+    }
+   ],
+   "text": "/summon minecraft:minecart ~~~{CustomDisplayTile:1，DisplayTile:“minecraft:diamond_block“}",
+   "sha256": "fa4b7d41b0c03d0841ba13eda5c14de8478d9c4ddd01816d5653e89e0b97573f",
+   "i": 11805
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "执行，你就会获得一个装着钻石块的矿车......",
+     "p": {}
+    }
+   ],
+   "text": "执行，你就会获得一个装着钻石块的矿车......",
+   "sha256": "7bbf798831b1294902cc58d8038ed17122f9d3e3bcfd2cfaca1415ed23d91000",
+   "i": 11806
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "............!",
+     "p": {}
+    }
+   ],
+   "text": "............!",
+   "sha256": "5f8adcb426da9e00d2bd48996ee6c7d11e784da9f8147fcfd35eb913760d6b1a",
+   "i": 11807
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "!!!!!!!!!!",
+     "p": {}
+    }
+   ],
+   "text": "!!!!!!!!!!",
+   "sha256": "e62ea9fbedc5dfbf002dde4d1f058f9173282a9fd40d0ded25382e17ac83706d",
+   "i": 11808
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+     "p": {}
+    }
+   ],
+   "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+   "sha256": "16b9b107b3d7d73815eda75c56f50b91303f8d81acbc5eba30c97319bc9b3824",
+   "i": 11809
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错，我们成功了！",
+     "p": {}
+    }
+   ],
+   "text": "没错，我们成功了！",
+   "sha256": "b9b569057e60a98c57a74f3b7e9008df90d56e6f65a63cc7f9fc6fceba95ab56",
+   "i": 11810
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在扁平化中，是DisplayTile和DisplayData合并成了DisplayState！",
+     "p": {}
+    }
+   ],
+   "text": "在扁平化中，是DisplayTile和DisplayData合并成了DisplayState！",
+   "sha256": "19f152f5f3741dcffb696cc1e453a50dd2720bc772f7d9c3d9399073c0153da7",
+   "i": 11811
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DisplayTile（字符串）：设置显示在矿车里的方块。",
+     "p": {}
+    }
+   ],
+   "text": "DisplayTile（字符串）：设置显示在矿车里的方块。",
+   "sha256": "6b8018a8ce12721507352c6a5d5856a862b1a67a50c6ab6ed384fda75b93dd4e",
+   "i": 11812
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在更老的版本（大概是矿车ID还是MinecartRideable时。矿车id改为minecart时已经是1.11版本了，这个版本也是方块状态出现的版本），DisplayTile还支持方块数字id，比如/summon MinecartRideable ~~~{CustomDisplayTile:1，DisplayTile:1}就会生成一个载着石头的矿车。",
+     "p": {}
+    }
+   ],
+   "text": "在更老的版本（大概是矿车ID还是MinecartRideable时。矿车id改为minecart时已经是1.11版本了，这个版本也是方块状态出现的版本），DisplayTile还支持方块数字id，比如/summon MinecartRideable ~~~{CustomDisplayTile:1，DisplayTile:1}就会生成一个载着石头的矿车。",
+   "sha256": "901ea591d16b922a411ceea07ff22fdd7f4ccab65a62e4b196710e82ce915fa7",
+   "i": 11813
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在1.8版本以前，DisplayTile只支持方块数字id（因为1.8才更新了方块英文id）。",
+     "p": {}
+    }
+   ],
+   "text": "在1.8版本以前，DisplayTile只支持方块数字id（因为1.8才更新了方块英文id）。",
+   "sha256": "22ffac2177066db13d1e790368b1990012074281c2c1f29e03416ed8ca2ae958",
+   "i": 11814
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DisplayData（数值，值类型不知道）：设置显示在矿车里的方块的数据值。",
+     "p": {}
+    }
+   ],
+   "text": "DisplayData（数值，值类型不知道）：设置显示在矿车里的方块的数据值。",
+   "sha256": "d766dc3e48bde61ce31490eb22d17b4ba2ded1a87ea1b7cc355583f82ba2a023",
+   "i": 11815
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是1.13以前的矿车共通标签。",
+     "p": {}
+    }
+   ],
+   "text": "这就是1.13以前的矿车共通标签。",
+   "sha256": "b8984fad19fce59b2944ecb69a93b28f1007995b89a9b89dec513e7607eec6ef",
+   "i": 11816
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——第四节：结束",
+     "p": {}
+    }
+   ],
+   "text": "——第四节：结束",
+   "sha256": "f6ac2e248f7507c54e70fd84d39774325524d292261be625f58e937a4c2e7de3",
+   "i": 11817
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在结束的时候，我要说一些东西。",
+     "p": {}
+    }
+   ],
+   "text": "在结束的时候，我要说一些东西。",
+   "sha256": "ace5150cb48c6965c94718b3e4503bce204ba2c4536fde3dff4a723678d4605c",
+   "i": 11818
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "一.上一章的小剧场，张三、王五、刘一三人得出来了四个结论。其中：",
+     "p": {}
+    }
+   ],
+   "text": "一.上一章的小剧场，张三、王五、刘一三人得出来了四个结论。其中：",
+   "sha256": "a0e5b4216d08a3d04690dd190ad1dfa979c78e6f8473ab4d2e4b67548fbf841f",
+   "i": 11819
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Data在教程/下落的方块里并未提及，但应该是和Properties一样，值为复合标签，代表该方块的方块状态。",
+     "p": {}
+    }
+   ],
+   "text": "Data在教程/下落的方块里并未提及，但应该是和Properties一样，值为复合标签，代表该方块的方块状态。",
+   "sha256": "c2bf54bb679a052ea61411e7391d4c649554fa46f6d21a903ffa07530b36c1b4",
+   "i": 11820
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其实是错误的。Data在Minecraft 1.11之前就出现了，而方块状态的加入时间是Minecraft 1.11，时间上根本不对。所以，Data实际作用其实和DisplayData一样，设置该下落的方块其方块的数据值。",
+     "p": {}
+    }
+   ],
+   "text": "其实是错误的。Data在Minecraft 1.11之前就出现了，而方块状态的加入时间是Minecraft 1.11，时间上根本不对。所以，Data实际作用其实和DisplayData一样，设置该下落的方块其方块的数据值。",
+   "sha256": "14e546af488fe811a66bd997e0aed8de2aee88f11fa2579f930235c77f922f72",
+   "i": 11821
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "二.Minecraft Wiki 中文中这样说道：",
+     "p": {}
+    }
+   ],
+   "text": "二.Minecraft Wiki 中文中这样说道：",
+   "sha256": "e2386008e7eacc2a3548961600525f95e8c1d6165154cf5abfac118e492a4abf",
+   "i": 11822
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——17w47a——重命名 FallingSand 到 falling_block.",
+     "p": {}
+    }
+   ],
+   "text": "1.13——17w47a——重命名 FallingSand 到 falling_block.",
+   "sha256": "00229373c95db0630af0704109cb7f07133eee33ad8fc54f6782a44e3a056efd",
+   "i": 11823
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "实际上其重命名的时间是在1.11版本，和矿车被重命名的时间是一样的。",
+     "p": {}
+    }
+   ],
+   "text": "实际上其重命名的时间是在1.11版本，和矿车被重命名的时间是一样的。",
+   "sha256": "3dc307a094ff53fa3c0e4ff55846d470a35c2a020b56c7ee3dd33f7b53842823",
+   "i": 11824
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "三.如果你使用浏览器的“检查”来打开矿车共通标签的页面（minecraft-zh.gamepedia.com/Template:Nbt_inherit/vehicle/template），再点开历史，你就会发现一个神奇的东西：",
+     "p": {}
+    }
+   ],
+   "text": "三.如果你使用浏览器的“检查”来打开矿车共通标签的页面（minecraft-zh.gamepedia.com/Template:Nbt_inherit/vehicle/template），再点开历史，你就会发现一个神奇的东西：",
+   "sha256": "a0b944126c992770a993bc66786ef599bd6548b8e1ad7d5b9e68f3b2561d9835",
+   "i": 11825
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个页面的最后修改时间是2016年10月23日07:56，而Minecraft Java 1.12更新时间是2017年6月7日，扁平化都还没有，这咋就开始DisplayState了？时光穿越？",
+     "p": {}
+    }
+   ],
+   "text": "这个页面的最后修改时间是2016年10月23日07:56，而Minecraft Java 1.12更新时间是2017年6月7日，扁平化都还没有，这咋就开始DisplayState了？时光穿越？",
+   "sha256": "3d575817a5a7a663911d8509d508149de728b3a0bb8b1a95bc80543365d96037",
+   "i": 11826
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "OK，那么本章就到此结束了。",
+     "p": {}
+    }
+   ],
+   "text": "OK，那么本章就到此结束了。",
+   "sha256": "978339eb84b6abc40661987f1e5126b579b47944f5a08aa399e210e8c0f43de2",
+   "i": 11827
+  }
+ ],
+ "text_sha256": "d992bbf740b56167020b3d28cca2f53e18c8c749a7e8e98c60eea88b7df115c5",
+ "chars": 3653
+}

@@ -1,0 +1,74 @@
+# 校验原文层与网站，并部署到 GitHub Pages。
+# 每次推送都会运行校验与构建（相当于 CI）；只有在主仓库 QGMoe/MinecraftCMD 才部署。
+# 首次使用前，需要在主仓库 Settings → Pages 把 Source 设为 "GitHub Actions"，并在 Custom domain 填 cmd.qingu.moe。
+# 使用 Actions 部署时，自定义域名以仓库设置为准，站点里不需要 CNAME 文件。
+name: 网站
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      DEPLOY: ${{ github.repository == 'QGMoe/MinecraftCMD' }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: 原文层自洽检查
+        run: python3 -I tools/extract/verify.py .
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: 读取 Pages 地址
+        id: pages
+        if: env.DEPLOY == 'true'
+        uses: actions/configure-pages@v6
+
+      - name: 安装依赖
+        working-directory: site
+        run: npm ci
+
+      - name: 构建（构建前后自动运行渲染校验与构建产物校验）
+        working-directory: site
+        env:
+          # 自定义域名，站点位于根路径
+          SITE: https://cmd.qingu.moe
+          BASE_PATH: /
+        run: npm run build
+
+      - name: 上传站点
+        if: env.DEPLOY == 'true'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site/dist
+
+  deploy:
+    if: github.repository == 'QGMoe/MinecraftCMD'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

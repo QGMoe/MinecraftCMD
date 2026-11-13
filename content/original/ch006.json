@@ -1,0 +1,1098 @@
+{
+ "id": "ch006",
+ "kind": "chapter",
+ "number": 6,
+ "title": "第六章 玩家类别与权限等级",
+ "source": {
+  "file": "MineBBS/6第六章.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "第六章 玩家类别与权限等级"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月4日 14:25 1760字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在之前一直有提到“管理员”“成员”等玩家类别名称，其实玩家在基岩版一共分为三种。基岩版的玩家权限组从高到低分别是“管理员”、“成员”、“游客”。\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "管理员——可以使用指令，拥有一切成员的权限，可以更改其他人的权限。"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "可以通过/op和/deop来给予和消除其他人的管理员权限（Java版同样适用）。在菜单栏中直接更改某人的玩家类别到管理员是暂时性的，这个人退出再重进就会重置这个人的玩家类别。使用/op指令直接给予才是永久性的。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "成员——可以使用一些指令，目标选择器只能使用@s和指定玩家名。"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "可以破坏、放置方块，使用方块，攻击生物以及攻击玩家，能捡起物品。一般的玩家刚进入游戏是成员，管理员可以在游戏菜单栏中更改默认玩家类别。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "游客"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——这个就惨了，只能到处观光，不能放置、破坏方块，不能攻击玩家和生物，不能使用方块，不能捡起物品，况且！基岩版的游客玩家仍然是个玩家，有基础的血量和饥饿值，但是别的玩家可以攻击他，他不能攻击别的玩家（好惨），一个木门加一个泥土墙就可以把它关起来（更惨），遇见怪物不能攻击，活活被打死（哎呀这太惨了），就算什么东西也不会找上门，迟早也会被饿死（我滴妈呀这已经不能用“惨”字来形容了）。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　成员和游客可以使用一部分的指令，这一部分的指令是啥呢？它分别是 /help、/?、/tell、/me、/w、/msg和 /list，这些指令以后会慢慢的讲。当然，成员是可以使用“§”的，所以还是可以更改消息颜色的。\r\n　　刚才有提到管理员可以使用/op和/deop来给予和撤销其他人的管理权限，但有一点要注意的是这两个指令是不可以使用命令方块执行的。\r\n　　基岩版的玩家类别是可以在暂停界面查看、修改甚至可以自定义的，但是要注意一点，就是这个面板还有一个作用，这个后面会讲到。\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　那么 JAVA 版的权限跟基岩版是一样的吗？"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　JAVA 服务器的根目录有一个叫做：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "server.properties"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　的配置文件，使用笔记本打开可以更改服务器的配置。\r\n　　而在里面就有一栏参数：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "op-permission-level"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　其默认等级是 4，可以更改数字。\r\n　　如果你把这栏参数用生草机翻译一下，那么你就会知道它的作用就是：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "设置op的默认操作权限等级"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　而这个数字，就是操作权限等级，实际上，在 JAVA 版，严格点来说，有五类操作权限等级：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "0——不可放置命令方块，玩家默认进入服务器就是这类权限。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "1——可以无视出生点保护，破坏出生点周围方块，但无法使用命令方块。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "2——可以使用所有单人游戏作弊指令（除了一些不能在服务器上运行的指令），可以使用命令方块。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "3——可以使用大部分指令，包括op、ban这些指令。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "4——可以使用全部指令。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　为什么 JAVA 版要单独分出这么多等级呢？\r\n　　实际上在基岩版也是一样，因为这儿是"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "权限等级"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，而刚刚介绍的那个基岩版权限是"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "玩家类别"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "（更准确的来说是"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "玩家权限组"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "）。"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "玩家类别不等于权限等级，而权限等级也不只是玩家才拥有"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "Minecraft中的所有指令、玩家，以及一小部分特殊实体和方块，都有自己的权限等级。"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "权限等级如上所述，是从0到4一共五个等级。"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "权限等级有如下的基本特性"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST=1]",
+   "arg": "1"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "权限低的东西无法使用权限高的东西\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "权限等级的数值越大，权限就越高\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　上面说过/op和/deop指令无法被命令方块执行，这是因为/op和/deop的权限等级为3，而命令方块和命令方块矿车的权限等级在Java版是2，在基岩版是1。\r\n　　下面列出了一些东西的默认操作权限级别：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "Java 服务器控制台——4"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "Java 服务器玩家默认权限——0"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "Java 服务器默认op权限——4"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "Java 命令方块和命令方块矿车权限级别——2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "Java 大多数实体、方块权限级别——2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "Java 大多数指令权限级别——2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "/op、/deop 权限级别——3"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "函数默认权限级别——2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "/execute 子命令权限级别——2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "单人、局域网游戏房主权限——4"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "局域网游戏在开启作弊情况下所有玩家权限——4"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在基岩版中，由于并没有出生点保护的存在，所以其权限等级和 Java 版有一些差别：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "0——与 Java 版一样。玩家权限菜单中未打开“操作员命令”时玩家所有的权限。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "1——相当于 Java 版的2级权限。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "2——相当于 Java 版的3级权限。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "3——相当于 Java 版的4级权限。玩家权限菜单中打开“操作员命令”时玩家所有的权限。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "4——服务器控制台权限。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　下面列出了基岩版一些东西的操作权限级别：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "基岩版服务器控制台——4"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "基岩版命令方块和命令方块矿车——1"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "/op、/deop——3"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "函数默认权限级别——1"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "游客、成员——0"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "操作员（管理员）——3"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "/execute 子命令——1"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "大部分实体、方块、指令——1"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　现在你是否觉得玩家类别和权限等级有些复杂？对于初学者来说这确实有点复杂，但在服务器上这只是"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "最基础的权限管理方法"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。当你想要开一个更大的服务器的时候，你就会发现这点权限根本就不够用。\r\n　　如果可能，在以后我会讲到一个更复杂也更好的玩家权限管理办法，即：用户组与权限节点\r\n　　"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(65, 168, 95)]",
+   "arg": "rgb(65, 168, 95)"
+  },
+  {
+   "text": "（"
+  },
+  {
+   "tag": "URL",
+   "raw": "[URL='https://www.minebbs.com/resources/luckperms-minecraft.7304/']",
+   "arg": "'https://www.minebbs.com/resources/luckperms-minecraft.7304/'"
+  },
+  {
+   "text": "LuckPerms"
+  },
+  {
+   "tag": "URL",
+   "raw": "[/URL]",
+   "close": true
+  },
+  {
+   "text": "：？）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  }
+ ],
+ "raw_sha256": "e3f01dd194c27d20602ffb93ebc044bbd18a8a4d018c2d6bf12607545f95ee52",
+ "text_sha256": "6f264599fa8ff8b960c96f8af241b6dabfa30223f9f44d89da4453a3cdd77455",
+ "chars": 2247
+}

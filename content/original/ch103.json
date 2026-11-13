@@ -1,0 +1,468 @@
+{
+ "id": "ch103",
+ "kind": "chapter",
+ "number": 103,
+ "title": "第一百零三章 《关于工具耐久的这档事》",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   7995,
+   8020
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第一百零三章_《关于工具耐久的这档事》"
+    },
+    {
+     "t": "第一百零三章 《关于工具耐久的这档事》",
+     "p": {}
+    }
+   ],
+   "text": "第一百零三章 《关于工具耐久的这档事》",
+   "sha256": "e1152f9bf9851713805b351b10eced2aa5ed0c73d83c3ec97f554a4e0d260268",
+   "i": 7995
+  },
+  {
+   "ppr": {
+    "style": "caption",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此章节已于2022年8月5日进行大修改）",
+     "p": {}
+    }
+   ],
+   "text": "（此章节已于2022年8月5日进行大修改）",
+   "sha256": "31986bf26d348f3aa8be23ac2e01697738bac346c33c269cd8e0cc15d92ce311",
+   "i": 7996
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "众所周知，在基岩版和Java1.13以下版本，如果你更改一个有耐久物品的数据值，改成1以上，你就会发现，数值越大，这个物品的耐久度就越低。当数据值大于物品耐久度的时候，游戏仍然会更改成功，只不过这个物品有个缺点：",
+     "p": {}
+    }
+   ],
+   "text": "众所周知，在基岩版和Java1.13以下版本，如果你更改一个有耐久物品的数据值，改成1以上，你就会发现，数值越大，这个物品的耐久度就越低。当数据值大于物品耐久度的时候，游戏仍然会更改成功，只不过这个物品有个缺点：",
+   "sha256": "fe7f04a4405264059ea74b3c3901a20a84c78301ba504ccac81db0fe36fa4b88",
+   "i": 7997
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是一次性物品（当然对于有些地图作者来说是优点）",
+     "p": {}
+    }
+   ],
+   "text": "这是一次性物品（当然对于有些地图作者来说是优点）",
+   "sha256": "9ddd91f899c490f6abce6d26b07821420eb5cddef6d8254533e9ff4d8d17d2dd",
+   "i": 7998
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如下面的指令：",
+     "p": {}
+    }
+   ],
+   "text": "比如下面的指令：",
+   "sha256": "7499288746e5e1e0239e85586e022ad3e7be4089dce69a1d5288faf373eb2db0",
+   "i": 7999
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s diamond_shovel 1 9999",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond_shovel 1 9999",
+   "sha256": "e2896ed8462f68b2ee1b2618d911d2e726a0dc3242bfeea0eb23cbf9a3842d91",
+   "i": 8000
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "由于9999的数据值已经远超钻石锹的1561点耐久度，因此上面的指令将会给你一把一用就坏的钻石锹。",
+     "p": {}
+    }
+   ],
+   "text": "由于9999的数据值已经远超钻石锹的1561点耐久度，因此上面的指令将会给你一把一用就坏的钻石锹。",
+   "sha256": "391449a08ec4f852ceda380812d5de731a66e7d2f36e3d0421e6f4218f37cac7",
+   "i": 8001
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在基岩版和Java1.13以下版本，你可以通过上述方法快速获取到具有指定耐久值的工具。但是，对于Java1.13及以上版本，我们该怎么办？",
+     "p": {}
+    }
+   ],
+   "text": "在基岩版和Java1.13以下版本，你可以通过上述方法快速获取到具有指定耐久值的工具。但是，对于Java1.13及以上版本，我们该怎么办？",
+   "sha256": "3c629a6eb3d61b1711023b6f7bb9ab71feae37e307b5de9481218452d9b165de",
+   "i": 8002
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Mojang给出的答案是：用NBT",
+     "p": {}
+    }
+   ],
+   "text": "Mojang给出的答案是：用NBT",
+   "sha256": "47ac37242c0b4dd01e12916c5b2e3b125256851b4d3cc290e77267c8df8e8279",
+   "i": 8003
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "而Mojang给出的NBT标签是『Damage』，是一个值为Int整型的标签，中文翻译为『损坏值』。这东西的用法和我们拿数据值来指定物品耐久度一样，比如：",
+     "p": {}
+    }
+   ],
+   "text": "而Mojang给出的NBT标签是『Damage』，是一个值为Int整型的标签，中文翻译为『损坏值』。这东西的用法和我们拿数据值来指定物品耐久度一样，比如：",
+   "sha256": "3741ee1dab7b689c5b2a637c1607fb8c642cedd502b29bbaee07015bf99dbeef",
+   "i": 8004
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s diamond_sword{Damage:20} 1",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond_sword{Damage:20} 1",
+   "sha256": "79de358665771e035da2b392f6a2b4d10e212d41dbf3151bae9d747fa47d3009",
+   "i": 8005
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你就会获得一个损坏值为20的钻石剑，也就是耐久度为1541点的钻石剑（满值为1561点）。",
+     "p": {}
+    }
+   ],
+   "text": "你就会获得一个损坏值为20的钻石剑，也就是耐久度为1541点的钻石剑（满值为1561点）。",
+   "sha256": "862b18e270c0ca2e0ac1884de26ec49772a69ef3393c4637eaa4a0fbf0400f89",
+   "i": 8006
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是在Java1.13及以上版本获得具有指定耐久度物品的方法。但如果我们要的是『永远也不会损坏』的效果，那该怎么办？用/replaceitem或/item一直修改Damage为0吗？",
+     "p": {}
+    }
+   ],
+   "text": "这就是在Java1.13及以上版本获得具有指定耐久度物品的方法。但如果我们要的是『永远也不会损坏』的效果，那该怎么办？用/replaceitem或/item一直修改Damage为0吗？",
+   "sha256": "af72c75c5f3045cfafc59798ed9ac6ea2334bdc0326fc0c6557924c25bb65d6c",
+   "i": 8007
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不需要这么麻烦，因为Mojang也给出了一个NBT标签：Unbreakable（无法破坏的）",
+     "p": {}
+    }
+   ],
+   "text": "不需要这么麻烦，因为Mojang也给出了一个NBT标签：Unbreakable（无法破坏的）",
+   "sha256": "063587e1f9f7ee4b74adbe3713c86c40e83f6dbbaa379d3ea75f3e1a3ba7f7f2",
+   "i": 8008
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Unbreakable标签的值是一个布尔值，默认情况下它为0，也就是false（关闭）。你可以手动改为1变成true（开启）。当Unbreakable标签的值为1，也就是true（开启）时，该物品就会具有一个『无法损坏』的属性，也就达成了我们想要的效果。",
+     "p": {}
+    }
+   ],
+   "text": "Unbreakable标签的值是一个布尔值，默认情况下它为0，也就是false（关闭）。你可以手动改为1变成true（开启）。当Unbreakable标签的值为1，也就是true（开启）时，该物品就会具有一个『无法损坏』的属性，也就达成了我们想要的效果。",
+   "sha256": "4654443735393199c880841e593fd2817ad84ae9b96618bc8b053d16b72b6403",
+   "i": 8009
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {}
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 8010
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.13以下版本",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13以下版本",
+   "sha256": "999d3f8b220d9f07d1f9a5428b636ffb0a9195a5fc1d2ec8197bdd256c1dbd9c",
+   "i": 8011
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s diamond_sword 1 0 {Unbreakable:1}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond_sword 1 0 {Unbreakable:1}",
+   "sha256": "b0af8b79b5eadbd0fc14281d5422242be9dfbf97062c6caa2971e0bdb12f87a8",
+   "i": 8012
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.13及以上版本",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13及以上版本",
+   "sha256": "19a8c91500eb4581ad01f87bc3f739d5a5d9d97b136149eba44cee5b4b496237",
+   "i": 8013
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s diamond_sword{Unbreakable:1} 1",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond_sword{Unbreakable:1} 1",
+   "sha256": "d8a932a443c9522a3ac2dd66794422cdc7874a70177ea5a3d6ad50119c2dcfd3",
+   "i": 8014
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子，你就拥有一个耐久度为∞的钻石剑了！",
+     "p": {}
+    }
+   ],
+   "text": "这样子，你就拥有一个耐久度为∞的钻石剑了！",
+   "sha256": "be8286c057fec119babeb3bfc144bfd55c1242a8231fe39e2433f671959f0475",
+   "i": 8015
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "附录：本章相关历史",
+     "p": {}
+    }
+   ],
+   "text": "附录：本章相关历史",
+   "sha256": "88c51a395a35c6c5c8edf274e5c66df6b57b435e8444bf198b881e110d085ce0",
+   "i": 8016
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "Java版",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "Java版",
+   "sha256": "3a03cb4251ad4eca8294ce2df1e1d604cf434e4df0b17d0a3266dcc63e3afa15",
+   "i": 8017
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.7.2——加入了Unbreakable标签",
+     "p": {}
+    }
+   ],
+   "text": "1.7.2——加入了Unbreakable标签",
+   "sha256": "a2e4ca082acea471837b27cd47a8dff2c8ad8e826bda71ec8ef77b49469ff1b7",
+   "i": 8018
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——移除了数据值，Damage标签被移到物品tag标签下",
+     "p": {}
+    }
+   ],
+   "text": "1.13——移除了数据值，Damage标签被移到物品tag标签下",
+   "sha256": "749667f7512d156c4ba11e25b1958b294ec3e655695a119f78c28d8aabcf93a1",
+   "i": 8019
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "（把Unbreakable和Damage都写上会发生什么？）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "（把Unbreakable和Damage都写上会发生什么？）",
+   "sha256": "5f80082a2db180dc41dd5bf1865238f08e49f2b3a43225cc2d9456546920732a",
+   "i": 8020
+  }
+ ],
+ "text_sha256": "b745fbd98fa00ac5ba02dccee86edd763aa01b5d57b39161809bb38a426dbfa1",
+ "chars": 996
+}

@@ -1,0 +1,1952 @@
+{
+ "id": "ch003",
+ "kind": "chapter",
+ "number": 3,
+ "title": "第三章 §",
+ "source": {
+  "file": "MineBBS/3第三章.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "第三章 §"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月3日 22:10 1205字\r\n搬运注：文中的 and 符号即为 &；文中字体颜色参考自 "
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "URL",
+   "raw": "[URL='https://zh.minecraft.wiki/w/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81']",
+   "arg": "'https://zh.minecraft.wiki/w/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81'"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "zh.minecraft.wiki/w/格式化代码"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "URL",
+   "raw": "[/URL]",
+   "close": true
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "，实际颜色请以游戏内为准；基岩版现已有更多颜色代码，请以游戏内具体情况为准。"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "（2021-2-2有大幅度修改）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在Minecraft中，有这么一个神奇的符号：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=22px]",
+   "arg": "22px"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "§"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　这个符号叫做“分节符”，在现实中常见于上公开课时，老师会在黑板上写：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=22px]",
+   "arg": "22px"
+  },
+  {
+   "text": "§（内容）"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在现实中§是这样用的。那在Minecraft中呢？\r\n　　先不要急着用，因为我们还不知道：\r\n　　如何打出§\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　打出§的方块有两种"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "大部分输入法可以打出§：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "百度输入法Windows：→工具箱→符号大全→搜索“分节符”"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "百度输入法Android：→符→#+=→长按and符号（由于起点特性，该符号会显示乱码）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "百度输入法华为版：→?123→更多→长按and符号"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "搜狗输入法Windows：→工具箱→符号大全→搜索“小节”"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "搜狗输入法Android：→符→12.特殊→找一下就有了"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "苹果iPad OS系统自带输入法：→.?123→长按and符号"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "苹果iPhone OS系统自带输入法：→123→#+=→长按and符号"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "Win10自带微软拼音输入法：Win键+V打开剪贴簿→“符号”→常规标点第一项"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "QQ输入法Windows：→工具箱→符号→特殊符号→第二阵第六行从左往右第十列"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "QQ输入法Android：→符→特殊→找一下就有了"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "讯飞输入法Windows：→设置→特殊符号→特殊符号→第二阵第四行从左往右第七列"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "可以使用系统快捷键来打出§：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "Windows：按住Alt，然后依次点击小键盘的0167，再放开Alt\r\n （注意，直接在网页输入该符号可能会引起浏览器跳到主页，甚至有些浏览器打不出来）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "Mac OS：按住Option，然后按下6，最后放开Option"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "Linux：Compose+S+O"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　你可以去按照上面的方法试一试。\r\n　　现在我们就可以研究§在Minecraft中的用法了。\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　§在Minecraft中更专业的叫法是“"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "格式化代码"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "”、“"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "颜色代码"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "”。"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在Minecraft中，输入§，在它后面加上一个特定的符号，再写上一些内容在后面，你就会发现这些内容的颜色或者是格式被改变了。具体如下：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "颜色代码"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 0, 0)]",
+   "arg": "rgb(0, 0, 0)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§0 黑"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 0, 170)]",
+   "arg": "rgb(0, 0, 170)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§1 深蓝"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 170, 0)]",
+   "arg": "rgb(0, 170, 0)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§2 深绿"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 170, 170)]",
+   "arg": "rgb(0, 170, 170)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§3 湖蓝"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(170, 0, 0)]",
+   "arg": "rgb(170, 0, 0)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§4 深红"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(170, 0, 170)]",
+   "arg": "rgb(170, 0, 170)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§5 紫"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 170, 0)]",
+   "arg": "rgb(255, 170, 0)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§6 金"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(170, 170, 170)]",
+   "arg": "rgb(170, 170, 170)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§7 灰"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(85, 85, 85)]",
+   "arg": "rgb(85, 85, 85)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§8 深灰"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(85, 85, 255)]",
+   "arg": "rgb(85, 85, 255)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§9 蓝"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(85, 255, 85)]",
+   "arg": "rgb(85, 255, 85)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§a 绿"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(85, 255, 255)]",
+   "arg": "rgb(85, 255, 255)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§b 天蓝"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 85, 85)]",
+   "arg": "rgb(255, 85, 85)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§c 红"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 85, 255)]",
+   "arg": "rgb(255, 85, 255)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "text": "§d 粉红"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 255, 85)]",
+   "arg": "rgb(255, 255, 85)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(0, 0, 0)]",
+   "arg": "rgb(0, 0, 0)"
+  },
+  {
+   "text": "§e 黄白"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(0, 0, 0)]",
+   "arg": "rgb(0, 0, 0)"
+  },
+  {
+   "text": "§f 白"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(221, 214, 5)]",
+   "arg": "rgb(221, 214, 5)"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(0, 0, 0)]",
+   "arg": "rgb(0, 0, 0)"
+  },
+  {
+   "text": "§g 硬币金[仅基岩版]"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "格式代码"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "§k 乱码"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "§l 加粗"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "S",
+   "raw": "[S]"
+  },
+  {
+   "text": "§m 删除线[仅Java]"
+  },
+  {
+   "tag": "S",
+   "raw": "[/S]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "U",
+   "raw": "[U]"
+  },
+  {
+   "text": "§n 下划线[仅Java]"
+  },
+  {
+   "tag": "U",
+   "raw": "[/U]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "§o 斜体"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "§r 重置文字样式(包括颜色)"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　举个例子，比如你在手机上玩网易租贷服，看到了这么一段话（后面括号内容为此段话的格式）：\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(170, 0, 0)]",
+   "arg": "rgb(170, 0, 0)"
+  },
+  {
+   "text": "公告"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "（深红，斜体，加粗）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 255, 85)]",
+   "arg": "rgb(255, 255, 85)"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(0, 0, 0)]",
+   "arg": "rgb(0, 0, 0)"
+  },
+  {
+   "text": "一.禁止开G"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "（黄白，加粗）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 255, 85)]",
+   "arg": "rgb(255, 255, 85)"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(0, 0, 0)]",
+   "arg": "rgb(0, 0, 0)"
+  },
+  {
+   "text": "二.请遵守小游戏规则"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "（黄白，加粗）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(85, 255, 85)]",
+   "arg": "rgb(85, 255, 85)"
+  },
+  {
+   "text": "三.举报请找管理员，管理员24小时在线"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "（绿）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 170, 0)]",
+   "arg": "rgb(255, 170, 0)"
+  },
+  {
+   "text": "四.服务器q.q.q.u.n：1145141919810"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "（金，加粗）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　那么这段话其编辑时很有可能是这个样子：\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "　　§4 §o §l公告§r\r\n　　§e §l一.禁止开G\r\n　　二.请遵守小游戏规则§r\r\n　　§a三.举报请找管理员，管理员24小时在线§r\r\n　　§6 §l四.服务器q.q.q.u.n：1145141919810"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "　　"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "（注意，格式代码必须用在颜色代码之后，不然颜色代码会覆盖格式代码）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　现在我们知道了如何打出§和§在Minecraft的用法。"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "但如果你是个Java版玩家，你可能会发现一点："
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在聊天框打不出§啊！\r\n　　这是为什么呢？因为在JAVA版里，§是个非法字符，打不出来，甚至在服务器打§还有可能会被踢出去。\r\n　　那JAVA版哪里可以用§呢？\r\n　　写书时（指书与笔）、创建世界填写名称时、填写一些外部配置文件时、开发模组时等少数情况会用到（大部分情况下需要将§转换为\\u00A7，不然会出错）。\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　在书与笔中，你可以打出§，只不过并不会显示。这时候你就可以在后面添加特定字符来实现一些文字效果"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n　　但基本上§在JAVA版就这个用（更多内容可以到第一百二十四章-JSON的格式元素里了解）。"
+  }
+ ],
+ "raw_sha256": "762a5188449269ccf594670eaa9a677810af43830a2de396112a7544b4e061b2",
+ "text_sha256": "de679d8bfef0412c900a88d59da86d86fa5a7ef213ab52b7761f0ec331a1c9d1",
+ "chars": 1860
+}

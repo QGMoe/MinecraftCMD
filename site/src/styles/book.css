@@ -1,0 +1,50 @@
+/* 最小可浏览版：只保证原文忠实、可读。视觉风格待定。 */
+
+/* 原文段落：保留行首全角空格、连续空格等原有空白 */
+.sl-markdown-content p.o,
+.sl-markdown-content .bb {
+  white-space: pre-wrap;
+  line-height: 1.85;
+}
+.sl-markdown-content p.o { margin-block: 0.35em; }
+.sl-markdown-content p.indent { text-indent: 2em; }
+.sl-markdown-content p.empty { margin-block: 0.6em; }
+.sl-markdown-content .align-center { text-align: center; }
+.sl-markdown-content .align-right { text-align: right; }
+
+/* docx 自定义样式 */
+.sl-markdown-content p.mc { font-family: var(--sl-font-mono); }
+.sl-markdown-content p.subheading { font-weight: 600; font-size: var(--sl-text-lg); text-indent: 0; }
+.sl-markdown-content p.caption { color: var(--sl-color-gray-3); font-size: var(--sl-text-sm); text-indent: 0; }
+.sl-markdown-content p.inner-heading { font-weight: 700; font-size: var(--sl-text-xl); text-indent: 0; }
+.sl-markdown-content mark { background: #fff3a0; color: inherit; }
+:root[data-theme='dark'] .sl-markdown-content mark { background: #6b5d00; }
+
+/* 字符样式（作者用作语义标记）：先只做轻微区分 */
+.sl-markdown-content [data-cs='Subtle Emphasis'] { color: var(--sl-color-text-accent); }
+
+/* 文本框（第十卷插图编号） */
+.sl-markdown-content .textbox {
+  display: inline-block;
+  font-size: var(--sl-text-xs);
+  color: var(--sl-color-gray-3);
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 0.25rem;
+  padding: 0 0.3em;
+  margin: 0 0.2em;
+}
+.sl-markdown-content img.docx-image { display: block; max-width: 100%; height: auto; margin: 0.6em auto; }
+
+/* BBCode */
+.sl-markdown-content .bb h2.bb-heading,
+.sl-markdown-content .bb h3.bb-heading,
+.sl-markdown-content .bb h4.bb-heading { white-space: normal; }
+.sl-markdown-content .bb table.bb-table { white-space: normal; display: table; width: 100%; }
+.sl-markdown-content .bb ul,
+.sl-markdown-content .bb ol { white-space: normal; }
+.sl-markdown-content .bb li { white-space: pre-wrap; }
+.sl-markdown-content .bb .bg { padding: 0 0.1em; border-radius: 0.15em; }
+.sl-markdown-content .bb .ispoiler { background: var(--sl-color-gray-5); color: transparent; border-radius: 0.2em; }
+.sl-markdown-content .bb .ispoiler:hover { color: inherit; }
+.sl-markdown-content .bb .attach { color: var(--sl-color-gray-3); }
+.sl-markdown-content .bb pre.bb-code { white-space: pre-wrap; }

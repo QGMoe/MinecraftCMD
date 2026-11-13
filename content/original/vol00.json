@@ -1,0 +1,40 @@
+{
+ "id": "vol00",
+ "kind": "volume",
+ "number": 0,
+ "title": "第零卷 一些其他的东西",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   49,
+   49
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "left"
+   },
+   "c": [
+    {
+     "t": "第零卷 一些其他的东西",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "第零卷 一些其他的东西",
+   "sha256": "04570655ac7381e02fa4c1134f923fa1d33e38eafcaeb58db47c75a2138805f4",
+   "i": 49
+  }
+ ],
+ "text_sha256": "04570655ac7381e02fa4c1134f923fa1d33e38eafcaeb58db47c75a2138805f4",
+ "chars": 11
+}

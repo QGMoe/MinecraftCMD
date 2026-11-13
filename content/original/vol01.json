@@ -1,0 +1,83 @@
+{
+ "id": "vol01",
+ "kind": "volume",
+ "number": 1,
+ "title": "第一卷 新手入门",
+ "source": {
+  "file": "MineBBS/0声明部分.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=26px]",
+   "arg": "26px"
+  },
+  {
+   "text": "第一卷 新手入门"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "哎呀，想学指令，怎么打出来呢？"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  }
+ ],
+ "raw_sha256": "ab285f9875761287e038889a2a6857d670d1901cfd56dd4cc8b684b17ef2016e",
+ "text_sha256": "605f0041f3aaf07025f9fbaa6e6d3ed63e78a5a89dd5637ac12be80503968d8e",
+ "chars": 27
+}

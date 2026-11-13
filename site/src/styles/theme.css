@@ -1,0 +1,115 @@
+/* 主题：MC 风，配色照悠然。
+ * 取值来源（与 YouranGuide docs/stylesheets/youran.css 相同）：
+ *   - 主题色：悠然网页面板 youran_web/themes.toml 的默认主题"草方块"（grass），浅深两组
+ *   - 中性色：面板 youran_web/static/style.css
+ *   - 字体栈：面板 style.css 的 --font（服主 10-31 定）；等宽与官网、面板相同
+ * 要换颜色只改下面两段 --yr-* 变量。
+ */
+
+:root[data-theme='light'] {
+  --yr-bg: #f2f4f3;
+  --yr-card: #ffffff;
+  --yr-soft: #f5f7f6;
+  --yr-text: #1f2328;
+  --yr-muted: #5d6570;
+  --yr-border: #e2e6e5;
+  --yr-input-border: #8a8f98;
+  --yr-accent: #2f7d4f;            /* grass.light.accent */
+  --yr-accent-fill: #2f7d4f;       /* grass.light.accent_fill */
+  --yr-accent-fill-hover: #276a43; /* grass.light.accent_fill_hover */
+  --yr-accent-soft: #ecf6f0;       /* grass.light.accent_soft */
+}
+
+:root,
+:root[data-theme='dark'] {
+  --yr-bg: #111315;
+  --yr-card: #1a1d21;
+  --yr-soft: #20242a;
+  --yr-text: #e7e9ec;
+  --yr-muted: #9ea5af;
+  --yr-border: #2b3036;
+  --yr-input-border: #6b7280;
+  --yr-accent: #5cbf83;            /* grass.dark.accent */
+  --yr-accent-fill: #2a7a4b;       /* grass.dark.accent_fill */
+  --yr-accent-fill-hover: #246b41; /* grass.dark.accent_fill_hover */
+  --yr-accent-soft: rgba(92, 191, 131, 0.14); /* grass.dark.accent_soft */
+}
+
+/* 映射到 Starlight 的变量 */
+:root,
+:root[data-theme='dark'],
+:root[data-theme='light'] {
+  --sl-color-white: var(--yr-text);
+  --sl-color-gray-1: var(--yr-text);
+  --sl-color-gray-2: var(--yr-text);
+  --sl-color-gray-3: var(--yr-muted);
+  --sl-color-gray-4: var(--yr-input-border);
+  --sl-color-gray-5: var(--yr-border);
+  --sl-color-gray-6: var(--yr-soft);
+  --sl-color-gray-7: var(--yr-bg);
+  --sl-color-black: var(--yr-card);
+
+  --sl-color-accent-low: var(--yr-accent-soft);
+  --sl-color-accent: var(--yr-accent-fill);
+  --sl-color-accent-high: var(--yr-accent);
+
+  --sl-color-text: var(--yr-text);
+  --sl-color-text-accent: var(--yr-accent);
+  --sl-color-text-invert: #ffffff;
+  --sl-color-bg: var(--yr-card);
+  --sl-color-bg-nav: var(--yr-card);
+  --sl-color-bg-sidebar: var(--yr-bg);
+  --sl-color-bg-inline-code: var(--yr-soft);
+  --sl-color-hairline-light: var(--yr-border);
+  --sl-color-hairline: var(--yr-border);
+  --sl-color-hairline-shade: var(--yr-border);
+
+  --sl-font: system-ui, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --sl-font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+}
+
+/* ---- MC 元素 ---- */
+
+/* 顶栏下方：一条草皮压泥土的像素条 */
+header.header {
+  border-bottom: none;
+  box-shadow: none;
+}
+header.header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 6px;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(90deg, #5b8c32 0 6px, #6aa13a 6px 12px, #4f7d2b 12px 18px, #659a37 18px 24px) top / 100% 3px no-repeat,
+    repeating-linear-gradient(90deg, #866043 0 6px, #79553a 6px 12px, #8d6a4b 12px 18px, #6f4d34 18px 24px) bottom / 100% 3px no-repeat;
+  image-rendering: pixelated;
+}
+
+/* 站点标题：方块感 */
+.site-title {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.site-title img {
+  image-rendering: pixelated;
+}
+
+/* 侧边栏当前项、按钮：小圆角，偏方块 */
+/* 当前项用面板的实心主按钮色（白字），浅深两色都满足对比度 */
+.sidebar-content a[aria-current='page'],
+.sidebar-content a[aria-current='page']:hover,
+.sidebar-content a[aria-current='page']:focus {
+  background-color: var(--yr-accent-fill);
+  color: #ffffff;
+  border-radius: 2px;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* 正文链接 */
+.sl-markdown-content a {
+  color: var(--yr-accent);
+}

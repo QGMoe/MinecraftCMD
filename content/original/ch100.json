@@ -1,0 +1,2101 @@
+{
+ "id": "ch100",
+ "kind": "chapter",
+ "number": 100,
+ "title": "第一百章 开启NBT时代（来，开杯香槟酒庆祝一下，100章了）",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   7810,
+   7914
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第一百章_开启NBT时代（来，开杯香槟酒庆祝一下，100章了）"
+    },
+    {
+     "t": "第一百章 开启NBT时代（来，开杯香槟酒庆祝一下，100章了）",
+     "p": {}
+    }
+   ],
+   "text": "第一百章 开启NBT时代（来，开杯香槟酒庆祝一下，100章了）",
+   "sha256": "ba32ed9ff904c1755f7587c7d0d795bfdea6b94ce8663c13abe71c382021f61c",
+   "i": 7810
+  },
+  {
+   "ppr": {
+    "style": "caption",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此章节已于2022年8月4日重写）",
+     "p": {}
+    }
+   ],
+   "text": "（此章节已于2022年8月4日重写）",
+   "sha256": "2f68fbc421dacc47b0a8d01738d0e7d1a29a6362ef177920f66b2cd622636b59",
+   "i": 7811
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，在正文开始前，我们先庆祝一下本书写到了100章。",
+     "p": {}
+    }
+   ],
+   "text": "首先，在正文开始前，我们先庆祝一下本书写到了100章。",
+   "sha256": "d7209202e89226f4ba58962b8e26430fa4bbbb39b4c68e90e37d2a4eb2e216dd",
+   "i": 7812
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "好巧不巧，第一百章正好正式开讲NBT。",
+     "p": {}
+    }
+   ],
+   "text": "好巧不巧，第一百章正好正式开讲NBT。",
+   "sha256": "f8b665d6056e84026ccac363288c6a7513cd541c7d59710806ade5e73d8270bd",
+   "i": 7813
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但估计NBT也要讲100章了.......",
+     "p": {}
+    }
+   ],
+   "text": "但估计NBT也要讲100章了.......",
+   "sha256": "dfedadcc910a3c9a3225ad5ddc98e2439ace0fe2da364ac478d408aa826e18ad",
+   "i": 7814
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当然，开杯香槟酒庆祝一下那是必须的。",
+     "p": {}
+    }
+   ],
+   "text": "当然，开杯香槟酒庆祝一下那是必须的。",
+   "sha256": "776f9a3fef3e01ce9db4beb317dd624b5b452c6211784b0685e318e803de4249",
+   "i": 7815
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没香槟酒怎么办？拿雪碧也可以。",
+     "p": {}
+    }
+   ],
+   "text": "没香槟酒怎么办？拿雪碧也可以。",
+   "sha256": "79f4c381a7b578c0bdf3848f2ced10eeef79b36831bbddc5226a1bdbc306c992",
+   "i": 7816
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么，正文开始！",
+     "p": {}
+    }
+   ],
+   "text": "那么，正文开始！",
+   "sha256": "88fa6e1c4773d057c9d8b0477abef40d9bfe91c8341f9e59fccf134c01bc2217",
+   "i": 7817
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "——————————————",
+     "p": {}
+    }
+   ],
+   "text": "——————————————",
+   "sha256": "924530d16f9cd8de28b12f6eab37ccb91cf3e25d548080d5ffb78287a22692ac",
+   "i": 7818
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在第五十四章中，我们初步了解了NBT（Named Binary Tag），搞懂了SNBT的格式。在接下来的章节中，我们将会依次了解物品、实体和方块的NBT，并更加深入地研究NBT的数据类型，以及搞懂如何将NBT用于指令的方方面面。",
+     "p": {}
+    }
+   ],
+   "text": "在第五十四章中，我们初步了解了NBT（Named Binary Tag），搞懂了SNBT的格式。在接下来的章节中，我们将会依次了解物品、实体和方块的NBT，并更加深入地研究NBT的数据类型，以及搞懂如何将NBT用于指令的方方面面。",
+   "sha256": "cb26fbe5a71cad45c15b38e8b1f2f81559a717941fbe4e1f57a1b8d46bf28151",
+   "i": 7819
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在本卷的前面部分，我们会重点了解物品的NBT。虽然NBT仅仅只能在Java版中使用，但我们也会接触到一些基岩版的类似内容（如物品的JSON组件），所以基岩版玩家也可以来看看。",
+     "p": {}
+    }
+   ],
+   "text": "在本卷的前面部分，我们会重点了解物品的NBT。虽然NBT仅仅只能在Java版中使用，但我们也会接触到一些基岩版的类似内容（如物品的JSON组件），所以基岩版玩家也可以来看看。",
+   "sha256": "f13eb6a6e08798d6514ddfb7654e604fe8cb5369ed08c883cdcd8d01e4ef48a7",
+   "i": 7820
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本卷的后面部分将会开始接触实体的NBT，实体NBT的相关内容起码要到第十七卷才能结束。但其实你并不需要每章都看，因为作者都是根据Minecraft Wiki上列出的那些『通用标签』来选择讲哪些NBT的，对于一些冷门的通用标签你大可不必了解，等到真正需要时再看也不迟。",
+     "p": {}
+    }
+   ],
+   "text": "本卷的后面部分将会开始接触实体的NBT，实体NBT的相关内容起码要到第十七卷才能结束。但其实你并不需要每章都看，因为作者都是根据Minecraft Wiki上列出的那些『通用标签』来选择讲哪些NBT的，对于一些冷门的通用标签你大可不必了解，等到真正需要时再看也不迟。",
+   "sha256": "f77b4b0d7f561c27a1d472561e3563e1f18b5db37f561ac26c25a72aef6a689d",
+   "i": 7821
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第十二卷我们会暂时休息一下，然后开始深入学习JSON文本。第十五卷我们还会详细了解F3调试界面（所以这跟指令有何关系）。也就是说，尽管接下来有很多章节，但其实NBT的内容的占比不到一半。",
+     "p": {}
+    }
+   ],
+   "text": "第十二卷我们会暂时休息一下，然后开始深入学习JSON文本。第十五卷我们还会详细了解F3调试界面（所以这跟指令有何关系）。也就是说，尽管接下来有很多章节，但其实NBT的内容的占比不到一半。",
+   "sha256": "a6e330d871fcbaf686d2b4ff9df392fa6cc91dca795f7332940cc3e143f8e971",
+   "i": 7822
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "等等，什么是『",
+     "p": {}
+    },
+    {
+     "t": "通用标签",
+     "p": {
+      "style": "Intense Emphasis"
+     }
+    },
+    {
+     "t": "』？",
+     "p": {}
+    }
+   ],
+   "text": "等等，什么是『通用标签』？",
+   "sha256": "e629c7fbd96f9f89c09086f53bc90b585736ec1047693a5eab51debcb96f3a36",
+   "i": 7823
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在Minecraft中，难免会有一些类似的生物，比如僵尸和尸壳。但它们又是不同的实体。如果它们的NBT标签也不同的话，那么写指令的以及做开发的都很头疼。『通用标签』因此诞生。",
+     "p": {}
+    }
+   ],
+   "text": "在Minecraft中，难免会有一些类似的生物，比如僵尸和尸壳。但它们又是不同的实体。如果它们的NBT标签也不同的话，那么写指令的以及做开发的都很头疼。『通用标签』因此诞生。",
+   "sha256": "bcc2b4800af078f989c4632d13d8c51d3bb3d3688cfffca2f3bb7bbc211b9f36",
+   "i": 7824
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『通用标签』，正如其名，是指多个不同种类的东西带有的相同名称和功能的标签。比如『实体通用标签』，就是指几乎每个实体都具有的标签。通用标签可以方便Mojang官方和模组开发者开发新的东西，也可以方便CBer们（CBer，Command Blocker，玩命令方块的玩家，也就是指令玩家）使用NBT。我们会在接下来的章节中，详细了解各种『通用标签』。",
+     "p": {}
+    }
+   ],
+   "text": "『通用标签』，正如其名，是指多个不同种类的东西带有的相同名称和功能的标签。比如『实体通用标签』，就是指几乎每个实体都具有的标签。通用标签可以方便Mojang官方和模组开发者开发新的东西，也可以方便CBer们（CBer，Command Blocker，玩命令方块的玩家，也就是指令玩家）使用NBT。我们会在接下来的章节中，详细了解各种『通用标签』。",
+   "sha256": "eece783aafa2c7adba652099a7dfdd6739bc5b42baac7143f9c28dc32bb6cbb4",
+   "i": 7825
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "虽然通用标签有很多种，但常用的也不过以下几个：",
+     "p": {}
+    }
+   ],
+   "text": "虽然通用标签有很多种，但常用的也不过以下几个：",
+   "sha256": "317b4b16236c6f3b1fe1cbdcd49b09c7416e6efba1e7b64f2f6f4694c560e791",
+   "i": 7826
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "422"
+    },
+    "markRun": {
+     "style": "Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "①",
+     "p": {
+      "style": "Emphasis",
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "物品通用标签（最好把这个标签背下来）",
+     "p": {
+      "style": "Emphasis"
+     }
+    }
+   ],
+   "text": "①物品通用标签（最好把这个标签背下来）",
+   "sha256": "9f43af0d74d03cba822820573e7048cd977b37e25c8a3213bd42062a1ce8d50e",
+   "i": 7827
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "422"
+    },
+    "markRun": {
+     "style": "Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "②",
+     "p": {
+      "style": "Emphasis",
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "实体通用标签",
+     "p": {
+      "style": "Emphasis"
+     }
+    }
+   ],
+   "text": "②实体通用标签",
+   "sha256": "55ab742204cd4e85dab956e477557bd39e8d5e5f92efe7c97b188b296ef821a0",
+   "i": 7828
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "422"
+    },
+    "markRun": {
+     "style": "Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "③",
+     "p": {
+      "style": "Emphasis",
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "方块实体通用标签",
+     "p": {
+      "style": "Emphasis"
+     }
+    }
+   ],
+   "text": "③方块实体通用标签",
+   "sha256": "06773d4030954802f14e0deccd2c62e8e142deefba59b9a25c636644458cc8e8",
+   "i": 7829
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "422"
+    },
+    "markRun": {
+     "style": "Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "④",
+     "p": {
+      "style": "Emphasis",
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "生物通用标签",
+     "p": {
+      "style": "Emphasis"
+     }
+    }
+   ],
+   "text": "④生物通用标签",
+   "sha256": "a76a1d8aef0b2d5073eeea6be61785dd43ab129896186e88fa3ab655a8f4e701",
+   "i": 7830
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "只要你能搞懂这四个通用标签，那你的NBT基本上就过关了。至于什么『箭通用标签』、『火球通用标签』等等冷门的标签，除非你需要使用到它们，否则一般不需要学习它们的用法。这就是为什么你可以跳着看的原因。",
+     "p": {}
+    }
+   ],
+   "text": "只要你能搞懂这四个通用标签，那你的NBT基本上就过关了。至于什么『箭通用标签』、『火球通用标签』等等冷门的标签，除非你需要使用到它们，否则一般不需要学习它们的用法。这就是为什么你可以跳着看的原因。",
+   "sha256": "11a1109566b15035598118729acd644c357b20004c1fa608086b212cac4c6f22",
+   "i": 7831
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在正式开始NBT的学习过程前，我们得详细了解Minecraft Java的一次重大更新：",
+     "p": {}
+    }
+   ],
+   "text": "在正式开始NBT的学习过程前，我们得详细了解Minecraft Java的一次重大更新：",
+   "sha256": "dca05c0aaa0973fb00d679b40fe733c1bf2aaea62d1b99622bf104acfe2f1aa7",
+   "i": 7832
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "JAVA1.13扁平化",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "JAVA1.13扁平化",
+   "sha256": "d272c0a94531f7cf743508fc7d16492419d55b640bfee9f6c6969e392f82765a",
+   "i": 7833
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们都知道，Java1.13版本是『水域更新』，加入了珊瑚、溺尸等等新奇的东西。但Java1.13也是一个分水岭，在此次更新中，Miencraft Java的基础源代码被大量重写，导致许多模组被迫停留在1.12.2版本，甚至弃坑。但这次重写也促进了新时代模组的产生，涌现出了基于原版的数据包、Fabric、Rift等新时代的模组，使得Minecraft进入了一个全新的时代。",
+     "p": {}
+    }
+   ],
+   "text": "我们都知道，Java1.13版本是『水域更新』，加入了珊瑚、溺尸等等新奇的东西。但Java1.13也是一个分水岭，在此次更新中，Miencraft Java的基础源代码被大量重写，导致许多模组被迫停留在1.12.2版本，甚至弃坑。但这次重写也促进了新时代模组的产生，涌现出了基于原版的数据包、Fabric、Rift等新时代的模组，使得Minecraft进入了一个全新的时代。",
+   "sha256": "2817c9960792e914d548ffbeed7b9c513d45b27b15f33f5df7a587701684e050",
+   "i": 7834
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在指令方面，Java1.13的更新内容也不容忽视。Java1.13扁平化对许多指令以及指令的相关内容作出了很多重大改变，比如先前我们遇到的execute指令，就是一个鲜明的例子。",
+     "p": {}
+    }
+   ],
+   "text": "在指令方面，Java1.13的更新内容也不容忽视。Java1.13扁平化对许多指令以及指令的相关内容作出了很多重大改变，比如先前我们遇到的execute指令，就是一个鲜明的例子。",
+   "sha256": "bcc3ab6fa5a69c76eb10c06db4886857d52c9e7d9c40e874ffaeb75a1fca74f7",
+   "i": 7835
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在扁平化中，首当其冲的就是数据值的消失。由于数据值的消失，很多id都被拆分了。比如『灰色床』，它在1.12.2是被统一到『床』（bed）里，作为数据值为7的床。而在扁平化后，『床』被拆分，『灰色床』就有了自己的id：gray_bed。当然，还有少数id被合并。比如Java1.12.2的『水』（water）和『流动的水』（flowing_water），合并之后（1.13）统一成了：水（water）。",
+     "p": {}
+    }
+   ],
+   "text": "在扁平化中，首当其冲的就是数据值的消失。由于数据值的消失，很多id都被拆分了。比如『灰色床』，它在1.12.2是被统一到『床』（bed）里，作为数据值为7的床。而在扁平化后，『床』被拆分，『灰色床』就有了自己的id：gray_bed。当然，还有少数id被合并。比如Java1.12.2的『水』（water）和『流动的水』（flowing_water），合并之后（1.13）统一成了：水（water）。",
+   "sha256": "3321afc167e08fc698de203e35ec1b7bc5aa434eeeb9cc3b3fe36bb9be5fc24d",
+   "i": 7836
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "也有些并没有被拆分或者是合并，而是被『重命名』了，比如『甘蔗』在Java1.12.2的id是『reeds』，到了1.13就变成了『sugar_cane』；岩浆块在1.12.2叫做『magma』，扁平化之后就变成了『magma_block』。",
+     "p": {}
+    }
+   ],
+   "text": "也有些并没有被拆分或者是合并，而是被『重命名』了，比如『甘蔗』在Java1.12.2的id是『reeds』，到了1.13就变成了『sugar_cane』；岩浆块在1.12.2叫做『magma』，扁平化之后就变成了『magma_block』。",
+   "sha256": "e9e00f2d3764a27df570a896bdb2638acb54f22b0306f82f08dfcfabe08591d4",
+   "i": 7837
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不只是这些方块、物品的id被改变，实体的id也被改变了，只不过比较少，可以全列出来：",
+     "p": {}
+    }
+   ],
+   "text": "不只是这些方块、物品的id被改变，实体的id也被改变了，只不过比较少，可以全列出来：",
+   "sha256": "74691ee371aebaa1fa269da2778e5c8ff311a11f0c3498b60c74887773ffff52",
+   "i": 7838
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "经验球",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "经验球",
+   "sha256": "a545a56f46efade0ef040e0bc67a7a6ece589dba56a4a0e823c24d3ce9994d51",
+   "i": 7839
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.2——xp_orb",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12.2——xp_orb",
+   "sha256": "1965189a43216f4590cc717df21812cd1bb27854fa38fa248f04f9fa2027f9b1",
+   "i": 7840
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——experience_orb",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——experience_orb",
+   "sha256": "f7bb7901d830e581829f81403cdc322d33d37b0568402e9710e60a1d08fd5288",
+   "i": 7841
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "附魔之瓶",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "附魔之瓶",
+   "sha256": "145ad0fbbb19e6cbf70d02cfc487c74710277186d713d2276c3763def3ede857",
+   "i": 7842
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.2——xp_bottle",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12.2——xp_bottle",
+   "sha256": "9cfa684b28c98dde46822ade9d81781e76c524f24817373e585a18ae2bf01d15",
+   "i": 7843
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——experience_bottle",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——experience_bottle",
+   "sha256": "3c3c28ccc2b5124c33a4d231a397dc671b5041c3bee45f083250b29459ecb054",
+   "i": 7844
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "末影之眼",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "末影之眼",
+   "sha256": "ae76f35b7044953bc86703740020d52888c3b3b0bc0a6c37577d904371fae623",
+   "i": 7845
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.2——eye_of_ender_signal",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12.2——eye_of_ender_signal",
+   "sha256": "b4e4b7025e871fbc71c958c10b9dde09e8738b9a7c645cf601f9de617fc34fb9",
+   "i": 7846
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——eye_of_ender",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——eye_of_ender",
+   "sha256": "4c90a3d98433ea122df71a550eeb12c0d6b6ae88e644f7c3faa3ad04feb956bf",
+   "i": 7847
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "末影水晶",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "末影水晶",
+   "sha256": "77a3695d06698b28ada5aeafd477159c36b6fc5ab2d062097ce777c7d52e9dd9",
+   "i": 7848
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.2——ender_crystal",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12.2——ender_crystal",
+   "sha256": "b04d6de1e64180f976997431712c2614b6448c6affbfa62d13a896611e2fce3b",
+   "i": 7849
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——end_crystal",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——end_crystal",
+   "sha256": "d18b9659907caff879b756ce5fb3e346fea54192309b24a3e33cbf77b119c66c",
+   "i": 7850
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "烟花火箭",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "烟花火箭",
+   "sha256": "23f9a84909b4dc64ff16cbb49fc474e8551695f1b7ea882de6c4db20263add62",
+   "i": 7851
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.2——fireworks_rocket",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12.2——fireworks_rocket",
+   "sha256": "9f6efc3b5d73acb597a7a4ff70dd03db946826ef9cc210d2ab5d2493a8531466",
+   "i": 7852
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——firework_rocket",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——firework_rocket",
+   "sha256": "e4bae1640fe9859584c150b9531360bddc772320781b7916fcaea8b5418ce24c",
+   "i": 7853
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "命令方块矿车",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "命令方块矿车",
+   "sha256": "d6883def27892f120c54a6344d8db3efc5ccd9383364992c1580cabe12e63a24",
+   "i": 7854
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.2——commandblock_minecart",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12.2——commandblock_minecart",
+   "sha256": "4bae537421eefe33132a9af2f500c410add6bb87010ec16b717091cc1aeb43ec",
+   "i": 7855
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——command_block_minecart",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——command_block_minecart",
+   "sha256": "d3684c4229f46bb2896284b8fdc5c3a2dba3bc00c4086c046066e8fcb31c2586",
+   "i": 7856
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "雪傀儡",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "雪傀儡",
+   "sha256": "4c93c4a9799a9b0bae98498044fb0e116447b97543a50c5f378f9d3338b9d43a",
+   "i": 7857
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.2——snowman",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12.2——snowman",
+   "sha256": "2d214a7aeb41a3a54f8c2fc5b9ed979a8c796c31b3925b5046f2360be75c2862",
+   "i": 7858
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——snow_golem",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——snow_golem",
+   "sha256": "afd96851a36ba78f19de06a8d9a4d4b3496ac18c3548b5bd22f066bb1efb8349",
+   "i": 7859
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "铁傀儡",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "铁傀儡",
+   "sha256": "1e4a58bce31024f55fbf79e03ecef9228df922763a61b0a9c03c1c3d7690b647",
+   "i": 7860
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.2——villager_golem",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12.2——villager_golem",
+   "sha256": "604cd2cdaab1b429c8fff113fe9657315bea8f875be02a67dc7e3ace6ced8025",
+   "i": 7861
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——iron_golem",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——iron_golem",
+   "sha256": "cb3d9173800e4c8c98a7142b26a8c870b026a2be220f5e3470e27d3401e3ed53",
+   "i": 7862
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "唤魔者尖牙",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "唤魔者尖牙",
+   "sha256": "814257ce646aea17327a5c256477ce972e2b2f8a168d4ccd07377aaf84f9fd64",
+   "i": 7863
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.2——evocation_fangs",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12.2——evocation_fangs",
+   "sha256": "661014f6022ac9995ced4f68b483e162490b822d619c92bd6e9957f9bdcbcf66",
+   "i": 7864
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——evoker_fangs",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——evoker_fangs",
+   "sha256": "e823fdbe51bb2cad40448b4fb1a34e96c8f5d1829facd25322ee9834956b98cb",
+   "i": 7865
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "唤魔者",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "唤魔者",
+   "sha256": "736f9834f8c7f246c660a2955daa8bd20350596d161df1db1ad2f196dda32830",
+   "i": 7866
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.2——evocation_illager",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12.2——evocation_illager",
+   "sha256": "0e059dfc60b32fec5babc597690969695a78da47c775b46f1fc09468eb302183",
+   "i": 7867
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——evoker",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——evoker",
+   "sha256": "f88897ea63881731910b189fc6c8be007206f8092b0ba2ffe605e977076f4134",
+   "i": 7868
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "卫道士",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "卫道士",
+   "sha256": "2ad425cc403bd4cf5c4d75d40ac96536653367db7ad6517f35068937a04a6d6e",
+   "i": 7869
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.2——vindication_illager",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12.2——vindication_illager",
+   "sha256": "b838992af5a38e3728f020cd762a0f900fa30b5ba45a41206c34d733a5689b1b",
+   "i": 7870
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——vindicator",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——vindicator",
+   "sha256": "dd4797f026a7580a80061c33122130a245006771f3b3ed027e2bc76d32515f3c",
+   "i": 7871
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "幻术师",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "幻术师",
+   "sha256": "863d15a6b8e74bc9b955cfa97dc1af29cb09647477034b9f43640ee337f27aa1",
+   "i": 7872
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.2——illusion_illager",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12.2——illusion_illager",
+   "sha256": "c8597256ccdcba6c6e1a8843b5588e73a2c440bc2ada74ecae6c84c5d35bec89",
+   "i": 7873
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——illusioner",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——illusioner",
+   "sha256": "8c2861b2fa509c12390364296ae4c6b8a73e46a44c0ae028da8700f2e51be607",
+   "i": 7874
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "除了方块、实体、物品的命名空间ID被改变，就连生物群系（这是几乎都被重命名了）、粒子、声音、画、名字（这个并不是指id，而是它们显示出来的名字）很多也被改变，具体情况可以自己上Minecraft Wiki查阅。其中，画、粒子的id也有了命名空间（minecraft:）。而方块状态这个我们还不怎么了解的东西也做了大量的改变。",
+     "p": {}
+    }
+   ],
+   "text": "除了方块、实体、物品的命名空间ID被改变，就连生物群系（这是几乎都被重命名了）、粒子、声音、画、名字（这个并不是指id，而是它们显示出来的名字）很多也被改变，具体情况可以自己上Minecraft Wiki查阅。其中，画、粒子的id也有了命名空间（minecraft:）。而方块状态这个我们还不怎么了解的东西也做了大量的改变。",
+   "sha256": "eeab9068ec45cfc95c7568cf14cd4a353f69d0fccf5460ea5c94947781cda7e7",
+   "i": 7875
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "记分板准则也有了命名空间，比如『击杀生物』这个准则：",
+     "p": {}
+    }
+   ],
+   "text": "记分板准则也有了命名空间，比如『击杀生物』这个准则：",
+   "sha256": "ac57431396094d0ec54cfd08ac8d35f0f341cf091d70c68e5f8e64d90dc65d36",
+   "i": 7876
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12——stat.killEntity.<实体ID>",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.12——stat.killEntity.<实体ID>",
+   "sha256": "e52bf566247ef9313579b39d4222b35db143e54a81e6ee15177c3a23b6b63306",
+   "i": 7877
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——minecraft.killed:namespace.<实体ID>",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1.13——minecraft.killed:namespace.<实体ID>",
+   "sha256": "50e3c1449621f6f897872e2a71bcf22ca6bb7ff248509c90a05e6f2a1db1897b",
+   "i": 7878
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "并且在1.13更新后，这个准则和另外一个准则（被实体击杀）所选择的实体其范围也不止能用刷怪蛋生成的实体，而是所有实体都可以用。",
+     "p": {}
+    }
+   ],
+   "text": "并且在1.13更新后，这个准则和另外一个准则（被实体击杀）所选择的实体其范围也不止能用刷怪蛋生成的实体，而是所有实体都可以用。",
+   "sha256": "c61e49dc3304a36163a98f45a28df2c82ee0bdfe9956a1b839161d18c8917673",
+   "i": 7879
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NBT也有很大的改变，比如『物品通用标签』中的Damage标签，在1.12.2中的作用是存储物品的数据值，而到了1.13就被调到了tag标签下，成为了『物品的损坏值』（具体见第一百零三章）。",
+     "p": {}
+    }
+   ],
+   "text": "NBT也有很大的改变，比如『物品通用标签』中的Damage标签，在1.12.2中的作用是存储物品的数据值，而到了1.13就被调到了tag标签下，成为了『物品的损坏值』（具体见第一百零三章）。",
+   "sha256": "7f78566c2d8e5cf8d155a3245412e17c86a72cfe4939e0b29a1d3e6cff5cb011",
+   "i": 7880
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "命令的改变，大部分就是类似于/give的改变——数据值、方块状态和NBT与命名空间id参数的合并。受到这种影响的指令有：",
+     "p": {}
+    }
+   ],
+   "text": "命令的改变，大部分就是类似于/give的改变——数据值、方块状态和NBT与命名空间id参数的合并。受到这种影响的指令有：",
+   "sha256": "303d43efe04ca52370375235c00593fc9e39b08fae3ade55802663d4e157cc97",
+   "i": 7881
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "/clear",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "/clear",
+   "sha256": "ddf7839cb8fca09abdd9e9b0b2f498885f382f5bf9fec65d95db793bd0f11832",
+   "i": 7882
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "/clone",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "/clone",
+   "sha256": "cbc0bc6624e0e05f73447e573f6594d3c7f2f135f66f02f4dfb0852fa2470905",
+   "i": 7883
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "/fill",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "/fill",
+   "sha256": "d6bfc87153c2923df2f0d097a91cc4cf44c859f9f23e76fef047a6d154e002a3",
+   "i": 7884
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "/give",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "/give",
+   "sha256": "2251ba0c21416cde864c32bdf9d8cff8ab2a1eb5d656d3bb65ef6b51b787e36a",
+   "i": 7885
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "/replaceitem",
+   "sha256": "8fc1fb2d781ef8e7a928c99506574eef93eaf11673099b3fb09ca1b7c5fad343",
+   "i": 7886
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "/setblock",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "/setblock",
+   "sha256": "37bb22a9939d9cedff1e1cee832d3513d02e760fffd0b10a405f0ef96e5273cc",
+   "i": 7887
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "还有一些其他的小改变，本书就不列出了，想看的话就到Minecraft Wiki上自己去查『扁平化』。",
+     "p": {}
+    }
+   ],
+   "text": "还有一些其他的小改变，本书就不列出了，想看的话就到Minecraft Wiki上自己去查『扁平化』。",
+   "sha256": "ffe909e792d6f3b6441be975b4c329b9ea0abcea73a88f997a72924238fea722",
+   "i": 7888
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 7889
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 7890
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 7891
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 7892
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 7893
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 7894
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "夕阳的光辉消失在远方的地平线上，银白色的方月自东方缓缓升起。一位钻套玩家疾跑在桦木林中，他手上的火把如同暗淡的星光点亮了前进的道路。朝前望去，在无数灰白方柱的掩映下，一座由橡木制成的房子缓缓出现，房子上的火把似乎有着无穷的魔力，吸引着这名玩家不断靠近。",
+     "p": {}
+    }
+   ],
+   "text": "夕阳的光辉消失在远方的地平线上，银白色的方月自东方缓缓升起。一位钻套玩家疾跑在桦木林中，他手上的火把如同暗淡的星光点亮了前进的道路。朝前望去，在无数灰白方柱的掩映下，一座由橡木制成的房子缓缓出现，房子上的火把似乎有着无穷的魔力，吸引着这名玩家不断靠近。",
+   "sha256": "2b2bcf552e917f35c9cd02012b7767de5bbadfc203b1100a8b7a5d9899832db9",
+   "i": 7895
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "咔嚓一声，房子的橡木门被打开。房子内也有一位戴着钻套的玩家。听到房门打开的声音，他的目光从工作台上移开，看向了那位从遥远的主城跑过来的玩家——张三。",
+     "p": {}
+    }
+   ],
+   "text": "咔嚓一声，房子的橡木门被打开。房子内也有一位戴着钻套的玩家。听到房门打开的声音，他的目光从工作台上移开，看向了那位从遥远的主城跑过来的玩家——张三。",
+   "sha256": "4681113c411a47255dd452c1d9095b0c545eee7ee628e452a53704d8c322ffd4",
+   "i": 7896
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那位叫做张三的玩家率先发了一条消息：『",
+     "p": {}
+    },
+    {
+     "t": "嘿李四，你知道吗，我搞到了腐竹箱子里的一把2147483647级锋利的下界合金剑！我们要发财了！",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "那位叫做张三的玩家率先发了一条消息：『嘿李四，你知道吗，我搞到了腐竹箱子里的一把2147483647级锋利的下界合金剑！我们要发财了！』",
+   "sha256": "2f59b0893696eaf32542a13a36ac25f3ef5459dc9657b920945259c7ac23b33b",
+   "i": 7897
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "？？？",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『？？？』",
+   "sha256": "c0cb8b1b63170783ff3b00882d14e93176c90d83145f1366029abaab97261c52",
+   "i": 7898
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "你怎么偷的？那里可是有出生点保护的啊！",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『你怎么偷的？那里可是有出生点保护的啊！』",
+   "sha256": "ffd09f24868f0d194412021d98b55340b80c6327d2e70ea7631c0451ab26d820",
+   "i": 7899
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "额这个其实并不是我偷的，是一个管理员偷的。告诉你，这把剑可是我花了100多大洋弄到的",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『额这个其实并不是我偷的，是一个管理员偷的。告诉你，这把剑可是我花了100多大洋弄到的』",
+   "sha256": "5dfa4c31365f3189fb1c2470731aa61cc44eba752258353d1ba3c3c0d6ee4c4f",
+   "i": 7900
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "那还等什么啊？赶紧趁服务器没其他人去刷啊！",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『那还等什么啊？赶紧趁服务器没其他人去刷啊！』",
+   "sha256": "8edf6308028b920c5a2da2f72c86e60ce65f66293330d5bc5621b605142795ed",
+   "i": 7901
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "你确定这把剑附魔的是2147483647级的锋利？",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』一位叫做王五的玩家插嘴到。",
+     "p": {}
+    }
+   ],
+   "text": "『你确定这把剑附魔的是2147483647级的锋利？』一位叫做王五的玩家插嘴到。",
+   "sha256": "dedc26925fa84138ac3ff034078f2a7c65f5f138f971c4b4d230a0ec4d83b78c",
+   "i": 7902
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "千真万确",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』张三把那把剑丢了出来。",
+     "p": {}
+    }
+   ],
+   "text": "『千真万确』张三把那把剑丢了出来。",
+   "sha256": "dd73449accf4ba165429c4295624bac835eff703391c63164eda181d038385dc",
+   "i": 7903
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "？",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『？』",
+   "sha256": "cba37e6936737ed60523e28b61d90cd3e783836868b511ec1c7ca47bfe7f70ed",
+   "i": 7904
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "老子昨天听别人说这附魔等级最高也才32767啊？这腐竹是开挂了吗？！",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『老子昨天听别人说这附魔等级最高也才32767啊？这腐竹是开挂了吗？！』",
+   "sha256": "a4d1b1c00f9ecf2792b46ec2277a97aec518033d48ab8d2295ccba2833b0c86e",
+   "i": 7905
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "好像腐竹开挂挺正常的啊",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』李四打趣到。",
+     "p": {}
+    }
+   ],
+   "text": "『好像腐竹开挂挺正常的啊』李四打趣到。",
+   "sha256": "6ed2d80725cc8f309b21ddc8560da5d4f5e914c6c6f34647348987be3f7e798d",
+   "i": 7906
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "等等",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』张三不知为何突然紧张了起来，捡起了那把剑。",
+     "p": {}
+    }
+   ],
+   "text": "『等等』张三不知为何突然紧张了起来，捡起了那把剑。",
+   "sha256": "9b8327baf411f6d78fa46ba531bd5d25396f0bab0b0b57d97c67a11f472489b2",
+   "i": 7907
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "刚刚腐竹在群里说要上线！赶紧撤！",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『刚刚腐竹在群里说要上线！赶紧撤！』",
+   "sha256": "4ced63d7b8e4d4b60ebf25d14e47f83147d883720bf87d9eafed628218dac1d1",
+   "i": 7908
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→张三退出了游戏",
+     "p": {}
+    }
+   ],
+   "text": "→张三退出了游戏",
+   "sha256": "e15a0d8c9cec16deb2f683aa30c5999e94d76a823a32ffecd429aa4722fb161f",
+   "i": 7909
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→王五退出了游戏",
+     "p": {}
+    }
+   ],
+   "text": "→王五退出了游戏",
+   "sha256": "76e666023ccfc484413cb44287d147e0bc2a18db9c8882ced6219d9f11cd8743",
+   "i": 7910
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→李四推出了游戏",
+     "p": {}
+    }
+   ],
+   "text": "→李四推出了游戏",
+   "sha256": "3dd97d62d82cf24ea97dcbc610562e71d0beb5fc1f4140e4c93efa4fe3d15c70",
+   "i": 7911
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 7912
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→[超级管理]一只可爱的猫加入了游戏",
+     "p": {}
+    }
+   ],
+   "text": "→[超级管理]一只可爱的猫加入了游戏",
+   "sha256": "4d462493bb1f34b5252d11cc8e707cb11fa8a93d005141aa1d01c21ae19a0466",
+   "i": 7913
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→[服主]某某不是女装大佬加入了游戏",
+     "p": {}
+    }
+   ],
+   "text": "→[服主]某某不是女装大佬加入了游戏",
+   "sha256": "6d00d5fe984a87aca252936693a6163082700c2363f01bf127747bd39fca1967",
+   "i": 7914
+  }
+ ],
+ "text_sha256": "ff380ea8c67f75aee0156e4817f12a7effce3a8abfe1c10c08e913fb641445c5",
+ "chars": 3413
+}

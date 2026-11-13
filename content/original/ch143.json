@@ -1,0 +1,635 @@
+{
+ "id": "ch143",
+ "kind": "chapter",
+ "number": 143,
+ "title": "第一百四十三章/entitydata-修改实体的NBT",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   11828,
+   11865
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第一百四十三章/entitydata-修改实体的NBT"
+    },
+    {
+     "t": "第一百四十三章/entitydata-修改实体的NBT",
+     "p": {}
+    }
+   ],
+   "text": "第一百四十三章/entitydata-修改实体的NBT",
+   "sha256": "e07cd0784b2c14ccac63c3bd6fccefce58ddc004a0f96be240a432789f937848",
+   "i": 11828
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们目前已经了解了许多NBT标签，也知道了使用/summon生成一个自定义实体的正确方式。但我们还不知道一点：",
+     "p": {}
+    }
+   ],
+   "text": "我们目前已经了解了许多NBT标签，也知道了使用/summon生成一个自定义实体的正确方式。但我们还不知道一点：",
+   "sha256": "e2a474d6745b26e616ca49003469299f36fc9557f1c447fb43fb723c5ce5cc31",
+   "i": 11829
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "该如何修改一个现成实体的NBT呢？比如这只粉红色的羊？",
+     "p": {}
+    }
+   ],
+   "text": "该如何修改一个现成实体的NBT呢？比如这只粉红色的羊？",
+   "sha256": "33ff4137c898828a6ceb84b4a9337e195cacd59e2370f761506e2946582e7f82",
+   "i": 11830
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在基岩版，你可以使用blocktopograph等存档修改器。而在JAVA版，你除了使用修改器，还可以使用专门的指令：",
+     "p": {}
+    }
+   ],
+   "text": "在基岩版，你可以使用blocktopograph等存档修改器。而在JAVA版，你除了使用修改器，还可以使用专门的指令：",
+   "sha256": "7dd2c47d9eea7456f2686925975e0e8d8693b0bb51799f2c3b14225724d81c29",
+   "i": 11831
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/data",
+     "p": {}
+    }
+   ],
+   "text": "/data",
+   "sha256": "bd47413b5c03dfc6e4b5b8143fe205eae10ecaf0c28b426be98d74cff48c7453",
+   "i": 11832
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但/data这个指令是JAVA 1.13扁平化时扁平出来的。在JAVA1.13-1.8版本，还有一个更简单的指令：",
+     "p": {}
+    }
+   ],
+   "text": "但/data这个指令是JAVA 1.13扁平化时扁平出来的。在JAVA1.13-1.8版本，还有一个更简单的指令：",
+   "sha256": "e538607acbde2e6392dcbf92690b82b2951d7f30f7c1a01c7cb00bfbdabee49d",
+   "i": 11833
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/entitydata",
+     "p": {}
+    }
+   ],
+   "text": "/entitydata",
+   "sha256": "0398f88a879e26ea750b99eb18563f66b995249407061e9f8781e88501181ab3",
+   "i": 11834
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "相信大家看了这么多章之后，应该都知道entity是实体的意思吧？而data的意思相信弄过计算机的人都知道，是“数据”的意思。",
+     "p": {}
+    }
+   ],
+   "text": "相信大家看了这么多章之后，应该都知道entity是实体的意思吧？而data的意思相信弄过计算机的人都知道，是“数据”的意思。",
+   "sha256": "85c4a8ac65d5c4f41a8c249cfb63d4192923a775b4bbf6fc0d7bf1d82b38e29f",
+   "i": 11835
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这下子我们就知道entitydata的意思了：实体数据。",
+     "p": {}
+    }
+   ],
+   "text": "这下子我们就知道entitydata的意思了：实体数据。",
+   "sha256": "d932753af6f04c3cf05c1efc9bfd21562724c2d70114fb005541d6a3d8f33d32",
+   "i": 11836
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "意思知道了，那么我们该如何使用它呢？",
+     "p": {}
+    }
+   ],
+   "text": "意思知道了，那么我们该如何使用它呢？",
+   "sha256": "d07f3ebb9cb21b4b743d05824f10359e97df2eadd270dff3bc24717daf2a329a",
+   "i": 11837
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "正如上文所说，很简单。这条指令，只有两个参数：",
+     "p": {}
+    }
+   ],
+   "text": "正如上文所说，很简单。这条指令，只有两个参数：",
+   "sha256": "30be52878201607dec14848be9d395a1775e1be75e1fe1584afe1fbec5ad1cce",
+   "i": 11838
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/entitydata <实体：目标选择器><要添加或覆盖的数据标签>",
+     "p": {}
+    }
+   ],
+   "text": "/entitydata <实体：目标选择器><要添加或覆盖的数据标签>",
+   "sha256": "2f40aa54f2a31af490f2f51433b925a05c0cb514dd3361806e373ecb990e634c",
+   "i": 11839
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "目标选择器就不用说了，我们只需要看看“要添加或覆盖的数据标签”是什么东西就行了。",
+     "p": {}
+    }
+   ],
+   "text": "目标选择器就不用说了，我们只需要看看“要添加或覆盖的数据标签”是什么东西就行了。",
+   "sha256": "c2099972b45ab874c31c1bf93907d06c353720075a11b6bdd1821fcad8ef455e",
+   "i": 11840
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个最简单的例子：",
+     "p": {}
+    }
+   ],
+   "text": "举个最简单的例子：",
+   "sha256": "e2c3e1f1ac429ff80774fb00274198746543b72c0c59da290ce10a97a653dfba",
+   "i": 11841
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/entitydata @e[type=!player]{Health:0}",
+     "p": {}
+    }
+   ],
+   "text": "/entitydata @e[type=!player]{Health:0}",
+   "sha256": "accc7bccaa6c075a6018947a333c1131b5913560ba771dde9241562d6dd0961a",
+   "i": 11842
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "执行该指令，游戏将会给除玩家以外的其他实体添加一个{Health:0}的标签，如果添加的对象已经有了这个标签，将会覆盖这个标签（同时聊天框会出现一大串的信息——实体数据已更新：{XXXXXXXXX:XXXX}.....。这条信息可以用来查看某个实体的NBT标签，但当游戏规则sendCommandFeedback为false时并不会显示。）。比如你在执行指令前放了一个矿车，执行指令后矿车什么事情都不会发生，只不过NBT多了一个没用的{Health:0}而已。但如果你旁边有只羊，执行指令后这支羊将会死亡，因为它的Health被覆盖为0，因此游戏判定它死亡了。",
+     "p": {}
+    }
+   ],
+   "text": "执行该指令，游戏将会给除玩家以外的其他实体添加一个{Health:0}的标签，如果添加的对象已经有了这个标签，将会覆盖这个标签（同时聊天框会出现一大串的信息——实体数据已更新：{XXXXXXXXX:XXXX}.....。这条信息可以用来查看某个实体的NBT标签，但当游戏规则sendCommandFeedback为false时并不会显示。）。比如你在执行指令前放了一个矿车，执行指令后矿车什么事情都不会发生，只不过NBT多了一个没用的{Health:0}而已。但如果你旁边有只羊，执行指令后这支羊将会死亡，因为它的Health被覆盖为0，因此游戏判定它死亡了。",
+   "sha256": "a7ec3603ab9509bb58360cd262fbd289d90005f147e4a968a6e33e084a59ea09",
+   "i": 11843
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令的效果相当于/kill @e[type=!player]。但与/kill不同的是，只有该指令选中的生物才会死亡，其他被选中的实体则不会受到影响，因为只有生物才有Health值且会识别它。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令的效果相当于/kill @e[type=!player]。但与/kill不同的是，只有该指令选中的生物才会死亡，其他被选中的实体则不会受到影响，因为只有生物才有Health值且会识别它。",
+   "sha256": "81891c9ed24942d917af671b64849aa65434ff6e1b31836901e2b509baca3796",
+   "i": 11844
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就说明了什么？/kill并不能精确选中生物并杀死，但/entitydata却可以。",
+     "p": {}
+    }
+   ],
+   "text": "这就说明了什么？/kill并不能精确选中生物并杀死，但/entitydata却可以。",
+   "sha256": "c4bae6165908ed19e9d215b92ec05fa21987704cb98699ef3a4ab2bcb13ffb42",
+   "i": 11845
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "是不是很简单？",
+     "p": {}
+    }
+   ],
+   "text": "是不是很简单？",
+   "sha256": "b0cf23217ff273f8889d6fdf959a1b6b9dfddb59ea3d23695df240239a53f6e3",
+   "i": 11846
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但问题就来了。",
+     "p": {}
+    }
+   ],
+   "text": "但问题就来了。",
+   "sha256": "ea4c3357d4275d343bf03d71a45ce6c85d63ba195e362c9bbe8e4a68c839d3e6",
+   "i": 11847
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用刚才的指令后，这个矿车的NBT就变成了：",
+     "p": {}
+    }
+   ],
+   "text": "使用刚才的指令后，这个矿车的NBT就变成了：",
+   "sha256": "c74144e9ac03274cc494add7c687622e5dccbf596705c801811ccdd529f9d012",
+   "i": 11848
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{Motion:[0.0d，-0.0d，0.0d]，UUIDLeast:-8716891284400396587L，Health:0，Invulnerable:0b，Air:300s，OnGround:0b，Dimension:0，PortalCooldown:0，Rotatlon:[0.0f，0.0f]，FallDistance:0.0f，UUidMost:2808881208012130674L，Pos:[-30.5d，4.0625d，-1131.5d]，Fire:-1s}",
+     "p": {}
+    }
+   ],
+   "text": "{Motion:[0.0d，-0.0d，0.0d]，UUIDLeast:-8716891284400396587L，Health:0，Invulnerable:0b，Air:300s，OnGround:0b，Dimension:0，PortalCooldown:0，Rotatlon:[0.0f，0.0f]，FallDistance:0.0f，UUidMost:2808881208012130674L，Pos:[-30.5d，4.0625d，-1131.5d]，Fire:-1s}",
+   "sha256": "0c68e5e8a6aabe2de7d32620c5b78323790e44b859e1cc8735619c2fafa7a5a9",
+   "i": 11849
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "可以发现Health标签被添加到了第一层，生物的Health标签也在第一层。但如果我们需要替换的标签在第二层甚至是第三四层，该怎么办？",
+     "p": {}
+    }
+   ],
+   "text": "可以发现Health标签被添加到了第一层，生物的Health标签也在第一层。但如果我们需要替换的标签在第二层甚至是第三四层，该怎么办？",
+   "sha256": "4bc08dbe9345f9544a4854a4218fe31527708d67147cad4150c5b6bea44e44f4",
+   "i": 11850
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "假设这里有一个id是Genshin_Impact的实体，其NBT是：",
+     "p": {}
+    }
+   ],
+   "text": "假设这里有一个id是Genshin_Impact的实体，其NBT是：",
+   "sha256": "a967febdb2e2c02a43c722a154a0226dff14fc8e265428d2818ec79ad9fabb14",
+   "i": 11851
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{id:“Genshin_Impact“，UUIDMost:2770949638773555276L，UUIDLeast:-9199275516466379440L，Motion:[0.0d，-0.0d，0.0d]，Pos:[72.25d，65.7265d，271.5d]，Physcal_Power:20，Physcal_Power_Max:205，Sex:1，Health:15782，Health_Max:17817，Role_Id:“Barbatos“，Equipment:[{id:“Chicken_Mushroom_Skewer“，value:15}]}",
+     "p": {}
+    }
+   ],
+   "text": "{id:“Genshin_Impact“，UUIDMost:2770949638773555276L，UUIDLeast:-9199275516466379440L，Motion:[0.0d，-0.0d，0.0d]，Pos:[72.25d，65.7265d，271.5d]，Physcal_Power:20，Physcal_Power_Max:205，Sex:1，Health:15782，Health_Max:17817，Role_Id:“Barbatos“，Equipment:[{id:“Chicken_Mushroom_Skewer“，value:15}]}",
+   "sha256": "75528ac11ff467f4724302278ebf72486b2843a5ec68c71f4017893586a590ff",
+   "i": 11852
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们要把Equipment中的id标签的值从Chicken_Mushroom_Skewer改为Adeptus_Temptation，该怎么做？",
+     "p": {}
+    }
+   ],
+   "text": "现在，我们要把Equipment中的id标签的值从Chicken_Mushroom_Skewer改为Adeptus_Temptation，该怎么做？",
+   "sha256": "2acfb2b3a922cc199ca69492164b4194aa8b76b9d92d7462eb5986e37b65e61a",
+   "i": 11853
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "或许有人会这样做：",
+     "p": {}
+    }
+   ],
+   "text": "或许有人会这样做：",
+   "sha256": "6aaf014e364683a81676e2d8ff256b4d3f6d2c808c142995ee8a6346b3f5b1c8",
+   "i": 11854
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/entitydata @e[type=Genshin_Impact]{id:“Adeptus_Temptation“}",
+     "p": {}
+    }
+   ],
+   "text": "/entitydata @e[type=Genshin_Impact]{id:“Adeptus_Temptation“}",
+   "sha256": "934b353d7ab68cc25976e4a337cdb572dd7e8ed730f828b7cab6de5e940361df",
+   "i": 11855
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但其实这是错误的，这只能把该实体从Genshin_Impact变成Adeptus_Temptation。因为你这只写了一层，而真正你要改的id标签在Equipment这个标签中。所以你要：",
+     "p": {}
+    }
+   ],
+   "text": "但其实这是错误的，这只能把该实体从Genshin_Impact变成Adeptus_Temptation。因为你这只写了一层，而真正你要改的id标签在Equipment这个标签中。所以你要：",
+   "sha256": "ee4b54ef9c644540ba3e5049c6b122fbfdd80de2c8bf6daa6e5b196706e48189",
+   "i": 11856
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/entitydata @e[type=Genshin_Impact]{Equipment:[{id:“Adeptus_Temptation“]}}",
+     "p": {}
+    }
+   ],
+   "text": "/entitydata @e[type=Genshin_Impact]{Equipment:[{id:“Adeptus_Temptation“]}}",
+   "sha256": "4fa9b2b4a0cee83bc1621b13d7f0b4558728848fd1f58a447eb0f653198b7195",
+   "i": 11857
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子，游戏才会正确的找到你要修改的id标签，然后将其值改为Adeptus_Temptation。",
+     "p": {}
+    }
+   ],
+   "text": "这样子，游戏才会正确的找到你要修改的id标签，然后将其值改为Adeptus_Temptation。",
+   "sha256": "c1e1562af9f873cf1fd367b3f3abe9c70b40fe6ba639622907b1eddea80cf48b",
+   "i": 11858
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以，“要添加或覆盖的数据标签”就是填你要修改的标签的NBT路径+标签，就像是文件的路径。“要添加或覆盖的数据标签”值的最外层“{}”就相当于根目录，对应目标实体NBT最外面那一层“{}”。",
+     "p": {}
+    }
+   ],
+   "text": "所以，“要添加或覆盖的数据标签”就是填你要修改的标签的NBT路径+标签，就像是文件的路径。“要添加或覆盖的数据标签”值的最外层“{}”就相当于根目录，对应目标实体NBT最外面那一层“{}”。",
+   "sha256": "be6c0883659e5d48237e1024b1ff95d2e583c1b50d11870f66f4b9949e844d2e",
+   "i": 11859
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在懂了吧？",
+     "p": {}
+    }
+   ],
+   "text": "现在懂了吧？",
+   "sha256": "ca735878e87d3d18c454a0145bd036fd77214ad4575a8b55562e849070eb85ab",
+   "i": 11860
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但本章还未结束。或许有人会有这么个疑问：",
+     "p": {}
+    }
+   ],
+   "text": "但本章还未结束。或许有人会有这么个疑问：",
+   "sha256": "ef5fe180fc9b470eae1b13cc01d43b7d69e84099301f0ce3f0f3f1020f60cec0",
+   "i": 11861
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为什么只有“添加和覆盖”而没有“删除”呢？",
+     "p": {}
+    }
+   ],
+   "text": "为什么只有“添加和覆盖”而没有“删除”呢？",
+   "sha256": "142fad6ca9bae97335a0ab8f633162e2bca55ba6c5cba7bd2fe7abd16e807e61",
+   "i": 11862
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案很简单，NBT标签不支持删除，所以你给矿车添加的那一个没有意义的Health标签就永远删不掉了——除非你打掉矿车。",
+     "p": {}
+    }
+   ],
+   "text": "答案很简单，NBT标签不支持删除，所以你给矿车添加的那一个没有意义的Health标签就永远删不掉了——除非你打掉矿车。",
+   "sha256": "125c739829d4c7e0b5120e9ae0458454f2ebba77356f5a5acf779a3936cc9c54",
+   "i": 11863
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用/entitydata来添加或修改数据标签还有一个规则：如果修改的数据标签值类型为字符串，那么这个字符串里面不能空空如也。",
+     "p": {}
+    }
+   ],
+   "text": "使用/entitydata来添加或修改数据标签还有一个规则：如果修改的数据标签值类型为字符串，那么这个字符串里面不能空空如也。",
+   "sha256": "255229aca2cc007f0ff7af221cbe059e32af10fffe89a92176a47eef6a7c6388",
+   "i": 11864
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是/entitydata的全部内容了。",
+     "p": {}
+    }
+   ],
+   "text": "这就是/entitydata的全部内容了。",
+   "sha256": "03bb86944268dc5139cdd09c0217ef6fbc887fa151bd76a24ea4110ee3d1f692",
+   "i": 11865
+  }
+ ],
+ "text_sha256": "abe3cc77a63670c14c2309c3cd6931e504d1def894ac9ee673881a63071d2f00",
+ "chars": 2219
+}

@@ -1,0 +1,1122 @@
+{
+ "id": "ch007",
+ "kind": "chapter",
+ "number": 7,
+ "title": "第七章 指令的格式与指令执行的三要素",
+ "source": {
+  "file": "MineBBS/7第七章.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "第七章 指令的格式与指令执行的三要素"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月4日 14:38 2098字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "（本章的指令并不是原版真实存在的指令，而是作者瞎编的。）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在学习指令之前，你还得了解一下指令格式的语法，不然到时候看不懂格式别怪我。\r\n　　Minecraft 官方的指令格式有六种术语、三种括号（基岩版是两种）。一种是 <>"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(147, 101, 184)]",
+   "arg": "rgb(147, 101, 184)"
+  },
+  {
+   "text": "（安卓客户端会乱码，建议用网页版或IOS客户端，不然接下来你怎么看指令格式啊？）"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "text": "，另一种是 []，还有一种是 ()。"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "注：这是唯独阅文集团旗下应用，如起点读书、QQ 阅读等会出现的问题，在 MineBBS 上阅读本书不会遇到该问题。"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　具体的内容如下：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "纯文本-照着写即可（如 /server info 中的 info 参数）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "<参数描述> - 必填，根据括号内对参数的描述填写（如 /name <玩家>中的“玩家”参数）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "<参数描述|参数描述> - 必填，选择括号内其中一项填写，符号“|”在这里表示“或”的意思（如 /drop <物品ID|方块ID>中的“物品ID或方块ID”参数）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "(第一项|第二项) - 必填，选择括号内其中一项参数填写（如 /learn (math|physics)中的“math或physics”参数）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "[参数描述] - 选填，根据括号内对参数的描述填写（如 /set [坐标]中的“坐标”参数）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "[第一项|第二项] - 选填，选择括号内其中一项填写（如 /find [item|entity]中的“item或entity”参数）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在基岩版中，并没有“(第一项|第二项)”这样的指令格式，而是“<第一项|第二项>”。并且，基岩版的参数描述也有特定的格式：“描述内容:值类型”。如“方块坐标:Int”，在这边Int就是参数填的是整数数值的意思（实际上 Int 这个值类型并不完全是这样的，具体的内容会在以后NBT的教学中讲到）\r\n　　需要注意：本书中文指令格式较为混乱，且并没有完全按照 Minecraft 本身的指令格式，因此建议真的要查指令格式还是到 Minecraft Wiki。至于为什么不完全按照 Minecraft 本身的指令格式，因为刚开始写本书的时候没怎么注意:hua_嘿嘿:。\r\n　　目前我已经在改善本书的指令格式，现在的情况已经好很多了。\r\n　　本书采用的指令格式大体是这样的：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "纯文本-同官方"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "<参数描述> - 同官方，但部分旧章节会采用一些奇奇怪怪的括号，如“《》”和“〈〉”。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "(第一项|第二项) - 大部分章节还是采用类似基岩版的尖括号包裹。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "<参数描述|参数描述> - 同官方"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "[参数描述] - 同官方"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "[第一项|第二项] - 同官方"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "[参数描述|参数描述] - 选填，根据括号内其中一项对参数的描述填写。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "[<参数描述|参数描述>] - 同『[参数描述|参数描述]』"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "[<第一项|第二项>] - 同『[第一项|第二项]』"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "参数描述- Java 版和基岩版混用"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　除了指令格式的语法外，你还得了解一下指令执行时的三要素："
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "执行位置、执行者、参数"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "。"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "执行位置"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——简单来说就是指令执行的位置，你可以通过一个问句来理解它：这条指令在哪里运行？"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "执行者"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——就是执行指令的东西，你也可以通过一个问句来理解它：执行这条指令的人是谁？"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "参数"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——就是你给指令提供的参数，你还是可以通过一个问句来理解它：执行这条指令的人要对什么东西干什么事情？"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　（注：指令本质上并无对这三个东西有三要素之称，这里只是为了方便大家理解给它们套了个头衔）\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　这三要素有什么用呢？"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　如果你用过 MCreator 这个软件来创建指令，你会发现创建指令后 MCreator 要求你写一个指令运行时的流程（也就是游戏解析并运行指令的过程），同时游戏将给这个流程提供以下信息：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "Entity - 执行指令的实体（对应“执行者”）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "xyz - 执行指令的 X、Y、Z 坐标（对应“执行位置”）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "World - 执行指令的维度（还是对应“执行位置”）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "Cmdparams - 提供的参数（对应“参数”）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　也就是说，一条指令执行的时候，肯定会被提供以上信息。\r\n　　其中『参数』我们得稍微讲一下。\r\n　　我们在序言中讲解参数时是通过举例的方式，并没有给其下一个明确的定义，所以其实我们还是不知道参数究竟是什么。\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　所以参数究竟是什么呢？"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "参数（Parameter）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，又称"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "元素（Elements）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，是指一条指令中除指令开头的单词和前缀外，提供的其他信息。\r\n　　比如在指令 "
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/tp @s ~ ~ ~ ~20 0 true"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaDongFangDaKai - Regular]",
+   "arg": "AlimamaDongFangDaKai - Regular"
+  },
+  {
+   "text": " "
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "中，前缀『"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "』和指令单词 "
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "tp"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "（有些指令教程也叫做指令头，反正怎么叫都可以，没有一个固定称谓）之外的『"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "@s"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "』目标选择器，相对坐标『"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "~ ~ ~"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "』，旋转角度『"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "~20 0"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "』和安全检查模式『"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "true"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "』均为参数。\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　参数按照其作用，可以笼统地分为六类："
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "子命令"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——有些指令，比如 scoreboard 会有很多的作用，此时就需要子命令来将不同的作用区分开来。（为什么不叫子指令呢？）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "位置（坐标）"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——指令执行的地点，也就是上面的三要素之一，一般是一个坐标"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "目标"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——指令所操作的对象。如果对象是实体，一般用的是 UUID、玩家名或目标选择器；如果对象是方块，一般用的是坐标；如果对象是其他的一些东西，一般就会用一些特殊的 ID。\r\n （注：本书中，默认将 UUID、玩家名和目标选择器合并起来。所以后面如果你看到一个参数可以填写目标选择器，那就大概率也能填写玩家名和 UUID）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "值"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——这东西无法很好的定义，因为在不同的指令中，值类型的参数的作用不一致，但大多数情况下的作用都是具体化对目标的操作。比如在『将玩家传送至一个地点』的指令中，这个地点的坐标就是一个值类型的参数。当然你其实并不需要现在就将它理解得十分透彻，后面学习的过程中你慢慢就会懂了。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "模式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——对目标进行操作时，所采取的模式。比如传送玩家的时候，你可以选择是默认模式，还是开启安全传送模式。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "NBT、JSON"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——一般位于指令的末尾，对目标进行更具体的选择或进行一些更高级的操作。 "
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　一条指令大多数情况下可以填写多个参数。参数与指令开头的单词还有其他参数之间在大多数情况下要有一个空格予以区分。例外情况是基岩版的相对坐标和目标选择器，参数内一般不会包含空格。\r\n　　所以空格在指令中十分重要，千万要记住了！\r\n　　这就是本章的全部内容。接下来我们将会步入正式的指令学习阶段。"
+  }
+ ],
+ "raw_sha256": "c8d888b42948d34410ed0f25a5c9e5bb57238f0e3a67bc7c89b55c4e2e796673",
+ "text_sha256": "cf60504752ca127cb1ea875f463169af2b27b099a380c836a3b4b3b3d5e3975b",
+ "chars": 2707
+}

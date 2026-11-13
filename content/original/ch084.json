@@ -1,0 +1,705 @@
+{
+ "id": "ch084",
+ "kind": "chapter",
+ "number": 84,
+ "title": "第八十四章 bossbar-自定义BOSS栏 下",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   6132,
+   6162
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第八十四章_bossbar-自定义BOSS栏_下"
+    },
+    {
+     "t": "第八十四章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " bossbar-自定义BOSS栏 下",
+     "p": {}
+    }
+   ],
+   "text": "第八十四章 bossbar-自定义BOSS栏 下",
+   "sha256": "85e8719b46f850953dee347c3bf9cb6b2a1ccd081af7993b6b0e7edd1d96217f",
+   "i": 6132
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此章节已于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2022年7月22日重写）",
+     "p": {}
+    }
+   ],
+   "text": "（此章节已于2022年7月22日重写）",
+   "sha256": "368133df987a86d15bc5a48f08a13db74a55835b1c6f8386b98f8b176aa4a588",
+   "i": 6133
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在上一个章节，我们创建了一个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "ID为minecraft:server_owner，叫做『腐竹』的BOSS栏。这个BOSS栏是粉色的，分成20段，最大值为20。虽然看起来很厉害，但有一个问题——这个BOSS栏没有实际用处。",
+     "p": {}
+    }
+   ],
+   "text": "在上一个章节，我们创建了一个ID为minecraft:server_owner，叫做『腐竹』的BOSS栏。这个BOSS栏是粉色的，分成20段，最大值为20。虽然看起来很厉害，但有一个问题——这个BOSS栏没有实际用处。",
+   "sha256": "8b063276792776e109417dbe39c02134bfb0a9a19d244c42c0458e9788868187",
+   "i": 6134
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以在这一个章节，我们要让这个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏发挥出实际的用处，使得服主的血量能够实时反映到这个BOSS栏上。",
+     "p": {}
+    }
+   ],
+   "text": "所以在这一个章节，我们要让这个BOSS栏发挥出实际的用处，使得服主的血量能够实时反映到这个BOSS栏上。",
+   "sha256": "752f768d40ae0d6578b7d87923f60ffccf12111a2963d6c9f8c9e471c8f3a08d",
+   "i": 6135
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "既然要能够实时反映，我们就要解决两个问题：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "既然要能够实时反映，我们就要解决两个问题：",
+   "sha256": "f8031af203095c65ae77de04acdf5441641f42dc9a6ec50eeab561d9ff3beee8",
+   "i": 6136
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①如何实时获取到服主的血量",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "①如何实时获取到服主的血量",
+   "sha256": "392708edebd954e1699e7796fb4383e0439fbdbd009d02e1e147a5efdb1d8621",
+   "i": 6137
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②如何将服主的血量存储到",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏的值中",
+     "p": {}
+    }
+   ],
+   "text": "②如何将服主的血量存储到BOSS栏的值中",
+   "sha256": "8a92a0f60f60847736b9b2b6a1b189bdba2bbe848ae1006f372ca809eb26f3da",
+   "i": 6138
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先来看第一个问题，这个问题其实很好解决，我们有两种简单的办法：①使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "NBT标签，直接获取 ",
+     "p": {}
+    },
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "创建一个health准则的计分项，然后获取服主在这个计分项上的值",
+     "p": {}
+    }
+   ],
+   "text": "首先来看第一个问题，这个问题其实很好解决，我们有两种简单的办法：①使用NBT标签，直接获取 ②创建一个health准则的计分项，然后获取服主在这个计分项上的值",
+   "sha256": "bd0b86836a113923a2f575cf0e093efb8f697d03d3ea651ebb1e51a1f1b009ee",
+   "i": 6139
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一个方法我们暂且没有学过，但第二个你总该会吧？让我们来试一试：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "第一个方法我们暂且没有学过，但第二个你总该会吧？让我们来试一试：",
+   "sha256": "5e1bc5e7f51e52a7ea4988daafea202994a31492ec2ee606551c9c9755770167",
+   "i": 6140
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives add health health",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives add health health",
+   "sha256": "a6ddf0ba7cb25b0a65e07e54fb4ac498a5f5a5dc2efd853a37605a7ec3514878",
+   "i": 6141
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会创建一个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "health准则的叫做health的计分项，然后你就不用管了，游戏会自动把每个玩家的血量存储到这个计分项上。让我们来看一看游戏弄得如何：",
+     "p": {}
+    }
+   ],
+   "text": "这将会创建一个health准则的叫做health的计分项，然后你就不用管了，游戏会自动把每个玩家的血量存储到这个计分项上。让我们来看一看游戏弄得如何：",
+   "sha256": "5bb6c014df07e160530f98e958528f78ff9eaeec15192c503b64996f3fe20121",
+   "i": 6142
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives setdisplay sidebar health",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives setdisplay sidebar health",
+   "sha256": "0232e01cd20dfedb6986c93d9f8b26d4053203edffd5a88e5d2ed15d6cb1d014",
+   "i": 6143
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会在右侧边栏显示出",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "health计分项，然后你会发现——怎么空空如也？",
+     "p": {}
+    }
+   ],
+   "text": "这将会在右侧边栏显示出health计分项，然后你会发现——怎么空空如也？",
+   "sha256": "1740f45b10f13bf5fc7ab34b95c79c9f20b16b9d02be6ebb45c2cf940d2f8e9e",
+   "i": 6144
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其实游戏仅仅会在玩家血量变化的时候记录血量的值到计分板上，由于此时计分项才刚创建，还没有任何一名玩家的血量发生变化，计分项自然就空空如也。你可以尝试摔一次跤，正常情况下右边就会正确显示出你的血量。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "其实游戏仅仅会在玩家血量变化的时候记录血量的值到计分板上，由于此时计分项才刚创建，还没有任何一名玩家的血量发生变化，计分项自然就空空如也。你可以尝试摔一次跤，正常情况下右边就会正确显示出你的血量。",
+   "sha256": "a49a2c66002fbe48831e917bed2c71d3712bbd629c4a2f34cfc7df921118d789",
+   "i": 6145
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "计分项弄好后，我们就可以通过以下指令获取到服主的血量：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "计分项弄好后，我们就可以通过以下指令获取到服主的血量：",
+   "sha256": "38d17f2c83c112f684ae644287c2bf397490bb57ee94fd45440534ccd17038d6",
+   "i": 6146
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard players get Fuzhu health",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard players get Fuzhu health",
+   "sha256": "21c3df9bb328234f7d023c7db16aca2c60454f79298733eea87a3dcfa127e57d",
+   "i": 6147
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（其中，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Fuzhu代表服主的游戏名称）",
+     "p": {}
+    }
+   ],
+   "text": "（其中，Fuzhu代表服主的游戏名称）",
+   "sha256": "fc84c684b5986e8aaa3dfdb2675889642b87206ce7f58e4e10aed2aac693953e",
+   "i": 6148
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一个问题就这样解决了，但还有第二个问题：如何将服主的血量存储到",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏的值中",
+     "p": {}
+    }
+   ],
+   "text": "第一个问题就这样解决了，但还有第二个问题：如何将服主的血量存储到BOSS栏的值中",
+   "sha256": "9ebb1909ec2e53655649a539dc106171a822c342916aa58e7132ace61845b69c",
+   "i": 6149
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在这边，我们就得使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute存储子命令的bossbar子命令，其格式如下：",
+     "p": {}
+    }
+   ],
+   "text": "在这边，我们就得使用execute存储子命令的bossbar子命令，其格式如下：",
+   "sha256": "1cf6b240cfbb156edac3b1516b86b95547e18dafbf9b319255a2d06bc70df6af",
+   "i": 6150
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... store <返回类型> bossbar <ID> (value|max) ...",
+     "p": {}
+    }
+   ],
+   "text": "... store <返回类型> bossbar <ID> (value|max) ...",
+   "sha256": "89f04a0d006647521dca8df7c90da7a721571a8b55d4506a3756b61ad57eef10",
+   "i": 6151
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ID参数，也就是要存储到的BOSS栏的ID；『(value|max)』参数，也就让你选择要将返回的结果存储到该BOSS栏的值还是最大值中。在这边我们当然是要存储到值（value）中，也就是使用如下指令：",
+     "p": {}
+    }
+   ],
+   "text": "ID参数，也就是要存储到的BOSS栏的ID；『(value|max)』参数，也就让你选择要将返回的结果存储到该BOSS栏的值还是最大值中。在这边我们当然是要存储到值（value）中，也就是使用如下指令：",
+   "sha256": "296ddbd3a6dc5b0e1480b1998674c9da21982f41e0707ddcb6ee567710aa5ce2",
+   "i": 6152
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute store result bossbar minecraft:server_owner value run scoreboard players get Fuzhu health",
+     "p": {}
+    }
+   ],
+   "text": "/execute store result bossbar minecraft:server_owner value run scoreboard players get Fuzhu health",
+   "sha256": "c34b03f7bb712a5841dade7bdefd56002c21cddf71b1e1850abafb7941aec208",
+   "i": 6153
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面的指令将会把『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "scoreboard players get Fuzhu health』返回的结果，也就是服主的血量，存储到ID为『minecraft:server_owner』的BOSS栏的值中，这样子BOSS栏就可以显示出服主当前的血量了！",
+     "p": {}
+    }
+   ],
+   "text": "上面的指令将会把『scoreboard players get Fuzhu health』返回的结果，也就是服主的血量，存储到ID为『minecraft:server_owner』的BOSS栏的值中，这样子BOSS栏就可以显示出服主当前的血量了！",
+   "sha256": "08284c1a2810a39ca83e454bbee5e537bd195d54787f3dd358d69e807c79cd5f",
+   "i": 6154
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们只需要将这条指令放入一个一直重复执行的命令方块中，就可以实现『服主的血量实时反映到这个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏』这样的效果。",
+     "p": {}
+    }
+   ],
+   "text": "我们只需要将这条指令放入一个一直重复执行的命令方块中，就可以实现『服主的血量实时反映到这个BOSS栏』这样的效果。",
+   "sha256": "654c3cf7ca63f55837a8e9d9b3822cf20e98acc32b1f9caa4930abb532fb942f",
+   "i": 6155
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后我留个作业，你感兴趣的话可以尝试实现实现。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "最后我留个作业，你感兴趣的话可以尝试实现实现。",
+   "sha256": "5bf4c4efc592977488e193047877593342fa7d79b84b3d012381bf2ea4346fae",
+   "i": 6156
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作业内容：在本章内容的基础上，利用所学知识，实现下面描述的效果",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作业内容：在本章内容的基础上，利用所学知识，实现下面描述的效果",
+   "sha256": "d9ab11feeb0b24b08ee2ec84969a37e7d3fd04e6441d01ff8b1999681f3b69bb",
+   "i": 6157
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①如果服主不在线，隐藏",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏，在线的情况下再显示出来。",
+     "p": {}
+    }
+   ],
+   "text": "①如果服主不在线，隐藏BOSS栏，在线的情况下再显示出来。",
+   "sha256": "21aa88f7decbdb60f5bb245373a0eb7f758fd6d92dd4e2dc4981bdfe930454f8",
+   "i": 6158
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②服主周围一定范围内的玩家会看到『腐竹",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏』，超出这个范围的玩家则无法看到",
+     "p": {}
+    }
+   ],
+   "text": "②服主周围一定范围内的玩家会看到『腐竹BOSS栏』，超出这个范围的玩家则无法看到",
+   "sha256": "ddf250ffe47175247ace16c4315bf9e24a465d5e11368cb4678fbe3d2638d2ab",
+   "i": 6159
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③在服主自己的血量上限提升的情况下（比如有伤害吸收或生命提升的药水效果），也要相应提升",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏的最大值",
+     "p": {}
+    }
+   ],
+   "text": "③在服主自己的血量上限提升的情况下（比如有伤害吸收或生命提升的药水效果），也要相应提升BOSS栏的最大值",
+   "sha256": "381119a75cd5f76b824ca071db671621d8acf7e8517151e20b5ff759442b8223",
+   "i": 6160
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，第三点要完美实现的话需要一定的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "NBT知识，如果你并不不了解，也可以用计分板做一个勉勉强强的效果出来。",
+     "p": {}
+    }
+   ],
+   "text": "其中，第三点要完美实现的话需要一定的NBT知识，如果你并不不了解，也可以用计分板做一个勉勉强强的效果出来。",
+   "sha256": "330940af30a9eba38384bec89e70190c2b7445dcb36af04045c4bf3fdc482ac9",
+   "i": 6161
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是本章的全部内容。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这就是本章的全部内容。",
+   "sha256": "bd655fa960580257d0b104486bb197969c06aedfc13307be1d23f2f670f5b8cc",
+   "i": 6162
+  }
+ ],
+ "text_sha256": "dc818a3eeede5b3c3235a458e92270f865891ece882adf6ebbf8157b0ba8ad33",
+ "chars": 1491
+}

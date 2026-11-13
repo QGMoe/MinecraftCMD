@@ -1,0 +1,2524 @@
+{
+ "id": "ch093",
+ "kind": "chapter",
+ "number": 93,
+ "title": "第九十三章 逻辑门 上",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   7007,
+   7097
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第九十三章_逻辑门_上"
+    },
+    {
+     "t": "第九十三章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " 逻辑门 上",
+     "p": {}
+    }
+   ],
+   "text": "第九十三章 逻辑门 上",
+   "sha256": "2e1b8c9c3b1eaa65ddb9134a3d78981ea5d2477b5a722e6e378015f5608d354a",
+   "i": 7007
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此章节已于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2022年7月27日重写）",
+     "p": {}
+    }
+   ],
+   "text": "（此章节已于2022年7月27日重写）",
+   "sha256": "32d3cbf85ebe5f1d8c63003c0d0e98c50f17eb0b146d7f5a3136440f5008cbcb",
+   "i": 7008
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们都知道，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute的条件子命令可以是『条件成立即执行』，也可以是『条件不成立才执行』，但是testfor指令就不行了。",
+     "p": {}
+    }
+   ],
+   "text": "我们都知道，execute的条件子命令可以是『条件成立即执行』，也可以是『条件不成立才执行』，但是testfor指令就不行了。",
+   "sha256": "217d5a1b4a8563c10b070841543c269bfe4f9233ed688f6544dd02853c9e0738",
+   "i": 7009
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "假设现在我们要在基岩版实现一个功能：如果以执行地点为中心，半径",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2米内没有任何的钻石掉落物，就在此处生成一个钻石。",
+     "p": {}
+    }
+   ],
+   "text": "假设现在我们要在基岩版实现一个功能：如果以执行地点为中心，半径2米内没有任何的钻石掉落物，就在此处生成一个钻石。",
+   "sha256": "e6b2ecdcf7e361a7cead954641f348b16896890096043f3ee381c5560d534337",
+   "i": 7010
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "至于怎样生成一个钻石，我们不用管（本章不讨论这个）。现在的问题是，怎样使得半径",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2米内没有任何钻石掉落物时才会激活用来生成钻石的命令方块呢？",
+     "p": {}
+    }
+   ],
+   "text": "至于怎样生成一个钻石，我们不用管（本章不讨论这个）。现在的问题是，怎样使得半径2米内没有任何钻石掉落物时才会激活用来生成钻石的命令方块呢？",
+   "sha256": "f3c5ab477d68de1f631ae3c8cc46d517c80ab9d674800fcebe02c80b53cbce1c",
+   "i": 7011
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案很简单：制作一个非门。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "答案很简单：制作一个非门。",
+   "sha256": "72e5ab8e50712ffd5b780c84718b4a662d5412a0003daf3d60ca7a56bd230d5f",
+   "i": 7012
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "非门是什么？在了解非门之前，我们得先了解一个东西：逻辑电路。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "非门是什么？在了解非门之前，我们得先了解一个东西：逻辑电路。",
+   "sha256": "beace96b83b90f05931fe3c80996a0c348367caf01573204cf2009d5f8c8b10e",
+   "i": 7013
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "逻辑电路（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Logic Circuit），简单来说，就是一个你往里面输入一些信号，它就会返回特定信号的电路。比如你往里面输入一个1，它就给你返回0；往里面输入一个0，它就给你返回1。",
+     "p": {}
+    }
+   ],
+   "text": "逻辑电路（Logic Circuit），简单来说，就是一个你往里面输入一些信号，它就会返回特定信号的电路。比如你往里面输入一个1，它就给你返回0；往里面输入一个0，它就给你返回1。",
+   "sha256": "28364e6316fcf978e5093e13a201361a915aa6cb47a4fa3ee9332c325b85aa80",
+   "i": 7014
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最基本的逻辑电路被称之为逻辑门（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Logic Gate）。逻辑门其实并不是指一个门，它只是一个很简单的红石电路而已。逻辑门有很多种，每种逻辑门都拥有不同的作用。这一章，我们就来了解一些基本的逻辑门。",
+     "p": {}
+    }
+   ],
+   "text": "最基本的逻辑电路被称之为逻辑门（Logic Gate）。逻辑门其实并不是指一个门，它只是一个很简单的红石电路而已。逻辑门有很多种，每种逻辑门都拥有不同的作用。这一章，我们就来了解一些基本的逻辑门。",
+   "sha256": "e3d481ec426c0ee07f7f7891dcdf70670485956765d43995645e41953c9e49ec",
+   "i": 7015
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3051810",
+      "cy": "1610995"
+     },
+     "name": "图片 44",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image25.png"
+    },
+    {
+     "t": "非门（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "NOT Gate），又称之为『反相器』，是一种会反转输入信号的逻辑门。它的结构很简单，如下：",
+     "p": {}
+    }
+   ],
+   "text": "非门（NOT Gate），又称之为『反相器』，是一种会反转输入信号的逻辑门。它的结构很简单，如下：",
+   "sha256": "f4611642c3d671d7f5a3165c96330039c50112e44b6f360d61fabe92f1f8a369",
+   "i": 7016
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "✕",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "█",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "♢",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "（插图93-1）",
+     "p": {}
+    }
+   ],
+   "text": "✕█♢（插图93-1）",
+   "sha256": "85d92b065800a774849704318067fb2799cadd8a8ddc914d8ea05db20e262b7a",
+   "i": 7017
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "✕",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "······未激活的拉杆（输入）",
+     "p": {}
+    }
+   ],
+   "text": "✕······未激活的拉杆（输入）",
+   "sha256": "a237cc5ba8847c0b6f42ca5d0298ccb1e4fe9656547194e8fbbfebe91a1667e2",
+   "i": 7018
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "█······任意完整方块",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "█······任意完整方块",
+   "sha256": "fd35a2f4e92d5890f434abaa2cddd54fb90552f6ed2f9189cb26efea201ac6b6",
+   "i": 7019
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "♢",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "······开启的红石火把（输出）",
+     "p": {}
+    }
+   ],
+   "text": "♢······开启的红石火把（输出）",
+   "sha256": "39c66cf9eef20c847ec355cd3729c7effaa0f9c2688b5ecf3da0555f4b92a330",
+   "i": 7020
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 45",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "93- 1",
+         "p": {}
+        }
+       ],
+       "text": "93- 1",
+       "sha256": "d49bd87f1a035e64ea4137665823729dc9b7c25a037c96d433a5d9c63ca5478d"
+      }
+     ]
+    },
+    {
+     "t": "为了方便，我们暂且把拉杆",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "✕",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "这边的输入，叫做R，红石火把",
+     "p": {}
+    },
+    {
+     "t": "♢",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "这边的输出，叫做C。拉杆按下，R=1，否则R=0。红石火把开启，C=1，否则C=0。",
+     "p": {}
+    }
+   ],
+   "text": "为了方便，我们暂且把拉杆✕这边的输入，叫做R，红石火把♢这边的输出，叫做C。拉杆按下，R=1，否则R=0。红石火把开启，C=1，否则C=0。",
+   "sha256": "a43828714b6779e4eb19992f8b38dae1677ce0af3656e7922cd47682f8669ede",
+   "i": 7021
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在的状态是拉杆没有拉下，红石火把开启，也就是：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "现在的状态是拉杆没有拉下，红石火把开启，也就是：",
+   "sha256": "6fa522cc4bef2836f5f8e13fdb863d87b3743a1e7c285e1aa4be29c2d6c5c312",
+   "i": 7022
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "R=0 C=1",
+     "p": {}
+    }
+   ],
+   "text": "R=0 C=1",
+   "sha256": "632c640b26d58c7b5657ccfd25551e41be06b7d2eabd8b8d64c0ed20562a7e3f",
+   "i": 7023
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们改变一下拉杆的状态，拉下栏杆，然后你就会发现：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "让我们改变一下拉杆的状态，拉下栏杆，然后你就会发现：",
+   "sha256": "aed44d7b78f34aed5a7beb3341acb5551b77cb66aa9ac0458bb42de412aa2804",
+   "i": 7024
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "〇█",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "♦",
+     "p": {
+      "font": {
+       "cs": "Segoe UI Emoji"
+      }
+     }
+    }
+   ],
+   "text": "〇█♦",
+   "sha256": "966a69152ee90e2bdb1a364cb62c8f2b87c4419a5939d2cf5f7d74bca1c19d23",
+   "i": 7025
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "〇······",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R拉下的拉杆",
+     "p": {}
+    }
+   ],
+   "text": "〇······R拉下的拉杆",
+   "sha256": "314c5e6b44c86a7101c8b99d9b07860fd4bd3c7f9e08b43072d06b7f22954d95",
+   "i": 7026
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "♦",
+     "p": {
+      "font": {
+       "cs": "Segoe UI Emoji"
+      }
+     }
+    },
+    {
+     "t": "······C关闭的红石火把",
+     "p": {}
+    }
+   ],
+   "text": "♦······C关闭的红石火把",
+   "sha256": "180d8daf31c3923a810537f864979107188ae6211b83894e03a2dc4a58717a03",
+   "i": 7027
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "R=1 C=0",
+     "p": {}
+    }
+   ],
+   "text": "R=1 C=0",
+   "sha256": "d11ca6bc1ced7859a7c1b01ed396fa09e5ae0e98ccc774461c48e78efb2c67a8",
+   "i": 7028
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "整理一下，我们就会发现，当我们给非门输入一个信号时，非门会把这个信号反转。体现在游戏中，就是你拉下拉杆，反倒关闭了红石火把；不拉下拉杆，反倒开启了红石火把。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "整理一下，我们就会发现，当我们给非门输入一个信号时，非门会把这个信号反转。体现在游戏中，就是你拉下拉杆，反倒关闭了红石火把；不拉下拉杆，反倒开启了红石火把。",
+   "sha256": "861e0a42ec44540e866c098795a096ebd99ee0d35907181b8e92bd1a466d9d7d",
+   "i": 7029
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "说了这么多，那么这东西对我们有何帮助？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "说了这么多，那么这东西对我们有何帮助？",
+   "sha256": "adabc4124b20b785dbf38c896ab6aed7b40762292030ecc7215292f2b6f89d7d",
+   "i": 7030
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "2982595",
+      "cy": "1543050"
+     },
+     "name": "图片 46",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image26.png"
+    },
+    {
+     "t": "我们可以把『强度等级大于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0的红石信号』视作1，『强度等级为0的红石信号』视为0。testfor指令执行成功后返回的执行成功次数总会是一个大于0的值，红石比较器转化后的强度等级也肯定大于0，也就是输出1。反之，testfor执行失败也就是输出0。看到这个1、0，你想到了什么？",
+     "p": {}
+    }
+   ],
+   "text": "我们可以把『强度等级大于0的红石信号』视作1，『强度等级为0的红石信号』视为0。testfor指令执行成功后返回的执行成功次数总会是一个大于0的值，红石比较器转化后的强度等级也肯定大于0，也就是输出1。反之，testfor执行失败也就是输出0。看到这个1、0，你想到了什么？",
+   "sha256": "63a9a051a9ce3c362773c9d4afa013d0676ba7b994460a26143357a622d0b47f",
+   "i": 7031
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "二进制？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "二进制？",
+   "sha256": "c867fb7afae21f86f53c89d2055e5bbebe402e656bcb0b61c36b62a138b3052f",
+   "i": 7032
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 48",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "93- 2",
+         "p": {}
+        }
+       ],
+       "text": "93- 2",
+       "sha256": "4815124e1c835d0f06c771637ef25ba8e23cc5b6d6237faef60f1a17b33a3095"
+      }
+     ]
+    },
+    {
+     "t": "非门呐！反转信号啊！我们只需要在输出后面接上一个非门反转一下信号，不就可以实现『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "testfor执行成功输出0，失败输出1』了吗？让我们来试一试：",
+     "p": {}
+    }
+   ],
+   "text": "非门呐！反转信号啊！我们只需要在输出后面接上一个非门反转一下信号，不就可以实现『testfor执行成功输出0，失败输出1』了吗？让我们来试一试：",
+   "sha256": "a775b90193b8f32f87bab301816d0df35cee49eaef5bedc60097ae660cd2af4d",
+   "i": 7033
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "✕",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "□┠█",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "♢",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "️（插图93-2）",
+     "p": {}
+    }
+   ],
+   "text": "✕□┠█♢️（插图93-2）",
+   "sha256": "33b0d4b83818198b8cf0b873d2149a569b0ef864494b90dad7ddcd76b94d6292",
+   "i": 7034
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "□······重复型命令方块（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "testfor @e[r=2，name=钻石，type=item]）\\\\检测半径二米内是否有钻石掉落物\\\\",
+     "p": {}
+    }
+   ],
+   "text": "□······重复型命令方块（testfor @e[r=2，name=钻石，type=item]）\\\\检测半径二米内是否有钻石掉落物\\\\",
+   "sha256": "fa8085f28404380dc6465142983f985b6454e8a09970cf4ec8349f79b1854036",
+   "i": 7035
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┠······",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R朝向东的红石比较器（比较模式）",
+     "p": {}
+    }
+   ],
+   "text": "┠······R朝向东的红石比较器（比较模式）",
+   "sha256": "a77ab0a0c16c1aa9b820a3762161c5f2065c5fc85c70f0716d93cf215b25408e",
+   "i": 7036
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "♢",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "······C开启的红石火把",
+     "p": {}
+    }
+   ],
+   "text": "♢······C开启的红石火把",
+   "sha256": "bdc7e7fa3504fbdde88d61611544ae604cd2026be36dd315b1c29939815a485d",
+   "i": 7037
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "拉下拉杆，命令方块开始执行，但由于周围并没有钻石，指令执行失败，红石比较器没有输出信号，导致",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R输入一直为0，C输出自然就一直反转成1，红石火把便一直亮着。",
+     "p": {}
+    }
+   ],
+   "text": "拉下拉杆，命令方块开始执行，但由于周围并没有钻石，指令执行失败，红石比较器没有输出信号，导致R输入一直为0，C输出自然就一直反转成1，红石火把便一直亮着。",
+   "sha256": "77ddf25b0f8cc6632f835dc54a85763f31f4765aac5ab824c717069bd378bd84",
+   "i": 7038
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "2960370",
+      "cy": "1532255"
+     },
+     "name": "图片 49",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image27.png"
+    },
+    {
+     "t": "让我们在旁边扔一颗钻石看看：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "让我们在旁边扔一颗钻石看看：",
+   "sha256": "09fb7758c8a4514a686b41656ebdeae56b85a481ab9aa61190959778251b23bb",
+   "i": 7039
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "️〇□",
+     "p": {}
+    },
+    {
+     "t": "┠",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "█",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "♦",
+     "p": {
+      "font": {
+       "cs": "Segoe UI Emoji"
+      }
+     }
+    },
+    {
+     "t": "（插图93-3）",
+     "p": {}
+    }
+   ],
+   "text": "️〇□┠█♦（插图93-3）",
+   "sha256": "a259cc0e7c17d328bbfcb8b9a755d6819e0849c34139490345abc34d67f84543",
+   "i": 7040
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你会发现红石火把熄灭了。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "你会发现红石火把熄灭了。",
+   "sha256": "a4418d788465e7a9d09d5981f955a39216735bf9e28609e2a416eb15c99be5c8",
+   "i": 7041
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 50",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "93- 3",
+         "p": {}
+        }
+       ],
+       "text": "93- 3",
+       "sha256": "6eb4629c2a35a4b2ffca83158654b0e9cb3d7c4f9e2d344a3ac13453aad85bc7"
+      }
+     ]
+    },
+    {
+     "t": "这是为什么？因为命令方块检测到了钻石，成功次数大于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0，红石比较器将成功次数转化为红石信号后强度也就不等于0，同时转化后的红石信号也被输入到了非门中，也就是非门的R=1。红石火把接受到红石信号后就进入关闭状态，也就是非门的C=0。这样子，我们就成功地将testfor指令的执行结果反转，使得接下来的操作能够加以进行。",
+     "p": {}
+    }
+   ],
+   "text": "这是为什么？因为命令方块检测到了钻石，成功次数大于0，红石比较器将成功次数转化为红石信号后强度也就不等于0，同时转化后的红石信号也被输入到了非门中，也就是非门的R=1。红石火把接受到红石信号后就进入关闭状态，也就是非门的C=0。这样子，我们就成功地将testfor指令的执行结果反转，使得接下来的操作能够加以进行。",
+   "sha256": "3e21e31d1ab218a84aef27fb8aa293684ce17d231e43b67a687c5f23eb84566f",
+   "i": 7042
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "下面是完整版的『钻石生成装置』：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "下面是完整版的『钻石生成装置』：",
+   "sha256": "139ed02e50714ef3a4de0b41307e5d88bf90d6f849b80cd7a98ef67af3b3ec09",
+   "i": 7043
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "️〇A→️",
+     "p": {}
+    },
+    {
+     "t": "┠",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "█",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "！B→C→D→（插图93-4和93-5）",
+     "p": {}
+    }
+   ],
+   "text": "️〇A→️┠█！B→C→D→（插图93-4和93-5）",
+   "sha256": "7a64694f1daad09e0cb8c42b014fed25c45bb985d81e71c4b11302cb89f4345a",
+   "i": 7044
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "图例",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "图例",
+   "sha256": "5f6a03b217245ff838c75a71623ccf9478f181e15394c02e4b0cfbbaa074e9c2",
+   "i": 7045
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "〇······拉下的拉杆",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "〇······拉下的拉杆",
+   "sha256": "22001e35a057fcf28174cfd8681a2582b99fe48b06290ffb2b8dfc43157e9122",
+   "i": 7046
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A→······循环型命令方块，写有『testfor @e[r=2，name=钻石，type=item]』",
+     "p": {}
+    }
+   ],
+   "text": "A→······循环型命令方块，写有『testfor @e[r=2，name=钻石，type=item]』",
+   "sha256": "b94141eba4d7d6aef54d27a37e4b8eb34109a1c12238a41c01a1e973ffb13a62",
+   "i": 7047
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┠️······红石比较器",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┠️······红石比较器",
+   "sha256": "d03cbd1e599a10f34e8267e5d292d176dc6f92f9e0243b418d656c6ec2307abd",
+   "i": 7048
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "█······任意完整方块",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "█······任意完整方块",
+   "sha256": "fd35a2f4e92d5890f434abaa2cddd54fb90552f6ed2f9189cb26efea201ac6b6",
+   "i": 7049
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "！······红石火把（可能是亮也可能是不亮，故这边用感叹号）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "！······红石火把（可能是亮也可能是不亮，故这边用感叹号）",
+   "sha256": "a526f4932df47c99e893805745b391d3d89a2f4fcb971a65b67795e507c3b077",
+   "i": 7050
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B→······脉冲型命令方块，写有『summon armor_stand diamond 84.47 -60.00 -91.30』",
+     "p": {}
+    }
+   ],
+   "text": "B→······脉冲型命令方块，写有『summon armor_stand diamond 84.47 -60.00 -91.30』",
+   "sha256": "d3a3b2b3b83a015765be3297cfd9f9bc4eab3acede7ccc0f2d7a29e125180bae",
+   "i": 7051
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C→······连锁型命令方块，写有『replaceitem entity @e[name=diamond，type=armor_stand] slot.weapon.mainhand 0 diamond』",
+     "p": {}
+    }
+   ],
+   "text": "C→······连锁型命令方块，写有『replaceitem entity @e[name=diamond，type=armor_stand] slot.weapon.mainhand 0 diamond』",
+   "sha256": "4df2de2b4a2a45187759eef19d67417318c429ea5b252543913235552a54fbee",
+   "i": 7052
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "D→······连锁型命令方块，写有『kill @e[type=armor_stand，name=diamond]』",
+     "p": {}
+    }
+   ],
+   "text": "D→······连锁型命令方块，写有『kill @e[type=armor_stand，name=diamond]』",
+   "sha256": "a042688ed68d79a9555ba93848091737d139a4877511f2dbe8fa6aef271a2525",
+   "i": 7053
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "2775585",
+      "cy": "1430655"
+     },
+     "name": "图片 51",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image28.png"
+    },
+    {
+     "t": "整个装置的运行流程如下：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "整个装置的运行流程如下：",
+   "sha256": "2a56f01647ddf500bdaba95c47e3bb690e36fb95cb3267adddf5f67033fb72c9",
+   "i": 7054
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果半径",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2米内有钻石，就",
+     "p": {}
+    }
+   ],
+   "text": "如果半径2米内有钻石，就",
+   "sha256": "5c15befd723f6e8760c450f2b83f35508b832c2ec3a31bd28af3ba3c092be0e3",
+   "i": 7055
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→啥也不干",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "→啥也不干",
+   "sha256": "bd17be750515559bcc1c6e9e643b539611478c582a6e1c1da3468d4f9c980e5f",
+   "i": 7056
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "否则，就",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "否则，就",
+   "sha256": "adb21fea18f3bc982f101edd6dee15b4a9e2a586755e6137499cae8447783710",
+   "i": 7057
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→①生成一个盔甲架",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "→①生成一个盔甲架",
+   "sha256": "77a7b570b787e3c8b001bbcbdb70edb09735f9b97f45581e16d2817c39b7ce8b",
+   "i": 7058
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→②让盔甲架拿着一颗钻石",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "→②让盔甲架拿着一颗钻石",
+   "sha256": "b75a13ee1e5f90a6b8c4849429fef1edfd6388afc804e14ae2e8ca5034258c97",
+   "i": 7059
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 52",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "93- 4",
+         "p": {}
+        }
+       ],
+       "text": "93- 4",
+       "sha256": "9cf73005a0e30d79c1d80ca338e76853c0f7ba8ebf47db5a5dc4c5bb3edc9700"
+      }
+     ]
+    },
+    {
+     "t": "→③然后杀死盔甲架，钻石就掉落了",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "→③然后杀死盔甲架，钻石就掉落了",
+   "sha256": "343de466d65a23883dd7757abd07f4b463a390f5048e085d6812392c5b346c75",
+   "i": 7060
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "非常简单是不是？这就是『非门』在指令中的主要用途。只不过随着",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute指令的升级，非门也就慢慢地在指令圈中步入了历史。",
+     "p": {}
+    }
+   ],
+   "text": "非常简单是不是？这就是『非门』在指令中的主要用途。只不过随着execute指令的升级，非门也就慢慢地在指令圈中步入了历史。",
+   "sha256": "093a1a7151c9536e5ce8b0e6c41b5df2d9ba4208972f87bb498771ee873728c0",
+   "i": 7061
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 7062
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以逻辑门就这一种？肯定不是。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "所以逻辑门就这一种？肯定不是。",
+   "sha256": "e76d98626e9f42b9eb73eee668f5efd3e6e10a3984008dc9ceaaa876caa58500",
+   "i": 7063
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "接下来我会快速介绍其他的一些门，这些门由于在指令中的使用频率会比非门少很多，我们就不详细讲解。如果你对红石感兴趣，我记得",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "TIS（Trinity Union，中国最厉害的生电服务器，你应该有听说过）他们的B站账号好像有在做红石教程，还有明月庄主好像也有教程。",
+     "p": {}
+    }
+   ],
+   "text": "接下来我会快速介绍其他的一些门，这些门由于在指令中的使用频率会比非门少很多，我们就不详细讲解。如果你对红石感兴趣，我记得TIS（Trinity Union，中国最厉害的生电服务器，你应该有听说过）他们的B站账号好像有在做红石教程，还有明月庄主好像也有教程。",
+   "sha256": "4e8b6559a6ddc0c56c2efe12bdc9e60c098bbde60ab0547e80daff4bb23a7fa8",
+   "i": 7064
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "2781300",
+      "cy": "1442085"
+     },
+     "name": "图片 53",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image29.png"
+    },
+    {
+     "t": "与门（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "AND Gate），翻译成中文就是『当.....和.....都成立时，才会.......』。也就是说，与门是用来判断两个或两个以上的条件，当这些条件都成立时，输出C才会等于1。在编程语言中，与门也就是逻辑运算中的『且』，符号常常使用『＆』或『＆＆』。",
+     "p": {}
+    }
+   ],
+   "text": "与门（AND Gate），翻译成中文就是『当.....和.....都成立时，才会.......』。也就是说，与门是用来判断两个或两个以上的条件，当这些条件都成立时，输出C才会等于1。在编程语言中，与门也就是逻辑运算中的『且』，符号常常使用『＆』或『＆＆』。",
+   "sha256": "73f2685bbcc1baa8210563d5f84848b8c6c9f4b37e0da8230c030e3d6bddca43",
+   "i": 7065
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft中，与门有N多种做法，这边就列出一个最简单的一种：",
+     "p": {}
+    }
+   ],
+   "text": "在Minecraft中，与门有N多种做法，这边就列出一个最简单的一种：",
+   "sha256": "364c7b2d66877b1317261604d0f4847ea651dc93e8504165bb169ab74feeecdd",
+   "i": 7066
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "◆⊕",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "（这里的拉杆为R1）",
+     "p": {}
+    }
+   ],
+   "text": "◆⊕（这里的拉杆为R1）",
+   "sha256": "065d4dd676731556fbac2f97da99eea568c7b317c397c01de75a51a95daf0a3e",
+   "i": 7067
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ！",
+     "p": {}
+    },
+    {
+     "t": "┈",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "（插图93-6）",
+     "p": {}
+    }
+   ],
+   "text": "空┊ ！┈（插图93-6）",
+   "sha256": "22e061b9dfb8afc0376678f0170557c59966454f33cbe879e277ff3ffa7d1992",
+   "i": 7068
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 54",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "93- 5",
+         "p": {}
+        }
+       ],
+       "text": "93- 5",
+       "sha256": "390542a3738b23f01c5ad38637546822b4b22013758cac3f8d7fc7553df45989"
+      }
+     ]
+    },
+    {
+     "t": "◆⊕",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "（这里的拉杆为R2）",
+     "p": {}
+    }
+   ],
+   "text": "◆⊕（这里的拉杆为R2）",
+   "sha256": "a17e9fa76bdd0207ab55c89ca06ee7caa04e682eb4bed8b593dc3a10b2f44ca8",
+   "i": 7069
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊······红石线，在这边红石线下面要有任意完整方块，使得它和旁边两个红石火把齐平",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┊······红石线，在这边红石线下面要有任意完整方块，使得它和旁边两个红石火把齐平",
+   "sha256": "056dbb7f1dd0f6374ec8359aa6fd7fad07d3db34798a1c8686403c89475d268e",
+   "i": 7070
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "⊕",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "一个完整方块上面插着红石火把的结构",
+     "p": {}
+    }
+   ],
+   "text": "⊕······一个完整方块上面插着红石火把的结构",
+   "sha256": "416a3b4221382b6ba6d616ba383d88e43e066ca13e6b45b5fc3131caa8a05601",
+   "i": 7071
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3423285",
+      "cy": "1807210"
+     },
+     "name": "图片 55",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image30.png"
+    },
+    {
+     "t": "！······",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "C输出用红石火把",
+     "p": {}
+    }
+   ],
+   "text": "！······C输出用红石火把",
+   "sha256": "97cc7b300e4b2ae20d229bcab51f55142c55e73457cfd4e884d682811ba4e84d",
+   "i": 7072
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┈······红石线",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┈······红石线",
+   "sha256": "4994ebde6d73c4392edd3a5de6c7618b5ffbc5cf04d4a30371af682aec53cc6f",
+   "i": 7073
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "◆",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "R输入用拉杆",
+     "p": {}
+    }
+   ],
+   "text": "◆······R输入用拉杆",
+   "sha256": "aac60900d9e50db6a426c9e6d5fc0c0e1e924adac63ff6917fdbaa5838f389d8",
+   "i": 7074
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空······空气，没有任何东西",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "空······空气，没有任何东西",
+   "sha256": "577603b3b80855bb6ab07b744799649e22f81b9d6bc190df6e26d89f66c90596",
+   "i": 7075
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "与门有如下的特性：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "与门有如下的特性：",
+   "sha256": "758c215979d4e91e42968672149ec86380571a661b31c59b8c60eb61879c1f33",
+   "i": 7076
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R1=0 R2=0时 C=0",
+     "p": {}
+    }
+   ],
+   "text": "当R1=0 R2=0时 C=0",
+   "sha256": "4cab358f9c4a96fd16874636785cba0767d214a9ad5c615d32bed3c530a2edeb",
+   "i": 7077
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R1=1 R2=0时 C=0",
+     "p": {}
+    }
+   ],
+   "text": "当R1=1 R2=0时 C=0",
+   "sha256": "8229bd35b1d2d587db8f58b33e638d0f834c9d388212e6af52899f3e4abcdd49",
+   "i": 7078
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R1=0 R2=1时 C=0",
+     "p": {}
+    }
+   ],
+   "text": "当R1=0 R2=1时 C=0",
+   "sha256": "9f1cc31120e603a1070f7f07fce3bad987ede12780d886a2cc2ac6d18626b35b",
+   "i": 7079
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R1=1 R2=1时 C=1",
+     "p": {}
+    }
+   ],
+   "text": "当R1=1 R2=1时 C=1",
+   "sha256": "780fc77f9885bd7dad9b35e21ae0e3b75116c16f029026e805b1e0cb2d6d6428",
+   "i": 7080
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 56",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "93- 6",
+         "p": {}
+        }
+       ],
+       "text": "93- 6",
+       "sha256": "9309b8cb60c008ded585c92786e67e89cf70b0411feba248d93f323e565487a0"
+      }
+     ]
+    },
+    {
+     "t": "也就是说，与门要全部输入都为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1时，才会输出1。也就是要所有条件都为真（true）时，才会返回真（true）。",
+     "p": {}
+    }
+   ],
+   "text": "也就是说，与门要全部输入都为1时，才会输出1。也就是要所有条件都为真（true）时，才会返回真（true）。",
+   "sha256": "1071a239456584915e3b6abc281dab7862543d15516937dd7aead01531a54db7",
+   "i": 7081
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "或门（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "OR Gate），翻译成中文就是『当......或......中有一个成立时，就......』。也就是说，或门同样也是用来判断两个或两个以上的条件。只不过和与门不一样的是，或门只需要部分条件成立就可以返回真，也就是输出C=1。在编程中，或门也就是逻辑运算中的『或』，符号常常用『|』或『||』来表示。",
+     "p": {}
+    }
+   ],
+   "text": "或门（OR Gate），翻译成中文就是『当......或......中有一个成立时，就......』。也就是说，或门同样也是用来判断两个或两个以上的条件。只不过和与门不一样的是，或门只需要部分条件成立就可以返回真，也就是输出C=1。在编程中，或门也就是逻辑运算中的『或』，符号常常用『|』或『||』来表示。",
+   "sha256": "7940a8528ca05368436af4206813f2737a06c8188eedba996cbc4c5a64febe30",
+   "i": 7082
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3474720",
+      "cy": "1833880"
+     },
+     "name": "图片 57",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image31.png"
+    },
+    {
+     "t": "或门也有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "N多种做法，这边也是用最简单的一种：",
+     "p": {}
+    }
+   ],
+   "text": "或门也有N多种做法，这边也是用最简单的一种：",
+   "sha256": "22b054a53ee6b67a47a36507814ad21f87207d66d16cae33a1eb62b761b18929",
+   "i": 7083
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "◆┊（这里的拉杆为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R1）",
+     "p": {}
+    }
+   ],
+   "text": "◆┊（这里的拉杆为R1）",
+   "sha256": "4c0b7b2938b1283b607089a44df0de129034dc1fe78597c0ae854f5db70ba954",
+   "i": 7084
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空┊",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ",
+     "p": {}
+    },
+    {
+     "t": "┈",
+     "p": {
+      "font": {
+       "ascii": "SimSun",
+       "eastAsia": "SimSun",
+       "hAnsi": "SimSun",
+       "cs": "SimSun",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "（插图93-7）",
+     "p": {}
+    }
+   ],
+   "text": "空┊ ┈（插图93-7）",
+   "sha256": "d99bc9e2d8382b40bec6b2c087579d3d741d36c70165ca7f01bd2e9202df32bc",
+   "i": 7085
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "◆┊（这里的拉杆为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R2）",
+     "p": {}
+    }
+   ],
+   "text": "◆┊（这里的拉杆为R2）",
+   "sha256": "5daf4eeda4f101e38537063d53c3200435fc9b4bff3e1a701062b90954a416f3",
+   "i": 7086
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┊······红石线",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "┊······红石线",
+   "sha256": "d948447113d335743947aa49bf0f33e19efee9f9c00b965127f3932d9c9a4a7e",
+   "i": 7087
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "┈······",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "C输出红石线",
+     "p": {}
+    }
+   ],
+   "text": "┈······C输出红石线",
+   "sha256": "b27c79a7d364b5b1f4831da61ed329125116066a781b68e9970ad52279ba004e",
+   "i": 7088
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "◆······",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R输入用拉杆",
+     "p": {}
+    }
+   ],
+   "text": "◆······R输入用拉杆",
+   "sha256": "aac60900d9e50db6a426c9e6d5fc0c0e1e924adac63ff6917fdbaa5838f389d8",
+   "i": 7089
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空······空气，没有任何东西",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "空······空气，没有任何东西",
+   "sha256": "577603b3b80855bb6ab07b744799649e22f81b9d6bc190df6e26d89f66c90596",
+   "i": 7090
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "或门有如下的特性：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "或门有如下的特性：",
+   "sha256": "216ac28a784584e2029ce2a92a4356eef83cc32937cbaf6b843874129db4e36d",
+   "i": 7091
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R1=0 R2=0时 C=0",
+     "p": {}
+    }
+   ],
+   "text": "当R1=0 R2=0时 C=0",
+   "sha256": "4cab358f9c4a96fd16874636785cba0767d214a9ad5c615d32bed3c530a2edeb",
+   "i": 7092
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 58",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "93- 7",
+         "p": {}
+        }
+       ],
+       "text": "93- 7",
+       "sha256": "2888b00ffc8b4ac5eeaf93f60692bea21db85406b89d2a8fe3e0b9351ffd27c8"
+      }
+     ]
+    },
+    {
+     "t": "当",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R1=1 R2=0时 C=1",
+     "p": {}
+    }
+   ],
+   "text": "当R1=1 R2=0时 C=1",
+   "sha256": "4f08d162f6396047134ad9272da773df66cf70210490efacbd88bf3684cfc0d3",
+   "i": 7093
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R1=0 R2=1时 C=1",
+     "p": {}
+    }
+   ],
+   "text": "当R1=0 R2=1时 C=1",
+   "sha256": "19f99f20c99776599834b2a439cb0e297609c7acaac815d027f07acec1428639",
+   "i": 7094
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "R1=1 R2=1时 C=1",
+     "p": {}
+    }
+   ],
+   "text": "当R1=1 R2=1时 C=1",
+   "sha256": "780fc77f9885bd7dad9b35e21ae0e3b75116c16f029026e805b1e0cb2d6d6428",
+   "i": 7095
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "也就是说，或门只要部分输入为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1时，就会输出1。也就是当部分条件为真（true）时，就会返回真（true）。",
+     "p": {}
+    }
+   ],
+   "text": "也就是说，或门只要部分输入为1时，就会输出1。也就是当部分条件为真（true）时，就会返回真（true）。",
+   "sha256": "d6729751a409d12e00c1a32f1fc2c99804cb5181ac1d9288cafaacedc4ca4f82",
+   "i": 7096
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是本章的全部内容，你会发现其实还是蛮简单的。如果你看不懂，那这边推荐你去找几个红石教程，本书讲红石确实是有点",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "......比较不适合。",
+     "p": {}
+    }
+   ],
+   "text": "这就是本章的全部内容，你会发现其实还是蛮简单的。如果你看不懂，那这边推荐你去找几个红石教程，本书讲红石确实是有点......比较不适合。",
+   "sha256": "1d904ff426c03d91178703ff2bed63e4a04bb6889194be1be78fab6596e2acd2",
+   "i": 7097
+  }
+ ],
+ "text_sha256": "9065f34484ddaaaf06b43caa8767d2fae3560cbcf0e1f7af0ccb784a389ec03f",
+ "chars": 2996
+}

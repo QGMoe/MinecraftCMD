@@ -1,0 +1,103 @@
+{
+ "id": "vol10",
+ "kind": "volume",
+ "number": 10,
+ "title": "第十卷 真正进入中阶",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   6781,
+   6783
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "t": "第十卷 真正进入中阶",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "第十卷 真正进入中阶",
+   "sha256": "57589cc915906b6aed7aa1f8a67b51a977ca43535153ef26a1385de5766993e3",
+   "i": 6781
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "在此之前，我们了解的其实都是相当浅显的知识，顶多只是说『会用指令』，但称不上很厉害。现在，大部分指令我们都接触过，是时候来点儿更加高端的东西。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "在此之前，我们了解的其实都是相当浅显的知识，顶多只是说『会用指令』，但称不上很厉害。现在，大部分指令我们都接触过，是时候来点儿更加高端的东西。",
+   "sha256": "ec6f88fb3287e5ba94ee3dff3ec531e55b0fd168e257bfff65f5bd1709f303a4",
+   "i": 6782
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "（本章正在大修）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "（本章正在大修）",
+   "sha256": "fa0862d283ea22369918e924a2d0793fe3526bac6848b3a8212e5e54506d0a3a",
+   "i": 6783
+  }
+ ],
+ "text_sha256": "1898e376d95660be4d1326b4055db73add20844f74f1b42a8d42a4f4f9b06209",
+ "chars": 89
+}

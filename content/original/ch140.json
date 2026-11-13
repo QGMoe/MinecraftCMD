@@ -1,0 +1,2874 @@
+{
+ "id": "ch140",
+ "kind": "chapter",
+ "number": 140,
+ "title": "第一百四十章 真正深入了解NBT-6",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   11360,
+   11532
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "第一百四十章 真正深入了解NBT-6",
+     "p": {}
+    }
+   ],
+   "text": "第一百四十章 真正深入了解NBT-6",
+   "sha256": "676b4801a24c2eb485033907584b4f9a462f1045055cb979719f035adde2ec5b",
+   "i": 11360
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（真正深入了解NBT-6）",
+     "p": {}
+    }
+   ],
+   "text": "（真正深入了解NBT-6）",
+   "sha256": "4f425c8cbfaac66a13b08a9444e8cc0911e621a2a3e233004cc2a780364ff2da",
+   "i": 11361
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（注意，本章中指出的中文Minecraft Wiki错误现已修正）",
+     "p": {}
+    }
+   ],
+   "text": "（注意，本章中指出的中文Minecraft Wiki错误现已修正）",
+   "sha256": "29147000976679871382c5d97ce4e7db8761a479f0ba6efc456b0a4e414d4e08",
+   "i": 11362
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在前五章，我们仔细地了解了一下NBT的数据类型。现在，我们已经了解得差不多了，那么还剩下什么呢？",
+     "p": {}
+    }
+   ],
+   "text": "在前五章，我们仔细地了解了一下NBT的数据类型。现在，我们已经了解得差不多了，那么还剩下什么呢？",
+   "sha256": "6d4d48257c7df975de8ed0af918015feebe75f63e945b7b144a15abb9ea76470",
+   "i": 11363
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NBT的版本",
+     "p": {}
+    }
+   ],
+   "text": "NBT的版本",
+   "sha256": "555f11b32fe92de3e833ab65b80e3b1a69dcdd1c231276c339e79589bb596274",
+   "i": 11364
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——第三节：NBT的版本",
+     "p": {}
+    }
+   ],
+   "text": "——第三节：NBT的版本",
+   "sha256": "508816a3068574f376af448ec39d6a09e0605881c1549665d7f9d76b26ebe395",
+   "i": 11365
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NBT最早在Indev版本就出现了，但是当时只有0到10这11个标签可用。",
+     "p": {}
+    }
+   ],
+   "text": "NBT最早在Indev版本就出现了，但是当时只有0到10这11个标签可用。",
+   "sha256": "9a31c11726f5452f32dd1eb178621b39dd5d0677b4307f4574a3809ff79979cf",
+   "i": 11366
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "后来，到了Minecraft Beta1.3，NBT正式有了第一个格式版本：19132",
+     "p": {}
+    }
+   ],
+   "text": "后来，到了Minecraft Beta1.3，NBT正式有了第一个格式版本：19132",
+   "sha256": "a4c925149ac08c7ae2667852b0705929130e01bde9b4147a0997d1bcea30543d",
+   "i": 11367
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft 1.2版本时，Notch引入了Anvil[.mca]文件格式来存储区块，在此之前存储区块的文件格式为Region[.mcr]（Minecraft Beta1.3时为存储区块引入的）。而随着Anvil的引入，NBT的版本正式由19132升级到了19133，虽然只是新加入了一个整形数组（Int Array：[I]）。",
+     "p": {}
+    }
+   ],
+   "text": "Minecraft 1.2版本时，Notch引入了Anvil[.mca]文件格式来存储区块，在此之前存储区块的文件格式为Region[.mcr]（Minecraft Beta1.3时为存储区块引入的）。而随着Anvil的引入，NBT的版本正式由19132升级到了19133，虽然只是新加入了一个整形数组（Int Array：[I]）。",
+   "sha256": "d8c3fcdef57fc46aab2e394d3b1c82581e66fedae91b5990381058352086ec4e",
+   "i": 11368
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "神奇的是，1.12版本时加入Long长整型时并没有更新NBT格式版本号。",
+     "p": {}
+    }
+   ],
+   "text": "神奇的是，1.12版本时加入Long长整型时并没有更新NBT格式版本号。",
+   "sha256": "0167fac0e11b21b07e36b082744fa713675c9b9b2ef74effe0ca8ab328fb4c1b",
+   "i": 11369
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NBT的版本就是这样，但它对我们有啥影响呢？",
+     "p": {}
+    }
+   ],
+   "text": "NBT的版本就是这样，但它对我们有啥影响呢？",
+   "sha256": "8d396940ceefdce911835c249f8627a08e0665b35cc6891deec5ba2ab998961b",
+   "i": 11370
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "目前，如果我们要编辑NBT文件，我们除了使用Java版1.13及之后Minecraft内置的SNBT和压缩后(GZIP压缩）的NBT文件的转换器来编辑NBT文件，还可以使用第三方软件编辑NBT的文件。如果我们使用第三方软件NBT编辑文件的话，NBT的格式版本此时就有些影响了：",
+     "p": {}
+    }
+   ],
+   "text": "目前，如果我们要编辑NBT文件，我们除了使用Java版1.13及之后Minecraft内置的SNBT和压缩后(GZIP压缩）的NBT文件的转换器来编辑NBT文件，还可以使用第三方软件编辑NBT的文件。如果我们使用第三方软件NBT编辑文件的话，NBT的格式版本此时就有些影响了：",
+   "sha256": "ae5f0d2dc96de7747ead132defec3cc13f301277dc0b22d4997bc3bcedf9bd32",
+   "i": 11371
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NBTEdit——19132——Windows",
+     "p": {}
+    }
+   ],
+   "text": "NBTEdit——19132——Windows",
+   "sha256": "84ad0bd5fc966213edd32798de54ceba13fe4a89803592e079e5fc8327071c26",
+   "i": 11372
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NBTExplorer——19133——Windows/Mac/Liunx",
+     "p": {}
+    }
+   ],
+   "text": "NBTExplorer——19133——Windows/Mac/Liunx",
+   "sha256": "4fcb30c4869281140f7b6eddb3e98cc023bc858fc79da90b24e1e8984cd79f3c",
+   "i": 11373
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NEINedit——19132——Mac",
+     "p": {}
+    }
+   ],
+   "text": "NEINedit——19132——Mac",
+   "sha256": "1bb6a88e3f79338cd7952462b054abf10189db9278a6a628a4e1853415cadfe9",
+   "i": 11374
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "MineBack Ultimate——19133——Windows",
+     "p": {}
+    }
+   ],
+   "text": "MineBack Ultimate——19133——Windows",
+   "sha256": "fa8fc07a3ec4d40bfad2611c8bbcecd8fa6b85a30413b27a84f08437c7d240d2",
+   "i": 11375
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NBT2YAML——19133——Windows",
+     "p": {}
+    }
+   ],
+   "text": "NBT2YAML——19133——Windows",
+   "sha256": "a35d4aa6a317ed2b7575ac9b24fdb68e25a25edd94d56d990e67002d75138e33",
+   "i": 11376
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "webNBT——19133——浏览器",
+     "p": {}
+    }
+   ],
+   "text": "webNBT——19133——浏览器",
+   "sha256": "b51be70b9d315f3fbb746f92c0812863b5fd33ca14926ce73d325119f92cc23d",
+   "i": 11377
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NBT grammar for Synalyze It——19132——Mac",
+     "p": {}
+    }
+   ],
+   "text": "NBT grammar for Synalyze It——19132——Mac",
+   "sha256": "f16da50873dfc6ad2e0d95b8849ebc36847b5a616245d841f11f089ee6329d68",
+   "i": 11378
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如上，每个软件所支持的NBT格式是不同的。只不过，对我们的影响似乎也就这一点。",
+     "p": {}
+    }
+   ],
+   "text": "如上，每个软件所支持的NBT格式是不同的。只不过，对我们的影响似乎也就这一点。",
+   "sha256": "e3bd419f20564c610ed46c0b8227d4221c23ed75365c5fad1fc7d5cda25a364e",
+   "i": 11379
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——第四节：SNBT",
+     "p": {}
+    }
+   ],
+   "text": "——第四节：SNBT",
+   "sha256": "b40550da329c64daf8d883245d737879e8f0c33dfc54a8b3203732401609fa5f",
+   "i": 11380
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面我有提到一个东西：SNBT，那么SNBT是个什么鬼东西呢？",
+     "p": {}
+    }
+   ],
+   "text": "上面我有提到一个东西：SNBT，那么SNBT是个什么鬼东西呢？",
+   "sha256": "38f421bb6dc01a247ba5b19324fed404a90134beb8a968caf97acf3274503850",
+   "i": 11381
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其实它并不是一个鬼，而且它并不陌生，我们已经见过它很多很多次了。",
+     "p": {}
+    }
+   ],
+   "text": "其实它并不是一个鬼，而且它并不陌生，我们已经见过它很多很多次了。",
+   "sha256": "24ed05688edf662be4c47029f40f83af833a2a1d01acdd90102247f4fc0af395",
+   "i": 11382
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "它的全称就是：String Named Binary Tags（字符串化的二进制命名标签）",
+     "p": {}
+    }
+   ],
+   "text": "它的全称就是：String Named Binary Tags（字符串化的二进制命名标签）",
+   "sha256": "104fda3b6dae376d8d8ac2e23fcc429ddc10f98951d12fea872be3d5aa610852",
+   "i": 11383
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "似乎这么说来还有点陌生。那么就直白点说吧，SNBT就是纯文本形式的NBT，且通常用于指令！我们所见到的所有文本形式的NBT都是SNBT！",
+     "p": {}
+    }
+   ],
+   "text": "似乎这么说来还有点陌生。那么就直白点说吧，SNBT就是纯文本形式的NBT，且通常用于指令！我们所见到的所有文本形式的NBT都是SNBT！",
+   "sha256": "65c90985cb745228d03e03b6dacce641b560f26078d45ee21718c6a35da9e5ef",
+   "i": 11384
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——第五节：NBT",
+     "p": {}
+    },
+    {
+     "t": "⇄",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "SNBT",
+     "p": {}
+    }
+   ],
+   "text": "——第五节：NBT⇄SNBT",
+   "sha256": "b923adf3989c786061977845e32afeecb64eff1cde37c305d691b47ade23ad67",
+   "i": 11385
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们现在知道了NBT文件它其实是二进制的，且不同于我们平常所见到的SNBT。那么，我们该怎样转化NBT和SNBT呢？",
+     "p": {}
+    }
+   ],
+   "text": "我们现在知道了NBT文件它其实是二进制的，且不同于我们平常所见到的SNBT。那么，我们该怎样转化NBT和SNBT呢？",
+   "sha256": "62d8037bfdcc775f01d27d30b5440c74254be346fc7e28e638480cc113b5c47c",
+   "i": 11386
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其实很简单，上面提到MC社区里有许多第三方软件，随便下一个基本上就可以了。",
+     "p": {}
+    }
+   ],
+   "text": "其实很简单，上面提到MC社区里有许多第三方软件，随便下一个基本上就可以了。",
+   "sha256": "1169d8a4ff7b042bd8073beb198ee20fc56a4a4498a5e07990fb00fe5b379333",
+   "i": 11387
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但第三方软件毕竟不是Mojang开发的。那么Mojang这个官方有开发吗？",
+     "p": {}
+    }
+   ],
+   "text": "但第三方软件毕竟不是Mojang开发的。那么Mojang这个官方有开发吗？",
+   "sha256": "62f2d1dc844e8902426d315f793d38b8346b2d7a4e464102080de84480597723",
+   "i": 11388
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案是肯定的。",
+     "p": {}
+    }
+   ],
+   "text": "答案是肯定的。",
+   "sha256": "204786ed9a43da569bf20816043217d6eaa12c2b38d1ef91ae74d7d1bd1c38e1",
+   "i": 11389
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java版1.13之后，MC服务端就有自带的数据生成器。这个数据生成器有这么几个功能：",
+     "p": {}
+    }
+   ],
+   "text": "Java版1.13之后，MC服务端就有自带的数据生成器。这个数据生成器有这么几个功能：",
+   "sha256": "7cd2eb141706c241c01b7769b74c83dcd5b41ffb37b4e11651e3d9a444ba586e",
+   "i": 11390
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "实现NBT（.nbt）",
+     "p": {}
+    },
+    {
+     "t": "⇄",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "SNBT（.snbt）",
+     "p": {}
+    }
+   ],
+   "text": "①实现NBT（.nbt）⇄SNBT（.snbt）",
+   "sha256": "8debfab5e9c4febec289b460141bc226931c42850d54e65aec6442caf87af717",
+   "i": 11391
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "生成原版数据包的全部内容",
+     "p": {}
+    }
+   ],
+   "text": "②生成原版数据包的全部内容",
+   "sha256": "dbde5ea8acce0ab22346dc548f7594139e5a7b740913fe30f895ce6231f4d92f",
+   "i": 11392
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "生成一个列出了所有方块状态、注册名和完整的原版命令树的JSON文件",
+     "p": {}
+    }
+   ],
+   "text": "③生成一个列出了所有方块状态、注册名和完整的原版命令树的JSON文件",
+   "sha256": "7e978a2bcc29d84cd92c9dbbf973b8700c9514558face285da278b6c3fb38d62",
+   "i": 11393
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么我们该如何启动它呢？",
+     "p": {}
+    }
+   ],
+   "text": "那么我们该如何启动它呢？",
+   "sha256": "5e510f24bd6ce0aa9fcf8366f45d86ad9d6bbe815b47ae6b8255f5d4e3ad2d6c",
+   "i": 11394
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很不简单。首先，我们需要一个Minecraft 1.13版本及以上的服务端，你可以在MCBBS或者是官方启动器上下载，只不过官方的下载.......你需要一个迅雷。",
+     "p": {}
+    }
+   ],
+   "text": "很不简单。首先，我们需要一个Minecraft 1.13版本及以上的服务端，你可以在MCBBS或者是官方启动器上下载，只不过官方的下载.......你需要一个迅雷。",
+   "sha256": "90e31b710a737eef131de88740f86eeda6674ffe20a1c43d8757decf4ea2efab",
+   "i": 11395
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "下载完后，你可以直接粗暴地双击server.jar（服务端），你也可以按照作品相关里的教程自己创建一个.bat文件方便打开：",
+     "p": {}
+    }
+   ],
+   "text": "下载完后，你可以直接粗暴地双击server.jar（服务端），你也可以按照作品相关里的教程自己创建一个.bat文件方便打开：",
+   "sha256": "0f028f6bd3e87b7e597489b50de2e4e87fbb3c1e2ea62f0f0b15e9c0f027addd",
+   "i": 11396
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "@echo off",
+     "p": {}
+    }
+   ],
+   "text": "@echo off",
+   "sha256": "abb30b0a70e39de39ce0790c6c157fd04bcfb998705ec1672fe8070ff2d34573",
+   "i": 11397
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "color 0",
+     "p": {}
+    }
+   ],
+   "text": "color 0",
+   "sha256": "c4412955ab0c4a55a976278d473ec981e13c206835c09e42b9a95710f171f2bc",
+   "i": 11398
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "title A Minecraft Server",
+     "p": {}
+    }
+   ],
+   "text": "title A Minecraft Server",
+   "sha256": "7d0c55e0627cd8071eef39c9f75c1fd10ef47396598958bb7c8bbde59d2f96a9",
+   "i": 11399
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "java -Xms2g -Xmx2g -jar server.jar pause",
+     "p": {}
+    }
+   ],
+   "text": "java -Xms2g -Xmx2g -jar server.jar pause",
+   "sha256": "2ca268395d0aa942a97133c48e3ea1779cea2d70529d83f3bf864a868f696a3d",
+   "i": 11400
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你打开不了，那有3种可能：",
+     "p": {}
+    }
+   ],
+   "text": "如果你打开不了，那有3种可能：",
+   "sha256": "5953919ad757d48430ab02e4534fabb78ac76ecb4d4dd503a2138926514ddb4f",
+   "i": 11401
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.你抄错了上面的指令（方法：细心检查）",
+     "p": {}
+    }
+   ],
+   "text": "1.你抄错了上面的指令（方法：细心检查）",
+   "sha256": "75f73db996c941afe1fc6e4cc10f19bc9c39b3c8f109b0cdcfe02f42370e8544",
+   "i": 11402
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "2.你未安装JAVA（方法：安装一个JAVA 8）",
+     "p": {}
+    }
+   ],
+   "text": "2.你未安装JAVA（方法：安装一个JAVA 8）",
+   "sha256": "26a80ec0c258683cc46a929395c2e3aa6b6539d29ed1a27406c10030a8d062b3",
+   "i": 11403
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "3.你安了个32位的JAVA（方法：卸了，重新装一个64位的JAVA 8，或把-Xms2g -Xmx2g调成-Xms1g -Xmx1g）",
+     "p": {}
+    }
+   ],
+   "text": "3.你安了个32位的JAVA（方法：卸了，重新装一个64位的JAVA 8，或把-Xms2g -Xmx2g调成-Xms1g -Xmx1g）",
+   "sha256": "46e6f77b4a2f9545412ea317ae863c54c42583bf49be9ba7c07355cfad3fad53",
+   "i": 11404
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（会不会有人打开不了，发现没安JAVA，于是下了个32位的JAVA 10，只不过不是脱机的，然后嫌下载慢随便在网上找了一个。结果JAVA安好了，捆绑软件也一大堆，浏览器主页还被改了。再次打开仍然打开不了，于是删了Java 10，去下了个64位的Java 10，这次聪明用脱机。结果发现系统是32位，不知道怎么弄，弄来弄去还差点把Windows换成了Mac。最后重新买了一台装了64位的Windows系统电脑，花了998$。安了64bit JAVA 10，再次打开，发现还是打开不了。然后才了解到MC是JAVA8的，于是下了Java 8 64bit脱机，结果仍然打不开。最后终于发现原来打成了：",
+     "p": {}
+    }
+   ],
+   "text": "（会不会有人打开不了，发现没安JAVA，于是下了个32位的JAVA 10，只不过不是脱机的，然后嫌下载慢随便在网上找了一个。结果JAVA安好了，捆绑软件也一大堆，浏览器主页还被改了。再次打开仍然打开不了，于是删了Java 10，去下了个64位的Java 10，这次聪明用脱机。结果发现系统是32位，不知道怎么弄，弄来弄去还差点把Windows换成了Mac。最后重新买了一台装了64位的Windows系统电脑，花了998$。安了64bit JAVA 10，再次打开，发现还是打开不了。然后才了解到MC是JAVA8的，于是下了Java 8 64bit脱机，结果仍然打不开。最后终于发现原来打成了：",
+   "sha256": "8700d56b36f8b20caf406431e447e0f0b865ce7688af3f5833ce1b1ed05ca072",
+   "i": 11405
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "@echo off",
+     "p": {}
+    }
+   ],
+   "text": "@echo off",
+   "sha256": "abb30b0a70e39de39ce0790c6c157fd04bcfb998705ec1672fe8070ff2d34573",
+   "i": 11406
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "color 0",
+     "p": {}
+    }
+   ],
+   "text": "color 0",
+   "sha256": "c4412955ab0c4a55a976278d473ec981e13c206835c09e42b9a95710f171f2bc",
+   "i": 11407
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "title A Minecraft Server",
+     "p": {}
+    }
+   ],
+   "text": "title A Minecraft Server",
+   "sha256": "7d0c55e0627cd8071eef39c9f75c1fd10ef47396598958bb7c8bbde59d2f96a9",
+   "i": 11408
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "java -Xms2g -Xmx2g -jar server pause）",
+     "p": {}
+    }
+   ],
+   "text": "java -Xms2g -Xmx2g -jar server pause）",
+   "sha256": "621e8a5f008016b86ad4ea6916a70bb733187037109af020ad6bf77e256e35b2",
+   "i": 11409
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "回到正题。",
+     "p": {}
+    }
+   ],
+   "text": "回到正题。",
+   "sha256": "f8a80459387dfd2ef097f4eedd923aa66830fef6691c903629ea7b8d6fa60cbe",
+   "i": 11410
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "按照作品相关里的教程，我们配置好服务器后（实际上不用配置也可以），这样子做：",
+     "p": {}
+    }
+   ],
+   "text": "按照作品相关里的教程，我们配置好服务器后（实际上不用配置也可以），这样子做：",
+   "sha256": "aa053d77ac4a7910c6afd8272afd4c99563d41d3d57326a839218b57bdf795ea",
+   "i": 11411
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，打开命令提示符（Windows）或终端（Mac）",
+     "p": {}
+    }
+   ],
+   "text": "首先，打开命令提示符（Windows）或终端（Mac）",
+   "sha256": "6a496d9e223e749a30cd966d950db464ff43ea1f67a907990bcfa9a82a2d24eb",
+   "i": 11412
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "打开方法这里就不多叙述了。",
+     "p": {}
+    }
+   ],
+   "text": "打开方法这里就不多叙述了。",
+   "sha256": "8d19704e586067ca6119e787c8e1c9ae038c434d8d01b3df67a9883336d73d03",
+   "i": 11413
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后复制这一串代码：",
+     "p": {}
+    }
+   ],
+   "text": "然后复制这一串代码：",
+   "sha256": "f680bb0219ac3f8209ca3546827e1365cb37428c934f89f95e6152615a14cd41",
+   "i": 11414
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "java -cp server.jar net.minecraft.data.Main",
+     "p": {}
+    }
+   ],
+   "text": "java -cp server.jar net.minecraft.data.Main",
+   "sha256": "980b98b669541a0b7179945afff87a1c901ee3a633d7b6fcf1880b808c5161b4",
+   "i": 11415
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "复制粘贴进去不要立刻执行，因为这毛用都没有，还会显示：",
+     "p": {}
+    }
+   ],
+   "text": "复制粘贴进去不要立刻执行，因为这毛用都没有，还会显示：",
+   "sha256": "b312548276725fd6c0cd9eb316da3b87c32a359c4d75bc6532c108e7f5a03831",
+   "i": 11416
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（Windows）",
+     "p": {}
+    }
+   ],
+   "text": "（Windows）",
+   "sha256": "ba7dbd1d32585172fb80463d07d44373866b21869812db5e8091dcbd5fbd22b6",
+   "i": 11417
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "错误:找不到或无法加载主类 net.minecraft.data.Main",
+     "p": {}
+    }
+   ],
+   "text": "错误:找不到或无法加载主类 net.minecraft.data.Main",
+   "sha256": "abe9403d691dcfbbdb6e661ca6e4bfebb32290cac975efe448664325e6b53b31",
+   "i": 11418
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（Mac）",
+     "p": {}
+    }
+   ],
+   "text": "（Mac）",
+   "sha256": "5a6f5d9824a7df304012aeb8405485775351de60620e4c76d430747d13732dbd",
+   "i": 11419
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "错误:找不到或无法加载主类 net.minecraft.data.Main",
+     "p": {}
+    }
+   ],
+   "text": "错误:找不到或无法加载主类 net.minecraft.data.Main",
+   "sha256": "abe9403d691dcfbbdb6e661ca6e4bfebb32290cac975efe448664325e6b53b31",
+   "i": 11420
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "原因: java.lang.ClassNotFoundException: net.minecraft.data.Main",
+     "p": {}
+    }
+   ],
+   "text": "原因: java.lang.ClassNotFoundException: net.minecraft.data.Main",
+   "sha256": "42d45cea3be575132523e56f98fbd2830a6c5876f4548dd546de269e0ade0da6",
+   "i": 11421
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么该怎么办呢？",
+     "p": {}
+    }
+   ],
+   "text": "那么该怎么办呢？",
+   "sha256": "2e841d9a330917bccb155fb572d83260cb57a4030d7ae770033e3d68f348f46a",
+   "i": 11422
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其实很简单，你直接输入进去这系统压根就找不到server.jar这个文件，所以，这里你就要这样子：",
+     "p": {}
+    }
+   ],
+   "text": "其实很简单，你直接输入进去这系统压根就找不到server.jar这个文件，所以，这里你就要这样子：",
+   "sha256": "d19387680fd1c1fa428da1e95cce406f5733657bd13a821f0ca5ff46f9485851",
+   "i": 11423
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "打开你的server.jar所在的文件位置，然后直接把整个server.jar文件拖进去，你就会发现系统自动给你输入了server.jar的路径。",
+     "p": {}
+    }
+   ],
+   "text": "打开你的server.jar所在的文件位置，然后直接把整个server.jar文件拖进去，你就会发现系统自动给你输入了server.jar的路径。",
+   "sha256": "21133bd91fc301402d603ba40d9bd073969457c28d86f62a4bbcb25ee90c8d9e",
+   "i": 11424
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在好了，你只需要用这段路径替换原来的server.jar，比如你的server.jar路径是：",
+     "p": {}
+    }
+   ],
+   "text": "现在好了，你只需要用这段路径替换原来的server.jar，比如你的server.jar路径是：",
+   "sha256": "6f30ac2f56d0290f603503bc57dd5aba885d8797e5ca7c01759c9c2331c6ef12",
+   "i": 11425
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar（Windows）",
+     "p": {}
+    }
+   ],
+   "text": "D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar（Windows）",
+   "sha256": "511d7a53beb3067b8a4aec03d95821601b03e346d91cfad62acadfb198b72635",
+   "i": 11426
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/Users/block/Desktop/桌面文件/Server/server.jar（Mac）",
+     "p": {}
+    }
+   ],
+   "text": "/Users/block/Desktop/桌面文件/Server/server.jar（Mac）",
+   "sha256": "2f013a6ebe105304011faa18052b87ae5ea2c6a3a23b267715432c45243eb8a8",
+   "i": 11427
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么你替换之后，就会变成这个样子：",
+     "p": {}
+    }
+   ],
+   "text": "那么你替换之后，就会变成这个样子：",
+   "sha256": "30e66f8ee3aedac304fc670c0a6bce938873c81fb50abba7562ed2c07336a13f",
+   "i": 11428
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main（Windows）",
+     "p": {}
+    }
+   ],
+   "text": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main（Windows）",
+   "sha256": "8b264b0ae6f787431b07d0a2feb7e461871f1aaad5c999865169e471ee67a7ca",
+   "i": 11429
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "java -cp /Users/block/Desktop/桌面文件/Server/server.jar net.minecraft.data.Main（Mac）",
+     "p": {}
+    }
+   ],
+   "text": "java -cp /Users/block/Desktop/桌面文件/Server/server.jar net.minecraft.data.Main（Mac）",
+   "sha256": "cc2df55de86a5edbf0663a3fda4f46b81c4960b596fa5c5b8f5594bcccb4577a",
+   "i": 11430
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，执行，你就成功——走出了第一步。系统找到了这个server.jar，并执行了指令，只要你这个server.jar是1.13版本及以上的，那么就会跳出：",
+     "p": {}
+    }
+   ],
+   "text": "现在，执行，你就成功——走出了第一步。系统找到了这个server.jar，并执行了指令，只要你这个server.jar是1.13版本及以上的，那么就会跳出：",
+   "sha256": "7ba4df867ea3690bc914422c3fe2348ef5be624ee237ae6bde78848dc891e734",
+   "i": 11431
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Option Description",
+     "p": {}
+    }
+   ],
+   "text": "Option Description",
+   "sha256": "e262d629c99156bd48e759790fae3387d08f1b1651ff7ec74a3ca9ad9202e0c9",
+   "i": 11432
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-----------------",
+     "p": {}
+    }
+   ],
+   "text": "-----------------",
+   "sha256": "1309755be1f7a30d986e6e11fc11bed1cd5dbc3c83257cf85e985848e938cef3",
+   "i": 11433
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--all Include all generators",
+     "p": {}
+    }
+   ],
+   "text": "--all Include all generators",
+   "sha256": "0a87da0c1435ff3dde043dcb2ead5dfeaaed386ae75da15954aa53f01e191d83",
+   "i": 11434
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--client Include client generators",
+     "p": {}
+    }
+   ],
+   "text": "--client Include client generators",
+   "sha256": "0512cd20909cf3f6a9e038324722085bdb43fb547d721d4612ab0901ff7b6447",
+   "i": 11435
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--dev Include development tools",
+     "p": {}
+    }
+   ],
+   "text": "--dev Include development tools",
+   "sha256": "1801b71721cfbe3fe49426f420b70f4b7f0717197389dd271d5d5a34c07a0c67",
+   "i": 11436
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--help Show the help menu",
+     "p": {}
+    }
+   ],
+   "text": "--help Show the help menu",
+   "sha256": "d713a18d6afc47949c04178c1fb241a439dc3dd27df2d82a5e72344e410fde90",
+   "i": 11437
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--input&amp;amp;lt;String&amp;amp;gt; Input folder",
+     "p": {}
+    }
+   ],
+   "text": "--input&amp;amp;lt;String&amp;amp;gt; Input folder",
+   "sha256": "06646493db69bd6c5af29ce2fd53bf291cae774c16d4b6c8722fb9a060b904e2",
+   "i": 11438
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--output&amp;amp;lt;String&amp;amp;gt; Output folder (default: generated)",
+     "p": {}
+    }
+   ],
+   "text": "--output&amp;amp;lt;String&amp;amp;gt; Output folder (default: generated)",
+   "sha256": "77127afef5f96e9618c09a51c5c64ccafcfea5201c80a0a0cf4719fcd8e40aad",
+   "i": 11439
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--reports Include data reports",
+     "p": {}
+    }
+   ],
+   "text": "--reports Include data reports",
+   "sha256": "d6cc6f925c540e6a80fa89fc0262e4f0b02eb36b37a9311d71ed35297e944405",
+   "i": 11440
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--server Include server generators",
+     "p": {}
+    }
+   ],
+   "text": "--server Include server generators",
+   "sha256": "6e632a358df69732ecfc5c562a4817cd50b6d9d02ade9ef4fc5ae515d8230887",
+   "i": 11441
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是啥意思呢？我们把这一大串放到生草机里去搅拌一下，就会得到：",
+     "p": {}
+    }
+   ],
+   "text": "这是啥意思呢？我们把这一大串放到生草机里去搅拌一下，就会得到：",
+   "sha256": "aa1b5f9eb92317cfa8df0a0d8ec4a694c932d9fe2d4fe4f1875fec828d7f5102",
+   "i": 11442
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "选项说明",
+     "p": {}
+    }
+   ],
+   "text": "选项说明",
+   "sha256": "d85670f441fe91121edaf6babf7db7585a377d3ab3264b7057b5d64fb146fdf0",
+   "i": 11443
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-----------------",
+     "p": {}
+    }
+   ],
+   "text": "-----------------",
+   "sha256": "1309755be1f7a30d986e6e11fc11bed1cd5dbc3c83257cf85e985848e938cef3",
+   "i": 11444
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--全部",
+     "p": {}
+    }
+   ],
+   "text": "--全部",
+   "sha256": "24b434c6d80f53d4ec7a1ea93ff76c8fc71cb0292d292713b046d25f1cfd8fa7",
+   "i": 11445
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "包括所有发电机",
+     "p": {}
+    }
+   ],
+   "text": "包括所有发电机",
+   "sha256": "bce71e4974aca478968b1866313d8b08978874901f99db964acf9cfc6623afc1",
+   "i": 11446
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--客户",
+     "p": {}
+    }
+   ],
+   "text": "--客户",
+   "sha256": "6568218fe368f09ed5b0cc358d21c5deaddebd933c695dd17ca11f12bf9c3441",
+   "i": 11447
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "包括客户端生成器",
+     "p": {}
+    }
+   ],
+   "text": "包括客户端生成器",
+   "sha256": "83ddd103fc25afdb50e5820cedaac3f5c6287916959af661913eaf0110b044d3",
+   "i": 11448
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--开发",
+     "p": {}
+    }
+   ],
+   "text": "--开发",
+   "sha256": "e49698173cd69587d37b5b728406c457a4a6acc90005ef43e0ef0079b19131d9",
+   "i": 11449
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "包括开发工具",
+     "p": {}
+    }
+   ],
+   "text": "包括开发工具",
+   "sha256": "684f96e0bb46a173a7685c7cf00f1fea9a957092f0862dbfaf19aced7eb37a8f",
+   "i": 11450
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--救命",
+     "p": {}
+    }
+   ],
+   "text": "--救命",
+   "sha256": "3e84f9e7e817d7d873431a86a98b1938ad208f2fb29c0c2d5346af7864640442",
+   "i": 11451
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "显示帮助菜单",
+     "p": {}
+    }
+   ],
+   "text": "显示帮助菜单",
+   "sha256": "9c874a373e51620658b9ac6537ef908a468208c97b69dad04085326b96d54274",
+   "i": 11452
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--输入",
+     "p": {}
+    }
+   ],
+   "text": "--输入",
+   "sha256": "43145a0ea192d94501a5f9c1811012a77092c99b5b8b15cc5ab5aa25025b121a",
+   "i": 11453
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "输入文件夹",
+     "p": {}
+    }
+   ],
+   "text": "输入文件夹",
+   "sha256": "6fb8ea8a351e8b55e4bedad55320e4c497aae6c26d7669b532d406c8cb0edf69",
+   "i": 11454
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--输出",
+     "p": {}
+    }
+   ],
+   "text": "--输出",
+   "sha256": "5ee1689cbd4c381d97f30431b79ac13e404423df4ffe180e16ad285dce93f65a",
+   "i": 11455
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "输出文件夹（默认：生成）",
+     "p": {}
+    }
+   ],
+   "text": "输出文件夹（默认：生成）",
+   "sha256": "963b5f69cd1b95cc9fb1e877524b75ad8b9004849fb0429b66b60a56c85beb27",
+   "i": 11456
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--报告",
+     "p": {}
+    }
+   ],
+   "text": "--报告",
+   "sha256": "7fc83a2fb1eea53043855cf5b57103bf5032bc992d91b14a12addbaec0adacfd",
+   "i": 11457
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "包括数据报告",
+     "p": {}
+    }
+   ],
+   "text": "包括数据报告",
+   "sha256": "56326e657d9c7f599f1e15997fe35415d80425e359fb83dd439ed19aaa2609b2",
+   "i": 11458
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--服务器",
+     "p": {}
+    }
+   ],
+   "text": "--服务器",
+   "sha256": "9d46c2b0ecc44c956ea3d75f6db06ef5172b8709c5c413b890465824513b2643",
+   "i": 11459
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "包括服务器生成器",
+     "p": {}
+    }
+   ],
+   "text": "包括服务器生成器",
+   "sha256": "be19782b22bb962e637541e400e05d25177231db8941a88d5d335e549420990a",
+   "i": 11460
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "差不多可以看出一些端倪，只不过这仍然太生草了。所以我们需要上一下Minecraft Wiki，得出这些东西的具体用途是：",
+     "p": {}
+    }
+   ],
+   "text": "差不多可以看出一些端倪，只不过这仍然太生草了。所以我们需要上一下Minecraft Wiki，得出这些东西的具体用途是：",
+   "sha256": "2f973589aa2a7aaf0596a6240f3cc4402efe015b73f0b05df33af8f1d8e5cde9",
+   "i": 11461
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--all 生成原版数据包",
+     "p": {}
+    }
+   ],
+   "text": "--all 生成原版数据包",
+   "sha256": "b9f1e4405cf0d15685d406d3ceafbd9af36a2c91eca12087d7b46cb750566655",
+   "i": 11462
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--client 生成assets/minecraft文件夹，包含blockstates和models文件夹",
+     "p": {}
+    }
+   ],
+   "text": "--client 生成assets/minecraft文件夹，包含blockstates和models文件夹",
+   "sha256": "9b72917de02d1e91736a5c0317c3fd6503963832d63d2737710747de55cfdfa6",
+   "i": 11463
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--dev 用于NBT文件和SNBT文件的相互转换",
+     "p": {}
+    },
+    {
+     "t": "‌",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "[需要验证]",
+     "p": {}
+    }
+   ],
+   "text": "--dev 用于NBT文件和SNBT文件的相互转换‌[需要验证]",
+   "sha256": "c8efaae10cb75e2cdf632adf0447581b24c20005b90e9208878e3af53016cd03",
+   "i": 11464
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--help 显示选项和描述列表",
+     "p": {}
+    }
+   ],
+   "text": "--help 显示选项和描述列表",
+   "sha256": "b46494533ccdfabd4737a15697c329a6107864292f4632d33190059e5d17dc5c",
+   "i": 11465
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--input 输入含有nbt或snbt文件的文件夹",
+     "p": {}
+    }
+   ],
+   "text": "--input 输入含有nbt或snbt文件的文件夹",
+   "sha256": "dd694a1af670af0a802c0ac7726da1303eb285dc3a5f741c336760d9bb1eb9a7",
+   "i": 11466
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--output 规定输出的目标文件夹，若目标文件夹不存在则自动新建该文件夹（默认为generated）",
+     "p": {}
+    }
+   ],
+   "text": "--output 规定输出的目标文件夹，若目标文件夹不存在则自动新建该文件夹（默认为generated）",
+   "sha256": "924fe79654940ba7b2b809303fb63b636311ff9f920358a1cef058cac63c79eb",
+   "i": 11467
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--reports 生成reports文件夹，包含biomes文件夹和blocks、commands、registries三个JSON文件",
+     "p": {}
+    }
+   ],
+   "text": "--reports 生成reports文件夹，包含biomes文件夹和blocks、commands、registries三个JSON文件",
+   "sha256": "2830210bb6f6968b736917910a6aa44cfe636b70e8131f51a04128d68828972d",
+   "i": 11468
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--server 生成data/minecraft文件夹，包含advancements、loot_tables、recipes、tags四个文件夹",
+     "p": {}
+    }
+   ],
+   "text": "--server 生成data/minecraft文件夹，包含advancements、loot_tables、recipes、tags四个文件夹",
+   "sha256": "5051bb05a8b22ac5649566fead44bcdf2c2a51c28ef89bd130be34490e1069b9",
+   "i": 11469
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--validate [需要更多信息]",
+     "p": {}
+    }
+   ],
+   "text": "--validate [需要更多信息]",
+   "sha256": "cf75635533ca53b02468eeb68a20c8a14c7dc08bdddf269d59278c015a5c0e4d",
+   "i": 11470
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在我们可以尝试生成一个原版的数据包，这就需要在控制台上输入：",
+     "p": {}
+    }
+   ],
+   "text": "现在我们可以尝试生成一个原版的数据包，这就需要在控制台上输入：",
+   "sha256": "ab871e5db3ce7967d151a64c6543eda09c614fcd22d5088ef1353801686076f3",
+   "i": 11471
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main --all（没错，只需要在原本的后面加上你要执行的指令就可以了），回车运行。",
+     "p": {}
+    }
+   ],
+   "text": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main --all（没错，只需要在原本的后面加上你要执行的指令就可以了），回车运行。",
+   "sha256": "f491a974cae9fa2cb2b37848f441c5886e55c1d7c955d36d44d0547b0f0c0b71",
+   "i": 11472
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后你就会发现出现了一大串的信息。",
+     "p": {}
+    }
+   ],
+   "text": "然后你就会发现出现了一大串的信息。",
+   "sha256": "2b7fa2c19c4e9fdff16ac09453b44b0967e5fdb675d5f82197e012ccea6118ff",
+   "i": 11473
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "接着，到目录去查看......",
+     "p": {}
+    }
+   ],
+   "text": "接着，到目录去查看......",
+   "sha256": "762118ae88aae6600fe40bb6667a909a32596dd165ff6ab6fad5481ad811b199",
+   "i": 11474
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "反正作者这边什么东西也没有生成。Minecraft Wiki上还写着：",
+     "p": {}
+    }
+   ],
+   "text": "反正作者这边什么东西也没有生成。Minecraft Wiki上还写着：",
+   "sha256": "5eaa6d902e88a8876cf166026660aa6e330cb5456da20ae79907af7b46c1b901",
+   "i": 11475
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "原版数据包（pack.mcmeta文件除外）将生成在当前文件夹的generated目录中。",
+     "p": {}
+    }
+   ],
+   "text": "原版数据包（pack.mcmeta文件除外）将生成在当前文件夹的generated目录中。",
+   "sha256": "15a53b7fc81160189fed91ba6e5f41e20ff724d5d1f72ebe5962a40b15922b45",
+   "i": 11476
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "难不成是打开方式不对？",
+     "p": {}
+    }
+   ],
+   "text": "难不成是打开方式不对？",
+   "sha256": "fe573307ce84eb704c5572c429767b23cda39a8df50eb66d35c677d5c8e841a2",
+   "i": 11477
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "来试试其他的功能吧，比如这个--help，看一下会有什么帮助：",
+     "p": {}
+    }
+   ],
+   "text": "来试试其他的功能吧，比如这个--help，看一下会有什么帮助：",
+   "sha256": "16dc5851fed5f96e7b673f97db6a1c73353159db10867be8a6277eaf6f3e2c6d",
+   "i": 11478
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main --help",
+     "p": {}
+    }
+   ],
+   "text": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main --help",
+   "sha256": "d3cf31b90db5ba2bdf99009bfbf99a7d2ad04558219cb7ac1654bc0279f4e06c",
+   "i": 11479
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "结果......还是这个界面：",
+     "p": {}
+    }
+   ],
+   "text": "结果......还是这个界面：",
+   "sha256": "8b2b2ab2faf0ee6b4a36e7f07327019398d5c084d5c845cbb30258f700e13348",
+   "i": 11480
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Option Description",
+     "p": {}
+    }
+   ],
+   "text": "Option Description",
+   "sha256": "e262d629c99156bd48e759790fae3387d08f1b1651ff7ec74a3ca9ad9202e0c9",
+   "i": 11481
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-----------------",
+     "p": {}
+    }
+   ],
+   "text": "-----------------",
+   "sha256": "1309755be1f7a30d986e6e11fc11bed1cd5dbc3c83257cf85e985848e938cef3",
+   "i": 11482
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--all Include all generators",
+     "p": {}
+    }
+   ],
+   "text": "--all Include all generators",
+   "sha256": "0a87da0c1435ff3dde043dcb2ead5dfeaaed386ae75da15954aa53f01e191d83",
+   "i": 11483
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--client Include client generators",
+     "p": {}
+    }
+   ],
+   "text": "--client Include client generators",
+   "sha256": "0512cd20909cf3f6a9e038324722085bdb43fb547d721d4612ab0901ff7b6447",
+   "i": 11484
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--dev Include development tools",
+     "p": {}
+    }
+   ],
+   "text": "--dev Include development tools",
+   "sha256": "1801b71721cfbe3fe49426f420b70f4b7f0717197389dd271d5d5a34c07a0c67",
+   "i": 11485
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--help Show the help menu",
+     "p": {}
+    }
+   ],
+   "text": "--help Show the help menu",
+   "sha256": "d713a18d6afc47949c04178c1fb241a439dc3dd27df2d82a5e72344e410fde90",
+   "i": 11486
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--input Input folder",
+     "p": {}
+    }
+   ],
+   "text": "--input Input folder",
+   "sha256": "ca0d6594fbb30270f18c5751fa47db873648ca94dd0d982569bc321ae84cb7e7",
+   "i": 11487
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--output Output folder (default: generated)",
+     "p": {}
+    }
+   ],
+   "text": "--output Output folder (default: generated)",
+   "sha256": "8259cd7ea5de32896261ea0a9bb746bb8187337e4787cc523a09605960842e39",
+   "i": 11488
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--reports Include data reports",
+     "p": {}
+    }
+   ],
+   "text": "--reports Include data reports",
+   "sha256": "d6cc6f925c540e6a80fa89fc0262e4f0b02eb36b37a9311d71ed35297e944405",
+   "i": 11489
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--server Include server generators",
+     "p": {}
+    }
+   ],
+   "text": "--server Include server generators",
+   "sha256": "6e632a358df69732ecfc5c562a4817cd50b6d9d02ade9ef4fc5ae515d8230887",
+   "i": 11490
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "就很离谱。",
+     "p": {}
+    }
+   ],
+   "text": "就很离谱。",
+   "sha256": "7aba35aa2ed032af722d53f0c0fafed077d08d3e860363344805a79338af281d",
+   "i": 11491
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "对了，我们最开始不是要转换文件的吗？咋弄成这个了？",
+     "p": {}
+    }
+   ],
+   "text": "对了，我们最开始不是要转换文件的吗？咋弄成这个了？",
+   "sha256": "df7db05f5038a94833ffab1fcd942705fa6b55dd3cc07c79f5f4c7e6e14c82e5",
+   "i": 11492
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "好，那现在我们就开始尝试一下--dev：",
+     "p": {}
+    }
+   ],
+   "text": "好，那现在我们就开始尝试一下--dev：",
+   "sha256": "5733a5d9f9db58b4b7edbd8967ad3a1a96e00f7e8ee28975a42476dc77dea1ac",
+   "i": 11493
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main --dev --input“D:\\Minecraft\\Minecraft Server\\1.13.2\\world“",
+     "p": {}
+    }
+   ],
+   "text": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main --dev --input“D:\\Minecraft\\Minecraft Server\\1.13.2\\world“",
+   "sha256": "4f3687b2ab273b75499ed52a769625946acf79d2a48e9d66ca72dc15e04646d6",
+   "i": 11494
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后......",
+     "p": {}
+    }
+   ],
+   "text": "然后......",
+   "sha256": "3c4a12a8d112b10495d0dcee6258b09e1f0a45d885567236d78357bec7d173c5",
+   "i": 11495
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "实际上这是一个错误的做法。正确的做法应该这样子：",
+     "p": {}
+    }
+   ],
+   "text": "实际上这是一个错误的做法。正确的做法应该这样子：",
+   "sha256": "c5add3cf39ccf70ccc6292879ac232bc41c5fc6d4c715e301d0e31743aa5c57a",
+   "i": 11496
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在服务端这个目录创建一个新的文件夹（实际上也不用创建，创建只是为了更好的把要转换的文件集中起来），并将其取名为：input",
+     "p": {}
+    }
+   ],
+   "text": "在服务端这个目录创建一个新的文件夹（实际上也不用创建，创建只是为了更好的把要转换的文件集中起来），并将其取名为：input",
+   "sha256": "d1cc701e446f5e02bbe0146fe3bd32ad57756a7e242d2e116a621eca799f542b",
+   "i": 11497
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后，找到实际上是以NBT存储的.dat的文件（比如world下的level.dat），将它们丢进去。",
+     "p": {}
+    }
+   ],
+   "text": "然后，找到实际上是以NBT存储的.dat的文件（比如world下的level.dat），将它们丢进去。",
+   "sha256": "21a4a9c7d403d5df1c8d6ddcc16dc4b930a9d57bd3c6f59a2a67ba59f42ed68d",
+   "i": 11498
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "接下来，改这些文件的后缀.dat为.nbt。",
+     "p": {}
+    }
+   ],
+   "text": "接下来，改这些文件的后缀.dat为.nbt。",
+   "sha256": "7bb19dfa0c957af777f8ad79d7284772a1e8871ce84c19230efc006622e40868",
+   "i": 11499
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后，最重要的一点，执行：",
+     "p": {}
+    }
+   ],
+   "text": "最后，最重要的一点，执行：",
+   "sha256": "2bca85dadec4e02e845f260479c4b6f70022e6d4987316cb551d0cbe5674cc4e",
+   "i": 11500
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main --dev --input “D:\\Minecraft\\Minecraft Server\\1.13.2\\input“",
+     "p": {}
+    }
+   ],
+   "text": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main --dev --input “D:\\Minecraft\\Minecraft Server\\1.13.2\\input“",
+   "sha256": "629c21c8f2c2c42cf83e5cebacbadf1f09940f30461d729b97aa09bd7be9347a",
+   "i": 11501
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（注意，空格一定要空，作者最开始时就是少了一个空格，然后就是一堆问题！特别是--input和后面的文件夹路径中间一定要空！这是个坑！）",
+     "p": {}
+    }
+   ],
+   "text": "（注意，空格一定要空，作者最开始时就是少了一个空格，然后就是一堆问题！特别是--input和后面的文件夹路径中间一定要空！这是个坑！）",
+   "sha256": "d8a8db4bc5b66413cea6b0503c6ffaaf40d28a92451fb8e5dd7c182f299ceafe",
+   "i": 11502
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后，当出现：",
+     "p": {}
+    }
+   ],
+   "text": "然后，当出现：",
+   "sha256": "bc702c1a2decc19968fe21cfaa6df7f6d033e12e990c512b302d68cf809d1a9c",
+   "i": 11503
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "[xx:xx:xx][main/INFO]: Starting provider: NBT to SNBT",
+     "p": {}
+    }
+   ],
+   "text": "[xx:xx:xx][main/INFO]: Starting provider: NBT to SNBT",
+   "sha256": "e3640c04edf9e8409441db71774b590cf9da023584c536357c13eeacd0eae837",
+   "i": 11504
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "[xx:xx:xx][main/INFO]: Converted level from NBT to SNBT",
+     "p": {}
+    }
+   ],
+   "text": "[xx:xx:xx][main/INFO]: Converted level from NBT to SNBT",
+   "sha256": "7652e7a7b43f325d3229c81fb1cf252c6cdf2a6cf17be8cfd28e02a3135f13c3",
+   "i": 11505
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "[xx:xx:xx][main/INFO]: NBT to SNBT finished after xxx ms",
+     "p": {}
+    }
+   ],
+   "text": "[xx:xx:xx][main/INFO]: NBT to SNBT finished after xxx ms",
+   "sha256": "50ab35fde90d8cd24f2bab23689f70e257dc7b280da2f5f3a0b509b5ce6166a2",
+   "i": 11506
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "恭喜你！你成功了！",
+     "p": {}
+    }
+   ],
+   "text": "恭喜你！你成功了！",
+   "sha256": "7a9af863f4fb9502b7958d5210ef23b11452c0927f43218a95fcc2294d6a5f2f",
+   "i": 11507
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但转换后的文件去哪了呢？",
+     "p": {}
+    }
+   ],
+   "text": "但转换后的文件去哪了呢？",
+   "sha256": "aa9df343abd07bb1015b634f1bb60b09db8e5fbd2f581ae8cca7fcf3891acbee",
+   "i": 11508
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案很简单：",
+     "p": {}
+    }
+   ],
+   "text": "答案很简单：",
+   "sha256": "24bbeb9cf536ffecc0bb475ea87c2dbe0d2c10c5a2c62bcd5bb45a2aab7772b6",
+   "i": 11509
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C:\\Users\\XXXXX\\generated（Windows）",
+     "p": {}
+    }
+   ],
+   "text": "C:\\Users\\XXXXX\\generated（Windows）",
+   "sha256": "7f5d3322b35a5dd0c512f84d1f71fe2ade9d3e0b3d9c0b86c25d10d691adae7b",
+   "i": 11510
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/Users/XXXXXX/generated（Mac）",
+     "p": {}
+    }
+   ],
+   "text": "/Users/XXXXXX/generated（Mac）",
+   "sha256": "729d16547ede5384b293c0b8dfe792e7a47a816336a4bcb756c5d86e9ca920f3",
+   "i": 11511
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "找到这个目录，你就会发现了自己期待已久的：",
+     "p": {}
+    }
+   ],
+   "text": "找到这个目录，你就会发现了自己期待已久的：",
+   "sha256": "c07ea7e0a4e38dcf6a990bfce6fa5f91ad88536e61fdda282c8387fb00fc977d",
+   "i": 11512
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".snbt！",
+     "p": {}
+    }
+   ],
+   "text": ".snbt！",
+   "sha256": "737fd6622e561ac2058692f07737d990785aecca0f3e0bbe01b49af6dc4fc6b8",
+   "i": 11513
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个文件你现在可以用记事本来打开并修改了。",
+     "p": {}
+    }
+   ],
+   "text": "这个文件你现在可以用记事本来打开并修改了。",
+   "sha256": "40aca8e603d7fe350c187adc24c7af37abaa6c8f6441614e7d0ced5fc7071b94",
+   "i": 11514
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但现在问题又来了，我们现在可以使用dev来进行.nbt→.snbt，那该怎么.nbt←.snbt呢？",
+     "p": {}
+    }
+   ],
+   "text": "但现在问题又来了，我们现在可以使用dev来进行.nbt→.snbt，那该怎么.nbt←.snbt呢？",
+   "sha256": "bb7db12a4ef05fa69a25cc83c11aba32987e32c86c7f283d2ac45f11cc22388e",
+   "i": 11515
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很简单。我们把刚才弄出来的.snbt文件再放进input文件夹，顺便删掉那个.nbt。再度执行：",
+     "p": {}
+    }
+   ],
+   "text": "很简单。我们把刚才弄出来的.snbt文件再放进input文件夹，顺便删掉那个.nbt。再度执行：",
+   "sha256": "52bedaee1ea24a92b95e6193bdcf142d707ebd348ffee3b03f0f9d7d20cf850d",
+   "i": 11516
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main --dev --input “D:\\Minecraft\\Minecraft Server\\1.13.2\\input“",
+     "p": {}
+    }
+   ],
+   "text": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main --dev --input “D:\\Minecraft\\Minecraft Server\\1.13.2\\input“",
+   "sha256": "629c21c8f2c2c42cf83e5cebacbadf1f09940f30461d729b97aa09bd7be9347a",
+   "i": 11517
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后你就会发现这不行。",
+     "p": {}
+    }
+   ],
+   "text": "然后你就会发现这不行。",
+   "sha256": "751c9ae196e9554af6ddd447ce801ceb8073b8cf5abe9142d995d56e6a44f63e",
+   "i": 11518
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为啥呢？Minecraft Wiki上说：",
+     "p": {}
+    }
+   ],
+   "text": "为啥呢？Minecraft Wiki上说：",
+   "sha256": "5551ee9ec84c2474c722c1e7b42f335c5c698e166a23bd4cdb2474d9e0371286",
+   "i": 11519
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用于NBT文件和SNBT文件的相互转换",
+     "p": {}
+    },
+    {
+     "t": "‌",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "[需要验证]",
+     "p": {}
+    }
+   ],
+   "text": "用于NBT文件和SNBT文件的相互转换‌[需要验证]",
+   "sha256": "fa543dfd4d7ec56b110d5ec815774fa3c29ec2eb8bdad9664b223b72ab2de8f4",
+   "i": 11520
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很明显这里错了，--dev只能是.nbt→.snbt，并不能.nbt←.snbt。",
+     "p": {}
+    }
+   ],
+   "text": "很明显这里错了，--dev只能是.nbt→.snbt，并不能.nbt←.snbt。",
+   "sha256": "0d1171a1c829989570fcfb1ed8b0d2659496394b6b1e41989e632032b5ab3741",
+   "i": 11521
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那该怎么办呢？",
+     "p": {}
+    }
+   ],
+   "text": "那该怎么办呢？",
+   "sha256": "d311ea071bfc382ab4f3e8a5fcbb965ef60470efd594c85247814f1f5b2fb6ac",
+   "i": 11522
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用--client：",
+     "p": {}
+    }
+   ],
+   "text": "使用--client：",
+   "sha256": "4bf932a8b2941dc454385cf7755c745fbe21fe291ae39f343f58ead85de80938",
+   "i": 11523
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main --client --input “D:\\Minecraft\\Minecraft Server\\1.13.2\\input“",
+     "p": {}
+    }
+   ],
+   "text": "java -cp D:\\Minecraft\\Minecraft Server\\1.13.2\\我的世界1.13.2官方服务端.jar net.minecraft.data.Main --client --input “D:\\Minecraft\\Minecraft Server\\1.13.2\\input“",
+   "sha256": "67b96e5280e370f3060e2922ec9c622c88a0886a420380c32846b6b86ac901ce",
+   "i": 11524
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后：",
+     "p": {}
+    }
+   ],
+   "text": "然后：",
+   "sha256": "028cece6437033f440d9afe94aafb548c0e80b27295d7cf35a581bc099961050",
+   "i": 11525
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "[xx:xx:xx][main/INFO]: Starting provider: SNBT -&amp;amp;gt; NBT",
+     "p": {}
+    }
+   ],
+   "text": "[xx:xx:xx][main/INFO]: Starting provider: SNBT -&amp;amp;gt; NBT",
+   "sha256": "6f703a1cc138f47a3b5200593c7ed1b1f597a7096b695fe250c22108005eb4f7",
+   "i": 11526
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "[xx:xx:xx][main/INFO]: SNBT -&amp;amp;gt; NBT finished after xxx ms",
+     "p": {}
+    }
+   ],
+   "text": "[xx:xx:xx][main/INFO]: SNBT -&amp;amp;gt; NBT finished after xxx ms",
+   "sha256": "e696846d681fa664294abb79f9f13eb3f7800ab1b495939f07a003cdf7e437ee",
+   "i": 11527
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft Wiki上这样介绍--client：",
+     "p": {}
+    }
+   ],
+   "text": "Minecraft Wiki上这样介绍--client：",
+   "sha256": "ad0309ee95046a5efae3302951e4e6b178a10039309d9b0af8acfb2a9a3dad92",
+   "i": 11528
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "生成assets/minecraft文件夹，包含blockstates和models文件夹",
+     "p": {}
+    }
+   ],
+   "text": "生成assets/minecraft文件夹，包含blockstates和models文件夹",
+   "sha256": "a67dd67d0af01498dd65ac820b9d90e746c1d7b9b64590214efd03664579a421",
+   "i": 11529
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很明显这句话完全错误（来自2021-8-5的注：实际上并不是完全错误，确实有这功能，只不过还附带了.nbt←.snbt的功能）。实际上，--client的作用就是.nbt←.snbt。现在你打开generated，你就会发现.snbt重新被转换成了.nbt。",
+     "p": {}
+    }
+   ],
+   "text": "很明显这句话完全错误（来自2021-8-5的注：实际上并不是完全错误，确实有这功能，只不过还附带了.nbt←.snbt的功能）。实际上，--client的作用就是.nbt←.snbt。现在你打开generated，你就会发现.snbt重新被转换成了.nbt。",
+   "sha256": "4ec4707ec30cfb8e47d74ba06f14bab7ee3af0795be1e90a5b9c6aeff2a7bd8d",
+   "i": 11530
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在我们知道了--dev是.nbt→.snbt，--client是.nbt←.snbt，也发现了Minecraft Wiki中的错误。剩下的内容，我们就以后再研究了，毕竟剩下的不是本章的重点。",
+     "p": {}
+    }
+   ],
+   "text": "现在我们知道了--dev是.nbt→.snbt，--client是.nbt←.snbt，也发现了Minecraft Wiki中的错误。剩下的内容，我们就以后再研究了，毕竟剩下的不是本章的重点。",
+   "sha256": "9d7e4a20300b11612da833ef1cc797de9c6c073a195e6a66c6d2b0ce9218a335",
+   "i": 11531
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "OK那么NBT就讲到这了。我们下一章再见。",
+     "p": {}
+    }
+   ],
+   "text": "OK那么NBT就讲到这了。我们下一章再见。",
+   "sha256": "276e6b02011bd6e5aa258a1e5433d579a35faaa1d1ef28018b18c7babaaa3ae1",
+   "i": 11532
+  }
+ ],
+ "text_sha256": "66002c271087b89a3532d78f67c9c6fbc49e2f3513b3539aff12aa0e8b355b9b",
+ "chars": 6339
+}

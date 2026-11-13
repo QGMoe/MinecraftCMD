@@ -1,0 +1,74 @@
+{
+ "id": "vol02",
+ "kind": "volume",
+ "number": 2,
+ "title": "第二卷 常用基础指令",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   878,
+   879
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "t": "第二卷 ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "常用基础指令",
+     "p": {}
+    }
+   ],
+   "text": "第二卷 常用基础指令",
+   "sha256": "464ecf43098337c11ee8064f3129119d5940411ff449c8696a278dcc149f8399",
+   "i": 878
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "这些指令都是必懂的，想不知道都难。",
+     "p": {
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "这些指令都是必懂的，想不知道都难。",
+   "sha256": "e99ad025c10802b7bc8986aa2597e551b68471fc4a1cd1cf57705618a11250ba",
+   "i": 879
+  }
+ ],
+ "text_sha256": "42c845bc61971696b8232d17794d7ff33c91a5e5a41573e29d0feaf01ad2572c",
+ "chars": 27
+}

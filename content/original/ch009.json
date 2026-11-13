@@ -1,0 +1,1644 @@
+{
+ "id": "ch009",
+ "kind": "chapter",
+ "number": 9,
+ "title": "第九章 tp-传送指令",
+ "source": {
+  "file": "MineBBS/202第九章.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "第九章 tp-传送指令"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月4日 17:15 2073字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "（此章最后一次大修改于2022年7月9日）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　我相信在看这本书的你一定去玩过私人服务器，里面最经常使用的指令就是 tp（传送）。\r\n　　Minecraft固有的传送指令是 "
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/tp"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，其全称实际上是 "
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "teleport"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "。由于这条指令深究起来很复杂，加上目前还是学习初期，我们就先了解个皮毛就好。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/tp"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　作用"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：将一个实体传送到另一个实体或者是坐标。\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　需要权限等级"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：Java-2，基岩-1\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　需要作弊"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：是\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　格式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/tp [传送目标：目标选择器] <目的地实体：目标选择器>"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(65, 168, 95)]",
+   "arg": "rgb(65, 168, 95)"
+  },
+  {
+   "text": "这可以将选定的目标传送到另一个实体的位置，比如把张三传送到李四的位置。注意，目的地实体不能为多个，即你并不能将张三传送到李四和王五的位置（就算张三不止一个也不能这样干）。如果将传送目标省略，那么将会传送执行者自己（一般是你自己）。"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/tp [传送目标：目标选择器] <一个地点：坐标> [<水平旋转角度> <垂直旋转角度>]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(65, 168, 95)]",
+   "arg": "rgb(65, 168, 95)"
+  },
+  {
+   "text": "这可以将选定的目标传送到一个指定的地点。"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　那什么是水平旋转角度和垂直旋转角度呢？\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "水平旋转角度（yRot）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，又叫做 "
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "Y 轴旋转角度"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，指的是实体以 Y 轴为中心，俯视时顺时针的角度。听不懂？没关系，你只需要打开你手机，然后找到一个应用叫做指南针（一般手机有自带）。没有？也没关系，百度地图高德地图之类的总该有吧？或者你现场下一个指南针，甚至自己用磁铁做一个，只要有标上角度就行。\r\n　　打开指南针，你就会发现在这个指南针的外侧有一圈度数，以正北（0°）开始，顺时针绕一圈 360° 再回到正北。\r\n　　这个度数叫做什么呢？叫做"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "真北方位角"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。相应的，以正南（0°）开始，也是顺时针绕一圈 360° 再回到正南的，就是"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "真南方位角"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n　　由于我们位于北半球，所以常见的是以正北为 0°，也就是采用真北方位角的指南针。但这又和我们水平旋转角度有何关系？\r\n　　其实，我们的水平旋转角度就是 Minecraft 版的真南方位角——以实体为中心，以正南（z 轴正方向）为 0°，顺时针下来，实体朝向和正南方向的夹角（也或者说实体在真南方位角体系中朝向的角度），就是该实体的水平旋转角度。\r\n　　比如你看向正北，你的朝向按照真南方位角来看，就是朝向 180°，你的水平旋转角度就是 180°；朝向东北，就是朝向 225°，你的水平旋转角度就是 225°；朝向西南，就是朝向 45°，你的水平旋转角度就是 45°.......\r\n　　懂了吧？如果还没懂......网上随便去找一个以正南为 0° 的指南针的图片，把 Minecraft 的坐标怼上去就清楚了（以后再考虑为这个教程弄点图片）。\r\n　　另外的"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "垂直旋转角度（xRot）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，又叫做 "
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "X 轴旋转角度"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，指的是实体与水平面之间的倾斜角。这个可比水平旋转角度好理解多了，相信你应该能够看懂上面的这句话。只不过需要注意一点，对于有头或有眼睛的实体来说（比如玩家），这东西指的是头的朝向（也就是目光的朝向）与水平面之间的夹角，而不是整个身体（这就是为什么你能够看到一个头倾斜着的玩家，但你绝不可能看到一个身子倾斜着的玩家）\r\n　　"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(65, 168, 95)]",
+   "arg": "rgb(65, 168, 95)"
+  },
+  {
+   "text": "（有没有一种可能，其实 Minecraft 中的玩家朝正下方或正上方看的时候，实际上是平行与地面的，只是 Mojang 懒得做出这样的效果而已）\r\n　　（唉，这样子就能解释为什么在游戏中，第一人称的玩家看不到自己的下半身了！）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　需要注意的是，这个垂直旋转角度虽然以水平面朝向为 0°，但和上面的水平旋转角度不一样的是，这东西引入了负值：朝上为负，朝下为正。比如你头朝上 45° 看天空，那么你的垂直旋转角度就是 -45°；你头朝下 45° 看地板，那么你的垂直旋转角度就是 45°。而且，垂直旋转角度肯定不能超过 +90° 或低于 -90°。\r\n　　懂了吧？在 tp 中引入垂直旋转角度和水平旋转角度，就可以指定传送目标在传送完成后的朝向（如果未指定，将会不改变朝向，虽然可能没多大作用，但在一些 RPG 地图或服务器，能够让玩家一传过来就看到重要的告示牌或其他的一些东西，那岂不美哉？）\r\n　　比如下面的指令：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/tp @p ~ ~ ~ 90 0"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　这将会使最近的玩家朝向正西而不改变其位置。\r\n　　很简单吧？对了，既然坐标有『绝对坐标』和『相对坐标』，那么旋转角度有没有『绝对旋转角度』和『相对旋转角度』呢？\r\n　　答案是肯定的。\r\n　　和相对坐标一样，相对旋转角度也是使用符号~代表传送实体本身的朝向，以正数和负数代表角度的增加和减少。比如下面这条指令：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/tp @p ~ ~ ~ ~-30 ~1"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　假设这 @p 选中的还是上面那位被迫朝向正西的玩家，那么这条指令将会使他朝向南偏西 60°，头微微朝下 1°。\r\n　　简单吧？本章也就到这里了，对于初学者来说这些内容就已经足够了。\r\n　　上面所述的 tp 指令适用于基岩版和 Java 版。在 Java 版 1.13 版本更新之前，tp 的指令用法就这么多。而关于 1.13 版本到底对 tp 进行了怎样的更新，这些内容以及一些更加复杂的东西会在第六十四章具体讲到。\r\n"
+  },
+  {
+   "tag": "HR",
+   "raw": "[HR]"
+  },
+  {
+   "tag": "HR",
+   "raw": "[/HR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "/tp历史"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=3]",
+   "arg": "3"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "Java版"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "Classic Server"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.7"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "加入 /tp"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "Indev"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "0.31"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "移除了所有命令"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "Alpha"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "v1.0.16_01"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "重新加入了 /tp。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "正式版"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.3.1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "现在允许玩家传送到指定坐标"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.8"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "加入了朝向参数。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.9.3"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "/tp 不能在能将玩家传送到 Y=-512 到 512 以外的地方。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.10"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "Y 轴限制现在增加到 -4096 到 4096。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.13"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "将 /tp 和 /teleport 同化，/tp 也正式成为 /teleport 的别称（缩写）。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=3]",
+   "arg": "3"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "携带版（Alpha）"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "0.16.0"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "加入了 /tp。"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "SPOILER",
+   "raw": "[SPOILER=\"　　　\"]",
+   "arg": "\"　　　\""
+  },
+  {
+   "text": "\r\n　　你有没有发现，这个tp指令的旋转角度参数的格式是这样的：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "[<水平旋转角度> <垂直旋转角度>]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　这是什么意思呢？\r\n　　这个的意思就是，这两个参数都是选填的，但如果你填写了其中的一个，另外一个也就必须填写，即你并不能只填写水平旋转角度或只填写垂直旋转角度，而把另外一个空着。\r\n　　知道了吧？那么本章到这里就完全结束了。\r\n"
+  },
+  {
+   "tag": "SPOILER",
+   "raw": "[/SPOILER]",
+   "close": true
+  }
+ ],
+ "raw_sha256": "bcfdb9bfd226a9f6cf1cd2ef0ee7ab06d83a1beb28dbc9de32bf8ece256c9b5e",
+ "text_sha256": "072d66c6a5dc5715e6e2eff0d8d4c2069cd8aece1ab9e7b451087af33a9b809e",
+ "chars": 2792
+}

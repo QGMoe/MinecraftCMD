@@ -1,0 +1,1933 @@
+{
+ "id": "ch067",
+ "kind": "chapter",
+ "number": 67,
+ "title": "第六十七章 更高级的locate",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   4775,
+   4867
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第六十七章_更高级的locate"
+    },
+    {
+     "t": "第六十七章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " 更高级的locate",
+     "p": {}
+    }
+   ],
+   "text": "第六十七章 更高级的locate",
+   "sha256": "c6c3eed1d5c3a36b98b542bcc979b903b39f0c94453e8636ae82e44850df11b4",
+   "i": 4775
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此章节于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2022年7月13日重写）",
+     "p": {}
+    }
+   ],
+   "text": "（此章节于2022年7月13日重写）",
+   "sha256": "a72b06f66bc6c15a035c26dd06a38e8a3fa05a9a4f2eaf5101e3029e8a48c84b",
+   "i": 4776
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "近日，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Mojang在Minecraft Java1.19.1版本中添加的Player Reporting System（玩家举报系统）引起了轩然大波，许多Minecraft玩家认为这是Minecraft将要走向下坡路的前兆。",
+     "p": {}
+    }
+   ],
+   "text": "近日，Mojang在Minecraft Java1.19.1版本中添加的Player Reporting System（玩家举报系统）引起了轩然大波，许多Minecraft玩家认为这是Minecraft将要走向下坡路的前兆。",
+   "sha256": "9fcb5540d32260dea383d7a45e2f81846313d0e07be40d8373f403b6ced6ec27",
+   "i": 4777
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但这和我们暂时没有关系，相反，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.19荒野更新中的一些关于指令的更新更需要得到我们的注意。比如1.19版本中，Mojang对指令/locate的更新。",
+     "p": {}
+    }
+   ],
+   "text": "但这和我们暂时没有关系，相反，1.19荒野更新中的一些关于指令的更新更需要得到我们的注意。比如1.19版本中，Mojang对指令/locate的更新。",
+   "sha256": "8d4873773c7b9db67de30811b1a549c346385a5e0e8d71904f10c22ae2de1233",
+   "i": 4778
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在第二十一章，我们了解到了",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/locate指令的用法，也就是如下：",
+     "p": {}
+    }
+   ],
+   "text": "在第二十一章，我们了解到了/locate指令的用法，也就是如下：",
+   "sha256": "2552ab19a3b13a1438641833174b2f6629bc2d746a70f1c388199665946fcc67",
+   "i": 4779
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.19版本前",
+     "p": {}
+    }
+   ],
+   "text": "Java1.19版本前",
+   "sha256": "53f366ad1237e94d3a1c1315c70254fb5b5628fd607e30b1e7b05b73147fe934",
+   "i": 4780
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locate <结构名>",
+     "p": {}
+    }
+   ],
+   "text": "/locate <结构名>",
+   "sha256": "76ff64f2566c9adc686838f32dead4ea0693ea4b0ffac968325b01ada65996ce",
+   "i": 4781
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.19.10版本前",
+     "p": {}
+    }
+   ],
+   "text": "基岩1.19.10版本前",
+   "sha256": "5fe7d59e93b80a819dad5c9324cf09210dcad4857af67e968b87d18b08046cf4",
+   "i": 4782
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locate <结构名>[仅在未生成的区块中查找：布尔值]",
+     "p": {}
+    }
+   ],
+   "text": "/locate <结构名>[仅在未生成的区块中查找：布尔值]",
+   "sha256": "9fc27f24317b1fff0e1dd813f9f51f59e9b63f8c34bea95041bd47450b11a2fb",
+   "i": 4783
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看起来相当的简单，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Mojang也这么认为。但Mojang不只是认为这条指令简单，他们还认为这条指令简单到过于简陋。于是，在Minecraft Java1.19和Minecraft Bedrock Edition 1.19.10更新中，Mojan对/locate指令进行了大更新，变成了如下模样：",
+     "p": {}
+    }
+   ],
+   "text": "看起来相当的简单，Mojang也这么认为。但Mojang不只是认为这条指令简单，他们还认为这条指令简单到过于简陋。于是，在Minecraft Java1.19和Minecraft Bedrock Edition 1.19.10更新中，Mojan对/locate指令进行了大更新，变成了如下模样：",
+   "sha256": "269c49d3412e95531df3ee74cdade9fe238eae5eaf8f63b3c25d393bdf407972",
+   "i": 4784
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.19及之后版本",
+     "p": {}
+    }
+   ],
+   "text": "Java1.19及之后版本",
+   "sha256": "baeab88209ae246ce6152e04ffdabb14ee97b18619c8700adefdb1c069ca0241",
+   "i": 4785
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locate biome <生物群系ID>",
+     "p": {}
+    }
+   ],
+   "text": "/locate biome <生物群系ID>",
+   "sha256": "7b3d62e92810a506615863474ae7d6b3391c3d66c66eaebe62d68c1f1aadac4b",
+   "i": 4786
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locate poi <兴趣点ID>",
+     "p": {}
+    }
+   ],
+   "text": "/locate poi <兴趣点ID>",
+   "sha256": "a9b97ed461ea3a220aff3322f9aadb4931afd161d8782d2963b98204b0056bfe",
+   "i": 4787
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locate structure <结构ID>",
+     "p": {}
+    }
+   ],
+   "text": "/locate structure <结构ID>",
+   "sha256": "2cfd8327c7513ce387d9c63be76949076e9e2a8dd5038ac915dcf6369c81b1df",
+   "i": 4788
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.19.10及之后版本",
+     "p": {}
+    }
+   ],
+   "text": "基岩版1.19.10及之后版本",
+   "sha256": "4f7f73d02f08c220e096d2eb7f12d7fe103a301fce7c51f9618ba85a1c9111af",
+   "i": 4789
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locate biome <生物群系ID>",
+     "p": {}
+    }
+   ],
+   "text": "/locate biome <生物群系ID>",
+   "sha256": "7b3d62e92810a506615863474ae7d6b3391c3d66c66eaebe62d68c1f1aadac4b",
+   "i": 4790
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locate structure <结构ID> [仅在未生成的区块中查找：布尔值]",
+     "p": {}
+    }
+   ],
+   "text": "/locate structure <结构ID> [仅在未生成的区块中查找：布尔值]",
+   "sha256": "6aed226b903aa3f9cacadb2f267c8dbfa82f75ab864bbf778c37174dce6b0e19",
+   "i": 4791
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（注：基岩版的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "locate尚在更新中，有可能会发生变化）",
+     "p": {}
+    }
+   ],
+   "text": "（注：基岩版的locate尚在更新中，有可能会发生变化）",
+   "sha256": "1df53412b638604b60b80caf56818bf835a89ff43b6535c0480e4e0efadf3d68",
+   "i": 4792
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看起来仍然相当的简单。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "看起来仍然相当的简单。",
+   "sha256": "847bfe3e381e7912641c863fe77f6fe08c0964fb06d3b6a625d69fa99005092e",
+   "i": 4793
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/locate原来的功能，也就是『定位特殊的建筑（结构）』，被移植到了structure子命令中，这里我们就不细讲了。然后，Mojang将/locatebiome这条指令合并到了/locate，变成了biome子命令。最后，Mojang添加了一个新的子命令，叫做poi，可以用于查找兴趣点。",
+     "p": {}
+    }
+   ],
+   "text": "首先，/locate原来的功能，也就是『定位特殊的建筑（结构）』，被移植到了structure子命令中，这里我们就不细讲了。然后，Mojang将/locatebiome这条指令合并到了/locate，变成了biome子命令。最后，Mojang添加了一个新的子命令，叫做poi，可以用于查找兴趣点。",
+   "sha256": "06b63a2017d572d9c0672c4ec4da49a1f4aa6811aee0b6b95ae7a1074d116618",
+   "i": 4794
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "唉，什么是兴趣点？它有什么用？为什么会让我们兴趣？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "唉，什么是兴趣点？它有什么用？为什么会让我们兴趣？",
+   "sha256": "476ae0dd7b4046758a5286aea6dfa04b81016c716b3823512cd44c0fcbcefc82",
+   "i": 4795
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "待会我们会讲到，先让我们来看看这个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/locatebiome命令又是什么。",
+     "p": {}
+    }
+   ],
+   "text": "待会我们会讲到，先让我们来看看这个/locatebiome命令又是什么。",
+   "sha256": "b698eead2f2fecc4f8c481a4786962dfad24258d47e2d7900a03079c84ad8d38",
+   "i": 4796
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locatebiome",
+     "p": {}
+    }
+   ],
+   "text": "/locatebiome",
+   "sha256": "82c2ddbcb153f2ecad19d0d177a3a96eb8fcf76d56e20a50c8aaafd3053c035b",
+   "i": 4797
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：寻找指定生物群系",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：寻找指定生物群系",
+   "sha256": "6846982793714842c932040cf4acc639f5724de0a44c020198517fdb264f1693",
+   "i": 4798
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.16-1.19快照",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：Java1.16-1.19快照",
+   "sha256": "4e4e7bc13fd199a44290e937b25e9a80dedca28c4c5af3ed1cf513f7e1257331",
+   "i": 4799
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：2",
+   "sha256": "aff08ef25b94462afe12748911c3903ff5055b0df47bafd6b85a18f0aa89a86e",
+   "i": 4800
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：否",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：否",
+   "sha256": "b3a9c3c7cb901faebf261066d5ee0cbf4b4552bf726ddbf04e48ff9ad9e0f423",
+   "i": 4801
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 4802
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locatebiome <生物群系ID>",
+     "p": {}
+    }
+   ],
+   "text": "/locatebiome <生物群系ID>",
+   "sha256": "6511d4dad7b832b41f5132cffb29e52529a00233d58d4745e68c2b6750e42eae",
+   "i": 4803
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locatebiome这条指令添加于1.16版本，其功能类似于当时的/locate指令，可以查找最近的生物群系并返回其位置。",
+     "p": {}
+    }
+   ],
+   "text": "/locatebiome这条指令添加于1.16版本，其功能类似于当时的/locate指令，可以查找最近的生物群系并返回其位置。",
+   "sha256": "585e393e96908e85fa00ea960e52fb75f625e36df38227760aca40d035ff65a5",
+   "i": 4804
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "也是很简单，但功能由于和",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "locate太类似，Mojang就让它合并过来了。",
+     "p": {}
+    }
+   ],
+   "text": "也是很简单，但功能由于和locate太类似，Mojang就让它合并过来了。",
+   "sha256": "805c01ec570a7ad5bc9ad1eb2d4b4fededfc9a55ad6065ee4a2dd5d4704fd661",
+   "i": 4805
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在我们再来看看",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "poi子命令。",
+     "p": {}
+    }
+   ],
+   "text": "现在我们再来看看poi子命令。",
+   "sha256": "8c407ed3a8c6cb8da80de01a35edb5946ccf50be07ac53e6906be0bcba1207d5",
+   "i": 4806
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面说了，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "poi子命令可以查找兴趣点。兴趣点是什么？",
+     "p": {}
+    }
+   ],
+   "text": "上面说了，poi子命令可以查找兴趣点。兴趣点是什么？",
+   "sha256": "7d011b13b59f7f60848a84075360c16acd07f6771d0c9538bb183a6df1444d1f",
+   "i": 4807
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "兴趣点（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "point of interest），是在Minecraft Java 1.14加入的一个东西，主要指的是能被村民或其他生物认领的方块（注：这是作者自己的定义，官方目前没有给出定义）。也就是说，并不（只）是你会对这东西感兴趣，而是村民以及其他的一些生物会对这东西感兴趣。",
+     "p": {}
+    }
+   ],
+   "text": "兴趣点（point of interest），是在Minecraft Java 1.14加入的一个东西，主要指的是能被村民或其他生物认领的方块（注：这是作者自己的定义，官方目前没有给出定义）。也就是说，并不（只）是你会对这东西感兴趣，而是村民以及其他的一些生物会对这东西感兴趣。",
+   "sha256": "3b20b0870b2d5c39919d5e401ea05e2e44543b0f1e65d939059221518d60a600",
+   "i": 4808
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "有哪些方块是兴趣点呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "有哪些方块是兴趣点呢？",
+   "sha256": "10ec8b49079f20503430e0b1be2050b405ab14195a4873204e5fbb083997f7c8",
+   "i": 4809
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "截止目前（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.19.1），有如下兴趣点：",
+     "p": {}
+    }
+   ],
+   "text": "截止目前（Java1.19.1），有如下兴趣点：",
+   "sha256": "0100f7d9b73b4eb0fb374f8e8d902c6325559febdd6f65955627555352d1a912",
+   "i": 4810
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\能被村民认领的\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\能被村民认领的\\\\",
+   "sha256": "523f8b6c4a02b32278254b90840b712fe17f1fb398c37f41c93bad6ba64f1ede",
+   "i": 4811
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "高炉（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "armorer）",
+     "p": {}
+    }
+   ],
+   "text": "高炉（armorer）",
+   "sha256": "d413b02f9ee90f6db5f8f8cf0b7f8b405f05cf973c1b9055d83066f95a89af81",
+   "i": 4812
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "烟熏炉（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "butcher）",
+     "p": {}
+    }
+   ],
+   "text": "烟熏炉（butcher）",
+   "sha256": "8d31424f08bb67968996089b81106c6daf0beb496a6a0bfb04a58e4fff7d9dd3",
+   "i": 4813
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "制图台（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "cartographer）",
+     "p": {}
+    }
+   ],
+   "text": "制图台（cartographer）",
+   "sha256": "079cceaaa8b94a17efdb63f853a3a5b133f92f8458b3d480181a3ccc5f34710a",
+   "i": 4814
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "酿造台（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "cleric）",
+     "p": {}
+    }
+   ],
+   "text": "酿造台（cleric）",
+   "sha256": "88c8e182589133c7c899f2350ba3e2321dbca1b62854c1c3dd2aa68c1d722818",
+   "i": 4815
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "堆肥桶（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "farmer）",
+     "p": {}
+    }
+   ],
+   "text": "堆肥桶（farmer）",
+   "sha256": "8c5475f9fd9348d5e910379d39b03e30430fda84e22c199f65613916d217362c",
+   "i": 4816
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "木桶（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "fisherman）",
+     "p": {}
+    }
+   ],
+   "text": "木桶（fisherman）",
+   "sha256": "b8d5fd868971571bf3cab24860d86c23adb8f6fc27e99adcc383af332132ad02",
+   "i": 4817
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "制箭台（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "fletcher）",
+     "p": {}
+    }
+   ],
+   "text": "制箭台（fletcher）",
+   "sha256": "ab1be0166ab85b5e9f482c44f1a603e386f513e1eb80989af4b9058a7acbafc8",
+   "i": 4818
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "床（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "home）",
+     "p": {}
+    }
+   ],
+   "text": "床（home）",
+   "sha256": "2388beec504c433fb1fd0d036bc8f4eb09046f7a7b83d4f8f413f6e898dd4a13",
+   "i": 4819
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "炼药锅（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "leatherworker）",
+     "p": {}
+    }
+   ],
+   "text": "炼药锅（leatherworker）",
+   "sha256": "3735cd1dd08b3389294c8107fa98075e5025454dbbc753f01ce9815360f0e28b",
+   "i": 4820
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "讲台（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "librarian）",
+     "p": {}
+    }
+   ],
+   "text": "讲台（librarian）",
+   "sha256": "b946bb0494afe99333a814fd8b666f56dfe10fc53f6053267db2b644e93f0526",
+   "i": 4821
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "切石机（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "mason）",
+     "p": {}
+    }
+   ],
+   "text": "切石机（mason）",
+   "sha256": "bcb84b48e7dc63fa54b27dd0982e0520e64358a9581a6fc772a646846d115c8e",
+   "i": 4822
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "钟（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "meeting）",
+     "p": {}
+    }
+   ],
+   "text": "钟（meeting）",
+   "sha256": "066ed6b4a1b7ff22662003c98df64ea4fca36d5b13482680fbbd4f8a001788d2",
+   "i": 4823
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "织布机（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "shepherd）",
+     "p": {}
+    }
+   ],
+   "text": "织布机（shepherd）",
+   "sha256": "302fee00830698e8f488c79df8c2a561a97d97892dc51f986e99c6f66bd0b020",
+   "i": 4824
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "锻造台（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "toolsmith）",
+     "p": {}
+    }
+   ],
+   "text": "锻造台（toolsmith）",
+   "sha256": "a250cb216018506e93601b1608c5cc8e4dd27bb6e4462eba9f6d7ceeb70ec6d8",
+   "i": 4825
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "砂轮（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "weaponsmith）",
+     "p": {}
+    }
+   ],
+   "text": "砂轮（weaponsmith）",
+   "sha256": "1207c29bd771e96dccc468dce6b91576b7689ee86401f9c72ccce352b8c7b627",
+   "i": 4826
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\跟蜜蜂有关的\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\跟蜜蜂有关的\\\\",
+   "sha256": "0385d267d8a4add1c54064878d0509744ea089bdbd8b4f147504c3da254131a9",
+   "i": 4827
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "蜂巢（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "bee_nest）",
+     "p": {}
+    }
+   ],
+   "text": "蜂巢（bee_nest）",
+   "sha256": "804fbb0c842c1cc7ae708dbd4c5bbe4ef572b3127952cf4f8ec226f661099bb9",
+   "i": 4828
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "蜂箱（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "beehive）",
+     "p": {}
+    }
+   ],
+   "text": "蜂箱（beehive）",
+   "sha256": "03c26223dd2cf23c30d56c9c9e0a5fb12dc0f3416dc8ff6191de839a82d96795",
+   "i": 4829
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\跟玩家有关的\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\跟玩家有关的\\\\",
+   "sha256": "48e90a7ae3fd0363174b0131604986ccc1d1180dc30a45316f65954ba4218b71",
+   "i": 4830
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "避雷针（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "lightning_rod）",
+     "p": {}
+    }
+   ],
+   "text": "避雷针（lightning_rod）",
+   "sha256": "43dfa8a93aed06edccf83ff9d29d84ccc27968fd0d190e62cd3a1bdb9bb33d59",
+   "i": 4831
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "磁石（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "lodestone）",
+     "p": {}
+    }
+   ],
+   "text": "磁石（lodestone）",
+   "sha256": "fb1f7777ad033989adf552cab7c5d8009a9099f2a7c66b408326c16ab3c0bbdd",
+   "i": 4832
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "下界传送门（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "nether_portal）",
+     "p": {}
+    }
+   ],
+   "text": "下界传送门（nether_portal）",
+   "sha256": "3c4a9ec22f665468f0ad48320f3c65aba6c0f14d2d33d08885844e2fbbf1c46a",
+   "i": 4833
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子。比如我们要寻找最近的下界传送门，就可以运行如下指令：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子。比如我们要寻找最近的下界传送门，就可以运行如下指令：",
+   "sha256": "2eb86db424c99f2ca2045182de5e19e6e90f07dd6bdabda984e50fd19e8a03d2",
+   "i": 4834
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locate poi minecraft:nether_portal",
+     "p": {}
+    }
+   ],
+   "text": "/locate poi minecraft:nether_portal",
+   "sha256": "ed7b63fe19de9c8fa28bc31f79de353868aff79e6d5cba24cc6e1e17d4159995",
+   "i": 4835
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "蛮简单的，这个兴趣点看起来好像很高大上，实际上也没什么嘛。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "蛮简单的，这个兴趣点看起来好像很高大上，实际上也没什么嘛。",
+   "sha256": "285c731d185dffa33e50b89c24c33ddfb8fafffbe6c5a604223205b9202bff9a",
+   "i": 4836
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，新版本的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/locate算是介绍完了。但还有一些问题：",
+     "p": {}
+    }
+   ],
+   "text": "现在，新版本的/locate算是介绍完了。但还有一些问题：",
+   "sha256": "878648251965a7cd19a13399e10603779abd63a8da73b995cb0157695da52c17",
+   "i": 4837
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java新版本中，各种村庄的ID被拆分了，虽然这对我们搜索特定种类的村庄有很大帮助，但万一我们仅仅只是想找个村庄该怎么办？",
+     "p": {}
+    }
+   ],
+   "text": "在Java新版本中，各种村庄的ID被拆分了，虽然这对我们搜索特定种类的村庄有很大帮助，但万一我们仅仅只是想找个村庄该怎么办？",
+   "sha256": "d4f1545e8c0efb05776589e57a5258eb01726989d83b0483956d86c48f3b123a",
+   "i": 4838
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案很简单：用标签。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "答案很简单：用标签。",
+   "sha256": "ee6eb13a7c80e4cafe1ceda3babc40dbad5c035b39ff60733bb3ca597f731eb7",
+   "i": 4839
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "还记得我们在『本书第一次大修新增章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ",
+     "p": {}
+    },
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "』中提到的标签吧？在Minecraft Java 1.18.2更新中，Mojang开始允许/locate和/locatebiome指令使用标签进行查找，就算/locate经过了如此大的更新，这个功能也没砍。",
+     "p": {}
+    }
+   ],
+   "text": "还记得我们在『本书第一次大修新增章 ①』中提到的标签吧？在Minecraft Java 1.18.2更新中，Mojang开始允许/locate和/locatebiome指令使用标签进行查找，就算/locate经过了如此大的更新，这个功能也没砍。",
+   "sha256": "556eead64fcc5c7aeff23e04251b5bacb39a2997136c9fd1f75287b9471d521d",
+   "i": 4840
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那有哪些标签，怎么使用呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "那有哪些标签，怎么使用呢？",
+   "sha256": "c6e6ede7a57823fe6b37c9de3c55ca49a4b0303ec2ce0e5bac7fd5356651710b",
+   "i": 4841
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "对于结构来说：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "对于结构来说：",
+   "sha256": "8f790c9d9e64042d3a4d742b7aed5ce7d4286a01cf3fe1b33b75c8f108dffb5d",
+   "i": 4842
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "cats_spawn_as_black（会生成黑色的猫）",
+     "p": {}
+    }
+   ],
+   "text": "cats_spawn_as_black（会生成黑色的猫）",
+   "sha256": "527e5383a03f7b2214c656adcbcf52011d9449583fb7978f64746672d4a5b725",
+   "i": 4843
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "cats_spawn_in（会生成猫）",
+     "p": {}
+    }
+   ],
+   "text": "cats_spawn_in（会生成猫）",
+   "sha256": "bae2d94c920142f6b4414b0ff2fba9d233e253033383fc878ca658ef593d2866",
+   "i": 4844
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "dolphin_located（会有海豚）",
+     "p": {}
+    }
+   ],
+   "text": "dolphin_located（会有海豚）",
+   "sha256": "8ff3e9c76d159412b086c59c4317a9adcd29a222e6ea00d9e75cad0357321947",
+   "i": 4845
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "eye_of_ender_located（会有末地传送门）",
+     "p": {}
+    }
+   ],
+   "text": "eye_of_ender_located（会有末地传送门）",
+   "sha256": "00d01811c2938d6960ee49fe86522774e4c435c33c49b33aacb6f84ca0b510cf",
+   "i": 4846
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "mineshaft（是矿井）",
+     "p": {}
+    }
+   ],
+   "text": "mineshaft（是矿井）",
+   "sha256": "4c3b62a925ce24e6185c89b05985c8fd579e212f2cbb0a00e637099cdad02f6a",
+   "i": 4847
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ocean_ruin（位于海里的废墟）",
+     "p": {}
+    }
+   ],
+   "text": "ocean_ruin（位于海里的废墟）",
+   "sha256": "dee4827e5c1602d5994c5c80e81adc3f9c15cd0e53c2cbf4eacb56795cff173d",
+   "i": 4848
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "on_ocean_explorer_maps（在海洋探险家地图上的）",
+     "p": {}
+    }
+   ],
+   "text": "on_ocean_explorer_maps（在海洋探险家地图上的）",
+   "sha256": "b2e09128acae8e47cf5a6fdc8877e1e81bc6e1e93e555260f98e7e56dcab3152",
+   "i": 4849
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "on_treasure_maps（在宝藏地图上的）",
+     "p": {}
+    }
+   ],
+   "text": "on_treasure_maps（在宝藏地图上的）",
+   "sha256": "4a515b0e01b1ad780898d4451ed9f498cfbb785b17da052d5b75299d83e86a14",
+   "i": 4850
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "on_woodland_explorer_maps（在林地探险家地图上的）",
+     "p": {}
+    }
+   ],
+   "text": "on_woodland_explorer_maps（在林地探险家地图上的）",
+   "sha256": "95674572444d6091a469111d83e04a39613064c5bfe6ccb651106df56df03e10",
+   "i": 4851
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ruined_portal（是破败的传送门）",
+     "p": {}
+    }
+   ],
+   "text": "ruined_portal（是破败的传送门）",
+   "sha256": "65b0f1f743f4a366a0d8543a056781ea9a495a57fa425e9bf1e050acba1a4761",
+   "i": 4852
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "shipwreck（是船的废墟）",
+     "p": {}
+    }
+   ],
+   "text": "shipwreck（是船的废墟）",
+   "sha256": "971ac2a4b7901085983f3246ea636c34a5e035bd6d16fc54d7657c473e68c6d1",
+   "i": 4853
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "village（是村庄）",
+     "p": {}
+    }
+   ],
+   "text": "village（是村庄）",
+   "sha256": "c3914e440dc972546642bc975d5ff776587f2f04da3c1ea57e98944f848f38d9",
+   "i": 4854
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "对于生物群系来说：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "对于生物群系来说：",
+   "sha256": "164ab57b0e8894402fc79fd64dfcc86e61fabd59f9fb15e7248171929f64371c",
+   "i": 4855
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "非常多，不列了，自己去",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft Wiki上查",
+     "p": {}
+    }
+   ],
+   "text": "非常多，不列了，自己去Minecraft Wiki上查",
+   "sha256": "b8ab41bdb2df49a66b322ce6d9f575187b4967feebb3e98479af41c6a696f626",
+   "i": 4856
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "对于兴趣点来说：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "对于兴趣点来说：",
+   "sha256": "f749c96a6fb50e0cecc7bd3d7c97827d99af96baafb2f4a7fe97d64ddbd6a2b1",
+   "i": 4857
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "acquirable_job_site（村民的工作站）",
+     "p": {}
+    }
+   ],
+   "text": "acquirable_job_site（村民的工作站）",
+   "sha256": "6ba259dedc836fe85b5121234c421fd3b7f1bcd8ba13d5866850c53f407b33dd",
+   "i": 4858
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "bee_home（蜜蜂的家）",
+     "p": {}
+    }
+   ],
+   "text": "bee_home（蜜蜂的家）",
+   "sha256": "37dfdd6049759421dd0605914367223eb3ddbfc7860e41383670e60c7bb0a2b7",
+   "i": 4859
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "village（跟村庄有关的）",
+     "p": {}
+    }
+   ],
+   "text": "village（跟村庄有关的）",
+   "sha256": "0ee639013b552987b6d5889552cffc48417c673b400bceb64daa79ade19b297b",
+   "i": 4860
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如，我们要查找最近的村庄，我们可以这么做：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "比如，我们要查找最近的村庄，我们可以这么做：",
+   "sha256": "ca1efbfffb9a35c0be66c3c59c9c81620c5031feca5db812e36ee402fa0d7683",
+   "i": 4861
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locate #minecraft:village （Java1.18.2）",
+     "p": {}
+    }
+   ],
+   "text": "/locate #minecraft:village （Java1.18.2）",
+   "sha256": "b9010ce3e9b4f5ca4150b6d1abf1d3480da64706a1a55b30198820b8e58a1bbd",
+   "i": 4862
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locate structure #minecraft:village （Java1.19及之后）",
+     "p": {}
+    }
+   ],
+   "text": "/locate structure #minecraft:village （Java1.19及之后）",
+   "sha256": "fed1dec3e2cff7ebed1ab75b3dd1ceff670d74c361d06e1c9d5f3ec74908dd05",
+   "i": 4863
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们要查找最近的山地类生物群系，我们可以这么做",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "我们要查找最近的山地类生物群系，我们可以这么做",
+   "sha256": "a1484abea1e2df740228aa0f7c12d5847654a10c4e357f73233166ec24868101",
+   "i": 4864
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locatebiome #minecraft:is_mountain （Java1.18.2）",
+     "p": {}
+    }
+   ],
+   "text": "/locatebiome #minecraft:is_mountain （Java1.18.2）",
+   "sha256": "bd44c2a80e0b352c11104e0815255ae9835f7aba7c45e3ed1c059cb62a0ee253",
+   "i": 4865
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locate biome #minecraft:is_mountain （Java1.19及之后）",
+     "p": {}
+    }
+   ],
+   "text": "/locate biome #minecraft:is_mountain （Java1.19及之后）",
+   "sha256": "04790f056d60c035552899ce1ff4c9220358c941e4e3d8a4fa5b339212ded06e",
+   "i": 4866
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么本章就到这里了。接下来，我们将正式开始学习",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute的使用。",
+     "p": {}
+    }
+   ],
+   "text": "那么本章就到这里了。接下来，我们将正式开始学习execute的使用。",
+   "sha256": "468c9c90e46cb95eab96f2933b75eb88de802af81ee45a59ac4c9c0f631824be",
+   "i": 4867
+  }
+ ],
+ "text_sha256": "65ceaa4f7346b4532381cfc01989481d524b38d4c8da535766daf582d962fb64",
+ "chars": 2540
+}

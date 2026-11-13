@@ -1,0 +1,1434 @@
+{
+ "id": "ch024",
+ "kind": "chapter",
+ "number": 24,
+ "title": "第二十四章 xp-控制经验值",
+ "source": {
+  "file": "MineBBS/217第二十四章.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "第二十四章 xp-控制经验值"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月8日 21:24 1317字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "经验值"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，在游戏中，一般有 EX、EXP 和 XP 三种英文缩写，它的全称是："
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "experience"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。经验值最早出现于RPG（角色扮演游戏）游戏的衡量角色能力的一种标准，每次经验值积累积达到上限时角色等级便会提升，并带来能力的相应提升。经验值作为最直接的经历评测标准已被广泛应用于诸多游戏中。\r\n　　那么在 Minecraft 中，经验值可以干啥？可以附魔，可以使用铁砧，仅此而已。\r\n　　但是在基岩版，还没有记分板（scoreboard）的时候，经验值在服务器，那也是算一种货币的，也是一种像是记分板一样的存在的。\r\n　　因为经验值就是一个"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "变量"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。而我们这章所要知道的，就是如何去控制这个变量（经验值）。\r\n　　Minecraft 有专门可以控制经验值的指令，它就是："
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/xp"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/xp"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　作用"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：给予单个或多个玩家经验值。\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　需要权限等级"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：Java-2，基岩-1\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　需要作弊"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：是\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　格式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "Java1.13以下和基岩版"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/xp <数量：Int整数> [玩家：目标选择器]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "Java1.12.2以上版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/xp add <目标玩家：目标选择器> <数量：Int整数> [单位：levels|points]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/xp set <目标玩家：目标选择器> <数量：Int整数> [单位：levels|points]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/xp query <目标玩家：目标选择器> (单位：levels|points)"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在基岩版和 Java1.13 以下版本中，数量参数可以带单位，也可以不带单位。不带单位，就是增加经验点数。经验点数是啥？就是达到一定的程度就可以提升等级的那个绿色的小条条。如果带单位，单位只有“L”，也就是“等级”。比如下面两条指令：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/xp 33\r\n/xp 33L"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　前者指令只会让你获得 33 点经验值，后者会让你获得 33 级经验，差了不只是一个数量级（33 点经验值能干啥？）。\r\n　　"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(65, 168, 95)]",
+   "arg": "rgb(65, 168, 95)"
+  },
+  {
+   "text": "（对，不填目标玩家默认是作用于命令执行者也就是你自己身上）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　需要注意的是，经验点数无法减少（Java1.13 更新后除外），经验等级可以减少（填个负数）。\r\n　　本来的这条指令很简单，直到 Java1.13 更新，添加了一个新的指令：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/experience"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　/experience 指令实际上就是 /xp 的全称。由于该指令的添加，Mojang 也对这两条指令进行了重写，写成了像 /time 指令一样有三个功能：add（增加）、set（设置）和query（查询）\r\n　　"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "add"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": "（增加），也就是可以给目标玩家"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "增加或减少特定的经验"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。比如：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/xp add @a 1"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　就是给全部玩家增加"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "一点"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "经验值（没错，不带单位默认还是经验值点数）。当然，是负数的话就会减少经验值，并且经验点数也可以减少了。\r\n　　而原本的单位，被移到了最后面。举个例子：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/xp add @a 1 levels"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　这可以给全部玩家增加"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "一级"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "经验值。\r\n　　"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "set"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": "（设置）的话也是差不多个用法。比如：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/xp set @s 25 levels"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　就是设定自己的经验等级为 25 级\r\n　　这里唯一要说的是"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": " query"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": "（查询）功能。\r\n　　query 一次只能查询一位玩家，也就是说，目标选择器选择 @a 之类的选择器会报错，不管你是否只有 1 名玩家。\r\n　　如果你有仔细看上面的格式，你就会发现上面的格式出现了一个你从未见过的格式符号：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "(单位：levels|points)"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　这种用普通括号包裹起来的格式，一般指的是执行指令时必须填的参数，"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(147, 101, 184)]",
+   "arg": "rgb(147, 101, 184)"
+  },
+  {
+   "text": "可以不填，但游戏没有给其安排默认值，导致不填不会报错，也不会有结果"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "text": "。"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "注：这可能需要在其他指令进一步验证，但当时在游戏中实地测试时 /xp 指令确实有这个特性。"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　比如使用：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/xp query @s"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　就不会报错，也不会有结果\r\n　　你就必须使用：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/xp query @s levels"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaDongFangDaKai - Regular]",
+   "arg": "AlimamaDongFangDaKai - Regular"
+  },
+  {
+   "text": " "
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaDongFangDaKai - Regular]",
+   "arg": "AlimamaDongFangDaKai - Regular"
+  },
+  {
+   "text": "或是"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": " "
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "/xp query @s points"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　才会有结果返回。\r\n　　"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(65, 168, 95)]",
+   "arg": "rgb(65, 168, 95)"
+  },
+  {
+   "text": "（这是特性，特性，懂不？）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　好了，那么本章以及本卷就到此为止了！\r\n"
+  },
+  {
+   "tag": "HR",
+   "raw": "[HR]"
+  },
+  {
+   "tag": "HR",
+   "raw": "[/HR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "历史"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=3]",
+   "arg": "3"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "Java"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"15%\"]",
+   "attrs": "width=\"15%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"85%\"]",
+   "attrs": "width=\"85%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"15%\"]",
+   "attrs": "width=\"15%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.0.0"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"85%\"]",
+   "attrs": "width=\"85%\""
+  },
+  {
+   "text": "加入了 /xp。格式为 "
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/xp <玩家：目标选择器> <数量：Int整数>"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"15%\"]",
+   "attrs": "width=\"15%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.3.1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"85%\"]",
+   "attrs": "width=\"85%\""
+  },
+  {
+   "text": "将玩家参数移到了后面，并且变更为可选参数。同时 /xp 可以在单人游戏中使用了。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"15%\"]",
+   "attrs": "width=\"15%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.4.2"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"85%\"]",
+   "attrs": "width=\"85%\""
+  },
+  {
+   "text": "加入了 L（level）单位，并且等级可以减少，点数无法减少。同时更改了 /xp 数量参数上限从 5000 到 Int 整形上限。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"15%\"]",
+   "attrs": "width=\"15%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.13"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"85%\"]",
+   "attrs": "width=\"85%\""
+  },
+  {
+   "text": "加入了 /experience 成为了 /xp 的全称，并重写了 /experience 和 /xp 指令，让点数和等级都支持负数值。 "
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=3]",
+   "arg": "3"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "携带版Alpha"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"15%\"]",
+   "attrs": "width=\"15%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"85%\"]",
+   "attrs": "width=\"85%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"15%\"]",
+   "attrs": "width=\"15%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "0.16.0"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"85%\"]",
+   "attrs": "width=\"85%\""
+  },
+  {
+   "text": "加入了 /xp"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HR",
+   "raw": "[HR]"
+  },
+  {
+   "tag": "HR",
+   "raw": "[/HR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=26px]",
+   "arg": "26px"
+  },
+  {
+   "text": "恭喜:真棒:"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": "，您已经完成了基本的指令入门部分，下面是一个"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "阶段性测验"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": "，尝试一下吧！\r\n测验使用问卷星制作，提交后会"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "自动打分"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": "哦，还有详细的题目解析！\r\n由于当时是第一次用问卷性制作测验，所以加了一个提供 QQ 号的框。这个框完全可以不填或随便填哦！"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=15px]",
+   "arg": "15px"
+  },
+  {
+   "text": "点击跳转 ->"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=26px]",
+   "arg": "26px"
+  },
+  {
+   "text": " "
+  },
+  {
+   "tag": "URL",
+   "raw": "[URL='https://ks.wjx.top/jq/92897173.aspx']",
+   "arg": "'https://ks.wjx.top/jq/92897173.aspx'"
+  },
+  {
+   "text": "《Minecraft 指令手册》第二卷小测试"
+  },
+  {
+   "tag": "URL",
+   "raw": "[/URL]",
+   "close": true
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  }
+ ],
+ "raw_sha256": "199d931cfbaa64af8315beb4b6c411b124afa51d91ff6e7d8343085ced7c8972",
+ "text_sha256": "3d9dfe4cbcdeafeee77cf0249ea04cc67e308f0eff72b69761e7b9f1a71fe3e2",
+ "chars": 2293
+}

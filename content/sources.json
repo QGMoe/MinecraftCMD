@@ -1,0 +1,360 @@
+{
+ "sources": {
+  "主稿/Minecraft指令手册.docx": {
+   "size": 27081931,
+   "sha256": "0eafea75c7e5d0c93b2f2c6ecdc05b7a0bcc994c61b02999d6dd1b25ebedca86"
+  },
+  "MineBBS/0声明部分.txt": {
+   "size": 20054,
+   "sha256": "bda04e945ebd6247f804eac14d64621d3eabbc52d58832d6648416b7083e9f5a"
+  },
+  "MineBBS/1第一章.txt": {
+   "size": 9869,
+   "sha256": "e53d178caceb5d991aaafeed36919991be84bbdf1268528bf7e6f4cfba47670b"
+  },
+  "MineBBS/2第二章.txt": {
+   "size": 15990,
+   "sha256": "c10a76a5a4d37671f33ffe6b3479a3aec5ed37ea11a82bce9bbd7acb5beef260"
+  },
+  "MineBBS/3第三章.txt": {
+   "size": 7750,
+   "sha256": "762a5188449269ccf594670eaa9a677810af43830a2de396112a7544b4e061b2"
+  },
+  "MineBBS/4第四章.txt": {
+   "size": 3905,
+   "sha256": "251d9b08b584d39b8ee4411ba9271d63be7c2c9e22d586548a4012573fd2eea9"
+  },
+  "MineBBS/5第五章.txt": {
+   "size": 8309,
+   "sha256": "e4187c74c7749e0bd76a6da2cf3759c9f61c5064d32684a39f493f0c3c09d6cb"
+  },
+  "MineBBS/6第六章.txt": {
+   "size": 7110,
+   "sha256": "e3f01dd194c27d20602ffb93ebc044bbd18a8a4d018c2d6bf12607545f95ee52"
+  },
+  "MineBBS/7第七章.txt": {
+   "size": 8142,
+   "sha256": "c8d888b42948d34410ed0f25a5c9e5bb57238f0e3a67bc7c89b55c4e2e796673"
+  },
+  "MineBBS/8基础1.txt": {
+   "size": 2607,
+   "sha256": "bd89b47dacddbef8cc35bab2aa96b084cba8c480875344006666f16daae1f036"
+  },
+  "MineBBS/9基础2.txt": {
+   "size": 18376,
+   "sha256": "928efcc3ef342841f1483dd77af037c87fc262c99b5efb74708d7a52a92f7c23"
+  },
+  "MineBBS/201第八章.txt": {
+   "size": 8437,
+   "sha256": "02fce54ee00a442c607551b7b52ef258e9b90ab5eef66ef3d86d6d04877dffa8"
+  },
+  "MineBBS/202第九章.txt": {
+   "size": 8968,
+   "sha256": "bcfdb9bfd226a9f6cf1cd2ef0ee7ab06d83a1beb28dbc9de32bf8ece256c9b5e"
+  },
+  "MineBBS/203第十章.txt": {
+   "size": 3884,
+   "sha256": "a3aa7d58c9c62691e4c47f364941cb37c459ed9722586ee14efa418cc3df3793"
+  },
+  "MineBBS/204第十一章.txt": {
+   "size": 5745,
+   "sha256": "fef258f5e4b7e81cc3661d52e5c70368f82d8424c1695d009e41265479c20cad"
+  },
+  "MineBBS/205第十二章.txt": {
+   "size": 12834,
+   "sha256": "761a6d9782dfc0c434a8fa0120e33fdca28a287ad7a0182126ffb8ddbbcb713d"
+  },
+  "MineBBS/206第十三章.txt": {
+   "size": 7535,
+   "sha256": "3a493c91d56e7e83c60fcc836ee9bb0d26efb81597a1aab2f272abf62d39ac98"
+  },
+  "MineBBS/207第十四章.txt": {
+   "size": 6488,
+   "sha256": "cb9623cf2404482364fc437efc661b40e73f3b0748911fd67e10884f864941d0"
+  },
+  "MineBBS/208第十五章.txt": {
+   "size": 4486,
+   "sha256": "989e2dc2d6be2f1c5ebdba15d5cfe06d53abc6f69618d4512a144fabbc1168b8"
+  },
+  "MineBBS/209第十六章.txt": {
+   "size": 7196,
+   "sha256": "527b4e96e8d753a7515f4b32c2238d90092ae0db243685a11ee180a41580a30d"
+  },
+  "MineBBS/210第十七章.txt": {
+   "size": 16860,
+   "sha256": "d5b98aafd6dddbba22c5625b560361af107667a08765539d75f8f8cb5032fdfb"
+  },
+  "MineBBS/211第十八章.txt": {
+   "size": 7604,
+   "sha256": "39af64db9236b8f6837e14333897f3ffa32d000cafc570ec1a8517c7d979f679"
+  },
+  "MineBBS/212第十九章.txt": {
+   "size": 3736,
+   "sha256": "c585d7524c06d39f0acc1e3f069f526bee2244e8c185c54bda0a159a66266bbb"
+  },
+  "MineBBS/213第二十章.txt": {
+   "size": 4660,
+   "sha256": "e098fee47b5e6df7f6204b81f36a52afeb237c81b2ea3738a7bd0f39fed5babe"
+  },
+  "MineBBS/214第二十一章.txt": {
+   "size": 11459,
+   "sha256": "a44dbc406ff8d2074d9a4d97c33bb061a80abc028858e616b4b6d48c39d01ec9"
+  },
+  "MineBBS/215第二十二章.txt": {
+   "size": 5756,
+   "sha256": "be3360e6211bf834fa30cbb15a1d490ebadf3560144bcf7edfdec3e8f341201a"
+  },
+  "MineBBS/216第二十三章.txt": {
+   "size": 4125,
+   "sha256": "a02455fb1ead6f639cc423cb9dbfd72a0f590c47d7ad3b666f2314222768f6b3"
+  },
+  "MineBBS/217第二十四章.txt": {
+   "size": 7103,
+   "sha256": "199d931cfbaa64af8315beb4b6c411b124afa51d91ff6e7d8343085ced7c8972"
+  },
+  "起点独有/157第一百五十七章.txt": {
+   "size": 12084,
+   "sha256": "5b3ee14b5323baa62247fbd5cf7fa7a51d43a2797433b1e15ed50f15676b6158"
+  },
+  "起点独有/158第一百五十八章.txt": {
+   "size": 10208,
+   "sha256": "7bd428f4adc7e7904979ac255f62ccd67ba41e90d5a2ada407fbf832b2783a1d"
+  },
+  "起点独有/159第一百五十九章.txt": {
+   "size": 8382,
+   "sha256": "1daf89845741fddf27e17e2d0692490a948d9801078cd867eca8e976350a763d"
+  }
+ },
+ "media": {
+  "word/media/image1.jpeg": {
+   "file": "content/assets/docx/image1.jpeg",
+   "sha256": "dc6550a620747f015422f7b727cd52aeb73ce7c67d9b9fb2102a09601c272bf1",
+   "size": 69018
+  },
+  "word/media/image10.png": {
+   "file": "content/assets/docx/image10.png",
+   "sha256": "5de98edd29368fc6e934c45228a22a11e30cd7f928a0778ccd1537a8b072f85b",
+   "size": 150118
+  },
+  "word/media/image11.png": {
+   "file": "content/assets/docx/image11.png",
+   "sha256": "9b0877d732be7b5d502c2aed184f4221f0a096c0dd6d2a32b460a632c1135aa1",
+   "size": 188829
+  },
+  "word/media/image12.png": {
+   "file": "content/assets/docx/image12.png",
+   "sha256": "d71bd79d00d4bc06cd5a6d1dd8537fb09a48b67a6c20b413f0fa9ce7b1383f8f",
+   "size": 189764
+  },
+  "word/media/image13.png": {
+   "file": "content/assets/docx/image13.png",
+   "sha256": "5520b7dcb78f64e51be53a21a75ff4a0d2086b8060c0fded1728651278b8930f",
+   "size": 241941
+  },
+  "word/media/image14.png": {
+   "file": "content/assets/docx/image14.png",
+   "sha256": "6c70a00f328d7c80564c6c440dc73d3f2f4b87b37643a7da9a4f4e64d274cf48",
+   "size": 299340
+  },
+  "word/media/image15.png": {
+   "file": "content/assets/docx/image15.png",
+   "sha256": "92070fccf2cc501375d3ecca87e99f725662319f953e3224aef7c79584defd39",
+   "size": 469900
+  },
+  "word/media/image16.png": {
+   "file": "content/assets/docx/image16.png",
+   "sha256": "9e1c00bd89eb31f7a30de4d64276546a399bd5e16baf66fcf5f194a912e7d4dc",
+   "size": 89247
+  },
+  "word/media/image17.png": {
+   "file": "content/assets/docx/image17.png",
+   "sha256": "c987cbe47de598f65f1773f552291207179d310d993ec846b144a339c9b61f00",
+   "size": 181419
+  },
+  "word/media/image18.png": {
+   "file": "content/assets/docx/image18.png",
+   "sha256": "e40730302011d8b04d16dbd60a7830d1de7272d4d1dc6aaa7d02afb477c4a04c",
+   "size": 156053
+  },
+  "word/media/image19.png": {
+   "file": "content/assets/docx/image19.png",
+   "sha256": "d76d65c45a56745ec4141e1fc631fc342d35d4da44f339fec3e886ba1b4b9d3a",
+   "size": 283128
+  },
+  "word/media/image2.png": {
+   "file": "content/assets/docx/image2.png",
+   "sha256": "4ab3cf1ad6d8e492a4afb593d640b0ede8df667725369405cf1b867968c15772",
+   "size": 75231
+  },
+  "word/media/image20.png": {
+   "file": "content/assets/docx/image20.png",
+   "sha256": "44f46a5319209f3d1b7b74522f6dbd513aa6c6ef81cc4d7c828fc0b086833209",
+   "size": 311599
+  },
+  "word/media/image21.png": {
+   "file": "content/assets/docx/image21.png",
+   "sha256": "09945b147789d72497701fd23b92b4e801eea80467bdb22def1b65f1a3e87873",
+   "size": 396907
+  },
+  "word/media/image22.png": {
+   "file": "content/assets/docx/image22.png",
+   "sha256": "b3ef899283a477053cb376b5577ca51a9d453a42e54bcde4ef509c9d9a36368e",
+   "size": 347926
+  },
+  "word/media/image23.png": {
+   "file": "content/assets/docx/image23.png",
+   "sha256": "f56970e454917c52f45f42f1bb6625ee8dbcd9239686c5c90293dc31fd58f43c",
+   "size": 357091
+  },
+  "word/media/image24.png": {
+   "file": "content/assets/docx/image24.png",
+   "sha256": "1ce987992403cf2403ad3fc19cb6d7a6599eb5d0f88239bc7c7cafd8fbbc516b",
+   "size": 355256
+  },
+  "word/media/image25.png": {
+   "file": "content/assets/docx/image25.png",
+   "sha256": "46f49ce3f6662b2520f8e1509a0203b10f675ecfc0e47954bf6a00fcd6c84703",
+   "size": 189596
+  },
+  "word/media/image26.png": {
+   "file": "content/assets/docx/image26.png",
+   "sha256": "dd9663a6b65902fea93873e08a6c83f2598df25dd19c751b5951c3062f8a9499",
+   "size": 141787
+  },
+  "word/media/image27.png": {
+   "file": "content/assets/docx/image27.png",
+   "sha256": "3dbd5f4952f3d08d94a06fdadc7b39f8aec31401f5635e66f5a9d64c9ba32bd6",
+   "size": 223348
+  },
+  "word/media/image28.png": {
+   "file": "content/assets/docx/image28.png",
+   "sha256": "3a2d2db7e30464d72bf4fd0411f670f35d2a58766bf2046b83ec419172cc1e36",
+   "size": 477018
+  },
+  "word/media/image29.png": {
+   "file": "content/assets/docx/image29.png",
+   "sha256": "e026dacdd9e32af3a40c42ac1ba7f98cc9e62c1d8ac13ddb9430d8b7af670f5a",
+   "size": 488385
+  },
+  "word/media/image3.jpeg": {
+   "file": "content/assets/docx/image3.jpeg",
+   "sha256": "07b4082dc453eb35ae9b120a13cbb0504aac397829175abdb235e6f9ffa22b92",
+   "size": 44532
+  },
+  "word/media/image30.png": {
+   "file": "content/assets/docx/image30.png",
+   "sha256": "e39e6cd569527f9812de52e6f8cb01aab473607b2558305ddf4e150375a29b9d",
+   "size": 345175
+  },
+  "word/media/image31.png": {
+   "file": "content/assets/docx/image31.png",
+   "sha256": "9f10057f822b51fc62a031e841faa522472ef582932999858a6f7db48a0549ac",
+   "size": 568322
+  },
+  "word/media/image32.png": {
+   "file": "content/assets/docx/image32.png",
+   "sha256": "a538cc26b635fcd142cf9d2317cc9c7c62a3ec5735529474906af59fb36e1be6",
+   "size": 400165
+  },
+  "word/media/image33.png": {
+   "file": "content/assets/docx/image33.png",
+   "sha256": "c3a7776508d84c1ee82de5dcb04c8b6179ee3d4499267c70574f6a934ac8ca30",
+   "size": 362842
+  },
+  "word/media/image34.png": {
+   "file": "content/assets/docx/image34.png",
+   "sha256": "1cd15d99c4e5e7e703b1d0083a9fd5eb1cc1c2f2e2d01caefc4924b4b72e1cb1",
+   "size": 371130
+  },
+  "word/media/image35.png": {
+   "file": "content/assets/docx/image35.png",
+   "sha256": "a2282498b98dd5432bedae626f8ae0dab9ceb58976ef4b69d1bb03cb54f55622",
+   "size": 491741
+  },
+  "word/media/image36.png": {
+   "file": "content/assets/docx/image36.png",
+   "sha256": "d43950e3048c8ea552cda32ba3592c9743bc821c9f6e269f4ed56e01760b63f1",
+   "size": 343812
+  },
+  "word/media/image37.png": {
+   "file": "content/assets/docx/image37.png",
+   "sha256": "c89aa23759ebf6fee397e40447f57340d159616bba78fb6c92db1b4a723734cd",
+   "size": 543796
+  },
+  "word/media/image38.png": {
+   "file": "content/assets/docx/image38.png",
+   "sha256": "fef9a1af47cde2c212ed991964bfb5627950fffb6bddf9713fd1b23c1f3db926",
+   "size": 199495
+  },
+  "word/media/image39.png": {
+   "file": "content/assets/docx/image39.png",
+   "sha256": "f0db68b2fb235d0b51b9d7006ad5623af54200734adfc4093888fcaa52ab89ab",
+   "size": 268676
+  },
+  "word/media/image4.png": {
+   "file": "content/assets/docx/image4.png",
+   "sha256": "319d0eadfc664c3c726428d1cfaf37b8ae9046f5d222466f08034703153d6181",
+   "size": 224654
+  },
+  "word/media/image40.png": {
+   "file": "content/assets/docx/image40.png",
+   "sha256": "e020f8316d3af2da7a851df44dc0754f36248bd24f7e7bf7e086c008d06e48f1",
+   "size": 381503
+  },
+  "word/media/image41.png": {
+   "file": "content/assets/docx/image41.png",
+   "sha256": "ac4830637a88e674a1cf3b271dab7b88a21fce3f698ecc566aed10a3d2cf43a9",
+   "size": 232804
+  },
+  "word/media/image42.png": {
+   "file": "content/assets/docx/image42.png",
+   "sha256": "9117d2dc6c11a32053b6471847572d03815d961643e31c9fd873191f22440ec3",
+   "size": 353437
+  },
+  "word/media/image43.png": {
+   "file": "content/assets/docx/image43.png",
+   "sha256": "9a877123e36b9145086d225caa07ab0c7f57a52b9cc4222952f732ec86b9a337",
+   "size": 128964
+  },
+  "word/media/image44.png": {
+   "file": "content/assets/docx/image44.png",
+   "sha256": "75f717da630856fc22a81f678be6cbf802122d3f6d6f62cf67b560075760b454",
+   "size": 248294
+  },
+  "word/media/image45.png": {
+   "file": "content/assets/docx/image45.png",
+   "sha256": "eb6e7238f308083a586a8ae89b6a34fe3c69c488e31cb288a84f08fc54649276",
+   "size": 218220
+  },
+  "word/media/image46.png": {
+   "file": "content/assets/docx/image46.png",
+   "sha256": "6e54d1e4f752574a1ba2cf5ccf027995208998bdb2ae6055418e8a8531b20deb",
+   "size": 478001
+  },
+  "word/media/image5.png": {
+   "file": "content/assets/docx/image5.png",
+   "sha256": "1ba1fc36c79963a5b6df8f1c631b7332f7dad615afe9f81c093f8f11f8252474",
+   "size": 75218
+  },
+  "word/media/image6.png": {
+   "file": "content/assets/docx/image6.png",
+   "sha256": "46bcc656b56bf96fcd1a226cc4061de2043a1630ce923ca65f1f3926f726ce20",
+   "size": 58999
+  },
+  "word/media/image7.png": {
+   "file": "content/assets/docx/image7.png",
+   "sha256": "f61a7f96d06519dd6a04d80baf653cc2ece4dc968110843c4ca31ff231866f79",
+   "size": 101122
+  },
+  "word/media/image8.png": {
+   "file": "content/assets/docx/image8.png",
+   "sha256": "045c75ea1a90943d7c31842e185c5db8f2b9c4da81b5b2cbfbefd60bef2b18ed",
+   "size": 138545
+  },
+  "word/media/image9.png": {
+   "file": "content/assets/docx/image9.png",
+   "sha256": "29e94cb5e03724863cdacfdb4c02151b8e459a6e74e7f56f67dbdfabcb1bea5e",
+   "size": 248117
+  }
+ }
+}

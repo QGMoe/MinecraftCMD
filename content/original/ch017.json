@@ -1,0 +1,2337 @@
+{
+ "id": "ch017",
+ "kind": "chapter",
+ "number": 17,
+ "title": "第十七章 Java版JSON文本初识",
+ "source": {
+  "file": "MineBBS/210第十七章.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "第十七章 Java版JSON文本初识"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月6日 17:57 3920字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在上一章提到了 JSON 文本。JSON 文本在学习指令前期估计只有 /title 和 /tellraw 会用到，所以我们这边也就先认识一下如何使用 JSON 文本显示文本内容。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "JSON /ˈdʒeɪsən/"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，全称 "
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "JavaScript Object Notation"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，是一种轻量级资料交换格式。而我们今天所要了解的，叫做 "
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "JSON 文本（JSON Text）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。更确切的来说，是"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "原始 JSON 文本（Raw JSON Text）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n　　需要注意，"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "JSON ≠ JSON 文本 ≠ 原始 JSON 文本"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。JSON 有很多用途，不仅仅是拿来给你发消息用的。JSON 文本严格来说指的是原始 JSON 文本经过识别所转化成我们人能够看得懂的文本，没有带 JSON 语法的那种，也就是最终的输出形式。原始 JSON 文本既然带有『原始』二字，那就是指还未经过识别的 JSON 文本，也就是还处于原始形态并带有 JSON 语法的 JSON 文本。\r\n　　在 Minecraft 中，Java 版和基岩版的 JSON 文本略有差别，但大体都相同。本章主要讲的是 Java 版的原始 JSON 文本的使用，因为在基岩版，原始 JSON 文本在指令中使用程度并不高。我们会在第六十章讲到基岩版的 JSON 文本。\r\n　　如果你还没搞懂，也没关系，看下去就完事了。\r\n　　原始 JSON 文本听起来很高级，让人望而生畏，给人一种『作者似乎想要尝试教会你们』的样子，但其实它并不高级，相反还很简单。\r\n　　简单到什么程度呢？看：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "\"\""
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　这是一串没有任何内容的简写 JSON 文本，如果将其识别，转化为正式的输出文本格式，那将会是一串空空如也的文本。\r\n　　我们可以尝试向里面加入一些东西，比如：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "\"Hello Minecraft\""
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　这串 JSON 文本被识别后，也就是运行『"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/tellraw @a \"Hello Minecraft\""
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "』，将会输出如下内容：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "Hello Minecraft"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　（注意，JSON 文本的所有括号均为英文半角括号，但阅文平台会自动将英文半角括号改为中文全角括号，所以会有些奇怪）\r\n　　是不是很简单？但你有没有注意到，上面我提到『这是一串没有任何内容的简写 JSON 文本』，注意『简写』两字。\r\n　　所以它的真正形态是什么呢？如下：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "{\"text\":\"Hello Minecraft\"}"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　别害怕，这仍然很简单。\r\n　　上面这就是刚才那个『"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "\"Hello Minecraft\""
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "』的真正形态。我们对这个完全体进行解剖，可以得到如下内容：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST=1]",
+   "arg": "1"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=22px]",
+   "arg": "22px"
+  },
+  {
+   "text": "{"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": " —— 一个花括号，这个花括号告诉游戏『嘿，这里是 JSON 文本的开始！』。游戏也根据它的形态，判断出接下来将是一个 "
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "JSON 对象"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=22px]",
+   "arg": "22px"
+  },
+  {
+   "text": "\""
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": " —— 一个英文半角括号，这个括号告诉游戏『这里是一个字符串的开始！』\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=22px]",
+   "arg": "22px"
+  },
+  {
+   "text": "text"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": " —— 一串英文。游戏暂且不知道这串英文的意思，于是它继续看下去。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=22px]",
+   "arg": "22px"
+  },
+  {
+   "text": "\""
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": " —— 又是一个英文半角括号，这个括号告诉游戏『这里是这个字符串的结束！』\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=22px]",
+   "arg": "22px"
+  },
+  {
+   "text": ":"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": " —— 一个英文半角冒号，这个冒号告诉游戏『这里是这个"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "组件 (key-value pairs)"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": " 的名称与值的界限！』。游戏根据以往的经验，确认刚刚遇见的『\"text\"』是这个组件的"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "名称（key）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，这个组件是一个 text 纯文本"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "内容组件"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=22px]",
+   "arg": "22px"
+  },
+  {
+   "text": "\""
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": " —— 还是一个英文半角括号，这个括号告诉游戏『这里是又一个字符串的开始！』\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=22px]",
+   "arg": "22px"
+  },
+  {
+   "text": "Hello Minecraft"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": " —— 一串内容，游戏根据前面得到的消息，确认这是这个组件的"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "值（value）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。游戏因此得知，这个 text 纯文本内容组件将会显示出『Hello Minecraft』。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=22px]",
+   "arg": "22px"
+  },
+  {
+   "text": "\""
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": " —— 最后一个英文半角括号，这个括号告诉游戏『这里是这个字符串的结束！』\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=22px]",
+   "arg": "22px"
+  },
+  {
+   "text": "}"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": " —— 又一个花括号，这个花括号告诉游戏『这里是 JSON 文本的结束！』\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　然后游戏根据以上信息，确认这个原始 JSON 文本的意思是：显示出一串文本（text），内容为『Hello Minecraft』\r\n　　我们也可以根据以上信息，了解了这个 JSON 文本：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST=1]",
+   "arg": "1"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "这个 JSON 文本被一对"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "花括号（{}）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "包围，这对花括号标志着这个 JSON 文本的开始和结束\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "这个 JSON 文本内有两个内容，text 和 Hello Minecraft。这两个内容都是字符串，因此均被英文半角括号（\"\"）所包裹着。一对英文半角括号标志着一个字符串的开始和结束。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "『\"text\"』是组件的"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "名称（key）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，由于是字符串需要加上括号，所以其中的 text 才是具体的名称，意思为『文本』，标志着这个组件的值是一串要被显示出来的文本，也标志着这个组件是一个"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "纯文本内容组件"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "『\"Hello Minecraft\"』是这个组件的"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "值（value）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，由于它是一个字符串，因此要被括号包裹着，所以 Hello Minecraft 才是值的内容。这标志着这个纯文本内容组件将会显示出『Hello Minecraft』。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "『:』英文半角冒号是一对『组件名称』与『组件值』的分界线，其左边是名称，右边是值。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "『\"text\":\"Hello Minecraft\"』像这样的由一对『名称』和『值』组成的东西，叫做"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "『组件』(key-value pairs)"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "一个组件的名称规定了该组件是个什么东西，干什么用的。值则规定了该组件具体要干什么，怎么干。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "如果值或组件名是一个字符串（组件名肯定是），那就得使用括号将其包裹起来。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "外面被花括号所包裹着的，里面有一个或多个组件的东西，就像『"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "{\"text\":\"Hello Minecraft\"}"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "』这样的，是一个 "
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "JSON对象 (Object)"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　（注：上面提到的什么『组件』之类的，是本书内才有的叫法，仅为了方便大家理解，官方并无此叫法。『组件』的正式叫法是『"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "键-值对"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "』，又叫做『"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "属性-值对"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "』、『"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "栏位-值对"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "』、『"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "名称-值对"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "』。其中，『键-值对』的英文是『key-value pairs』）\r\n　　这就是 JSON 的基础语法，如果你能看懂上面的内容，那就恭喜你，接下来的内容对你来说将会相当简单。\r\n　　现在我们已经知道名称叫做 text 的组件，是纯文本内容组件。这个组件所输出的内容是一串平平无奇的文字，没有颜色，也没有什么特效。\r\n　　如果我们想要给这串文字添加更多的特效，就要了解更多的组件及其使用方法。\r\n　　在 Minecraft Java 的 JSON 文本中，可用的组件可以分为两类："
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "内容组件"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "和"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "修饰组件"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。内容组件用于规定每个 JSON 文本对象能够表现出什么样的内容，一个 JSON 文本对象最多只能有一个内容组件；修饰组件用于修饰内容组件，一个 JSON 文本对象可以拥有多个修饰组件来对输出的内容进行修饰。\r\n　　内容组件最基础的是『text』，即上面接触过的纯文本内容组件。\r\n　　使用纯文本内容组件，可以显示一串最简单的 JSON 文本，就像上面的那个 JSON 文本：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "{\"text\":\"Hello Minecraft\"}"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　需要注意，JSON 文本是对大小写敏感的，因此你不能写成如下的样子：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "{\"TEXT\":\"Hello Minecraft\"}"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　那样子会报错。\r\n　　上面显示出来的 Hello Minecraft 是最基础的白色。如果要更改文字颜色，那么就需要使用 "
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "color 组件"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "（在 Java 版，JSON 文本很难使用分节符）。\r\n　　color 的值是字符串，也就是说需要被引号包裹着。值支持 17 种颜色 ID：\r\n　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "black（黑）、dark_blue（深蓝色）、dark_green（深绿色）、dark_aqua（深湖蓝色）、dark_red（深红）、dark_purple（深紫）、gold（金色）、gray（灰色）、dark_gray（深灰色）、blue（蓝色）、green（绿色）、aqua（湖蓝色）、red（红色）、light_purple（亮紫色）、yellow（黄色）、white（白色）和 reset（取消颜色效果使用默认颜色，一般使用于子 JSON 对象中）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　比如：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "{\"text\":\""
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 85, 255)]",
+   "arg": "rgb(255, 85, 255)"
+  },
+  {
+   "text": "Hello Minecraft"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\",\"color\":\""
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 85, 255)]",
+   "arg": "rgb(255, 85, 255)"
+  },
+  {
+   "text": "light_purple"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\"}"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　就可以显示一个浅紫色的“"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 85, 255)]",
+   "arg": "rgb(255, 85, 255)"
+  },
+  {
+   "text": "Hello Minecraft"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "”。其中，color 颜色组件修饰了 text 纯文本内容组件的颜色为浅紫色。不难发现，如果有多个组件，就得使用英文半角逗号将它们分开。\r\n　　如果你认为这些颜色还不够，你甚至可以使用 HTML 的"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "十六进制颜色格式"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "来搞到更多的颜色。比如红色的十六位颜色编码就是："
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 0, 0)]",
+   "arg": "rgb(255, 0, 0)"
+  },
+  {
+   "text": "#ff0000"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "，用到 JSON 文本里就是：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "{\"text\":\""
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 0, 0)]",
+   "arg": "rgb(255, 0, 0)"
+  },
+  {
+   "text": "Hello Minecraft"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\",\"color\":\""
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(255, 0, 0)]",
+   "arg": "rgb(255, 0, 0)"
+  },
+  {
+   "text": "#ff0000"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\"}"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　关于 HTML 十六位颜色编码的具体内容自己上百度或谷歌搜，这儿就不多讲了。\r\n　　我们知道分节符 § 不仅可以更改文本颜色，还可以为文本添加更多的格式。那么在 JSON 中，我们该如何为一串 JSON 文本添加格式呢？\r\n　　§ 能添加五种文本格式，对应到 JSON 中即是：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "§k 乱码 对应 obfuscated "
+  },
+  {
+   "tag": "ISPOILER",
+   "raw": "[ISPOILER]"
+  },
+  {
+   "text": "模糊文本"
+  },
+  {
+   "tag": "ISPOILER",
+   "raw": "[/ISPOILER]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "§l 加粗 对应 bold "
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "粗体"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "§m 删除线 对应 strikethrough "
+  },
+  {
+   "tag": "S",
+   "raw": "[S]"
+  },
+  {
+   "text": "删除线"
+  },
+  {
+   "tag": "S",
+   "raw": "[/S]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "§n 下划线 对应 underlined "
+  },
+  {
+   "tag": "U",
+   "raw": "[U]"
+  },
+  {
+   "text": "下划线"
+  },
+  {
+   "tag": "U",
+   "raw": "[/U]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "§o 斜体 对应 italic "
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "斜体"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　上面的五个组件其值类型均为布尔值，也就是 true（开启）和 false（关闭）。\r\n　　在 JSON 文本中，布尔值和 gamerule 一样，是使用 true 和 false，并且并不需要添加括号，因为不是字符串。\r\n　　比如要为 Hallo Minecraft 添加斜体，你就需要这样子：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "{\"text\":\""
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "Hello Minecraft"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\",\"italic\":true}"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　其中，italic 斜体修饰组件修饰了 text 内容组件为斜体。你可以尝试将 italic 改为其他组件，比如 underlined、bold 之类的。\r\n　　现在我们已经了解了 Java 版 JSON 文本的基本使用方法，基本上日常使用是没有什么问题了。\r\n　　不对，还有一个问题！如果要在一串 JSON 文本里前面使用一种颜色或文本格式，后面使用另一种颜色或文本格式，那该怎么办？\r\n　　确实，使用花括号包裹的 JSON 文本，也就是 JSON 文本对象，就算修饰组件能够含有多个，具体下来其实每个组件也只能包含一个，还没有什么先后顺序。\r\n　　那怎么办呢？能不能一次性就使用多个 JSON 文本对象呢？\r\n　　答案是可以的。\r\n　　我们可以将多个 JSON 文本对象排成一个阵列，组成一个 "
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "JSON 文本对象列表"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n　　什么是"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "列表"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "？顾名思义，就是将各种东西列在一起的表格。在 JSON 中，列表内的内容一般都是相同类型，比如都是小数，都是整数，都是字符串，内容与内容之间用英文半角逗号分开，外侧用中括号包裹起来，这样子就形成了一个 JSON 列表。\r\n　　比如下面就是一个全都是整数的 JSON 列表：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "[1,2,3,4,5,6]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　那既然列表内可以放数字，那能不能放字符串、布尔值，甚至是 JSON 对象呢？\r\n　　答案也是可以的。\r\n　　比如下面这样子：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(255, 255, 255)]",
+   "arg": "rgb(255, 255, 255)"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 0, 0)]",
+   "arg": "rgb(0, 0, 0)"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "[{\"text\":\""
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(85, 85, 255)]",
+   "arg": "rgb(85, 85, 255)"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "Hello"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 0, 0)]",
+   "arg": "rgb(0, 0, 0)"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "\",\"color\":\""
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(85, 85, 255)]",
+   "arg": "rgb(85, 85, 255)"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "blue"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 0, 0)]",
+   "arg": "rgb(0, 0, 0)"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "\"},{\"text\":\"Minecraft\",\"color\":\"black\"},\""
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(85, 85, 255)]",
+   "arg": "rgb(85, 85, 255)"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "Launcher"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 0, 0)]",
+   "arg": "rgb(0, 0, 0)"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "\"]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　JSON 文本在解析的时候，会按照我们正常人所认为的顺序，即从左到右解析。这样子就可以实现 Hello 是蓝色，Minecraft 是黑色，Launcher 是蓝色。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "等等，为什么 Launcher 是蓝色而不是白色？"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　因为在一个 JSON 列表中，列表前面的 JSON 对象定义了文本颜色，这个颜色就会传递下去，就算中途有其他对象使用了 color 改变了其他颜色，也只是作用在这个对象内，下一个对象还是使用这个颜色。文本格式也是一样的道理。\r\n　　现在就没什么问题了吧？\r\n　　需要注意一下，Java1.9 版本之前的 JSON，"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "组件名不需要额外加括号"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，也就是说在 Minecraft Java1.8 版本，你可以直接这样子：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "{text:\"Hello Minecraft\"}"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HR",
+   "raw": "[HR]"
+  },
+  {
+   "tag": "HR",
+   "raw": "[/HR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "Java JSON历史"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.7.2"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "加入了 /tellraw，第一次有指令支持了 JSON"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.8"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "加入了使用 JSON 的 /title。告示牌和成书也开始使用 JSON 文本。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.13"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "自定义名称使用了 JSON 文本。加入了 name 参数使用 JSON 的 /bossbar 指令。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.14"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "物品描述标签支持 JSON文本。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.16"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "color 可以使用 HTML 十六位颜色码来更改文本颜色（需要注意这个功能是这时候才添加的）。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n\r\n"
+  },
+  {
+   "tag": "SPOILER",
+   "raw": "[SPOILER=\"你知道的太多了\"]",
+   "arg": "\"你知道的太多了\""
+  },
+  {
+   "text": "\r\n　　As we know ,we can't type § into the chatbox. So can we type the Unicode of § into the chatbox?\r\n　　The answer to the question is no.\r\n　　So can we type it by using tellraw?\r\n　　I can say, the way is feasible in Minecraft Java 1.12.2.\r\n　　Now, let us run Minecraft Java 1.12.2, and create a new world in creative mode. Remember to allow cheats.\r\n　　After the world was created, please run the following command:\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/give @s command_block"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　I'm sure that you must have a command block now. Please set it on the ground.\r\n　　Right click to open the GUI, then enter the following command:\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/tellraw @p {\"text\":\"\\u00a7bHello Minecraft\"}"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　Click the Done button to return the game. Take a lever out of your bag. Set it next the command block.\r\n　　Now let's pull the lever. The moment the lever is pulled, a line of "
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(85, 255, 255)]",
+   "arg": "rgb(85, 255, 255)"
+  },
+  {
+   "text": "light blue text"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": " appear surprisedly! Yes, as you looked, we can use the Unicode of § in JSON Text! Have you learned it?\r\n　　"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(147, 101, 184)]",
+   "arg": "rgb(147, 101, 184)"
+  },
+  {
+   "text": "If you want to learn about it more, please search \"在原版中更改任意文字颜色\" in MCBBS. You will find a post by a great command veteran in 2015."
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "text": " "
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "PS: You cannot find it anymore because MCBBS is dead."
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "SPOILER",
+   "raw": "[/SPOILER]",
+   "close": true
+  }
+ ],
+ "raw_sha256": "d5b98aafd6dddbba22c5625b560361af107667a08765539d75f8f8cb5032fdfb",
+ "text_sha256": "d97fe180616f3770d9ca9d66a1e1e297528543c7a49b9c1b765165e7544f5b06",
+ "chars": 6642
+}

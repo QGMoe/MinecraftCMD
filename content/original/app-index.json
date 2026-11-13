@@ -1,0 +1,6421 @@
+{
+ "id": "app-index",
+ "kind": "appendix",
+ "number": null,
+ "title": "索引章节",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   13008,
+   13238
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "left"
+   },
+   "c": [
+    {
+     "t": "索引章节",
+     "p": {}
+    }
+   ],
+   "text": "索引章节",
+   "sha256": "94795f8a6c6849edf207f0f8327ca2f24731fcb492110c7a7ab734a91458f585",
+   "i": 13008
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "KaiTi"
+     }
+    }
+   },
+   "c": [
+    {
+     "t": "（更新时间：2022.8.15）",
+     "p": {
+      "font": {
+       "eastAsia": "KaiTi"
+      }
+     }
+    }
+   ],
+   "text": "（更新时间：2022.8.15）",
+   "sha256": "22a9da66ca565f087ab3ee2f387c052fba8ff265c55e0d1a6732fcbc2c757bfd",
+   "i": 13009
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "指令",
+     "p": {}
+    }
+   ],
+   "text": "指令",
+   "sha256": "6ee4a9a86f73ad48d208ec2a57165f092d7b7f851611ae2bb19c0812ce98217a",
+   "i": 13010
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/?→",
+     "p": {}
+    },
+    {
+     "field": "begin"
+    },
+    {
+     "field": "separate",
+     "instr": " HYPERLINK \\l \"_第二十一章_一些短小但不容忽视的指令\" "
+    },
+    {
+     "t": "第二十一章",
+     "p": {
+      "style": "Hyperlink"
+     }
+    },
+    {
+     "field": "end",
+     "instr": " HYPERLINK \\l \"_第二十一章_一些短小但不容忽视的指令\" "
+    }
+   ],
+   "text": "/?→第二十一章",
+   "sha256": "c95b051d601e9e0b7a151f8d12c746256ef58a449b9afddeafdba5fcd56ae9cd",
+   "i": 13011
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ability →",
+     "p": {}
+    },
+    {
+     "t": "第一百一十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十八章_ability-怎样禁言一个人"
+     }
+    }
+   ],
+   "text": "/ability →第一百一十八章",
+   "sha256": "83e854b9385b0edd5a92ccf44867d2c344f0cf8903e0fdf83fd021a83616be0c",
+   "i": 13012
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/achievement →",
+     "p": {}
+    },
+    {
+     "t": "第一百一十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十七章_控制成就系统的指令"
+     }
+    }
+   ],
+   "text": "/achievement →第一百一十七章",
+   "sha256": "5c1cc14030aa36c0df4ba2235372f24cc6d955e15be827eb37456c85f54944c7",
+   "i": 13013
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/advancement →",
+     "p": {}
+    },
+    {
+     "t": "第一百一十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十六章_advancement-让人一夜回到解放前的指令"
+     }
+    }
+   ],
+   "text": "/advancement →第一百一十六章",
+   "sha256": "ba1c39701d42b305e146867eba9ea5336c4f1ff3922e7f4569d6a79f38670ddf",
+   "i": 13014
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/alwaysday →",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "/alwaysday →第六十六章",
+   "sha256": "4b4708a5ba0cf734607bce6b23f9bb69adce2d8a2743165e65371a725540fab8",
+   "i": 13015
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute →",
+     "p": {}
+    },
+    {
+     "t": "第一百零六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百零六章_属性修饰符_下-最终倍乘和/attribute指令"
+     }
+    }
+   ],
+   "text": "/attribute →第一百零六章",
+   "sha256": "c8bc8bcc6c5dc6f468019cfda96ba3a5e712a434c2b5ef59ca62dca0ab510699",
+   "i": 13016
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ban →",
+     "p": {}
+    },
+    {
+     "t": "第五十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十二章_/kick和黑名单系统"
+     }
+    }
+   ],
+   "text": "/ban →第五十二章",
+   "sha256": "5047fffd9bad70309df73277236762c792a3aee906c79d98c2cc47b42f0e7ec8",
+   "i": 13017
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/banip →/ban-ip",
+     "p": {}
+    }
+   ],
+   "text": "/banip →/ban-ip",
+   "sha256": "2cbd5fd5e402f0d4a33d77c737495ced05feb26ca0a954f26a9245a620f948b2",
+   "i": 13018
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ban-ip →",
+     "p": {}
+    },
+    {
+     "t": "第五十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十二章_/kick和黑名单系统"
+     }
+    }
+   ],
+   "text": "/ban-ip →第五十二章",
+   "sha256": "4ce3a3e818a278e7cb2d196d5584c2c8f74a23e50071f473b70544cd0797ef90",
+   "i": 13019
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/banlist →",
+     "p": {}
+    },
+    {
+     "t": "第五十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十二章_/kick和黑名单系统"
+     }
+    }
+   ],
+   "text": "/banlist →第五十二章",
+   "sha256": "8b3b4e2d3072fc3b94bbdda0af5606037630af591845c8c16117287d59901bef",
+   "i": 13020
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/blockdata →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/blockdata →暂未讲到",
+   "sha256": "a8e69b0f5207c940b655e4ed716755db35ebd214b5e4ac8efe59bc596492df58",
+   "i": 13021
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar →",
+     "p": {}
+    },
+    {
+     "t": "第八十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十三章_bossbar-自定义BOSS栏_上"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第八十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十四章_bossbar-自定义BOSS栏_下"
+     }
+    }
+   ],
+   "text": "/bossbar →第八十三章、第八十四章",
+   "sha256": "d013436ff75f323eb258c541ea0c14e652b201459d34695ebd4370e6e7c4e140",
+   "i": 13022
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/broadcast →/say",
+     "p": {}
+    }
+   ],
+   "text": "/broadcast →/say",
+   "sha256": "811e339198354bab0221018d65447f5a181eb35ef441ca365bbdbc38a0078453",
+   "i": 13023
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/camerashake →",
+     "p": {}
+    },
+    {
+     "t": "第七十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第七十六章_camerashake-如何让一个玩家鬼畜"
+     }
+    }
+   ],
+   "text": "/camerashake →第七十六章",
+   "sha256": "9600f157c12d79aeea4130a09333cf27a686a65800ff01eb0bb5d73160e073c6",
+   "i": 13024
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/changesetting →不会讲",
+     "p": {}
+    }
+   ],
+   "text": "/changesetting →不会讲",
+   "sha256": "38956b88bba473fd47336936c81b62bc41e3c13f06df680137e16c314bbf9caa",
+   "i": 13025
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/chunk →/forceload",
+     "p": {}
+    }
+   ],
+   "text": "/chunk →/forceload",
+   "sha256": "0dadbcf58bc021756577831f8729c03af58daca599a57158938d5480a49db478",
+   "i": 13026
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/clear →",
+     "p": {}
+    },
+    {
+     "t": "第十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十三章_clear-清除物品的指令"
+     }
+    }
+   ],
+   "text": "/clear →第十三章",
+   "sha256": "16e1f003034fd8cb9fe8d0c7c1daa11c8bdfebd67a5e8ffc69315590da90fc7e",
+   "i": 13027
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/clearspawnpoint →",
+     "p": {}
+    },
+    {
+     "t": "第三十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十四章_setworldspawn、spawnpoint-出生点"
+     }
+    }
+   ],
+   "text": "/clearspawnpoint →第三十四章",
+   "sha256": "9f8eb442baa5d682d112e11930428cfef5a5693341b4324da0f93e42ccd40c6f",
+   "i": 13028
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/clone →",
+     "p": {}
+    },
+    {
+     "t": "第五十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十六章_clone-拷贝方块"
+     }
+    }
+   ],
+   "text": "/clone →第五十六章",
+   "sha256": "f9686a6129cecb63f46d059acb4486bc86d78532853dffde0164dead9f6e829e",
+   "i": 13029
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/connect →",
+     "p": {}
+    },
+    {
+     "t": "第一百一十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十五章_WebSocket在Minecraft里的用处"
+     }
+    },
+    {
+     "t": "（第八十五章原有讲到，后删除）",
+     "p": {}
+    }
+   ],
+   "text": "/connect →第一百一十五章（第八十五章原有讲到，后删除）",
+   "sha256": "418a6d447243e4446c6095af7cd8656b2ed6355cfad9370a0036910531c29a2b",
+   "i": 13030
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/damage →",
+     "p": {}
+    },
+    {
+     "t": "第七十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第七十七章_damage-造成伤害"
+     }
+    }
+   ],
+   "text": "/damage →第七十七章",
+   "sha256": "4ca875f6d641de1cb06e1e1512cb49e1669902f7898eceaaa1a672e33232998d",
+   "i": 13031
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/data →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/data →暂未讲到",
+   "sha256": "86207a4da7c1bbb03a6e9bfcf1350eff12350a0949055e5cbb610b2e1442a06d",
+   "i": 13032
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/datapack →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/datapack →暂未讲到",
+   "sha256": "0a76f7943cd3a1be82533bd3253dd5b9544f488c5b12761d860e6f8341a4d14d",
+   "i": 13033
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/daylock →",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "/daylock →第六十六章",
+   "sha256": "12252adc860edf1b288ac8b9b1ee676140d790d3da3130c71d03dc76cc1adebe",
+   "i": 13034
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/debug →",
+     "p": {}
+    },
+    {
+     "t": "第一百五十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百五十二章_调试棒和其他的一些关于调试的东西"
+     }
+    }
+   ],
+   "text": "/debug →第一百五十二章",
+   "sha256": "c2462074ff23d56a618595bc04d271b1598ea2377a9ae608236bc77d79a1c34a",
+   "i": 13035
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/defaultgamemode →",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "/defaultgamemode →第六十六章",
+   "sha256": "108ae9ab164684790f159045240fd6013be6aafd0a2b613a9522d3639f7d515b",
+   "i": 13036
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/deop →",
+     "p": {}
+    },
+    {
+     "t": "第五十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十三章_剩下的一些指令"
+     }
+    }
+   ],
+   "text": "/deop →第五十三章",
+   "sha256": "367fb8180ceb332021f310bb0272791a59943cbbad26bdd6393e77123bb13a62",
+   "i": 13037
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/detect →/execute",
+     "p": {}
+    }
+   ],
+   "text": "/detect →/execute",
+   "sha256": "00b8fd1e629ddda768d9d9fa4f29da44c260ba1f9b599b80e148db43816055c0",
+   "i": 13038
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/dialogue →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/dialogue →暂未讲到",
+   "sha256": "4edcf8556944e536959936f7b5259d46c6eee6ad73b0bb9345e271e07c877ccf",
+   "i": 13039
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/difficulty →",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "/difficulty →第六十六章",
+   "sha256": "043e21ee6adba3032c153b1d7c636a56bbff1d13ea2e92d65ab5120d038fd4d0",
+   "i": 13040
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/effect →",
+     "p": {}
+    },
+    {
+     "t": "第五十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十五章_effect-牛顿哭了"
+     }
+    }
+   ],
+   "text": "/effect →第五十五章",
+   "sha256": "73827ace82c41f40ddebf3a6863e5bd64af7826a56cf85cb125c5ac69d1d426a",
+   "i": 13041
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/enchant →",
+     "p": {}
+    },
+    {
+     "t": "第五十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十七章_enchant-简单的附魔"
+     }
+    }
+   ],
+   "text": "/enchant →第五十七章",
+   "sha256": "309959fe4c107149fa8e0326c6a7c5e799811c33eba64a58936b68c26e2d829a",
+   "i": 13042
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/entitydata →",
+     "p": {}
+    },
+    {
+     "t": "第一百四十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百四十三章/entitydata-修改实体的NBT"
+     }
+    }
+   ],
+   "text": "/entitydata →第一百四十三章",
+   "sha256": "c842af3a8e6aacfaa8b3fe9668dc6ede93f4da2c669423ffa2ea295d13f076c1",
+   "i": 13043
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/event →",
+     "p": {}
+    },
+    {
+     "t": "第七十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第七十八章_event-生物事件"
+     }
+    }
+   ],
+   "text": "/event →第七十八章",
+   "sha256": "bcd4b2daa8e114c563ddf58ab18d204cc6959d61ee838f2bdd8c7d55a7c5e107",
+   "i": 13044
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute →",
+     "p": {}
+    },
+    {
+     "t": "第八卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八卷_更高级的execute"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第三十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十二章_tickingarea-基岩版控制常加载区块"
+     }
+    }
+   ],
+   "text": "/execute →第八卷、第三十三章",
+   "sha256": "2b561df2db5dbe62c466042f51475b02563d7ef7188efc447af70187c7c0f891",
+   "i": 13045
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/executeasself →/execute",
+     "p": {}
+    }
+   ],
+   "text": "/executeasself →/execute",
+   "sha256": "7bf19ce869769e8eff3f73494dfc4ef0cf891de17bdecac732857a9743cf2aaa",
+   "i": 13046
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/experience →",
+     "p": {}
+    },
+    {
+     "t": "第二十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十四章_xp-控制经验值"
+     }
+    }
+   ],
+   "text": "/experience →第二十四章",
+   "sha256": "82a79b618d2c5a21b73bec3886f5355ec81689e194123605dd4f087f67b31b7a",
+   "i": 13047
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/fill →",
+     "p": {}
+    },
+    {
+     "t": "第十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十四章_fill-填充指令"
+     }
+    }
+   ],
+   "text": "/fill →第十四章",
+   "sha256": "c0672eb98dfa7cae3ea1fb439cd93f8ebfab8726bc60a413dacf1713231d614d",
+   "i": 13048
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/fog →",
+     "p": {}
+    },
+    {
+     "t": "第八十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十二章_fog-迷雾"
+     }
+    }
+   ],
+   "text": "/fog →第八十二章",
+   "sha256": "d00811d82596194ef1f0f1ed1aef0dc63a12cc84053007f1404fd777ce93bd82",
+   "i": 13049
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/forceload →",
+     "p": {}
+    },
+    {
+     "t": "第九十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十七章_forceload-Java版控制常加载区块"
+     }
+    }
+   ],
+   "text": "/forceload →第九十七章",
+   "sha256": "a6abb1dfa6cb7afff9b7f4784e4fa44cecbab5fb61a9994d4f3338e2138e3630",
+   "i": 13050
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/function →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/function →暂未讲到",
+   "sha256": "f1812920b9d31678d4b2c9e01c323246a63ee5912e1f9e507ab9013a30e44331",
+   "i": 13051
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/gamemode →",
+     "p": {}
+    },
+    {
+     "t": "第十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十一章_gamemode-更改游戏模式"
+     }
+    }
+   ],
+   "text": "/gamemode →第十一章",
+   "sha256": "84b410966c2611ed94ecdf13aed77fbf4240012ad2816fbc620ce10799f7d29e",
+   "i": 13052
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/gamerule →",
+     "p": {}
+    },
+    {
+     "t": "第十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十二章_gamerule-自定游戏规则"
+     }
+    }
+   ],
+   "text": "/gamerule →第十二章",
+   "sha256": "afb808ac7700783cd261bf9d0ad753ccbf6ce7aa3acb3838dc1dff093747bb3b",
+   "i": 13053
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/gametest →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/gametest →暂未讲到",
+   "sha256": "c7118e76e02c8675bea51c04c756d8743db2c2761c7805376358d2030bcf0ab3",
+   "i": 13054
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/getspawnpoint →",
+     "p": {}
+    },
+    {
+     "t": "第三十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十四章_setworldspawn、spawnpoint-出生点"
+     }
+    }
+   ],
+   "text": "/getspawnpoint →第三十四章",
+   "sha256": "468bbd02feeb77ba7d56d2e4f128b0e20fa69d46c90ffb4c108d4dda2f44d15a",
+   "i": 13055
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/give →",
+     "p": {}
+    },
+    {
+     "t": "第八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八章_/give的用法"
+     }
+    }
+   ],
+   "text": "/give →第八章",
+   "sha256": "f76c84ed129e0542c20f62398fcde91e3cd3beeacdf1e4bdfb98aabc85dd6817",
+   "i": 13056
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/help →",
+     "p": {}
+    },
+    {
+     "t": "第二十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十一章_一些短小但不容忽视的指令"
+     }
+    }
+   ],
+   "text": "/help →第二十一章",
+   "sha256": "5df2dabcb685291480626f3e7e3411f236878697d00533996e5eba61f960ff04",
+   "i": 13057
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/immutableworld →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/immutableworld →暂未讲到",
+   "sha256": "4a6041ee07aae39924980776871e9385b3fcdce4854ac22a8d24a8ba808c5b97",
+   "i": 13058
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/item →",
+     "p": {}
+    },
+    {
+     "t": "第八十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十五章_item-更高级的replaceitem"
+     }
+    }
+   ],
+   "text": "/item →第八十五章",
+   "sha256": "28f0020b0c0dd90dd2cbd33929bc2c0195b9e637e42ed50941093bd06e97bad2",
+   "i": 13059
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/jfr →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/jfr →暂未讲到",
+   "sha256": "ca136f197c7ef29765a4cb2e5729418b49b274fb960d14de5dceca3c75110d48",
+   "i": 13060
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/kick →",
+     "p": {}
+    },
+    {
+     "t": "第五十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十二章_/kick和黑名单系统"
+     }
+    }
+   ],
+   "text": "/kick →第五十二章",
+   "sha256": "83bc2bee7d34a4ab28fa0bd517cacea9c0167d500f1c36eff12f434656dfd926",
+   "i": 13061
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/kill →",
+     "p": {}
+    },
+    {
+     "t": "第十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十章_kill-熊孩子最喜欢的指令"
+     }
+    }
+   ],
+   "text": "/kill →第十章",
+   "sha256": "59e39e39b720e0c20536adfb825a04db135e6a1b33c59091471375e97cbeecf7",
+   "i": 13062
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/list →",
+     "p": {}
+    },
+    {
+     "t": "第五十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十三章_剩下的一些指令"
+     }
+    }
+   ],
+   "text": "/list →第五十三章",
+   "sha256": "b8243d7dc18c227275d3fb75dc4c830d7d22295e98c4ce3486b0b684c5021a4f",
+   "i": 13063
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/listd →",
+     "p": {}
+    },
+    {
+     "t": "第五十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十三章_剩下的一些指令"
+     }
+    }
+   ],
+   "text": "/listd →第五十三章",
+   "sha256": "fe1801814ce8d0fa6226166231e9dd559342710c8a3c1ad1a0dcc99d84ca71ef",
+   "i": 13064
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locatebiome →",
+     "p": {}
+    },
+    {
+     "t": "第六十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十七章_更高级的locate"
+     }
+    }
+   ],
+   "text": "/locatebiome →第六十七章",
+   "sha256": "040877960a325f560424b946ca38a794d57db5e8439ad752c1f21c7e9bf8aa8c",
+   "i": 13065
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/locate →",
+     "p": {}
+    },
+    {
+     "t": "第二十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十一章_一些短小但不容忽视的指令"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第六十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十七章_更高级的locate"
+     }
+    }
+   ],
+   "text": "/locate →第二十一章、第六十七章",
+   "sha256": "b6586f6311c85c55e98343f9dacdf250296fa49abad8cef1b83e0d2658c4b611",
+   "i": 13066
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/loot →暂未讲到（以前有讲，后被移除）",
+     "p": {}
+    }
+   ],
+   "text": "/loot →暂未讲到（以前有讲，后被移除）",
+   "sha256": "1969534d6d7e2ff6b5543c3197b93d050a9405d041ad5efe1da9e0973c4682dd",
+   "i": 13067
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/me →",
+     "p": {}
+    },
+    {
+     "t": "第十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十五章_发送消息"
+     }
+    }
+   ],
+   "text": "/me →第十五章",
+   "sha256": "a0fb52f58dc9f2e35d95de54568a2ebce9aefa47369220dd458c513c53e0b9c5",
+   "i": 13068
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/mobevent →",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "/mobevent →第六十六章",
+   "sha256": "8c660a307a7577bbac00aa5d070c4cfe6485fc2e1c404edb83c992e6d8745f0f",
+   "i": 13069
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/msg →",
+     "p": {}
+    },
+    {
+     "t": "第十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十五章_发送消息"
+     }
+    }
+   ],
+   "text": "/msg →第十五章",
+   "sha256": "7dae4bca200b7ceba3e21740a1e861aa2443cc9e44e224b7228149d3ffc0b5cd",
+   "i": 13070
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music →",
+     "p": {}
+    },
+    {
+     "t": "第八十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十六章_music-音乐"
+     }
+    }
+   ],
+   "text": "/music →第八十六章",
+   "sha256": "1c742b276d1a0c944a95a97f5b4c4cdcaa1f3fac57bfab6104652d98caa43f4a",
+   "i": 13071
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/op →",
+     "p": {}
+    },
+    {
+     "t": "第五十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十三章_剩下的一些指令"
+     }
+    }
+   ],
+   "text": "/op →第五十三章",
+   "sha256": "4ac8572efe9ac92b228a2617f4c558c094ab48b0eb132d37be8f03bbf35f9e85",
+   "i": 13072
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ops →不会讲",
+     "p": {}
+    }
+   ],
+   "text": "/ops →不会讲",
+   "sha256": "d623de83e3961cbb34696218e9fe9b25634908a208f1c2a52dd5359b19d56452",
+   "i": 13073
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/pardon →",
+     "p": {}
+    },
+    {
+     "t": "第五十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十二章_/kick和黑名单系统"
+     }
+    }
+   ],
+   "text": "/pardon →第五十二章",
+   "sha256": "c382d51b0163a2ed9d77f6cffbf01720980b30b739353f966f4497874d5b957b",
+   "i": 13074
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/pardon-ip →",
+     "p": {}
+    },
+    {
+     "t": "第五十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十二章_/kick和黑名单系统"
+     }
+    }
+   ],
+   "text": "/pardon-ip →第五十二章",
+   "sha256": "a8ad6a6115ebfdac22505b3fc88dcf663b022fb3d279c41fd82b8bcd1ddc83ad",
+   "i": 13075
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/particle →",
+     "p": {}
+    },
+    {
+     "t": "第三十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十九章_particle-在MC里做特效"
+     }
+    }
+   ],
+   "text": "/particle →第三十九章",
+   "sha256": "40b8eea7ac07fbb4347e77ef534138996fafbb3c174e6ef40c2b079af446b9d6",
+   "i": 13076
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/perf →",
+     "p": {}
+    },
+    {
+     "t": "第一百五十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百五十二章_调试棒和其他的一些关于调试的东西"
+     }
+    }
+   ],
+   "text": "/perf →第一百五十二章",
+   "sha256": "13578aa55f1279b85ea2859a683154ce9aada3fcc2516232e6af3073f4fc99ab",
+   "i": 13077
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/permission →不会讲",
+     "p": {}
+    }
+   ],
+   "text": "/permission →不会讲",
+   "sha256": "2435a7b5d32e90449dfdb615431f39716bceaae3563b7225929a2f77b961c70b",
+   "i": 13078
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place →",
+     "p": {}
+    },
+    {
+     "t": "第八十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十八章_place-如何生成一个村庄"
+     }
+    }
+   ],
+   "text": "/place →第八十八章",
+   "sha256": "d223d6300ad0cf768f1d9cdc0f84d5bbf46c96b820805d40e39b543197cc8460",
+   "i": 13079
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/placefeature →",
+     "p": {}
+    },
+    {
+     "t": "第八十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十八章_place-如何生成一个村庄"
+     }
+    }
+   ],
+   "text": "/placefeature →第八十八章",
+   "sha256": "74cf6c21820881ec35d7ccd98f00aced546edfd1533ed8749cf3741fb4ee01cf",
+   "i": 13080
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/playanimation →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/playanimation →暂未讲到",
+   "sha256": "dd044165339c3051375dde523f45e40ee397d9372cb7a5227439d6c6487cd702",
+   "i": 13081
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/playsound →",
+     "p": {}
+    },
+    {
+     "t": "第六十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十三章_游戏声音"
+     }
+    }
+   ],
+   "text": "/playsound →第六十三章",
+   "sha256": "a732a7f02b2c5e9579b85f7bfcf6eba9ed4bc613509340b238c29f5ff2b12a55",
+   "i": 13082
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/position →/gamerule",
+     "p": {}
+    }
+   ],
+   "text": "/position →/gamerule",
+   "sha256": "b1f0668454fb9ddb34b2fc6d5ef542edeb447f36523df18d91c9f9156e200204",
+   "i": 13083
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/publish →",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "/publish →第六十六章",
+   "sha256": "d0490f4e435c97b9ee5d876311c41f84492b3c5df7e66f29c42cbe26a3c252aa",
+   "i": 13084
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/recipe →",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "/recipe →第六十六章",
+   "sha256": "07abb8e2e0400b60232975acd1fd948c3e2112dfde7818e2c0e2babf84e86e54",
+   "i": 13085
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/reload →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/reload →暂未讲到",
+   "sha256": "e56b707b3305370313fa59a39fedaa01edd80cf5189e9a4999ace4c8dcd6e4aa",
+   "i": 13086
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/remove →不会讲",
+     "p": {}
+    }
+   ],
+   "text": "/remove →不会讲",
+   "sha256": "e1710ed5fe097bd7c33fc04edef96845ddf8e56623fef06dae82a2f004a26b16",
+   "i": 13087
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem →",
+     "p": {}
+    },
+    {
+     "t": "第三十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十八章_replaceitem-头上顶着一个TNT"
+     }
+    }
+   ],
+   "text": "/replaceitem →第三十八章",
+   "sha256": "373bb4249a710969daec4ba2740f966f1f0418de5c253db7c558a10c4f25c528",
+   "i": 13088
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/resupply →/event",
+     "p": {}
+    }
+   ],
+   "text": "/resupply →/event",
+   "sha256": "ecd89bda155b82d8b9f2b73fe69b189030803be8a9db7866a32d38323acd5cb4",
+   "i": 13089
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride →",
+     "p": {}
+    },
+    {
+     "t": "第八十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十九章_ride-骑乘"
+     }
+    }
+   ],
+   "text": "/ride →第八十九章",
+   "sha256": "2a93fd7d6c552ab3d7d47fa249bf747bd67582387d483a3de34cf0e6e5bf4209",
+   "i": 13090
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/save →",
+     "p": {}
+    },
+    {
+     "t": "第五十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十三章_剩下的一些指令"
+     }
+    }
+   ],
+   "text": "/save →第五十三章",
+   "sha256": "b37be1fe24b8eaa5aee84d6b0de5cd086772377fbdbb72b7314f742f5291e56b",
+   "i": 13091
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/save-all →",
+     "p": {}
+    },
+    {
+     "t": "第五十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十三章_剩下的一些指令"
+     }
+    }
+   ],
+   "text": "/save-all →第五十三章",
+   "sha256": "ed5bf62feb601185d7c5ca095251f69b01c89bbc1d10845940ad3e31df4e3f78",
+   "i": 13092
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/save-off →",
+     "p": {}
+    },
+    {
+     "t": "第五十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十三章_剩下的一些指令"
+     }
+    }
+   ],
+   "text": "/save-off →第五十三章",
+   "sha256": "7f13dca30283f32f654e633a90e45c7a76d86f100830f76c0751781b478c7402",
+   "i": 13093
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/save-on →",
+     "p": {}
+    },
+    {
+     "t": "第五十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十三章_剩下的一些指令"
+     }
+    }
+   ],
+   "text": "/save-on →第五十三章",
+   "sha256": "6049b7af91e4b8eee26ef92e31b34af5bc38a705f2d166b93aeb5dc9f372bb10",
+   "i": 13094
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/say →",
+     "p": {}
+    },
+    {
+     "t": "第十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十五章_发送消息"
+     }
+    }
+   ],
+   "text": "/say →第十五章",
+   "sha256": "caba04d52a5f234afcf6d89ae02a78ea5177ea86e350d07ac0dbfe1f592ebc05",
+   "i": 13095
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/schedule →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/schedule →暂未讲到",
+   "sha256": "49b6fb7b2ac3638ed04c253c036da1b785a14f1f8324c8108fccee06f7a4039f",
+   "i": 13096
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard →",
+     "p": {}
+    },
+    {
+     "t": "第五卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五卷_记分版/计分板（scoreboard）"
+     }
+    }
+   ],
+   "text": "/scoreboard →第五卷",
+   "sha256": "5f68772e10f7f63de71d2d69e69adcf5de6d7aa20995ba79b19b8882fd5210eb",
+   "i": 13097
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/seed →",
+     "p": {}
+    },
+    {
+     "t": "第二十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十一章_一些短小但不容忽视的指令"
+     }
+    }
+   ],
+   "text": "/seed →第二十一章",
+   "sha256": "b984fe778ba8ae9d76cdd5831a807b13f2c8949e0fc422888d230ad61b840e99",
+   "i": 13098
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/setblock →",
+     "p": {}
+    },
+    {
+     "t": "第二十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十三章_setblock-放置方块"
+     }
+    }
+   ],
+   "text": "/setblock →第二十三章",
+   "sha256": "84e375e499a3c08260894baae33c2d38a2e8091ba038e01e0b18332df8ac2246",
+   "i": 13099
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/setidletimeout →",
+     "p": {}
+    },
+    {
+     "t": "第五十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十三章_剩下的一些指令"
+     }
+    }
+   ],
+   "text": "/setidletimeout →第五十三章",
+   "sha256": "f94538691f316fd6df06697b1f5f14c9b9f29936b8124f51f63bc3af9e04ea4f",
+   "i": 13100
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/setmaxplayers →",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "/setmaxplayers →第六十六章",
+   "sha256": "99820698c818106a6911ffc7885be3d93181806bd7af3d9fdd0ae07f1e32aa7a",
+   "i": 13101
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/setworldspawn →",
+     "p": {}
+    },
+    {
+     "t": "第三十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十四章_setworldspawn、spawnpoint-出生点"
+     }
+    }
+   ],
+   "text": "/setworldspawn →第三十四章",
+   "sha256": "8131d983b22aca81304da893f8d93dc3f06fd9b79c3893485e08b86121bc849b",
+   "i": 13102
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spawnpoint →",
+     "p": {}
+    },
+    {
+     "t": "第三十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十四章_setworldspawn、spawnpoint-出生点"
+     }
+    }
+   ],
+   "text": "/spawnpoint →第三十四章",
+   "sha256": "b7a825523e9627b8c96b74871cba3a00330e7be7db9f95daf86aeaffb5e1f0d3",
+   "i": 13103
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spectate →",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "/spectate →第六十六章",
+   "sha256": "e127ed31dd3aed40b734ecfc7ea4ce19611e01df877dfc26be627c0b00113adf",
+   "i": 13104
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spreadplayers →",
+     "p": {}
+    },
+    {
+     "t": "第三十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十五章_spreadplayers-随机传送"
+     }
+    }
+   ],
+   "text": "/spreadplayers →第三十五章",
+   "sha256": "74c056b555dc09a3a24f5ea611056e93957d1e87fd42411c86944ced374c5ac3",
+   "i": 13105
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/stats →",
+     "p": {}
+    },
+    {
+     "t": "第六十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十一章_/stats与指令的输出结果"
+     }
+    }
+   ],
+   "text": "/stats →第六十一章",
+   "sha256": "f951cace1242ad56a32e6e2b56627a511e5531cf3034104c3da4c9f706ea1f7a",
+   "i": 13106
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/stop →",
+     "p": {}
+    },
+    {
+     "t": "第五十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十三章_剩下的一些指令"
+     }
+    }
+   ],
+   "text": "/stop →第五十三章",
+   "sha256": "71930f2830893695fa3ad277f54657c07d903f1b27948e67e461609928833b73",
+   "i": 13107
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/stopsound →",
+     "p": {}
+    },
+    {
+     "t": "第六十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十三章_游戏声音"
+     }
+    }
+   ],
+   "text": "/stopsound →第六十三章",
+   "sha256": "83ab1ae41cf79759730ba08bfeb1fd8f86630787f9060162e7effe106f4926c0",
+   "i": 13108
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/structure →",
+     "p": {}
+    },
+    {
+     "t": "第八十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十一章_structure-指令与结构方块"
+     }
+    }
+   ],
+   "text": "/structure →第八十一章",
+   "sha256": "255e9055900a27c8373692f7b0dc6e878452173ac452a44cd0851276cafd6b6b",
+   "i": 13109
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/summon →",
+     "p": {}
+    },
+    {
+     "t": "第二十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十二章_summon-生成实体"
+     }
+    }
+   ],
+   "text": "/summon →第二十二章",
+   "sha256": "794082916b9509a93b10c4681f12decf73cb7bfa4620812522d8730e999328c5",
+   "i": 13110
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/tag →",
+     "p": {}
+    },
+    {
+     "t": "第四十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第四十八章_tag-标签"
+     }
+    }
+   ],
+   "text": "/tag →第四十八章",
+   "sha256": "f57e2ff506ab8eba3ef52f12249b4f7414450ee391af960851fb614f32e140c8",
+   "i": 13111
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/team →",
+     "p": {}
+    },
+    {
+     "t": "第四十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第四十六章_team——管理队伍和成员"
+     }
+    }
+   ],
+   "text": "/team →第四十六章",
+   "sha256": "2c5fc9e734ccd34bac1fcb9a1a4e823da79017fe7bf1bd80e944c9b7d5b12655",
+   "i": 13112
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/teammsg →",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "/teammsg →第六十六章",
+   "sha256": "b2f935906f6490518dd4749e1b3f29640bb75d33f8ffc1078e503e4f2fac1405",
+   "i": 13113
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/teleport →",
+     "p": {}
+    },
+    {
+     "t": "第六十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十四章_tp和teleport-深入地了解传送指令"
+     }
+    }
+   ],
+   "text": "/teleport →第六十四章",
+   "sha256": "306613e5b7dc73447776b0a637f2a25fef3eb8eb4ed8f6b733daafc3e1d9b152",
+   "i": 13114
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/tell →",
+     "p": {}
+    },
+    {
+     "t": "第十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十五章_发送消息"
+     }
+    }
+   ],
+   "text": "/tell →第十五章",
+   "sha256": "f77eb04668cdd0553078a445daa50ad07578a278055e036d0e8d81ffbe429632",
+   "i": 13115
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/tellraw →",
+     "p": {}
+    },
+    {
+     "t": "第十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十五章_发送消息"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十七章_Java版JSON文本初识"
+     }
+    }
+   ],
+   "text": "/tellraw →第十五章、第十七章",
+   "sha256": "a19326aadf079b6307b694a1a220698efae22c01a0f23b6c5fda4f7090a1039c",
+   "i": 13116
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testfor →",
+     "p": {}
+    },
+    {
+     "t": "第三十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十六章_testfor_-探测"
+     }
+    }
+   ],
+   "text": "/testfor →第三十六章",
+   "sha256": "b89410d40e92c60b370b4d354eca746e72a6d2c54a7312c9a98e9cbc12637457",
+   "i": 13117
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblock →",
+     "p": {}
+    },
+    {
+     "t": "第三十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十七章_testforblock、testforblocks-探测"
+     }
+    }
+   ],
+   "text": "/testforblock →第三十七章",
+   "sha256": "ec3776f60f4868ad624cd1bad4d0713f7257c255123edb998f57055d28dafdd0",
+   "i": 13118
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblocks →",
+     "p": {}
+    },
+    {
+     "t": "第三十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十七章_testforblock、testforblocks-探测"
+     }
+    }
+   ],
+   "text": "/testforblocks →第三十七章",
+   "sha256": "c6981e00260e05087dcea25dc6f0728c78923f12def1ec7bca995d09fec40532",
+   "i": 13119
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/tickingarea →",
+     "p": {}
+    },
+    {
+     "t": "第三十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十二章_tickingarea-基岩版控制常加载区块"
+     }
+    }
+   ],
+   "text": "/tickingarea →第三十二章",
+   "sha256": "cd77bbf0b79696bbf469a1afdaf3fa324849cf2489a8471f2b855acbe434b0fc",
+   "i": 13120
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/time →",
+     "p": {}
+    },
+    {
+     "t": "第十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十九章_time-改变时间"
+     }
+    }
+   ],
+   "text": "/time →第十九章",
+   "sha256": "92d6248db3950b97b4f345241e7dd344ddb9cd2f53fb5fe717d0b776244c728f",
+   "i": 13121
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/title →",
+     "p": {}
+    },
+    {
+     "t": "第十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十六章_title-屏幕标题"
+     }
+    }
+   ],
+   "text": "/title →第十六章",
+   "sha256": "f9e643bf09a53a79044dfa4a4a18fd25a8a2fe33e86d048996c0245e9f6e6131",
+   "i": 13122
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/titleraw →",
+     "p": {}
+    },
+    {
+     "t": "第十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十五章_发送消息"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十六章_title-屏幕标题"
+     }
+    }
+   ],
+   "text": "/titleraw →第十五章、第十六章",
+   "sha256": "c332ad0dcb0e8d0b45d0c4522e6e9eb60da6449a6b9b2698f2507185d405875c",
+   "i": 13123
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/tm →",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "/tm →第六十六章",
+   "sha256": "73e619796ac2a75ed4c1b63918f6fb31e2891b7476aa7dbd3037585379906d5b",
+   "i": 13124
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/toggledownfall →",
+     "p": {}
+    },
+    {
+     "t": "第二十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十章_weather-控制天气"
+     }
+    }
+   ],
+   "text": "/toggledownfall →第二十章",
+   "sha256": "432dd252141ce266a4fe31a9793062f6343d8cbf608046347b292a1b1e722739",
+   "i": 13125
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/tp →",
+     "p": {}
+    },
+    {
+     "t": "第九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九章_tp-传送指令"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第六十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十四章_tp和teleport-深入地了解传送指令"
+     }
+    }
+   ],
+   "text": "/tp →第九章、第六十四章",
+   "sha256": "ac3dd2120c26d09d91c9984f1418ee9a58c30ac912bda8ed809064956dad2a2a",
+   "i": 13126
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/trigger →",
+     "p": {}
+    },
+    {
+     "t": "第九十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十八章_触发器-简单的注册/登录系统_上"
+     }
+    }
+   ],
+   "text": "/trigger →第九十八章",
+   "sha256": "cefc788797242ec23a72918e976e5398e88d4909cc85ddf7929c03ef8a913a14",
+   "i": 13127
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/unban →/pardon",
+     "p": {}
+    }
+   ],
+   "text": "/unban →/pardon",
+   "sha256": "bbdb604b2e2231eeef35be2d3ccc1e20a3fa9dafec99effac5b852c28f492c45",
+   "i": 13128
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/volumearea →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/volumearea →暂未讲到",
+   "sha256": "d541decf3e3c4b96d422bb6dac334e03b2979c852271cfe036c5d885e7c807ca",
+   "i": 13129
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/w →",
+     "p": {}
+    },
+    {
+     "t": "第十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十五章_发送消息"
+     }
+    }
+   ],
+   "text": "/w →第十五章",
+   "sha256": "00013d2abfedf1bfe78d24005a03835d39a724a1f99d7d21b79ba1c3e5593548",
+   "i": 13130
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/wb →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/wb →暂未讲到",
+   "sha256": "6aed3588d49fd2af6e83951f4eff25f7566a5e67ea26e97b53a838e325f2a603",
+   "i": 13131
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/weather →",
+     "p": {}
+    },
+    {
+     "t": "第二十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十章_weather-控制天气"
+     }
+    }
+   ],
+   "text": "/weather →第二十章",
+   "sha256": "fbddbda42b24df4cde335e4b9abbbc93316dbfbce9917bb6f658fd1e78308937",
+   "i": 13132
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/whitelist →",
+     "p": {}
+    },
+    {
+     "t": "第五十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十一章_whitelist-白名单"
+     }
+    }
+   ],
+   "text": "/whitelist →第五十一章",
+   "sha256": "2ef9afac3b51e5581108f453ee6115f52b2ad2933072f16602ed55e80c02a2b6",
+   "i": 13133
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/worldborder →",
+     "p": {}
+    },
+    {
+     "t": "第六十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十五章_worldborder-MC是一款吃鸡游戏"
+     }
+    }
+   ],
+   "text": "/worldborder →第六十五章",
+   "sha256": "693f494c2531e625f5f134d39cc1aef68d6c97147fc3b6e7b8fd8e9760dab038",
+   "i": 13134
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/worldbuilder →暂未讲到",
+     "p": {}
+    }
+   ],
+   "text": "/worldbuilder →暂未讲到",
+   "sha256": "70f75ba91e6792fb3ee7545a98b5e6e1cd46d3ff164e3676996339e3882c43cc",
+   "i": 13135
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/wsserver →",
+     "p": {}
+    },
+    {
+     "t": "第一百一十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十五章_WebSocket在Minecraft里的用处"
+     }
+    },
+    {
+     "t": "（第八十五章原有讲到，后删除）",
+     "p": {}
+    }
+   ],
+   "text": "/wsserver →第一百一十五章（第八十五章原有讲到，后删除）",
+   "sha256": "e4b70709d969f8d6980dc8e2655e92e815cf46cf45c6fcbccc35aa45052d2005",
+   "i": 13136
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/xp →",
+     "p": {}
+    },
+    {
+     "t": "第二十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十四章_xp-控制经验值"
+     }
+    }
+   ],
+   "text": "/xp →第二十四章",
+   "sha256": "1320da0df493c53d80df4c0f0bf5b03918cd6708731f77fe57c4acb7811d7895",
+   "i": 13137
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "技术性",
+     "p": {}
+    }
+   ],
+   "text": "技术性",
+   "sha256": "99642c882c79f43ed78e8810c372932f263ca3620c3e4dbb24a5a771693086f5",
+   "i": 13138
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "变量→",
+     "p": {}
+    },
+    {
+     "t": "第五卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五卷_记分版/计分板（scoreboard）"
+     }
+    }
+   ],
+   "text": "变量→第五卷",
+   "sha256": "16caee18e59751d738ca1e6cb06b2d7dfeabc29f6f028ce0f801d4ded85f7976",
+   "i": 13139
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "白名单→",
+     "p": {}
+    },
+    {
+     "t": "第五十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十一章_whitelist-白名单"
+     }
+    }
+   ],
+   "text": "白名单→第五十一章",
+   "sha256": "10bad2d31b01687b13bce9af8dd9f1c571d15519be75596eff0c8d61e3940e42",
+   "i": 13140
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "BOSS栏→",
+     "p": {}
+    },
+    {
+     "t": "第八十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十三章_bossbar-自定义BOSS栏_上"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第八十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十四章_bossbar-自定义BOSS栏_下"
+     }
+    }
+   ],
+   "text": "BOSS栏→第八十四章、第八十五章",
+   "sha256": "21cabf7f272c29de3fcda09703c553d9d8cd5a55e1fec3f3edff237564fcf3b4",
+   "i": 13141
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "扁平化→",
+     "p": {}
+    },
+    {
+     "t": "第一百章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百章_开启NBT时代（来，开杯香槟酒庆祝一下，100章了）"
+     }
+    }
+   ],
+   "text": "扁平化→第一百章",
+   "sha256": "a7d4a266276771a660b08529b30f5f66033dd0efaa967367dbd3330058e8665b",
+   "i": 13142
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "标签→",
+     "p": {}
+    },
+    {
+     "t": "本书第一次大修新增章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_本书第一次大修新增章_①_矿词与标签"
+     }
+    },
+    {
+     "t": "①",
+     "p": {
+      "style": "Hyperlink",
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     },
+     "link": {
+      "anchor": "_本书第一次大修新增章_①_矿词与标签"
+     }
+    },
+    {
+     "t": "矿词与标签",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_本书第一次大修新增章_①_矿词与标签"
+     }
+    }
+   ],
+   "text": "标签→本书第一次大修新增章①矿词与标签",
+   "sha256": "edab4df38bb65c07e95a3ea7d8f36621db015a3bd1eb75aa44cf1ba520859662",
+   "i": 13143
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "标签[记分板]→",
+     "p": {}
+    },
+    {
+     "t": "第四十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第四十八章_tag-标签"
+     }
+    }
+   ],
+   "text": "标签[记分板]→第四十八章",
+   "sha256": "eea7106df2aa8260495086d1e750ef1d524a6e1c28c487af780d4db4267a0105",
+   "i": 13144
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "触发器→",
+     "p": {}
+    },
+    {
+     "t": "第九十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十八章_触发器-简单的注册/登录系统_上"
+     }
+    }
+   ],
+   "text": "触发器→第九十八章",
+   "sha256": "6f241dc2da3793c1fd3469ee2af737c6607b89c333cb1c90163bc2dffb34edf2",
+   "i": 13145
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "成就→",
+     "p": {}
+    },
+    {
+     "t": "第一百一十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十七章_控制成就系统的指令"
+     }
+    }
+   ],
+   "text": "成就→第一百一十七章",
+   "sha256": "d9b4d9313671c3849d35c269895331f6af58173c7821316e9541b3cf28dbc7c5",
+   "i": 13146
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "常加载区块→",
+     "p": {}
+    },
+    {
+     "t": "第三十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十二章_tickingarea-基岩版控制常加载区块"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第九十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十七章_forceload-Java版控制常加载区块"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百二十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百二十章_区块加载器"
+     }
+    }
+   ],
+   "text": "常加载区块→第三十二章、第九十七章、第一百二十章",
+   "sha256": "1dc212bf2171f289908ec0558052cfbc2c63660ec2edf00d6f0b73da0538966d",
+   "i": 13147
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "村民→",
+     "p": {}
+    },
+    {
+     "t": "第十六卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十六卷_村民与NPC"
+     }
+    }
+   ],
+   "text": "村民→第十六卷",
+   "sha256": "3bc826fcba5357df75bc546efe4089d6b25590ef1ce88408b9c8dabe766343a0",
+   "i": 13148
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "参数→",
+     "p": {}
+    },
+    {
+     "t": "第二十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十九章_更深入地了解指令参数"
+     }
+    }
+   ],
+   "text": "参数→第二十九章",
+   "sha256": "76339f2a082858645d27ebeafa81472ecc20411e168ca6b492e70a22f19a4356",
+   "i": 13149
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "朝向→",
+     "p": {}
+    },
+    {
+     "t": "第九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九章_tp-传送指令"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第二十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十六章_更加精确的目标选择器_下"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第六十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十四章_tp和teleport-深入地了解传送指令"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第六十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十九章_修饰子命令_上"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第七十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第七十五章_局部坐标与执行朝向"
+     }
+    }
+   ],
+   "text": "朝向→第九章、第二十六章、第六十四章、第六十九章、第七十五章",
+   "sha256": "3a08eeb1dd1e9ff09b13a9e19b76a94d7302451b5e1911e1367e76f4abcac74b",
+   "i": 13150
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "多人游戏→",
+     "p": {}
+    },
+    {
+     "t": "第六卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六卷_服务器中的指令"
+     }
+    }
+   ],
+   "text": "多人游戏→第六卷",
+   "sha256": "d2a262f0b6168744539024658698c1d029aee138dee3bfe071cde8b89a396a32",
+   "i": 13151
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "队伍→",
+     "p": {}
+    },
+    {
+     "t": "第四十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第四十七章_team——队伍的颜色和规则"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第四十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第四十六章_team——管理队伍和成员"
+     }
+    }
+   ],
+   "text": "队伍→第四十七章、第四十六章",
+   "sha256": "4a4989a646814531477f2c40604f7e705976c1922b3fd077dfbceeadb5bc1d37",
+   "i": 13152
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "方块→",
+     "p": {}
+    },
+    {
+     "t": "第三十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十章_方块"
+     }
+    }
+   ],
+   "text": "方块→第三十章",
+   "sha256": "a8a16149696ad31f9661849d8000c0ba1491f6450c7d4c2f2ea609f9614835c1",
+   "i": 13153
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "非门→",
+     "p": {}
+    },
+    {
+     "t": "第九十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十三章_逻辑门_上"
+     }
+    }
+   ],
+   "text": "非门→第九十三章",
+   "sha256": "b5ae0c7303a47277de2be2189a8b964cc3f46da52537af32c3eff29d49cf071b",
+   "i": 13154
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "附魔→",
+     "p": {}
+    },
+    {
+     "t": "第五十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十七章_enchant-简单的附魔"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第五十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十八章_使用NBT来自定义附魔"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "基岩版玩家的32767级锋利的苹果",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_基岩版玩家的32767级锋利的苹果"
+     }
+    }
+   ],
+   "text": "附魔→第五十七章、第五十八章、基岩版玩家的32767级锋利的苹果",
+   "sha256": "0cd25ecad4002cad618c4e2aebc8cb3033a914c066d5922c71ce4f36f41db5b8",
+   "i": 13155
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "复制→",
+     "p": {}
+    },
+    {
+     "t": "第五十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十六章_clone-拷贝方块"
+     }
+    }
+   ],
+   "text": "复制→第五十六章",
+   "sha256": "7220967e5c5138b182a183ee6e465390792177414ef0036268af39f852f9c1da",
+   "i": 13156
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "F3→",
+     "p": {}
+    },
+    {
+     "t": "第十五卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十五卷_调戏Minecraft指南"
+     }
+    }
+   ],
+   "text": "F3→第十五卷",
+   "sha256": "e5004428d90955cb9c24a66eb1993ee79686e7882199d8e46dd04e72b3c9a31e",
+   "i": 13157
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "或非门→",
+     "p": {}
+    },
+    {
+     "t": "第九十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十四章_逻辑门_下"
+     }
+    }
+   ],
+   "text": "或非门→第九十四章",
+   "sha256": "1d13c454647daec23cfba75eec12fc3dda62904ae1efce1dd9d4a0262c6402b0",
+   "i": 13158
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "或门→",
+     "p": {}
+    },
+    {
+     "t": "第九十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十三章_逻辑门_上"
+     }
+    }
+   ],
+   "text": "或门→第九十三章",
+   "sha256": "e38ebd839b34f1c2b40be21b58be745ee8d8a78e420521ea9d176b40c5c5c527",
+   "i": 13159
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "局部坐标→",
+     "p": {}
+    },
+    {
+     "t": "第五十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十八章_使用NBT来自定义附魔"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第七十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第七十五章_局部坐标与执行朝向"
+     }
+    }
+   ],
+   "text": "局部坐标→第五十八章、第七十五章",
+   "sha256": "8fb7b0a14125e231c3e890626ef452ecc390d2ae7d1908a6c2b78a1a9883dd92",
+   "i": 13160
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "绝对坐标→",
+     "p": {}
+    },
+    {
+     "t": "第五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五章_坐标"
+     }
+    }
+   ],
+   "text": "绝对坐标→第五章",
+   "sha256": "e3ff8a07e34a59927dff3c04e078db63d6b0c01ea916433123cf6ab3d29cb05f",
+   "i": 13161
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式→",
+     "p": {}
+    },
+    {
+     "t": "第七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第七章_指令的格式与指令执行的三要素"
+     }
+    }
+   ],
+   "text": "格式→第七章",
+   "sha256": "d3ba2ee8baefaab4c3107c0e0eeca52746dd8fd42bbb3cc8472a26b6ce51d8e9",
+   "i": 13162
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "规则→",
+     "p": {}
+    },
+    {
+     "t": "第十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十二章_gamerule-自定游戏规则"
+     }
+    }
+   ],
+   "text": "规则→第十二章",
+   "sha256": "b7279c52664ea14bba79b136b7b0bf47b2ba241cd9edfebc1e8a661705434033",
+   "i": 13163
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "黑名单→",
+     "p": {}
+    },
+    {
+     "t": "第五十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十二章_/kick和黑名单系统"
+     }
+    }
+   ],
+   "text": "黑名单→第五十二章",
+   "sha256": "0fc7ea9a81df89b021eedb459dfbcd615bcd5e083ee1d8572bca03783a294ae0",
+   "i": 13164
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "火球→",
+     "p": {}
+    },
+    {
+     "t": "第一百四十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百四十六章_火球"
+     }
+    }
+   ],
+   "text": "火球→第一百四十六章",
+   "sha256": "79455b6ad976a74f3f4e38fa664e0b8aceb7bf46db97b7b54d985a3fe1081a70",
+   "i": 13165
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "红石比较器→",
+     "p": {}
+    },
+    {
+     "t": "第九十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十一章_红石比较器"
+     }
+    }
+   ],
+   "text": "红石比较器→第九十一章",
+   "sha256": "b6c2693d64749db4cca49cb8012d1d22fc48d02bfb6839df9f05b1225133b772",
+   "i": 13166
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "红石高频→",
+     "p": {}
+    },
+    {
+     "t": "第九十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十二章_简单的红石脉冲"
+     }
+    }
+   ],
+   "text": "红石高频→第九十二章",
+   "sha256": "6999ccde9a2c25b6f6717b8862df22016eafca3e9bdd346e3a57c3a9e264701c",
+   "i": 13167
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "红石逻辑组→",
+     "p": {}
+    },
+    {
+     "t": "第九十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十五章_初识逻辑组"
+     }
+    }
+   ],
+   "text": "红石逻辑组→第九十五章",
+   "sha256": "9b79e6655d557ec33cc111b3cf5ca07d12ad06b303d11a80cf9755b24e757e9d",
+   "i": 13168
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "红石脉冲→",
+     "p": {}
+    },
+    {
+     "t": "第九十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十二章_简单的红石脉冲"
+     }
+    }
+   ],
+   "text": "红石脉冲→第九十二章",
+   "sha256": "91c8a6953ca1242931318319e5beb28a9ec8a79508007743661ad4f206e12fa2",
+   "i": 13169
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "红石信号→",
+     "p": {}
+    },
+    {
+     "t": "MC新手要学习的基础—1—红石信号",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_MC新手要学习的基础—1—红石信号"
+     }
+    }
+   ],
+   "text": "红石信号→MC新手要学习的基础—1—红石信号",
+   "sha256": "d4b742397ce574ed5d72cfe8b8833a6e45f03f151c8351a2c866bfefa6bad955",
+   "i": 13170
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "箭→",
+     "p": {}
+    },
+    {
+     "t": "第一百四十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百四十五章_箭共通标签"
+     }
+    }
+   ],
+   "text": "箭→第一百四十五章",
+   "sha256": "2ad6d2f42a56c464350f84ed6967a31231ec688661f8face8e1ee48f9973f947",
+   "i": 13171
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java版原始JSON文本→",
+     "p": {}
+    },
+    {
+     "t": "第十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十七章_Java版JSON文本初识"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第十三卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十三卷_JAVA版的JSON"
+     }
+    }
+   ],
+   "text": "Java版原始JSON文本→第十七章、第十三卷",
+   "sha256": "6770b0dfbadb716b078cd3b87c5c542c03984527bd30de2929a18ed4c09702c2",
+   "i": 13172
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "进度→",
+     "p": {}
+    },
+    {
+     "t": "第一百一十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十六章_advancement-让人一夜回到解放前的指令"
+     }
+    }
+   ],
+   "text": "进度→第一百一十六章",
+   "sha256": "d65d601de3e623d6cea3964ab9ece42a80bf91f0e58f15045208f286bfbd716e",
+   "i": 13173
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "计分板→",
+     "p": {}
+    },
+    {
+     "t": "第五卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五卷_记分版/计分板（scoreboard）"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百一十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十九章_称号系统"
+     }
+    }
+   ],
+   "text": "计分板→第五卷、第一百一十九章",
+   "sha256": "b4b9e60de9cdd1cc8fadd949b1b453960d6dd1c0d3a177f25506128dad0746ef",
+   "i": 13174
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "记分板→",
+     "p": {}
+    },
+    {
+     "t": "第五卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五卷_记分版/计分板（scoreboard）"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百一十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十九章_称号系统"
+     }
+    }
+   ],
+   "text": "记分板→第五卷、第一百一十九章",
+   "sha256": "318d3474f4b813c31561d78ede7ded1207f2f5563b97e619c71fb5cd05b1a3a9",
+   "i": 13175
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "结构→",
+     "p": {}
+    },
+    {
+     "t": "第七十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第七十九章_结构方块_上"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第八十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十章_结构方块_下"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第八十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十一章_structure-指令与结构方块"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第八十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十七章_拼图方块"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第八十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十八章_place-如何生成一个村庄"
+     }
+    }
+   ],
+   "text": "结构→第七十九章、第八十章、第八十一章、第八十七章、第八十八章",
+   "sha256": "c45eb46e4c13c13fc777140ffce006a05a8b1cbef764aab8343363cee5754aba",
+   "i": 13176
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "结构方块→",
+     "p": {}
+    },
+    {
+     "t": "第七十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第七十九章_结构方块_上"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第八十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十章_结构方块_下"
+     }
+    }
+   ],
+   "text": "结构方块→第七十九章、第八十章",
+   "sha256": "fb835ca5e986ac99cd9ed76005f0233755b8be846d8d1a5d624226cd43920b5a",
+   "i": 13177
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "JSON→",
+     "p": {}
+    },
+    {
+     "t": "第十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十七章_Java版JSON文本初识"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第六十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十章_基岩版的JSON文本（破200收藏纪念）"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第十三卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十三卷_JAVA版的JSON"
+     }
+    }
+   ],
+   "text": "JSON→第十七章、第六十章、第十三卷",
+   "sha256": "534d54a1e9ac7b530bdabe23f32266e3dd2f61216865cd2b7908a58341631c6f",
+   "i": 13178
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "JSON文本→",
+     "p": {}
+    },
+    {
+     "t": "第十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十七章_Java版JSON文本初识"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第六十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十章_基岩版的JSON文本（破200收藏纪念）"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第十三卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十三卷_JAVA版的JSON"
+     }
+    }
+   ],
+   "text": "JSON文本→第十七章、第六十章、第十三卷",
+   "sha256": "1f5b1ac783e30695ac51902b21958de042799a2a76811347543c579deae8d7c4",
+   "i": 13179
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版JSON组件→",
+     "p": {}
+    },
+    {
+     "t": "第一百零二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百零二章_物品组件"
+     }
+    }
+   ],
+   "text": "基岩版JSON组件→第一百零二章",
+   "sha256": "c9dc71f10248f85afbdb0d4863016b750652eb31e22c3e4db547d720a6f0fe76",
+   "i": 13180
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版原始JSON文本→",
+     "p": {}
+    },
+    {
+     "t": "第六十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十章_基岩版的JSON文本（破200收藏纪念）"
+     }
+    }
+   ],
+   "text": "基岩版原始JSON文本→第六十章",
+   "sha256": "fb75aa17b7d9fec63aa0ef8070d00d6438fffba302a09e4b1f913297e202d41b",
+   "i": 13181
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "矿词→矿物词典",
+     "p": {}
+    }
+   ],
+   "text": "矿词→矿物词典",
+   "sha256": "474f17a3d525d7d5c124cc20f14b7107e7e6db59e2f25a34786c7b0f4b0c2958",
+   "i": 13182
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "盔甲架→",
+     "p": {}
+    },
+    {
+     "t": "第九十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十六章_如何正确使用一个盔甲架"
+     }
+    }
+   ],
+   "text": "盔甲架→第九十六章",
+   "sha256": "6208da80112329d49c7c31e02e489c99dd5ce2a72191bdfb06d8f14d3553d1c7",
+   "i": 13183
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "矿物词典→",
+     "p": {}
+    },
+    {
+     "t": "本书第一次大修新增章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_本书第一次大修新增章_①_矿词与标签"
+     }
+    },
+    {
+     "t": "①",
+     "p": {
+      "style": "Hyperlink",
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     },
+     "link": {
+      "anchor": "_本书第一次大修新增章_①_矿词与标签"
+     }
+    },
+    {
+     "t": "矿词与标签",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_本书第一次大修新增章_①_矿词与标签"
+     }
+    }
+   ],
+   "text": "矿物词典→本书第一次大修新增章①矿词与标签",
+   "sha256": "de51eabe8f5c5b3ee1c28a12e6b6ae688635557a72a837f9939f797a85b5b21d",
+   "i": 13184
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "逻辑门→",
+     "p": {}
+    },
+    {
+     "t": "第九十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十三章_逻辑门_上"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第九十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十四章_逻辑门_下"
+     }
+    }
+   ],
+   "text": "逻辑门→第九十三章、第九十四章",
+   "sha256": "790f3816a05cdaa7b4a993d4aff5dd1b7ac585807b8927d8d76eba42ff1aa852",
+   "i": 13185
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "逻辑组→",
+     "p": {}
+    },
+    {
+     "t": "第九十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十五章_初识逻辑组"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第九十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十九章_初识模块-简单的注册/登录系统_下"
+     }
+    }
+   ],
+   "text": "逻辑组→第九十五章、第九十九章",
+   "sha256": "7eeedbe74d47aa5c87dd9766fbdb4abbb6df415b17293a75838fed20a9616bb1",
+   "i": 13186
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "粒子效果→",
+     "p": {}
+    },
+    {
+     "t": "第三十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十九章_particle-在MC里做特效"
+     }
+    }
+   ],
+   "text": "粒子效果→第三十九章",
+   "sha256": "0473e6e7e1be243d730df92d473463a1e1b30868f660aa5b9e20a6ee023a3d71",
+   "i": 13187
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "目标选择器→",
+     "p": {}
+    },
+    {
+     "t": "第四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第四章_目标选择器"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第二十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十五章_更加精确的目标选择器_上"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第二十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十六章_更加精确的目标选择器_下"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第四十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第四十九章_目标选择器中的记分板"
+     }
+    }
+   ],
+   "text": "目标选择器→第四章、第二十五章、第二十六章、第四十九章",
+   "sha256": "e9d6c60f882ff6fdf88a279c28472e5993ab49900ee309b576122671a3a3a210",
+   "i": 13188
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "模块→",
+     "p": {}
+    },
+    {
+     "t": "第九十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十九章_初识模块-简单的注册/登录系统_下"
+     }
+    }
+   ],
+   "text": "模块→第九十九章",
+   "sha256": "63e0f6c16d4501ed0e17fc1ffb1a49c23ef6cdd063c23cc8629d505f7a6e547c",
+   "i": 13189
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "命令方块→",
+     "p": {}
+    },
+    {
+     "t": "第二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二章_命令方块"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第六十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十二章_命令方块矿车"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第九十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十五章_初识逻辑组"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第九十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十九章_初识模块-简单的注册/登录系统_下"
+     }
+    }
+   ],
+   "text": "命令方块→第二章、第六十二章、第九十五章、第九十九章",
+   "sha256": "c438c0164b13b2e71554d33baf0a4d85ede7a7f3f1fe40abd4ac37f28ca9cbdc",
+   "i": 13190
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "命令方块矿车→",
+     "p": {}
+    },
+    {
+     "t": "第六十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十二章_命令方块矿车"
+     }
+    }
+   ],
+   "text": "命令方块矿车→第六十二章",
+   "sha256": "2c0311b00f9bffb8cb8de63a3a27674f906c7363711a7c954c0d2e6d8cfc87bb",
+   "i": 13191
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "命令块链→",
+     "p": {}
+    },
+    {
+     "t": "第二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二章_命令方块"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第九十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十九章_初识模块-简单的注册/登录系统_下"
+     }
+    }
+   ],
+   "text": "命令块链→第二章、第九十九章",
+   "sha256": "220e37b1affec436744e498c0360eb0446ec040e8548d8dd752eb0981b3a983e",
+   "i": 13192
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "命名空间ID→",
+     "p": {}
+    },
+    {
+     "t": "第八十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十九章_ride-骑乘"
+     }
+    }
+   ],
+   "text": "命名空间ID→第八十九章",
+   "sha256": "e16e8ded8b9c993e9a8ce4f08a1e11a6249a0fbc35c9579b8cff8161a3146936",
+   "i": 13193
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "模式→",
+     "p": {}
+    },
+    {
+     "t": "第十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十一章_gamemode-更改游戏模式"
+     }
+    }
+   ],
+   "text": "模式→第十一章",
+   "sha256": "fa6e4d10025c40a51a64452e5cd563a75e5ecc3bbcf32e7de492d6b35de86c85",
+   "i": 13194
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NBT→",
+     "p": {}
+    },
+    {
+     "t": "第五十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十四章_初识NBT"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第五十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十八章_使用NBT来自定义附魔"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第十一卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十一卷_NBT时代"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第十四卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十四卷_实体与NBT_上"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第十六卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十六卷_村民与NPC"
+     }
+    }
+   ],
+   "text": "NBT→第五十四章、第五十八章、第十一卷、第十四卷、第十六卷",
+   "sha256": "b3fe603809d973e7bef149bab64359fb28e9497b9d1ff3d87ea53f855c7fd6cd",
+   "i": 13195
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "难度→",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "难度→第六十六章",
+   "sha256": "4ab8a3f8886dd58e2cafb4c0140af9d83b84e529ad39001b5293debc252e44c6",
+   "i": 13196
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "耐久→",
+     "p": {}
+    },
+    {
+     "t": "第一百零三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百零三章_《关于工具耐久的这档事》"
+     }
+    }
+   ],
+   "text": "耐久→第一百零三章",
+   "sha256": "3063798bdf95e458a50666e9923213143fdf634df47fea14c5ba2a0f132c45b4",
+   "i": 13197
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NPC→",
+     "p": {}
+    },
+    {
+     "t": "第十六卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十六卷_村民与NPC"
+     }
+    }
+   ],
+   "text": "NPC→第十六卷",
+   "sha256": "d7684bb733cc2ac435d1ba711f9daeca0fb30d3b73c198b97ce7580f059f6785",
+   "i": 13198
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "OOC→",
+     "p": {}
+    },
+    {
+     "t": "第六十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十二章_命令方块矿车"
+     }
+    }
+   ],
+   "text": "OOC→第六十二章",
+   "sha256": "1253863e0b1b4d3399da6ee2adb3ceb98b205af7f38f2d61fe697813ff6bc823",
+   "i": 13199
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "拼图方块→",
+     "p": {}
+    },
+    {
+     "t": "第八十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十七章_拼图方块"
+     }
+    }
+   ],
+   "text": "拼图方块→第八十七章",
+   "sha256": "f8c2ac1806f3c42c4224ce778130233747d8d914b30c6d832c9f5f1542d2b219",
+   "i": 13200
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "骑乘→",
+     "p": {}
+    },
+    {
+     "t": "第六十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十二章_命令方块矿车"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第八十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十九章_ride-骑乘"
+     }
+    }
+   ],
+   "text": "骑乘→第六十二章、第八十九章",
+   "sha256": "49bf3e49d917ced99d369919ec1ff767f48c0c3f5283919b788b4b8b2e9ec47d",
+   "i": 13201
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "区段→",
+     "p": {}
+    },
+    {
+     "t": "第二十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十八章_区块与区段"
+     }
+    }
+   ],
+   "text": "区段→第二十八章",
+   "sha256": "5fdb5152698cd8388f9f42a484a2138d45e34f000a46b31c39f322e17c998031",
+   "i": 13202
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "区块→",
+     "p": {}
+    },
+    {
+     "t": "第二十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十八章_区块与区段"
+     }
+    }
+   ],
+   "text": "区块→第二十八章",
+   "sha256": "a0bf3b23e4f3c282e1b751d6bf070a837a5092630a44faefc8133e0302fb4fbd",
+   "i": 13203
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "权限等级→",
+     "p": {}
+    },
+    {
+     "t": "第六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六章_玩家类别与权限等级"
+     }
+    }
+   ],
+   "text": "权限等级→第六章",
+   "sha256": "f5a99b9b85ea241980fc52190bca09b27d1ed415d87487a7515ce865e7648496",
+   "i": 13204
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "时间→",
+     "p": {}
+    },
+    {
+     "t": "第十九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十九章_time-改变时间"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    }
+   ],
+   "text": "时间→第十九章、第六十六章",
+   "sha256": "14f4ed26bb5875aaf40dd6df2016eeca106126adb2d0eba4ab7dd9e1c8653fee",
+   "i": 13205
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "世界边界→",
+     "p": {}
+    },
+    {
+     "t": "第六十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十五章_worldborder-MC是一款吃鸡游戏"
+     }
+    }
+   ],
+   "text": "世界边界→第六十五章",
+   "sha256": "13e369a59448a8d74342f1ab6044527fe46a390e677f1e247c8dfab582a2bfc7",
+   "i": 13206
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "SNBT→NBT",
+     "p": {}
+    }
+   ],
+   "text": "SNBT→NBT",
+   "sha256": "cfb1cf4187c3c873b15fe8615c574c187c302084922b8a1802eb6eca96414eed",
+   "i": 13207
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "实体→",
+     "p": {}
+    },
+    {
+     "t": "第二十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十二章_summon-生成实体"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第三十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三十一章_实体"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百一十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十二章_实体的通用标签_上"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百一十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十三章_实体的通用标签_下"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第十四卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十四卷_实体与NBT_上"
+     }
+    }
+   ],
+   "text": "实体→第二十二章、第三十一章、第一百一十二章、第一百一十三章、第十四卷",
+   "sha256": "5a15673eb296e0861ebbd0d9577236cba7cb35f228742ca2f281408e0591e44a",
+   "i": 13208
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "生物→",
+     "p": {}
+    },
+    {
+     "t": "第一百三十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百三十章_MC生物学"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百三十一",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百三十一章_生物的共通NBT-1"
+     }
+    },
+    {
+     "t": "~",
+     "p": {}
+    },
+    {
+     "t": "一百三十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百三十四章_生物的共通NBT-4"
+     }
+    }
+   ],
+   "text": "生物→第一百三十章、第一百三十一~一百三十四章",
+   "sha256": "95fd63a2b7b19aaa09ecbeee66b9b35e8dbeb0cb86165d9ff7312f0ca60e4d5a",
+   "i": 13209
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "生物群系→",
+     "p": {}
+    },
+    {
+     "t": "第二十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十一章_一些短小但不容忽视的指令"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第六十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十七章_更高级的locate"
+     }
+    }
+   ],
+   "text": "生物群系→第二十一章、第六十七章",
+   "sha256": "cdd2268f4605eff2538c97746733f12d1ee13e03ebbe1d66ef2e42f846f455ce",
+   "i": 13210
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "生物事件→",
+     "p": {}
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十六章_指令大杂烩"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第七十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第七十八章_event-生物事件"
+     }
+    }
+   ],
+   "text": "生物事件→第六十六章、第七十八章",
+   "sha256": "a67a25fbbc83575838dfc8408f440a92578a7e10c97cfb3317be72b9f981deee",
+   "i": 13211
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "声音→",
+     "p": {}
+    },
+    {
+     "t": "第六十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十三章_游戏声音"
+     }
+    }
+   ],
+   "text": "声音→第六十三章",
+   "sha256": "d9f541fab0e0b63432a6739e37f17801f09c8290c6052a9031be144c2eaec1f4",
+   "i": 13212
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "同或门→",
+     "p": {}
+    },
+    {
+     "t": "第九十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十四章_逻辑门_下"
+     }
+    }
+   ],
+   "text": "同或门→第九十四章",
+   "sha256": "c2f93e4870f46908b1a555e2966e9109b7445d9281c5c3ce57b511e1b26d6640",
+   "i": 13213
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "天气→",
+     "p": {}
+    },
+    {
+     "t": "第二十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十章_weather-控制天气"
+     }
+    }
+   ],
+   "text": "天气→第二十章",
+   "sha256": "ba2f36244f05be2881f94d6a4c51b5ec5ea16714242d0f79ce5f85450039aab0",
+   "i": 13214
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "调试→",
+     "p": {}
+    },
+    {
+     "t": "第十五卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十五卷_调戏Minecraft指南"
+     }
+    }
+   ],
+   "text": "调试→第十五卷",
+   "sha256": "70ee798639f7c3cbfe966df8ae2758c6831fe3953e4336eb064a2813fde05c52",
+   "i": 13215
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "调试棒→",
+     "p": {}
+    },
+    {
+     "t": "第一百五十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百五十二章_调试棒和其他的一些关于调试的东西"
+     }
+    }
+   ],
+   "text": "调试棒→第一百五十二章",
+   "sha256": "f6e091b57ea1c205a7961fb1dfa24870987e4b5cf0434997824c0e44f4c869be",
+   "i": 13216
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "调试界面→",
+     "p": {}
+    },
+    {
+     "t": "第十五卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十五卷_调戏Minecraft指南"
+     }
+    }
+   ],
+   "text": "调试界面→第十五卷",
+   "sha256": "6102a331e7b137c05dc61baa36d293283d0fb7e3d8aa89c3f17246f2ecdd8459",
+   "i": 13217
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "UUID→",
+     "p": {}
+    },
+    {
+     "t": "第四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第四章_目标选择器"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百一十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十章_UUID"
+     }
+    }
+   ],
+   "text": "UUID→第四章、第一百一十章",
+   "sha256": "4d9be01bb987e62f42b6f0c2312031d89ade92f439a577a3973770222bdb1654",
+   "i": 13218
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我的世界游戏版本→",
+     "p": {}
+    },
+    {
+     "t": "MC新手要学习的基础—2—Minecraft版本的区分",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_MC新手要学习的基础—2—Minecraft版本的区分"
+     }
+    }
+   ],
+   "text": "我的世界游戏版本→MC新手要学习的基础—2—Minecraft版本的区分",
+   "sha256": "8fc92e658a41d19e333d835de9b0ad8d892fd738a25af83acf5d017a14697272",
+   "i": 13219
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "WebSocket→",
+     "p": {}
+    },
+    {
+     "t": "第一百一十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百一十五章_WebSocket在Minecraft里的用处"
+     }
+    }
+   ],
+   "text": "WebSocket→第一百一十五章",
+   "sha256": "60a5e28af7fed628eac2169237c21c40b92578e2f5a7cd2aa3862bddfdcfeddb",
+   "i": 13220
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "玩家权限→",
+     "p": {}
+    },
+    {
+     "t": "第六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六章_玩家类别与权限等级"
+     }
+    }
+   ],
+   "text": "玩家权限→第六章",
+   "sha256": "985a7a5e3540fd7a6d6f78f293368e5fcf4c84213a7ba4ba72e8f56bf709a8b8",
+   "i": 13221
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "物品→",
+     "p": {}
+    },
+    {
+     "t": "第八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八章_/give的用法"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第二十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十六章_更加精确的目标选择器_下"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百零二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百零二章_物品组件"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百零三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百零三章_《关于工具耐久的这档事》"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百零四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百零四章_物品的显示属性"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百零七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百零七章_如何获取你在Minecraft中的头"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百零八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百零八章_掉落物的NBT_上"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第一百零九章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百零九章_掉落物的NBT_下"
+     }
+    }
+   ],
+   "text": "物品→第八章、第二十六章、第一百零二章、第一百零三章、第一百零四章、第一百零七章、第一百零八章、第一百零九章",
+   "sha256": "5d4c530a0730bb01ad7c5f2cdd4f500f96e5fd9349ca96a352fc3574eb87d6c2",
+   "i": 13222
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "物品显示属性→",
+     "p": {}
+    },
+    {
+     "t": "第一百零四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百零四章_物品的显示属性"
+     }
+    }
+   ],
+   "text": "物品显示属性→第一百零四章",
+   "sha256": "d830374cb80505d1b059cb7db3172dfb8d9dc7a4126c41fc3f2af96d0634517a",
+   "i": 13223
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "相对坐标→",
+     "p": {}
+    },
+    {
+     "t": "第五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五章_坐标"
+     }
+    }
+   ],
+   "text": "相对坐标→第五章",
+   "sha256": "857f6169686f05ec1ef599a2416abd760bf14d22f963a55f69a6e4d2e269f503",
+   "i": 13224
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "与非门→",
+     "p": {}
+    },
+    {
+     "t": "第九十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十四章_逻辑门_下"
+     }
+    }
+   ],
+   "text": "与非门→第九十四章",
+   "sha256": "9803348f5eddbea9f583191fccc5dd7efe191fc9c64d3d28573d7f39361088dc",
+   "i": 13225
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "异或门→",
+     "p": {}
+    },
+    {
+     "t": "第九十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十四章_逻辑门_下"
+     }
+    }
+   ],
+   "text": "异或门→第九十四章",
+   "sha256": "9ecd90c3db0a933de08583051f2046b85ba44953668ce246b1ecbb45f3fe43fe",
+   "i": 13226
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "蕴含门→",
+     "p": {}
+    },
+    {
+     "t": "第九十四章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十四章_逻辑门_下"
+     }
+    }
+   ],
+   "text": "蕴含门→第九十四章",
+   "sha256": "38a46307814de2776e61139944f2b01b1c15b03cbc4ad0bde51bde366a827786",
+   "i": 13227
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "与门→",
+     "p": {}
+    },
+    {
+     "t": "第九十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第九十三章_逻辑门_上"
+     }
+    }
+   ],
+   "text": "与门→第九十三章",
+   "sha256": "c96856d178f139bd515f3b8deb49def79ef4e1f67403064a371e733f94e689db",
+   "i": 13228
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "原始JSON文本→",
+     "p": {}
+    },
+    {
+     "t": "第十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十七章_Java版JSON文本初识"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第六十章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第六十章_基岩版的JSON文本（破200收藏纪念）"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第十三卷",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十三卷_JAVA版的JSON"
+     }
+    }
+   ],
+   "text": "原始JSON文本→第十七章、第六十章、第十三卷",
+   "sha256": "42643fa5dcd1de58f9ef32a1d0fb544f35052b376710588cf32ced58a6e141d1",
+   "i": 13229
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "颜色代码→",
+     "p": {}
+    },
+    {
+     "t": "第三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第三章_§"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十七章_Java版JSON文本初识"
+     }
+    }
+   ],
+   "text": "颜色代码→第三章、第十七章",
+   "sha256": "c0a0f120a7d0856aff94f0023a1c634f308858b9bc82c12b4236fd835fff1a6b",
+   "i": 13230
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "游戏规则→",
+     "p": {}
+    },
+    {
+     "t": "第十二章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十二章_gamerule-自定游戏规则"
+     }
+    }
+   ],
+   "text": "游戏规则→第十二章",
+   "sha256": "e90f13c4462817beec4a537986c9f04120c5d3f392ebb685e0bfc1593b1d2e40",
+   "i": 13231
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "游戏刻→",
+     "p": {}
+    },
+    {
+     "t": "第二十七章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第二十七章_游戏刻"
+     }
+    }
+   ],
+   "text": "游戏刻→第二十七章",
+   "sha256": "827c30f662009a7966f6977d016c78f23259487e3729b88c2affa640c3a2e0f1",
+   "i": 13232
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "游戏模式→",
+     "p": {}
+    },
+    {
+     "t": "第十一章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第十一章_gamemode-更改游戏模式"
+     }
+    }
+   ],
+   "text": "游戏模式→第十一章",
+   "sha256": "37f99b02b3ad042660e27ff65a8de4e14d923294bc737d27d07a056909df2d7c",
+   "i": 13233
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "音乐→",
+     "p": {}
+    },
+    {
+     "t": "第八十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第八十六章_music-音乐"
+     }
+    }
+   ],
+   "text": "音乐→第八十六章",
+   "sha256": "b665155b6b7e743bffb231f25d3cae9d83d8cbf3af3018bedbf75c00371723e3",
+   "i": 13234
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "坐标→",
+     "p": {}
+    },
+    {
+     "t": "第五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五章_坐标"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第五十八章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十八章_使用NBT来自定义附魔"
+     }
+    },
+    {
+     "t": "、",
+     "p": {}
+    },
+    {
+     "t": "第七十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第七十五章_局部坐标与执行朝向"
+     }
+    }
+   ],
+   "text": "坐标→第五章、第五十八章、第七十五章",
+   "sha256": "d897413b6179ba48024ca3c08c320fe3af52b878f5b88becf1ae691ac4cbc754",
+   "i": 13235
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "自定义交易→",
+     "p": {}
+    },
+    {
+     "t": "第一百五十三章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百五十三章_详细了解村庄更新之前的村民"
+     }
+    },
+    {
+     "t": "~",
+     "p": {}
+    },
+    {
+     "t": "一百五十六章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第一百五十六章_村庄与掠夺更新后的自定义交易"
+     }
+    }
+   ],
+   "text": "自定义交易→第一百五十三章~一百五十六章",
+   "sha256": "1b6b4c166e41d9db1c234d6558c6c16f9334dca758f725d297211d8622b807ea",
+   "i": 13236
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "状态效果→",
+     "p": {}
+    },
+    {
+     "t": "第五十五章",
+     "p": {
+      "style": "Hyperlink"
+     },
+     "link": {
+      "anchor": "_第五十五章_effect-牛顿哭了"
+     }
+    }
+   ],
+   "text": "状态效果→第五十五章",
+   "sha256": "bf8665954cf64d56737b486449d1e4f3d12cdca674f2aac3f5018c08454a96e2",
+   "i": 13237
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "准则→记分板",
+     "p": {}
+    }
+   ],
+   "text": "准则→记分板",
+   "sha256": "b89838227111127095f5fd644b2493a264f80d5639dc3251f1a04ceab34dc7b7",
+   "i": 13238
+  }
+ ],
+ "text_sha256": "6988c0c29f88e802850662aa6bb4c0c2e88f779080b00c8aaefbf4ee8507d189",
+ "chars": 3370
+}

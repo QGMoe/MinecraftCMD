@@ -1,0 +1,2859 @@
+{
+ "id": "ch088",
+ "kind": "chapter",
+ "number": 88,
+ "title": "第八十八章 place-如何生成一个村庄",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   6472,
+   6614
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第八十八章_place-如何生成一个村庄"
+    },
+    {
+     "t": "第八十八章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " place-如何生成一个村庄",
+     "p": {}
+    }
+   ],
+   "text": "第八十八章 place-如何生成一个村庄",
+   "sha256": "75548715eb1c26b12e7e1d35dc7a484f6a1ee24febb807a442b09ce8076455b0",
+   "i": 6472
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在第八十一章，我们了解了基岩版中一条用来储存、加载和删除结构的指令：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/structure。那么在Java版，有没有类似的指令呢？",
+     "p": {}
+    }
+   ],
+   "text": "在第八十一章，我们了解了基岩版中一条用来储存、加载和删除结构的指令：/structure。那么在Java版，有没有类似的指令呢？",
+   "sha256": "762c948d5e63294331dc1d363261e168c62d0d96815807612cb4e81a479ee517",
+   "i": 6473
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "并没有，但是有一条指令却拥有生成结构的功能。这个指令就是：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "并没有，但是有一条指令却拥有生成结构的功能。这个指令就是：",
+   "sha256": "9de3c282e9bd002f5caa84ca38df596d043e1f004217c31d6e3d37923dffc678",
+   "i": 6474
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place",
+     "p": {}
+    }
+   ],
+   "text": "/place",
+   "sha256": "43172b35534b5d6a39238dbb8f3e34e56a7cd12bda903ac22bec3256c1c70ed3",
+   "i": 6475
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：放置地物、拼图、结构或结构模板",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：放置地物、拼图、结构或结构模板",
+   "sha256": "760be4dd2831583bd172f952a34ca07efe4225b17dcf0d54c50c6694aa69e8ce",
+   "i": 6476
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.19-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：Java1.19-今",
+   "sha256": "27f70b2fa58aea552593b94be52e3b2970d1e6438d4b713b57e53276166aab83",
+   "i": 6477
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2",
+   "sha256": "948049f793c1bc733cdc3425f5f9a24dded5751cb88df6d6a984f5b81bd9c6cd",
+   "i": 6478
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 6479
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 6480
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place feature <地物ID> [放置位置]",
+     "p": {}
+    }
+   ],
+   "text": "/place feature <地物ID> [放置位置]",
+   "sha256": "a06007d7c881114036d926d9682aef818750ccd74ece6a1895c0d4085693b0d2",
+   "i": 6481
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\在执行地点或指定位置放置一个地物\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\在执行地点或指定位置放置一个地物\\\\",
+   "sha256": "6df31f349e59a7054db7059956dfad2dda7ed6b22404f269ee1b67bd967ccfd4",
+   "i": 6482
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place jigsaw <目标池> <目标名称> <层数> [生成位置]",
+     "p": {}
+    }
+   ],
+   "text": "/place jigsaw <目标池> <目标名称> <层数> [生成位置]",
+   "sha256": "89de9beef39bee536828d14ae0098d3f6f9ef94b2ef9821968e8328366eca9d0",
+   "i": 6483
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\在执行地点或指定位置以拼图方块的模式生成结构\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\在执行地点或指定位置以拼图方块的模式生成结构\\\\",
+   "sha256": "5329ff910e9ecbf79587b32900aa2890b698d48a2dc7924222289baa7a444113",
+   "i": 6484
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place structure <结构ID> [生成位置]",
+     "p": {}
+    }
+   ],
+   "text": "/place structure <结构ID> [生成位置]",
+   "sha256": "003de3e00c4c204862904944489a7a8317df8565f9bd43f00e7ee9f1d232c9b3",
+   "i": 6485
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\在执行地点或指定位置生成一个结构\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\在执行地点或指定位置生成一个结构\\\\",
+   "sha256": "95e29894c360b9a410dd92c0e812732e7e2a73cce71768f57c0587715f2a3230",
+   "i": 6486
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place template <结构模板ID> [生成位置] [旋转角度] [镜像方式] [完整度] [种子] ",
+     "p": {}
+    }
+   ],
+   "text": "/place template <结构模板ID> [生成位置] [旋转角度] [镜像方式] [完整度] [种子] ",
+   "sha256": "76189ec696bf292ded64abc111d0dbdb915a185f24b8216fc9a5b4aa53bb3764",
+   "i": 6487
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\在执行地点或指定位置以指定的方式生成一个结构模板\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\在执行地点或指定位置以指定的方式生成一个结构模板\\\\",
+   "sha256": "6ac7534d529ab5b0ac0f938d43c732782363ad382a4104b5732ed2b62362f525",
+   "i": 6488
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/place指令可以放置地物、拼图、结构和结构模板这四种东西，后三者其实本质上都是结构，唯独这个『地物』是什么？",
+     "p": {}
+    }
+   ],
+   "text": "这个/place指令可以放置地物、拼图、结构和结构模板这四种东西，后三者其实本质上都是结构，唯独这个『地物』是什么？",
+   "sha256": "c5995ef76938fe347f923f322824cdd3a002fa4492a2590a30bb4a7b021e6ea8",
+   "i": 6489
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "地物（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Decorators）并没有一个明确的定义。大体来说，地物指的就是地上的一些东西，比如树、湖泊、植物丛、各种圆盘、远程折跃门等等，你能想到的、不能想到的基本上都可以算作是地物。",
+     "p": {}
+    }
+   ],
+   "text": "地物（Decorators）并没有一个明确的定义。大体来说，地物指的就是地上的一些东西，比如树、湖泊、植物丛、各种圆盘、远程折跃门等等，你能想到的、不能想到的基本上都可以算作是地物。",
+   "sha256": "f8bfc1de622b479110c33acc1388362732bbcb314f63f812098e31a3cdc88ab8",
+   "i": 6490
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们来尝试简单放置几个地物（注：请确保放置地点周围没有重要的东西，因为地物会覆盖大多数方块，甚至包括基岩）：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "我们来尝试简单放置几个地物（注：请确保放置地点周围没有重要的东西，因为地物会覆盖大多数方块，甚至包括基岩）：",
+   "sha256": "f36fde6f935b2feaca23414a783f5ca04270da477772f542b00f78f8b2611294",
+   "i": 6491
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place feature minecraft:birch ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/place feature minecraft:birch ~ ~ ~",
+   "sha256": "9eab29137f012a9a7605a5f491568125988c5a087c8dbfd7192aa43a6a3e592d",
+   "i": 6492
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会放置一颗普普通通的白桦树。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会放置一颗普普通通的白桦树。",
+   "sha256": "bead2463a4ce6de7685cf9014284e3ff7bfba7cdfcf63a72526802632ce376a4",
+   "i": 6493
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place feature minecraft:bonus_chest ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/place feature minecraft:bonus_chest ~ ~ ~",
+   "sha256": "3e8337905be569e86c72f57eec77edffa6793955a9223b8a22228898ea01a022",
+   "i": 6494
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会在你周围放置一个奖励箱。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会在你周围放置一个奖励箱。",
+   "sha256": "f0218911d8dd67f2fe886fd7887723b333705c4449366c27fc5cb46fae53f4d3",
+   "i": 6495
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place feature minecraft:iceberg_blue ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/place feature minecraft:iceberg_blue ~ ~ ~",
+   "sha256": "8109055c95e92877bec6aa545a031af0e1a208a24678c3f3a69746b5141c801c",
+   "i": 6496
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会在你的位置（你最好飞起来）放置一个由蓝冰组成的冰山。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会在你的位置（你最好飞起来）放置一个由蓝冰组成的冰山。",
+   "sha256": "cad20414f0e843a0371c3a0423b1abcbb60f1fb5a25ce157fb88527478fcdcc6",
+   "i": 6497
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要注意的是，地物基本上都有生成要求，如果没有达到要求则会放置失败，或看起来成功了但实际上没有放置。比如：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要注意的是，地物基本上都有生成要求，如果没有达到要求则会放置失败，或看起来成功了但实际上没有放置。比如：",
+   "sha256": "fe51f4b0442c6a57cd651a0c7802cdba50dc705db3b24cccd45ec0d77a981a94",
+   "i": 6498
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place feature minecraft:ice_spike ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/place feature minecraft:ice_spike ~ ~ ~",
+   "sha256": "a31e0628d157678041f9bb908317baf3b037cded73690388d30c9d887e87c560",
+   "i": 6499
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会在你的位置上放置一个冰刺，但如果放置地点下方第一个非空气方块不是雪块的话将放置失败。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会在你的位置上放置一个冰刺，但如果放置地点下方第一个非空气方块不是雪块的话将放置失败。",
+   "sha256": "912870783127181cb73ec73237353cff00a2e281b9ef3e160813b71a8f50ade0",
+   "i": 6500
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "由于地物有很多，所以这里就不细讲了，你可以前往",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft Wiki的『命令/place（Java版）』页面查看所有可使用的地物以及其生成条件。",
+     "p": {}
+    }
+   ],
+   "text": "由于地物有很多，所以这里就不细讲了，你可以前往Minecraft Wiki的『命令/place（Java版）』页面查看所有可使用的地物以及其生成条件。",
+   "sha256": "fbe8f9e3bfb9eebafc7c020c8a409c2ad722263055c6f7c43d61fa1af71fb0b2",
+   "i": 6501
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "jigsaw子命令看起来十分熟悉。没错，这不就是拼图方块嘛！只不过在这边是用命令替代了拼图方块的作用。拼图方块我们上一章才讲过，你应该还记忆犹新，让我们来试一下：",
+     "p": {}
+    }
+   ],
+   "text": "jigsaw子命令看起来十分熟悉。没错，这不就是拼图方块嘛！只不过在这边是用命令替代了拼图方块的作用。拼图方块我们上一章才讲过，你应该还记忆犹新，让我们来试一下：",
+   "sha256": "dc6bbc730a5cd1fcec577e4cd757880cff33123e41c7be6ed94dbda1b64b64fc",
+   "i": 6502
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place jigsaw minecraft:village/savanna/houses minecraft:building_entrance 1 ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/place jigsaw minecraft:village/savanna/houses minecraft:building_entrance 1 ~ ~ ~",
+   "sha256": "76e98e3377569a11487ae6202448098c8701ff932e241315583f042f5dcf8bd5",
+   "i": 6503
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会在指令执行地点以拼图方块的模式，从目标池（模板池",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/结构池）『minecraft:village/savanna/houses』中随机抽取一个模板（结构），然后对接该结构中叫做『minecraft:building_entrance』的拼图方块，并仅生成1层，最终就会生成一个热带草原村庄的房子或农田，并替换掉结构内所有拼图方块。",
+     "p": {}
+    }
+   ],
+   "text": "这将会在指令执行地点以拼图方块的模式，从目标池（模板池/结构池）『minecraft:village/savanna/houses』中随机抽取一个模板（结构），然后对接该结构中叫做『minecraft:building_entrance』的拼图方块，并仅生成1层，最终就会生成一个热带草原村庄的房子或农田，并替换掉结构内所有拼图方块。",
+   "sha256": "baf12c2076e9a804ac3fcbfa8b5e78260ae06a7d97b53ae5c147ef5c8d3f41db",
+   "i": 6504
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "因为这个子命令和拼图方块的功能完全一样，所以这里也不细讲。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "因为这个子命令和拼图方块的功能完全一样，所以这里也不细讲。",
+   "sha256": "24bb3122dfc7dc248ed8ab4d88f88a22e9116f449f9e5af7f24873b5e7b47db6",
+   "i": 6505
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "structure子命令应该是这个/place指令最令人激动人心的功能。通过它，你可以直接生成一个结构！举个简单的例子：",
+     "p": {}
+    }
+   ],
+   "text": "structure子命令应该是这个/place指令最令人激动人心的功能。通过它，你可以直接生成一个结构！举个简单的例子：",
+   "sha256": "3d01e368c0e24c8c582ecdadcd31533748335bfa8d5b452ee7f45a5c88c8797f",
+   "i": 6506
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place structure minecraft:village_plains ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/place structure minecraft:village_plains ~ ~ ~",
+   "sha256": "ae5cbbb70022ad834a8c25cf7ef18e2868413d41caccc23c6d1dac2d8309156f",
+   "i": 6507
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会在命令执行位置（你的位置）生成一个平原上的村庄，也就是最普通的村庄。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会在命令执行位置（你的位置）生成一个平原上的村庄，也就是最普通的村庄。",
+   "sha256": "3c5b732ad7b1af504202b94a00f65b426de2b36182b7b43ede280e8eb3ba544b",
+   "i": 6508
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "template子命令有点类似于jigsaw子命令，但和jigsaw不一样的是template可以直接生成结构模板（相当于直接用结构方块生成），不需要采用拼图方块那么复杂的模式来生成。举个例子：",
+     "p": {}
+    }
+   ],
+   "text": "最后的template子命令有点类似于jigsaw子命令，但和jigsaw不一样的是template可以直接生成结构模板（相当于直接用结构方块生成），不需要采用拼图方块那么复杂的模式来生成。举个例子：",
+   "sha256": "4907b995c781874a116962b4f1135c6bc992f64de9e4c0b79b7772d238c36664",
+   "i": 6509
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place template minecraft:village/savanna/houses/savanna_small_house_1 ~ ~ ~",
+     "p": {}
+    }
+   ],
+   "text": "/place template minecraft:village/savanna/houses/savanna_small_house_1 ~ ~ ~",
+   "sha256": "bc228adbd6849926ec05b8f7d160becaa02d5e38462057119ea1d3436b0b472b",
+   "i": 6510
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会在你的位置生成一个热带草原村庄的小房子。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会在你的位置生成一个热带草原村庄的小房子。",
+   "sha256": "680dea810aad76c8d306c2d11d1b912fac0bf7342bc29bfc9c41422aeff1f288",
+   "i": 6511
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但其实",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "template子命令并没有那么简单。请你往回翻一翻，仔细看一看这家伙后面的可选参数，想一想，你就会想到两个东西：",
+     "p": {}
+    }
+   ],
+   "text": "但其实template子命令并没有那么简单。请你往回翻一翻，仔细看一看这家伙后面的可选参数，想一想，你就会想到两个东西：",
+   "sha256": "16cce8247b92b43043ba20b51a957f415a5fa4379f986da3ae400f5dab82146e",
+   "i": 6512
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『结构方块的加载模式』",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " 和 『/structure load子命令』！",
+     "p": {}
+    }
+   ],
+   "text": "『结构方块的加载模式』 和 『/structure load子命令』！",
+   "sha256": "14681313bd06c052385e825f39659a653ffe0cbb4cef87d501beeed0807f7b01",
+   "i": 6513
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错，这家伙基本上等价于基岩版的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/structure load子命令，你可以通过它来生成你自己创建的结构！举个例子：",
+     "p": {}
+    }
+   ],
+   "text": "没错，这家伙基本上等价于基岩版的/structure load子命令，你可以通过它来生成你自己创建的结构！举个例子：",
+   "sha256": "9d281e68717dfc6ff2618b136c188e97641a20aee6ec0f8a4334ba111869224c",
+   "i": 6514
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "假设你自己创建了一个结构，叫做『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "minecraft:my_matchbox』，这个结构长这样：",
+     "p": {}
+    }
+   ],
+   "text": "假设你自己创建了一个结构，叫做『minecraft:my_matchbox』，这个结构长这样：",
+   "sha256": "50103f105c60db7e9ded1ab4d1d40cb7da8eda8ee85a3126515435c68a5c560c",
+   "i": 6515
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--第一层",
+     "p": {}
+    }
+   ],
+   "text": "--第一层",
+   "sha256": "002fee4a000ae0357ec0d5b187fcdc6cf2dfa1cc79ef4a521385e06c9c1e2854",
+   "i": 6516
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土土土土↑",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土土土土土↑",
+   "sha256": "c0e25165e11d20e7bc2bcf549a1dbbce3bc337f678e3b298f860e0f8454ff57c",
+   "i": 6517
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土土土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Z",
+     "p": {}
+    }
+   ],
+   "text": "土土土土土Z",
+   "sha256": "f1d7edb985ffcde012622f59bf06bc3d5c6b1922855e3fe165be888c9c0f924f",
+   "i": 6518
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土土土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|",
+     "p": {}
+    }
+   ],
+   "text": "土土土土土|",
+   "sha256": "b9188e453b73d76bd68b7d1ef12e5896f43021e0e1d56b61a0740562980254aa",
+   "i": 6519
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土土土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|",
+     "p": {}
+    }
+   ],
+   "text": "土土土土土|",
+   "sha256": "b9188e453b73d76bd68b7d1ef12e5896f43021e0e1d56b61a0740562980254aa",
+   "i": 6520
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土土土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|",
+     "p": {}
+    }
+   ],
+   "text": "土土土土土|",
+   "sha256": "b9188e453b73d76bd68b7d1ef12e5896f43021e0e1d56b61a0740562980254aa",
+   "i": 6521
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "←",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "X———",
+     "p": {}
+    }
+   ],
+   "text": "←X———",
+   "sha256": "039084ba8d0a154b9655f9bb1ce14f61a2282a2827ab7335855822085bf1e530",
+   "i": 6522
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--第二层",
+     "p": {}
+    }
+   ],
+   "text": "--第二层",
+   "sha256": "0fe693b07d9a9438ff45279c7808c2b2e5609ca0924a5dd0f7af9990cd46db99",
+   "i": 6523
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土空土土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土空土土土",
+   "sha256": "9704f4a1de7cb789bc7fb63eebcadfc8b0e4967e863e18c77fee05ae26a26b13",
+   "i": 6524
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土床空台土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土床空台土",
+   "sha256": "f12eafb07d4e4e0920b67d218c72bd1594cad4ac607331aea5a65769079d2ac7",
+   "i": 6525
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土床空箱土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土床空箱土",
+   "sha256": "fa3a0edeb9ace650eb328263d4ce4ee1a2a7853531ff3eddf17dfd9e90dee58d",
+   "i": 6526
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土空空空土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土空空空土",
+   "sha256": "b30d4175ffbb9d29c3eda6fd55ff619bed1fcb8cf4c69224f0b93ba51e4b4a37",
+   "i": 6527
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土门土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土土门土土",
+   "sha256": "9cfe72c7370e34c8bbbb144152d06514969b7c5e7b3f4813e941bade3eb9ca71",
+   "i": 6528
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--第三层",
+     "p": {}
+    }
+   ],
+   "text": "--第三层",
+   "sha256": "674e8f54669189a87eefe8a2729c95047066c10692a36ee283c3eb8764449353",
+   "i": 6529
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土土土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土土土土土",
+   "sha256": "e6d20a2457b78c9d6587d1f7ffe94b5dae436f90816d6515329a2bbecec4addf",
+   "i": 6530
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土空火炉土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土空火炉土",
+   "sha256": "7f1a16223bfe4bda8a30d6d710f2d4dfdeb629f4062f05e96dd470ffee22d2db",
+   "i": 6531
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空空空箱土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "空空空箱土",
+   "sha256": "f84f497c9793baa0635ba83ac91093e80bf3f55b26fa313658b60fad65d448f4",
+   "i": 6532
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土火空火土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土火空火土",
+   "sha256": "6d20c5923bbd729639961e504ef67b8e4b512356fb6c7958c5d43c6a1630fbbc",
+   "i": 6533
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土门土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土土门土土",
+   "sha256": "9cfe72c7370e34c8bbbb144152d06514969b7c5e7b3f4813e941bade3eb9ca71",
+   "i": 6534
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--第四层",
+     "p": {}
+    }
+   ],
+   "text": "--第四层",
+   "sha256": "312ac568dc8cb9442ee833bcb2aa4a243c0435ae997059d0e887f7ddb369a294",
+   "i": 6535
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "草草土土草",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "草草土土草",
+   "sha256": "798d3249e3133f4f4c5f961e4450c119fcd7f34092e93ec4cc34b6d8fc700773",
+   "i": 6536
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土土土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土土土土土",
+   "sha256": "e6d20a2457b78c9d6587d1f7ffe94b5dae436f90816d6515329a2bbecec4addf",
+   "i": 6537
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土土草土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土土土草土",
+   "sha256": "906b9cbb95b6623b0a8cebfdbf61e6cc7ad6a0fdb4196ad15282ba15047397d1",
+   "i": 6538
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土土土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土土土土土",
+   "sha256": "e6d20a2457b78c9d6587d1f7ffe94b5dae436f90816d6515329a2bbecec4addf",
+   "i": 6539
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土土土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土土土土土",
+   "sha256": "e6d20a2457b78c9d6587d1f7ffe94b5dae436f90816d6515329a2bbecec4addf",
+   "i": 6540
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "图例：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "图例：",
+   "sha256": "de9a12ef4937609db2f9123595ad56c868476e6bf8485cc75eeab0cc35cf923d",
+   "i": 6541
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土······泥土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "土······泥土",
+   "sha256": "83b0a4da240b2d4a13399d826eb91595e379121903071c20bc2c7a2dd9331d8a",
+   "i": 6542
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "草······草方块",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "草······草方块",
+   "sha256": "0207313b0f8735277a3ed32093efd9731b69015ecbe4318a4d89eb9359e16015",
+   "i": 6543
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "火······火把",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "火······火把",
+   "sha256": "1d0ee23511fc90256c6d677ff20956bdbdb346705bf242782bbce23d4e085db3",
+   "i": 6544
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空······空气",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "空······空气",
+   "sha256": "73fbb6d6392a7c8985616a1ad8339e2e4da0950670ce247e57d522b6a14dc51c",
+   "i": 6545
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "炉······熔炉",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "炉······熔炉",
+   "sha256": "2c56953986e93b7b25277e9583dfae621ea4fcfcd44e0da6c1db394549333a3e",
+   "i": 6546
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "箱······箱子",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "箱······箱子",
+   "sha256": "c8d7a84d004a355e38b8faf24617828127cfa51be4566a90b4c00435c7842a4f",
+   "i": 6547
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "台······工作台",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "台······工作台",
+   "sha256": "6e719896b8ff01aa71965509328704acbddacd266b64c2aa05d985dfb1b183c4",
+   "i": 6548
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "床······白色床",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "床······白色床",
+   "sha256": "3d88fca59052936883ccac834fdb571c01535e49d62417fbfa6e95ce945b6b21",
+   "i": 6549
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "门······橡木门",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "门······橡木门",
+   "sha256": "bcf3fc90df85b6148db7fddb94e65a0e3ba3cf8d7da6b43edad05e7e6d48827b",
+   "i": 6550
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们尝试通过",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/place指令生成这个结构：",
+     "p": {}
+    }
+   ],
+   "text": "现在，我们尝试通过/place指令生成这个结构：",
+   "sha256": "03004f9833011957e618b76d22e17e64a066b88ec7c6307de4575c550e5b4fd6",
+   "i": 6551
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place template minecraft:my_matchbox ~ ~ ~ none none 1.0 114514",
+     "p": {}
+    }
+   ],
+   "text": "/place template minecraft:my_matchbox ~ ~ ~ none none 1.0 114514",
+   "sha256": "29e64c56660d5e30e0f8244252f0af76ca9641a6ed82d124e9ec77d8b2986434",
+   "i": 6552
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会以",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "100%完整度、114514为种子在指令执行位置（也就是你的位置）生成一个没有镜像、没有旋转的『minecraft:my_matchbox』结构。",
+     "p": {}
+    }
+   ],
+   "text": "这将会以100%完整度、114514为种子在指令执行位置（也就是你的位置）生成一个没有镜像、没有旋转的『minecraft:my_matchbox』结构。",
+   "sha256": "fd00167f12fa26cb6d9adfb5c72651590834d23b349ec0a9d547ed28e0a27e88",
+   "i": 6553
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『旋转角度』参数可填写的内容和基岩版的大不一样，你可以填写：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "『旋转角度』参数可填写的内容和基岩版的大不一样，你可以填写：",
+   "sha256": "143d4eb83ae5f3f125bb170b0f7f28a31d2f1b88d81da47c398bccc01f87992c",
+   "i": 6554
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "none——不旋转",
+     "p": {}
+    }
+   ],
+   "text": "none——不旋转",
+   "sha256": "37aae781ed73526215d5420afe507befe51b903c7f6890562c82394ce9d28ada",
+   "i": 6555
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "clockwise_90——顺时针旋转90°",
+     "p": {}
+    }
+   ],
+   "text": "clockwise_90——顺时针旋转90°",
+   "sha256": "9f7028ad9af08ec9957be08c97d69cf2fc0f3a0fe29f89e77aa5c8e18071c522",
+   "i": 6556
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "180——旋转180°",
+     "p": {}
+    }
+   ],
+   "text": "180——旋转180°",
+   "sha256": "60f1b2b2be3d33df2f72234296cb685c35c38a780aed5724a8dc2620590c6dab",
+   "i": 6557
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "counterclockwise_90——逆时针旋转90°",
+     "p": {}
+    }
+   ],
+   "text": "counterclockwise_90——逆时针旋转90°",
+   "sha256": "145027bcf1f6af2ee8edf3b866417f7fbb6595381a9e7a427a8bf07c699eca73",
+   "i": 6558
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 6559
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place template minecraft:my_matchbox ~ ~ ~ counterclockwise_90 none 1.0 114514",
+     "p": {}
+    }
+   ],
+   "text": "/place template minecraft:my_matchbox ~ ~ ~ counterclockwise_90 none 1.0 114514",
+   "sha256": "15c8a7f7312bb627e42d08ddeaf9a99a11aa2cb62190a93d45d76aa6df582bcf",
+   "i": 6560
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会以",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "100%完整度、114514为种子生成一个绕着指令执行位置逆时针旋转90°（顺时针270°）的没有镜像的『minecraft:my_matchbox』结构，也就是变成下面这样：",
+     "p": {}
+    }
+   ],
+   "text": "这将会以100%完整度、114514为种子生成一个绕着指令执行位置逆时针旋转90°（顺时针270°）的没有镜像的『minecraft:my_matchbox』结构，也就是变成下面这样：",
+   "sha256": "97bd962541060ddd2e6aa56c6e3f98f63186e22650fb64d8dda8fd52f1b49468",
+   "i": 6561
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--第一、三、四层",
+     "p": {}
+    }
+   ],
+   "text": "--第一、三、四层",
+   "sha256": "ffbb2950a4111d83193673562568732100df4c8deb7bb16d1a8db471068f0170",
+   "i": 6562
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "略",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "略",
+   "sha256": "cf995a6e671576960b43aae544b47fda08702d7a48f3c1ee80b6970f191e876f",
+   "i": 6563
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--第二层",
+     "p": {}
+    }
+   ],
+   "text": "--第二层",
+   "sha256": "0fe693b07d9a9438ff45279c7808c2b2e5609ca0924a5dd0f7af9990cd46db99",
+   "i": 6564
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这里是没有↑",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这里是没有↑",
+   "sha256": "57a4ed665a2a2c9499c4843615a7db729d48989cfbdb419d97624054244089c1",
+   "i": 6565
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "逆时针旋转",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Z",
+     "p": {}
+    }
+   ],
+   "text": "逆时针旋转Z",
+   "sha256": "cec1e8b067c43dddf04c008315d33998039e8930a7c7dd93686ca6a7e3861883",
+   "i": 6566
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "九十度且没",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|",
+     "p": {}
+    }
+   ],
+   "text": "九十度且没|",
+   "sha256": "dd729971bcb132f80d12602b561e9bd7f26071466f27107885d8c8eeb51e899d",
+   "i": 6567
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "有镜像的原",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|",
+     "p": {}
+    }
+   ],
+   "text": "有镜像的原|",
+   "sha256": "9a16cf735370ce02513a71e6e43fe638ddf63f2a1cc737fc8114f4e30a2c0e44",
+   "i": 6568
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本生成位置",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|",
+     "p": {}
+    }
+   ],
+   "text": "本生成位置|",
+   "sha256": "20cb2df1ed2ad822435e5100a82db2579a6f2621ef4a86a8e71da349b6db0e69",
+   "i": 6569
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "←",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "X———|",
+     "p": {}
+    }
+   ],
+   "text": "←X———|",
+   "sha256": "13f4a01a04739f515105a870e89a0b3798f7a67f4a9568b901e89c7c13e7b30c",
+   "i": 6570
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土土土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|",
+     "p": {}
+    }
+   ],
+   "text": "土土土土土|",
+   "sha256": "b9188e453b73d76bd68b7d1ef12e5896f43021e0e1d56b61a0740562980254aa",
+   "i": 6571
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土台箱空土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|",
+     "p": {}
+    }
+   ],
+   "text": "土台箱空土|",
+   "sha256": "25c0b668d3b11a11f1ab969ba5e3853f7da3b81c3c47e0d8b1488014f6587657",
+   "i": 6572
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土空空空门",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|",
+     "p": {}
+    }
+   ],
+   "text": "土空空空门|",
+   "sha256": "35f3290e6b6be1490062ce4e3132e097a685b7eb6e08df7eb4cfb49bd58c250d",
+   "i": 6573
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "空床床空土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|",
+     "p": {}
+    }
+   ],
+   "text": "空床床空土|",
+   "sha256": "cd73401fbe7db0f5b0e1d14941155f2c8a22ed402f73882056931d228c6e15be",
+   "i": 6574
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "土土土土土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|",
+     "p": {}
+    }
+   ],
+   "text": "土土土土土|",
+   "sha256": "b9188e453b73d76bd68b7d1ef12e5896f43021e0e1d56b61a0740562980254aa",
+   "i": 6575
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『镜像方式』参数可填写的内容也不一样。你可以填写：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "『镜像方式』参数可填写的内容也不一样。你可以填写：",
+   "sha256": "efb8bfc5d2795416167018a9a1032719a8b48eafbb0cbbb8f727f6c87f237cd4",
+   "i": 6576
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "none——无镜像",
+     "p": {}
+    }
+   ],
+   "text": "none——无镜像",
+   "sha256": "f351070cf7cca1c753678f5f340dae7086ab7e2c06a459c44d743c122ce79751",
+   "i": 6577
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "left_right——关于生成位置基点的X轴镜像（相当于结构方块中的←→）",
+     "p": {}
+    }
+   ],
+   "text": "left_right——关于生成位置基点的X轴镜像（相当于结构方块中的←→）",
+   "sha256": "da1adf46da330a8f73a1693f98d6e1a0bd09b8b68e80b54fee514cf36476cc96",
+   "i": 6578
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "front_back——关于生成位置基点的Z轴镜像（相当于结构方块中的↑↓）",
+     "p": {}
+    }
+   ],
+   "text": "front_back——关于生成位置基点的Z轴镜像（相当于结构方块中的↑↓）",
+   "sha256": "6cb7ca18fdc01de86858a2cb1fc233e2d14bc960f4e34ad66f9a2275b4137941",
+   "i": 6579
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 6580
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/place template minecraft:my_matchbox ~ ~ ~ none front_back 1.0 1919810",
+     "p": {}
+    }
+   ],
+   "text": "/place template minecraft:my_matchbox ~ ~ ~ none front_back 1.0 1919810",
+   "sha256": "4257bee923900fc88f8618526aafb077828da1a6ed209384b042d0930ab6430d",
+   "i": 6581
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会以",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "100%完整度、1919810为种子生成一个相对于放置位置Z轴镜像且无旋转的『minecraft:my_matchbox』结构，也就是变成下面这样：",
+     "p": {}
+    }
+   ],
+   "text": "这将会以100%完整度、1919810为种子生成一个相对于放置位置Z轴镜像且无旋转的『minecraft:my_matchbox』结构，也就是变成下面这样：",
+   "sha256": "5cbf71ed227d0ac1e3ec85924d1b4ff5ec6e6bcf288317b7ed8503b5f8f3b165",
+   "i": 6582
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--第一、三、四层",
+     "p": {}
+    }
+   ],
+   "text": "--第一、三、四层",
+   "sha256": "ffbb2950a4111d83193673562568732100df4c8deb7bb16d1a8db471068f0170",
+   "i": 6583
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "略",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "略",
+   "sha256": "cf995a6e671576960b43aae544b47fda08702d7a48f3c1ee80b6970f191e876f",
+   "i": 6584
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--第二层",
+     "p": {}
+    }
+   ],
+   "text": "--第二层",
+   "sha256": "0fe693b07d9a9438ff45279c7808c2b2e5609ca0924a5dd0f7af9990cd46db99",
+   "i": 6585
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这里是没有↑土土土空土",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这里是没有↑土土土空土",
+   "sha256": "4b285034c89b80cb896fbcf4fc791d7b925cd3947ccd57f6416135395bdb2d21",
+   "i": 6586
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "关于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Z轴镜Z土台空床土",
+     "p": {}
+    }
+   ],
+   "text": "关于Z轴镜Z土台空床土",
+   "sha256": "5990c9b6b1bd86109b354b7b63c831e5ac727252b3858a83a9a62c7ace9e03c5",
+   "i": 6587
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "像且没有旋",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|土箱空床土",
+     "p": {}
+    }
+   ],
+   "text": "像且没有旋|土箱空床土",
+   "sha256": "c9af64e4f5f04828afc19f2bf599c58f3fe43c5f2a5f9b194213792fbde11c15",
+   "i": 6588
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "转原本应该",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|土空空空土",
+     "p": {}
+    }
+   ],
+   "text": "转原本应该|土空空空土",
+   "sha256": "fd76df2dae9dcbe7b39e12a43b85fa3a78620428cc027d252c559c731c751622",
+   "i": 6589
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "的生成位置",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|土土门土土",
+     "p": {}
+    }
+   ],
+   "text": "的生成位置|土土门土土",
+   "sha256": "d8b2bf773d591d38105a251339183a1a66dc60949ebd54e2eb4e744d56ad992f",
+   "i": 6590
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "←",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "X———|——————",
+     "p": {}
+    }
+   ],
+   "text": "←X———|——————",
+   "sha256": "bfa5e7664a451f30b3f0c9f926044ca6dbe57308ed408826a0e0bfc0234c6ecf",
+   "i": 6591
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『完整度』和『种子』参数就不讲了，很简单。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "『完整度』和『种子』参数就不讲了，很简单。",
+   "sha256": "8311e6e5b36476d4fef6e4b84e78ea4d564a0e9855089dc8dede755eedf4cc46",
+   "i": 6592
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是本章的全部内容。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这就是本章的全部内容。",
+   "sha256": "bd655fa960580257d0b104486bb197969c06aedfc13307be1d23f2f670f5b8cc",
+   "i": 6593
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "附表：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/place历史",
+     "p": {}
+    }
+   ],
+   "text": "附表：/place历史",
+   "sha256": "3f9108826a9747e5f9ecb1ca5ffc13ffebf4bd56c5354cbcad3fca533c7c9302",
+   "i": 6594
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {}
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 6595
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.19——加入了/place，替代了/placefeature",
+     "p": {}
+    }
+   ],
+   "text": "1.19——加入了/place，替代了/placefeature",
+   "sha256": "f75635d4d9c649acd5d168c670c8321b9299bd2ae040cac0cec3ed9e2b4df3a7",
+   "i": 6596
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6597
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6598
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6599
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6600
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/placefeature",
+     "p": {}
+    }
+   ],
+   "text": "/placefeature",
+   "sha256": "785028b6786377d792925087bc3b29e52866e563e1fe815164d9544007c4eae9",
+   "i": 6601
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：放置地物",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：放置地物",
+   "sha256": "7a6970c9ef17bb5b418f69628bc5fc4d5971300b68754b37c323c097232d9fa8",
+   "i": 6602
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.18.2-1.19 |基岩1.18.30",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：Java1.18.2-1.19 |基岩1.18.30",
+   "sha256": "c24496a3d8a4c63762421001719605ab8ad6c7286403befab22d6cd3299b99e3",
+   "i": 6603
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2 基岩-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2 基岩-1",
+   "sha256": "d38d484d46dfcc9f6825bbc6e9ab1189d11bd87bac959b14876cdbcafdd4b009",
+   "i": 6604
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 6605
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 6606
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/placefeature <地物ID> [放置位置]",
+     "p": {}
+    }
+   ],
+   "text": "/placefeature <地物ID> [放置位置]",
+   "sha256": "d23c2c6e3d77bf358904bb12ac4e77e1c0e481fd4b8c4599c585ed26bbebbd33",
+   "i": 6607
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用你应该知道，不讲了。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用你应该知道，不讲了。",
+   "sha256": "465ba873838f78c4462e44213263c74be534abb57ac41b3d9e5b22b249750601",
+   "i": 6608
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "附表②：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/placefeature历史",
+     "p": {}
+    }
+   ],
+   "text": "附表②：/placefeature历史",
+   "sha256": "d437c97b9e1edf63283eb6e6bfbd11414cce49d7cc02ff6205732b10bfd8506a",
+   "i": 6609
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {}
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 6610
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.18.2——加入了/placefeature",
+     "p": {}
+    }
+   ],
+   "text": "1.18.2——加入了/placefeature",
+   "sha256": "7f3b12dceb063fec57a8295fca4665c547fc0db21d0d06164090501af7a19892",
+   "i": 6611
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.19——移除了/placefeature，改用/place feature",
+     "p": {}
+    }
+   ],
+   "text": "1.19——移除了/placefeature，改用/place feature",
+   "sha256": "f71b151e0d85ee2695b3ad6806744ccfa8edaae2e704879659f26b9320a97850",
+   "i": 6612
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "基岩版",
+   "sha256": "e1ef194dc07360ceff0a1bfe2e5ddb80aa088939ada629f4c1c7f9bde5641ae2",
+   "i": 6613
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.18.30——加入又移除了/placefeature",
+     "p": {}
+    }
+   ],
+   "text": "1.18.30——加入又移除了/placefeature",
+   "sha256": "4bcfdfbc7359146983407aebcf9e4b6bb3813c639bdfefee5e01c3193ccbc300",
+   "i": 6614
+  }
+ ],
+ "text_sha256": "0dac7d783f983e59b29c5a06ce1f8ab109b32bf310f906faf3174b7c5ac6403a",
+ "chars": 3344
+}

@@ -1,0 +1,1655 @@
+{
+ "id": "ch077",
+ "kind": "chapter",
+ "number": 77,
+ "title": "第七十七章 damage-造成伤害",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   5628,
+   5714
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第七十七章_damage-造成伤害"
+    },
+    {
+     "t": "第七十七章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " damage-造成伤害",
+     "p": {}
+    }
+   ],
+   "text": "第七十七章 damage-造成伤害",
+   "sha256": "39adfb78de8f64f6c1c48018d4a3d6a8ddd38b62a1ff9f4033ececf09bf68143",
+   "i": 5628
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "村民可以攻击吗？答案当然是否定的。就算村民发射的烟花火箭爆炸会有伤害，这也不是村民本身的攻击。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "村民可以攻击吗？答案当然是否定的。就算村民发射的烟花火箭爆炸会有伤害，这也不是村民本身的攻击。",
+   "sha256": "4cb3ed46203306d5c1988f1b63c16e30992af77e85b876ae9a3a74c73cf38a12",
+   "i": 5629
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java版，如果你能精准地把握住时间，将一个弹射物（如箭）的UUID改成一个村民的UUID，确实有可能会使得村民“攻击”其他生物。那在基岩版呢？",
+     "p": {}
+    }
+   ],
+   "text": "在Java版，如果你能精准地把握住时间，将一个弹射物（如箭）的UUID改成一个村民的UUID，确实有可能会使得村民“攻击”其他生物。那在基岩版呢？",
+   "sha256": "19ecce9573a5ea2863a8bcc9cbefcbe9a64aee5076df33b5cf264601d35274d6",
+   "i": 5630
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Mojang虽然没有给我们操控NBT来修改UUID的方式，但却给了我们一条指令：/damage",
+     "p": {}
+    }
+   ],
+   "text": "Mojang虽然没有给我们操控NBT来修改UUID的方式，但却给了我们一条指令：/damage",
+   "sha256": "238bc08a6bb8715c873e4699107b5acf9269ec8efb9c01dbb5aeba5c8daebb68",
+   "i": 5631
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/damage",
+     "p": {}
+    }
+   ],
+   "text": "/damage",
+   "sha256": "95e34d31e9f44d1fc55cc1309c98a5bafe939f876d152ce0137136e008114a1e",
+   "i": 5632
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：对指定实体造成伤害",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：对指定实体造成伤害",
+   "sha256": "29c4b35be2d12f701ef48a1e55baaabda3628cc74f7d87426a0354628c1bb711",
+   "i": 5633
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.18.10-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：基岩版1.18.10-今",
+   "sha256": "ab4af44b049bfc0cad125d87af07ab54368d1a5d0e2ebf3a5c5a3c4a125afe91",
+   "i": 5634
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：基岩版-1",
+   "sha256": "6211c898a8cc8649a12ee9536dccc4443b9a29d61e73ea3c8c05de42660a2fcd",
+   "i": 5635
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 5636
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 5637
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/damage <目标实体> <伤害大小：非负整数> [伤害类型]",
+     "p": {}
+    }
+   ],
+   "text": "/damage <目标实体> <伤害大小：非负整数> [伤害类型]",
+   "sha256": "af05ceb76491e2777450e314618a1ac68dd628aba0d16470f9e64ded06b54972",
+   "i": 5638
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/damage <目标实体> <伤害大小：非负整数> <伤害类型> entity <伤害来源>",
+     "p": {}
+    }
+   ],
+   "text": "/damage <目标实体> <伤害大小：非负整数> <伤害类型> entity <伤害来源>",
+   "sha256": "e995c0f9d0ab64370ce06c1674fd94334c62a63021f23612aaf2906b9cfab456",
+   "i": 5639
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你可以指定『目标实体』和『伤害大小』参数，来简单的对指定实体造成伤害。如果还指定了『伤害类型』和『伤害来源』参数，就可以确定是谁对谁造成了伤害。比如下面的指令：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "你可以指定『目标实体』和『伤害大小』参数，来简单的对指定实体造成伤害。如果还指定了『伤害类型』和『伤害来源』参数，就可以确定是谁对谁造成了伤害。比如下面的指令：",
+   "sha256": "571d9468452df4d427c06690d4a7da281781e6767b0b23ed9c3d7712e77ee23c",
+   "i": 5640
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/damage @s 20 entity_attack entity @s",
+     "p": {}
+    }
+   ],
+   "text": "/damage @s 20 entity_attack entity @s",
+   "sha256": "ecec11b41e7c530a8c98305a21e9cd30036e659610d95d5ac6cfdc681c49d60e",
+   "i": 5641
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会使你自己对你自己造成",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "20点的实体攻击类型伤害，然后你就会收到这么一条消息：",
+     "p": {}
+    }
+   ],
+   "text": "这将会使你自己对你自己造成20点的实体攻击类型伤害，然后你就会收到这么一条消息：",
+   "sha256": "15421d8079e3a1f92fa8cf55c09e5604c0eef9732b657be7fe0eb063424d28d9",
+   "i": 5642
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你自己的游戏名",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " 被 你自己的游戏名 杀死了",
+     "p": {}
+    }
+   ],
+   "text": "你自己的游戏名 被 你自己的游戏名 杀死了",
+   "sha256": "a6162f1923c8acad3a87a84e8dc026b3f8b979073a96c00c87aaef7e638a709a",
+   "i": 5643
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我杀我自己？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "我杀我自己？",
+   "sha256": "b30af66bf1d1044104e23c52afcd2d085ffb983843370f305184967e1b32c16c",
+   "i": 5644
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "虽然你可以不指定伤害类型来造成伤害，但这样子就会导致你死亡时，只会显示出如下信息：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "虽然你可以不指定伤害类型来造成伤害，但这样子就会导致你死亡时，只会显示出如下信息：",
+   "sha256": "a1025708173097e5c74f0e41a6b75a5063ccf53ea1db75abb384c6ccd09a5415",
+   "i": 5645
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "xxxxxx 死了",
+     "p": {}
+    }
+   ],
+   "text": "xxxxxx 死了",
+   "sha256": "22c2736cfb3fefc23b3dea8812eb47a5bf9de811981c57b6af1c023db86d0e20",
+   "i": 5646
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以我们最好指定伤害类型。那有哪些伤害类型呢？我会将截止",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.19.10版本的伤害类型列表放到本章末尾。",
+     "p": {}
+    }
+   ],
+   "text": "所以我们最好指定伤害类型。那有哪些伤害类型呢？我会将截止1.19.10版本的伤害类型列表放到本章末尾。",
+   "sha256": "a1213c1ab4d0671ad3e41cf720594ac035c9cecbeb9bedba1a06fb57b10d2308",
+   "i": 5647
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们还可以指定『伤害来源』，来指定到底是谁造成了伤害。比如在上面的例子中，我们就指定了伤害来源为自己，这样子就实现了『自己』对『自己』造成了伤害。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "我们还可以指定『伤害来源』，来指定到底是谁造成了伤害。比如在上面的例子中，我们就指定了伤害来源为自己，这样子就实现了『自己』对『自己』造成了伤害。",
+   "sha256": "73ecc75d47087887b2c3115abec2a89b27415b18f736c95679e8e97c432058fc",
+   "i": 5648
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "伤害来源这个参数有很多奇妙的用途，比如下面的指令：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "伤害来源这个参数有很多奇妙的用途，比如下面的指令：",
+   "sha256": "94b4636a0bea760ad380a52e1bea991ec5ff4d442a099285e1f342bdbad692fd",
+   "i": 5649
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/damage @e[type=iron_golem] 1 entity_attack entity @e[type=villager,c=1]",
+     "p": {}
+    }
+   ],
+   "text": "/damage @e[type=iron_golem] 1 entity_attack entity @e[type=villager,c=1]",
+   "sha256": "c4fff75edc0c3b3af59340cf03543667bafa7b60aa80102a9b0594be2bf20ada",
+   "i": 5650
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会使得距离执行地点最近的村民对所有铁傀儡造成",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1点的伤害，然后你就会看见......",
+     "p": {}
+    }
+   ],
+   "text": "这将会使得距离执行地点最近的村民对所有铁傀儡造成1点的伤害，然后你就会看见......",
+   "sha256": "47cc21fb52af2f6a1d65c2b1288f16905baff75c1c9a336a5c6dc239413de50e",
+   "i": 5651
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『妈呀！铁傀儡杀村民啦！！！』",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "『妈呀！铁傀儡杀村民啦！！！』",
+   "sha256": "98a288d0d0f34ab663ea3527f572cab816d75ac4350bb5bb89844a98802e7169",
+   "i": 5652
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如你所见，伤害来源不仅仅可以使得死亡信息发生改变，还可以转嫁生物仇恨，使得铁傀儡亲手杀死了村民。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "如你所见，伤害来源不仅仅可以使得死亡信息发生改变，还可以转嫁生物仇恨，使得铁傀儡亲手杀死了村民。",
+   "sha256": "893ca095e8cd0c1963c9e6cdf407f457447e4088a415815e57750d198ab2619e",
+   "i": 5653
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但伤害来源的用途不止这么简单。假设这里有一只猪，它静止在原地。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "但伤害来源的用途不止这么简单。假设这里有一只猪，它静止在原地。",
+   "sha256": "8815b6f4977692ce98eb3d2a3357856a3d1d59f022401ca30b18518fca44db64",
+   "i": 5654
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们运行下面的指令对它造成伤害，仔细观察猪受到攻击的情况：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "我们运行下面的指令对它造成伤害，仔细观察猪受到攻击的情况：",
+   "sha256": "78ee3a3f9336b7cf2aa9eacfae18691e8fbdac3745bf1cb3ae73110c95cc7832",
+   "i": 5655
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/damage @e[type=pig] 1 entity_attack",
+     "p": {}
+    }
+   ],
+   "text": "/damage @e[type=pig] 1 entity_attack",
+   "sha256": "90f1a8393e50352cae49807d2934109c11d24b9dbe30f0c872d70ee92c585437",
+   "i": 5656
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "猪",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " → 红猪 → ε=ε=猪(跑) →猪",
+     "p": {}
+    }
+   ],
+   "text": "猪 → 红猪 → ε=ε=猪(跑) →猪",
+   "sha256": "efdffda16644559a1f6960a015676846fed1ed9350afeb4d4e3117e7c9b34f93",
+   "i": 5657
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你会发现，猪仅仅受到了攻击，然后开始四处乱跑而已。让我们等一下它跑完，然后运行下面的指令再次造成伤害：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "你会发现，猪仅仅受到了攻击，然后开始四处乱跑而已。让我们等一下它跑完，然后运行下面的指令再次造成伤害：",
+   "sha256": "03a3f129c54025f8ec0ceb591310bef98226c17e1ec36fa142ed897c2acefe4f",
+   "i": 5658
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/damage @e[type=pig] 1 entity_attack entity @s",
+     "p": {}
+    }
+   ],
+   "text": "/damage @e[type=pig] 1 entity_attack entity @s",
+   "sha256": "ea8bf3a4db1ff1e0af5c1944f41a270aa44d640045e68a6da3fef197baa62827",
+   "i": 5659
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "猪",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " → ε=红猪(被击退) → ε=ε=猪(跑) →猪",
+     "p": {}
+    }
+   ],
+   "text": "猪 → ε=红猪(被击退) → ε=ε=猪(跑) →猪",
+   "sha256": "d3b69aea6c24e3eb1e94d201a8763d8a5944daeec7d26805337fd198249870fd",
+   "i": 5660
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你会发现，猪不仅仅受到了攻击，还向一个方向退了几步。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "你会发现，猪不仅仅受到了攻击，还向一个方向退了几步。",
+   "sha256": "c8521b91a27ab69734e5e26706058bec5c8962d274276d92372336c285fe62f8",
+   "i": 5661
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "通过上面的实验，你会发现：指定『伤害来源』参数还可以使得攻击有一定的方向。那么这个方向是怎么计算出来的呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "通过上面的实验，你会发现：指定『伤害来源』参数还可以使得攻击有一定的方向。那么这个方向是怎么计算出来的呢？",
+   "sha256": "6d1e16dc22ceb298b9d64d867bb2d47793b42709b587ab3990e10fea8513a21a",
+   "i": 5662
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "██████████民→██",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "██████████民→██",
+   "sha256": "d8069b67b206751010cf0094101bf90d673e4c498366f43191fb98402ff2800a",
+   "i": 5663
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "██████████████",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "██████████████",
+   "sha256": "c185a406f5974664da0c3426e948853dcf774f9ff2a022de656a669528738439",
+   "i": 5664
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "█████←猪███████",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "█████←猪███████",
+   "sha256": "d8ab50ea9aca092e01a6b9a342b156230869dfcc46b1a55179df383c100ccc6f",
+   "i": 5665
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "██████████████",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "██████████████",
+   "sha256": "c185a406f5974664da0c3426e948853dcf774f9ff2a022de656a669528738439",
+   "i": 5666
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们来看看上述网格，箭头代表着实体的朝向。让我们尝试指定村民对猪造成伤害：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "我们来看看上述网格，箭头代表着实体的朝向。让我们尝试指定村民对猪造成伤害：",
+   "sha256": "96b5d4cf24d1059bf9050bd09da681396b655165eceb24796b90e6f2f6df95eb",
+   "i": 5667
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/damage @e[type=pig] 1 entity_attack entity @e[type=villager,c=1]",
+     "p": {}
+    }
+   ],
+   "text": "/damage @e[type=pig] 1 entity_attack entity @e[type=villager,c=1]",
+   "sha256": "c245f901cdaeb10f613b5d4b03251aa26381e534669b625f02a7f604b6d15f83",
+   "i": 5668
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后你就会发现猪被击退向了远离村民的方向：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "然后你就会发现猪被击退向了远离村民的方向：",
+   "sha256": "f8120d8e41ca6932929ea8e93bdb84f546ba646984dd15dd74e8f55daca079e8",
+   "i": 5669
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "██████████民→██",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "██████████民→██",
+   "sha256": "d8069b67b206751010cf0094101bf90d673e4c498366f43191fb98402ff2800a",
+   "i": 5670
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "██████████████",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "██████████████",
+   "sha256": "c185a406f5974664da0c3426e948853dcf774f9ff2a022de656a669528738439",
+   "i": 5671
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "██████████████",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "██████████████",
+   "sha256": "c185a406f5974664da0c3426e948853dcf774f9ff2a022de656a669528738439",
+   "i": 5672
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "████←猪████████",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "████←猪████████",
+   "sha256": "32a3160c1c34142e9414bac7e94b60173afc7236a4a41f1acb8ac4f9bb6c5296",
+   "i": 5673
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这说明了什么？这说明了，指定『伤害来源』后，造成的攻击会具有方向，而这个方向和指定的攻击者向着被攻击者的方向是一致的。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这说明了什么？这说明了，指定『伤害来源』后，造成的攻击会具有方向，而这个方向和指定的攻击者向着被攻击者的方向是一致的。",
+   "sha256": "5655a4a2f56412fefedc01da017c3475bf6506e9282a82785510e757feac2dad",
+   "i": 5674
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但是需要注意，这个攻击方向的计算是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2维的，并不是3维的。",
+     "p": {}
+    }
+   ],
+   "text": "但是需要注意，这个攻击方向的计算是2维的，并不是3维的。",
+   "sha256": "4f71cfffb82d1fcd98b553b1cf4362f44c45b2b0b94165f444de1beb515163ee",
+   "i": 5675
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "什么意思呢？也就是说，攻击方向的计算不会考虑到两者的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "y坐标，仅仅会通过两者的xz坐标计算得出。所以你并不能通过召唤一个盔甲架，然后你站在上面，不断让盔甲架给你造成伤害使得你上天。你只会从天上被打下来。",
+     "p": {}
+    }
+   ],
+   "text": "什么意思呢？也就是说，攻击方向的计算不会考虑到两者的y坐标，仅仅会通过两者的xz坐标计算得出。所以你并不能通过召唤一个盔甲架，然后你站在上面，不断让盔甲架给你造成伤害使得你上天。你只会从天上被打下来。",
+   "sha256": "d8f84545bdfecc7ac148c7085c3c21ecf63562516d84abc083f84a9cff9995ca",
+   "i": 5676
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么这就是本章的全部内容了。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "那么这就是本章的全部内容了。",
+   "sha256": "c557b4e252f523ad6814219295d4c48042077df60ebe052328feddd591c71d26",
+   "i": 5677
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "附表①：截止",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.19.10版本所有伤害类型ID表",
+     "p": {}
+    }
+   ],
+   "text": "附表①：截止1.19.10版本所有伤害类型ID表",
+   "sha256": "e3a8c74b847e83fc7252fde1bfd24dbc4d6335b5a19015c763f44f8892bd5d12",
+   "i": 5678
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ID——死亡信息",
+     "p": {}
+    }
+   ],
+   "text": "ID——死亡信息",
+   "sha256": "56742b093f576eef28186f2eb3aa934c85b46776cc8daa3fd811b4d389234d75",
+   "i": 5679
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "anvil —— xxx 被坠落的铁砧压扁了",
+     "p": {}
+    }
+   ],
+   "text": "anvil —— xxx 被坠落的铁砧压扁了",
+   "sha256": "2a01de3dc3886af1d84f8847d5f571c496001884ca1a97ced171926772f2b1ae",
+   "i": 5680
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "block_explosion —— xxx 爆炸了",
+     "p": {}
+    }
+   ],
+   "text": "block_explosion —— xxx 爆炸了",
+   "sha256": "1ab0847dbb4c7625e857f7f0e0156a02beb45fe3ef002889ce61fdb747a671bf",
+   "i": 5681
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "charging —— xxx 死了",
+     "p": {}
+    }
+   ],
+   "text": "charging —— xxx 死了",
+   "sha256": "73c34aabece9b0f2a7f6d41c06c721e9989ab9914ffa288948ec0b762f9d36bb",
+   "i": 5682
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "contact —— xxx 被 xxx 杀死了",
+     "p": {}
+    }
+   ],
+   "text": "contact —— xxx 被 xxx 杀死了",
+   "sha256": "795f0fd1e7495833d2ec2e3b4261dd2a3031cb52e486e4a94d5c41c15508f436",
+   "i": 5683
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "drowning —— xxx 淹死了",
+     "p": {}
+    }
+   ],
+   "text": "drowning —— xxx 淹死了",
+   "sha256": "fe4a9721362674a7f22699e0ddf9864b1180aa9e6d711e501c23d67070c5e0da",
+   "i": 5684
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "entity_attack —— xxx 被 xxx 杀死了",
+     "p": {}
+    }
+   ],
+   "text": "entity_attack —— xxx 被 xxx 杀死了",
+   "sha256": "58062efcfc3d9bed5c7619aa429abc62bf292904bc199dab83ccfb0cfe5111ad",
+   "i": 5685
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "entity_explosion —— xxx 被 xxx 炸死了（xxx 爆炸了）",
+     "p": {}
+    }
+   ],
+   "text": "entity_explosion —— xxx 被 xxx 炸死了（xxx 爆炸了）",
+   "sha256": "bcd95f6fb66a81f7f160117e9c823b7c94f43919a13c2a698f22ab2e0ef9b3c5",
+   "i": 5686
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "fall —— xxx 落地过猛",
+     "p": {}
+    }
+   ],
+   "text": "fall —— xxx 落地过猛",
+   "sha256": "7aeed68be4c1ae999221a84903a5158d97efa715842b4d36271ce215fa2dd4c5",
+   "i": 5687
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "falling_block —— xxx 死了",
+     "p": {}
+    }
+   ],
+   "text": "falling_block —— xxx 死了",
+   "sha256": "be8a24ca6aee2695409696f63683fca5932b87f584a22244d2f571ea816a8fc6",
+   "i": 5688
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "fire —— xxx 浴火焚身",
+     "p": {}
+    }
+   ],
+   "text": "fire —— xxx 浴火焚身",
+   "sha256": "359d02a6e24c389c6fe454c264e78e40b5b77b79f2787a6a345c0593ee04d7cd",
+   "i": 5689
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "fire_tick —— xxx 被烧死了",
+     "p": {}
+    }
+   ],
+   "text": "fire_tick —— xxx 被烧死了",
+   "sha256": "64fbffdfe563d8c1ea4cd9292000d4bbe481051ae2edc6cefb533a986f60ab8f",
+   "i": 5690
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "fireworks —— xxx 在一声巨响中阵亡了",
+     "p": {}
+    }
+   ],
+   "text": "fireworks —— xxx 在一声巨响中阵亡了",
+   "sha256": "3d5a67812effc50aa649a690278d4dcece0c5cce0c9d753f3172c68fbbcb1119",
+   "i": 5691
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "fly_into_wall —— xxx 遭受了动态能量",
+     "p": {}
+    }
+   ],
+   "text": "fly_into_wall —— xxx 遭受了动态能量",
+   "sha256": "cadac7660ea3e448fa059d7a065c9cac416abb768759115bacb7555f9e680ff4",
+   "i": 5692
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "freezing —— xxx 冻死了",
+     "p": {}
+    }
+   ],
+   "text": "freezing —— xxx 冻死了",
+   "sha256": "85caad0a8441e2492750d3f1617c0e094696e50c1d94dca6c81303fea27b9fb8",
+   "i": 5693
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "lava —— xxx 试图在熔岩里游泳",
+     "p": {}
+    }
+   ],
+   "text": "lava —— xxx 试图在熔岩里游泳",
+   "sha256": "9712c46e01153f1348d67fe6f1526fd593d9fd9055a3373f790a1a4fd7f7c245",
+   "i": 5694
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "lightning —— xxx 被闪电击中",
+     "p": {}
+    }
+   ],
+   "text": "lightning —— xxx 被闪电击中",
+   "sha256": "f185d54dae9b4e7a9b2c84f24208e665e2a6e9432962e202955d01fe72290599",
+   "i": 5695
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "magic —— xxx 被 xxx 使用的魔法杀死了（xxx 被魔法杀死了）",
+     "p": {}
+    }
+   ],
+   "text": "magic —— xxx 被 xxx 使用的魔法杀死了（xxx 被魔法杀死了）",
+   "sha256": "191dda97145eba580e86721f671304c353a6395dfccede01d0c9c6f3d131125c",
+   "i": 5696
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "magma —— xxx 死了",
+     "p": {}
+    }
+   ],
+   "text": "magma —— xxx 死了",
+   "sha256": "fea1b4b2ada60dff18269eebc473089f3310cec9b49397e88d7ee6969861f6a0",
+   "i": 5697
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "none —— xxx 死了",
+     "p": {}
+    }
+   ],
+   "text": "none —— xxx 死了",
+   "sha256": "78ed31c2f451fad578c70d4b5a2135b29a1f3ff7bac264ddc6cefdd77948f95e",
+   "i": 5698
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "override —— xxx 死了",
+     "p": {}
+    }
+   ],
+   "text": "override —— xxx 死了",
+   "sha256": "5e82cb3940233e1ae27abaa5928a534d58236fb574d67c1cd33a15f383cd763f",
+   "i": 5699
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "piston —— xxx 死了",
+     "p": {}
+    }
+   ],
+   "text": "piston —— xxx 死了",
+   "sha256": "90e24257400cdba673fe02415396b35cf1825b145d34090b51788920b34e934c",
+   "i": 5700
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "projectile —— xxx 被 xxx 杀死了",
+     "p": {}
+    }
+   ],
+   "text": "projectile —— xxx 被 xxx 杀死了",
+   "sha256": "971f856e375b05c1fb17559970071c938a17af57f6744cc7981e1df3da13b8b8",
+   "i": 5701
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "stalactite —— xxx 被坠落的钟乳石刺穿了",
+     "p": {}
+    }
+   ],
+   "text": "stalactite —— xxx 被坠落的钟乳石刺穿了",
+   "sha256": "115e1d58272a305c80800d3e9242f5ce3018f6d1460b70070628a01562cc37b3",
+   "i": 5702
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "stalagmite —— xxx 被钉在了石笋上",
+     "p": {}
+    }
+   ],
+   "text": "stalagmite —— xxx 被钉在了石笋上",
+   "sha256": "6ddadf7d90a4451014f2d8a1d4031df441879399ccff5275fba0a67905338831",
+   "i": 5703
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "starve —— xxx 饿死了",
+     "p": {}
+    }
+   ],
+   "text": "starve —— xxx 饿死了",
+   "sha256": "2c0d3cd6868bbd4f0e2b5e383a2cf0d230cb28fa557849085da4ad437a6d398d",
+   "i": 5704
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "suffocation —— xxx 在墙里窒息而亡（需要目标实体卡在方块里才能使用此伤害类型，否则无法造成伤害）",
+     "p": {}
+    }
+   ],
+   "text": "suffocation —— xxx 在墙里窒息而亡（需要目标实体卡在方块里才能使用此伤害类型，否则无法造成伤害）",
+   "sha256": "463331dca1c746e81be5ea4a05c965be2d2e347c2458b7d3ad2276f25d8ec939",
+   "i": 5705
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "suicide —— xxx 死了",
+     "p": {}
+    }
+   ],
+   "text": "suicide —— xxx 死了",
+   "sha256": "c4d9be273b867804a893df20a1f6802f1ba11c3bda1853c844fe99d7b659cfd7",
+   "i": 5706
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "temperature —— xxx 死了",
+     "p": {}
+    }
+   ],
+   "text": "temperature —— xxx 死了",
+   "sha256": "3f71b6f07ad538b0d4598839bbac9bee3e5a0be8f3769b3abd750f28422e9698",
+   "i": 5707
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "thorns —— xxx 死了",
+     "p": {}
+    }
+   ],
+   "text": "thorns —— xxx 死了",
+   "sha256": "ba2e0bf5b030e39e5a34bec0f024b47182d23ab5d5564997618fb7d44e17687e",
+   "i": 5708
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "void —— xxx 掉出了这个世界",
+     "p": {}
+    }
+   ],
+   "text": "void —— xxx 掉出了这个世界",
+   "sha256": "0335f501caf3f9b535c8fd7d4ec4dbcdacb95320741cd3a75366d29e8f719020",
+   "i": 5709
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "wither —— xxx 凋谢了",
+     "p": {}
+    }
+   ],
+   "text": "wither —— xxx 凋谢了",
+   "sha256": "972c65ce4cb5fea955dfb7d9a6b1d320ec6d41bdeb503a35586abac826c0775a",
+   "i": 5710
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（上述信息来自官方附加包文档",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "+作者自己测试得出）",
+     "p": {}
+    }
+   ],
+   "text": "（上述信息来自官方附加包文档+作者自己测试得出）",
+   "sha256": "2f2e21ba6100d6a8b22916c96a9a8c050ffdde5a91e680d19352d779970cb2db",
+   "i": 5711
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "附表②：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/damage历史",
+     "p": {}
+    }
+   ],
+   "text": "附表②：/damage历史",
+   "sha256": "18aa9f9a85fac48acba0d10923f7727583b7f78d60332eae5033f50f1493913f",
+   "i": 5712
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "基岩版",
+   "sha256": "e1ef194dc07360ceff0a1bfe2e5ddb80aa088939ada629f4c1c7f9bde5641ae2",
+   "i": 5713
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.18.10——加入了/damage",
+     "p": {}
+    }
+   ],
+   "text": "1.18.10——加入了/damage",
+   "sha256": "7e1ad189121543912023214c342695d9994a7c091ea60c7022abacdff49370d1",
+   "i": 5714
+  }
+ ],
+ "text_sha256": "bb9da9affb2a9468eef9ec46a95ecbb401e29a40dd16967b131b3c8f882d8348",
+ "chars": 2446
+}

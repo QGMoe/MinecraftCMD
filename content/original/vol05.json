@@ -1,0 +1,73 @@
+{
+ "id": "vol05",
+ "kind": "volume",
+ "number": 5,
+ "title": "第五卷 记分版/计分板（scoreboard）",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   2909,
+   2910
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "bookmark": "_第五卷_记分版/计分板（scoreboard）"
+    },
+    {
+     "t": "第五卷 记分版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/计分板（scoreboard）",
+     "p": {}
+    }
+   ],
+   "text": "第五卷 记分版/计分板（scoreboard）",
+   "sha256": "42d5d767d6a62e137ffdece7b5c3da96e2d7e49f29a8ae2ee9bfabe27d3d8e96",
+   "i": 2909
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft的超级重要指令：/scoreboard，也就是记分版（也称计分板），隆重登场～",
+     "p": {
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "Minecraft的超级重要指令：/scoreboard，也就是记分版（也称计分板），隆重登场～",
+   "sha256": "b2c48d547d131ff8a85ff7308639d43819e6b553a527fffd9751ecf283facf70",
+   "i": 2910
+  }
+ ],
+ "text_sha256": "9168801acc46816397a96046b1c0c9961e9519c088e18973750ecb5c134de374",
+ "chars": 71
+}

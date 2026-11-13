@@ -1,0 +1,1704 @@
+{
+ "id": "ch133",
+ "kind": "chapter",
+ "number": 133,
+ "title": "第一百三十三章 生物的共通NBT-3",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   10668,
+   10772
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "第一百三十三章 生物的共通NBT-3",
+     "p": {}
+    }
+   ],
+   "text": "第一百三十三章 生物的共通NBT-3",
+   "sha256": "dccdebd58d6f55700c510f8be1cdf99a98142b49f53a3a0a3d8ad41ea461ea2d",
+   "i": 10668
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在上一章我们讲到了HandItems和HandDropChances，这两个标签都跟生物的两只手有关。而一个生物，它不光拥有手，还拥有一个可以穿戴东西的身体。",
+     "p": {}
+    }
+   ],
+   "text": "在上一章我们讲到了HandItems和HandDropChances，这两个标签都跟生物的两只手有关。而一个生物，它不光拥有手，还拥有一个可以穿戴东西的身体。",
+   "sha256": "edc8d92ab5c14af2fbd4eb991c523b2a0bf08abf90b95cc6e9a7b1bfc7e11ce2",
+   "i": 10669
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以，NBT里除了HandItems，还有ArmorItems——用于存储生物的头、胸、腿、脚都穿了些什么鬼东西。",
+     "p": {}
+    }
+   ],
+   "text": "所以，NBT里除了HandItems，还有ArmorItems——用于存储生物的头、胸、腿、脚都穿了些什么鬼东西。",
+   "sha256": "10349ec56b245b408250b591052eea4445efb7cb299a8d88ef085cc256ba0a1d",
+   "i": 10670
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ArmorItems的值和HandItems一样，都是列表。列表内有4个空，分别用于填写四个部位所穿戴的物品：",
+     "p": {}
+    }
+   ],
+   "text": "ArmorItems的值和HandItems一样，都是列表。列表内有4个空，分别用于填写四个部位所穿戴的物品：",
+   "sha256": "f109f4b3e0a6d58339076eb15e3748aa0c1194f136cf49351aaa1611ce3595c6",
+   "i": 10671
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{ArmorItems:[{靴子}，{护腿}，{胸甲}，{头盔}]}",
+     "p": {}
+    }
+   ],
+   "text": "{ArmorItems:[{靴子}，{护腿}，{胸甲}，{头盔}]}",
+   "sha256": "8e8334c29c2b3301ad3ab21b0c2702d33f6c7f784024f0800466648faedad405",
+   "i": 10672
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子，现在这里有个僵尸，它头上戴着皮革帽子（leather_helmet），胸前穿着锁链胸甲（leather_chestplate），腿上是个附了保护I的的钻石护腿（diamond_leggings），脚上穿着铁靴子（iron_boots），那么这个僵尸的ArmorItems就是：",
+     "p": {}
+    }
+   ],
+   "text": "举个例子，现在这里有个僵尸，它头上戴着皮革帽子（leather_helmet），胸前穿着锁链胸甲（leather_chestplate），腿上是个附了保护I的的钻石护腿（diamond_leggings），脚上穿着铁靴子（iron_boots），那么这个僵尸的ArmorItems就是：",
+   "sha256": "f6de8d8dd5fbc82a5f104fe7e30c340497996879877f20696fd857c54ca39f2a",
+   "i": 10673
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{ArmorItems:[{Count:1，id:“iron_boots“}，{Count:1，id:“diamond_leggings“，tag:{Enchantments:[{id:“protection“，lvl:1}]}}，{Count:1，id:“leather_chestplate“}，{Count:1，id:“leather_helmet“}]}",
+     "p": {}
+    }
+   ],
+   "text": "{ArmorItems:[{Count:1，id:“iron_boots“}，{Count:1，id:“diamond_leggings“，tag:{Enchantments:[{id:“protection“，lvl:1}]}}，{Count:1，id:“leather_chestplate“}，{Count:1，id:“leather_helmet“}]}",
+   "sha256": "1bbada659ab44e6c54d58c5c0ddbfc5f92ffd6843c174ada769ee0046c1a6268",
+   "i": 10674
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "哦不！这个僵尸死了！那么它掉落身上装备的几率是多少呢？",
+     "p": {}
+    }
+   ],
+   "text": "哦不！这个僵尸死了！那么它掉落身上装备的几率是多少呢？",
+   "sha256": "c00bea3d3141512c865b5431079a1d8b68c5bb51b858011d09115f8e9695dd64",
+   "i": 10675
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们不知道有多少，但我们可以更改成自己想的，这样子就知道了！",
+     "p": {}
+    }
+   ],
+   "text": "我们不知道有多少，但我们可以更改成自己想的，这样子就知道了！",
+   "sha256": "e9668ba05de907b9fbeab3ec1ab5b5fdcaf3039ee323532fccbd94517cae7d7b",
+   "i": 10676
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "和HandItems一样，ArmorItems标签也有一个控制掉落几率的亲兄弟：ArmorDropChances，格式和HandDropChances当然也差不多，都是：",
+     "p": {}
+    }
+   ],
+   "text": "和HandItems一样，ArmorItems标签也有一个控制掉落几率的亲兄弟：ArmorDropChances，格式和HandDropChances当然也差不多，都是：",
+   "sha256": "36a3abf138daf80b3f6108bdaa65d592892b92a0d3be07ee92623ad7308f2566",
+   "i": 10677
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{ArmorDropChances:[靴子掉落几率，护腿掉落几率，胸甲掉落几率，头盔掉落几率]}",
+     "p": {}
+    }
+   ],
+   "text": "{ArmorDropChances:[靴子掉落几率，护腿掉落几率，胸甲掉落几率，头盔掉落几率]}",
+   "sha256": "9368574994e8426c4c3037138df57cf32570f6ffc70c726745c96ef169a64c59",
+   "i": 10678
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这里的几率也照样是单精度浮点数。举个例子：",
+     "p": {}
+    }
+   ],
+   "text": "这里的几率也照样是单精度浮点数。举个例子：",
+   "sha256": "8a24e43beb5b6043bb68b6806347cbc862680563f4c9e4fa476279d4d8a1a59c",
+   "i": 10679
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{ArmorDropChances:[1.0，0.32，0.65，0.99]}",
+     "p": {}
+    }
+   ],
+   "text": "{ArmorDropChances:[1.0，0.32，0.65，0.99]}",
+   "sha256": "e815891b9caa686006f5e3419adb0f1213b8ca3fd14c8a02f7d055961f662636",
+   "i": 10680
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子的话这个僵尸其装备的掉落几率就是：",
+     "p": {}
+    }
+   ],
+   "text": "这样子的话这个僵尸其装备的掉落几率就是：",
+   "sha256": "7677bee6532e2f4272eec6807aa62cc42533cf31148b8e0f9c325f3fd8f19f2c",
+   "i": 10681
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "靴子——100%",
+     "p": {}
+    }
+   ],
+   "text": "靴子——100%",
+   "sha256": "9b5b40028c372d705d7574385357ad72c0ab134dea00d17755f6c61674af9278",
+   "i": 10682
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "护腿——32%",
+     "p": {}
+    }
+   ],
+   "text": "护腿——32%",
+   "sha256": "5d549dd41f33e3bd3727cfc705ba96e6c9c3e9252e1129001b2c050e5c7d1525",
+   "i": 10683
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "胸甲——65%",
+     "p": {}
+    }
+   ],
+   "text": "胸甲——65%",
+   "sha256": "2d75a0a21cfe62b344d505b527e5fe7111f967a9c56ab5ac7bd7f99613343288",
+   "i": 10684
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "头盔——99%",
+     "p": {}
+    }
+   ],
+   "text": "头盔——99%",
+   "sha256": "716223c9130c359db14c310558636ed4c7811a7c19f4da18320ba10b1c7095d2",
+   "i": 10685
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "是不是灰常简单？",
+     "p": {}
+    }
+   ],
+   "text": "是不是灰常简单？",
+   "sha256": "89b32f44985088e675cdc2f6394f5eadff1a6f7bee0d764688b643c3031ae293",
+   "i": 10686
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当然，别忘了，击杀一个生物，掉落的不光是它拿的东西以及穿的东西，还有这个生物的战利品表所规定掉落的物品。",
+     "p": {}
+    }
+   ],
+   "text": "当然，别忘了，击杀一个生物，掉落的不光是它拿的东西以及穿的东西，还有这个生物的战利品表所规定掉落的物品。",
+   "sha256": "5d7e491ad2a045dd311446f32cd38dcd5e4298a20f5b9a50703dbf169a80440a",
+   "i": 10687
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "控制生物战利品表的标签就是：DeathLootTable，这个的值是个字符串，所以它填的战利品表一般是游戏已经封装好的，比如这个僵尸，它的默认战利品表就是：",
+     "p": {}
+    }
+   ],
+   "text": "控制生物战利品表的标签就是：DeathLootTable，这个的值是个字符串，所以它填的战利品表一般是游戏已经封装好的，比如这个僵尸，它的默认战利品表就是：",
+   "sha256": "6599a4cab656afd8cce5320c87d04d9bbbcedd091d09feefddefd84a7f902296",
+   "i": 10688
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{DeathLootTable:“loot_tables/entities/zombie“}",
+     "p": {}
+    }
+   ],
+   "text": "{DeathLootTable:“loot_tables/entities/zombie“}",
+   "sha256": "35f30d3d32e870026a5ded22d73c7122836a5e9143e154b99035e88f125dbe55",
+   "i": 10689
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "也就是僵尸的战利品表。",
+     "p": {}
+    }
+   ],
+   "text": "也就是僵尸的战利品表。",
+   "sha256": "be995fe6b954a17e8e407dbb67d5321d8edec874e13d7639d3c21513a2b61fe7",
+   "i": 10690
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当然，你也可以自定义战利品表，只不过你可能需要用到很多的转义符号（\\）。",
+     "p": {}
+    }
+   ],
+   "text": "当然，你也可以自定义战利品表，只不过你可能需要用到很多的转义符号（\\）。",
+   "sha256": "a2f31161198ab6a534d0df2ddd89414f1942b4134e19fbb60afa51ccb31abd97",
+   "i": 10691
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "具体的战利品表介绍已经在第八十九章就详细的讲过了，只不过好像很多人都没看懂哎。",
+     "p": {}
+    }
+   ],
+   "text": "具体的战利品表介绍已经在第八十九章就详细的讲过了，只不过好像很多人都没看懂哎。",
+   "sha256": "eed72ab664d47072aa20ed6f226020b6cf02c5f169b0d04418638d79e5865986",
+   "i": 10692
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没事，没看懂很正常，6000多字的内容可不是一时半会能消化得完的。",
+     "p": {}
+    }
+   ],
+   "text": "没事，没看懂很正常，6000多字的内容可不是一时半会能消化得完的。",
+   "sha256": "a36e862039c1cfa52d630f75393076cef4fbc3c02aa4df80e5e7c514001bf354",
+   "i": 10693
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "战利品表是随机的，但这个随机并不是战利品表自身的，而是要通过种子来完成：",
+     "p": {}
+    }
+   ],
+   "text": "战利品表是随机的，但这个随机并不是战利品表自身的，而是要通过种子来完成：",
+   "sha256": "a8486c16e30c7c31cf80344f655d4549b49ee49f5b6e24f348d68aa7e8727f83",
+   "i": 10694
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DeathLootTableSeed",
+     "p": {}
+    }
+   ],
+   "text": "DeathLootTableSeed",
+   "sha256": "16bd835cfbb055892e172fcfc1462fda7d9aafaad73f40af153fdf45e57d7bd0",
+   "i": 10695
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DeathLootTableSeed的用途是生成战利品表的种子，当为0或为空时将会随机生成一个种子。",
+     "p": {}
+    }
+   ],
+   "text": "DeathLootTableSeed的用途是生成战利品表的种子，当为0或为空时将会随机生成一个种子。",
+   "sha256": "2076dd3822f26a08fd0493c8671ef6ee2ed2e612e39525d4d46b755416bba619",
+   "i": 10696
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面的DeathLootTableSeed和DeathLootTable都是关于战利品表的。但如果一个生物没有战利品呢？",
+     "p": {}
+    }
+   ],
+   "text": "上面的DeathLootTableSeed和DeathLootTable都是关于战利品表的。但如果一个生物没有战利品呢？",
+   "sha256": "0513e638eb7fb16212762ff478f24fa2fdfe5a532f6137ec4145369c91554a52",
+   "i": 10697
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "除了它的战利品表是loot_tables/empty外，还有一种可能：",
+     "p": {}
+    }
+   ],
+   "text": "除了它的战利品表是loot_tables/empty外，还有一种可能：",
+   "sha256": "0d0bd69285b65c68fac3a7209f5091f4f302f073555156459b23896b451e7001",
+   "i": 10698
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "它没有DeathLootTableSeed和DeathLootTable这两个标签。",
+     "p": {}
+    }
+   ],
+   "text": "它没有DeathLootTableSeed和DeathLootTable这两个标签。",
+   "sha256": "f8d6ee9b97054c7cae33d01c3e1e2a578958e5e1b824eea9c60c95cdf4dec61f",
+   "i": 10699
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错，实际上这两个标签是可选的，就算把它两删了也不会出什么惊天大事的。",
+     "p": {}
+    }
+   ],
+   "text": "没错，实际上这两个标签是可选的，就算把它两删了也不会出什么惊天大事的。",
+   "sha256": "e172024ec2e2dd1a1a6921e2a92fbe0c4d05b9aa28380acace41c3ff570c1f68",
+   "i": 10700
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但下面这个，就不能删了：",
+     "p": {}
+    }
+   ],
+   "text": "但下面这个，就不能删了：",
+   "sha256": "854aaa6b5bba3e95c30f52735c0e0225657d40d3fc447930b508f868e2b4c694",
+   "i": 10701
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "CanPickUpLoot（值：true|fasle布尔值）",
+     "p": {}
+    }
+   ],
+   "text": "CanPickUpLoot（值：true|fasle布尔值）",
+   "sha256": "5b99f9b5f60e5b8292ec24bae8ac2ac1a6cfbc88bc81f570f53b14b8e63487b0",
+   "i": 10702
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "CanPickUpLoot这个标签控制着这个生物它到底会不会捡起物品（或者说是战利品）。当为true，这个生物就会捡东西，然后把可以用的东西用起来，比如捡起靴子就穿上靴子之类的——这点在僵尸上特别突出：相信你应该经历过苦力怕把你箱子炸了，僵尸紧接着跑过来把你东西拿了，我都怀疑这苦力怕是不是和这僵尸心有灵犀，咋配合得这么默契呢？",
+     "p": {}
+    }
+   ],
+   "text": "CanPickUpLoot这个标签控制着这个生物它到底会不会捡起物品（或者说是战利品）。当为true，这个生物就会捡东西，然后把可以用的东西用起来，比如捡起靴子就穿上靴子之类的——这点在僵尸上特别突出：相信你应该经历过苦力怕把你箱子炸了，僵尸紧接着跑过来把你东西拿了，我都怀疑这苦力怕是不是和这僵尸心有灵犀，咋配合得这么默契呢？",
+   "sha256": "b0e8bd5e7d1ceebc9d974c113d494e5bf208c2beae96f05949ed9790ab25e3ac",
+   "i": 10703
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以，如果你不想让僵尸拿起你的剑去砍你，就把这个CanPickUpLoot改成false吧！",
+     "p": {}
+    }
+   ],
+   "text": "所以，如果你不想让僵尸拿起你的剑去砍你，就把这个CanPickUpLoot改成false吧！",
+   "sha256": "6b5793936c843e9a477a9c7ed61d6b0c0151c93eddaebccf60c9d716acbc58f3",
+   "i": 10704
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "生物的共通NBT还有许多和CanPickUpLoot一样是布尔值的标签，且都很简单：",
+     "p": {}
+    }
+   ],
+   "text": "生物的共通NBT还有许多和CanPickUpLoot一样是布尔值的标签，且都很简单：",
+   "sha256": "a20e0565c12142d2fac10ae02ee3222a17fac0bb1a4f6adb73ed44fafefd14bc",
+   "i": 10705
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NoAI（值：true|fasle布尔值）——这个生物是否没有AI。true为没有AI，false为有AI。",
+     "p": {}
+    }
+   ],
+   "text": "NoAI（值：true|fasle布尔值）——这个生物是否没有AI。true为没有AI，false为有AI。",
+   "sha256": "a23b716acdf7ad02105cbcfca6715ef7366d9bc4672b1518d51e92adca53fa54",
+   "i": 10706
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "PersistenceRequired（值：true|fasle布尔值）——这个生物是否不会被自然删除。true为不会被自然删除，false为会被自然删除。",
+     "p": {}
+    }
+   ],
+   "text": "PersistenceRequired（值：true|fasle布尔值）——这个生物是否不会被自然删除。true为不会被自然删除，false为会被自然删除。",
+   "sha256": "b33215254bb419bcc073ad95d9d855627f7c529c39ae3af1fabc2320af29d0cf",
+   "i": 10707
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "LeftHanded（值：true|fasle布尔值）——这个生物渲染的主手是否为左手。true为渲染时主手为左手，false为渲染时主手为右手。",
+     "p": {}
+    }
+   ],
+   "text": "LeftHanded（值：true|fasle布尔值）——这个生物渲染的主手是否为左手。true为渲染时主手为左手，false为渲染时主手为右手。",
+   "sha256": "f83989a0c9812d82cccbd1db8efd70335cc7c62fdae2ba4b3cf1169c5359fa90",
+   "i": 10708
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Leashed（值：true|fasle布尔值）——这个生物是否被拴住。true为被拴住，false为没有被拴住。",
+     "p": {}
+    }
+   ],
+   "text": "Leashed（值：true|fasle布尔值）——这个生物是否被拴住。true为被拴住，false为没有被拴住。",
+   "sha256": "44d1a3e924a4d166e42c7d4b1a83441ec52799e62be39e9d2ba2a6cc56ac8c63",
+   "i": 10709
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "而其中，最复杂的应该要数Leashed。当这个为true时，就会有一个新的标签：",
+     "p": {}
+    }
+   ],
+   "text": "而其中，最复杂的应该要数Leashed。当这个为true时，就会有一个新的标签：",
+   "sha256": "30529c2ed4ff9b5ed4a4f6c918bee1eb78f21fb943b4e27a051685c1bdec8649",
+   "i": 10710
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Leash",
+     "p": {}
+    }
+   ],
+   "text": "Leash",
+   "sha256": "9d0dd76b53c756a8514a62b46939577c217d694cb9558e86b64d729e6c80b127",
+   "i": 10711
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个Leash稍微有点复杂，它有两种记录方式：",
+     "p": {}
+    }
+   ],
+   "text": "这个Leash稍微有点复杂，它有两种记录方式：",
+   "sha256": "2c1e361afe20a244f7c256816db31e2c669dfbec7c40be5927fdcc199b419d75",
+   "i": 10712
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.该实体为拴绳的头（没错，就是栏杆上那个长方形状的拴绳头，那也是个实体）或拿着拴的实体，那么将会记录它拴住的实体的UUID（1.15版本及以下是UUIDMost和UUIDLeast），即：",
+     "p": {}
+    }
+   ],
+   "text": "1.该实体为拴绳的头（没错，就是栏杆上那个长方形状的拴绳头，那也是个实体）或拿着拴的实体，那么将会记录它拴住的实体的UUID（1.15版本及以下是UUIDMost和UUIDLeast），即：",
+   "sha256": "4178343eb179c2701f86d7da9fd8bc6dd880192e3a8aae168d693b2931b09095",
+   "i": 10713
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{Leash:{UUID:[I;-211674134，1944866746，-1405592313，1790609596]}}",
+     "p": {}
+    }
+   ],
+   "text": "{Leash:{UUID:[I;-211674134，1944866746，-1405592313，1790609596]}}",
+   "sha256": "94534bb6dc4b4d13c69fd2a1c787cfd4bf9dbfe464fb3c45323b403280bbf222",
+   "i": 10714
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（1.15版本及以下：",
+     "p": {}
+    }
+   ],
+   "text": "（1.15版本及以下：",
+   "sha256": "55b8ffba170d856a3529a45fecb6ea132bf670588f84e6b53432100c6e02c1a7",
+   "i": 10715
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{Leash:{UUIDMost:-909133480994254918，UUIDLeast:-6036973014053386052}}）",
+     "p": {}
+    }
+   ],
+   "text": "{Leash:{UUIDMost:-909133480994254918，UUIDLeast:-6036973014053386052}}）",
+   "sha256": "407c1db764e331b5fa343cd6f909506835ab1c1961c4d80952c4c0521aff3712",
+   "i": 10716
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "2.该实体为被拴住的生物，那么将会记录拴住它的拴绳头或拿着拴着它的绳子的实体位置，即：",
+     "p": {}
+    }
+   ],
+   "text": "2.该实体为被拴住的生物，那么将会记录拴住它的拴绳头或拿着拴着它的绳子的实体位置，即：",
+   "sha256": "b46d08ddd52f40f698dc6f4e529b5e6a6b9f7b84205903b88d12c71cc129b81b",
+   "i": 10717
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{Leash:{X:921，Y:65，Z=343}}",
+     "p": {}
+    }
+   ],
+   "text": "{Leash:{X:921，Y:65，Z=343}}",
+   "sha256": "63a8036e46f0883956ba8c97cdc16ad4664e3b776f815ca15f3a9a6445cee7bd",
+   "i": 10718
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "嗯，还是挺简单的。",
+     "p": {}
+    }
+   ],
+   "text": "嗯，还是挺简单的。",
+   "sha256": "71e9b4cf6e670ec40da784135b466d20aba62700dc6fd20a9681ac2a437d9791",
+   "i": 10719
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "到目前为止，我们已经了解了大部分生物的共通NBT，只剩下了三个没讲的了：",
+     "p": {}
+    }
+   ],
+   "text": "到目前为止，我们已经了解了大部分生物的共通NBT，只剩下了三个没讲的了：",
+   "sha256": "7efe7bab7f310cf0c77ff3c4b8ec9aad386cc1c6ced706bdd4c8eeb92876d87d",
+   "i": 10720
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Team（值：字符串）",
+     "p": {}
+    }
+   ],
+   "text": "Team（值：字符串）",
+   "sha256": "eb39b644b3c37068b8cf1738a0b1e2d47c52f2259b582cebd00ed6b5fdedd6ed",
+   "i": 10721
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Brain（值：复合标签{}）",
+     "p": {}
+    }
+   ],
+   "text": "Brain（值：复合标签{}）",
+   "sha256": "c97c175c1d5eda13f700ec6abebbdf242a420f7fc5f8f4d8d5a44d468c4221ad",
+   "i": 10722
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ActiveEffects（值：列表[]）",
+     "p": {}
+    }
+   ],
+   "text": "ActiveEffects（值：列表[]）",
+   "sha256": "8cfbac546faf4046b7f66e4594548876ff71f35f5183d80fdc1950218d5b1c87",
+   "i": 10723
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，Team是这里面最简单的。但是它的作用并不是存储这个生物所加入的队伍，而是：",
+     "p": {}
+    }
+   ],
+   "text": "其中，Team是这里面最简单的。但是它的作用并不是存储这个生物所加入的队伍，而是：",
+   "sha256": "42824137dace4b5ea858a632de53be35adbaa3ce380f0395ef2440e91bf6f4b8",
+   "i": 10724
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果Team的值里面有填东西，该生物将会自动且立马加入Team所填的队伍，加入后自动清空Team的值。",
+     "p": {}
+    }
+   ],
+   "text": "如果Team的值里面有填东西，该生物将会自动且立马加入Team所填的队伍，加入后自动清空Team的值。",
+   "sha256": "1e4f3a18d5ff6612e21387ccfb1dc51333d3a837b6f3a165d0dc7179952abdfe",
+   "i": 10725
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以这个标签实际上并不是个生物的NBT数据，而是方便在创建生物时让生物加入队伍。",
+     "p": {}
+    }
+   ],
+   "text": "所以这个标签实际上并不是个生物的NBT数据，而是方便在创建生物时让生物加入队伍。",
+   "sha256": "3df49009da45cb42213db6f20d7862bca8ef3854afbe10c5d6dcde2e3343d720",
+   "i": 10726
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以这个标签的用武之地就是——",
+     "p": {}
+    }
+   ],
+   "text": "所以这个标签的用武之地就是——",
+   "sha256": "327741b231906dc36ed8c8f5a368435a312b9b0b0ba1ffc1b63d2a62f4434a86",
+   "i": 10727
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "实现起床战争召唤自家队伍的铁傀儡！",
+     "p": {}
+    }
+   ],
+   "text": "实现起床战争召唤自家队伍的铁傀儡！",
+   "sha256": "113f27c78d5e5979658b6222ae03687babb1fcaba93d010190fed579b48a46b1",
+   "i": 10728
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "........",
+     "p": {}
+    }
+   ],
+   "text": "........",
+   "sha256": "d09f0ad06d6e59b908037317d6c044f7ababd3466cb46d5b901cf6f0855baf04",
+   "i": 10729
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后是ActiveEffects。Brain最复杂，我们留最后。",
+     "p": {}
+    }
+   ],
+   "text": "然后是ActiveEffects。Brain最复杂，我们留最后。",
+   "sha256": "2a818afc3cfc2d6db76d12d59a5842df157b7bbeecbcb9ab261ba83a8eaf69c1",
+   "i": 10730
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ActiveEffects的作用是存储这个生物所有的状态效果。如果这个生物没有状态效果，就不会有这个标签。",
+     "p": {}
+    }
+   ],
+   "text": "ActiveEffects的作用是存储这个生物所有的状态效果。如果这个生物没有状态效果，就不会有这个标签。",
+   "sha256": "a87456e354d3823d8538bee22e738b9b074dba824684cce28904f69eead8721f",
+   "i": 10731
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ActiveEffects的格式是这样的：",
+     "p": {}
+    }
+   ],
+   "text": "ActiveEffects的格式是这样的：",
+   "sha256": "4a32be28018cd67805542c985287e1af5f3eac026d6b38d1f4bc0a91ffe9b08d",
+   "i": 10732
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{ActiveEffects:[{效果1}，{效果2}，{效果3}，...]}",
+     "p": {}
+    }
+   ],
+   "text": "{ActiveEffects:[{效果1}，{效果2}，{效果3}，...]}",
+   "sha256": "0f7a2f965f823dff7af389e9f16973ff2efe85707db2904964f24a4e94af92c7",
+   "i": 10733
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "而这个效果，就要涉及到——效果的NBT（效果没有共通之说，因为效果的NBT都是一样的）：",
+     "p": {}
+    }
+   ],
+   "text": "而这个效果，就要涉及到——效果的NBT（效果没有共通之说，因为效果的NBT都是一样的）：",
+   "sha256": "a06e61ef59fb0e854917040119c16af95e20d99b61b268ae2a98d4ec046d4d8d",
+   "i": 10734
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Id——效果id（值：数值）",
+     "p": {}
+    }
+   ],
+   "text": "Id——效果id（值：数值）",
+   "sha256": "0f9b76076e625b46e1e1e5889fc7439375e8c9666950734033415f0059cd9056",
+   "i": 10735
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Amplifier——效果等级，实际等级是这里的数值加上1。如这边填0，等级将是1（值：数值，范围：0~255）",
+     "p": {}
+    }
+   ],
+   "text": "Amplifier——效果等级，实际等级是这里的数值加上1。如这边填0，等级将是1（值：数值，范围：0~255）",
+   "sha256": "44fdbfd5de2830d95e00052a9b9633f3107e1e7b78363bd7c07aafc2ba4fb305",
+   "i": 10736
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Duration——距离效果消失的时间刻数。或者说是效果的剩余时间，单位为刻（值：数值[int整型]）",
+     "p": {}
+    }
+   ],
+   "text": "Duration——距离效果消失的时间刻数。或者说是效果的剩余时间，单位为刻（值：数值[int整型]）",
+   "sha256": "5df0ae19f55b6422fed8d6d23133fc34c568e29a599a1bd7ef6d9477a6be2948",
+   "i": 10737
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Ambient——这个效果是否是信标施加。如果是由信标施加，则为true，将会减弱粒子效果。不是则为false（值：true|fasle布尔值）",
+     "p": {}
+    }
+   ],
+   "text": "Ambient——这个效果是否是信标施加。如果是由信标施加，则为true，将会减弱粒子效果。不是则为false（值：true|fasle布尔值）",
+   "sha256": "909edd36da4ce25a88072b82722d8e69115629a57e527b702245c4027f9139c2",
+   "i": 10738
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ShowParticles——是否显示粒子效果。显示则为true，不显示则为false（值：true|fasle布尔值）",
+     "p": {}
+    }
+   ],
+   "text": "ShowParticles——是否显示粒子效果。显示则为true，不显示则为false（值：true|fasle布尔值）",
+   "sha256": "98513a32b0dc9cabe9dc8d630a512d232e09c2e758d6ba43c5b11fa8391d1942",
+   "i": 10739
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ShowIcon——是否显示效果图标（这个挺有用，配合ShowParticles可以神不知鬼不觉给人附上效果，比如用于起床战争）。显示图标则为true，不显示为false。（值：true|fasle布尔值）",
+     "p": {}
+    }
+   ],
+   "text": "ShowIcon——是否显示效果图标（这个挺有用，配合ShowParticles可以神不知鬼不觉给人附上效果，比如用于起床战争）。显示图标则为true，不显示为false。（值：true|fasle布尔值）",
+   "sha256": "a7be818b6c04d667e37b1f995ee8ec3bd44c2d16170af5c1184ea4e1fb12914b",
+   "i": 10740
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "HiddenEffect——相同类型但效果等级更低的效果，将会暂时放在这边。如果上面的状态效果失效将会立刻取代它。当然，存在这边的效果剩余时间仍然会减少。（值：复合标签{}）",
+     "p": {}
+    }
+   ],
+   "text": "HiddenEffect——相同类型但效果等级更低的效果，将会暂时放在这边。如果上面的状态效果失效将会立刻取代它。当然，存在这边的效果剩余时间仍然会减少。（值：复合标签{}）",
+   "sha256": "c964c1dcb5509927be3c5654eb3ced10228d546e7f61bef0c580e4eba5427eae",
+   "i": 10741
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "都懂了吧？这已经说得很详细了。举个例子，假设一个村民被玩家使用指令施加了110级时长3分30秒的跳跃提升，那么这个村民的ActiveEffects将是：",
+     "p": {}
+    }
+   ],
+   "text": "都懂了吧？这已经说得很详细了。举个例子，假设一个村民被玩家使用指令施加了110级时长3分30秒的跳跃提升，那么这个村民的ActiveEffects将是：",
+   "sha256": "8da5bdbaefbbdc3f368a3572fcdecc3373a03fbada9ae57848e14d1b3b9c7f0e",
+   "i": 10742
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{ActiveEffects:[{id:8，Amplifier:109，Duration:4200，Ambient:“false“，ShowParticles:“true“，ShowIcon:“true“}]}",
+     "p": {}
+    }
+   ],
+   "text": "{ActiveEffects:[{id:8，Amplifier:109，Duration:4200，Ambient:“false“，ShowParticles:“true“，ShowIcon:“true“}]}",
+   "sha256": "b7b311443c28c7449ea1257963b3f8c9310d3ce52b815630e3a5e71996c27f40",
+   "i": 10743
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但如果这时候玩家又给这个村民添加一个相同类型的状态效果，但等级达到了120级，时长只有1分钟，将会怎么样？",
+     "p": {}
+    }
+   ],
+   "text": "但如果这时候玩家又给这个村民添加一个相同类型的状态效果，但等级达到了120级，时长只有1分钟，将会怎么样？",
+   "sha256": "2ee63b98004655b482cfa62520c330c45be6f23df57f297661f910dc2c17d86e",
+   "i": 10744
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这时候就要了解一下HiddenEffect标签里的东西了，实际上还是一样的：",
+     "p": {}
+    }
+   ],
+   "text": "这时候就要了解一下HiddenEffect标签里的东西了，实际上还是一样的：",
+   "sha256": "1f833fd7052936a295a5e3c1520a01562da406187c49c1433ef36fa7b5e8030b",
+   "i": 10745
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Id",
+     "p": {}
+    }
+   ],
+   "text": "Id",
+   "sha256": "12156e921bdb6085ccc2f0109b8ff8ea8f0b17e8b4fb0741f63b6708b930b380",
+   "i": 10746
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Amplifier",
+     "p": {}
+    }
+   ],
+   "text": "Amplifier",
+   "sha256": "c0a9d8b3fc41938e108efa8d11841e5ec01d17b626d538bc32761ddaf0c46f3d",
+   "i": 10747
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Duration",
+     "p": {}
+    }
+   ],
+   "text": "Duration",
+   "sha256": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+   "i": 10748
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Ambient",
+     "p": {}
+    }
+   ],
+   "text": "Ambient",
+   "sha256": "44bb0e5fb3702293c83edb7bdaefd20b9521497b1648f0db735696698e8950de",
+   "i": 10749
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ShowParticles",
+     "p": {}
+    }
+   ],
+   "text": "ShowParticles",
+   "sha256": "53598c91d635add99083453df575f5c96602f11398fb4b2c74013817df66b9f3",
+   "i": 10750
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ShowIcon",
+     "p": {}
+    }
+   ],
+   "text": "ShowIcon",
+   "sha256": "f2f4da3757b4e11ca81855cd5f7266f3dc4d5cb666ee932644200f7ae8d53218",
+   "i": 10751
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "HiddenEffect",
+     "p": {}
+    }
+   ],
+   "text": "HiddenEffect",
+   "sha256": "4dabc23edc7f0e751ca0da0e72dfa856cf8ed26b33ae772f42611cb5612ed01c",
+   "i": 10752
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "可以发现这里又有HiddenEffect。没错，确实是可以套状态效果的，想套多少都可以。",
+     "p": {}
+    }
+   ],
+   "text": "可以发现这里又有HiddenEffect。没错，确实是可以套状态效果的，想套多少都可以。",
+   "sha256": "a2cf10b8c62db902ebaceb2bf5687758d1a9cda83d5f594cb060d8e6b3614996",
+   "i": 10753
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以这时候村民的ActiveEffects就成了：",
+     "p": {}
+    }
+   ],
+   "text": "所以这时候村民的ActiveEffects就成了：",
+   "sha256": "f57956f1b6e7ea1716cbb36d61a714793ba9c653a73c2b9ac79d31eeb1176687",
+   "i": 10754
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{ActiveEffects:[{id:8，Amplifier:119，Duration:1200，Ambient:“false“，ShowParticles:“true“，ShowIcon:“true“，HiddenEffect:{id:8，Amplifier:109，Duration:4200，Ambient:“false“，ShowParticles:“true“，ShowIcon:“true“}}]}",
+     "p": {}
+    }
+   ],
+   "text": "{ActiveEffects:[{id:8，Amplifier:119，Duration:1200，Ambient:“false“，ShowParticles:“true“，ShowIcon:“true“，HiddenEffect:{id:8，Amplifier:109，Duration:4200，Ambient:“false“，ShowParticles:“true“，ShowIcon:“true“}}]}",
+   "sha256": "21a5bba95e24a57b072dd96ac30a08de70d91adbab240fd2df5860123fa9f21c",
+   "i": 10755
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "懂了吧？其实灰常简单的。",
+     "p": {}
+    }
+   ],
+   "text": "懂了吧？其实灰常简单的。",
+   "sha256": "56751ee3c3651686977a543322e3d3a68bbeda589fbed9c7a2cf67ec74f19be9",
+   "i": 10756
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后就只剩下Brain（值：复合标签{}）了。",
+     "p": {}
+    }
+   ],
+   "text": "最后就只剩下Brain（值：复合标签{}）了。",
+   "sha256": "0464aed33970113afc9e3a439a6e03760ed001aa06cbacb395d30736c57117e0",
+   "i": 10757
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Brain相当于这个生物的记忆，所以很高级。高级到什么程度呢？在生物里，到1.16，只有村民和猪灵有记忆。",
+     "p": {}
+    }
+   ],
+   "text": "Brain相当于这个生物的记忆，所以很高级。高级到什么程度呢？在生物里，到1.16，只有村民和猪灵有记忆。",
+   "sha256": "e5a3924ce465a5b98bcd4b5bbf7feb29ad1cfd82b6b26118e5423bee7bf80cd4",
+   "i": 10758
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Brain的内容只有一个：",
+     "p": {}
+    }
+   ],
+   "text": "Brain的内容只有一个：",
+   "sha256": "3e5c0997447bd1d5d08214a7dec8e90aed8d325bad33ce9158177dcb34114ab0",
+   "i": 10759
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "memories（值：复合标签{}）",
+     "p": {}
+    }
+   ],
+   "text": "memories（值：复合标签{}）",
+   "sha256": "fa370945a28f50124c2816bc91888efe786339e6218a956d0ec104e7f456f1b5",
+   "i": 10760
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "而memories的值，就多了：",
+     "p": {}
+    }
+   ],
+   "text": "而memories的值，就多了：",
+   "sha256": "a7ac60d81425ee029532ee065816336f8b5b2063c101406cdd58dcb5817f737d",
+   "i": 10761
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:meeting_point",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:meeting_point",
+   "sha256": "22b0e6714d79346c70447d8281a2dda380bc35f5cd0645fbd5c190beb8c79312",
+   "i": 10762
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:home",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:home",
+   "sha256": "3eaf789dd361854cfc62dd6ae1e976374cca169086423401e1cb96dfdb787286",
+   "i": 10763
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:job_site",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:job_site",
+   "sha256": "1d6ad25de36108febd9880dcfc26940d3d1826dd727aa60f87ab07ea09ae5ccd",
+   "i": 10764
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:last_slept",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:last_slept",
+   "sha256": "b8b4a0057b3a4866fc02d3e08b26a1a5d23e9868e7a9ea2a987e4218d6d9d88d",
+   "i": 10765
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:last_woken",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:last_woken",
+   "sha256": "2e4de0e45f6d5808150f6b5000437184a215d163451cfa3bfbd45a51d5bbae30",
+   "i": 10766
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:last_worked_at_poi",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:last_worked_at_poi",
+   "sha256": "4764fd9462c97c18cde373115193caa3b4d7e2e3469d5b84fdae376ea9c08a39",
+   "i": 10767
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:angry_at",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:angry_at",
+   "sha256": "bbf54a4381bd6dafbbdf3cb0f6bbade19a9dbe48d105eec443387421c6dca4b0",
+   "i": 10768
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:admiring_item",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:admiring_item",
+   "sha256": "64f4e8b21bf30c56dab75fa29e28825ce234f9ce16441d3702c82960297061c6",
+   "i": 10769
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:admiring_disabled",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:admiring_disabled",
+   "sha256": "579baac5bdc83cc17bde5855e13a8fd2dfc5460d6d7a0ca9a7cee45ad0e8bb00",
+   "i": 10770
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:hunted_recently",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:hunted_recently",
+   "sha256": "937d7aa91c01f4b8808504658906f07e8107f82b5912639dbdac2dec51386fb2",
+   "i": 10771
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "只不过这些内容，由于太多了，我们只好放到下一章再来讲了。",
+     "p": {}
+    }
+   ],
+   "text": "只不过这些内容，由于太多了，我们只好放到下一章再来讲了。",
+   "sha256": "18a5563b4875c80d819376a4e78ceb18f866a64b5cb7c7dfb662dde6826998e5",
+   "i": 10772
+  }
+ ],
+ "text_sha256": "a2e4b49ecdd0a74faa7024792080a28a775edbf9214ee77252d16adf40111f88",
+ "chars": 4258
+}

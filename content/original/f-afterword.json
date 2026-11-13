@@ -1,0 +1,268 @@
+{
+ "id": "f-afterword",
+ "kind": "front",
+ "number": null,
+ "title": "本书第一次大修完成感言",
+ "source": {
+  "file": "MineBBS/0声明部分.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "本书第一次大修完成感言"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2022年11月5日 17:03  783字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　今天，2022年11月5日，本书的第一次大修正式完成。\r\n　　此次大修原计划是修到第十三卷『JAVA版的JSON』，但迫于时间原因只修到了第十一卷『NBT时代』完。虽然辛苦是辛苦，但最终的结果很喜人——自序言开始到第十一卷，大部分章节经过修改甚至重写后，错误大大减少，文风也更加严谨。并且，许多章节的低质量内容被替换为其他更应该讲的内容。比如第八十六章『mobevent-不想要流浪商人？关掉就可以了』，由于所讲的指令/mobevent过于简单，章节内容就被替换成了讲解基岩版新指令/music，而原本的内容被移到了第六十六章『指令大杂烩』中。\r\n　　由于改动实在巨大（具体可以前往作品相关看『本书第一次大修进程表』），有超过一半章节内容被重写，大约四分之一的低质量章节内容被替换。所以我强烈推荐还没看过更改后章节的读者重新看一遍，或许你会有一些新的收获。\r\n　　第一次大修完结的PDF文档可加群下载（但不要乱传或抹去作者信息）。PDF文档的观感可能会比在线上阅读更好一些。当然，如果以后能够抽时间将本书做成一个指令教程网站可能更好。\r\n　　回到正题。第一次大修虽然修了很多问题，但仍然还有很多问题没有修。所以本书可能会在2023年暑假开启第二轮大修。新一轮大修的主要内容很有可能包含：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST=1]",
+   "arg": "1"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "翻新第十二卷-第十五卷的内容"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "调整章节顺序，使得内容能够更好地循序渐进"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "更正新发现的错误，添加新版本的内容"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "更多配图"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　因此，第二轮大修可能会比第一轮更加辛苦。\r\n　　接下来本书将会尽可能保证最低一个月一章的更新量（以防止被阅文平台屏蔽）。接下来几卷的内容也大致定了下来：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST=1]",
+   "arg": "1"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "第十七卷——了解data指令"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "第十八卷——了解方块实体和方块状态，并更深入了解data指令"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "第十九卷——综合运用NBT、JSON"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "第二十卷——初识算法"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　作为一个可能很冷门的Minecraft指令教程，自2020年1月初偶然间产生的一次想要写教程的想法以来，本书的第三个年头也要到头了。\r\n　　最后，希望2023年，本书能够帮助更多读者学习指令，Minecraft能够继续向前发展，世界也将变得更好。\r\n　　本章到此结束！\r\n"
+  },
+  {
+   "tag": "HR",
+   "raw": "[HR]"
+  },
+  {
+   "tag": "HR",
+   "raw": "[/HR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  }
+ ],
+ "raw_sha256": "b751a66a11490c8361110642ec6a709d5051f060482ad6bacc09c3f9bfb861c1",
+ "text_sha256": "43a20509fa4a14b9114bcd925b69b08de5ffac7da942ecc687c64a26e78ced26",
+ "chars": 955
+}

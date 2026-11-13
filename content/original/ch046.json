@@ -1,0 +1,1239 @@
+{
+ "id": "ch046",
+ "kind": "chapter",
+ "number": 46,
+ "title": "第四十六章 team——管理队伍和成员",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   3299,
+   3361
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第四十六章_team——管理队伍和成员"
+    },
+    {
+     "t": "第四十六章 team——管理队伍和成员",
+     "p": {}
+    }
+   ],
+   "text": "第四十六章 team——管理队伍和成员",
+   "sha256": "3b3054c22547520b64713649de79830f147eeb49d8875cac0ee9ded665871128",
+   "i": 3299
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "前面我们了解到，记分板的作用就是承载各个计分项。实际上，记分板的作用不止于此，在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft:Java版中（严格来说是Minecraft:Java 1.13之前的版本）中，记分板还有一个极其重要的功能：游戏队伍（team）。",
+     "p": {}
+    }
+   ],
+   "text": "前面我们了解到，记分板的作用就是承载各个计分项。实际上，记分板的作用不止于此，在Minecraft:Java版中（严格来说是Minecraft:Java 1.13之前的版本）中，记分板还有一个极其重要的功能：游戏队伍（team）。",
+   "sha256": "ba266a350cb1fe878b6d16333fedee9f0b88e5c0e0a0eb0e978b5aa6e615f5ac",
+   "i": 3300
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你是不是对记分板有“游戏队伍”这个功能感到不可思议？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Mojang也是这样想的，于是在Minecraft Java1.13扁平化中将这个功能从记分板中独立了出来，成了一套基本上独立的系统。",
+     "p": {}
+    }
+   ],
+   "text": "你是不是对记分板有“游戏队伍”这个功能感到不可思议？Mojang也是这样想的，于是在Minecraft Java1.13扁平化中将这个功能从记分板中独立了出来，成了一套基本上独立的系统。",
+   "sha256": "626aa33563a7a77709ff405cc36b6021b3af2fbf1bd12902eb82ae09775406dd",
+   "i": 3301
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "说了这么多，那么我们该如何使用这个功能呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "说了这么多，那么我们该如何使用这个功能呢？",
+   "sha256": "53d5128d254d86f88828e7c488416d8a1ae7782259d45998fe2e8a8b2c88c162",
+   "i": 3302
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其实不难。在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft:Java1.13版本之前，该功能是内置在scoreboard指令中的，即teams子命令。通过team，我们可以：add（添加）、remove（删除）、list（列出）、join（加入）、empty（清除）、leave（离开）以及option（设置）。它的具体格式是：",
+     "p": {}
+    }
+   ],
+   "text": "其实不难。在Minecraft:Java1.13版本之前，该功能是内置在scoreboard指令中的，即teams子命令。通过team，我们可以：add（添加）、remove（删除）、list（列出）、join（加入）、empty（清除）、leave（离开）以及option（设置）。它的具体格式是：",
+   "sha256": "95357c4d1d6e6799a0da7dca5999fd99f4bc8a4dc9d4c691377c927c8018b58b",
+   "i": 3303
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard teams ...",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard teams ...",
+   "sha256": "75a674d25a7923f362e982e914ac5c29d7d8e4352586cec0c0ae5291ab35c35f",
+   "i": 3304
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\队伍管理\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\队伍管理\\\\",
+   "sha256": "790da093ef979ff6e0f17250dbfe0cf2bdfd697a1a95879138b2e55b8d1182cb",
+   "i": 3305
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... add <队伍名称>[队伍显示名称]——添加队伍。",
+     "p": {}
+    }
+   ],
+   "text": "... add <队伍名称>[队伍显示名称]——添加队伍。",
+   "sha256": "966e6bbf75a4158f7c94361d74a6499039ba13268f42f1661a1d786e6866e6cb",
+   "i": 3306
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... list [队伍名称]——列出当前所有队伍及其信息。如果指定了队伍名称，将会列出该队伍的成员名单。",
+     "p": {}
+    }
+   ],
+   "text": "... list [队伍名称]——列出当前所有队伍及其信息。如果指定了队伍名称，将会列出该队伍的成员名单。",
+   "sha256": "8973913ba4d938934fdd8b0c80907b01f711f400031f834544c6d7313036123c",
+   "i": 3307
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... remove <队伍名称>——删除队伍。",
+     "p": {}
+    }
+   ],
+   "text": "... remove <队伍名称>——删除队伍。",
+   "sha256": "80dc35c857eb0c55359f5186f138edc6d104fafb4adb6606a2cf9497404e81cb",
+   "i": 3308
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\队伍成员管理\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\队伍成员管理\\\\",
+   "sha256": "22e16c053c825a53a051aca9ef6ad73fa9cd6b7c7fabaaacb1f489826c9d56bb",
+   "i": 3309
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... join <队伍名称>[目标选择器]——将所选目标加入到队伍中。目标选择器可用*代指所有玩家和非玩家。目标选择器未填写的话默认是执行者自己。（注：一个玩家或非玩家只能同时存在于一个队伍中，加入另外一个队伍将会自动退出原先的队伍）",
+     "p": {}
+    }
+   ],
+   "text": "... join <队伍名称>[目标选择器]——将所选目标加入到队伍中。目标选择器可用*代指所有玩家和非玩家。目标选择器未填写的话默认是执行者自己。（注：一个玩家或非玩家只能同时存在于一个队伍中，加入另外一个队伍将会自动退出原先的队伍）",
+   "sha256": "a2770752e3fdf5b5b41ecbf3bb99d75397463cd615b4cda6981cfcaa323afb22",
+   "i": 3310
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... leave [目标选择器]——将所选目标从ta所在的队伍中移出。目标选择器可用*代指所有玩家和非玩家。目标选择器未填写的话默认是执行者自己。",
+     "p": {}
+    }
+   ],
+   "text": "... leave [目标选择器]——将所选目标从ta所在的队伍中移出。目标选择器可用*代指所有玩家和非玩家。目标选择器未填写的话默认是执行者自己。",
+   "sha256": "036807198c56c4298f171a4bb0bc59844a26220cd83a70f7b5c8cd65dca098e6",
+   "i": 3311
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... empty <队伍名称>——删除指定队伍中的所有成员。",
+     "p": {}
+    }
+   ],
+   "text": "... empty <队伍名称>——删除指定队伍中的所有成员。",
+   "sha256": "4ccc26e0493f2640a335b68d3b8932717e48035f0dc9bf222fc365a58f0ff90f",
+   "i": 3312
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\高级队伍管理\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\高级队伍管理\\\\",
+   "sha256": "091f2dbaf7a0b943e2aedd73a1549d65620df360038e2e1325f52b6a82352e36",
+   "i": 3313
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... option <队伍名称> color <颜色>——设置队伍的颜色。",
+     "p": {}
+    }
+   ],
+   "text": "... option <队伍名称> color <颜色>——设置队伍的颜色。",
+   "sha256": "875e1e829f43e9aee94e7f60c40588709db2922aa0f32f8e25a589c6c7d259f9",
+   "i": 3314
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... option <队伍名称> friendlyfire <布尔值：true|false>——设置队伍成员间是否可以互相伤害。默认为true，如果为false则不可以互相伤害。",
+     "p": {}
+    }
+   ],
+   "text": "... option <队伍名称> friendlyfire <布尔值：true|false>——设置队伍成员间是否可以互相伤害。默认为true，如果为false则不可以互相伤害。",
+   "sha256": "0390d1bd03c0e5d309c2366d2f3fe34d5274063f0b30cdcc2677aa291038e752",
+   "i": 3315
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... option <队伍名称> seeFriendlyInvisibles <布尔值：true|false>——设置该队伍的成员是否可以看见处于隐身状态的队友（如果设置为true会看见半透明的隐身状态队友，false则保持通常情况，即不可见）。默认为true。",
+     "p": {}
+    }
+   ],
+   "text": "... option <队伍名称> seeFriendlyInvisibles <布尔值：true|false>——设置该队伍的成员是否可以看见处于隐身状态的队友（如果设置为true会看见半透明的隐身状态队友，false则保持通常情况，即不可见）。默认为true。",
+   "sha256": "13bffd277a6f07163300fa52be2ae9e9e0b29680eb7e2cb055e3c72de155191e",
+   "i": 3316
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... option <队伍名称> nametagVisibility <名称牌可见性：never|hideforotherteams|hideforownteam|always>——设置该队伍成员头上名字（更准确的说是名称牌）的可见性，默认为always。",
+     "p": {}
+    }
+   ],
+   "text": "... option <队伍名称> nametagVisibility <名称牌可见性：never|hideforotherteams|hideforownteam|always>——设置该队伍成员头上名字（更准确的说是名称牌）的可见性，默认为always。",
+   "sha256": "c56c4cf2e47238b795aeb89298c56c8364a453d7531c8d075f251baaa0ffc441",
+   "i": 3317
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... option <队伍名称> deathMessageVisibility <死亡信息可见性：never|hideforotherteams|hideforownteam|always>——设置该队伍成员死亡信息的可见性，默认为always。",
+     "p": {}
+    }
+   ],
+   "text": "... option <队伍名称> deathMessageVisibility <死亡信息可见性：never|hideforotherteams|hideforownteam|always>——设置该队伍成员死亡信息的可见性，默认为always。",
+   "sha256": "40a346e14a6241f93474ec01d38600a05dd184f5935df640ec0653c51feec937",
+   "i": 3318
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... option <队伍名称> collisionRule <碰撞模式：always|never|pushownteam|pushotherteams>——控制该队伍成员的碰撞模式，默认为always。",
+     "p": {}
+    }
+   ],
+   "text": "... option <队伍名称> collisionRule <碰撞模式：always|never|pushownteam|pushotherteams>——控制该队伍成员的碰撞模式，默认为always。",
+   "sha256": "b7fb98e95f69f71b412848dbfd651b00c5452f45d89cdd919bd18025812fe4a4",
+   "i": 3319
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不难发现，队伍的组成和计分项的组成差不多。一个队伍的组成有如下几个部分：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "不难发现，队伍的组成和计分项的组成差不多。一个队伍的组成有如下几个部分：",
+   "sha256": "a77d9cb0c7b7a81b1093e0a4e9eb1d1032988e870d1f702b14aaa1b090dcd5f7",
+   "i": 3320
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①名称——除了这个是队伍的名称外，其他方面都与计分项的名称相同。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "①名称——除了这个是队伍的名称外，其他方面都与计分项的名称相同。",
+   "sha256": "08228c0dcb2b275e6a358ae09364b64f3dc8a517127e2bf1ed24805078f17219",
+   "i": 3321
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②显示名称——除了这个是队伍的显示名称外，其他方面都与计分项的显示名称相同。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "②显示名称——除了这个是队伍的显示名称外，其他方面都与计分项的显示名称相同。",
+   "sha256": "b19a20924b4d84ccfa0e66503885d8329e5935340af05fe22d2f271149210381",
+   "i": 3322
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③成员",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "③成员",
+   "sha256": "c82bd4cb6390891470167edc7a31f15fddaef168c492642586bb02feee498725",
+   "i": 3323
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "④队伍颜色",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "④队伍颜色",
+   "sha256": "08b68733fc95aa3a9c94c09d0e59d03b02d2aa898bbb1c26e59d9bd42f787d1d",
+   "i": 3324
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "⑤队伍规则",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "⑤队伍规则",
+   "sha256": "156a88aa315a011141740b6586bb14bd5114f9502dd5dd608605c5334a9e1725",
+   "i": 3325
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（实际上一个队伍还有前缀",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "[Prefix]和后缀[Suffix]，但是由于两者在1.13版本中才能在命令中被正式使用，这里我们先不了解。关于前后缀的内容，会在第一百一十九章讲到。）",
+     "p": {}
+    }
+   ],
+   "text": "（实际上一个队伍还有前缀[Prefix]和后缀[Suffix]，但是由于两者在1.13版本中才能在命令中被正式使用，这里我们先不了解。关于前后缀的内容，会在第一百一十九章讲到。）",
+   "sha256": "7dea312214cb56ddae3383b6a3269d4611066b7bd06cdfd77aa73a63e8a6f404",
+   "i": 3326
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们可以尝试自己创建一个队伍：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "现在，我们可以尝试自己创建一个队伍：",
+   "sha256": "bc7881a2601c4b96b10a2e70fd0a4d8bc10cc7c5280efd637431132f54568191",
+   "i": 3327
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard teams add team 一个队伍",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard teams add team 一个队伍",
+   "sha256": "26b11cd829826d83475039103ac582ea9d1986bbd3a0da9f7b385de12d6bf640",
+   "i": 3328
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "运行这条指令，游戏将创建一个名称为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "team，显示名称为“一个队伍”的队伍。",
+     "p": {}
+    }
+   ],
+   "text": "运行这条指令，游戏将创建一个名称为team，显示名称为“一个队伍”的队伍。",
+   "sha256": "c36774a0556e643a12ada3c885194d7fefc93a3832b8d3632d860275ed1a8fba",
+   "i": 3329
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你对这个队伍并不满意，就需要使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "remove删除这个队伍：",
+     "p": {}
+    }
+   ],
+   "text": "如果你对这个队伍并不满意，就需要使用remove删除这个队伍：",
+   "sha256": "3f074127e5373a9661fef873d7332742f7410741ebb6976c69d1bec1d54fad37",
+   "i": 3330
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard teams remove team",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard teams remove team",
+   "sha256": "b9e41e7f58d00c61dfa568ddc77616b976139429f2d48af0d60e5bf8b97a37e2",
+   "i": 3331
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子，就成功删除一个队伍了。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这样子，就成功删除一个队伍了。",
+   "sha256": "f0472f556c245e8f626944285a4344d0e7237ec31755aff1f07fc043f575e78d",
+   "i": 3332
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你是一条鱼，只有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "7秒记忆，创建后第10秒你想要删除这个队伍，但是你在3秒前已经忘记这个队伍叫什么了，此时你该怎么办？",
+     "p": {}
+    }
+   ],
+   "text": "如果你是一条鱼，只有7秒记忆，创建后第10秒你想要删除这个队伍，但是你在3秒前已经忘记这个队伍叫什么了，此时你该怎么办？",
+   "sha256": "1b87f1da68cd6730db2453f9004ce6328e20b01b1d98344bace08d0a677dc60b",
+   "i": 3333
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "运行",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/scoreboard teams list可以列出所有队伍及其显示名称和成员数量。我们现在运行一遍，就会得到如下信息：",
+     "p": {}
+    }
+   ],
+   "text": "运行/scoreboard teams list可以列出所有队伍及其显示名称和成员数量。我们现在运行一遍，就会得到如下信息：",
+   "sha256": "9fe9150e3021dae29a6b4bd7a5a447dfe6133def8c00157eea4f3e8bb1a764dc",
+   "i": 3334
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "记分板上正在显示",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1个队伍:",
+     "p": {}
+    }
+   ],
+   "text": "记分板上正在显示1个队伍:",
+   "sha256": "3c4295be6d19614ac4f949695ba432623a975b5713439b96f3451513ef922d17",
+   "i": 3335
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-team:'一个队伍'有0个玩家",
+     "p": {}
+    }
+   ],
+   "text": "-team:'一个队伍'有0个玩家",
+   "sha256": "879d8bfcae662e0acfed2c79bdf075c41fefc9ae29b514296fd5a852ca35f5bc",
+   "i": 3336
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "list子命令还可以显示指定队伍的成员名单。当然，在了解并使用之前，我们不妨先来看看如何为一个队伍添加成员。",
+     "p": {}
+    }
+   ],
+   "text": "list子命令还可以显示指定队伍的成员名单。当然，在了解并使用之前，我们不妨先来看看如何为一个队伍添加成员。",
+   "sha256": "a7c90f03a6844860271e615b81eed6825506b7b5791720b4da727d13b4738590",
+   "i": 3337
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "虽然游戏一直说是添加玩家，但是实际上队伍成员和计分项的分数持有者一样，可以是个实体甚至是不存在的玩家。添加成员需要用到",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "join子命令。比如我们要将这存档中所有的羊（sheep）加入到刚刚我们创建的team队伍，就需要运行如下指令：",
+     "p": {}
+    }
+   ],
+   "text": "虽然游戏一直说是添加玩家，但是实际上队伍成员和计分项的分数持有者一样，可以是个实体甚至是不存在的玩家。添加成员需要用到join子命令。比如我们要将这存档中所有的羊（sheep）加入到刚刚我们创建的team队伍，就需要运行如下指令：",
+   "sha256": "d7f574c9790313b27ed940d9d820c04398cecaa209a4bad89bfb74ab8bb8dd6c",
+   "i": 3338
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard teams join team @e[type=sheep]",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard teams join team @e[type=sheep]",
+   "sha256": "332216881793ab884a4918126778ac601c9590d19125b8700797bb145f24db54",
+   "i": 3339
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后你就会看到一堆的实体",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "UUID，这些都是羊们的UUID，而且现在这些羊都是这个队伍的队员了。如果你想要仔细看看这些羊的UUID，就需要使用list列出成员名单，具体指令如下：",
+     "p": {}
+    }
+   ],
+   "text": "然后你就会看到一堆的实体UUID，这些都是羊们的UUID，而且现在这些羊都是这个队伍的队员了。如果你想要仔细看看这些羊的UUID，就需要使用list列出成员名单，具体指令如下：",
+   "sha256": "949919fd4363277173d5f27ec106d72146d31cf53496f8d8ed55cecec3ba891b",
+   "i": 3340
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard teams list team",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard teams list team",
+   "sha256": "15f41f3416e0023d4c4fe1e612d5569296b484cdb157bf5d5d54ec32f5de1913",
+   "i": 3341
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会列出",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "team队伍的所有成员。",
+     "p": {}
+    }
+   ],
+   "text": "这将会列出team队伍的所有成员。",
+   "sha256": "dfc05ffafc7a8c3b844380720c46aa2c60e38e78be4af88ac4cc79c88f2a73aa",
+   "i": 3342
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "相应的，我们也可以使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "leave子命令来让羊们都离开这个队伍：",
+     "p": {}
+    }
+   ],
+   "text": "相应的，我们也可以使用leave子命令来让羊们都离开这个队伍：",
+   "sha256": "c263b901c9d19496550f8f291dd6d5b1d00f934bf0ffc6b4985036157a949824",
+   "i": 3343
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard teams leave @e[type=sheep]",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard teams leave @e[type=sheep]",
+   "sha256": "ef32aa005a8f47962b600dde6fcf1e8001801163b12f9c0b8fb07f7162bd76d2",
+   "i": 3344
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "运行上面的命令后，理想情况下",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "team队伍就没有成员了。",
+     "p": {}
+    }
+   ],
+   "text": "运行上面的命令后，理想情况下team队伍就没有成员了。",
+   "sha256": "fe0e82918ea94329c1088abba53dc53925078117489ad6ab7bd42481c23c0072",
+   "i": 3345
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要注意一点，一个玩家或非玩家在同一个存档最多只能同时存在于一个队伍中。因此，如果我们还创建了一个队伍叫做",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "duiwu，在没有使用leave子命令把这群羊从team队伍移出之前，我们运行/scoreboard teams join duiwu @e[type=sheep]把这群羊加入到duiwu中，然后又一次运行/scoreboard teams list列出team和duiwu的信息，你就会惊奇的发现在没有使用leave子命令的情况那些羊们竟然自动退出了team这个队伍，全跑到了duiwu这个队伍中。",
+     "p": {}
+    }
+   ],
+   "text": "需要注意一点，一个玩家或非玩家在同一个存档最多只能同时存在于一个队伍中。因此，如果我们还创建了一个队伍叫做duiwu，在没有使用leave子命令把这群羊从team队伍移出之前，我们运行/scoreboard teams join duiwu @e[type=sheep]把这群羊加入到duiwu中，然后又一次运行/scoreboard teams list列出team和duiwu的信息，你就会惊奇的发现在没有使用leave子命令的情况那些羊们竟然自动退出了team这个队伍，全跑到了duiwu这个队伍中。",
+   "sha256": "6d67da860feaa678d6a9e677b7b1cebdcbf0a57f25f5ca8140e5b14565d878ae",
+   "i": 3346
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "因为这个原因，所以",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "leave这个子命令才没有一个“队伍名称”参数，功能也不是退出指定队伍而是使所选目标离开其所在的队伍。",
+     "p": {}
+    }
+   ],
+   "text": "因为这个原因，所以leave这个子命令才没有一个“队伍名称”参数，功能也不是退出指定队伍而是使所选目标离开其所在的队伍。",
+   "sha256": "e8a3e0129c09d8b2ec23a2e8fe83b4753b627c3680e607e6073a2a7bf6a1aaf7",
+   "i": 3347
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "理想情况下，运行上面的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "join和leave子命令来对羊们进行队伍归属操作，是能做到全体操作的。但在现实中，有些羊可能会因为种种原因（如处于非加载区块中）而没有被目标选择器选中，导致它还在原本的队伍。如果只有一两只手抄一下UUID也没关系，但如果是五只、六只甚至是几十只呢？这时候你还会去抄吗？",
+     "p": {}
+    }
+   ],
+   "text": "理想情况下，运行上面的join和leave子命令来对羊们进行队伍归属操作，是能做到全体操作的。但在现实中，有些羊可能会因为种种原因（如处于非加载区块中）而没有被目标选择器选中，导致它还在原本的队伍。如果只有一两只手抄一下UUID也没关系，但如果是五只、六只甚至是几十只呢？这时候你还会去抄吗？",
+   "sha256": "65f8def6d7003df08109370866ea302aa83dbb4a5d6a62f210603142fda009fe",
+   "i": 3348
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其实你并不需要抄那些",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "UUID，你只需要用一条指令即可：",
+     "p": {}
+    }
+   ],
+   "text": "其实你并不需要抄那些UUID，你只需要用一条指令即可：",
+   "sha256": "98298e0d3828b36ad923390e26096851e0e1cd087da00542b3039ee61cda6c56",
+   "i": 3349
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard teams empty team",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard teams empty team",
+   "sha256": "a51af7028722560807f2028370d6cb270b2e626bee7a79d7c5ba5fa25a27b669",
+   "i": 3350
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "运行后，队伍",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "team中的所有成员就被清除掉了。这个empty子命令的作用就是这样，清除指定队伍中的所有成员。",
+     "p": {}
+    }
+   ],
+   "text": "运行后，队伍team中的所有成员就被清除掉了。这个empty子命令的作用就是这样，清除指定队伍中的所有成员。",
+   "sha256": "7af5933f20a7c64a5d82792f0329db69e461d736da0f5a4f1bfecf1c1fb4c312",
+   "i": 3351
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面的内容均是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft Java1.13扁平化更新前的内容。那么1.13更新后呢？",
+     "p": {}
+    }
+   ],
+   "text": "上面的内容均是Minecraft Java1.13扁平化更新前的内容。那么1.13更新后呢？",
+   "sha256": "cd789797ad32453ffd255c6024dd8e35c64d806640d5923b35859ddd9dcb72cc",
+   "i": 3352
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard teams被单独的指令/team替代。好在，内容基本保持不变，/team的格式和原本的teams子命令相差不大，唯一的一个重大改变是option（设置）子命令变成了modify（修饰）子命令，并且该子命令下面还多了两个东西：prefix（前缀）和suffix（后缀）。当然，关于前后缀的内容，我前面已经说过了，第119章有讲到。所以本章的内容还是可以套到目前的最新版本当中的。",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard teams被单独的指令/team替代。好在，内容基本保持不变，/team的格式和原本的teams子命令相差不大，唯一的一个重大改变是option（设置）子命令变成了modify（修饰）子命令，并且该子命令下面还多了两个东西：prefix（前缀）和suffix（后缀）。当然，关于前后缀的内容，我前面已经说过了，第119章有讲到。所以本章的内容还是可以套到目前的最新版本当中的。",
+   "sha256": "92df4b487cc1c66146de61ef2ca9b33095db11a31ac6eafbea3a453a45956d23",
+   "i": 3353
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "(注：队伍显示名称的值在1.13及以上版本是JSON文本组件）",
+     "p": {}
+    }
+   ],
+   "text": "(注：队伍显示名称的值在1.13及以上版本是JSON文本组件）",
+   "sha256": "55eaafd8b1250790e14e5f644d1607d2c395581f98d7f26dce3b2d32e1c2f513",
+   "i": 3354
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们已经知道了如何使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "add、list、remove、join、leave和empty这六个子命令，本章也差不多可以到这里结束了。下一章我们来了解一些高级一点的操作。",
+     "p": {}
+    }
+   ],
+   "text": "现在，我们已经知道了如何使用add、list、remove、join、leave和empty这六个子命令，本章也差不多可以到这里结束了。下一章我们来了解一些高级一点的操作。",
+   "sha256": "fad82747924b18dbd99e95b2f6b62a17e12753b8e75532ff82dc2011545e8292",
+   "i": 3355
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "team的历史：",
+     "p": {}
+    }
+   ],
+   "text": "team的历史：",
+   "sha256": "b6369ced280ca4c5b28998060d1e148187bc1384428158e8145de10d1c0433a9",
+   "i": 3356
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft:Java",
+     "p": {}
+    }
+   ],
+   "text": "Minecraft:Java",
+   "sha256": "e53ada9bd94b15cd96a2d2ed92c2ffdc8be91ca1af1c9bd8d4b0b8659f4df06e",
+   "i": 3357
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.5——在记分板的基础上加入了队伍相关功能",
+     "p": {}
+    }
+   ],
+   "text": "1.5——在记分板的基础上加入了队伍相关功能",
+   "sha256": "79207e29f16c33401a2b082aa3508399a5e424f8b2a9e5c5777d26ae40a13a9d",
+   "i": 3358
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.8——现在非玩家也可以加入队伍了（注意，1.8版本之前，仅玩家可以被计入记分板和加入队伍）。同时加入了队伍的相关准则、队伍侧边栏显示和nametagVisibility、deathMessageVisibility队伍规则。",
+     "p": {}
+    }
+   ],
+   "text": "1.8——现在非玩家也可以加入队伍了（注意，1.8版本之前，仅玩家可以被计入记分板和加入队伍）。同时加入了队伍的相关准则、队伍侧边栏显示和nametagVisibility、deathMessageVisibility队伍规则。",
+   "sha256": "77784f79664371850ff83af195ee47b0c4213be0b8ed482624778b7d8598dc41",
+   "i": 3359
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.9——加入了collisionRule规则。",
+     "p": {}
+    }
+   ],
+   "text": "1.9——加入了collisionRule规则。",
+   "sha256": "4191011afd1748d3c5f3c80ff149b3063de7270229aa410525ca0c491d08a77d",
+   "i": 3360
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——以指令/team替代了/scoreboard teams，同时将option改为modify。加入了 prefix和suffix。并且，队伍显示名现在是JSON文本了。",
+     "p": {}
+    }
+   ],
+   "text": "1.13——以指令/team替代了/scoreboard teams，同时将option改为modify。加入了 prefix和suffix。并且，队伍显示名现在是JSON文本了。",
+   "sha256": "c0d02311e64c8167eaba5789303548632b1170fcd0ba59e8b174cc3e9809ad17",
+   "i": 3361
+  }
+ ],
+ "text_sha256": "6ce3cf15c20d59bb6a3968e2a8f62f29226a8736fc6268a14882b9abe7e6f368",
+ "chars": 3555
+}

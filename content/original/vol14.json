@@ -1,0 +1,80 @@
+{
+ "id": "vol14",
+ "kind": "volume",
+ "number": 14,
+ "title": "第十四卷 实体与NBT 上",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   10270,
+   10271
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "other": [
+     "tabs"
+    ],
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "bookmark": "_第十四卷_实体与NBT_上"
+    },
+    {
+     "t": "第十四卷 ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "实体与NBT 上",
+     "p": {}
+    }
+   ],
+   "text": "第十四卷 实体与NBT 上",
+   "sha256": "c5471a1d1095510416d187094042d4b28a8bd45749dc33605531cbdebeeebb9d",
+   "i": 10270
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "本卷将会详细的介绍实体以及实体的NBT。（嗯断更了一个月又打破了断更新纪录了呢）",
+     "p": {
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "本卷将会详细的介绍实体以及实体的NBT。（嗯断更了一个月又打破了断更新纪录了呢）",
+   "sha256": "0a7a169e3826c121c78599a68de8868d035c6c687cae9f4fa93c3f6049928ead",
+   "i": 10271
+  }
+ ],
+ "text_sha256": "df635112ed46cbbe22d82763e3bf85b7b4001e2d93b217931d4c38b50363ecd7",
+ "chars": 53
+}

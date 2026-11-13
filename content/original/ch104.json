@@ -1,0 +1,2245 @@
+{
+ "id": "ch104",
+ "kind": "chapter",
+ "number": 104,
+ "title": "第一百零四章 物品的显示属性",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   8021,
+   8142
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第一百零四章_物品的显示属性"
+    },
+    {
+     "t": "第一百零四章 物品的显示属性",
+     "p": {}
+    }
+   ],
+   "text": "第一百零四章 物品的显示属性",
+   "sha256": "8b9fe120ff3acd0836d6bf0bea3c1911b5d53932851418bcb1ca130046c8225b",
+   "i": 8021
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在Minecraft中，每个物品都有自己的名字。比如『minecraft:diamond』这个物品就叫做『钻石』、『minecraft:air』就叫做空气......但物品的名字并不是一直都不变的，我们可以通过铁砧来更改物品的显示名称，比如把『钻石』更改为『煤炭』，把『空气』更改为『黄金』.......",
+     "p": {}
+    }
+   ],
+   "text": "在Minecraft中，每个物品都有自己的名字。比如『minecraft:diamond』这个物品就叫做『钻石』、『minecraft:air』就叫做空气......但物品的名字并不是一直都不变的，我们可以通过铁砧来更改物品的显示名称，比如把『钻石』更改为『煤炭』，把『空气』更改为『黄金』.......",
+   "sha256": "a4bc4a4123e10c83e300da3f31d7cd81ecebc672edccc3f1f42fb2081a189ce4",
+   "i": 8022
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但用铁砧改名字十分麻烦，那有没有一种方法，能够通过指令更改物品的名称呢？",
+     "p": {}
+    }
+   ],
+   "text": "但用铁砧改名字十分麻烦，那有没有一种方法，能够通过指令更改物品的名称呢？",
+   "sha256": "29125415185a66b80975cc4cfbadf0ae7e9c418ed6a7880b0bcfc863987e4be4",
+   "i": 8023
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在Java版中，是有的。这种方法就是：指定或修改物品的显示属性。",
+     "p": {}
+    }
+   ],
+   "text": "在Java版中，是有的。这种方法就是：指定或修改物品的显示属性。",
+   "sha256": "ed6e6d627d3cca786be2b138a54f0585a3eee9ad6370263dd8bfef30a84c2cc8",
+   "i": 8024
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "什么是物品的显示属性？我们知道，一个物品有自己的名称，自己的图标（方块类物品除外），还有这个物品显示出来的信息。比如这把钻石剑，它就具有如下的显示属性：",
+     "p": {}
+    }
+   ],
+   "text": "什么是物品的显示属性？我们知道，一个物品有自己的名称，自己的图标（方块类物品除外），还有这个物品显示出来的信息。比如这把钻石剑，它就具有如下的显示属性：",
+   "sha256": "ac58493e911727c87ff31ada6c86eae76a7007c8e09b5061d873dd06afde8062",
+   "i": 8025
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "[图标]",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    },
+    {
+     "t": " ——钻石剑的图标，是一把蓝色的剑",
+     "p": {}
+    }
+   ],
+   "text": "[图标] ——钻石剑的图标，是一把蓝色的剑",
+   "sha256": "b7258fe6a616d39fde62f6c5311e4ab9dde7942761c0a25458e46b87911a62e7",
+   "i": 8026
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "钻石剑 ",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    },
+    {
+     "t": " ——钻石剑的名称",
+     "p": {}
+    }
+   ],
+   "text": "钻石剑  ——钻石剑的名称",
+   "sha256": "8973d04d12e5e97fa567fd46f6d27cb100b6dd670e4e9215d9d9718d3cff9c5c",
+   "i": 8027
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在主手时：",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    },
+    {
+     "t": " ——这个和下面这些都是该物品的信息",
+     "p": {}
+    }
+   ],
+   "text": "在主手时： ——这个和下面这些都是该物品的信息",
+   "sha256": "2d81d2f0bc36a0174eb750192377e12d09411a90751d78c2aaa484c0d298f9f1",
+   "i": 8028
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "7 攻击伤害",
+     "p": {}
+    }
+   ],
+   "text": "7 攻击伤害",
+   "sha256": "e063705e9dd0fccd29785e48a23b8eeafdcbbd1d8f8de8397922fa7866db4bc5",
+   "i": 8029
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.6 攻击速度",
+     "p": {}
+    }
+   ],
+   "text": "1.6 攻击速度",
+   "sha256": "dd5de025b1a510b3587e80aa8fd165bffbdbe521a7c24d52644902bfccec1862",
+   "i": 8030
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:diamond_sword",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    },
+    {
+     "t": " ——这个和下面的是打开高级提示框后才会显示的信息",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:diamond_sword ——这个和下面的是打开高级提示框后才会显示的信息",
+   "sha256": "5c877b16c3d7d7871088cf8d79803c32450e3806b5bb1dafe9407b030fdf68bc",
+   "i": 8031
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "NBT : 1个标签",
+     "p": {}
+    }
+   ],
+   "text": "NBT : 1个标签",
+   "sha256": "afc6ec3fa6e20fb89759b0dcf946272c060a23f398a89733a06b28c7d52afc8a",
+   "i": 8032
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（配图：104-1）",
+     "p": {}
+    }
+   ],
+   "text": "（配图：104-1）",
+   "sha256": "f939b2a1af5152fd40b7d5d797edb6985079f6e4bbe9b12c457b1b704648c780",
+   "i": 8033
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那我们该如何指定或修改物品的显示属性呢？很简单，通过物品的NBT标签来修改。",
+     "p": {}
+    }
+   ],
+   "text": "那我们该如何指定或修改物品的显示属性呢？很简单，通过物品的NBT标签来修改。",
+   "sha256": "f2b030ec36685738e56e04f8940b823f2e33b63fec9207e3f97d7f9ae2703db7",
+   "i": 8034
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "物品的display标签，是一个复合标签，用来自定义该物品的显示属性。大部分物品并没有这个标签，因为对于游戏来说显示属性弄个默认值就好。",
+     "p": {}
+    }
+   ],
+   "text": "物品的display标签，是一个复合标签，用来自定义该物品的显示属性。大部分物品并没有这个标签，因为对于游戏来说显示属性弄个默认值就好。",
+   "sha256": "a23032ab68c5713aca3589adbf2c965d675d26168af652405efece2a471d796d",
+   "i": 8035
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "display这个复合标签内，有两到三个标签：",
+     "p": {}
+    }
+   ],
+   "text": "display这个复合标签内，有两到三个标签：",
+   "sha256": "a2dee110aae5e301ec8ac6688a61a94ff6b05ffd31212fe83479673284901e59",
+   "i": 8036
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "color（Int整形）——这个标签仅仅对皮革盔甲才有用，它可以指定皮革盔甲是什么颜色。",
+     "p": {}
+    }
+   ],
+   "text": "color（Int整形）——这个标签仅仅对皮革盔甲才有用，它可以指定皮革盔甲是什么颜色。",
+   "sha256": "042a1d042c8c996a24f0c76b1d45b8b68b973c7fc776d8ceb4a3eab13e7181bc",
+   "i": 8037
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Name（文本）——该标签对任何物品都管用，它可以自定义该物品的名称。这东西必须要使用JSON文本。在Java1.13以下版本中，可直接使用普通文本，但无法使用JSON文本。",
+     "p": {}
+    }
+   ],
+   "text": "Name（文本）——该标签对任何物品都管用，它可以自定义该物品的名称。这东西必须要使用JSON文本。在Java1.13以下版本中，可直接使用普通文本，但无法使用JSON文本。",
+   "sha256": "b2404173963388e951ee973439cbffbb9c0ad00bb18f63ebadc6d9863921e1af",
+   "i": 8038
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Lore（文本列表）——该标签对任何物品都管用，它可以自定义该物品的描述。列表中的文本必须要使用JSON文本。在Java1.14以下版本中，可直接使用普通文本，但无法使用JSON文本",
+     "p": {}
+    }
+   ],
+   "text": "Lore（文本列表）——该标签对任何物品都管用，它可以自定义该物品的描述。列表中的文本必须要使用JSON文本。在Java1.14以下版本中，可直接使用普通文本，但无法使用JSON文本",
+   "sha256": "76514dc008d8c5d55b6730bb0072ea6da9004f7e1e29aff8e2c625314270f269",
+   "i": 8039
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看起来还是很简单的，让我们试试能不能获得一个名为『这不是钻石』的钻石：",
+     "p": {}
+    }
+   ],
+   "text": "看起来还是很简单的，让我们试试能不能获得一个名为『这不是钻石』的钻石：",
+   "sha256": "299f2aad8992d00e0f1669844254302390cd4c4b5f2df22fe025f294014165d4",
+   "i": 8040
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.8~1.12.2",
+     "p": {}
+    }
+   ],
+   "text": "Java1.8~1.12.2",
+   "sha256": "ca019478d096f58203dbd14e654f52c5ab93ef71b5994dda0cda8f31367104ed",
+   "i": 8041
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s minecraft:diamond 1 0 {display:{Name:\"这不是钻石\"}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s minecraft:diamond 1 0 {display:{Name:\"这不是钻石\"}}",
+   "sha256": "32c56013cbee47dfcfe91d6f10fb47b50f9a4b814383f4432a68d5916a039691",
+   "i": 8042
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLineChars": "0",
+     "firstLine": "0"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.13~今",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13~今",
+   "sha256": "dab664b3bed2527ffdbe0df3f98f1e641a075c96640764d932580caf0aa35a04",
+   "i": 8043
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s minecraft:diamond{display:{Name:\"\\\"这不是钻石\\\"\"}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s minecraft:diamond{display:{Name:\"\\\"这不是钻石\\\"\"}}",
+   "sha256": "2d3c4dc5db3a56699b795e6a3ed858f5caf521edec2143f613e0e8a23ecb9f68",
+   "i": 8044
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.14~今",
+     "p": {}
+    }
+   ],
+   "text": "Java1.14~今",
+   "sha256": "c30d2100fd60f32c07e2fd278353e49474b3d9d0d8f69ee733336d082af9c01d",
+   "i": 8045
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s minecraft:diamond{display:{Name:'\"这不是钻石\"'}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s minecraft:diamond{display:{Name:'\"这不是钻石\"'}}",
+   "sha256": "53dbed6a30eaaf0226ca1c4fe31225b63d7e3eaedab26b2e74af7e0c5be144bc",
+   "i": 8046
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面给出了三条指令。这三条指令所适用的版本范围各有所不同，但功能都是一样的：会给你一个名叫『这不是钻石』的钻石。",
+     "p": {}
+    }
+   ],
+   "text": "上面给出了三条指令。这三条指令所适用的版本范围各有所不同，但功能都是一样的：会给你一个名叫『这不是钻石』的钻石。",
+   "sha256": "06e41503e5c3c9f5851e20d7fce602181f63fe731775f3937ffb154d9598e47f",
+   "i": 8047
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "值得注意的是，对于Java1.13及以上版本来说，Name的值虽然说『必须是一个JSON文本』，但如果你尝试下面的指令：",
+     "p": {}
+    }
+   ],
+   "text": "值得注意的是，对于Java1.13及以上版本来说，Name的值虽然说『必须是一个JSON文本』，但如果你尝试下面的指令：",
+   "sha256": "5e50d4237eefbb1784d03b1eaf6eb7cedb2c68ed84365254e2ab1a8899590a58",
+   "i": 8048
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s minecraft:diamond{display:{Name:\"111\"}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s minecraft:diamond{display:{Name:\"111\"}}",
+   "sha256": "96ac51eab5296dd7336b6b374c1920a131b11fc01d31cf81773ccadcb541e81b",
+   "i": 8049
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会给你一个名叫『111』的钻石。注意！『111』在这并未使用JSON文本，但游戏成功识别了它。这是怎么一回事？",
+     "p": {}
+    }
+   ],
+   "text": "这将会给你一个名叫『111』的钻石。注意！『111』在这并未使用JSON文本，但游戏成功识别了它。这是怎么一回事？",
+   "sha256": "fe33bcb236ab769fa06cd4e2d480ef8b00d49801e515e076238166abc5f83e94",
+   "i": 8050
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其实不止Name标签，在Minecraft Java版中任意必须使用JSON文本的地方，都具有类似的特性：当使用阿拉伯数字时，可不使用JSON文本。不信？试一试下面的指令：",
+     "p": {}
+    }
+   ],
+   "text": "其实不止Name标签，在Minecraft Java版中任意必须使用JSON文本的地方，都具有类似的特性：当使用阿拉伯数字时，可不使用JSON文本。不信？试一试下面的指令：",
+   "sha256": "beefe311df97031df67b90578a9a705e18e03ecc32ada1c7e116f4e46accd890",
+   "i": 8051
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/tellraw @s 114514",
+     "p": {}
+    }
+   ],
+   "text": "/tellraw @s 114514",
+   "sha256": "5f36074ef5cc22315e90106e82ea7100d9f36e8c921d698738f2ebdda5955b23",
+   "i": 8052
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你会发现你正常收到了『114514』这条消息，游戏并未报错。对了，基岩版则没有类似的特性，所以如果你在基岩版运行上面的指令还是会报错的。",
+     "p": {}
+    }
+   ],
+   "text": "你会发现你正常收到了『114514』这条消息，游戏并未报错。对了，基岩版则没有类似的特性，所以如果你在基岩版运行上面的指令还是会报错的。",
+   "sha256": "f837a55ce1f9a894e702ae991bd03db373a5bf8bca4c045dbe53c9379bccb006",
+   "i": 8053
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "回到正题。既然Name标签我们会使用了，那Lore标签呢？",
+     "p": {}
+    }
+   ],
+   "text": "回到正题。既然Name标签我们会使用了，那Lore标签呢？",
+   "sha256": "e0ccff7c7b8f6cdc97735b7dae9d3944d4edd90b098e60a5b104da2bbac6aef7",
+   "i": 8054
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "也一样简单。比如我们要获取一个描述为『Never Gonna Give You Up』的13号唱片，只需要：",
+     "p": {}
+    }
+   ],
+   "text": "也一样简单。比如我们要获取一个描述为『Never Gonna Give You Up』的13号唱片，只需要：",
+   "sha256": "171403ebaf29c4207beb1a2bc60b8b2fd7416954dd877b9484ee7366018c3afd",
+   "i": 8055
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.8~1.12.2",
+     "p": {}
+    }
+   ],
+   "text": "Java1.8~1.12.2",
+   "sha256": "ca019478d096f58203dbd14e654f52c5ab93ef71b5994dda0cda8f31367104ed",
+   "i": 8056
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s record_13 1 0 {display:{Lore:[\"Never Gonna Give You Up\"]}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s record_13 1 0 {display:{Lore:[\"Never Gonna Give You Up\"]}}",
+   "sha256": "2cf4a60b32bc33703c4f44812a4cdce0bd489e0a98087dd8d3848886df75c52e",
+   "i": 8057
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.13.x",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13.x",
+   "sha256": "18147432370dd266126e3ba136f0892ac2719904a98bb5a4f26390cab25c651d",
+   "i": 8058
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s music_disc_13{display:{Lore:[\"Never Gonna Give You Up\"]}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s music_disc_13{display:{Lore:[\"Never Gonna Give You Up\"]}}",
+   "sha256": "acfff43275a8e55b6ff75b7dfc71615e6ed971ff29b43c170d239e514b8b1c78",
+   "i": 8059
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.14~今",
+     "p": {}
+    }
+   ],
+   "text": "Java1.14~今",
+   "sha256": "c30d2100fd60f32c07e2fd278353e49474b3d9d0d8f69ee733336d082af9c01d",
+   "i": 8060
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s music_disc_13{display:{Lore:[\"\\\"Never Gonna Give You Up\\\"\"]}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s music_disc_13{display:{Lore:[\"\\\"Never Gonna Give You Up\\\"\"]}}",
+   "sha256": "7a2af2f2bcbd6d11731563d8157e01598f716c22966cd98b13a61f13e85e0a0e",
+   "i": 8061
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.14~今",
+     "p": {}
+    }
+   ],
+   "text": "Java1.14~今",
+   "sha256": "c30d2100fd60f32c07e2fd278353e49474b3d9d0d8f69ee733336d082af9c01d",
+   "i": 8062
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s music_disc_13{display:{Lore:['\"Never Gonna Give You Up\"']}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s music_disc_13{display:{Lore:['\"Never Gonna Give You Up\"']}}",
+   "sha256": "b42493b04462d0d75835b19c726d503eb58445d2773dd7c05ec26127444d9e2c",
+   "i": 8063
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "获取到后，你会发现物品的描述并不是白色的文字，而是紫色的文字。在Java1.14以下版本中，由于Lore无法使用JSON文本，自然也就改不了颜色（除非你有办法在NBT中使用§）。但在Java1.14及以上版本中，我们就可以试一试改下颜色：",
+     "p": {}
+    }
+   ],
+   "text": "获取到后，你会发现物品的描述并不是白色的文字，而是紫色的文字。在Java1.14以下版本中，由于Lore无法使用JSON文本，自然也就改不了颜色（除非你有办法在NBT中使用§）。但在Java1.14及以上版本中，我们就可以试一试改下颜色：",
+   "sha256": "94850bf05456680fd8a707fbf1962c63a395b2a31f24a7cdbd0e498908c3ce8a",
+   "i": 8064
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s music_disc_13{display:{Lore:['{\"text\":\"Never Gonna Give You Up\",\"color\":\"red\"}']}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s music_disc_13{display:{Lore:['{\"text\":\"Never Gonna Give You Up\",\"color\":\"red\"}']}}",
+   "sha256": "7ce4f654dc133ec8399c8df61b9b07251f230523fedbf9d812e45566c9a07ddf",
+   "i": 8065
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上述指令将会给你一个带有红色『Never Gonna Give You Up』描述的物品。",
+     "p": {}
+    }
+   ],
+   "text": "上述指令将会给你一个带有红色『Never Gonna Give You Up』描述的物品。",
+   "sha256": "e6fb88239daa47dd480da3943c2bd100dcd85932b62907adb858227cbfd947ab",
+   "i": 8066
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Lore作为一个文本列表，我们这么用还是太屈才了。让我们试试把『Never Gonna Give You Up』拆开：",
+     "p": {}
+    }
+   ],
+   "text": "Lore作为一个文本列表，我们这么用还是太屈才了。让我们试试把『Never Gonna Give You Up』拆开：",
+   "sha256": "112d8dc8e5bfb6e8a47d7d3f8ad8af188283d90b11837eba4e7e64d2fc07e33f",
+   "i": 8067
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{Lore:['\"Never\"','\"Gonna\"','\"Give\"','\"You\"','\"Up\"']}",
+     "p": {}
+    }
+   ],
+   "text": "{Lore:['\"Never\"','\"Gonna\"','\"Give\"','\"You\"','\"Up\"']}",
+   "sha256": "8324a06b0044c61346cdf8922b54d0382e020d1cc22d07639022777d1cd64d3b",
+   "i": 8068
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\这是Java1.14及以上版本的例子\\\\",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "\\\\这是Java1.14及以上版本的例子\\\\",
+   "sha256": "31f6b191757aab727e0c156d3f0b5140d1e2edd77fb1270c054cc6d230f2dd6e",
+   "i": 8069
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后放入指令中运行，你就会发现你获得了一个带有如下描述的13号唱片：",
+     "p": {}
+    }
+   ],
+   "text": "然后放入指令中运行，你就会发现你获得了一个带有如下描述的13号唱片：",
+   "sha256": "41b8e36290350eb2158e7251d785917bcfb735cbd0261648a3c5f0f772b7bf75",
+   "i": 8070
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Never",
+     "p": {}
+    }
+   ],
+   "text": "Never",
+   "sha256": "6300ef800bb884295b0b4b35682b75cecd7cc550d202db56d04a0643b8fb873f",
+   "i": 8071
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Gonna",
+     "p": {}
+    }
+   ],
+   "text": "Gonna",
+   "sha256": "8b2edefd1393159139ad12cc0533c6e08e5f729690ccf2e69f4d65381a6db430",
+   "i": 8072
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Give",
+     "p": {}
+    }
+   ],
+   "text": "Give",
+   "sha256": "c6402106c8212060a327a1f37524a814dd135a068ae74ac965f20aa69b9f1a6c",
+   "i": 8073
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "You",
+     "p": {}
+    }
+   ],
+   "text": "You",
+   "sha256": "08b041935798fbf6fd6ff51099ffedb140a475889986d14f5559ff8e7fc571dd",
+   "i": 8074
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Up",
+     "p": {}
+    }
+   ],
+   "text": "Up",
+   "sha256": "55490a4bf3a8e8cb5eed69720293a700ff01ef7da2bfc749f332f626cb584916",
+   "i": 8075
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如你所见，Lore列表内的每一个元素，都代表了一行文本。",
+     "p": {}
+    }
+   ],
+   "text": "如你所见，Lore列表内的每一个元素，都代表了一行文本。",
+   "sha256": "5d60a879275ebf669d3644852533db616741cc9ca9ea45abf182e3c80d32326a",
+   "i": 8076
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是Name和Lore的使用方法。那color标签，又该如何使用？",
+     "p": {}
+    }
+   ],
+   "text": "这就是Name和Lore的使用方法。那color标签，又该如何使用？",
+   "sha256": "91e9544121a9d62919499e0eaf4b83790df380bcf51bf3da43529a8a69c58e4b",
+   "i": 8077
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "color标签的数据类型是Int整形，也就是一个整数，并不是一个字符串。也就是说，我们并不能使用red、yellow之类的颜色ID，也不能使用RGB或16进制颜色代码。那这个color到底该怎么使用？",
+     "p": {}
+    }
+   ],
+   "text": "color标签的数据类型是Int整形，也就是一个整数，并不是一个字符串。也就是说，我们并不能使用red、yellow之类的颜色ID，也不能使用RGB或16进制颜色代码。那这个color到底该怎么使用？",
+   "sha256": "15460a58d6f3f1b74a88f3a2a064f04d1ea65192742bee8cf3923f52b8715a9c",
+   "i": 8078
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "color的值要填写的是颜色值。这个颜色值本质上是基于颜色的RGB算出来的，具体公式如下：",
+     "p": {}
+    }
+   ],
+   "text": "color的值要填写的是颜色值。这个颜色值本质上是基于颜色的RGB算出来的，具体公式如下：",
+   "sha256": "e46729c28a1e7f95afc18993bef1b4f45a017bc6e966fb86c4b90479e5625f22",
+   "i": 8079
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "R×65536+G×256+B×1",
+     "p": {}
+    }
+   ],
+   "text": "R×65536+G×256+B×1",
+   "sha256": "76f23bf35c6fbf45036b7191a2e90b8f04e7d736c4c21459596b81e3f3638834",
+   "i": 8080
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "R······Red红色值，0~255",
+     "p": {}
+    }
+   ],
+   "text": "R······Red红色值，0~255",
+   "sha256": "be51152d030b7d7c137a0171d4565217163bb16d0a08ef47d155ed7976fade79",
+   "i": 8081
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "G······Green绿色值，0~255",
+     "p": {}
+    }
+   ],
+   "text": "G······Green绿色值，0~255",
+   "sha256": "60d724abb9bd1a5ce11bf48ec934051e81c0b59253e9f6654d65e798fca80976",
+   "i": 8082
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B······Blue蓝色值，0~255",
+     "p": {}
+    }
+   ],
+   "text": "B······Blue蓝色值，0~255",
+   "sha256": "a808975d6f5fa19e69d5eb9d8a40c032964c039aabf8aa0eb42970a603eb2824",
+   "i": 8083
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子。标准黄色的RGB值为(255,255,0)，我们就可以通过上述公式算出标准黄色的颜色值为：",
+     "p": {}
+    }
+   ],
+   "text": "举个例子。标准黄色的RGB值为(255,255,0)，我们就可以通过上述公式算出标准黄色的颜色值为：",
+   "sha256": "cddc056e45d5c8605171432ec6345305ac00ec3f25828378f59b06e58b26431d",
+   "i": 8084
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "255×65536+255×256=16776960",
+     "p": {}
+    }
+   ],
+   "text": "255×65536+255×256=16776960",
+   "sha256": "23082f7db2e291180750ba5535206b5cb9a021b78a28852b90bfde9ede70653c",
+   "i": 8085
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们试一试这个值正不正确：",
+     "p": {}
+    }
+   ],
+   "text": "让我们试一试这个值正不正确：",
+   "sha256": "a7bb38109de688901b8e83ebbb06d26f24c9c6976df20b0dec39911c2b657978",
+   "i": 8086
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.13之前",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13之前",
+   "sha256": "d39cab2b6ceac47f3e4b5445f85f0b42ed461eae8793295e1828edd18cb15894",
+   "i": 8087
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s minecraft:leather_helmet 1 0 {display:{color:16776960}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s minecraft:leather_helmet 1 0 {display:{color:16776960}}",
+   "sha256": "2b3b80ffccf7e16f73fa66a13ce600895d49ce2126b54e3e8a5a824600127706",
+   "i": 8088
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.13及之后",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13及之后",
+   "sha256": "c1a9b1d27892e4ad76c0d60107b4afb0ba293e1aff19890c90b01303c26cda1a",
+   "i": 8089
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s minecraft:leather_helmet{display:{color:16776960}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s minecraft:leather_helmet{display:{color:16776960}}",
+   "sha256": "5617e497f71752d6cd121f808f9171f3bbb48ee76a4871902eaa53924da2d17a",
+   "i": 8090
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后我们就获得了一个颜色为（#FFFF00）的黄色皮革帽子。其中，#FFFF00正是标准黄色的16进制颜色代码。",
+     "p": {}
+    }
+   ],
+   "text": "然后我们就获得了一个颜色为（#FFFF00）的黄色皮革帽子。其中，#FFFF00正是标准黄色的16进制颜色代码。",
+   "sha256": "43677e24c0473f8a2320719c901d37a1fc120f0a6d1b7bbb1ccd673effe0cc9a",
+   "i": 8091
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "到这里，物品的显示属性，也就是display标签就讲完了，但这不代表本章到此结束。",
+     "p": {}
+    }
+   ],
+   "text": "到这里，物品的显示属性，也就是display标签就讲完了，但这不代表本章到此结束。",
+   "sha256": "abb5dd66b2e40b219f75e223622f1274b6e8093c312dad0493aa660ec08422e0",
+   "i": 8092
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果我们不想要显示某些东西该怎么办？",
+     "p": {}
+    }
+   ],
+   "text": "如果我们不想要显示某些东西该怎么办？",
+   "sha256": "d5262f5b8a9ade128c2771266470cf8311f11e74b140675285c6f307a65ea322",
+   "i": 8093
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Mojang给了我们一个标签可以用来指定隐藏物品的哪些信息：",
+     "p": {}
+    }
+   ],
+   "text": "Mojang给了我们一个标签可以用来指定隐藏物品的哪些信息：",
+   "sha256": "e878727898ed79f712fd816808c5794d8629bab95e21b2f36102f362d6d38aa9",
+   "i": 8094
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "HideFlags（Int整形）",
+     "p": {}
+    }
+   ],
+   "text": "HideFlags（Int整形）",
+   "sha256": "f526768d5fe3371540223ce44c8c73a07bf9dc30b588886fa49136f7200a9d71",
+   "i": 8095
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "HideFlags的使用方式和上面的color有异曲同工之妙。和color类似，HideFlags的值是『信息值』（这名字随便取的），你需要通过以下信息加上具体情况来计算出它的值：",
+     "p": {}
+    }
+   ],
+   "text": "HideFlags的使用方式和上面的color有异曲同工之妙。和color类似，HideFlags的值是『信息值』（这名字随便取的），你需要通过以下信息加上具体情况来计算出它的值：",
+   "sha256": "34817fc0c146defbdb6b13ffde61a382f14051be23334910390889bfc0ca682d",
+   "i": 8096
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1——附魔信息，对应Enchantments（ench）标签",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1——附魔信息，对应Enchantments（ench）标签",
+   "sha256": "220ddced890ad42bb02eb99b57293bac103c9c34148910b285b2a65e1b9e2940",
+   "i": 8097
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "2——属性修饰符信息，对应AttributeModifiers标签",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "2——属性修饰符信息，对应AttributeModifiers标签",
+   "sha256": "b50f171a51706e64d3d429ab45564e954471e0d28a60ca33ed8f96c31f950d63",
+   "i": 8098
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "4——无法损坏信息，对应Unbreakable标签",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "4——无法损坏信息，对应Unbreakable标签",
+   "sha256": "aeb3f06a9a8d9bb183332526161bf77fff1509012891dde0dacd9e651320c850",
+   "i": 8099
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "8——能够破坏的方块信息，对应CanDestroy标签",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "8——能够破坏的方块信息，对应CanDestroy标签",
+   "sha256": "262a7ee9ae92b6011ac4ab6963aed808f26f650327edf727c00c7b1cac301d80",
+   "i": 8100
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "16——能够放在哪些方块上的信息，对应CanPlaceOn标签",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "16——能够放在哪些方块上的信息，对应CanPlaceOn标签",
+   "sha256": "92f755278b0717e04721dfa66ea3426f8f215f66e76ab91dc8217cf2244bd708",
+   "i": 8101
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "32——其他大部分信息（包括药水效果、魔咒信息[StoredEnchantments标签]、成书的版本和作者信息[generation和author标签]、烟花火箭的信息[Explosion和Fireworks标签]、地图的信息）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "32——其他大部分信息（包括药水效果、魔咒信息[StoredEnchantments标签]、成书的版本和作者信息[generation和author标签]、烟花火箭的信息[Explosion和Fireworks标签]、地图的信息）",
+   "sha256": "453a23656e5829b788c635491d78490b9bde123607546acf20204c3c46f1152e",
+   "i": 8102
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "64——[1.16.2版本新增]皮革盔甲的颜色信息，对应上面的color标签",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "64——[1.16.2版本新增]皮革盔甲的颜色信息，对应上面的color标签",
+   "sha256": "47e50b27035ad5f68d900bbc14dd405a0c0ba87d1176bbf5b05e1365c65ef3a2",
+   "i": 8103
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如我们要隐藏皮革盔甲的颜色信息，只需要：",
+     "p": {}
+    }
+   ],
+   "text": "比如我们要隐藏皮革盔甲的颜色信息，只需要：",
+   "sha256": "1d3557591211f21c70814b7361b16003b02477957d497ed848c9ee4b634fa97f",
+   "i": 8104
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s minecraft:leather_helmet{display:{color:16776960},HideFlags:64}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s minecraft:leather_helmet{display:{color:16776960},HideFlags:64}",
+   "sha256": "3f28440a288349f99c25453c1477d0d75af7d739c230b5da5a5be778728ec8d8",
+   "i": 8105
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\Java1.16.2及之后\\\\",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "\\\\Java1.16.2及之后\\\\",
+   "sha256": "5825ef91066cb0550517239bcbbdbdbfad7c2b20925e840149ff42d4574e9f66",
+   "i": 8106
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后你就会惊喜的发现，相比之前的那个黄色帽子，这个新的黄色帽子没有了颜色信息。",
+     "p": {}
+    }
+   ],
+   "text": "然后你就会惊喜的发现，相比之前的那个黄色帽子，这个新的黄色帽子没有了颜色信息。",
+   "sha256": "c8e7c4b4e4be6bc61c6491a2228f133915e56c19d26a712cd5e808a6f901fc34",
+   "i": 8107
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但如果我们还要隐藏掉附魔信息该怎么办？",
+     "p": {}
+    }
+   ],
+   "text": "但如果我们还要隐藏掉附魔信息该怎么办？",
+   "sha256": "1c81c90d441fd7e3717fac6e8d6a2111090e8f799bc9ed238aa602bba7592dec",
+   "i": 8108
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很简单，加起来就可以了：",
+     "p": {}
+    }
+   ],
+   "text": "很简单，加起来就可以了：",
+   "sha256": "bdb3e2c736182c3a144d58c639bf40746d1b99894d3cd7a410682c1379d90625",
+   "i": 8109
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s minecraft:leather_helmet{display:{color:16776960},Enchantments:[{id:\"protection\",lvl:255}],HideFlags:65}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s minecraft:leather_helmet{display:{color:16776960},Enchantments:[{id:\"protection\",lvl:255}],HideFlags:65}",
+   "sha256": "d85cc938b39432c38e8f6d46ad73e62b0b6eab70fdda9c499148e6d428ca8909",
+   "i": 8110
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\Java1.16.2及之后\\\\",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "\\\\Java1.16.2及之后\\\\",
+   "sha256": "5825ef91066cb0550517239bcbbdbdbfad7c2b20925e840149ff42d4574e9f66",
+   "i": 8111
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "运行上述指令，你将会获得一个附魔有保护255级的黄色帽子，但这个帽子并不会显示自己的颜色和附魔信息，除非你用的版本低于1.16.2才会显示出来颜色信息。",
+     "p": {}
+    }
+   ],
+   "text": "运行上述指令，你将会获得一个附魔有保护255级的黄色帽子，但这个帽子并不会显示自己的颜色和附魔信息，除非你用的版本低于1.16.2才会显示出来颜色信息。",
+   "sha256": "3a2885007c4ad6dea902ca98e47524f5aa51a4440a8fcc3652a3ea7b58b183d8",
+   "i": 8112
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不难发现，上面的HideFlags标签的值为65，是将64和1相加得到的。同理，如果你把上面表格的所有信息对应的值都加起来，得到的127这个值就代表所有信息，将其作为HideFlags的值就可以隐藏掉物品的所有信息。",
+     "p": {}
+    }
+   ],
+   "text": "不难发现，上面的HideFlags标签的值为65，是将64和1相加得到的。同理，如果你把上面表格的所有信息对应的值都加起来，得到的127这个值就代表所有信息，将其作为HideFlags的值就可以隐藏掉物品的所有信息。",
+   "sha256": "64159a36f7ab3d9fcbec94ce67d29d88aabee2ba481cee1d39e1e0bf610fe172",
+   "i": 8113
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是本章的全部内容。",
+     "p": {}
+    }
+   ],
+   "text": "这就是本章的全部内容。",
+   "sha256": "bd655fa960580257d0b104486bb197969c06aedfc13307be1d23f2f670f5b8cc",
+   "i": 8114
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "附录",
+     "p": {}
+    },
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "：本章相关历史",
+     "p": {}
+    }
+   ],
+   "text": "附录①：本章相关历史",
+   "sha256": "efb422a472a0d4f4cc33c0c7fa53d94aa30d37a6dba5f2b4bc75f72b9b4678d6",
+   "i": 8115
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 8116
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.8——加入了HideFlags标签和能够用来自定义显示属性的display标签。",
+     "p": {}
+    }
+   ],
+   "text": "1.8——加入了HideFlags标签和能够用来自定义显示属性的display标签。",
+   "sha256": "ae4021fe8a3678735918eb026d90d2dd61a765116effb0c0840f605daaf2bf9c",
+   "i": 8117
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——Name标签现在必须使用JSON文本。原本用来翻译用的LocName标签被合并到了Name标签里。",
+     "p": {}
+    }
+   ],
+   "text": "1.13——Name标签现在必须使用JSON文本。原本用来翻译用的LocName标签被合并到了Name标签里。",
+   "sha256": "3327f3c50954e782cc25568a2d4324c7f52628820cf8617752d23727b303bccc",
+   "i": 8118
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.14——Lore标签现在必须使用JSON文本。",
+     "p": {}
+    }
+   ],
+   "text": "1.14——Lore标签现在必须使用JSON文本。",
+   "sha256": "2ebfb66418a3e1132af197a8e44003460ac7a7ca0a96e96272fcbda1ea8814ef",
+   "i": 8119
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16.2——为皮革盔甲的颜色信息加入了64（Flag 64）信息值。",
+     "p": {}
+    }
+   ],
+   "text": "1.16.2——为皮革盔甲的颜色信息加入了64（Flag 64）信息值。",
+   "sha256": "43bed4b871a20b2284604a9c8b3d573586bd72601861c2183007fbb9894a8646",
+   "i": 8120
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "附录",
+     "p": {}
+    },
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "：LocName标签用法",
+     "p": {}
+    }
+   ],
+   "text": "附录②：LocName标签用法",
+   "sha256": "6c76599fd474d9f349f80aaa1d7f9948e324d88bca2f9815714064ec65a3811b",
+   "i": 8121
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "和JSON文本的translate组件一样，LocName标签在Java1.13以下版本用于物品名称的翻译。比如：",
+     "p": {}
+    }
+   ],
+   "text": "和JSON文本的translate组件一样，LocName标签在Java1.13以下版本用于物品名称的翻译。比如：",
+   "sha256": "2e08206efaf8d5bc6fc83aa2b34a8e7a776c591e419ee934af6ff4bc9c5a55d6",
+   "i": 8122
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s diamond 1 0 {display:{LocName:\"item.compass.name\"}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond 1 0 {display:{LocName:\"item.compass.name\"}}",
+   "sha256": "818b37bf0990ccc5bfe33493e98b9e9cc0c8c9257f8ffdef59e7f470e487ccb6",
+   "i": 8123
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\Java1.13以下版本\\\\",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "\\\\Java1.13以下版本\\\\",
+   "sha256": "e98f70338c0a1fdbbf0229e2ba1622a25f2094ec149a01ab02dc7f12a3ee2dc3",
+   "i": 8124
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会给你一个叫做『指南针』的钻石。如果你把游戏切换成英文，那么这个钻石的名称也会变成『Compass』（指南针的英文）。在上面的指令中，『item.compass.name』是『指南针』这个物品名称的本地化键名。",
+     "p": {}
+    }
+   ],
+   "text": "这将会给你一个叫做『指南针』的钻石。如果你把游戏切换成英文，那么这个钻石的名称也会变成『Compass』（指南针的英文）。在上面的指令中，『item.compass.name』是『指南针』这个物品名称的本地化键名。",
+   "sha256": "750c63530df4dadf8eb0df950fca87c2785f0271952f2bf318fcccadd264a00e",
+   "i": 8125
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "虽然我们还未接触到Java版的translate组件，但其实Java版JSON的translate组件和基岩版的translate组件的用法几乎一模一样。",
+     "p": {}
+    }
+   ],
+   "text": "虽然我们还未接触到Java版的translate组件，但其实Java版JSON的translate组件和基岩版的translate组件的用法几乎一模一样。",
+   "sha256": "a025a1ee6529e091f99b87fb2f961c57dc329b789508c6bc6a573d435f6f7ed1",
+   "i": 8126
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 8127
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 8128
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 8129
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 8130
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "张三又一次大老远的从主城跑了回来。",
+     "p": {}
+    }
+   ],
+   "text": "张三又一次大老远的从主城跑了回来。",
+   "sha256": "6b46abf59b4192a7a4b330b54934e8dd5724ea5b628a138d347dc9cfc1d7c4f7",
+   "i": 8131
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "嘿，李四，你看这个附了魔的苹果！",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『嘿，李四，你看这个附了魔的苹果！』",
+   "sha256": "526ed8c15f274e8ca725d9cabf7b20942331064392c2e13871cfc3d5c9f95576",
+   "i": 8132
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "李四很好奇：『",
+     "p": {}
+    },
+    {
+     "t": "附了什么魔？",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "李四很好奇：『附了什么魔？』",
+   "sha256": "ebefb5dbfa8a7c277c8664ab0a8b421a549feae5f7bacecee64792379625d39e",
+   "i": 8133
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "你自己看",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『你自己看』",
+   "sha256": "1036beb21356e1dc2cc6d9597f4d6ef1566a6ba8f5907a66855cf3fe45d42205",
+   "i": 8134
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "张三把苹果丢给了李四。",
+     "p": {}
+    }
+   ],
+   "text": "张三把苹果丢给了李四。",
+   "sha256": "2091416d42abe19b6a2e9b7810836d79ff5ee2e1213ec7f926db9e4abbcba9ab",
+   "i": 8135
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "这没写啊？",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『这没写啊？』",
+   "sha256": "300381f0ad2ade94854f83b1eb228359c57443e8368d65450c07f9b318c81620",
+   "i": 8136
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "张三从李四的手中拿回苹果，然后说道：『",
+     "p": {}
+    },
+    {
+     "t": "我也不知道。但据某位管理说，谁被这个苹果打到，就会获得无限时长的最高等级幸运效果。",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "张三从李四的手中拿回苹果，然后说道：『我也不知道。但据某位管理说，谁被这个苹果打到，就会获得无限时长的最高等级幸运效果。』",
+   "sha256": "272f4e5de134b961ca470dee7ab8b2c11895b11ccba9e60e68bc2f05aaf34a17",
+   "i": 8137
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "真的？快打我一下试试！",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『真的？快打我一下试试！』",
+   "sha256": "60497216c4ac292b8d26e0a1c2aa78a075368958c45b63897f9b5dfca10567aa",
+   "i": 8138
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "那你待会也要打我一下，不能够你自己独享",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『那你待会也要打我一下，不能够你自己独享』",
+   "sha256": "923f17f4931fc91bfb2c9ac15901b10f5a397d7acae2ba6a0ef912398ab43259",
+   "i": 8139
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "OK，毕竟咱俩可是兄弟",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『OK，毕竟咱俩可是兄弟』",
+   "sha256": "fd848222c46d084d2611898e54795c2ca942978d8bc0c1b6ac6856319a68bf04",
+   "i": 8140
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『",
+     "p": {}
+    },
+    {
+     "t": "准备好了吗？3——2——1——",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "』",
+     "p": {}
+    }
+   ],
+   "text": "『准备好了吗？3——2——1——』",
+   "sha256": "71684c042943cad5c0a43bb91413d5639c3540a8a2a1ec2d4198d5a6421065a2",
+   "i": 8141
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "李四被张三用苹果杀死了",
+     "p": {}
+    }
+   ],
+   "text": "李四被张三用苹果杀死了",
+   "sha256": "e7ece579b641b0d75a5cc95b695c80232a2eca7cd033aa852f4a9f87b3b75955",
+   "i": 8142
+  }
+ ],
+ "text_sha256": "19901b7403581a23a9534b6c4a9bcb51fd4fae25e4435e36550fc89d83904fe5",
+ "chars": 4572
+}

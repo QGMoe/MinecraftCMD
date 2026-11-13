@@ -1,0 +1,2736 @@
+{
+ "id": "ch105",
+ "kind": "chapter",
+ "number": 105,
+ "title": "第一百零五章 属性修饰符 上-哪个MC玩家不想拥有一套神装呢？",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   8183,
+   8327
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "第一百零五章 属性修饰符 上-哪个MC玩家不想拥有一套神装呢？",
+     "p": {}
+    }
+   ],
+   "text": "第一百零五章 属性修饰符 上-哪个MC玩家不想拥有一套神装呢？",
+   "sha256": "8f5585148cef1f530269300b136888233373f0305eb422928a16cd621deaa17d",
+   "i": 8183
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在Minecraft中，最厉害的神装是怎样的？",
+     "p": {}
+    }
+   ],
+   "text": "在Minecraft中，最厉害的神装是怎样的？",
+   "sha256": "1d10edbfb8ac7499dddfb2a71052054c272c0c923bfb43f5cb0ff08006f84bd0",
+   "i": 8184
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在了解这一章的内容之前，你估计认为Minecraft最厉害的神装就是：",
+     "p": {}
+    }
+   ],
+   "text": "在了解这一章的内容之前，你估计认为Minecraft最厉害的神装就是：",
+   "sha256": "d79e42a39b4ced8b44ea3ce9c817c64d1c756b3ee45efc841ff1abeb48da72c2",
+   "i": 8185
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→手拿下界合金剑（锋利、耐久、亡灵杀手、戒指杀手........LV.2147483647）",
+     "p": {}
+    }
+   ],
+   "text": "→手拿下界合金剑（锋利、耐久、亡灵杀手、戒指杀手........LV.2147483647）",
+   "sha256": "55fcdb16fe1eb58b70aa1718fe8888f86d24c276a77fefd5ea44c7b21ab1d8be",
+   "i": 8186
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→身裹残骸（保护、耐久.......LV.2147483647）",
+     "p": {}
+    }
+   ],
+   "text": "→身裹残骸（保护、耐久.......LV.2147483647）",
+   "sha256": "fbf5bdbf9946850abed5a9e5302a0dc250a07b311014cab4b421819b1a62122e",
+   "i": 8187
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→满满一潜影盒的附魔金苹果",
+     "p": {}
+    }
+   ],
+   "text": "→满满一潜影盒的附魔金苹果",
+   "sha256": "a7b3f5146a8a30ad2cd55266d8c658ba02cb55e5ee840c9b009a1244b2caf3c3",
+   "i": 8188
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是神装。",
+     "p": {}
+    }
+   ],
+   "text": "这就是神装。",
+   "sha256": "7727ec4bbb867f0abd4876ed3a137908f50fdc7411c9c8a2bf08b418b52104fb",
+   "i": 8189
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但这是最厉害的神装吗？",
+     "p": {}
+    }
+   ],
+   "text": "但这是最厉害的神装吗？",
+   "sha256": "ca46bd04df4a3828e3139cff91b9b294f0a7c1df93d8e3ffb8df2f93a37f4ad6",
+   "i": 8190
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "并不是，因为我们还可以堆料——使用Mojang官方提供的Minecraft内置属性修改器：",
+     "p": {}
+    }
+   ],
+   "text": "并不是，因为我们还可以堆料——使用Mojang官方提供的Minecraft内置属性修改器：",
+   "sha256": "b876dac6aaeaadd0099c4c63e341a03adb24d693f8ed49f8c3fa4e0d3c1cfeeb",
+   "i": 8191
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "AttributeModifiers ",
+     "p": {
+      "style": "Intense Emphasis"
+     }
+    },
+    {
+     "t": "[Mojang©️]修改器",
+     "p": {}
+    }
+   ],
+   "text": "AttributeModifiers [Mojang©️]修改器",
+   "sha256": "790e348c7785b214ec70c1e63e05bc24c47336b590caba95a3876d9d6d250c55",
+   "i": 8192
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "等等，什么是属性修改器？",
+     "p": {}
+    }
+   ],
+   "text": "等等，什么是属性修改器？",
+   "sha256": "d76c5aa66e8bf500660c7c419642dac1763889c995cfe9d8a389a8f0391a28ae",
+   "i": 8193
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『属性修改器』，确切的来说，是『",
+     "p": {}
+    },
+    {
+     "t": "属性修饰符",
+     "p": {
+      "style": "Intense Emphasis"
+     }
+    },
+    {
+     "t": "』（",
+     "p": {}
+    },
+    {
+     "t": "Attribute Modifiers",
+     "p": {
+      "style": "Intense Emphasis"
+     }
+    },
+    {
+     "t": "）。它是一种能够修饰属性的东西。",
+     "p": {}
+    }
+   ],
+   "text": "『属性修改器』，确切的来说，是『属性修饰符』（Attribute Modifiers）。它是一种能够修饰属性的东西。",
+   "sha256": "3b42ec6f593155e27afd96a31825cb460b0b7ad03ad91a501421b3597e6aed7d",
+   "i": 8194
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "什么是属性？",
+     "p": {}
+    }
+   ],
+   "text": "什么是属性？",
+   "sha256": "98420a3815614f7943abfd931e9904738ac8cd989cf596bd8b770c6f21e9fd6d",
+   "i": 8195
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    }
+   },
+   "c": [
+    {
+     "t": "属性（Attributes）",
+     "p": {
+      "style": "Intense Emphasis"
+     }
+    },
+    {
+     "t": "是Minecraft中生物和玩家身上的增益/减益特性系统。比如你的最大生命值、攻击速度、攻击距离等等，这些都是你的属性。",
+     "p": {}
+    }
+   ],
+   "text": "属性（Attributes）是Minecraft中生物和玩家身上的增益/减益特性系统。比如你的最大生命值、攻击速度、攻击距离等等，这些都是你的属性。",
+   "sha256": "37305390ac6cc491cbd3ef4b687d95ec2726e0cb1d57600c3d0df1180a113f4e",
+   "i": 8196
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们可以直接修改属性的基础值，也可以在属性上加上『属性修饰符』对属性的值进行一个修饰。比如，你可以为你的最大生命值加上一个修饰符，就可以将最大生命值提高到2048点。你也可以直接修改最大生命值的基础值，但这种直接修改和通过属性修饰符修改有很大不同，以后会讲到它们的差别。",
+     "p": {}
+    }
+   ],
+   "text": "我们可以直接修改属性的基础值，也可以在属性上加上『属性修饰符』对属性的值进行一个修饰。比如，你可以为你的最大生命值加上一个修饰符，就可以将最大生命值提高到2048点。你也可以直接修改最大生命值的基础值，但这种直接修改和通过属性修饰符修改有很大不同，以后会讲到它们的差别。",
+   "sha256": "22f8f4e78c85f6c3082bf686fdd3ae17d3b79caa98b249e023c0d56a113821be",
+   "i": 8197
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那怎么添加属性修饰符呢？",
+     "p": {}
+    }
+   ],
+   "text": "那怎么添加属性修饰符呢？",
+   "sha256": "2a43647ffaebdb9984161ed5769b5411ffc97b9246c568107e10b52c9315bd4c",
+   "i": 8198
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "有两种办法：",
+     "p": {}
+    },
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "使用/attribute指令 ",
+     "p": {}
+    },
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "使用NBT",
+     "p": {}
+    }
+   ],
+   "text": "有两种办法：①使用/attribute指令 ②使用NBT",
+   "sha256": "2bab15374098704dbf18de0dffe6405aae5858f712a7fb796131e24c6122a01c",
+   "i": 8199
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "至于第一种办法我们以后再讲，这两章我们就来了解使用NBT该如何添加属性修饰符。更确切地说，我们接下来要研究的是：如何给物品添加上属性修饰符。",
+     "p": {}
+    }
+   ],
+   "text": "至于第一种办法我们以后再讲，这两章我们就来了解使用NBT该如何添加属性修饰符。更确切地说，我们接下来要研究的是：如何给物品添加上属性修饰符。",
+   "sha256": "66dab257a158b2afa62645f0908eff074cde91cc9cd065a537dacb5fbc8110f9",
+   "i": 8200
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要注意的是，物品没有属性，因此给物品添加上属性修饰符，本质上就是通过物品这个载体给拥有此物品的玩家/生物添加上属性修饰符。",
+     "p": {}
+    }
+   ],
+   "text": "需要注意的是，物品没有属性，因此给物品添加上属性修饰符，本质上就是通过物品这个载体给拥有此物品的玩家/生物添加上属性修饰符。",
+   "sha256": "283368fc3d4b58cd8f903268b039b0efceaacaefd7384e96811cbac4d9a6fdca",
+   "i": 8201
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "物品的属性修饰符存储于物品NBT的AttributeModifiers标签下。AttributeModifiers标签的数据类型是『复合标签列表』，其中的每一个『复合标签』都代表着一个『属性修饰符』：",
+     "p": {}
+    }
+   ],
+   "text": "物品的属性修饰符存储于物品NBT的AttributeModifiers标签下。AttributeModifiers标签的数据类型是『复合标签列表』，其中的每一个『复合标签』都代表着一个『属性修饰符』：",
+   "sha256": "3afeacc98ed5f51d138c3a084a3d7441dce3e743756aba9e96bf422cc27a6ab8",
+   "i": 8202
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeModifiers:[{属性修饰符},{属性修饰符}......]}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeModifiers:[{属性修饰符},{属性修饰符}......]}",
+   "sha256": "0707105a51752005a20c1336d100d8ae6f93be40e999f2223e25a96af6dce63f",
+   "i": 8203
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "每个属性修饰符都具有如下标签：",
+     "p": {}
+    }
+   ],
+   "text": "每个属性修饰符都具有如下标签：",
+   "sha256": "c3b792dbfe9a8ff0022f24d3c21068ab871cae92353ff1cc2fae9614689157d8",
+   "i": 8204
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "AttributeName（文本）——此属性修饰符要修饰的属性",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "AttributeName（文本）——此属性修饰符要修饰的属性",
+   "sha256": "c7da7f199d5bedc75030056c1a78a39d2518ed5fd1174521dc59f2a5b873e7f4",
+   "i": 8205
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "Name（文本）——此属性修饰符的名称",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "Name（文本）——此属性修饰符的名称",
+   "sha256": "abd0a2c5c3d8b2fdde63df9508ed17dc3eab502f2ae4f28f2e7f9cd20abc21bb",
+   "i": 8206
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "Slot（文本）——此属性修饰符生效的栏位",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "Slot（文本）——此属性修饰符生效的栏位",
+   "sha256": "cc724f29f1fcea11cce06fb5de799d49e0da09ecd9f7db5d390ee41ee5e4e1f8",
+   "i": 8207
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "Operation（Int整形）——修饰的运算模式",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "Operation（Int整形）——修饰的运算模式",
+   "sha256": "f46dcc006ed1605b991097c35e14423b05ed44a5a6d31550afee96b1490ec0d2",
+   "i": 8208
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "Amount（Double浮点数）——修饰数值",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "Amount（Double浮点数）——修饰数值",
+   "sha256": "61d9916d5791289d1fc2f6b8c73b3d599822d71e51bd40317c7f48449aa18a8a",
+   "i": 8209
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "UUIDMost（Int整形）——这个修饰符的UUID的高位[JE1.16删除]",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "UUIDMost（Int整形）——这个修饰符的UUID的高位[JE1.16删除]",
+   "sha256": "542ac7303ea2043b5ef93135ca9c92b9de799a9cfc1d8965bf7a578c708cff03",
+   "i": 8210
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "UUIDLeast（Int整形）——这个修饰符的UUID的低位[JE1.16删除]",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "UUIDLeast（Int整形）——这个修饰符的UUID的低位[JE1.16删除]",
+   "sha256": "47c6bf8337c7ce55824dce6007af8770e8329badfee27d026645560426d6cf18",
+   "i": 8211
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "UUID（Int整形数组）——这个属性的UUID[JE1.16新增]",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "UUID（Int整形数组）——这个属性的UUID[JE1.16新增]",
+   "sha256": "2666f783c66363cdc7b548ee377b3b30a6b68f0f692b9de35a0b18caf81bdd33",
+   "i": 8212
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在具体使用属性修饰符之前，让我们先来了解下都有哪些属性：",
+     "p": {}
+    }
+   ],
+   "text": "在具体使用属性修饰符之前，让我们先来了解下都有哪些属性：",
+   "sha256": "94902eb6e76af26f59e652b0eecfce40206d03a8596bca593d8f35b324ac392b",
+   "i": 8213
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "基础属性",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "基础属性",
+   "sha256": "f3172014991f17329a10c32ba923342366ed3cdf7336469c4f2299ea33f95df8",
+   "i": 8214
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.max_health——最大生命值[0.0~1024.0]",
+     "p": {}
+    }
+   ],
+   "text": "generic.max_health——最大生命值[0.0~1024.0]",
+   "sha256": "5c0b8289590707f0e6fddf27229297f23133f79940d86b46e49d8f432e06d997",
+   "i": 8215
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.movement_speed*——移动速度[0.0~1024.0]",
+     "p": {}
+    }
+   ],
+   "text": "generic.movement_speed*——移动速度[0.0~1024.0]",
+   "sha256": "7052602c3afac96c356f4a56f940ede9c6b0300d99bfca1ffe0c5a58603cfa9b",
+   "i": 8216
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "攻击相关",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "攻击相关",
+   "sha256": "d92705c997be64f67e99d434b50adff5e446efb061096f136487cae6ca286950",
+   "i": 8217
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.attack_damage——普通攻击伤害[0.0~2048.0]",
+     "p": {}
+    }
+   ],
+   "text": "generic.attack_damage——普通攻击伤害[0.0~2048.0]",
+   "sha256": "9dc6a8b0045b096b06f912c612f9ae547efa379b6939f3a2462d52f841624f9d",
+   "i": 8218
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.attack_knockback——攻击击退力度[0.0~???]",
+     "p": {}
+    }
+   ],
+   "text": "generic.attack_knockback——攻击击退力度[0.0~???]",
+   "sha256": "5d4c50470a5802e20410f2a27277e3d7cfa0dda9bf6255d9e07f895dd0c4cce3",
+   "i": 8219
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.attackReach",
+     "p": {}
+    },
+    {
+     "t": "❈",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "——",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "玩家攻击距离[0.0~6.0]",
+     "p": {}
+    }
+   ],
+   "text": "generic.attackReach❈——玩家攻击距离[0.0~6.0]",
+   "sha256": "9ed02fc2d5478c250645880da5d95933e84779b628e426ad864440ddeff5238c",
+   "i": 8220
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.attack_speed——玩家攻击的速度[0.0~1024.0]",
+     "p": {}
+    }
+   ],
+   "text": "generic.attack_speed——玩家攻击的速度[0.0~1024.0]",
+   "sha256": "e59b7e9401a2bea3bb307fd6bbc172036a33ae17e86f77d84b41a105513ae776",
+   "i": 8221
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "防御相关",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "防御相关",
+   "sha256": "9677d4622022c1c5995ab8b508013b9c999612d50f223a6754662c97add3f76e",
+   "i": 8222
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.armor——盔甲防御点数[0.0~30.0]",
+     "p": {}
+    }
+   ],
+   "text": "generic.armor——盔甲防御点数[0.0~30.0]",
+   "sha256": "66104c47adfd3dd09262622a1aaa8caa895c24003f42f44e48e29fd1b9f58ebb",
+   "i": 8223
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.armor_toughness——盔甲韧性[0.0~20.0]",
+     "p": {}
+    }
+   ],
+   "text": "generic.armor_toughness——盔甲韧性[0.0~20.0]",
+   "sha256": "7c0425430c91468740758a818eb17f346c9be59043d9d477b8071c6c4c8abeed",
+   "i": 8224
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "玩家的其他属性",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "玩家的其他属性",
+   "sha256": "142f10a3aaf1b2cd15a51fc41b356991908da75f76de3356abcf54396efca2ce",
+   "i": 8225
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.reachDistance",
+     "p": {}
+    },
+    {
+     "t": "❈",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "——",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "玩家的触及半径，也就是你的手有多长[0.0~256.0]",
+     "p": {}
+    }
+   ],
+   "text": "generic.reachDistance❈——玩家的触及半径，也就是你的手有多长[0.0~256.0]",
+   "sha256": "b4fcd415b7023e5e7a8b8ecd34015ff0a3c1f86850a6317e0386650899ca1de0",
+   "i": 8226
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.luck——玩家幸运度[-1024.0~1024.0]",
+     "p": {}
+    }
+   ],
+   "text": "generic.luck——玩家幸运度[-1024.0~1024.0]",
+   "sha256": "28ee859291d24f6caee12210f7431abd9e97b843a21338c6c292ada498ef0b50",
+   "i": 8227
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "更多属性",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "更多属性",
+   "sha256": "6bdb4c032820cec9bb4e3c7d9d3d0babe89a8767b30b36f1ea2b79978eb2ad4c",
+   "i": 8228
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.follow_range——生物追踪距离[0.0~2048.0]",
+     "p": {}
+    }
+   ],
+   "text": "generic.follow_range——生物追踪距离[0.0~2048.0]",
+   "sha256": "7325287bb342a6a5addb246dbcfa8c28b421285d7b655cb754a9157210fe1186",
+   "i": 8229
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.knockback_resistance——生物抗击退效果[0.0~1.0]",
+     "p": {}
+    }
+   ],
+   "text": "generic.knockback_resistance——生物抗击退效果[0.0~1.0]",
+   "sha256": "abf282c05c614cc0d2765d5d8c666722b24c246d0bc1675bab9c1e9731c418e0",
+   "i": 8230
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "generic.flying_speed*——鹦鹉的飞行速度[0.0~1024.0]",
+     "p": {}
+    }
+   ],
+   "text": "generic.flying_speed*——鹦鹉的飞行速度[0.0~1024.0]",
+   "sha256": "f4f027f3c38935cfdf751675b451d5ee18cbe37a57aa6d99b34794eaca9797dc",
+   "i": 8231
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "horse.jump_strength*——马的弹跳力[0.0~1.0]",
+     "p": {}
+    }
+   ],
+   "text": "horse.jump_strength*——马的弹跳力[0.0~1.0]",
+   "sha256": "8ba8efe19cc32c40645d4ed53b4a1102d228a2ebb37bf7f589e1d79967bd6011",
+   "i": 8232
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "zombie.spawn_reinforcements——僵尸攻击一次在周围生成另一个僵尸的可能性[0.0~1.0]",
+     "p": {}
+    }
+   ],
+   "text": "zombie.spawn_reinforcements——僵尸攻击一次在周围生成另一个僵尸的可能性[0.0~1.0]",
+   "sha256": "3ccc7e53a395a30a02fc312942b5fec6965128864c3a16fe723de96706674f2b",
+   "i": 8233
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "注：『*』代表此属性的度量标准不明，『",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    },
+    {
+     "t": "❈",
+     "p": {
+      "style": "Subtle Emphasis",
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "』代表此属性还未正式启用。",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "注：『*』代表此属性的度量标准不明，『❈』代表此属性还未正式启用。",
+   "sha256": "144681ff459710b1aacd5dab3c4260730fb515f80a13381882752751b2d0924b",
+   "i": 8234
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这些就是Minecraft Java截止1.19.1版本的所有属性。",
+     "p": {}
+    }
+   ],
+   "text": "这些就是Minecraft Java截止1.19.1版本的所有属性。",
+   "sha256": "555cf09c2f07af977294d379e3c61e364e80771d2bacdd35eb6f38dd3ecdbea5",
+   "i": 8235
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们来试一试，创建一个能够修改最大生命值的属性修饰符：",
+     "p": {}
+    }
+   ],
+   "text": "让我们来试一试，创建一个能够修改最大生命值的属性修饰符：",
+   "sha256": "c168e1e48e86975fdecec0089474c48d14fe1629a933eb8a2c7998ca7c3b4357",
+   "i": 8236
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.6.1~1.15.2",
+     "p": {}
+    }
+   ],
+   "text": "Java1.6.1~1.15.2",
+   "sha256": "ace3f330e5e4e1b2ae0a905a47ce13fa760ea0e35b54d99537a5a2d65af5abcf",
+   "i": 8237
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\"}]}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\"}]}",
+   "sha256": "d54d26e9e3dd1156774ae6e7e1969a88c345b3e292ac617c4bd4551e4db2ce47",
+   "i": 8238
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.16及以上版本",
+     "p": {}
+    }
+   ],
+   "text": "Java1.16及以上版本",
+   "sha256": "0df356fbfaa95fa20b29b1c0702932af644eef791db3117727c8648ec23255c9",
+   "i": 8239
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeModifiers:[{AttributeName:'generic.max_health'}]}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeModifiers:[{AttributeName:'generic.max_health'}]}",
+   "sha256": "0d7a8591a99e303a3298dcd700504f12d39fff7ce2afea52011be23add2f1131",
+   "i": 8240
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面仅仅指定了该属性修饰符要修饰的属性，我们还需要给这个修饰符添加更多的信息才能使其生效。",
+     "p": {}
+    }
+   ],
+   "text": "上面仅仅指定了该属性修饰符要修饰的属性，我们还需要给这个修饰符添加更多的信息才能使其生效。",
+   "sha256": "5c044f66db3a87a4952ed2855ec6c68a0588ae5afb4c94c3ca33590a36c392b4",
+   "i": 8241
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，我们需要添加Name标签，用于指定该修饰符的名称：",
+     "p": {}
+    }
+   ],
+   "text": "首先，我们需要添加Name标签，用于指定该修饰符的名称：",
+   "sha256": "1674191eb31628762768ca39ba929813a1d7d968542c836303789ad8d48a856d",
+   "i": 8242
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeName:xxxx,Name:\"修饰生命值用\"}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeName:xxxx,Name:\"修饰生命值用\"}",
+   "sha256": "92f61b12094e21fea551e2ad7eeb0a0de6bbc64d13085b23d00918f519f79613",
+   "i": 8243
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如你所见，Name标签的值随便填，只要合规就可以。",
+     "p": {}
+    }
+   ],
+   "text": "如你所见，Name标签的值随便填，只要合规就可以。",
+   "sha256": "805ffcb882836a5b55324a21bfe3d55ecbf042fdd18f425fb40e5ee79fc9d0b7",
+   "i": 8244
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其次，作为一个物品的属性修饰符，我们需要使用Slot标签指定该修饰符要在物品放在哪个地方时才会生效。Slot标签虽然说填的是栏位，但游戏只允许我们选择下面六个栏位：",
+     "p": {}
+    }
+   ],
+   "text": "其次，作为一个物品的属性修饰符，我们需要使用Slot标签指定该修饰符要在物品放在哪个地方时才会生效。Slot标签虽然说填的是栏位，但游戏只允许我们选择下面六个栏位：",
+   "sha256": "fe19b48da90b33da1e67e2e0adfdbd3b65f78e3adc2892762894f61d5871427e",
+   "i": 8245
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "mainhand——拿在主手时才起作用",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "mainhand——拿在主手时才起作用",
+   "sha256": "9216c4c9a320e74c2c1a03b62bccf9acbed3f37631749e3c472c9b487e55812d",
+   "i": 8246
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "offhand——拿在副手时才起作用",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "offhand——拿在副手时才起作用",
+   "sha256": "756de7c027585e965f4253c93072e36e3fcaac1e11adfbd7ac0b1472af28172e",
+   "i": 8247
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "feet——套在脚上才有用",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "feet——套在脚上才有用",
+   "sha256": "31eae25e5542e34429d6377f6466c58b64701a67e6e2ab00566c5a04ad16a6e8",
+   "i": 8248
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "legs——穿在腿上才有用",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "legs——穿在腿上才有用",
+   "sha256": "6a06c2d2f82c5f70d10c9ac4a8c413a232e9b175a5d8c7f36679597b81ff6a59",
+   "i": 8249
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "chest——当作胸甲穿才有用",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "chest——当作胸甲穿才有用",
+   "sha256": "d246090cb0bc822624f5b67eeda5831ca98f5c5bfa3a38752813a1d49f2befc9",
+   "i": 8250
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "head——顶在头上才有用",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "head——顶在头上才有用",
+   "sha256": "fc86c78040fd745746e1fb5b69c01ab015ea40fa6c46041723d88573cf501b1b",
+   "i": 8251
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如我们可以指定要把物品拿在副手时才起作用：",
+     "p": {}
+    }
+   ],
+   "text": "比如我们可以指定要把物品拿在副手时才起作用：",
+   "sha256": "aa77d2e5786768cc05e17a3e9daf0852f569fa374818c8941d1b3ed3e928e967",
+   "i": 8252
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeName:xxxx,Name:xxxx,Slot:\"offhand\"}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeName:xxxx,Name:xxxx,Slot:\"offhand\"}",
+   "sha256": "4fa430a264d37e6e24b4feae3e104606b23244266a33ca4d0a4f1a924d1f03a1",
+   "i": 8253
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三，作为一个修饰符，肯定要通过Amount标签指定修饰的数值。Amount标签的数据类型是Double双精度浮点数，你在这把它当做普通的浮点数来看就行了。",
+     "p": {}
+    }
+   ],
+   "text": "第三，作为一个修饰符，肯定要通过Amount标签指定修饰的数值。Amount标签的数据类型是Double双精度浮点数，你在这把它当做普通的浮点数来看就行了。",
+   "sha256": "8526d4075bdce67d60be553bf226ac71c4aebd52cae11c705c4b245129d87e68",
+   "i": 8254
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们可以指定修饰的数值为5：",
+     "p": {}
+    }
+   ],
+   "text": "我们可以指定修饰的数值为5：",
+   "sha256": "552b2b35d1ba1c539225492ac861bf0a12a3ab0bcaf25fe7ab1c142a09aaec77",
+   "i": 8255
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{......,Amount:5.0}",
+     "p": {}
+    }
+   ],
+   "text": "{......,Amount:5.0}",
+   "sha256": "e2a9223710a8be5cbf8c9537613e393d7399ceed79965cce591c19954c4c81b4",
+   "i": 8256
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但需要注意的是，这里的数值并不代表最终修饰成的属性值。最终的值除了看Amount标签，还要看Operation标签指定的是什么运算模式。",
+     "p": {}
+    }
+   ],
+   "text": "但需要注意的是，这里的数值并不代表最终修饰成的属性值。最终的值除了看Amount标签，还要看Operation标签指定的是什么运算模式。",
+   "sha256": "4b0f067e6ba99e172e1f4da2dcb537fe1bd1d5ded173f1a6b1452d2be2c4a51d",
+   "i": 8257
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Operation的作用是『用来指定修饰的计算模式』，也就是『这个修饰符要怎样修饰原来的属性』。它可以指定三个值，分别对应三种计算模式：",
+     "p": {}
+    }
+   ],
+   "text": "Operation的作用是『用来指定修饰的计算模式』，也就是『这个修饰符要怎样修饰原来的属性』。它可以指定三个值，分别对应三种计算模式：",
+   "sha256": "3b1db7b0a779b4a5f4ff648ba9e2730eabdcc458ab046728678bfe75130d75c8",
+   "i": 8258
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "0——属性增量（也就是直接加上去）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "0——属性增量（也就是直接加上去）",
+   "sha256": "196ef8229bd8a474e660a834824e114496fa25753ca89d80e0fa4cc8d1a0881e",
+   "i": 8259
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "1——倍率增量（并不是简单的乘上去）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "1——倍率增量（并不是简单的乘上去）",
+   "sha256": "98cf92586d8533da93680151dbd6e020e73e8cde3ea7d7b05c7b5c379283ac58",
+   "i": 8260
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "2——最终倍乘（和倍率增量有点像）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "2——最终倍乘（和倍率增量有点像）",
+   "sha256": "0ad44e6e188459d365690168820dfcd380f4c85a801324d0199fb3a5aa0b012f",
+   "i": 8261
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们先来看看『属性增量』计算模式，它是这样计算的：",
+     "p": {}
+    }
+   ],
+   "text": "我们先来看看『属性增量』计算模式，它是这样计算的：",
+   "sha256": "557e923969da85bf293d85dc4dacddb529fa9326b04bc6316478a58691f4d225",
+   "i": 8262
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "R=C+A",
+     "p": {}
+    }
+   ],
+   "text": "R=C+A",
+   "sha256": "f5b4d1caeaada0c7a5064677e53b657be855208793dd106900fdfe7d0bf3d262",
+   "i": 8263
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C······属性基础值",
+     "p": {}
+    }
+   ],
+   "text": "C······属性基础值",
+   "sha256": "4ec0538e84e18f0c14f101c73a468177c903e1049c5ff082b9334632b86e9260",
+   "i": 8264
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A······Amount标签值",
+     "p": {}
+    }
+   ],
+   "text": "A······Amount标签值",
+   "sha256": "82bd61491ed7058413052385e8b8ee864c5d5ed7ab3810e951c3d92a46d4b86f",
+   "i": 8265
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "R······结果",
+     "p": {}
+    }
+   ],
+   "text": "R······结果",
+   "sha256": "211500d0b6e6154cf80ecd288b38e2e09ff4026576267956914f93ae597ed53e",
+   "i": 8266
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子，假设有一个修饰符，它的数值为4.4，计算模式为『属性增量』，修饰的属性『玩家幸运值』基础值为2.5，那么该属性经过修饰后的结果就是：",
+     "p": {}
+    }
+   ],
+   "text": "举个例子，假设有一个修饰符，它的数值为4.4，计算模式为『属性增量』，修饰的属性『玩家幸运值』基础值为2.5，那么该属性经过修饰后的结果就是：",
+   "sha256": "be8a4a77955c2d86eeca1556ffc39c633e0cafc7269821014d12c66913f50375",
+   "i": 8267
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "6.9=2.5+4.4",
+     "p": {}
+    }
+   ],
+   "text": "6.9=2.5+4.4",
+   "sha256": "8e128a235abeb9eb286a22cfbec9ca323b481d3aa99a086f0271d66d7ca8ee46",
+   "i": 8268
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果有两个修饰符都是修饰『玩家幸运值』的呢？而且它们俩都是『属性增量』，且数值分别为2.4和9.1。",
+     "p": {}
+    }
+   ],
+   "text": "如果有两个修饰符都是修饰『玩家幸运值』的呢？而且它们俩都是『属性增量』，且数值分别为2.4和9.1。",
+   "sha256": "e1ecc1d38530d0141f7393c008a041aa5f774cefbfc6119145ced602dc1120fe",
+   "i": 8269
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "结果就是：",
+     "p": {}
+    }
+   ],
+   "text": "结果就是：",
+   "sha256": "d4bb6b8ccdba496672a5d5760f38150aba3ee618e82787f3e3c81e6163057304",
+   "i": 8270
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "14=2.5+2.4+9.1",
+     "p": {}
+    }
+   ],
+   "text": "14=2.5+2.4+9.1",
+   "sha256": "dc69ffff003b29395ca95629b900c42dd31595a2a3060a5aa5b35fd74a536ec8",
+   "i": 8271
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『倍率增量』的计算模式有点复杂，它是这样计算的：",
+     "p": {}
+    }
+   ],
+   "text": "『倍率增量』的计算模式有点复杂，它是这样计算的：",
+   "sha256": "638263d5c0d1641327352d1be68bbf769ea245a3adb2c753c5f3cf3107c73779",
+   "i": 8272
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "R=C",
+     "p": {}
+    },
+    {
+     "t": "₀",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "×",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1+A)",
+     "p": {}
+    }
+   ],
+   "text": "R=C₀×(1+A)",
+   "sha256": "0cfd4b2aa528ebf3b1667380eb436fb100d9f5da473c6e34c0ccadcc8fa6f53e",
+   "i": 8273
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C",
+     "p": {}
+    },
+    {
+     "t": "₀",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "属性基础值经过『属性增量』计算后的值",
+     "p": {}
+    }
+   ],
+   "text": "C₀······属性基础值经过『属性增量』计算后的值",
+   "sha256": "343d292f6723b06ab29baae8696f62e9091910ffbc06ec62436d579e34d4426e",
+   "i": 8274
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A······Amount标签值",
+     "p": {}
+    }
+   ],
+   "text": "A······Amount标签值",
+   "sha256": "82bd61491ed7058413052385e8b8ee864c5d5ed7ab3810e951c3d92a46d4b86f",
+   "i": 8275
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "R······结果",
+     "p": {}
+    }
+   ],
+   "text": "R······结果",
+   "sha256": "211500d0b6e6154cf80ecd288b38e2e09ff4026576267956914f93ae597ed53e",
+   "i": 8276
+  },
+  {
+   "ppr": {
+    "ind": {
+     "left": "840",
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1······基础倍率",
+     "p": {}
+    }
+   ],
+   "text": "1······基础倍率",
+   "sha256": "90699c555129ed66684f92d0e362b933cd4b4b0fcb5d58b17118c006c0ffb223",
+   "i": 8277
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子，假设也有一个修饰符，它的数值为4.4，修饰的属性『玩家幸运值』基础值为2.5。但它的计算模式是『倍率增量』，也就是说属性的值经过它修饰后会变成：",
+     "p": {}
+    }
+   ],
+   "text": "举个例子，假设也有一个修饰符，它的数值为4.4，修饰的属性『玩家幸运值』基础值为2.5。但它的计算模式是『倍率增量』，也就是说属性的值经过它修饰后会变成：",
+   "sha256": "8fb77ddccc14dec7e025e53d4feff50a5370a34738ebd8a244e7b09048b2bbbe",
+   "i": 8278
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "13.5=2.5×(1+4.4)",
+     "p": {}
+    }
+   ],
+   "text": "13.5=2.5×(1+4.4)",
+   "sha256": "ce7d78b37c2697af08eb7ed7620842956b17ab8d64d52b0b866881ea4580c906",
+   "i": 8279
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这种只有一个修饰符的情况很简单。但如果是这样的情况呢：",
+     "p": {}
+    }
+   ],
+   "text": "这种只有一个修饰符的情况很简单。但如果是这样的情况呢：",
+   "sha256": "47538c21f43a8582e5d40e896d8a7579bd0de5d697e348954cc3f4aea7cbe83f",
+   "i": 8280
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "→有四个修饰符，分别叫作A、B、C、D。这四个修饰符的大致SNBT标签如下：",
+     "p": {}
+    }
+   ],
+   "text": "→有四个修饰符，分别叫作A、B、C、D。这四个修饰符的大致SNBT标签如下：",
+   "sha256": "98a27a74a88ed08b62861cfefad105ae57eff671df9bbdb4786afe42d3883c36",
+   "i": 8281
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeName:幸运值,Name:'A',Amount:4.1,Operation:0}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeName:幸运值,Name:'A',Amount:4.1,Operation:0}",
+   "sha256": "89fae7c404b0fd5b5342464a721fdceccb68f275335322e77fdde2c10c55e6c5",
+   "i": 8282
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeName:幸运值,Name:'B',Amount:3.6,Operation:0}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeName:幸运值,Name:'B',Amount:3.6,Operation:0}",
+   "sha256": "f50979a51d5dafe11e00ba4ce2001b348bd0a72166699b78f029f49289109b9e",
+   "i": 8283
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeName:幸运值,Name:'C',Amount:1.7,Operation:1}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeName:幸运值,Name:'C',Amount:1.7,Operation:1}",
+   "sha256": "145a44cdf9cb0039aaa40a7e4e3e82e2cdf3b4c7e29b4ecc111b19e2c4aefa54",
+   "i": 8284
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeName:幸运值,Name:'D',Amount:2.5,Operation:1}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeName:幸运值,Name:'D',Amount:2.5,Operation:1}",
+   "sha256": "165efe0bc91812f5e0c89644640fab273be93aca188f507e6229b94351b8327f",
+   "i": 8285
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "属性『幸运值』的基础值为3.5。请问，该属性经过修饰后的值为多少？",
+     "p": {}
+    }
+   ],
+   "text": "属性『幸运值』的基础值为3.5。请问，该属性经过修饰后的值为多少？",
+   "sha256": "9ffc61040ef9b9026a18fb9c116d8f6390ec24be4fecd54c23228a3e882a6451",
+   "i": 8286
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案是：",
+     "p": {}
+    }
+   ],
+   "text": "答案是：",
+   "sha256": "4cc6dcc94d45d544c4843054a9e5de41a5d32c8d91ebdb0753da336c0f211006",
+   "i": 8287
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "58.24=11.2×(1+1.7+2.5)=(3.5+4.1+3.6)×(1+1.7+2.5)",
+     "p": {}
+    }
+   ],
+   "text": "58.24=11.2×(1+1.7+2.5)=(3.5+4.1+3.6)×(1+1.7+2.5)",
+   "sha256": "11f66044a1933aa5c1b82370c0863197cf4a68670e1c280c14c805e054f94b74",
+   "i": 8288
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为什么是这样呢？",
+     "p": {}
+    }
+   ],
+   "text": "为什么是这样呢？",
+   "sha256": "a608bb2187f563a0efc3e5b32b9befa98c121fd3322978f8512b22f5800c0e9a",
+   "i": 8289
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，游戏会进行『属性增量』计算，也就是：",
+     "p": {}
+    }
+   ],
+   "text": "首先，游戏会进行『属性增量』计算，也就是：",
+   "sha256": "09442de2dbe704516e53d10a0d7f33989cf8e38b1b16aaa55c1b936952841f7e",
+   "i": 8290
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "11.2=3.5+4.1+3.6",
+     "p": {}
+    }
+   ],
+   "text": "11.2=3.5+4.1+3.6",
+   "sha256": "56d8e19220070b10284cff97299758d8afc747aade4d77ecdc8855d2a803e47f",
+   "i": 8291
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后，游戏会拿『属性增量』计算的结果再次经过『倍率增量』计算：",
+     "p": {}
+    }
+   ],
+   "text": "然后，游戏会拿『属性增量』计算的结果再次经过『倍率增量』计算：",
+   "sha256": "1327c86bd5374da6acb84a97e843bc61bd943511d53e05936a39a5edd9250be5",
+   "i": 8292
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "58.24=11.2×(1+1.7+2.5)",
+     "p": {}
+    }
+   ],
+   "text": "58.24=11.2×(1+1.7+2.5)",
+   "sha256": "0b6b976da28fff572172d0c628401695e8ea7ebfe7c63b4b266d792703b2ff5c",
+   "i": 8293
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "就得到了58.24这个值。",
+     "p": {}
+    }
+   ],
+   "text": "就得到了58.24这个值。",
+   "sha256": "df9e202c1b78788d9751a5709373221c49363cbf5b6fa5c4edb15fc9ba9f1308",
+   "i": 8294
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『最终倍乘』会在下一章讲到。在此之前，让我们看看最后的UUIDMost",
+     "p": {}
+    },
+    {
+     "t": "‌",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "和UUIDLeast标签。这两个标签该填什么？",
+     "p": {}
+    }
+   ],
+   "text": "『最终倍乘』会在下一章讲到。在此之前，让我们看看最后的UUIDMost‌和UUIDLeast标签。这两个标签该填什么？",
+   "sha256": "0ecfcc2dc60850811b773f61d964eb5a17dffe491d1f2a015ae43c6a50561e2d",
+   "i": 8295
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看到UUID这四个字母时你估计已经知道这就是属性的ID。",
+     "p": {}
+    }
+   ],
+   "text": "看到UUID这四个字母时你估计已经知道这就是属性的ID。",
+   "sha256": "41b4261c3dc16c39987d2c4d1b414a94748ebcc905a54b64a674a694cdaabad6",
+   "i": 8296
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以随便写，保证只要是数字就可以了。比如：",
+     "p": {}
+    }
+   ],
+   "text": "所以随便写，保证只要是数字就可以了。比如：",
+   "sha256": "3901a506b953352c08191f939b4b0ce48d6defa577c3bd74139f37d6fd56d763",
+   "i": 8297
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{UUIDMost",
+     "p": {}
+    },
+    {
+     "t": "‌",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": ":1,UUIDLeast:22}",
+     "p": {}
+    }
+   ],
+   "text": "{UUIDMost‌:1,UUIDLeast:22}",
+   "sha256": "72c5f3373108f268e6cdc5aedd54be39602d3e488dcbbee23d2118dcc47da7ae",
+   "i": 8298
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "至于1.16及之后的UUID标签，也一样，只不过从两个整数变成了四个整数：",
+     "p": {}
+    }
+   ],
+   "text": "至于1.16及之后的UUID标签，也一样，只不过从两个整数变成了四个整数：",
+   "sha256": "6ac7cea7594b7f1e5533d0a5014189c41855e9f3ee32e917c843a83127ea385e",
+   "i": 8299
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{UUID:[I;1,1,1,1]}",
+     "p": {}
+    }
+   ],
+   "text": "{UUID:[I;1,1,1,1]}",
+   "sha256": "2dbae9adabe3572b7acf5c8a00fbf54edc4e0503b6f16d9b3a76caa3d475159c",
+   "i": 8300
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们会在第一百一十章具体了解到UUID的相关内容。",
+     "p": {}
+    }
+   ],
+   "text": "我们会在第一百一十章具体了解到UUID的相关内容。",
+   "sha256": "9c8181034ef059264173f21ef33d44abde78b19cebd24c9048c100656fa3d62c",
+   "i": 8301
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后，让我们把上面的东西结合起来，就可以得到：",
+     "p": {}
+    }
+   ],
+   "text": "最后，让我们把上面的东西结合起来，就可以得到：",
+   "sha256": "2e7608cb4b177c686209d99520926d675aa35c4751d2c891ac72538dbefbc143",
+   "i": 8302
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.6.1~1.12.2",
+     "p": {}
+    }
+   ],
+   "text": "Java1.6.1~1.12.2",
+   "sha256": "a4ca8fb4ee2d947c9f6b9dc960f1a94d332ed2c960cbe7acced48a04cbbe5f47",
+   "i": 8303
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s diamond 1 0 {AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"修饰生命值用\",Slot:\"offhand\",Amount:5.0,Operation:0,UUIDMost:1,UUIDLeast:22}]}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond 1 0 {AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"修饰生命值用\",Slot:\"offhand\",Amount:5.0,Operation:0,UUIDMost:1,UUIDLeast:22}]}",
+   "sha256": "ebc3cd9a002fcbb7445c3690e8a12babd663aa6a5ba4568d11e555206a951234",
+   "i": 8304
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.13~1.15.2",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13~1.15.2",
+   "sha256": "5b1b03c0125be69a2c549316b1b3d6693cdc8cef3dccf6227b5397cce652b694",
+   "i": 8305
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s diamond{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"修饰生命值用\",Slot:\"offhand\",Amount:5.0,Operation:0,UUIDMost:1,UUIDLeast:22}]}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"修饰生命值用\",Slot:\"offhand\",Amount:5.0,Operation:0,UUIDMost:1,UUIDLeast:22}]}",
+   "sha256": "528889bccff39a96f8030128f8b983621a561d949e39054c1c72bcf0614e5b0a",
+   "i": 8306
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.16及以上版本",
+     "p": {}
+    }
+   ],
+   "text": "Java1.16及以上版本",
+   "sha256": "0df356fbfaa95fa20b29b1c0702932af644eef791db3117727c8648ec23255c9",
+   "i": 8307
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s diamond{AttributeModifiers:[{AttributeName:'generic.max_health',Name:'修饰生命值用',Slot:'offhand',Amount:5.0,Operation:0,UUID:[I;1,1,1,1]}]}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond{AttributeModifiers:[{AttributeName:'generic.max_health',Name:'修饰生命值用',Slot:'offhand',Amount:5.0,Operation:0,UUID:[I;1,1,1,1]}]}",
+   "sha256": "07ba40d8385c3748cad2875019c23b3b807210aa531103807d56f5271890e9dc",
+   "i": 8308
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "一个『在副手时』能够『+5 最大生命值』的钻石！",
+     "p": {}
+    }
+   ],
+   "text": "一个『在副手时』能够『+5 最大生命值』的钻石！",
+   "sha256": "f94af554d25d74da5fc30926dcb98a7b29304384aef13e3f4676adfc9d902b4b",
+   "i": 8309
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本章到此为止。",
+     "p": {}
+    }
+   ],
+   "text": "本章到此为止。",
+   "sha256": "ad685ca57aa13e9c4e1c57947d7483a10b82160c3f878d96d224fec5f0b63a78",
+   "i": 8310
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "附录：属性的历史",
+     "p": {}
+    }
+   ],
+   "text": "附录：属性的历史",
+   "sha256": "d1af08101ce77d9929b38aac7826247ec7a94838b380333e080aff98de9727fd",
+   "i": 8311
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 8312
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.6.1——加入了属性",
+     "p": {}
+    }
+   ],
+   "text": "1.6.1——加入了属性",
+   "sha256": "70a140bc16d4526007defdab58c8234bcb71adcdc6e26e5f8d03a7bc2fb9ec06",
+   "i": 8313
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.7.2——属性现在可通过SNBT用于指令中",
+     "p": {}
+    }
+   ],
+   "text": "1.7.2——属性现在可通过SNBT用于指令中",
+   "sha256": "34e9bae90136980fa20cbf56e80507a036b7f1c98cf18ecae99da02957d0101f",
+   "i": 8314
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.9——加入了攻击速度属性、盔甲属性、盔甲韧性属性和幸运值属性。",
+     "p": {}
+    }
+   ],
+   "text": "1.9——加入了攻击速度属性、盔甲属性、盔甲韧性属性和幸运值属性。",
+   "sha256": "a8eafa3d3f166e4be5627343803860f694f8d6ad2df44f6e992f71a0c1bcd91b",
+   "i": 8315
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.14——加入了击退距离属性。",
+     "p": {}
+    }
+   ],
+   "text": "1.14——加入了击退距离属性。",
+   "sha256": "34acd2c34c1fc6ece62034cf4622a2e65d4bcb6175fbbf4afe47002fbdf402c5",
+   "i": 8316
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16——更改了大部分属性的ID，加入了/attribute指令。",
+     "p": {}
+    }
+   ],
+   "text": "1.16——更改了大部分属性的ID，加入了/attribute指令。",
+   "sha256": "45c1fd23c5e1b499550399cbeab38b17b99522e6e4637418514a285e9764b1fb",
+   "i": 8317
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Combat Test[即将到来]——正式加入攻击距离属性",
+     "p": {}
+    }
+   ],
+   "text": "Combat Test[即将到来]——正式加入攻击距离属性",
+   "sha256": "d7fca237241b97f9772cd2cdd74dfdbb2f4c114a467b04511e8cd03e1e216c79",
+   "i": 8318
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "携带版/基岩版",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "携带版/基岩版",
+   "sha256": "d45b284e2340115de225260f453e519450c84f1e997d49953aa43baae83bc3e3",
+   "i": 8319
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "0.12.1——加入了属性",
+     "p": {}
+    }
+   ],
+   "text": "0.12.1——加入了属性",
+   "sha256": "9caa2498ca0f45ddd1762bfbd3bc48c5432d61a288005d2c23f3de553e55231b",
+   "i": 8320
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 8321
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 8322
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 8323
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 8324
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "太棒了！一个特别棒的苹果：",
+     "p": {}
+    }
+   ],
+   "text": "太棒了！一个特别棒的苹果：",
+   "sha256": "56a456b57a8e8f5d9b658e05cdc687700c563b6435747e3bed7b3b14b57c8b12",
+   "i": 8325
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/give @p apple{Enchantments:[{lvl:255,id:\"sharpness\"}],AttributeModifiers:[{Operation:0,Amount:2048,UUID:[I;1,1,1,1],AttributeName:\"generic.attack_damage\",Name:\"a\",Slot:\"mainhand\"},{Operation:0,Amount:1024,UUID:[I;1,1,1,2],AttributeName:\"generic.attack_speed\",Name:\"b\",Slot:\"mainhand\"},{Operation:0,Amount:1024,UUID:[I;1,1,1,3],AttributeName:\"generic.max_health\",Name:\"c\",Slot:\"mainhand\"},{Operation:0,Amount:30,UUID:[I;1,1,1,4],AttributeName:\"generic.armor\",Name:\"d\",Slot:\"mainhand\"},{Operation:0,Amount:20,UUID:[I;1,1,1,5],AttributeName:\"generic.armor_toughness\",Name:\"e\",Slot:\"mainhand\"},{Operation:0,Amount:1024,UUID:[I;1,1,1,6],AttributeName:\"generic.luck\",Name:\"f\",Slot:\"mainhand\"}],display:{Name:'\"苹果手机\"',Lore:['\"乔布斯开发的可以吃的苹果手机！\"']}}",
+     "p": {}
+    }
+   ],
+   "text": "/give @p apple{Enchantments:[{lvl:255,id:\"sharpness\"}],AttributeModifiers:[{Operation:0,Amount:2048,UUID:[I;1,1,1,1],AttributeName:\"generic.attack_damage\",Name:\"a\",Slot:\"mainhand\"},{Operation:0,Amount:1024,UUID:[I;1,1,1,2],AttributeName:\"generic.attack_speed\",Name:\"b\",Slot:\"mainhand\"},{Operation:0,Amount:1024,UUID:[I;1,1,1,3],AttributeName:\"generic.max_health\",Name:\"c\",Slot:\"mainhand\"},{Operation:0,Amount:30,UUID:[I;1,1,1,4],AttributeName:\"generic.armor\",Name:\"d\",Slot:\"mainhand\"},{Operation:0,Amount:20,UUID:[I;1,1,1,5],AttributeName:\"generic.armor_toughness\",Name:\"e\",Slot:\"mainhand\"},{Operation:0,Amount:1024,UUID:[I;1,1,1,6],AttributeName:\"generic.luck\",Name:\"f\",Slot:\"mainhand\"}],display:{Name:'\"苹果手机\"',Lore:['\"乔布斯开发的可以吃的苹果手机！\"']}}",
+   "sha256": "3f846ffb36241ab4ab0d9bee81d567244d457ffe96b4378feb71a67215c822ca",
+   "i": 8326
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（乔布斯表示很淦）",
+     "p": {}
+    }
+   ],
+   "text": "（乔布斯表示很淦）",
+   "sha256": "5ea1bc761442259ce50a0fd7d68ccbdd30565f9d0eb67f23cea05a677541f760",
+   "i": 8327
+  }
+ ],
+ "text_sha256": "413525133e15309849cd9afc33b625aeb7239a2bd5137227c0a31ec5679f2d1d",
+ "chars": 5302
+}

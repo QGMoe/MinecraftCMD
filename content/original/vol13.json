@@ -1,0 +1,77 @@
+{
+ "id": "vol13",
+ "kind": "volume",
+ "number": 13,
+ "title": "第十三卷 JAVA版的JSON",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   9616,
+   9617
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "bookmark": "_第十三卷_JAVA版的JSON"
+    },
+    {
+     "t": "第十三卷 ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "JAVA版的JSON",
+     "p": {}
+    }
+   ],
+   "text": "第十三卷 JAVA版的JSON",
+   "sha256": "f088cdf110ed9832e4ac09d5f5253b8b9f5d7554f6f0502c66514233c6b680f3",
+   "i": 9616
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "看来JSON必须要先讲，不然到时候估计NBT会很难讲。",
+     "p": {
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "看来JSON必须要先讲，不然到时候估计NBT会很难讲。",
+   "sha256": "94c4af59b610ed6c706b9db8aab9f1788a2603be843944b46025baf06bdd4fb4",
+   "i": 9617
+  }
+ ],
+ "text_sha256": "16a6f17e985dae8511f1cfdc458347cfeed6e6f923c97e492f2f7767700b25a1",
+ "chars": 42
+}

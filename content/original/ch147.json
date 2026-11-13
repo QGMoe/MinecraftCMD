@@ -1,0 +1,1275 @@
+{
+ "id": "ch147",
+ "kind": "chapter",
+ "number": 147,
+ "title": "第一百四十七章 可繁殖的生物共通标签",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   12076,
+   12153
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第一百四十七章_可繁殖的生物共通标签"
+    },
+    {
+     "t": "第一百四十七章 可繁殖的生物共通标签",
+     "p": {}
+    }
+   ],
+   "text": "第一百四十七章 可繁殖的生物共通标签",
+   "sha256": "2affa608249f07dd229bb42e955ef5cfb75f1c8192758f190b8437835f12ca22",
+   "i": 12076
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这儿有一只土猪，它的梦想是那颗白菜。",
+     "p": {}
+    }
+   ],
+   "text": "这儿有一只土猪，它的梦想是那颗白菜。",
+   "sha256": "27aa5e9788612c63db64cbcf1f8d226842479d84979e768c1c0d84aa0d4c37dd",
+   "i": 12077
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但今天我们并不是要研究这只土猪，而是在Minecraft中的猪。Minecraft中可没有白菜。",
+     "p": {}
+    }
+   ],
+   "text": "但今天我们并不是要研究这只土猪，而是在Minecraft中的猪。Minecraft中可没有白菜。",
+   "sha256": "9f9655160cab8dfb703e16ab550a7a71d77493752c14461e6348e56ebe221578",
+   "i": 12078
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在生存前期，粮食紧缺，玩家们一般会直接把这只猪杀死；在生存后期，粮食的获取是长期的事情，因此玩家们经常种田，也就有了各种自动化红石机械。",
+     "p": {}
+    }
+   ],
+   "text": "在生存前期，粮食紧缺，玩家们一般会直接把这只猪杀死；在生存后期，粮食的获取是长期的事情，因此玩家们经常种田，也就有了各种自动化红石机械。",
+   "sha256": "1f93dffd218f19e56036e6253ad366d6ca2d69ea05a45d94f03ae4ae41951f35",
+   "i": 12079
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但种田获得的是素食，长期吃素会导致营养不良，所以玩家们还需要一种肉食来源。这时，他们就会另找来一头猪，拉到这只猪旁边，然后喂几根胡萝卜。几秒下来，就多了一只小猪。",
+     "p": {}
+    }
+   ],
+   "text": "但种田获得的是素食，长期吃素会导致营养不良，所以玩家们还需要一种肉食来源。这时，他们就会另找来一头猪，拉到这只猪旁边，然后喂几根胡萝卜。几秒下来，就多了一只小猪。",
+   "sha256": "77421388951b25cfcd19d112f2f824d91380ef7f38c9a999f341eb0c68f93b88",
+   "i": 12080
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个过程，我们称之为“繁殖”。",
+     "p": {}
+    }
+   ],
+   "text": "这个过程，我们称之为“繁殖”。",
+   "sha256": "a923d5a3ac0cd1fd4bf270f495da7e61e320a7b74567c05051ea09be60e55c76",
+   "i": 12081
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在Minecraft中，可繁殖的生物不只有猪一种。据“成双成对”成就统计，截至2021年7月6日，Minecraft中一共有19种可繁殖的生物，它们是——鸡、牛、哞菇、猪、兔子、羊、海龟、马（已驯服）、驴（已驯服）、骡（已驯服）、羊驼（已驯服）、豹猫、狼（已驯服）、猫（已驯服）、狐狸、熊猫、蜜蜂、疣猪兽、炽足兽。",
+     "p": {}
+    }
+   ],
+   "text": "在Minecraft中，可繁殖的生物不只有猪一种。据“成双成对”成就统计，截至2021年7月6日，Minecraft中一共有19种可繁殖的生物，它们是——鸡、牛、哞菇、猪、兔子、羊、海龟、马（已驯服）、驴（已驯服）、骡（已驯服）、羊驼（已驯服）、豹猫、狼（已驯服）、猫（已驯服）、狐狸、熊猫、蜜蜂、疣猪兽、炽足兽。",
+   "sha256": "ac3cec21c2a6ba55c11888c90c0828d3b98d7bc0fbf107d06452b14f56681cb9",
+   "i": 12082
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "既然有这么多生物可以繁殖，那么它们的NBT是否也有共通之处呢？",
+     "p": {}
+    }
+   ],
+   "text": "既然有这么多生物可以繁殖，那么它们的NBT是否也有共通之处呢？",
+   "sha256": "14e4878ce982df4f0851430b709194585025f38cc07cd8279aaf65efd3d5d08f",
+   "i": 12083
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "有的！",
+     "p": {}
+    }
+   ],
+   "text": "有的！",
+   "sha256": "b464b1aee43425c2d8f9005b18408de679a7591e66914df9b67136ce5407abfb",
+   "i": 12084
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看看这只1.12.2版本的猪，在使用了entitydata给它添加了一个have_a_look标签后，我们获取到了它的NBT数据：",
+     "p": {}
+    }
+   ],
+   "text": "看看这只1.12.2版本的猪，在使用了entitydata给它添加了一个have_a_look标签后，我们获取到了它的NBT数据：",
+   "sha256": "a9c5d07211a1edd76c6e27fe3523221f51c0f83fd625e8f93228143ab5afef31",
+   "i": 12085
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{HurtByTimestamp:0，Attributes:[{Base:10.0d，Name:“generic.maxHealth“}，{Base:0.0d，Name:“generic.knockbackResistance“}，{Base:0.25d，Name:“generic.movementSpeed“}，{Base:0.0d，Name:“generic.armor“}，{Base:0.0d，Name:“generic.armorToughness“}，{Base:1.0d，Name:“forge.swimSpeed“}，{Base:16.0d，Modifiers:[{UUIDMost:155161593230540818L，UUIDLeast:-7387004718408769437L，Amount:0.08697153622768039d，Operation:1，Name:“Random spawnbonus“}]，Name:“generic.followRange“}]，Invulnerable:0b，FallFlying:0b，ForcedAge:0，PortalCooldown:0，AbsorptionAmount:0.0f，Saddle:0b，FallDistance:0.0f，InLove:0，DeathTime:0s，HandDropChances:[0.085f，0.085f]，PersistenceRequired:0b，Age:0，Motion:[0.0d，-0.0784000015258789d，0.0d]，Leashed:0b，UUIDLeast:-8005055644514598705L，Health:10.0f，LeftHanded:0b，Air:300s，OnGround:1b，Dimension:0，Rotation:[267.60834f，0.0f]，UpdateBlocked:0b，HandItems:[{}，{}]，ArmorDropChances:[0.085f，0.085f，0.085f，0.085f]，UUIDMost:-3204752037661752558L，Pos:[618.3102734304896d，4.0d，47.52208547749273d]，have_a_look:1b，Fire:-1s，ArmorItems:[{}，{}，{}，{}]，CanPickUpLoot:0b，HurtTime:0s}",
+     "p": {}
+    }
+   ],
+   "text": "{HurtByTimestamp:0，Attributes:[{Base:10.0d，Name:“generic.maxHealth“}，{Base:0.0d，Name:“generic.knockbackResistance“}，{Base:0.25d，Name:“generic.movementSpeed“}，{Base:0.0d，Name:“generic.armor“}，{Base:0.0d，Name:“generic.armorToughness“}，{Base:1.0d，Name:“forge.swimSpeed“}，{Base:16.0d，Modifiers:[{UUIDMost:155161593230540818L，UUIDLeast:-7387004718408769437L，Amount:0.08697153622768039d，Operation:1，Name:“Random spawnbonus“}]，Name:“generic.followRange“}]，Invulnerable:0b，FallFlying:0b，ForcedAge:0，PortalCooldown:0，AbsorptionAmount:0.0f，Saddle:0b，FallDistance:0.0f，InLove:0，DeathTime:0s，HandDropChances:[0.085f，0.085f]，PersistenceRequired:0b，Age:0，Motion:[0.0d，-0.0784000015258789d，0.0d]，Leashed:0b，UUIDLeast:-8005055644514598705L，Health:10.0f，LeftHanded:0b，Air:300s，OnGround:1b，Dimension:0，Rotation:[267.60834f，0.0f]，UpdateBlocked:0b，HandItems:[{}，{}]，ArmorDropChances:[0.085f，0.085f，0.085f，0.085f]，UUIDMost:-3204752037661752558L，Pos:[618.3102734304896d，4.0d，47.52208547749273d]，have_a_look:1b，Fire:-1s，ArmorItems:[{}，{}，{}，{}]，CanPickUpLoot:0b，HurtTime:0s}",
+   "sha256": "413c3a5ef5512788008d220942bb845a9c1e73c50551f5771dd1b15873dbf138",
+   "i": 12086
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看着很晕是吧？我们简化一下，删去已知的NBT标签，剩下了这么几个：",
+     "p": {}
+    }
+   ],
+   "text": "看着很晕是吧？我们简化一下，删去已知的NBT标签，剩下了这么几个：",
+   "sha256": "f754c553272dde86a467d500d5e294b9ad55f20f68a18acd139a43754dab7b72",
+   "i": 12087
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{ForcedAge:0，Saddle:0b，InLove:0，Age:0}",
+     "p": {}
+    }
+   ],
+   "text": "{ForcedAge:0，Saddle:0b，InLove:0，Age:0}",
+   "sha256": "b5913fd532ddf376e7d77504d66ef02e31263c272010a557ccd8318c264abf56",
+   "i": 12088
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，除了Saddle以外，其他都是属于“可繁殖的生物共通标签”。",
+     "p": {}
+    }
+   ],
+   "text": "其中，除了Saddle以外，其他都是属于“可繁殖的生物共通标签”。",
+   "sha256": "772d37ec1d27ba1555a49f2341bef98f97198b0d8a6905bdecb925f8c7ee6a3d",
+   "i": 12089
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Saddle（布尔值）的作用是确定这猪背上是否放了个鞍，有鞍为1，没鞍为0.",
+     "p": {}
+    }
+   ],
+   "text": "Saddle（布尔值）的作用是确定这猪背上是否放了个鞍，有鞍为1，没鞍为0.",
+   "sha256": "35cc8ac4e33e3e7e1f91434d23f40d918d814968a35e6a9ffd8222272fa190f9",
+   "i": 12090
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不难发现，在这“可繁殖的生物共通标签”中，有两个NBT标签（ForcedAge和Age）其标签名中都有单词“age”。age这个单词的意思大家都知道，是年龄的意思，那这两个NBT标签有啥用呢？",
+     "p": {}
+    }
+   ],
+   "text": "不难发现，在这“可繁殖的生物共通标签”中，有两个NBT标签（ForcedAge和Age）其标签名中都有单词“age”。age这个单词的意思大家都知道，是年龄的意思，那这两个NBT标签有啥用呢？",
+   "sha256": "8dfc3eb4eb04c84929bf37fe62fccab37aaeface3559793b84baeb88aada2f86",
+   "i": 12091
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看，那儿有两只猪正在村民种的土豆菜地里晃悠。赶紧过去收割一些成熟的土豆，然后喂给这两只猪吃。很快啊！不到几秒就出现了一只小猪，让我们看看这只可爱的小猪的NBT吧！",
+     "p": {}
+    }
+   ],
+   "text": "看，那儿有两只猪正在村民种的土豆菜地里晃悠。赶紧过去收割一些成熟的土豆，然后喂给这两只猪吃。很快啊！不到几秒就出现了一只小猪，让我们看看这只可爱的小猪的NBT吧！",
+   "sha256": "7b440e9130899eeaf922028fe9b628a26c004add54858bc9fe52d71744eb51c4",
+   "i": 12092
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{ForcedAge:0，InLove:0，Age:-23586}",
+     "p": {}
+    }
+   ],
+   "text": "{ForcedAge:0，InLove:0，Age:-23586}",
+   "sha256": "9ed0779d983e1611795a222a5cd9d14b0e8e2d8a3e67b2e1c9759dfb55c97098",
+   "i": 12093
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这只刚生出来的小猪，其Age值为-23586。在《MinecraftWiki:母猪的产后护理》一书中（实际上没有这本书啦），明确的写到：“幼年猪在没有食用任何食物的情况下，需要花费一整天时间长大。可以通过喂食来加快速度，一次喂食加快10%。”",
+     "p": {}
+    }
+   ],
+   "text": "这只刚生出来的小猪，其Age值为-23586。在《MinecraftWiki:母猪的产后护理》一书中（实际上没有这本书啦），明确的写到：“幼年猪在没有食用任何食物的情况下，需要花费一整天时间长大。可以通过喂食来加快速度，一次喂食加快10%。”",
+   "sha256": "d6ca161c4090fbdf72551f8ead3ae609426ce0261dd209b1a4b85e53da260002",
+   "i": 12094
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft中的一天为20分钟，换算成游戏刻即20×60×20=24000刻，而Age的值是-23586，所以Age的作用是？",
+     "p": {}
+    }
+   ],
+   "text": "Minecraft中的一天为20分钟，换算成游戏刻即20×60×20=24000刻，而Age的值是-23586，所以Age的作用是？",
+   "sha256": "feba6ab6a8f2ef6a013820444bcfdfeee4cf5c0979b53039ab9636451c19b524",
+   "i": 12095
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Age（Int整形）的功能是表示该生物的年龄，幼年时为负值，并随时间流逝不断增加直到0。当该生物Age值达到0时，判定该生物成年，并停止增加。",
+     "p": {}
+    }
+   ],
+   "text": "Age（Int整形）的功能是表示该生物的年龄，幼年时为负值，并随时间流逝不断增加直到0。当该生物Age值达到0时，判定该生物成年，并停止增加。",
+   "sha256": "2f68837ad7da3521737fb6b8e7276ea6c1af80e11ae0e77aed8ea03cfa24e58b",
+   "i": 12096
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "幼年猪要长大需要24000刻，即Age初始值为-24000。这只小猪的Age值为-23586，说明它已经20.7秒大了。",
+     "p": {}
+    }
+   ],
+   "text": "幼年猪要长大需要24000刻，即Age初始值为-24000。这只小猪的Age值为-23586，说明它已经20.7秒大了。",
+   "sha256": "82778f010ff9c0f938926a4d8a26999d0821593a1a228ec2b3ae9e702a8dd14c",
+   "i": 12097
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那ForcedAge有啥用？",
+     "p": {}
+    }
+   ],
+   "text": "那ForcedAge有啥用？",
+   "sha256": "c3fd0bb913eac35e78851674cc99432cce85573610b543625809067468b79046",
+   "i": 12098
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "刚刚引用的那段话最后两句讲到喂食可以加快生长速度，让我们试一试。",
+     "p": {}
+    }
+   ],
+   "text": "刚刚引用的那段话最后两句讲到喂食可以加快生长速度，让我们试一试。",
+   "sha256": "c2256afdf9dfc6230aaccb7ef38bf7c1e8193ad03f51fbe82fbb0b53599d9f49",
+   "i": 12099
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作者喂给这只小猪两个土豆，NBT就变成了：",
+     "p": {}
+    }
+   ],
+   "text": "作者喂给这只小猪两个土豆，NBT就变成了：",
+   "sha256": "644e028e9239eda284e1c0a0a9267195afa86ea13f8e188b0e52ae9301c1cc08",
+   "i": 12100
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{ForcedAge:4400，Saddle:0b，InLove:0，Age:-18853}",
+     "p": {}
+    }
+   ],
+   "text": "{ForcedAge:4400，Saddle:0b，InLove:0，Age:-18853}",
+   "sha256": "ab3c1300a618dd4c4e98c198858570a079177dfd55a8649f18e3b2c1041bbd6b",
+   "i": 12101
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "刚刚花去的时间不到二十秒，这只猪的Age值就增长了4733（236.65秒），ForcedAge值也变成了4400，这说明给小猪喂土豆是可以加快生长速度的，这加快的值被ForcedAge统计了，并且也加到了Age里面。",
+     "p": {}
+    }
+   ],
+   "text": "刚刚花去的时间不到二十秒，这只猪的Age值就增长了4733（236.65秒），ForcedAge值也变成了4400，这说明给小猪喂土豆是可以加快生长速度的，这加快的值被ForcedAge统计了，并且也加到了Age里面。",
+   "sha256": "6898581f1f3f56ace721cb41454ebe7e3f7644e2442f0f67736b4aea6a573c9a",
+   "i": 12102
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但一次喂食是加快10%，两次喂食岂不是加快了20%或19%，即4800或4560。但这儿却只加快了4400，稍微有些偏差，这是怎么一回事？",
+     "p": {}
+    }
+   ],
+   "text": "但一次喂食是加快10%，两次喂食岂不是加快了20%或19%，即4800或4560。但这儿却只加快了4400，稍微有些偏差，这是怎么一回事？",
+   "sha256": "6e0eee74cb6dcba9accb6b0bbb15d89408da3e7cdcdc8db908db7759559c3e9e",
+   "i": 12103
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "经过作者的多次试验，发现每次喂食并不是一定加快10%，而是有一个小幅度的浮动，所以这本《MinecraftWiki:母猪的产后护理》并不一定完全准确。",
+     "p": {}
+    }
+   ],
+   "text": "经过作者的多次试验，发现每次喂食并不是一定加快10%，而是有一个小幅度的浮动，所以这本《MinecraftWiki:母猪的产后护理》并不一定完全准确。",
+   "sha256": "43ea91aa3d2fce1bff81f5f7747422288aeedbabaa81d06a6a2aaa4d74e3669f",
+   "i": 12104
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那InLove又有何用？",
+     "p": {}
+    }
+   ],
+   "text": "那InLove又有何用？",
+   "sha256": "4e48ed4dc7295e7bf5375a8582e31dae3dc3c140ea0ae2e379dc96b114f17a78",
+   "i": 12105
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作者写着写着，这只小猪长大了。此时作者给了它一个土豆，然后就发现它的NBT标签变成了：",
+     "p": {}
+    }
+   ],
+   "text": "作者写着写着，这只小猪长大了。此时作者给了它一个土豆，然后就发现它的NBT标签变成了：",
+   "sha256": "478a09535bb73faf8bf25895f166b762f0f699684961d2ec62a26aa097d0052a",
+   "i": 12106
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{ForcedAge:4400，Saddle:0b，InLove:577，Age:0}",
+     "p": {}
+    }
+   ],
+   "text": "{ForcedAge:4400，Saddle:0b，InLove:577，Age:0}",
+   "sha256": "70cb6dd7a2eaff264fef02031515d094c0bd65a1f5a84dd2dc01638cb332eb61",
+   "i": 12107
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "“If you hold food in your hand， they follow you around. If you feed them， they enter “love mode“. Two animals in love mode = babies.（只要你手上有食物，它们就会跟着你。如果你喂它们，它们就会进入“求爱模式”。两只求爱的动物=下崽。）”——Notch",
+     "p": {}
+    }
+   ],
+   "text": "“If you hold food in your hand， they follow you around. If you feed them， they enter “love mode“. Two animals in love mode = babies.（只要你手上有食物，它们就会跟着你。如果你喂它们，它们就会进入“求爱模式”。两只求爱的动物=下崽。）”——Notch",
+   "sha256": "4db0268032caabdafb9afebaf21d2d5f11b0487ac4b3df1b175226a7a9c83e42",
+   "i": 12108
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Notch的这番话中提到了一个“love mode（求爱模式）”，这个求爱模式是在喂食之后进入的，InLove也是在喂食之后变化的。而且，InLove直译是“在爱里”，意思类似“求爱模式”，难不成？",
+     "p": {}
+    }
+   ],
+   "text": "Notch的这番话中提到了一个“love mode（求爱模式）”，这个求爱模式是在喂食之后进入的，InLove也是在喂食之后变化的。而且，InLove直译是“在爱里”，意思类似“求爱模式”，难不成？",
+   "sha256": "92e8a434a4efd5222f1e503c4b211a1b33887ebe3ba3541c1fae04c1ed10acc1",
+   "i": 12109
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错，InLove就是Notch文中提到的求爱模式在NBT标签中的具体表现，这个“求爱模式”时长2分钟，即600游戏刻。进入“求爱模式”后，再次喂食不能将InLove值重置为600。在“求爱模式”中，生物会持续散发红色粒子。当两只进入求爱模式且类型相同的生物相距8格，它们便会靠近，然后的事大家都知道，最终求爱模式结束。",
+     "p": {}
+    }
+   ],
+   "text": "没错，InLove就是Notch文中提到的求爱模式在NBT标签中的具体表现，这个“求爱模式”时长2分钟，即600游戏刻。进入“求爱模式”后，再次喂食不能将InLove值重置为600。在“求爱模式”中，生物会持续散发红色粒子。当两只进入求爱模式且类型相同的生物相距8格，它们便会靠近，然后的事大家都知道，最终求爱模式结束。",
+   "sha256": "eaacffe7495e487abe791fcbe87df8b4917e85544e800757bcf42bc00a3e2c5a",
+   "i": 12110
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "InLove值随时间减少到0时，求爱模式也会结束。",
+     "p": {}
+    }
+   ],
+   "text": "InLove值随时间减少到0时，求爱模式也会结束。",
+   "sha256": "1ef2fe5bf8543a0b656f2e582493b1d05478a0496525ce2783d8f5fb96cdbad7",
+   "i": 12111
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这只进入求爱模式的猪，多了两个我们未曾相识的NBT标签：",
+     "p": {}
+    }
+   ],
+   "text": "这只进入求爱模式的猪，多了两个我们未曾相识的NBT标签：",
+   "sha256": "b0ac5b89c7008ff98920a3dce7875fa287e2e6f88531d15de4e08988a59549c1",
+   "i": 12112
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{LoveCauseLeast:-8954364695892943005L，LoveCauseMost:865205586299127399",
+     "p": {}
+    }
+   ],
+   "text": "{LoveCauseLeast:-8954364695892943005L，LoveCauseMost:865205586299127399",
+   "sha256": "74b58111a4221eb2b43ae61793a6c764b88c53101a461e9f4ca2d802eca8bcce",
+   "i": 12113
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "0L}",
+     "p": {}
+    }
+   ],
+   "text": "0L}",
+   "sha256": "5f23381502fd4be4b60ea50b5d2c833e1139f930e1d5100568caa067f8cbc09e",
+   "i": 12114
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "唉，这Least，这Most，这一长串的Long长整型值——这不就是UUID吗？",
+     "p": {}
+    }
+   ],
+   "text": "唉，这Least，这Most，这一长串的Long长整型值——这不就是UUID吗？",
+   "sha256": "78eb55b6e946b7eb064f5a3b47187daee595b38e51949c76598fc74119612a01",
+   "i": 12115
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错，这就是UUID，那这UUID是谁的？",
+     "p": {}
+    }
+   ],
+   "text": "没错，这就是UUID，那这UUID是谁的？",
+   "sha256": "e6c1cf7c6e1d364592127983b5a4bc861f2c7535c90486d704d2065508461ddd",
+   "i": 12116
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "是这只猪的爱人的UUID。",
+     "p": {}
+    }
+   ],
+   "text": "是这只猪的爱人的UUID。",
+   "sha256": "304b3832b9b914e53114ea93c9080368c56cd2da7b662ea680046951c5d41c4a",
+   "i": 12117
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "?不对啊，这世界的“生物自然生成”已经被关了，猪只有它一个人，那它爱着谁？",
+     "p": {}
+    }
+   ],
+   "text": "?不对啊，这世界的“生物自然生成”已经被关了，猪只有它一个人，那它爱着谁？",
+   "sha256": "a97229808a730f4942b220b313a5f0a5ce0984f1c838dd5a78b0f6d06eee1b7b",
+   "i": 12118
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作者寻找了一下这个UUID的所有者，结果发现这是个空号。",
+     "p": {}
+    }
+   ],
+   "text": "作者寻找了一下这个UUID的所有者，结果发现这是个空号。",
+   "sha256": "6b121843bd4c33927b4700ce11baf38a996da0f736059393d446241d198b8604",
+   "i": 12119
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "嘶——细思极恐啊。",
+     "p": {}
+    }
+   ],
+   "text": "嘶——细思极恐啊。",
+   "sha256": "ef2579113bbec374c5866067c5f5b7cd7c539a454a80f409df0a6feeba932f1c",
+   "i": 12120
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们已经了解了Age、ForcedAge、InLove和LoveCauseLeast、LoveCauseMost这五个NBT标签，这些标签就是“可繁殖的生物共通标签”的全部内容。众所周知，1.16版本UUIDLeast和UUIDMost合并了，所以在Minecraft Java1.16及以上版本，LoveCauseLeast和LoveCauseMost被合并成了LoveCause标签（整形数组）。",
+     "p": {}
+    }
+   ],
+   "text": "现在，我们已经了解了Age、ForcedAge、InLove和LoveCauseLeast、LoveCauseMost这五个NBT标签，这些标签就是“可繁殖的生物共通标签”的全部内容。众所周知，1.16版本UUIDLeast和UUIDMost合并了，所以在Minecraft Java1.16及以上版本，LoveCauseLeast和LoveCauseMost被合并成了LoveCause标签（整形数组）。",
+   "sha256": "1d09391e5012e155cec0bced9e00711be6fe488242fc00c3328c0c4fb5fae4b2",
+   "i": 12121
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们按照Minecraft生物一生的发展来对这些标签进行分类，可以分出：",
+     "p": {}
+    }
+   ],
+   "text": "我们按照Minecraft生物一生的发展来对这些标签进行分类，可以分出：",
+   "sha256": "4625b8cad488d45857c62fd7ac9af3262be5e4ecf82969a145b284a9913e437c",
+   "i": 12122
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "幼年（20min）——Age、ForcedAge",
+     "p": {}
+    }
+   ],
+   "text": "幼年（20min）——Age、ForcedAge",
+   "sha256": "8b7630fb848ff357617dd514d7ed2c2c5c55ac02a0ddab262064257b68f5dafd",
+   "i": 12123
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "成年——Age:0",
+     "p": {}
+    }
+   ],
+   "text": "成年——Age:0",
+   "sha256": "337cce74d7fe5db7921f94e77e18eefbfcd4910c9f570b7acf16b3c8ad57aa16",
+   "i": 12124
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "单身——InLove",
+     "p": {}
+    }
+   ],
+   "text": "单身——InLove",
+   "sha256": "5ce3e31af0f8369147b5632bca8e081f776cd000deffd353adcf899c216302b0",
+   "i": 12125
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "结婚——LoveCauseLeast、LoveCauseMost（＜Java1.16）|LoveCause（≥Java1.16）",
+     "p": {}
+    }
+   ],
+   "text": "结婚——LoveCauseLeast、LoveCauseMost（＜Java1.16）|LoveCause（≥Java1.16）",
+   "sha256": "51e61d7854ae589e9b17706ce073de0cb543578dc3bf53c305eb9954a780ebc6",
+   "i": 12126
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "生子——？？？",
+     "p": {}
+    }
+   ],
+   "text": "生子——？？？",
+   "sha256": "b7dc11d7363bb792f9b4a26d368050131f0c4070d101ab82d4804fd9229a0dd7",
+   "i": 12127
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "可以发现，生物繁殖之后所用的NBT标签我们还不知道，但“可繁殖的生物共通标签”就五个标签，所以生物繁殖之后所用的NBT就在这五个标签之中。",
+     "p": {}
+    }
+   ],
+   "text": "可以发现，生物繁殖之后所用的NBT标签我们还不知道，但“可繁殖的生物共通标签”就五个标签，所以生物繁殖之后所用的NBT就在这五个标签之中。",
+   "sha256": "c27805546b6ad9fd9d5a647cc994dc9351d08cdaed9eef34d3d24236205ceff1",
+   "i": 12128
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当然，也可能根本就没有用到。只不过，在下结论前，请最后看一遍《MinecraftWiki:母猪的产后护理》，其中有这么一段话：“猪繁殖过后，两只猪都会进入繁殖冷却期，期间通过喂食将无法进入求爱模式。繁殖冷却期长达五分钟，五分钟过后将会自动回到正常期，可以再次进入求爱模式。”",
+     "p": {}
+    }
+   ],
+   "text": "当然，也可能根本就没有用到。只不过，在下结论前，请最后看一遍《MinecraftWiki:母猪的产后护理》，其中有这么一段话：“猪繁殖过后，两只猪都会进入繁殖冷却期，期间通过喂食将无法进入求爱模式。繁殖冷却期长达五分钟，五分钟过后将会自动回到正常期，可以再次进入求爱模式。”",
+   "sha256": "620a3bd5925411068090b2b0a94e26c3e8e9c7af1f63b0b000dc3fee56a57623",
+   "i": 12129
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "嗯，按Mojang的尿性，这五分钟绝对有NBT标签存着。让我们动手看一看究竟是哪个NBT存着这繁殖冷却期的剩余时间。",
+     "p": {}
+    }
+   ],
+   "text": "嗯，按Mojang的尿性，这五分钟绝对有NBT标签存着。让我们动手看一看究竟是哪个NBT存着这繁殖冷却期的剩余时间。",
+   "sha256": "8c8a9881795627f294944ce93c529a03f8d4ed7e967348618b8e0bc2e8d43f0d",
+   "i": 12130
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作者又弄出一只猪，让这两只猪繁殖了一下，然后拉开其中一头，仔细看它的NBT：",
+     "p": {}
+    }
+   ],
+   "text": "作者又弄出一只猪，让这两只猪繁殖了一下，然后拉开其中一头，仔细看它的NBT：",
+   "sha256": "2dc47847bbfa0d32959f41c98ba17205a7fe2f934910dcd1f3af46b1f82b57e9",
+   "i": 12131
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{ForcedAge:0，Age:5416，InLove:0，LoveCauseLeast:-8954364695892943005L，LoveCauseMost:8652055862991273990L}",
+     "p": {}
+    }
+   ],
+   "text": "{ForcedAge:0，Age:5416，InLove:0，LoveCauseLeast:-8954364695892943005L，LoveCauseMost:8652055862991273990L}",
+   "sha256": "d3332f510be5f5b9c5abbe7313ca2f58aab72cc90b36474a48fe1a2be909edb1",
+   "i": 12132
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "哦吼，发现没有！Age的值是5416！我们知道，5分钟换算成游戏刻是5×60×20=6000刻。所以，Age还有一个用处：",
+     "p": {}
+    }
+   ],
+   "text": "哦吼，发现没有！Age的值是5416！我们知道，5分钟换算成游戏刻是5×60×20=6000刻。所以，Age还有一个用处：",
+   "sha256": "40b017554e97e3e1e4f9efc9cb28c2f54cce2cdd7dba8fbda7aeccebb59cebaf",
+   "i": 12133
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当生物与另一只同种生物进行繁殖过程后，Age的值将会变为6000，并随时间减少，为0时停止。Age值减少期间，将是该生物的“繁殖冷却期”。",
+     "p": {}
+    }
+   ],
+   "text": "当生物与另一只同种生物进行繁殖过程后，Age的值将会变为6000，并随时间减少，为0时停止。Age值减少期间，将是该生物的“繁殖冷却期”。",
+   "sha256": "98783d0b2dd2e08abc5fd206eb5ecf782f4128f7334fad5fcea48ef7348b1098",
+   "i": 12134
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "到这儿，“可繁殖的生物共通标签”才算全部讲完。哦老天爷，终于更了一章啊。",
+     "p": {}
+    }
+   ],
+   "text": "到这儿，“可繁殖的生物共通标签”才算全部讲完。哦老天爷，终于更了一章啊。",
+   "sha256": "98b53480117f7fa97b2aeb2a6210d14436159e38cdf6d80ec4a078966adb4616",
+   "i": 12135
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12136
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12137
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12138
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12139
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12140
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12141
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12142
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12143
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft文言文版本真棒！",
+     "p": {}
+    }
+   ],
+   "text": "Minecraft文言文版本真棒！",
+   "sha256": "6602096f2d181de5731c076eabae535cb690ed86dacf8c09f3b428bfd763f8a3",
+   "i": 12144
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12145
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12146
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12147
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12148
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12149
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12150
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "We know how to use the tag “LoveCause“，but when we fill the tag from the other kind of mobs' UUID，what will happen?",
+     "p": {}
+    }
+   ],
+   "text": "We know how to use the tag “LoveCause“，but when we fill the tag from the other kind of mobs' UUID，what will happen?",
+   "sha256": "19635725c264282132fa2e0353ce1004f977c0851ec56adc2249a0e14bc99e9c",
+   "i": 12151
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "I experimented，but nothing happen.",
+     "p": {}
+    }
+   ],
+   "text": "I experimented，but nothing happen.",
+   "sha256": "32bbbb16d6feadf8f4724d4b30293580d88f91b78b278bffea6cd67ec73f7577",
+   "i": 12152
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 12153
+  }
+ ],
+ "text_sha256": "95b9e257a6ed5abb748faf35bf5b9c367e22a8f8d0e01ac96d11fdbfbf96c4ec",
+ "chars": 4607
+}

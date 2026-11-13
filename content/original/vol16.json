@@ -1,0 +1,77 @@
+{
+ "id": "vol16",
+ "kind": "volume",
+ "number": 16,
+ "title": "第十六卷 村民与NPC",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   12624,
+   12625
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "bookmark": "_第十六卷_村民与NPC"
+    },
+    {
+     "t": "第十六卷 ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "村民与NPC",
+     "p": {}
+    }
+   ],
+   "text": "第十六卷 村民与NPC",
+   "sha256": "51d3288db75eb6fb94cd8530d4903fe1e02c3aa32c3193b92917c607e1af40b1",
+   "i": 12624
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "村民作为Minecraft的一个极其重要的生物，使用面是及其广泛。在生存模式中，村民可以用来建造自动收割机、刷铁机等机器；在创造模式中，村民可以用来装饰住宅，让建筑更有生气；在服务器和地图中，村民还可以自定义其交易数据，继续履行“奸商”的本职工作。基岩.....额，写不下了，算了",
+     "p": {
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "村民作为Minecraft的一个极其重要的生物，使用面是及其广泛。在生存模式中，村民可以用来建造自动收割机、刷铁机等机器；在创造模式中，村民可以用来装饰住宅，让建筑更有生气；在服务器和地图中，村民还可以自定义其交易数据，继续履行“奸商”的本职工作。基岩.....额，写不下了，算了",
+   "sha256": "40bc3793b12d27f9e6bfa853c81fd17ba243254f123255faae6c4cd5399be14e",
+   "i": 12625
+  }
+ ],
+ "text_sha256": "9e0be41abed06e8655ea81f0c3c99ac01c9fca23417f3fb88eb292c190df33ce",
+ "chars": 151
+}

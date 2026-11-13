@@ -1,0 +1,451 @@
+{
+ "id": "f-notes",
+ "kind": "front",
+ "number": null,
+ "title": "阅读本书需注意事项",
+ "source": {
+  "file": "MineBBS/0声明部分.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "阅读本书需注意事项"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2022年1月28日 22:12 1072字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(226, 80, 65)]",
+   "arg": "rgb(226, 80, 65)"
+  },
+  {
+   "text": "　　食用本书前请先看这里！"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST=1]",
+   "arg": "1"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "由于平台的限制，"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "本书内几乎没有配图（第十卷除外）"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，全是文字。因此，阅读本书时，建议配合Minecraft食用。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "如果您使用的是安卓客户端（不管是起点读书APP还是QQ阅读APP）阅读本书，一些符号将会出现乱码（如<>、&）。使用IOS客户端和浏览器阅读可以解决这个问题。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "本教程适用的游戏版本很广，目前可以确认的是Java1.12.2、1.13.2、1.16版本绝对适用，Java1.8版本至1.19.1版本、基岩版1.2.0至现今版本基本上适用，Java Alpha 1.0.16到1.7.10版本应该能够适用，Java Alpha 1.0.16版本之前基本上不适用，Java1.19.1版本以上情况未知（应该大部分适用）。由于要适配很多的版本，因此本书内容可能不太适用于只玩一个版本的玩家（毕竟还要了解很多自己可能用不上的知识。额，只不过开阔一下见识也很不错）。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "本教程内含有较多的非官方"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "（如本书的『指令』一词，官方翻译为『命令』。两者是同义词。）和一些自创名词，使用这些名词时请注意，最好到Minecraft Wiki确认一下官方的翻译。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "本教程内含有部分内容在中文Minecraft Wiki甚至是整个Minecraft Wiki中并未记载"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "（也有可能记载了，但藏的太深），这些内容基本上是由作者个人实验得出，正确性以及在其他版本中的适用性有待考证。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "作者最开始写本书时，由于是第一次写指令教程，经验比较匮乏，因此含有较多的错误和疏漏之处。目前本书已完成第一次大修，改正了许多错误。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "本书大致可以分为三部分"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：第一卷为基础部分，第二卷至第十卷为各个指令使用教程，第十一卷至目前最新章节为NBT和JSON教程。由于本书讲得很深，每个指令不管有用没用基本上都讲了，因此对于新手来说大可不必每章都看、每句都要琢磨能否看懂。另外，本书的第一、二卷讲解的顺序安排其实有些不合理（比如第二章就讲了命令方块，导致有些完全没指令基础的人直接看蒙掉），"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "建议看的时候大致按照如下顺序"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "阅读本书需注意事项→序言→MC新手要学习的基础—2（可选）→第一章→第三章→第五章→第六章→第四章→第七章→第六十九章前半部分→第十五章→第十章→第十一章→第九章→第八章→第二章→之后可自由安排"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n在以后本书的第二次大修中，我将会优化本书前面部分的讲解顺序，尽量做到循序渐进，让大家不至于一下子就看迷糊然后直接放弃。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "本书使用的指令格式可能并不严谨，官方的格式和本书内的格式有些许不同之处"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "本书可能不太适合单纯玩基岩版的玩家"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "由于我近来老是懒得更新，由于起点的谜之机制，鸽一个月后本书将会被迫屏蔽直到下一次更新。所以建议加入本书的QQ群来获取书本的PDF文档。\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　看完这些注意事项后，你就可以前往下一章正式开始阅读本书了！\r\n　　"
+  },
+  {
+   "tag": "ISPOILER",
+   "raw": "[ISPOILER]"
+  },
+  {
+   "text": "（如果你比较闲的话，来给本书配个图也可以的，反正段评谁都可以发）"
+  },
+  {
+   "tag": "ISPOILER",
+   "raw": "[/ISPOILER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=2]",
+   "arg": "2"
+  },
+  {
+   "text": "附录：本书写作时参考的其他网页/教程"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(147, 101, 184)]",
+   "arg": "rgb(147, 101, 184)"
+  },
+  {
+   "tag": "URL",
+   "raw": "[URL='https://minecraft.fandom.com/wiki/Minecraft_Wiki']",
+   "arg": "'https://minecraft.fandom.com/wiki/Minecraft_Wiki'"
+  },
+  {
+   "text": "minecraft.fandom.com"
+  },
+  {
+   "tag": "URL",
+   "raw": "[/URL]",
+   "close": true
+  },
+  {
+   "text": " → Minecraft Wiki"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "text": "  "
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "注：Minecraft Wiki 现在已经迁移至站点 "
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "URL",
+   "raw": "[URL='https://minecraft.wiki/']",
+   "arg": "'https://minecraft.wiki/'"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "minecraft.wiki"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "URL",
+   "raw": "[/URL]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(147, 101, 184)]",
+   "arg": "rgb(147, 101, 184)"
+  },
+  {
+   "text": "www.mcbbs.net/thread-594698-1-1.html | www.mcbbs.net/thread-594475-1-1.html → MCBBS论坛帖子"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "text": "，在本书中仅仅作第七十四章部分内容的情景引入之用（也就是讲故事） "
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "注：MCBBS 已于2024年初突然关闭，链接已失效。"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "tes.vstab.com/thread-7603-1-1.html →《指令方块进阶教程——模块（面向过程）》，在本书中仅仅引用了其中的部分概念、名词。\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HR",
+   "raw": "[HR]"
+  },
+  {
+   "tag": "HR",
+   "raw": "[/HR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  }
+ ],
+ "raw_sha256": "ab4f8224e7f6ce462c6cd3a5b174fc31f8ed7241938b8b1b0162996767accae1",
+ "text_sha256": "fa8d834993f1ca55ecd84ea0dac1c8bca0191c73e0718e19173515c25ed6698f",
+ "chars": 1590
+}

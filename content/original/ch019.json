@@ -1,0 +1,623 @@
+{
+ "id": "ch019",
+ "kind": "chapter",
+ "number": 19,
+ "title": "第十九章 time-改变时间",
+ "source": {
+  "file": "MineBBS/212第十九章.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "第十九章 time-改变时间"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月6日 20:02 867字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　看标题你应该就知道了，指令 "
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/time"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": " 可以对 Minecraft 内的时间做出修改。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/time"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　作用"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：更改、加快游戏的时间\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　需要权限等级"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：Java-2，基岩-1\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　格式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/time add <增加或减少的游戏刻：Int整数>"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/time query <要查询的游戏时间类别：字符串>"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/time set <要设置成的游戏时间：Int整数|字符串>"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　/time 指令有三种格式，分别是 "
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "add"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": "、"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "query"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": " 和 "
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "set"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": "。\r\n　　"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "add"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": "，意为“增加”。所以，add 的作用是增加游戏的时间（如果配上重复执行的命令方块，一游戏日 1 秒钟也可以做到）。\r\n　　那么增加所用的时间单位是啥呢？\r\n　　其实不填，默认是"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "游戏刻（t）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。游戏刻是啥？游戏刻是 Minecraft 的一种游戏时间，支撑着 Minecraft 的自然运转。1 游戏刻（t）=1/20 现实秒（s）。具体关于 Minecraft 中的时间在第二十七章有详细的讲到。\r\n　　其实时间单位也支持"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "现实秒（s）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "和"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "游戏日（d）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，单位怎么写呢？比如“2s”，不要空格。\r\n　　当你运行 add 一次，游戏时间会增加或减少你所填的时间。\r\n　　对了，这三种时间单位的换算是：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "20t=1s   1200s（20分钟）=1d"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　下一个：query。\r\n　　"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "query"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": "，中文意思为“疑问”或“查询”。很明显，这里不可能是前者。所以 query 的作用是：查询游戏时间。\r\n　　query 又有三种参数，分别是 daytime、gametime 和 day。daytime 指的是自当天（游戏日）日出后流逝的游戏刻数，也就是相当于今天已经过去多长时间了；gametime 指的是世界总共流逝的游戏刻数，相当于这个存档已经玩了多少游戏刻了；day 指的是已流逝的游戏天数，相当于这个存档中已经过了多少天（游戏日）了。query 可以查询这三种时间，并返回相应的结果。\r\n　　下一个：set。\r\n　　"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "set"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "text": "，中文意为“设置”，在很多其他 Minecraft 指令也有出现。使用 set 可以设置游戏的时间。当一个世界被创建时，时间是从 0 游戏刻开始的。比如：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/time set 0"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　就可以重返世界刚生成之时。\r\n　　你也可以使用一些特定的参数来跳到指定的时间：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "day——日出[基岩为白日]（1000）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "noon——正午（6000）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "sunrise[仅基岩]——日出（？）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "sunset[仅基岩]——日落（12000）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "night——晚上（13000）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "midnight——午夜（18000）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　（单位：游戏刻）\r\n　　有趣的是，在 Java 版使用 set 更改时间是以游戏时间为基础的，但在基岩版使用 set 却是以游戏日时间为基础的。比如使用：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/time set 0"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在 Java 版会将"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "时间改为 0"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，在基岩版却会将时间改为"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "下一游戏日刚开始的时候"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n　　所以在基岩版，唯一能将游戏时间拨回去的方法是 /time add 负数，来减少游戏时间。"
+  }
+ ],
+ "raw_sha256": "c585d7524c06d39f0acc1e3f069f526bee2244e8c185c54bda0a159a66266bbb",
+ "text_sha256": "0861ebf5fa241ed8476545e257cf73dd4132d92a2468523980fa25cf5e3a2469",
+ "chars": 1333
+}

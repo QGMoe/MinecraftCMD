@@ -1,0 +1,840 @@
+{
+ "id": "ch013",
+ "kind": "chapter",
+ "number": 13,
+ "title": "第十三章 clear-清除物品的指令",
+ "source": {
+  "file": "MineBBS/206第十三章.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "第十三章 clear-清除物品的指令"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月5日 13:09 1917字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "（该章节最后大修于2025年11月22日）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　我们第一个学习的指令是 /give，作用是给予玩家一样物品。有正必有负，Minecraft 还有一条指令，和 /give完全相反，这条指令就是 "
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/clear"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。\r\n　　clear 在英文中有三种意思，分别是：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST=1]",
+   "arg": "1"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "清楚地；明白的。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "清除；不再受阻。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "离开；不靠近。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　显然，在上面的意思中，只有“清除”是“获取”的反义词。所以，/clear 的作用是：清除玩家的物品。\r\n　　"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "/clear"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　作用"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：清除玩家的单个或所有物品。\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　需要权限等级"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：Java-2，基岩-1\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　格式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "Java1.12.2 之后"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/clear [目标选择器：玩家] [物品ID：字符串] [清除的最大数量：Int整数]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "基岩版和 Java1.13 之前"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/clear [目标选择器：玩家] [物品ID：字符串] [要清除物品的数据值：Int整数] [清除的最大数量：Int整数]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "目标选择器"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——这个必须填玩家。不填默认为命令执行者，即清除命令执行者（自己）的所有物品。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "物品名"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——可以填需要清除的指定物品其 ID，不填默认清除指定玩家的所有物品。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "要清除物品的数据值"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——这个如果不填，即同时不填数量（接下来这个参数）和这个参数，或只填写-1，将会只清除所有指定玩家具有指定物品ID的物品，而不会检查其数据值。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "清除的最大数量"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——默认是全部清除（相当于填 -1），填的话可以指定一次清除最大清除多少物品。注意是最大！也就是说，就算背包里的指定物品没有达到最大数量，还是一样会被清除。\r\n　　在之前的 /give，我们遇到的数据值参数填 -1 和 0 并没有区别。但在这里，若数据值填写 -1 和 0 就有区别了！\r\n　　例如（以下故事和人物纯属虚构，如有雷同，可能不是巧合），玩基岩版或 Java1.12.2 的你，此时假设你现在在背包中拥有一些橡木和云杉木。你花了整整 1 个小时的时间采集了这些木头，以扩张你的农庄。但是，此时一位"
+  },
+  {
+   "tag": "ISPOILER",
+   "raw": "[ISPOILER]"
+  },
+  {
+   "text": "邪恶的"
+  },
+  {
+   "tag": "ISPOILER",
+   "raw": "[/ISPOILER]",
+   "close": true
+  },
+  {
+   "text": "腐竹盯上了你，由于你砍伐了大量的树木"
+  },
+  {
+   "tag": "ISPOILER",
+   "raw": "[ISPOILER]"
+  },
+  {
+   "text": "而没有践行可持续发展的理念"
+  },
+  {
+   "tag": "ISPOILER",
+   "raw": "[/ISPOILER]",
+   "close": true
+  },
+  {
+   "text": "，这位腐竹决定给你一点教训。\r\n　　跨过山和大海"
+  },
+  {
+   "tag": "ISPOILER",
+   "raw": "[ISPOILER]"
+  },
+  {
+   "text": "，穿过人山人海"
+  },
+  {
+   "tag": "ISPOILER",
+   "raw": "[/ISPOILER]",
+   "close": true
+  },
+  {
+   "text": "，你终于到达了你的农庄。而此时，这位腐竹已经通过插件看透了你的背包，并准备了以下指令：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/clear @a[name=\"lbwnb\"] log 0"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　激动万分的时刻到了！你颤抖地打开了工作台，开启农庄扩建的第一步。但就在你正要将橡木放进工作台的时候，突然之间，全部橡木消失了！\r\n \r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "　　<"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 170, 0)]",
+   "arg": "rgb(0, 170, 0)"
+  },
+  {
+   "text": "[生存 1 区]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "lbwnb>?\r\n　　<"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 170, 0)]",
+   "arg": "rgb(0, 170, 0)"
+  },
+  {
+   "text": "[生存 1 区]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "lbwnb>为啥我一大堆橡木突然不见了？（\r\n　　<"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 170, 0)]",
+   "arg": "rgb(0, 170, 0)"
+  },
+  {
+   "text": "[生存 2 区]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "YYT>???\r\n　　<"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 170, 0)]",
+   "arg": "rgb(0, 170, 0)"
+  },
+  {
+   "text": "[生存 1 区]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "lbwnb>但云杉木还在啊？"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　也许是这个土豆服务器刚好吃掉了你的橡木。运气问题？这么想着，你又花了亿点时间收集了足够多的橡木。以防万一，过程中每过几分钟你都会检查一遍背包里，然而一切正常。但是在暗处，有一个隐形的人一直在背后跟踪着你，ta 已经准备好了第二条指令：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/clear @a[name=\"lbwnb\"] log -1"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "　　<"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 170, 0)]",
+   "arg": "rgb(0, 170, 0)"
+  },
+  {
+   "text": "[生存 1 区]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "lbwnb>xdm我要打开工作台了，祝天下再无土豆服务器！\r\n　　<"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 170, 0)]",
+   "arg": "rgb(0, 170, 0)"
+  },
+  {
+   "text": "[生存 2 区]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "YYT>awa\r\n　　<"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 170, 0)]",
+   "arg": "rgb(0, 170, 0)"
+  },
+  {
+   "text": "[生存 1 区]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "lbwnb>???\r\n　　<"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(0, 170, 0)]",
+   "arg": "rgb(0, 170, 0)"
+  },
+  {
+   "text": "[生存 1 区]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "lbwnb>好了，这下所有原木都不见了（"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　你刚想抨击一下这个土豆服务器，突然之间，一道金光闪瞎了你的 24K 钛合金狗眼！\r\n\r\n　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "<工作台之神>年轻的 lbwnb 哟！刚才服务器吞掉的是这些金块还是这些钻石块？"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　\r\n　　你一脸懵逼，回答说：“不是，是一堆木头（”\r\n　　\r\n　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "<工作台之神>诚实的好孩子，这是你的木头。为了奖励你的诚实，既然你这么需要木头，那么老夫再送你一些树苗～"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　你还来不及感到失望，然后就见到了混杂在一堆树苗中的点券......\r\n　　注意到了吗？第一个指令中，腐竹使用了 0 作为数据值，清除了你的全部橡木。而第二条指令使用了 -1 作为数据值，却清除了你的全部原木！"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "这是为什么？"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　如果你在 Minecraft Wiki 上做一番调查，就会发现橡木和云杉木其实共用了同一个物品（方块） ID，也就是 minecraft:log。为了区分这两种木头，橡木使用了 0 作为数据值，而云杉木和其他木头使用了更大的值作为数据值。因此，当指定数据值为 0 时，其实就相当于指定了需要清除的木头种类，即橡木原木。但数据值一定是一个非负整数，而 -1 是一个负数，这意味着 -1 不可能代表一个特定的木头种类。那么 -1 代表什么呢？\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "匹配当前物品 ID 下的所有物品种类！"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　下面举个栗子：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/clear @a diamond 0 1"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　这个是以基岩版的格式为基础的，Java 版 1.12.2 之后版本需去掉那个 0。意思是清除所有玩家物品栏里的数据值是 0 的钻石，并且只清除 1 颗。\r\n　　需要注意，clear这条指令及其特殊，它的数据值参数是在数量参数前面的，而不是填完数量参数再填数据值参数！\r\n　　清除的最大数量可以填0。但是填0又有什么用呢，这又不会清除任何物品？\r\n　　实际上，这个操作及其有用，因为我们可以通过填0来探测一个玩家背包里是否有指定物品！比如：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/clear @p minecraft:diamond_sword -1 0 {display:{Name:\"天空之脊\"}}"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　就可以在 Java1.13 以下版本中检测该玩家是否持有一把叫做“天空之脊”的钻石剑。若要在Java1.13及以上版本使用，则需要改为：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/clear @p minecraft:diamond_sword{display:{Name:\"\\\"天空之脊\\\"\"}} 0"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　（没错，后面那串就是 NBT，这串自定义名字的具体操作会在第一百零四章：物品的显示属性讲到）\r\n　　如果该玩家并没有持有天空之脊，那么将会返回：\r\n\r\n　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "无法清除 XXX 的物品栏，没有可清除的物品"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　如果该玩家持有一把，那么将会返回：\r\n\r\n　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "XXX 有1个符合条件的物品"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　可惜的是，到底有多少物品只会显示，却不会通过红石比较器转换为红石信号。"
+  }
+ ],
+ "raw_sha256": "3a493c91d56e7e83c60fcc836ee9bb0d26efb81597a1aab2f272abf62d39ac98",
+ "text_sha256": "9e160003a9e523b42922831ffbeca8088897401e6a01267273a358f7fccffed9",
+ "chars": 2697
+}

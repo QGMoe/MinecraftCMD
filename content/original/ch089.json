@@ -1,0 +1,2035 @@
+{
+ "id": "ch089",
+ "kind": "chapter",
+ "number": 89,
+ "title": "第八十九章 ride-骑乘",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   6615,
+   6722
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第八十九章_ride-骑乘"
+    },
+    {
+     "t": "第八十九章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ride-骑乘",
+     "p": {}
+    }
+   ],
+   "text": "第八十九章 ride-骑乘",
+   "sha256": "0d52aeea7d1c396718bbde673fe8ed3dcdc21c09b4bff54f7463dfb962322934",
+   "i": 6615
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（该章节已于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2022年7月25日重写，原章节为『战利品表（战利品表 下）（/loot 下）』）",
+     "p": {}
+    }
+   ],
+   "text": "（该章节已于2022年7月25日重写，原章节为『战利品表（战利品表 下）（/loot 下）』）",
+   "sha256": "58e3de5f619944e40cbfd95c4f441cfeff48981668d4ff1fbc530fcd3ea37cf2",
+   "i": 6616
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们知道，在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft中，玩家可以骑上马，骷髅可以骑上蜘蛛，僵尸可以骑上鸡......但不管怎样，我们都很难使用指令来控制实体的骑乘状态。在Java版这尚且可以通过NBT做到，但在基岩版呢？基岩版可用不了NBT。",
+     "p": {}
+    }
+   ],
+   "text": "我们知道，在Minecraft中，玩家可以骑上马，骷髅可以骑上蜘蛛，僵尸可以骑上鸡......但不管怎样，我们都很难使用指令来控制实体的骑乘状态。在Java版这尚且可以通过NBT做到，但在基岩版呢？基岩版可用不了NBT。",
+   "sha256": "9f8dfca3199048e5457776ca2e156dd411dece6f70efba291d87ad4e06d2d09b",
+   "i": 6617
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "好消息是，基岩版虽然用不了",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "NBT，但Mojang却给了我们一条指令：",
+     "p": {}
+    }
+   ],
+   "text": "好消息是，基岩版虽然用不了NBT，但Mojang却给了我们一条指令：",
+   "sha256": "78e4dbb78afad5f19d89084789018a2df764b185135cd137e2077fabb50baf51",
+   "i": 6618
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride",
+     "p": {}
+    }
+   ],
+   "text": "/ride",
+   "sha256": "fbde0c9f468c4a86330beae1ce8dbd5dce9d4480c8a1222525d6267956742ccf",
+   "i": 6619
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：控制实体骑乘",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：控制实体骑乘",
+   "sha256": "8ef6676ffc1337439d0e9dcebb700e4b18544fd494d50e803751daf87cb38b45",
+   "i": 6620
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.16.100-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：基岩版1.16.100-今",
+   "sha256": "ecc5577d2a014bfabde3b3f4a1e130299bf44f893ec2fa3cb766551121df50e8",
+   "i": 6621
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：基岩版-1",
+   "sha256": "6211c898a8cc8649a12ee9536dccc4443b9a29d61e73ea3c8c05de42660a2fcd",
+   "i": 6622
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 6623
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 6624
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride <骑手实体> ...",
+     "p": {}
+    }
+   ],
+   "text": "/ride <骑手实体> ...",
+   "sha256": "5f0ce1c5ab846f825f1d5740e18eb306d3548a3f973116c8a07de2d8b70c869e",
+   "i": 6625
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... start_riding <坐骑实体> [传送模式] [骑乘建立要求]",
+     "p": {}
+    }
+   ],
+   "text": "... start_riding <坐骑实体> [传送模式] [骑乘建立要求]",
+   "sha256": "1e2151b838d456040b8578423f9cf33ba6b323ececef2a2177b9888e93036648",
+   "i": 6626
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\使得指定的骑手骑在指定的坐骑上\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\使得指定的骑手骑在指定的坐骑上\\\\",
+   "sha256": "84d2e825764ae0c1e9510742a47484442866e6e07dd22d7cf5bb6d8aa467c56a",
+   "i": 6627
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... stop_riding",
+     "p": {}
+    }
+   ],
+   "text": "... stop_riding",
+   "sha256": "0537aefa5bc2b8489b34047db247272aefeb4838934d6053a7b55846fcdd5c4f",
+   "i": 6628
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\使得指定的骑手停止骑乘\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\使得指定的骑手停止骑乘\\\\",
+   "sha256": "c85270b850f96804c9439cdc2d0a712c1b4b08ec13c6f69fdf1788b4f1ee2190",
+   "i": 6629
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... summon_ride <实体ID> [召唤要求] [生成事件] [实体名称]",
+     "p": {}
+    }
+   ],
+   "text": "... summon_ride <实体ID> [召唤要求] [生成事件] [实体名称]",
+   "sha256": "573b4270b2e59b63dc953ebef709d4180086debc848078c97f0a37e40d969833",
+   "i": 6630
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\给骑手召唤一个坐骑，让骑手骑上去\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\给骑手召唤一个坐骑，让骑手骑上去\\\\",
+   "sha256": "1e00966316594232d873a322a7604881368e94f075c3e3b5e1d24807cbff4d9b",
+   "i": 6631
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride <坐骑实体> ...",
+     "p": {}
+    }
+   ],
+   "text": "/ride <坐骑实体> ...",
+   "sha256": "bf8c2dab3f35ad70446bb4afb749aaacb285f953465c77a90430d332ddb0743f",
+   "i": 6632
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... evict_riders",
+     "p": {}
+    }
+   ],
+   "text": "... evict_riders",
+   "sha256": "57fcbdedf58ecefb87f22547ae4d344a2c38275b92553073acafa7124d229e37",
+   "i": 6633
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\使得指定的坐骑逐出它们的骑手\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\使得指定的坐骑逐出它们的骑手\\\\",
+   "sha256": "b502c008c4d736aaee6bb3711e444608262db15c1ee46d903add074a79700c56",
+   "i": 6634
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... summon_rider <实体ID> [生成事件] [实体名称]",
+     "p": {}
+    }
+   ],
+   "text": "... summon_rider <实体ID> [生成事件] [实体名称]",
+   "sha256": "ef9305cf1e9eaa5b3cf29f7e1fe2f18fa1574a4fdaba58e639d4e050949dddfc",
+   "i": 6635
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\给坐骑召唤一个骑手，让召唤出来的骑手骑在坐骑上\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\给坐骑召唤一个骑手，让召唤出来的骑手骑在坐骑上\\\\",
+   "sha256": "e867608999951e96e8375d09342575553dafa84fb7c4d0c0ece867e200415766",
+   "i": 6636
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "通过",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/ride指令，你可以指定实体骑或被骑在某些实体身上。让我们来试一试：",
+     "p": {}
+    }
+   ],
+   "text": "通过/ride指令，你可以指定实体骑或被骑在某些实体身上。让我们来试一试：",
+   "sha256": "ac314986e040bbd2611c82b66ba8cdd7c3693993495cf983fb24d107b6030779",
+   "i": 6637
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride @s start_riding @r[type=horse]",
+     "p": {}
+    }
+   ],
+   "text": "/ride @s start_riding @r[type=horse]",
+   "sha256": "f8002340d7f75cbb1db3eb814aa5449ccddf77d79c8d20a60d93873ca93cee63",
+   "i": 6638
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令将会使你随机骑在某一匹马的身上。等等，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "@r不是用来随机选择玩家的吗，怎么能够拿来随机选择马？",
+     "p": {}
+    }
+   ],
+   "text": "这条指令将会使你随机骑在某一匹马的身上。等等，@r不是用来随机选择玩家的吗，怎么能够拿来随机选择马？",
+   "sha256": "81a1db2ed84df2ec81a883af1dac53a70723f4789232cd65e9719f7c57d36cd3",
+   "i": 6639
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "@r确实是用来随机选择玩家的，但在除了Java1.13及以上版本之外，其他版本的@r都可以通过指定type参数来具体随机指定种类的实体。在上面的例子中，由于我们指定了type参数为马，所以@r[type=horse]在这边就是随机选择一匹马。",
+     "p": {}
+    }
+   ],
+   "text": "@r确实是用来随机选择玩家的，但在除了Java1.13及以上版本之外，其他版本的@r都可以通过指定type参数来具体随机指定种类的实体。在上面的例子中，由于我们指定了type参数为马，所以@r[type=horse]在这边就是随机选择一匹马。",
+   "sha256": "e07e0a94ea2449aecb374b9733d0ab83d66e0f81dd0f071e092f1cacc37da02c",
+   "i": 6640
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "运行上述指令后，你虽然骑在了马身上，但同时也被传送了，毕竟游戏总不可能让你隔空骑马吧？但有时候可能你并不想被传走，而是想让那匹马自己过来，这时候该怎么办？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "运行上述指令后，你虽然骑在了马身上，但同时也被传送了，毕竟游戏总不可能让你隔空骑马吧？但有时候可能你并不想被传走，而是想让那匹马自己过来，这时候该怎么办？",
+   "sha256": "78ca5c6329e35b67d10bb71ac21c0a9492c201553a61f0e0d331e549a05f7273",
+   "i": 6641
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "指定『传送模式』参数。这个参数可以填写两个值：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "指定『传送模式』参数。这个参数可以填写两个值：",
+   "sha256": "bcacc7951fcabc6b1c6ef21881a7e8ecaf12d408c26c535ab4085b2f4b05260b",
+   "i": 6642
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "teleport_ride——将坐骑传送至骑手",
+     "p": {}
+    }
+   ],
+   "text": "teleport_ride——将坐骑传送至骑手",
+   "sha256": "8e739e26e7795ff6e01baf7f8d074265cd790511662db90c1879a43db831ca88",
+   "i": 6643
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "teleport_rider——将骑手传送至坐骑（默认）",
+     "p": {}
+    }
+   ],
+   "text": "teleport_rider——将骑手传送至坐骑（默认）",
+   "sha256": "b3b497952eeb2a72990ac011728b5026ebca0bfa496f55ebb7008713b65366a2",
+   "i": 6644
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 6645
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride @s start_riding @r[type=horse] teleport_ride",
+     "p": {}
+    }
+   ],
+   "text": "/ride @s start_riding @r[type=horse] teleport_ride",
+   "sha256": "0eb388ab5b7206983061dfb1ee09e744d852f7b8da67652b490756b4d533ebc2",
+   "i": 6646
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令将会随机一匹马传送到你下面，然后让你骑在它的身上。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令将会随机一匹马传送到你下面，然后让你骑在它的身上。",
+   "sha256": "d837a1306d2913311666fec6c349d2880b20a81b4e9dd7cdb8adcb5da859bcab",
+   "i": 6647
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『骑乘建立要求』这个参数适用于当你指定多个骑手时的情况，它可以填写两个值：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "『骑乘建立要求』这个参数适用于当你指定多个骑手时的情况，它可以填写两个值：",
+   "sha256": "efd9470011c74f2da2a13aca84148eabb95241cc184c11aa765772a64819284b",
+   "i": 6648
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "if_group_fits——当所有骑手都满足骑乘要求时才会建立骑乘关系",
+     "p": {}
+    }
+   ],
+   "text": "if_group_fits——当所有骑手都满足骑乘要求时才会建立骑乘关系",
+   "sha256": "6c9ba79d1ead135bf9e48e0efcb814210127e103f46378ed3a2e8d9abbca342f",
+   "i": 6649
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "until_full——给每一个满足骑乘要求的骑手建立骑乘关系（默认）",
+     "p": {}
+    }
+   ],
+   "text": "until_full——给每一个满足骑乘要求的骑手建立骑乘关系（默认）",
+   "sha256": "47516a14105e18677f67a24578e95a6c0e9818dcfd7f4cc4df473090268459cd",
+   "i": 6650
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 6651
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride @e start_riding @r[type=chicken] teleport_rider if_group_fits",
+     "p": {}
+    }
+   ],
+   "text": "/ride @e start_riding @r[type=chicken] teleport_rider if_group_fits",
+   "sha256": "1c6fe2f09d50dbf27072ac50a1b7ca5281b7ec38fea5fdbc2946f9bdc2115be9",
+   "i": 6652
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride @e start_riding @r[type=chicken] teleport_rider until_full",
+     "p": {}
+    }
+   ],
+   "text": "/ride @e start_riding @r[type=chicken] teleport_rider until_full",
+   "sha256": "1467db3d22c761191e35e5099ec5f0d04337b9e514f107c17035b545ca9be433",
+   "i": 6653
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "假设现在有三个实体：你自己、一只成年僵尸、一只鸡。运行第一条指令，将不会发生什么，因为你不可能骑在鸡上面，鸡也不能骑在自己上面，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "@e选中的三个骑手中有两个不满足要求，自然僵尸也不会骑上去。运行第二条指令，僵尸就会骑到鸡的上面，因为虽然你和鸡都不满足要求，但僵尸满足了要求，自然就和鸡建立起了骑乘关系。（你干嘛~哎哟）",
+     "p": {}
+    }
+   ],
+   "text": "假设现在有三个实体：你自己、一只成年僵尸、一只鸡。运行第一条指令，将不会发生什么，因为你不可能骑在鸡上面，鸡也不能骑在自己上面，@e选中的三个骑手中有两个不满足要求，自然僵尸也不会骑上去。运行第二条指令，僵尸就会骑到鸡的上面，因为虽然你和鸡都不满足要求，但僵尸满足了要求，自然就和鸡建立起了骑乘关系。（你干嘛~哎哟）",
+   "sha256": "4bd8d3592b2fad7dc785d867877f08a660d8208be752feced8024f1918367810",
+   "i": 6654
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个僵尸还有用，让我们把它从鸡上弄下来：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这个僵尸还有用，让我们把它从鸡上弄下来：",
+   "sha256": "1a3c7b5aee87e61dcc0bc437aeec3f9b0295ba013ec65f5567b85b81ca1935c6",
+   "i": 6655
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride @e[type=zombie] stop_riding",
+     "p": {}
+    }
+   ],
+   "text": "/ride @e[type=zombie] stop_riding",
+   "sha256": "8bfec8fd827c44137e01ae0ad841f9ffeceb4ca3e57765f3e6c8e3496e1f32e4",
+   "i": 6656
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "summon_ride子命令可以直接生成一个实体作为坐骑，当然，如果骑手不符合被生成实体的骑乘要求，那么实体即使被召唤出来也不会被骑乘，仅仅只会单纯生成出来。还是以刚才的条件，举个例子：",
+     "p": {}
+    }
+   ],
+   "text": "summon_ride子命令可以直接生成一个实体作为坐骑，当然，如果骑手不符合被生成实体的骑乘要求，那么实体即使被召唤出来也不会被骑乘，仅仅只会单纯生成出来。还是以刚才的条件，举个例子：",
+   "sha256": "04f6da41c413b3a059490fcc31bd53b33be0fbb67de1f6dbaf1b046d50417f73",
+   "i": 6657
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride @e[type=zombie] summon_ride minecraft:boat",
+     "p": {}
+    }
+   ],
+   "text": "/ride @e[type=zombie] summon_ride minecraft:boat",
+   "sha256": "23d652f8299b2ac18d7be26f9dc19ff1e75762c2dec2eeb829d5fe9ed33cf145",
+   "i": 6658
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会给那位僵尸生成一艘船，然后让它坐进去。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会给那位僵尸生成一艘船，然后让它坐进去。",
+   "sha256": "6cfd73b1f74eb1f3e44254c2cd365fd619b394f906368b0ae023610b07fbf24d",
+   "i": 6659
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『召唤要求』参数可以填写三个值：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "『召唤要求』参数可以填写三个值：",
+   "sha256": "5a1469b86f9f2d6ed97eb1d4cad09569643746bb146b76c6eed1ac1a2e300e10",
+   "i": 6660
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "skip_riders ——仅仅为没有坐骑的骑手召唤坐骑",
+     "p": {}
+    }
+   ],
+   "text": "skip_riders ——仅仅为没有坐骑的骑手召唤坐骑",
+   "sha256": "96a5098bd4d38c251037f5ada6b33a8270d391f487ac488f188e1139b7a99204",
+   "i": 6661
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "no_ride_change ——仅仅为没有坐骑且也没有被骑乘的骑手召唤坐骑",
+     "p": {}
+    }
+   ],
+   "text": "no_ride_change ——仅仅为没有坐骑且也没有被骑乘的骑手召唤坐骑",
+   "sha256": "6b7c14a21fceed9cf561c446c1d8a47ffd4594710237409b4c3c43a40b4028ca",
+   "i": 6662
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "reassign_rides——为所有骑手召唤坐骑（默认）",
+     "p": {}
+    }
+   ],
+   "text": "reassign_rides——为所有骑手召唤坐骑（默认）",
+   "sha256": "49d5b95f79b236d2dc10d3a5740aa14f7fe8290db195597eb8c3a03be01042a1",
+   "i": 6663
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举些例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举些例子：",
+   "sha256": "6becb7b7f65b90f3f9691efbc5b22a4552dc1bedb075d7686cbdee2ea5e9da10",
+   "i": 6664
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride @e summon_ride minecraft:boat skip_riders",
+     "p": {}
+    }
+   ],
+   "text": "/ride @e summon_ride minecraft:boat skip_riders",
+   "sha256": "ccd8e6dd3942bef71c2bfa322421ac40debf721768aebdde2603d5dbb6b6ea93",
+   "i": 6665
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride @e summon_ride minecraft:boat no_ride_change",
+     "p": {}
+    }
+   ],
+   "text": "/ride @e summon_ride minecraft:boat no_ride_change",
+   "sha256": "6cb8c067a06804b80bc89f9fe520714624ffe01322e297e1c5cd5263aafaf026",
+   "i": 6666
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride @e summon_ride minecraft:boat reassign_rides",
+     "p": {}
+    }
+   ],
+   "text": "/ride @e summon_ride minecraft:boat reassign_rides",
+   "sha256": "6f7535452e6f4437643ecbc29493fe18396980d08291aa5ffbc20a7440da2cbd",
+   "i": 6667
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "还是以上面的情况为条件。如果我们运行了第一条指令，游戏将会尝试给玩家（你自己）、鸡和船召唤坐骑，僵尸由于已经有一个船作为坐骑所以不会尝试召唤。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "还是以上面的情况为条件。如果我们运行了第一条指令，游戏将会尝试给玩家（你自己）、鸡和船召唤坐骑，僵尸由于已经有一个船作为坐骑所以不会尝试召唤。",
+   "sha256": "a7cebc0c7ef76d7a86ed7a2b89d0dea26c0b47677dcb4de8ad35f3c33ad5feab",
+   "i": 6668
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果我们运行第二条指令，游戏将会仅给玩家和鸡召唤船作为坐骑。僵尸由于已经有坐骑、船由于被僵尸骑乘，所以两者都不会尝试召唤坐骑。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "如果我们运行第二条指令，游戏将会仅给玩家和鸡召唤船作为坐骑。僵尸由于已经有坐骑、船由于被僵尸骑乘，所以两者都不会尝试召唤坐骑。",
+   "sha256": "1be4e04ead6136f169b98acbefd2d5c2e4fe1cdaa9feaf4a35c1dd8344ebba60",
+   "i": 6669
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果我们运行第三条指令，游戏将会给所有实体都尝试召唤坐骑。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "如果我们运行第三条指令，游戏将会给所有实体都尝试召唤坐骑。",
+   "sha256": "fd142fb8f702dbc7e73b8946ade2d317a342276f08a44178a76860e53c47406f",
+   "i": 6670
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当然，不管你运行的是上面哪条指令，最终结果都是你和鸡会坐上船，僵尸和僵尸的船不会发生变化。因为僵尸已经有一个船作为坐骑，再召唤的话，僵尸的新坐骑必定会插入到僵尸和船之间，骑着船也被僵尸骑，也就是得满足两个实体的骑乘要求。而船肯定不会被船骑乘，也不会骑着一个船，所以僵尸和船都不会发生变化。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "当然，不管你运行的是上面哪条指令，最终结果都是你和鸡会坐上船，僵尸和僵尸的船不会发生变化。因为僵尸已经有一个船作为坐骑，再召唤的话，僵尸的新坐骑必定会插入到僵尸和船之间，骑着船也被僵尸骑，也就是得满足两个实体的骑乘要求。而船肯定不会被船骑乘，也不会骑着一个船，所以僵尸和船都不会发生变化。",
+   "sha256": "0b3e711daaac0f4cb0364ea49d57efd489c37ec090adb9962d7edaadbb9fe0f3",
+   "i": 6671
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "evict_riders子命令可以使坐骑赶走自己的骑手：",
+     "p": {}
+    }
+   ],
+   "text": "evict_riders子命令可以使坐骑赶走自己的骑手：",
+   "sha256": "8e622f23eee52727cfb6005ae356f6a568600c5b1935e41a224c3fefe4928569",
+   "i": 6672
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride @e evict_riders",
+     "p": {}
+    }
+   ],
+   "text": "/ride @e evict_riders",
+   "sha256": "f3f2e8b5d895beb29a8df00ae75ea92e442c58987199852cff81d8a4372369f9",
+   "i": 6673
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会使得所有实体赶走自己的骑手，也就是让你、鸡和僵尸都从船上下来。然后你就可以把船回收一下。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会使得所有实体赶走自己的骑手，也就是让你、鸡和僵尸都从船上下来。然后你就可以把船回收一下。",
+   "sha256": "a9a49e3c297d1ec58ab770a0c53336c0215336ea5cd95c9a29b44abdcd54e1a6",
+   "i": 6674
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "summon_rider子命令可以为一个坐骑生成骑手，举个例子：",
+     "p": {}
+    }
+   ],
+   "text": "summon_rider子命令可以为一个坐骑生成骑手，举个例子：",
+   "sha256": "2399f85732269893894e24f0346d3c9409cab98ddda834bdacd682053176280b",
+   "i": 6675
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride @e[type=zombie] summon_rider minecraft:zombie",
+     "p": {}
+    }
+   ],
+   "text": "/ride @e[type=zombie] summon_rider minecraft:zombie",
+   "sha256": "db1ab46b1b50a727bcd3b8cdc8192ebfd21db24cbf4155af894524ea062aaa66",
+   "i": 6676
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "仍然以上面的情况为条件，这条指令将会给那只僵尸生成一只新的僵尸，然后让新的僵尸骑在老的僵尸上面。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "仍然以上面的情况为条件，这条指令将会给那只僵尸生成一只新的僵尸，然后让新的僵尸骑在老的僵尸上面。",
+   "sha256": "7f30dff2d99ea652618df23b3b15d0862745b6a5617ab27e68cc7f9a7d38e7f6",
+   "i": 6677
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "值得注意的是，由于成年僵尸也可以像幼年僵尸一样骑在成年僵尸上，这就给了我们一条途径在基岩版弄叠罗汉：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "值得注意的是，由于成年僵尸也可以像幼年僵尸一样骑在成年僵尸上，这就给了我们一条途径在基岩版弄叠罗汉：",
+   "sha256": "10229c680c47c7264ab41ce8965d5388a954c8cc326f05e3c8f5cda571f074c4",
+   "i": 6678
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride @e[type =zombie] summon_rider zombie minecraft:as_adult",
+     "p": {}
+    }
+   ],
+   "text": "/ride @e[type =zombie] summon_rider zombie minecraft:as_adult",
+   "sha256": "97cd968d75f0223b380847c1c5d20203b636702492aff2575051832481a9d316",
+   "i": 6679
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会给让所有僵尸尝试生成一个新的成年僵尸作为自己的骑手，然后",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": ".......你重复运行下试试？",
+     "p": {}
+    }
+   ],
+   "text": "这将会给让所有僵尸尝试生成一个新的成年僵尸作为自己的骑手，然后.......你重复运行下试试？",
+   "sha256": "88aa6cd4e6deb1e75b2e9d7263e4ab2124de9c38759dfbbbbaaf86761bd3a3e4",
+   "i": 6680
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/ride指令的基本用法，也就是本章的全部内容。",
+     "p": {}
+    }
+   ],
+   "text": "这就是/ride指令的基本用法，也就是本章的全部内容。",
+   "sha256": "e8150f3d9343d2d8ade4fc7b27b7ddb21f8bd8fe77ee6b834aebba070a67d6b4",
+   "i": 6681
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "附表：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/ride历史",
+     "p": {}
+    }
+   ],
+   "text": "附表：/ride历史",
+   "sha256": "ed7133a39dcb622b261c9fe82a4733496f81460f0fb5e4278c46e346edd781ee",
+   "i": 6682
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "基岩版",
+   "sha256": "e1ef194dc07360ceff0a1bfe2e5ddb80aa088939ada629f4c1c7f9bde5641ae2",
+   "i": 6683
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16.100——加入了/ride",
+     "p": {}
+    }
+   ],
+   "text": "1.16.100——加入了/ride",
+   "sha256": "4b46ace77190bc0d90a32c125ab7ad79163a3fe12c7386afa88a1718cf5c50da",
+   "i": 6684
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6685
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6686
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6687
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6688
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6689
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6690
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6691
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6692
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 6693
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "自然生成的僵尸，有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "5%的概率生成出一只幼年僵尸。幼年僵尸不可被成年僵尸骑乘，因此当指令『/ride @e[type=zombie] summon_ride zombie』在目标选择器『@e[type=zombie]』只选择到一个僵尸的情况下生成出一只幼年僵尸时，指令将执行失败，返回的成功次数为0。",
+     "p": {}
+    }
+   ],
+   "text": "自然生成的僵尸，有5%的概率生成出一只幼年僵尸。幼年僵尸不可被成年僵尸骑乘，因此当指令『/ride @e[type=zombie] summon_ride zombie』在目标选择器『@e[type=zombie]』只选择到一个僵尸的情况下生成出一只幼年僵尸时，指令将执行失败，返回的成功次数为0。",
+   "sha256": "2d4eafde86c66ab65f2e8048cc994724b03bf4de54e299cf4b6e0df23cf049f6",
+   "i": 6694
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "也就是说，上述指令有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "5%的概率执行失败。我们可以造一个命令模块验证一下这5%的概率：",
+     "p": {}
+    }
+   ],
+   "text": "也就是说，上述指令有5%的概率执行失败。我们可以造一个命令模块验证一下这5%的概率：",
+   "sha256": "0dbc63c9a3206ce3a8eb0dcf5f8a2a4b23f826b6cebfd5da01c606648510ce12",
+   "i": 6695
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（指令版本：基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.19，未开启实验性功能）",
+     "p": {}
+    }
+   ],
+   "text": "（指令版本：基岩版1.19，未开启实验性功能）",
+   "sha256": "9a1b3592385ea44ffdbcfd9faa39951f5687286ed04547128c116082ea7a3ca8",
+   "i": 6696
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A→B→C→D→E→F→G→",
+     "p": {}
+    }
+   ],
+   "text": "A→B→C→D→E→F→G→",
+   "sha256": "6c677bef29260849f4ca8cb0e504a4521ded8ff989dc663ae095b9a8aaa51acb",
+   "i": 6697
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A[重][无][红]······ride @e[type=zombie,name=a] summon_ride zombie reassign_rides minecraft:entity_spawned",
+     "p": {}
+    }
+   ],
+   "text": "A[重][无][红]······ride @e[type=zombie,name=a] summon_ride zombie reassign_rides minecraft:entity_spawned",
+   "sha256": "cec722776ef91abb4122ad02121b041dffeef8a88cf40ecf9d668f6f4f333d25",
+   "i": 6698
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B[链][限][始]······scoreboard players add count test 1",
+     "p": {}
+    }
+   ],
+   "text": "B[链][限][始]······scoreboard players add count test 1",
+   "sha256": "d29c777abcaeb9771e871b24114e8a4e081e96da65fb0e66561b7caed4f6b039",
+   "i": 6699
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C[链][无][始]······ride @e[type=zombie,name=a] stop_riding",
+     "p": {}
+    }
+   ],
+   "text": "C[链][无][始]······ride @e[type=zombie,name=a] stop_riding",
+   "sha256": "357d50b288c3aa9e1c0f933e64b2e23def0170f400d12f3c2f9552d82acf1f91",
+   "i": 6700
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "D[链][无][始]······execute @e[type=zombie,name=a] ~ ~ ~ kill @e[type=zombie,r=6,name=!a]",
+     "p": {}
+    }
+   ],
+   "text": "D[链][无][始]······execute @e[type=zombie,name=a] ~ ~ ~ kill @e[type=zombie,r=6,name=!a]",
+   "sha256": "53ad10c893faf3b9a383f059d2aeb5c11a52261939fb3812cb161414f8c52b0a",
+   "i": 6701
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "E[链][无][始]·······execute @e[type=zombie,name=a] ~ ~ ~ kill @e[type=item]",
+     "p": {}
+    }
+   ],
+   "text": "E[链][无][始]·······execute @e[type=zombie,name=a] ~ ~ ~ kill @e[type=item]",
+   "sha256": "d7f12e9cf6201d9244bdf179659968e62f79812183ce84bbd22ea3f0e72460cb",
+   "i": 6702
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "F[链][无][始]·······scoreboard players add times test 1",
+     "p": {}
+    }
+   ],
+   "text": "F[链][无][始]·······scoreboard players add times test 1",
+   "sha256": "8e46da3afb41f7685b67f61c0bab3f1936bd3f3d812d9a56a91055e52001ff3f",
+   "i": 6703
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "G[链][无][始]······tp @e[type=zombie,name=a] -16 -60 0",
+     "p": {}
+    }
+   ],
+   "text": "G[链][无][始]······tp @e[type=zombie,name=a] -16 -60 0",
+   "sha256": "19858925bec90eac3602fca81dd4ffc5a9d4436fbb4822c5b6686154e9167e2b",
+   "i": 6704
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\图例\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\图例\\\\",
+   "sha256": "6097d5dce05b1bf2cafcba4dcefc6710f65576156872fc736a7b69780bf57158",
+   "i": 6705
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "[重]重复；[无]无条件；[红]需要红石；[脉]脉冲；[限]有条件的；[始]始终活动；[链]连锁",
+     "p": {}
+    }
+   ],
+   "text": "[重]重复；[无]无条件；[红]需要红石；[脉]脉冲；[限]有条件的；[始]始终活动；[链]连锁",
+   "sha256": "182672cf88666b9ac46c3cc7322fb2bc90d9d7d982a3e4c190828423b1bf816f",
+   "i": 6706
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\使用到的计分项\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\使用到的计分项\\\\",
+   "sha256": "6a5166eb1dba4730f797e4eb6737b1d84e81929aaf1ccec1e4e5f0564625daa1",
+   "i": 6707
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "test",
+     "p": {}
+    }
+   ],
+   "text": "test",
+   "sha256": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+   "i": 6708
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\使用到的变量\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\使用到的变量\\\\",
+   "sha256": "cf13a5278015d94db63ba8c8813c40877f91b5e39c527894d03e85e709ac6dbc",
+   "i": 6709
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "count（指令成功次数）、times（指令执行次数）",
+     "p": {}
+    }
+   ],
+   "text": "count（指令成功次数）、times（指令执行次数）",
+   "sha256": "be6cd77d5cac378ccba79072433689e54cbe5ecefaaa9f24e9accd91d1e4ee1d",
+   "i": 6710
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面的模块会不断重复执行『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "ride @e[type=zombie,name=a] summon_ride zombie reassign_rides minecraft:entity_spawned』这条指令，并计算出指令的成功次数和执行次数。经过运行，加上一点儿人工计算，就可以得到以下数据：",
+     "p": {}
+    }
+   ],
+   "text": "上面的模块会不断重复执行『ride @e[type=zombie,name=a] summon_ride zombie reassign_rides minecraft:entity_spawned』这条指令，并计算出指令的成功次数和执行次数。经过运行，加上一点儿人工计算，就可以得到以下数据：",
+   "sha256": "11a3df02e80e88c4b76137c3d449e3e74ee34eb15a42a26c51db42c4349e376e",
+   "i": 6711
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "执行",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1784次，成功1699次，差值85，失败概率约4.76%",
+     "p": {}
+    }
+   ],
+   "text": "执行1784次，成功1699次，差值85，失败概率约4.76%",
+   "sha256": "2532cfbe1efdc64f01c78c81e29595df1f65534910618cc6a290ea6ae6e34d11",
+   "i": 6712
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "执行",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "10000次，成功9488次，差值512，失败概率约5.12%",
+     "p": {}
+    }
+   ],
+   "text": "执行10000次，成功9488次，差值512，失败概率约5.12%",
+   "sha256": "b76fc4c7a31426562859c1f6f77a6393243e8642e77e8e59c550206e8d0529b4",
+   "i": 6713
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "可见，概率差不多就是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "5%。",
+     "p": {}
+    }
+   ],
+   "text": "可见，概率差不多就是5%。",
+   "sha256": "ff754fd8d50b4b14ebb6b4cd30e562c1b23bad5c6908f53af8e2e31c41db0ada",
+   "i": 6714
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为什么我要提这东西呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "为什么我要提这东西呢？",
+   "sha256": "0cc29820e476287e23805ebb402c8a68c15c4463d5b88a49075bf56257c5b5df",
+   "i": 6715
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/ride作为一个使得玩家能够控制实体骑乘的指令，竟然能够因为这个特性而用于概率计算中，挺令人惊讶的是不是？但其实，不管是对于指令还是隔壁红石来说，能够巧妙运用游戏本身的特性，就是进阶玩家的基本要求。/ride只是一个例子，像这样的例子还有很多。特别是在基岩版，由于指令自由度没有Java版高，这迫使得许多基岩版的指令玩家大显神通，通过许多看起来十分取巧的方法实现许多看似不可能实现的功能，这边举几个例子：",
+     "p": {}
+    }
+   ],
+   "text": "/ride作为一个使得玩家能够控制实体骑乘的指令，竟然能够因为这个特性而用于概率计算中，挺令人惊讶的是不是？但其实，不管是对于指令还是隔壁红石来说，能够巧妙运用游戏本身的特性，就是进阶玩家的基本要求。/ride只是一个例子，像这样的例子还有很多。特别是在基岩版，由于指令自由度没有Java版高，这迫使得许多基岩版的指令玩家大显神通，通过许多看起来十分取巧的方法实现许多看似不可能实现的功能，这边举几个例子：",
+   "sha256": "fd5d96a044e24faa9f1795679788589b3cc2b09f07e74bda7357b365b3e0dc13",
+   "i": 6716
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①通过玩家攻击隐形盔甲架来实现点击牌子、点击村民",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "NPC的效果",
+     "p": {}
+    }
+   ],
+   "text": "①通过玩家攻击隐形盔甲架来实现点击牌子、点击村民NPC的效果",
+   "sha256": "c328ff014675692c7509907d1a42f7c28a21cdc442a092b9e39bf9a2757d8e57",
+   "i": 6717
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②通过",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "tell指令能够使用目标选择器的特性，在tell指令中塞入大量的@e目标选择器并发送给指定玩家，来使得指定玩家游戏卡死以实现封禁的效果",
+     "p": {}
+    }
+   ],
+   "text": "②通过tell指令能够使用目标选择器的特性，在tell指令中塞入大量的@e目标选择器并发送给指定玩家，来使得指定玩家游戏卡死以实现封禁的效果",
+   "sha256": "f3b06ca56ea635c1175a99206ee1fa2ae620d2649b54e16545c93e03435acba9",
+   "i": 6718
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.13版本前，由于没有能够读取NBT数据的指令，因此当时普遍的方法是通过选取具有特定NBT标签值的实体并给予指定标签或分数，并使用穷举的方法来实现读取NBT数据的功能",
+     "p": {}
+    }
+   ],
+   "text": "③在Java1.13版本前，由于没有能够读取NBT数据的指令，因此当时普遍的方法是通过选取具有特定NBT标签值的实体并给予指定标签或分数，并使用穷举的方法来实现读取NBT数据的功能",
+   "sha256": "efafc88b7b9dee867ec151a93d4d571f5e1c440350f784547df520ba6194f38d",
+   "i": 6719
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "④通过",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "testforblocks指令比较命令方块，来实现检测物品和玩家名是否一致",
+     "p": {}
+    }
+   ],
+   "text": "④通过testforblocks指令比较命令方块，来实现检测物品和玩家名是否一致",
+   "sha256": "372021ccdabdb4aab0e86ada0bf6131afb0c97aa1915f1c9b5db7b8cd88a6f43",
+   "i": 6720
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以，有时候当你想实现一个功能时却不知道怎么实现，不妨放开脑洞，想一想一些指令的特性，或许你就有了思路！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "所以，有时候当你想实现一个功能时却不知道怎么实现，不妨放开脑洞，想一想一些指令的特性，或许你就有了思路！",
+   "sha256": "94993f9b9d6dc2553cd9e3a588586618d881309745484b3a7090a3fd7ce310a4",
+   "i": 6721
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本章到此完全为止。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "本章到此完全为止。",
+   "sha256": "3315cc5b36281184c986d2545d26ff28c38fb1de456491ff515fd0ee90e1d4ad",
+   "i": 6722
+  }
+ ],
+ "text_sha256": "86110c61c35ddd280541972da507e109c8d8617efb48180867eb800940966e7f",
+ "chars": 4233
+}

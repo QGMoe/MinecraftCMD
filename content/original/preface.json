@@ -1,0 +1,399 @@
+{
+ "id": "preface",
+ "kind": "preface",
+ "number": null,
+ "title": "序言",
+ "source": {
+  "file": "MineBBS/0声明部分.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "序言"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月3日 21:24 1647字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "（于2022年7月5日修改补充）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "　　《Minecraft》"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "是一款由"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "马库斯·阿列克谢·泊松（Markus Persson）"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "，也就是我们常说的"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "Notch"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，创办的"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "Mojang工作室"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "开发的一款"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "沙盒游戏"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。2014年时，Notch将整个Mojang卖给了微软。而现在，你正在看我介绍这款叫做Minecraft的游戏。\r\n　　看到书名时你应该就知道了，这本书的内容是关于Minecraft中指令的使用教程。至于为什么你会在一个99.99%的书都是小说的阅读平台上看到这本游戏工具书，这就说来话长了。\r\n　　注意！本书不是个游戏同人小说，就是个正儿八经的游戏教程。本教程适用于Minecraft各阶段玩家（云玩家、新手、普通玩家、大佬、萌新），并且最好至少要有一些Minecraft的基础知识（如创造和生存模式分别是什么东西，Minecraft游戏的基本玩法是什么等）。\r\n　　本书前期作者写得不好，目前正在翻新修改（比如这个序言就翻新好多遍了），你可能会发现有纰漏之处，欢迎指正。本书所讲到的指令涵盖：\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "Minecraft Java1.4.2~1.19.1"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "携带版（Minecraft: Pocket Edition）1.0.5~基岩版（Minecraft:Bedrock Edition）1.19.10"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　"
+  },
+  {
+   "tag": "ISPOILER",
+   "raw": "[ISPOILER]"
+  },
+  {
+   "text": "你可以加入QQ讨论群（太冷了）：936503067。"
+  },
+  {
+   "tag": "ISPOILER",
+   "raw": "[/ISPOILER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　那Minecraft中的"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "指令"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "到底是个什么东西？（已经知道的可以跳过，下面一大段都是给刚入门Minecraft的新手或没玩过Minecraft看的，玩过一段时间Minecraft的人应该非常清楚。）\r\n　　你大概应该知道编程是个什么东西吧？在编程中，你需要通过一行行代码来实现一些功能和流程，然后再由这些不同的功能和流程，加上亿些优化，就写成了一个简单的程序。而指令，虽然从狭义上来说并不是个编程语言，但从某个方面上来说，它本质上也确实有点类似于编程。\r\n　　但是这又跟我们本书有何关系呢？答案当然是有关系，但这是我们几百章之后的内容了。\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　所以指令到底是个什么东西？"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "通俗的来讲是这样的：你养了一条狗，为了使这只狗听话，你就需要一次次的训练它，让它对你说的某些特定的话或特定的行动产生条件反射。比如你每竖一次中指，就示意这只狗跑向你，久而久之，当这只狗看见你竖中指时，不需要你的示意，它就自动跑到你的身边来了。在这里，你的“竖中指”行为，就是一条指令，而这条指令会被指令接受者接收并执行，即“狗看见你竖中指然后跑到你身边”的行为。这就是“指令”这个词的基本含义。\r\n　　如果把这只狗换成Minecraft（这里没有任何贬低MC的意思），那指令在Minecraft的作用你应该能想到吧？通过某种方式发出特定的一串字符，就会让Minecraft做出一些事情，比如不保存并退出游戏（？Minecraft没这个指令吧？）。\r\n　　当然，Minecraft并没有反射弧，所以Minecraft中的指令和对狗发出的指令有些不同。具体的不同在于——Minecraft中的指令，可以设定“"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "参数"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "”。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "什么是“参数”呢？"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "我们知道，狗能理解这个指令并做出相应的动作是长久以来训练而成的。但像狗这种训练出的动作有个缺点——不会变通，即你并不能竖一个中指然后指了指十米开外的张三想让狗跑到张三身边，它仍然还是跑到你身边。放到Minecraft中，这就相当于是向Minecraft发出“杀死张三”的指令结果把自己给杀了（根据狗的思维方式，Minecraft只能理解“杀死”，但忽略了“张三”。并且因为“杀死”这条指令的效果是“杀死发出指令的人”，最终就导致你去世了）\r\n　　狗的思维凭借我们目前的技术还改变不了，但Minecraft的程序都是人写的，自然就要防止这种情况，让指令变得更加有用，于是就有了“参数”。参数可以在有限的范围内自由修改，这就增加了指令的自由度。有了“参数”后，“杀死张三”这条指令在Minecraft接收到时就会将其拆成两部分：①杀死②张三。“杀死”被Minecraft理解为将要执行的动作，“张三”被Minecraft理解为这动作要执行在一个叫“张三”的东西身上。于是，你成功把张三给杀了。其中，“张三”就是这条指令的参数，你可以将“张三”改为“李四”，甚至是“王五”，再执行，就会杀死不同的玩家。\r\n　　也就是说，指令本质上只是一串可以让Minecraft做出特定反应的文本。指令的执行过程简单来说也仅仅只有如下四个步骤：\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "执行者（如玩家）发送指令给Minecraft→Minecraft对收到的指令进行解析→如果指令语法正确则执行指令→返回指令执行结果"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在Minecraft真正的指令中，上面的“杀死张三”正确的写法为“/kill 张三”。这些内容你会在后面的章节中详细地了解到。如果你成功理解了上面对指令的描述，接下来几十章的内容你应该也能够成功理解。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "注：如果你直接跳过了前面的内容，直接就看到了序言这，还请先往前翻看看『作品相关』内的『阅读本书需注意事项』一章）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  }
+ ],
+ "raw_sha256": "dadfe34c3b0f29be49a0cd60bbc405cbffe5e2e96e2f30000e78baabc43d6d85",
+ "text_sha256": "67c50b340a80497ccf70d98e761295c5c945cb547f3cb57df45e90a037323727",
+ "chars": 2110
+}
