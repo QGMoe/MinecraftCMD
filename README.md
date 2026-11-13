@@ -78,6 +78,8 @@ npm run dev      # 本地开发
 npm run build    # 构建；构建前后会自动运行渲染校验与构建产物校验
 ```
 
+网站部署在 <https://cmd.qingu.moe/>（GitHub Pages，工作流见 `.github/workflows/pages.yml`，只在主仓库部署）。
+
 当前是最小可浏览版本：全书 196 个单元按卷挂在侧边栏，正文按原文直出，已支持全文搜索和深色模式；语义渲染（指令、聊天记录、汉字示意图等）尚未开始。
 
 ## 许可

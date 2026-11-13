@@ -1,6 +1,7 @@
 # 校验原文层与网站，并部署到 GitHub Pages。
 # 每次推送都会运行校验与构建（相当于 CI）；只有在主仓库 QGMoe/MinecraftCMD 才部署。
-# 首次使用前，需要在主仓库 Settings → Pages 把 Source 设为 "GitHub Actions"。
+# 首次使用前，需要在主仓库 Settings → Pages 把 Source 设为 "GitHub Actions"，并在 Custom domain 填 cmd.qingu.moe。
+# 使用 Actions 部署时，自定义域名以仓库设置为准，站点里不需要 CNAME 文件。
 name: 网站
 
 on:
@@ -50,8 +51,9 @@ jobs:
       - name: 构建（构建前后自动运行渲染校验与构建产物校验）
         working-directory: site
         env:
-          SITE: ${{ steps.pages.outputs.origin || 'https://qgmoe.github.io' }}
-          BASE_PATH: ${{ steps.pages.outputs.base_path || '/MinecraftCMD' }}
+          # 自定义域名，站点位于根路径
+          SITE: https://cmd.qingu.moe
+          BASE_PATH: /
         run: npm run build
 
       - name: 上传站点
