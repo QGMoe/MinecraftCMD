@@ -13,7 +13,7 @@ function buildSidebar() {
     if (u.kind === 'volume') {
       cur = { label: u.title, collapsed: true, items: [] };
       groups.push(cur);
-      if (u.chars > 0) cur.items.push({ label: '卷首', link: `/${u.id}/` });
+      if (u.chars > 0) cur.items.push({ label: '卷首', slug: u.id });
       continue;
     }
     if (u.kind === 'appendix') {
@@ -21,23 +21,32 @@ function buildSidebar() {
         cur = { label: '附录', collapsed: true, items: [] };
         groups.push(cur);
       } else {
-        cur.items.push({ label: u.title, link: `/${u.id}/` });
+        cur.items.push({ label: u.title, slug: u.id });
       }
       continue;
     }
-    cur.items.push({ label: u.title, link: `/${u.id}/` });
+    cur.items.push({ label: u.title, slug: u.id });
   }
   return groups;
 }
 
+// GitHub Pages：部署工作流通过环境变量传入站点地址与子路径
+const SITE = process.env.SITE || undefined;
+const BASE_PATH = process.env.BASE_PATH || '/';
+
 export default defineConfig({
+  site: SITE,
+  base: BASE_PATH,
+  trailingSlash: 'always',
   integrations: [
     starlight({
       title: 'Minecraft指令手册',
+      logo: { src: './src/assets/grass-block.svg', alt: '' },
+      favicon: '/favicon.svg',
       defaultLocale: 'root',
       locales: { root: { label: '简体中文', lang: 'zh-CN' } },
       sidebar: buildSidebar(),
-      customCss: ['./src/styles/book.css'],
+      customCss: ['./src/styles/theme.css', './src/styles/book.css'],
       pagination: true,
     }),
   ],

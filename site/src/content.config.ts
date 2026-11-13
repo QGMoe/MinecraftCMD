@@ -5,6 +5,8 @@ import { docsSchema } from '@astrojs/starlight/schema';
 import { renderUnit } from './lib/render.mjs';
 
 const CONTENT = path.resolve('../content');
+// 图片路径要带上部署子路径（GitHub Pages 的项目站点为 /<仓库名>/）
+const ASSET_BASE = (process.env.BASE_PATH || '/').replace(/\/$/, '') + '/assets/docx';
 
 // 自定义加载器：直接读取原文层并渲染为 HTML，不经过 Markdown。
 function bookLoader() {
@@ -15,7 +17,7 @@ function bookLoader() {
       const units = JSON.parse(fs.readFileSync(path.join(CONTENT, 'units.json'), 'utf8'));
       for (const meta of units) {
         const unit = JSON.parse(fs.readFileSync(path.join(CONTENT, 'original', meta.id + '.json'), 'utf8'));
-        const html = renderUnit(unit);
+        const html = renderUnit(unit, ASSET_BASE);
         const id = meta.id === 'cover' ? 'index' : meta.id;
         const data = await parseData({
           id,
