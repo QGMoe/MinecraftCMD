@@ -18,6 +18,11 @@ content/
   sources.json        底本清单（逻辑名、大小、sha256）与媒体文件清单
   original/<ID>.json  原文层：每个单元一个文件
   assets/docx/        主稿中的图片
+site/                 网站（Astro + Starlight）
+  src/content.config.ts  自定义加载器：读取原文层，直接渲染为 HTML（不经过 Markdown）
+  src/lib/render.mjs     原文层 → HTML（目前是原文直出，只做格式映射）
+  scripts/check-render.mjs  渲染校验：每个单元的渲染结果去标签后与原文逐字一致，图片数量一致
+  scripts/check-dist.mjs    构建产物校验：dist/ 中每个页面的正文与原文逐字一致
 tools/extract/
   docx_extract.py     主稿 docx → 段落流（无损）
   docx_crosscheck.py  用独立方法核对 docx 提取结果
@@ -61,6 +66,19 @@ python3 -I tools/extract/verify.py . --sources <底本目录>
 ```
 
 底本比对：需要底本。先核对底本的 sha256，再重新生成整个原文层，与仓库逐字节比较。
+
+## 网站
+
+需要 Node.js 22 或更高版本。
+
+```bash
+cd site
+npm install
+npm run dev      # 本地开发
+npm run build    # 构建；构建前后会自动运行渲染校验与构建产物校验
+```
+
+当前是最小可浏览版本：全书 196 个单元按卷挂在侧边栏，正文按原文直出，已支持全文搜索和深色模式；语义渲染（指令、聊天记录、汉字示意图等）尚未开始。
 
 ## 许可
 
