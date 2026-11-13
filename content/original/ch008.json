@@ -1,0 +1,2127 @@
+{
+ "id": "ch008",
+ "kind": "chapter",
+ "number": 8,
+ "title": "第八章 /give的用法",
+ "source": {
+  "file": "MineBBS/201第八章.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=26px]",
+   "arg": "26px"
+  },
+  {
+   "text": "第二卷 常用基础指令"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "这些指令都是必懂的，想不知道都难。"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "第八章 /give的用法"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月4日 15:04 1532字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　现在我们来学习第一个指令："
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/give"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　/give 指令可以说是极其基础的指令，很多 Minecraft 玩家都用过它，因为通过 /give 指令可以获取到一些创造模式中无法获取的方块物品，比如大名鼎鼎的命令方块。\r\n　　下面来介绍一下：\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "/give"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　作用"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：可以给予一名或多名玩家物品。\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　需要权限等级"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：Java-2，基岩-1\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　需要作弊"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：是\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　格式"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "Java1.13 以下\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/give <玩家：目标选择器> <物品id：字符串> [<物品数量：整数>] [<物品数据值：整数>] [NBT标签]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "\r\nJAVA1.13 及1.13 以上\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/give <玩家：目标选择器> <物品英文id：字符串> [<物品数量：整数>]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "基岩版"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/give <玩家：目标选择器> <物品id：字符串> [物品数量：整数] [物品数据值：整数] [附加标签：json]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　好的，现在来逐一介绍一下。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "玩家"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——也就是一个选择玩家作为目标的目标选择器。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "物品id"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——什么是物品ID呢？"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "ID（Identity document）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，中文翻译“"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "身份标识号"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "”，相当于物品的“身份证”（专业说法是“命名空间ID”）。每个物品都有自己独一无二的ID。\r\n　　ID 有数字形式（"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "数字ID"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "）和字符串形式（"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "英文ID"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "）。在 Java1.8 版本以前，Minecraft 中的大多数事物都采用数字 id，其中就包括物品和方块。Java1.8 版本更新后，虽然数字 ID 仍然存在，但很多地方都被更加先进也更好记的英文 ID 替换掉。比如钻石在 Java 版的数字 ID 是 264，很不好记，更新后的英文 ID 是 “minecraft:diamond”，其中的 “diamond” 就是钻石的英文，对于会英文的玩家来说就极其方便了（特别是由于添加了命名空间前缀，大大降低了模组物品 ID 重名的可能性）。\r\n　　在基岩版，数字 ID 和英文 ID 两者在大多数指令中都是通用的。比如后面会讲到 /effect（状态效果），其中的状态效果ID就可以使用数字 ID 或和英文 ID。但需注意，物品 ID 和方块 ID 仍然只认英文 ID。也就是说，这里的 “物品ID” 参数，除非你在使用 Java1.8 之前的版本，你就必须得填入物品的英文 ID。\r\n　　Java1.13 更新后的 Java 版本，完全抛弃了“数字 ID”，全面使用英文 ID。因此，你现在在 Minecraft Wiki 上只能找到基岩版的数字 ID，而不能找到 Java 版的。要找到 Java 版的，就需要打开页面历史记录，找到 1.13 版本尚未更新时的页面，才能找到 Java 版的数字 ID。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "物品数量"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——这个不用说了吧，哪个中国人不会看中文的？\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "物品数据值"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——这个就有意思了，MOJANG 为了“偷懒”，将同类物品集合到数据值中，比如说羊毛，不输入或输入 -1 默认是白色，即相当于输入 0，如果要获得其他颜色就需要输入其他值。\r\n　　"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[BGCOLOR=rgb(147, 101, 184)]",
+   "arg": "rgb(147, 101, 184)"
+  },
+  {
+   "text": "数据值为 -1 相当于数据值为 0，因为数据值默认就是 0，而 -1 的意思是“不考虑数据值”，所以数据值填 -1 同等于不填。"
+  },
+  {
+   "tag": "BGCOLOR",
+   "raw": "[/BGCOLOR]",
+   "close": true
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "注：这段话表述有误，在某些情况下，数据值 -1 和 0 是有差别的，前者代表“不考虑数据值”，后者代表“数据值为 0 的物品/方块”。但在这里的确相当于填 0，因为你不可能获取到一个数据值为 -1 的物品。后面就会遇到作用有差异的情况。"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在 Java 版 1.13 版本更新中，数据值被删除（但没有完全被删除，讲 NBT 时会讲到），每个物品也就有了自己对应的英文 ID。比如红色羊毛在 1.13 版本之前其ID是：wool 14。之后就变成了 red_wool。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[SIZE=18px]",
+   "arg": "18px"
+  },
+  {
+   "text": "附加标签"
+  },
+  {
+   "tag": "SIZE",
+   "raw": "[/SIZE]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "——这东西类似于 NBT 标签（实际上是 JSON），以后会讲到。\r\n　　OK，说了这么多，来举个栗子：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/give @a diamond_block 1"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　这个的指令意思是给予所有玩家一个钻石块（diamond_block）。\r\n　　现在来献上一些不能在创造模式的背包中获取的物品吧！\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "command_block——命令方块（脉冲型）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "barrier——屏障方块，又称空气墙"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "air——空气方块，也没啥用，就算输入成功也获得不了（空气嘛，你能抓住吗？）\r\n"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(65, 168, 95)]",
+   "arg": "rgb(65, 168, 95)"
+  },
+  {
+   "text": "（本书的QQ群入群问题就是 /give @s air 有什么用，因为 air 获取不了，所以这条指令啥用也没有）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "structure_blocks——结构方块，一个神秘的方块，以后会有几个章节专门讲这个东西。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "structure_void——结构空位，基岩版新版本有了，结构方块的配套方块。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HR",
+   "raw": "[HR]"
+  },
+  {
+   "tag": "HR",
+   "raw": "[/HR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "/give的历史"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=3]",
+   "arg": "3"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "Java版（Alpha）"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "v1.0.15"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "加入了 /give。但只能使用数字 ID，且只能获得单个物品。格式（可能）：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/give <玩家名> <物品>"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"20%\"]",
+   "attrs": "width=\"20%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "?"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"80%\"]",
+   "attrs": "width=\"80%\""
+  },
+  {
+   "text": "加入了数量参数。格式（可能）：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/give <玩家名> <物品> [数量]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=3]",
+   "arg": "3"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "Java版"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"12%\"]",
+   "attrs": "width=\"12%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"22%\"]",
+   "attrs": "width=\"22%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "快照"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"66%\"]",
+   "attrs": "width=\"66%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"12%\"]",
+   "attrs": "width=\"12%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.0.0"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"22%\"]",
+   "attrs": "width=\"22%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "Beta 1.9-pre4"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"66%\"]",
+   "attrs": "width=\"66%\""
+  },
+  {
+   "text": "加入了损害值（数据值）参数"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"12%\"]",
+   "attrs": "width=\"12%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.3.1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"22%\"]",
+   "attrs": "width=\"22%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "12w16a"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"66%\"]",
+   "attrs": "width=\"66%\""
+  },
+  {
+   "text": "能在单人游戏中使用了。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"12%\"]",
+   "attrs": "width=\"12%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.7.2"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"22%\"]",
+   "attrs": "width=\"22%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "13w36a"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"66%\"]",
+   "attrs": "width=\"66%\""
+  },
+  {
+   "text": "加入了 NBT 标签参数。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"12%\"]",
+   "attrs": "width=\"12%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.7.2"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"22%\"]",
+   "attrs": "width=\"22%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "13w37a"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"66%\"]",
+   "attrs": "width=\"66%\""
+  },
+  {
+   "text": "现在可以使用物品英文 ID 了。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"12%\"]",
+   "attrs": "width=\"12%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.8"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"22%\"]",
+   "attrs": "width=\"22%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "14w03b"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"66%\"]",
+   "attrs": "width=\"66%\""
+  },
+  {
+   "text": "现在不支持物品数字 ID 了。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"12%\"]",
+   "attrs": "width=\"12%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.8"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"22%\"]",
+   "attrs": "width=\"22%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "14w32b"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"66%\"]",
+   "attrs": "width=\"66%\""
+  },
+  {
+   "text": "现在无法突破物品堆叠上限。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"12%\"]",
+   "attrs": "width=\"12%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.12"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"22%\"]",
+   "attrs": "width=\"22%\""
+  },
+  {
+   "text": "　　　"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"66%\"]",
+   "attrs": "width=\"66%\""
+  },
+  {
+   "text": "当目标选择器是玩家自己时，实际上会使用 @s 选择器。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"12%\"]",
+   "attrs": "width=\"12%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.13"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"22%\"]",
+   "attrs": "width=\"22%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "17w45a"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"66%\"]",
+   "attrs": "width=\"66%\""
+  },
+  {
+   "text": "移除了数据值和 NBT 标签参数。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"12%\"]",
+   "attrs": "width=\"12%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "1.17"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"22%\"]",
+   "attrs": "width=\"22%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "21w10a"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"66%\"]",
+   "attrs": "width=\"66%\""
+  },
+  {
+   "text": "加入了数量限制。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=3]",
+   "arg": "3"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "携带版（Alpha）"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"12%\"]",
+   "attrs": "width=\"12%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"22%\"]",
+   "attrs": "width=\"22%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "快照"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th width=\"66%\"]",
+   "attrs": "width=\"66%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"12%\"]",
+   "attrs": "width=\"12%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "0.16.0"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"22%\"]",
+   "attrs": "width=\"22%\""
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "build 1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"66%\"]",
+   "attrs": "width=\"66%\""
+  },
+  {
+   "text": "加入了 /give。"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  }
+ ],
+ "raw_sha256": "02fce54ee00a442c607551b7b52ef258e9b90ab5eef66ef3d86d6d04877dffa8",
+ "text_sha256": "2e70e894b9d6d1aa5cd212133d3387af8c88732cbe3f1d88adb1c5bfccf28453",
+ "chars": 2626
+}

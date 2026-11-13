@@ -1,0 +1,73 @@
+{
+ "id": "vol03",
+ "kind": "volume",
+ "number": 3,
+ "title": "第三卷 进入中等级别",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   1857,
+   1858
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "t": "第三卷 进入中等级别",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "第三卷 进入中等级别",
+   "sha256": "3336c9803be54b825e68df6cf4de1a06bccdbd20e5b50b02a01baa280f602662",
+   "i": 1857
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "你已经是一个合格的新手啦，要开始学习更高级的东西了！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "你已经是一个合格的新手啦，要开始学习更高级的东西了！",
+   "sha256": "181a0a833abcefd5dbc668b68d975f259cd91a19a45b9bf2316a84d6847f921a",
+   "i": 1858
+  }
+ ],
+ "text_sha256": "152c15338a25b4ba8a0cbc455f2f4bb2d704efa97288d12cfa45a15f7eb9d08c",
+ "chars": 36
+}

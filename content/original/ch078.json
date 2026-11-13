@@ -1,0 +1,1183 @@
+{
+ "id": "ch078",
+ "kind": "chapter",
+ "number": 78,
+ "title": "第七十八章 event-生物事件",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   5717,
+   5778
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第七十八章_event-生物事件"
+    },
+    {
+     "t": "第七十八章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " event-生物事件",
+     "p": {}
+    }
+   ],
+   "text": "第七十八章 event-生物事件",
+   "sha256": "2e1a7af2b0bb07688df4005467ebd9bca55ce60f0f9b2c13158bf10cd08e44c8",
+   "i": 5717
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在第二十二章我们讲",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/summon指令时，曾经提到了如下内容：",
+     "p": {}
+    }
+   ],
+   "text": "在第二十二章我们讲/summon指令时，曾经提到了如下内容：",
+   "sha256": "cb18803572fc0144016eae2fd97df250e4f851e21c698f80b906511f15f9ed7e",
+   "i": 5718
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『生成事件严格来说叫做生物事件，是基岩版独有的东西。生成事件用于自定义一个生物或实体其生成后的行为，且该生成事件是支持该实体的，不然无法生效。一个生成事件参数只能填写一个生成事件。关于生成事件基岩版有一个专门的指令：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/event。』",
+     "p": {}
+    }
+   ],
+   "text": "『生成事件严格来说叫做生物事件，是基岩版独有的东西。生成事件用于自定义一个生物或实体其生成后的行为，且该生成事件是支持该实体的，不然无法生效。一个生成事件参数只能填写一个生成事件。关于生成事件基岩版有一个专门的指令：/event。』",
+   "sha256": "d01608735805ec0f969bd6f5f9e85f14b25064417ee3377e062f812e8199066d",
+   "i": 5719
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么这一章，我们就来讲一讲这个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "event的指令。",
+     "p": {}
+    }
+   ],
+   "text": "那么这一章，我们就来讲一讲这个event的指令。",
+   "sha256": "5bc4851cb5fcd445e2fa74275124dcad1c6a83ab7df55c60d9862d6dfc07270b",
+   "i": 5720
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，我们具体了解一下，什么是生物事件（生成事件）呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "首先，我们具体了解一下，什么是生物事件（生成事件）呢？",
+   "sha256": "bc8b84d0bfaad7e0b5aabae41f12b7c69257877e356efb3f17a3f54cbb546eb3",
+   "i": 5721
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们知道，在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Mineceraft中，生物们会发生各种各样的事情，进行各种各样的行为，比如生物生成、村民四处游荡、末影人发怒等等等。这些发生在具体生物上的事情以及行为，我们就可以称之为『生物事件』。",
+     "p": {}
+    }
+   ],
+   "text": "我们知道，在Mineceraft中，生物们会发生各种各样的事情，进行各种各样的行为，比如生物生成、村民四处游荡、末影人发怒等等等。这些发生在具体生物上的事情以及行为，我们就可以称之为『生物事件』。",
+   "sha256": "14c1ec7fe1d6e186be5056b7da548c0cb6678cfba372eb6d7e9e94b8753207ea",
+   "i": 5722
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『生物事件』一般由生物根据当前条件自行判断是否触发，但我们可以通过",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/event指令来强制指定的生物触发某些事件，比如直接让小村民长大、让僵尸村民变成村民等等。",
+     "p": {}
+    }
+   ],
+   "text": "『生物事件』一般由生物根据当前条件自行判断是否触发，但我们可以通过/event指令来强制指定的生物触发某些事件，比如直接让小村民长大、让僵尸村民变成村民等等。",
+   "sha256": "7c14b97604a42bac9a12d47f860d76da0bf0eea47721f32566438458d14d0591",
+   "i": 5723
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以接下来，我们切入正题，来看看",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/event指令的具体使用方法。",
+     "p": {}
+    }
+   ],
+   "text": "所以接下来，我们切入正题，来看看/event指令的具体使用方法。",
+   "sha256": "3de4aa16acc20b02ad7148dec89f7bea780cf86b57553cfc9486b5e2a465cbb5",
+   "i": 5724
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/event",
+     "p": {}
+    }
+   ],
+   "text": "/event",
+   "sha256": "fa362389b6a413dc8d474842e249e28405921cc8a2be8472bc75d1f82c67802f",
+   "i": 5725
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：使指定的生物触发指定的生物事件",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：使指定的生物触发指定的生物事件",
+   "sha256": "39c61f4b63668cdd954e957f1aad64500c443bd7e760d1eec42694ebcbd3fcbd",
+   "i": 5726
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.16.100-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：基岩版1.16.100-今",
+   "sha256": "ecc5577d2a014bfabde3b3f4a1e130299bf44f893ec2fa3cb766551121df50e8",
+   "i": 5727
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：基岩版-1",
+   "sha256": "6211c898a8cc8649a12ee9536dccc4443b9a29d61e73ea3c8c05de42660a2fcd",
+   "i": 5728
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 5729
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 5730
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/event entity <目标生物> <生物事件>",
+     "p": {}
+    }
+   ],
+   "text": "/event entity <目标生物> <生物事件>",
+   "sha256": "1a54ef904b9cbdff39b263223bcc798ad7fba0a53b95341b18b120414c1b71e7",
+   "i": 5731
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令其实十分简单，你只需要指定谁要触发什么生物事件即可。举个简单的例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令其实十分简单，你只需要指定谁要触发什么生物事件即可。举个简单的例子：",
+   "sha256": "998ce9df5f2c3e9d4c42e06af8352d4ffe94de9e369615566c700144bf98b2a6",
+   "i": 5732
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/event entity @e[type=pig] minecraft:on_saddled",
+     "p": {}
+    }
+   ],
+   "text": "/event entity @e[type=pig] minecraft:on_saddled",
+   "sha256": "ea8a5c4ce49ae997fd27188c6a0f2f17e25fa338211a0f95963afe9c77fc4427",
+   "i": 5733
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令会让所有猪触发事件『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "minecraft:on_saddled』，也就是使得所有猪戴上鞍。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令会让所有猪触发事件『minecraft:on_saddled』，也就是使得所有猪戴上鞍。",
+   "sha256": "68c549d6d0d9bb1a3c3fce7319e022807490663615ecdd89fec80298f07c3067",
+   "i": 5734
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "再来一个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "再来一个例子：",
+   "sha256": "dc667e3b9431380a4edae8bb5535dcddd7b84157680e7d0f0f152c482af5daa7",
+   "i": 5735
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/event entity @e[type=tnt_minecart] minecraft:on_instant_prime",
+     "p": {}
+    }
+   ],
+   "text": "/event entity @e[type=tnt_minecart] minecraft:on_instant_prime",
+   "sha256": "77b5136e531b1bd8346f072f097837d94b5858971e0b06c95dfc439d77d10ee8",
+   "i": 5736
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令将会让所有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "TNT矿车立马爆炸。当然，如果你想，也可以直接用summon生成一个立即爆炸的TNT矿车：",
+     "p": {}
+    }
+   ],
+   "text": "这条指令将会让所有TNT矿车立马爆炸。当然，如果你想，也可以直接用summon生成一个立即爆炸的TNT矿车：",
+   "sha256": "c7833f9dbb81576575ecfcb0fc3bba7ad83435bcc04bbb1d865c91ab3188e3f1",
+   "i": 5737
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/summon tnt_minecart ~ ~ ~ minecraft:on_instant_prime",
+     "p": {}
+    }
+   ],
+   "text": "/summon tnt_minecart ~ ~ ~ minecraft:on_instant_prime",
+   "sha256": "5b5f23369722272446d46573a81b6b5e6c97a5bd14ee6769236e01dd7f1da99e",
+   "i": 5738
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "既然这条指令那么简单，所以本章自然就水（划掉）写不下去了。本章到此为止。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "既然这条指令那么简单，所以本章自然就水（划掉）写不下去了。本章到此为止。",
+   "sha256": "c4e34ef4d071b25c5840e34ef368a4e30a323b2cb6e64f47095aa4f33823eae5",
+   "i": 5739
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "附表①：常用的生物事件（生成事件）一览表",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "附表①：常用的生物事件（生成事件）一览表",
+   "sha256": "9da4c31d120560c420a3fd9ce53387047f203f24402ac84cfe1c5a2ed451658a",
+   "i": 5740
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:become_angry ——使得实体生气（适用于末影人、狼等）",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:become_angry ——使得实体生气（适用于末影人、狼等）",
+   "sha256": "d5d4eba99d6bd1f890d9e3ed3f6a996418a502b230d5ab2fc3297a4fc04617d9",
+   "i": 5741
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:gain_bad_omen ——玩家得到不祥之兆的效果",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:gain_bad_omen ——玩家得到不祥之兆的效果",
+   "sha256": "2ec8aa687fe81fb9bd1f5f4e06329ff9fdf6daf76ab15545b0188fe971279683",
+   "i": 5742
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:clear_add_bad_omen ——玩家停止得到不祥之兆的效果",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:clear_add_bad_omen ——玩家停止得到不祥之兆的效果",
+   "sha256": "79ef63ddd7cb5f45c32faabab9f12b505c9a2acd16a2e1c7932cfedd302a828e",
+   "i": 5743
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:command_block_activate ——命令方块矿车被激活",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:command_block_activate ——命令方块矿车被激活",
+   "sha256": "e733e8a92190a792e0638a6ef6132e9b515a0c32c38161b43fb53a0edb412b05",
+   "i": 5744
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:crystal_explode ——末地水晶爆炸",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:crystal_explode ——末地水晶爆炸",
+   "sha256": "27ef5ecbe702713542c7e2ab869eef820759990d577668a1eef00799a9dc9509",
+   "i": 5745
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:entity_spawned ——实体自然生成",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:entity_spawned ——实体自然生成",
+   "sha256": "9a4910247028bd8868a0b577b8195ea89ff2ab875ce3bcead8485fdd5ae4b448",
+   "i": 5746
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:from_village ——使铁傀儡生成自村庄",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:from_village ——使铁傀儡生成自村庄",
+   "sha256": "0dcb4765270cf823e2f187818204f2379a9307761a8f954cdc11e16dcddd2c34",
+   "i": 5747
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:on_instant_prime ——TNT矿车被激活并立即爆炸",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:on_instant_prime ——TNT矿车被激活并立即爆炸",
+   "sha256": "56c086e3bfddd5ed9a50da54a7970973ecc8a1cf2009f0badd35d73cc1ffbf44",
+   "i": 5748
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:on_prime ——TNT矿车被激活",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:on_prime ——TNT矿车被激活",
+   "sha256": "a1d1601f4d3692eb9ad89b39036165c06f611d6194111a7d139f9a3afd2d1e83",
+   "i": 5749
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:on_saddled ——使得猪或炽足兽已经装备上鞍",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:on_saddled ——使得猪或炽足兽已经装备上鞍",
+   "sha256": "e77b49addb8b11ff993f63a131faac5d9b0d25a3efa56edb5a9072abd83ec48c",
+   "i": 5750
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:on_tame ——使得实体已被驯服（适用于猫、狼等）",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:on_tame ——使得实体已被驯服（适用于猫、狼等）",
+   "sha256": "0e41a468b5767c4f7048568b3ce63ca623795a40c98dbadced6a52bbf5b09196",
+   "i": 5751
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:resupply_trades ——村民为交易补货",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:resupply_trades ——村民为交易补货",
+   "sha256": "0ddc4ad6e1c201c67106cbb564bfbc97f75771a364b7efa2167fdf22d31ed39f",
+   "i": 5752
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:start_exploding ——苦力怕开始爆炸",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:start_exploding ——苦力怕开始爆炸",
+   "sha256": "f97afc6c1d021933e7af0f58328fc758791b30988e584aac8918096b24699c00",
+   "i": 5753
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:start_exploding_forced ——苦力怕正在准备爆炸",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:start_exploding_forced ——苦力怕正在准备爆炸",
+   "sha256": "30b2afc2e202518b0969e8108f609fbcd264dad5c2d85902801e75f2680ebe11",
+   "i": 5754
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:stop_exploding ——苦力怕停止爆炸",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:stop_exploding ——苦力怕停止爆炸",
+   "sha256": "478cad9c5723ba45ffd1b7c3ab7059366b8c45cbe37c3cf9786aaed80ccea76b",
+   "i": 5755
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:turn_<颜色英文> ——潜影贝变为指定颜色",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:turn_<颜色英文> ——潜影贝变为指定颜色",
+   "sha256": "fc8685271a74b6a5b298785ff2013385cc4c3c04afcbd6b1e3a058ab9af86d49",
+   "i": 5756
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "villager_converted ——僵尸村民变为村民",
+     "p": {}
+    }
+   ],
+   "text": "villager_converted ——僵尸村民变为村民",
+   "sha256": "38722623f57e952a46e403ec24b08d999ee8180917688bed58e32ab9d911bb00",
+   "i": 5757
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "附表②：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/event历史",
+     "p": {}
+    }
+   ],
+   "text": "附表②：/event历史",
+   "sha256": "2e98a3bd7086203c501f24289124993440f0f61eaa80ae9aeabe57cf3c6a893a",
+   "i": 5758
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "基岩版",
+   "sha256": "e1ef194dc07360ceff0a1bfe2e5ddb80aa088939ada629f4c1c7f9bde5641ae2",
+   "i": 5759
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16.100——加入了/event",
+     "p": {}
+    }
+   ],
+   "text": "1.16.100——加入了/event",
+   "sha256": "07ff6776399be9ea7736e92737850c4695eecb027d95962c0d5456cb059ec598",
+   "i": 5760
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5761
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5762
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5763
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5764
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5765
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5766
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5767
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5768
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5769
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 5770
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（以下情节均为虚构，如有雷同，纯属巧合）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（以下情节均为虚构，如有雷同，纯属巧合）",
+   "sha256": "cca3aad175a1c56d10928fcb94158faf589cf84c9788cfc4a66af5906d558f4b",
+   "i": 5771
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "近期，在一个我的世界网易版服务器中，服主由于一个不小心，让苦力怕把主城给炸出了一个角。于是服主痛定思痛，关闭了『生物破坏』的游戏规则。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "近期，在一个我的世界网易版服务器中，服主由于一个不小心，让苦力怕把主城给炸出了一个角。于是服主痛定思痛，关闭了『生物破坏』的游戏规则。",
+   "sha256": "4d753d5671b924cf3d333b821f1e2a8ad8482db9a645eac729b801164ed8ac8a",
+   "i": 5772
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但没过几天，投诉的消息就在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "QQ群里面炸开了锅，许多玩家反应说村民不种地了，不繁殖了，它们作为一个“资本家”（划去）玩家绝对不能容忍村民这样偷懒，生产队的驴都没这么歇过。还有玩家反应说雪傀儡怎么不产雪了。甚至还有玩家反应说末影龙怎么不破坏方块了，这样子难度太简单，不过瘾。",
+     "p": {}
+    }
+   ],
+   "text": "但没过几天，投诉的消息就在QQ群里面炸开了锅，许多玩家反应说村民不种地了，不繁殖了，它们作为一个“资本家”（划去）玩家绝对不能容忍村民这样偷懒，生产队的驴都没这么歇过。还有玩家反应说雪傀儡怎么不产雪了。甚至还有玩家反应说末影龙怎么不破坏方块了，这样子难度太简单，不过瘾。",
+   "sha256": "019bc834d819b1a7af8996d4ba791bd1e6a86dd38e1a3020d3d21691fc34fe06",
+   "i": 5773
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "于是服主只好重新打开了『生物破坏』这个游戏规则，但苦力怕的问题仍然需要解决。如何使得苦力怕不会破坏方块呢？这个问题成为了服主的心头之患。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "于是服主只好重新打开了『生物破坏』这个游戏规则，但苦力怕的问题仍然需要解决。如何使得苦力怕不会破坏方块呢？这个问题成为了服主的心头之患。",
+   "sha256": "d0d405511a7aab4852d5cddcb375bc21f384659999102078ecaa3d73e803495a",
+   "i": 5774
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为了解决这个问题，他询问遍了每个管理员，每个管理员都说把这游戏规则关掉就行了。这样的态度使得服主十分生气——当服管理员，总共有五位，他非常想罢免四位；六个建筑师，他非常想罢免三位。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "为了解决这个问题，他询问遍了每个管理员，每个管理员都说把这游戏规则关掉就行了。这样的态度使得服主十分生气——当服管理员，总共有五位，他非常想罢免四位；六个建筑师，他非常想罢免三位。",
+   "sha256": "1df33770b6777a32d0ccfbc13088df5534916bac20bfd34efc9b2f6d1e07cf23",
+   "i": 5775
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本来已经对苦力怕想要顺其自然的服主，偶然间遇见了一位玩家。这位玩家告诉服主，苦力怕如果炸不了，不就无法破坏方块了吗。服主恍然大悟，他很快去问管理员：有没有一种办法，能够让苦力怕无法爆炸？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "本来已经对苦力怕想要顺其自然的服主，偶然间遇见了一位玩家。这位玩家告诉服主，苦力怕如果炸不了，不就无法破坏方块了吗。服主恍然大悟，他很快去问管理员：有没有一种办法，能够让苦力怕无法爆炸？",
+   "sha256": "9399501ff3090dca2d8a83cb761f4ed7632c2c1b40a7876a41e8f4438e03fbec",
+   "i": 5776
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个管理员查了一下，不知道从哪里搞来一串指令给了服主。服主按照管理员的说法一试，效果十分显著。这条指令是什么呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这个管理员查了一下，不知道从哪里搞来一串指令给了服主。服主按照管理员的说法一试，效果十分显著。这条指令是什么呢？",
+   "sha256": "7309368b8e5f8f7d812822c5a0348f48df60a14e0b45a50513e594c60b14fdad",
+   "i": 5777
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/event entity @e[type=creeper] minecraft:stop_exploding ——重复运行、常加载区块、保持开启",
+     "p": {}
+    }
+   ],
+   "text": "/event entity @e[type=creeper] minecraft:stop_exploding ——重复运行、常加载区块、保持开启",
+   "sha256": "bcdde8932ff4bf872e76d1741b9a99f34149d82a0810da9d2c18b71978fb2906",
+   "i": 5778
+  }
+ ],
+ "text_sha256": "05cb43a9ce11fbb3f2ef3e98061a62a2cf994eeea31670636747bbeb14e0e677",
+ "chars": 2195
+}

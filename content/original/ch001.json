@@ -1,0 +1,537 @@
+{
+ "id": "ch001",
+ "kind": "chapter",
+ "number": 1,
+ "title": "第一章 作弊与输入指令",
+ "source": {
+  "file": "MineBBS/1第一章.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "第一章 作弊与输入指令"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月3日 21:24 2779字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "（2022年7月5日有修改，此章节写作时作者使用的Minecraft为基岩1.17.0正式版[非网易版]和Java1.12.2）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　新建世界的时候，JAVA版点击“更多世界的选项...”，基岩版点击“编辑设置”-“游戏”并向下滑，你会发现前者会有一个默认为“关”的“开启作弊”选项，后者会有一栏“作弊”，里面也有一个“激活作弊”选项。\r\n　　这个“作弊”是什么回事？难道Mojang还制作了官方外挂？\r\n　　很明显，这并不是什么『官方外挂』，而是一个能让你拥有更高权限的选项（毕竟是『我的世界』嘛）\r\n　　说白了，这个“作弊”选项，正如Java版对于这个选项的描述一样（像/gamemode、/xp的命令），开启后可以让你在游戏中使用类似作弊一样的指令。\r\n　　既然你要学习指令，那么这个选项必须开启，因为不开你就用不了！\r\n　　额.....实际上.......能用，但只能用一点点（发送全服消息和发送私人消息）。\r\n　　开启这个选项后，创建世界，你就可以开始输入指令了。\r\n　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "新手：“哎呀，不知道在哪输入指令啊。”"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "大佬：“你这消息咋发的？”"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "新手：“聊天栏发的啊，地球人都知道。”"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　指令最开始是从聊天栏开始。所以为了学习指令，首先就是要学习“如何正确使用聊天栏”。\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaDongFangDaKai - Regular]",
+   "arg": "AlimamaDongFangDaKai - Regular"
+  },
+  {
+   "text": "第一步：打开聊天栏"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　聊天栏在哪呢？如果你使用的是基岩版，看到上面那个消息图标的按钮没？就是那个，点进去，这就是聊天栏。\r\n　　如果你使用的是Java版，按下“T”键就可以呼出聊天栏。\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "第二步：研究聊天栏"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　基岩版的聊天栏有三个部分：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "顶栏——显示这窗口名叫“聊天和命令”，点击左边的“<退出”可以退出界面。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "信息栏——显示聊天的信息，最多可以保存100条。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=AlimamaFangYuanTiVF-Thin]",
+   "arg": "AlimamaFangYuanTiVF-Thin"
+  },
+  {
+   "text": "输入栏——输入并发送信息、执行指令。左边是一个键盘图标，点击可以打开键盘；左边第二个是一个“/”的图标的按键，点击可以快速执行特定的指令，是个人都懂得用；左边第三个按键是齿轮图标，打开可以设置信息栏显示的字样；中间的就是输入框，输入消息（指令）的地方；最右边是发送（执行）按钮，即发送（执行）信息（指令）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　Java版的聊天栏就比基岩版的简单多了：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "左下角——信息栏，光标放在上面转动滑轮可以上下滑动。和基岩版一样可以存100条消息。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "下方——输入框，输入信息（指令），按Enter发送消息（执行指令）。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "当然，这本书作为一个指令教程书，肯定不会去研究消息到底该怎么发，而是去研究“如何打出指令”。\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=2]",
+   "arg": "2"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "第三步：打出指令"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "　　"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "为了打出指令，请尝试在空白的输入框中打出一个“/”"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，不要告诉我你找不到这符号。这个斜杠是指令的前缀符号，它让游戏知道你要输入的是指令，而不是一条普通的聊天消息。\r\n　　如果你使用的是基岩版，此时你就会发现，上面的聊天消息消失了，取而代之的是一堆依照开头字母排列的“白色/+灰色英文单词”，同时还有功能的介绍；如果你使用的是JAVA版海洋更新（1.13）及以后的版本，那么你也会发现，上面出现了许多“/+单词”选项。\r\n　　这些选项，每个都是指令。\r\n　　但如果你使用的是Java1.13以下版本，那么你就会发现，啥也没有发生，聊天栏仍然是聊天栏，主世界仍还是那个主世界，你也仍还是那个你，唯一变的就只有你聊天栏上的“/“和四处闲逛的动物了。\r\n　　在基岩版和Java1.13及以上版本，你每按下一个字母，上面显示的单词信息就会更新。游戏会自动排除掉那些不符合你输入内容的指令，留下那些你可能要用的指令。同时，你打的指令进度也会显示在上面那些待选指令中，呈现黄色（Java）或白色（基岩）。\r\n　　而在Java1.13以下版本，该怎么办呢？\r\n　　很简单，输入完“/”后，按一下Tab键，然后就会.......\r\n"
+  },
+  {
+   "tag": "CODE",
+   "raw": "[CODE]"
+  },
+  {
+   "text": "/?,/advancement,/blockdata,/clear,/clone,/debug,/defaultgamemode,/difficulty /effect,/enchant,/entitydata,/execute,/fill,/function,/gamemode,/gamerule,/give,/help,/kill,/locate,/me,/msg,/particle,/playsound,/publish,/recipe,/reload,/replaceitem,/say,/scoreboard,/seed,/setblock,/setworldspawn /spawnpoint,/spreadplayers,/stats,/stopsound,/summon,/teleport,/tell,/tellraw /testfor,/testforblock,/testforblocks,/time,/title,/toggledounfall,/tp,/trigger,/w,/weather,/worldborder,/xp,/reloadShaders,/reloadChunks"
+  },
+  {
+   "tag": "CODE",
+   "raw": "[/CODE]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　继续按Tab还会按照顺序切换。\r\n　　"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(65, 168, 95)]",
+   "arg": "rgb(65, 168, 95)"
+  },
+  {
+   "text": "（唉作者，为什么我是Java 1.13及以上版本但打出“/”时没变化呢？）\r\n　　（哦，那是因为指令提示默认需要按Tab开启。聊天栏打出“/”后，再按一次Tab就会出现，且在你退出游戏前都会保持开启“指令提示”的状态。但如果你觉得这东西很烦，你还可以在聊天框只有一个“/”时再次按Tab，指令提示就关闭了！）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　现在，你可以随便选择一个指令，照着它的提示打。\r\n　　如果你正在使用基岩版打指令，并且照着上面那样做成功打完了你人生中第一条指令的开头单词，那么你的屏幕下面就会出现白色的带有<>和[]以及{}里面写满了各种你看不懂的英文字符串，这就是这条指令的格式，更确切的说是语法。只不过没有汉化是一大痛处。比如/clear就是：\r\n\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/clear [player:target] [itemName:Item] [data:int] [maxCount:int]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n　　如果你正在使用JAVA1.13及以上版本打指令，并且照着上面那样做成功打完了你人生中第一条指令的开头单词，那么将不会出现什么新的东西——除非你点一下空格键，可能会出现接下来的格式提示，但也可能啥也没有。（当然，你可以尝试一下/help指令，这个指令相当于是一个Minecraft内置的指令手册，只不过对于新手来说可能有点难看懂）\r\n　　而如果你使用的是Java 1.13以下版本，那当你成功打完你人生中第一条指令的开头单词时，那也将不会出现什么新的东西——点一下空格键也还是如此。这时候，你就需要点一下空格然后再点一下Tab，才可能会出现格式提示。\r\n　　温馨提示：打指令最好还是使用Java版或基岩版的Windows10版本，原因有三。一是因为电脑打字快且方便，二是因为使用键鼠时，你可以使用上文提到的TAB键来一键输入，这种一键输入不光是输入指令，还可以快速输入坐标、玩家名等参数，如果有多个参数还可以一直点Tab来切换（Java1.13及以上版本还可以使用小键盘的↑↓←→+Tab来快速选择并输入）。三是因为使用键鼠时，唤醒聊天栏的方式并不只有按“T”键，你还可以直接按右Shift左边的“/?”键快速打开聊天栏并输入“/”。\r\n　　"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(65, 168, 95)]",
+   "arg": "rgb(65, 168, 95)"
+  },
+  {
+   "text": "（偷偷告诉你，如果你在Java版打错指令格式，游戏还会亲切的提示你这条指令的正确语法，还是中文的那种！只不过有些第一个参数就是输入玩家名的那种就没法了，只会提示你“无法找到玩家xxx”。而基岩版就只是——语法错误：意外的“xxx”出现在“/xxx xxx”）"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "\r\n\r\n"
+  },
+  {
+   "tag": "SPOILER",
+   "raw": "[SPOILER]"
+  },
+  {
+   "text": "\r\n　　“不！我不想创建一个新的世界！我要使用我已经玩了多年的存档！”\r\n　　“但你这存档没开作弊啊”\r\n　　“那该怎么办？”\r\n　　“你是Java版的，得进入游戏后在菜单里打开“对局域网开放”，然后将“允许作弊”改为开再确定即可，只不过这是暂时性的。要永久还得在“选择世界”界面选中该存档，然后点击重建，进入重建界面后点击“更多世界的选项...”，再打开作弊即可。如果你是基岩版就好了，直接在设置界面打开“激活作弊”按钮就可以了。”\r\n　　“啊？听起来好麻烦.....”\r\n　　“我告诉你，如果你不想创建副本还想永久开启这个存档的作弊，那更麻烦。具体过程如下：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST=1]",
+   "arg": "1"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "在选择世界界面选中该世界，然后选择“编辑”。在界面中点击“打开文件夹”打开存档文件夹。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "找到level.dat文件，将后缀名从.dat改为.nbt。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "找到一个Minecraft 1.13版本及以上版本的服务端.jar文件\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "按照第一百四十章“真正深入了解NBT-6”中的教程将该level.nbt文件转为.snbt文件。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "找到转化完成的.snbt文件，使用记事本打开，将allowCommands的参数从0b改为1b，并保存。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "按照第一百四十章“真正深入了解NBT-6”中的教程将该level.snbt文件转为.nbt文件。\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "将level.nbt的后缀改回.dat，并覆盖原文件。\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　照着上面这样做才行”\r\n　　“？？？”\r\n"
+  },
+  {
+   "tag": "SPOILER",
+   "raw": "[/SPOILER]",
+   "close": true
+  }
+ ],
+ "raw_sha256": "e53d178caceb5d991aaafeed36919991be84bbdf1268528bf7e6f4cfba47670b",
+ "text_sha256": "51dbedcd49a23f3f569bb3bd4ad146db17e97f905d44b130fdefb7fa4c6471aa",
+ "chars": 3787
+}

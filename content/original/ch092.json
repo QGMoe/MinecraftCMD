@@ -1,0 +1,1539 @@
+{
+ "id": "ch092",
+ "kind": "chapter",
+ "number": 92,
+ "title": "第九十二章 简单的红石脉冲",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   6960,
+   7006
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第九十二章_简单的红石脉冲"
+    },
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3129280",
+      "cy": "1651635"
+     },
+     "name": "图片 25",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image16.png"
+    },
+    {
+     "t": "第九十二章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " 简单的红石脉冲",
+     "p": {}
+    }
+   ],
+   "text": "第九十二章 简单的红石脉冲",
+   "sha256": "0eb34adeef9ce230eb92eeca3fe0dcb8410702f90ebc5332b4df80f1ab9d2b96",
+   "i": 6960
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此章节原为『红石比较器』，于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2022年7月27日改为『简单的红石脉冲』）",
+     "p": {}
+    }
+   ],
+   "text": "（此章节原为『红石比较器』，于2022年7月27日改为『简单的红石脉冲』）",
+   "sha256": "ba8b6d9e2c23f1711a896a52ee02e8db6abc8db4acb3d21e6362d2e1a29bef60",
+   "i": 6961
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此章节有用到本章说来插入图片，因此最好在起点中文网上阅读本章）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（此章节有用到本章说来插入图片，因此最好在起点中文网上阅读本章）",
+   "sha256": "c3496ef7fd3ac09ef5f558230538f0facbfd7642a334da66b55079272b8b7de5",
+   "i": 6962
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 26",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "92- 1",
+         "p": {}
+        }
+       ],
+       "text": "92- 1",
+       "sha256": "62e2dcc01146584b4f522d5f86e14e0ee6e3a322e1f622d261f9e125c4ea2a27"
+      }
+     ]
+    },
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3144520",
+      "cy": "1659890"
+     },
+     "name": "图片 27",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image17.png"
+    },
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.9版本中，Mojang才为命令方块加入了『连锁』和『重复』这两个模式。因此在Java1.9版本之前，命令方块只有『脉冲』这一种模式，也就是说命令方块在当时得依靠红石电路才能实现重复和连锁执行。虽然现在已经有了『重复』和『连锁』，但我们仍然应该要了解一下这个在Java1.9版本前被广泛用于命令方块执行的东西：",
+     "p": {}
+    }
+   ],
+   "text": "在Java1.9版本中，Mojang才为命令方块加入了『连锁』和『重复』这两个模式。因此在Java1.9版本之前，命令方块只有『脉冲』这一种模式，也就是说命令方块在当时得依靠红石电路才能实现重复和连锁执行。虽然现在已经有了『重复』和『连锁』，但我们仍然应该要了解一下这个在Java1.9版本前被广泛用于命令方块执行的东西：",
+   "sha256": "1ad433d0c5f8b8662c42d975d8a08459316197b2134ff25502930831fbd5b58f",
+   "i": 6963
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "红石脉冲（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Redstone Pulse），俗称红石循环。",
+     "p": {}
+    }
+   ],
+   "text": "红石脉冲（Redstone Pulse），俗称红石循环。",
+   "sha256": "451d323271d8f9301043fb0da577b3a26b283b101eb12611a0e6100300cde7da",
+   "i": 6964
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，让我们了解一下：什么是脉冲？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "首先，让我们了解一下：什么是脉冲？",
+   "sha256": "a8d875f6e5b4dd966e2e73d93311927d066472ed43943621efae6645a0ae53c5",
+   "i": 6965
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 28",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "92- 2",
+         "p": {}
+        }
+       ],
+       "text": "92- 2",
+       "sha256": "48dedaee6593a499daf4b53ba9ec5bfe595a3235dee501e57b80d8129ff9facd"
+      }
+     ]
+    },
+    {
+     "t": "脉冲（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Pulse），又称脈波、脈冲波（Pulse Wave），指的是『一信号幅度的快速暂态变化，由基准值变为较高或较低的值，之后又快速的回到基准值』，用人话来说，就是一个东西，由一个形态快速变化成为了另一种形态，然后又快速回到了原本的形态。脉冲是有规律的，比如每1秒改变一个来回，或每0.05秒改变一次。在Minecraft中，红石脉冲，也就是我们俗称的红石循环，就是指在短时间内，一段红石电路的信号快速地从无到有，再从有到无的过程。",
+     "p": {}
+    }
+   ],
+   "text": "脉冲（Pulse），又称脈波、脈冲波（Pulse Wave），指的是『一信号幅度的快速暂态变化，由基准值变为较高或较低的值，之后又快速的回到基准值』，用人话来说，就是一个东西，由一个形态快速变化成为了另一种形态，然后又快速回到了原本的形态。脉冲是有规律的，比如每1秒改变一个来回，或每0.05秒改变一次。在Minecraft中，红石脉冲，也就是我们俗称的红石循环，就是指在短时间内，一段红石电路的信号快速地从无到有，再从有到无的过程。",
+   "sha256": "eac4a7dbb6e2488b3e2f1ce1713d624dca10029d58f0872d8bd1454906f60b7a",
+   "i": 6966
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "红石脉冲有很多种类型，但最常见的无非也就这四种脉冲形式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "红石脉冲有很多种类型，但最常见的无非也就这四种脉冲形式：",
+   "sha256": "6d97aeda9bc26bbaacc657536f58ec393b1786ea42de8b9e3e1bef9abcd80ff6",
+   "i": 6967
+  },
+  {
+   "ppr": {
+    "style": "List Paragraph",
+    "num": {
+     "ilvl": "0",
+     "numId": "2"
+    },
+    "ind": {
+     "firstLineChars": "0"
+    }
+   },
+   "c": [
+    {
+     "t": "普通脉冲（红石中继器脉冲）（插图",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "92-1）",
+     "p": {}
+    }
+   ],
+   "text": "普通脉冲（红石中继器脉冲）（插图92-1）",
+   "sha256": "667360178393fcf52a03ebff9f00265d146efa475c139896b89babeb9470eb86",
+   "i": 6968
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②单刻比较器减法脉冲（插图",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "92-2）",
+     "p": {}
+    }
+   ],
+   "text": "②单刻比较器减法脉冲（插图92-2）",
+   "sha256": "0ec24670c4c39d039e25051e00081b71b918690016d543ed4ce619a849bbae7e",
+   "i": 6969
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3173730",
+      "cy": "1674495"
+     },
+     "name": "图片 29",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image18.png"
+    },
+    {
+     "t": "③延迟减法脉冲（插图",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "92-3）",
+     "p": {}
+    }
+   ],
+   "text": "③延迟减法脉冲（插图92-3）",
+   "sha256": "5ae53a3ace545e5d1168cff5d2bd508a05b7fd3cef351b7998136842237ab55b",
+   "i": 6970
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "④红石火把脉冲（插图",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "92-4）",
+     "p": {}
+    }
+   ],
+   "text": "④红石火把脉冲（插图92-4）",
+   "sha256": "016c15f2706bb74615a1080c5bbc1a9c661b569a7e355c5575a5a75e72caf4ea",
+   "i": 6971
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这四个脉冲各有各的优势，具体可以看下表：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这四个脉冲各有各的优势，具体可以看下表：",
+   "sha256": "29a3432c1757733ca3040f7c557d251f7cacfa69efa6b0828b45af59b8b2d96e",
+   "i": 6972
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "脉冲名",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|速度|资源消耗|稳定度|简单程度",
+     "p": {}
+    }
+   ],
+   "text": "脉冲名|速度|资源消耗|稳定度|简单程度",
+   "sha256": "0a45c82b14f14331f16d46316887eb5f6a5456506e75b671d20b27e2999fc7d6",
+   "i": 6973
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "普通",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|+|++|+|+",
+     "p": {}
+    }
+   ],
+   "text": "普通|+|++|+|+",
+   "sha256": "1a8c7cd876625482f99923d8fe19377d840f335328a4489b5c7b05eb732afefe",
+   "i": 6974
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "单刻比较器减法",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|+|+|-|+",
+     "p": {}
+    }
+   ],
+   "text": "单刻比较器减法|+|+|-|+",
+   "sha256": "6321e7b1c14dc2b11c434f44be55f8245627f06b82bb4a34b143ad4bf6a1489e",
+   "i": 6975
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 30",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "92- 3",
+         "p": {}
+        }
+       ],
+       "text": "92- 3",
+       "sha256": "f80e969f325aa29d527bbe9f7cca71fc1426307bb14ddec849815b9bddd875cc"
+      }
+     ]
+    },
+    {
+     "t": "延迟减法",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|-|+|++|-",
+     "p": {}
+    }
+   ],
+   "text": "延迟减法|-|+|++|-",
+   "sha256": "3f61a72ddb09da3dba0fc5ea4e8a90adf774978fa44775c357ad0d53ad30af42",
+   "i": 6976
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3178175",
+      "cy": "1677670"
+     },
+     "name": "图片 35",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image19.png"
+    },
+    {
+     "t": "红石火把",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "|+|+|--|++",
+     "p": {}
+    }
+   ],
+   "text": "红石火把|+|+|--|++",
+   "sha256": "954a061bf787b3360eac249fc6eda93037c3dce6ae60b569b2ac6cf9117395e9",
+   "i": 6977
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你要速度快，就采用『红石火把脉冲』或『单刻比较器减法脉冲』，如果你要稳定度好，就采用『延迟减法脉冲』，如果你要卡服，就采用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "......额，估计你不想你的服务器变得很卡吧？",
+     "p": {}
+    }
+   ],
+   "text": "如果你要速度快，就采用『红石火把脉冲』或『单刻比较器减法脉冲』，如果你要稳定度好，就采用『延迟减法脉冲』，如果你要卡服，就采用......额，估计你不想你的服务器变得很卡吧？",
+   "sha256": "3af7146fc6d298d7c96e25d8912a1736994bc1b2fb62fb5f91d70c51281cca97",
+   "i": 6978
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 36",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "92- 4",
+         "p": {}
+        }
+       ],
+       "text": "92- 4",
+       "sha256": "ea930fa866219f3cd58ee31b70b0ceb264dd0260d4cef98fcbef00e66ad46112"
+      }
+     ]
+    },
+    {
+     "t": "说了这么多，那么这四个脉冲的速度究竟如何？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "说了这么多，那么这四个脉冲的速度究竟如何？",
+   "sha256": "1d8751784032b33f4f192ec559a02056e10549a7963ff3d4d6123e9253f50c26",
+   "i": 6979
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 32",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "92- 5",
+         "p": {}
+        }
+       ],
+       "text": "92- 5",
+       "sha256": "4d730c8681fd8bc0a1e6392a2501ff155743f5b967a4b88ffd342b2082ac01c6"
+      }
+     ]
+    },
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3154680",
+      "cy": "1664970"
+     },
+     "name": "图片 31",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image20.png"
+    },
+    {
+     "t": "我们可以通过命令方块将三者在一定时间内的执行次数转化为分数，来与实际经过的游戏刻数进行对比。我们可以创建一个叫做",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "timer的计分项，把分数放在上面之后将timer显示出来，接着让计算脉冲次数的和游戏刻消耗刻数的命令方法同时被激活，就像插图92-5一样。",
+     "p": {}
+    }
+   ],
+   "text": "我们可以通过命令方块将三者在一定时间内的执行次数转化为分数，来与实际经过的游戏刻数进行对比。我们可以创建一个叫做timer的计分项，把分数放在上面之后将timer显示出来，接着让计算脉冲次数的和游戏刻消耗刻数的命令方法同时被激活，就像插图92-5一样。",
+   "sha256": "304a02cde193bb54c9e97fa357c636765c2fa18073dc91bf46af7e47896b83f1",
+   "i": 6980
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后我们就可以得到普通脉冲的执行数据：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "然后我们就可以得到普通脉冲的执行数据：",
+   "sha256": "5e5a8a7aa55b3e911aa1d2548cb324304032efbbb669a5a015ada40d8453c9a6",
+   "i": 6981
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "游戏刻（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "gametick）——803",
+     "p": {}
+    }
+   ],
+   "text": "游戏刻（gametick）——803",
+   "sha256": "c88fb389447357da7e4f33f9aa871543f9c3b9259586cd743b90c47c3e87d288",
+   "i": 6982
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "次数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "times）——202",
+     "p": {}
+    }
+   ],
+   "text": "次数（times）——202",
+   "sha256": "18b403c2e039031a3f2224bf5684ecfe2439f29bc27d52d60d7e269e76e3175d",
+   "i": 6983
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "执行一次消耗游戏刻数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "gametick/times）——3.975≈4",
+     "p": {}
+    }
+   ],
+   "text": "执行一次消耗游戏刻数（gametick/times）——3.975≈4",
+   "sha256": "f29bd73ce257f9b01be5816435fc1ee7c35f04529a9a132b16e44de0540a58d7",
+   "i": 6984
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "每秒执行次数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "s/gametick·times）——5.031≈5",
+     "p": {}
+    }
+   ],
+   "text": "每秒执行次数（s/gametick·times）——5.031≈5",
+   "sha256": "c4169a48fea6073b805f6b0c45742b281b1ae3aac58f409b33754f636ce89194",
+   "i": 6985
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们同样可以使用此方法，来测出另外两个的速度：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "我们同样可以使用此方法，来测出另外两个的速度：",
+   "sha256": "0ea8769490697de74a28ba8e8ca5119f2baaa389d1ac95112e2f4827bffc2b33",
+   "i": 6986
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--单刻比较器减法脉冲（插图92-6）",
+     "p": {}
+    }
+   ],
+   "text": "--单刻比较器减法脉冲（插图92-6）",
+   "sha256": "5edfd3019b6ca325b852ad7062290041e8b27485c8ead1bfe26ab0498ef491ed",
+   "i": 6987
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "游戏刻（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "gametick）——809",
+     "p": {}
+    }
+   ],
+   "text": "游戏刻（gametick）——809",
+   "sha256": "d511466671447a414ddaedc16bc46f1906b166a43c927b53cf95ad0e43c062ba",
+   "i": 6988
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "次数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "times）——203",
+     "p": {}
+    }
+   ],
+   "text": "次数（times）——203",
+   "sha256": "a5ef5ad8561f68793bbe1a3780810a7b224759931889bd7b63c1966107b5a5b2",
+   "i": 6989
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3145155",
+      "cy": "1659890"
+     },
+     "name": "图片 33",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image21.png"
+    },
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 34",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "92- 6",
+         "p": {}
+        }
+       ],
+       "text": "92- 6",
+       "sha256": "4c02585eaa348d3b5d7914200efff870f6d9f979db7c2bf1fcbc66c5f70f1cf9"
+      }
+     ]
+    },
+    {
+     "t": "执行一次消耗游戏刻数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "gametick/times）——3.985≈4",
+     "p": {}
+    }
+   ],
+   "text": "执行一次消耗游戏刻数（gametick/times）——3.985≈4",
+   "sha256": "794ad94909057cee842eb9a543b4d92a15aa07c750ce17242b2ca82fc59dbef8",
+   "i": 6990
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "每秒执行次数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "s/gametick·times）——5.018≈5",
+     "p": {}
+    }
+   ],
+   "text": "每秒执行次数（s/gametick·times）——5.018≈5",
+   "sha256": "0843cfc7c1fb7200c88ae4dff4b799ebfe104559755434635c4ebd59cc640602",
+   "i": 6991
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--延迟减法脉冲（插图92-7）",
+     "p": {}
+    }
+   ],
+   "text": "--延迟减法脉冲（插图92-7）",
+   "sha256": "ff1c0fadd2b0eb5334430c96b9cb09d4c69aa072f1cf794b96e1a3812df5fd05",
+   "i": 6992
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "游戏刻（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "gametick）——800",
+     "p": {}
+    }
+   ],
+   "text": "游戏刻（gametick）——800",
+   "sha256": "88509e3b6070579d1b9e995a5c3bb70132fc0080b24b85877a864355ba6b70e8",
+   "i": 6993
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "次数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "times）——100",
+     "p": {}
+    }
+   ],
+   "text": "次数（times）——100",
+   "sha256": "bc7f88167a507a8741542b31ac28269c1bd4870ab1d5ae54ee6c37811e5a356f",
+   "i": 6994
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 37",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "92- 6",
+         "p": {}
+        }
+       ],
+       "text": "92- 6",
+       "sha256": "4c02585eaa348d3b5d7914200efff870f6d9f979db7c2bf1fcbc66c5f70f1cf9"
+      }
+     ]
+    },
+    {
+     "t": "执行一次消耗游戏刻数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "gametick/times）——8",
+     "p": {}
+    }
+   ],
+   "text": "执行一次消耗游戏刻数（gametick/times）——8",
+   "sha256": "3074ce29d20aa7e7e70148c0fa46c5c604ccb9064c695b4573d3b2dcd03346d5",
+   "i": 6995
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3175000",
+      "cy": "1676400"
+     },
+     "name": "图片 38",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image22.png"
+    },
+    {
+     "t": "每秒执行次数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "s/gametick·times）——2.5",
+     "p": {}
+    }
+   ],
+   "text": "每秒执行次数（s/gametick·times）——2.5",
+   "sha256": "d78b47377d5d17501afd4891610f0a66c396d626dad2cac0d6efd8fb7ff98aec",
+   "i": 6996
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "--红石火把脉冲（插图92-8）",
+     "p": {}
+    }
+   ],
+   "text": "--红石火把脉冲（插图92-8）",
+   "sha256": "6f19a1a71f8be292e80af540b23d9b287767177dc366b1b9ce90f5104ac5f015",
+   "i": 6997
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "游戏刻（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "gametick）——804",
+     "p": {}
+    }
+   ],
+   "text": "游戏刻（gametick）——804",
+   "sha256": "9a85952164f80c57d5a2680a97d3c89278177efb888cc5439eadf46eaf4e6435",
+   "i": 6998
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "次数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "times）——202",
+     "p": {}
+    }
+   ],
+   "text": "次数（times）——202",
+   "sha256": "18b403c2e039031a3f2224bf5684ecfe2439f29bc27d52d60d7e269e76e3175d",
+   "i": 6999
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "执行一次消耗游戏刻数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "gametick/times）——3.980≈4",
+     "p": {}
+    }
+   ],
+   "text": "执行一次消耗游戏刻数（gametick/times）——3.980≈4",
+   "sha256": "71888876f9cb160adac35062f88c3f1f157eaea23a32f674278edb1a4370be7e",
+   "i": 7000
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 39",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "92- 7",
+         "p": {}
+        }
+       ],
+       "text": "92- 7",
+       "sha256": "a23087bbb7bccf61cf5487dbfb34452509ead2416d8279b67105135a99771a71"
+      }
+     ]
+    },
+    {
+     "t": "每秒执行次数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "s/gametick·times）——5.025≈5",
+     "p": {}
+    }
+   ],
+   "text": "每秒执行次数（s/gametick·times）——5.025≈5",
+   "sha256": "c835be4d9a1e9cacd1d5e3cc0c5f3212b28d5a7c2711c478a4bb58931c9b8a06",
+   "i": 7001
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3082925",
+      "cy": "1626870"
+     },
+     "name": "图片 40",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image23.png"
+    },
+    {
+     "t": "可见，这四个脉冲中三个的速度是每秒",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "5次，唯一一个较慢的是每秒2.5次，这与『重复』命令方块每秒执行20次的速度相差甚远。但鉴于红石电路确实比较慢，所以这样的速度还能够理解。",
+     "p": {}
+    }
+   ],
+   "text": "可见，这四个脉冲中三个的速度是每秒5次，唯一一个较慢的是每秒2.5次，这与『重复』命令方块每秒执行20次的速度相差甚远。但鉴于红石电路确实比较慢，所以这样的速度还能够理解。",
+   "sha256": "9a80458b404daf806c1e34811f40042a024da7bb9e1cf3a8ccbb306ab048305c",
+   "i": 7002
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 41",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "92- 8",
+         "p": {}
+        }
+       ],
+       "text": "92- 8",
+       "sha256": "8bb485baead58a2010baccfbd6001d29b6d1d6ef19b24fee22995191b3e740d9"
+      }
+     ]
+    },
+    {
+     "t": "但别忘了，本书是一个指令教程，所以我们用红石脉冲的目的并不是要弄红石电路，而是要让『脉冲』命令方块也能够实现重复执行的效果。而对于重复执行的命令方块来说，一个非常重要的特性就是：要容易控制",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "但别忘了，本书是一个指令教程，所以我们用红石脉冲的目的并不是要弄红石电路，而是要让『脉冲』命令方块也能够实现重复执行的效果。而对于重复执行的命令方块来说，一个非常重要的特性就是：要容易控制",
+   "sha256": "1e9938572efe18af979aa6f503cf3dcf0fe95a223ff7fd51cabc03c31b80304c",
+   "i": 7003
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『重复』命令方块在『需要红石』的模式下，可以通过",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "setblock或fill指令填充红石块或空气来实现控制的效果——这是一个十分流行且方便的控制方法，特别是在一些地图中，你应该也见过这种方法。而对于红石脉冲来讲，能不能用同样或类似的方法进行控制，就是一个非常重要的评判标准。",
+     "p": {}
+    }
+   ],
+   "text": "『重复』命令方块在『需要红石』的模式下，可以通过setblock或fill指令填充红石块或空气来实现控制的效果——这是一个十分流行且方便的控制方法，特别是在一些地图中，你应该也见过这种方法。而对于红石脉冲来讲，能不能用同样或类似的方法进行控制，就是一个非常重要的评判标准。",
+   "sha256": "ddf073e44a461fa044c3239b86df0507ffe431b457cf5d23120eaf8bdfc0fbbe",
+   "i": 7004
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在上面的四种脉冲中，『普通脉冲』最不容易被控制（你可以研究一下怎么控制这东西），而剩下的三个都能够很好的被指令控制，其中红石火把的控制方式较为特殊——你需要放置的是红石粉而不是红石块（插图",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "92-9）。",
+     "p": {}
+    }
+   ],
+   "text": "在上面的四种脉冲中，『普通脉冲』最不容易被控制（你可以研究一下怎么控制这东西），而剩下的三个都能够很好的被指令控制，其中红石火把的控制方式较为特殊——你需要放置的是红石粉而不是红石块（插图92-9）。",
+   "sha256": "a746fd3b457c7a1f98b67e10d48ec50485348da98fb483f7d46a72e9c4258eff",
+   "i": 7005
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "968375",
+      "cy": "217170"
+     },
+     "name": "文本框 43",
+     "descr": null,
+     "kind": "textbox",
+     "paragraphs": [
+      {
+       "ppr": {
+        "style": "caption",
+        "ind": {
+         "firstLine": "420"
+        },
+        "markRun": {
+         "misc": [
+          "noProof"
+         ],
+         "szCs": "24"
+        }
+       },
+       "c": [
+        {
+         "t": "92- 9",
+         "p": {}
+        }
+       ],
+       "text": "92- 9",
+       "sha256": "f7f65538028c5873310ae571dd868f145ca2cb309158d980be807635b9c30b24"
+      }
+     ]
+    },
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "3085465",
+      "cy": "1628775"
+     },
+     "name": "图片 42",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image24.png"
+    },
+    {
+     "t": "这就是本章的全部内容。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这就是本章的全部内容。",
+   "sha256": "bd655fa960580257d0b104486bb197969c06aedfc13307be1d23f2f670f5b8cc",
+   "i": 7006
+  }
+ ],
+ "text_sha256": "c620c1d43abe44b5c33685cf8484a6165c625bf842698429abf0b5b518bde6f5",
+ "chars": 1839
+}

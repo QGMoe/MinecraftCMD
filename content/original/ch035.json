@@ -1,0 +1,655 @@
+{
+ "id": "ch035",
+ "kind": "chapter",
+ "number": 35,
+ "title": "第三十五章 spreadplayers-随机传送",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   2618,
+   2650
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第三十五章_spreadplayers-随机传送"
+    },
+    {
+     "t": "第三十五章 spreadplayers-随机传送",
+     "p": {}
+    }
+   ],
+   "text": "第三十五章 spreadplayers-随机传送",
+   "sha256": "c285cbf9aa7f0ac82dcb6b8e8093874262ab879d53d4a04a46f787971ec95f2d",
+   "i": 2618
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "前文说到，一位",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft Java服务器的腐竹，为了实现将宝箱随机放在世界各处，使用了如下指令：",
+     "p": {}
+    }
+   ],
+   "text": "前文说到，一位Minecraft Java服务器的腐竹，为了实现将宝箱随机放在世界各处，使用了如下指令：",
+   "sha256": "1d1c83ab0864ae597095e4e8429c149ff3670679b13970d7173e13e43f28e2ef",
+   "i": 2619
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/summon minecraft:armor_stand ~~~{CustomName:“\\“A\\““}",
+     "p": {}
+    }
+   ],
+   "text": "/summon minecraft:armor_stand ~~~{CustomName:“\\“A\\““}",
+   "sha256": "bcf0208d1ac71641c5b853a12397d09fd5051c4d766d4115290f937110e0a4f1",
+   "i": 2620
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spreadplayers ~~ 32 10000 false @e[type=minecraft:armor_stand，name=A]",
+     "p": {}
+    }
+   ],
+   "text": "/spreadplayers ~~ 32 10000 false @e[type=minecraft:armor_stand，name=A]",
+   "sha256": "473f091f724ad838c34b9f016a77857977f70278583e502d217833b944e2a11d",
+   "i": 2621
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute as @e[type=minecraft:armor_stand，name=A] at @s run ......（后面省略）",
+     "p": {}
+    }
+   ],
+   "text": "/execute as @e[type=minecraft:armor_stand，name=A] at @s run ......（后面省略）",
+   "sha256": "9d360aae99318176651adbf12049e008f93db919e831cdc0badfa897fa7ed07c",
+   "i": 2622
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，第二条指令",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/spreadplayers我们还没了解过。那么/spreadplayers有什么用呢？",
+     "p": {}
+    }
+   ],
+   "text": "其中，第二条指令/spreadplayers我们还没了解过。那么/spreadplayers有什么用呢？",
+   "sha256": "86b9411179276c93bacbd19f71be37ec657b5cf00209c7f4c8f95810c164bf8b",
+   "i": 2623
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "随机传送实体（分散",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "[spread]玩家们[players]）",
+     "p": {}
+    }
+   ],
+   "text": "随机传送实体（分散[spread]玩家们[players]）",
+   "sha256": "2c2a646e8ef13aeac72b60fbbf4aff6a479c938da4d95f693bbab24cb27ee118",
+   "i": 2624
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spreadplayers",
+     "p": {}
+    }
+   ],
+   "text": "/spreadplayers",
+   "sha256": "38dd9d30c2ae4aa6648819df8b6628c3772cff4dd5590dab3d84c36dbc8135e6",
+   "i": 2625
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：将一名或多名实体分别传送到指定范围内随机一个地方",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：将一名或多名实体分别传送到指定范围内随机一个地方",
+   "sha256": "6e2972382713582690f77c53a78df867402c52c83912826af835e6c79794c33c",
+   "i": 2626
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2，基岩-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2，基岩-1",
+   "sha256": "04ff054666196c9f14a59c65f5ddb9a79efed2f3d2b519540dd5715299ff7c53",
+   "i": 2627
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 2628
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 2629
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.15.2以上",
+     "p": {}
+    }
+   ],
+   "text": "Java1.15.2以上",
+   "sha256": "7c83031d8ec245440f46a99be57daac563aff5df8ac5d37de4b7c50de87a8804",
+   "i": 2630
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spreadplayers <中心坐标：X><中心坐标：Z><最小间距：小数><范围边长½><考虑队伍：布尔值><实体：目标选择器>",
+     "p": {}
+    }
+   ],
+   "text": "/spreadplayers <中心坐标：X><中心坐标：Z><最小间距：小数><范围边长½><考虑队伍：布尔值><实体：目标选择器>",
+   "sha256": "d4980a43e7582a7230ddc71cae8d1526783662914b04939e713bcc545343ff32",
+   "i": 2631
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spreadplayers <中心坐标：X><中心坐标：Z><最小间距：小数><范围边长½> under <最大高度:Y><考虑队伍：布尔值><实体：目标选择器>",
+     "p": {}
+    }
+   ],
+   "text": "/spreadplayers <中心坐标：X><中心坐标：Z><最小间距：小数><范围边长½> under <最大高度:Y><考虑队伍：布尔值><实体：目标选择器>",
+   "sha256": "ebbf704e049103b99fbe66564fb694ce6e030329ec5e83176209b0314f5b9c06",
+   "i": 2632
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.16以下",
+     "p": {}
+    }
+   ],
+   "text": "Java1.16以下",
+   "sha256": "84717790f0e6d29f4279bbad0b082192e4850f704347216cd8a66c1d80e2a61f",
+   "i": 2633
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spreadplayers <中心坐标：X><中心坐标：Z><最小间距：小数><范围边长½><考虑队伍：布尔值><实体：目标选择器>",
+     "p": {}
+    }
+   ],
+   "text": "/spreadplayers <中心坐标：X><中心坐标：Z><最小间距：小数><范围边长½><考虑队伍：布尔值><实体：目标选择器>",
+   "sha256": "d4980a43e7582a7230ddc71cae8d1526783662914b04939e713bcc545343ff32",
+   "i": 2634
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "基岩版",
+   "sha256": "e1ef194dc07360ceff0a1bfe2e5ddb80aa088939ada629f4c1c7f9bde5641ae2",
+   "i": 2635
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spreadplayers <中心坐标：X><中心坐标：Z><最小间距：小数><范围边长½><实体：目标选择器>",
+     "p": {}
+    }
+   ],
+   "text": "/spreadplayers <中心坐标：X><中心坐标：Z><最小间距：小数><范围边长½><实体：目标选择器>",
+   "sha256": "4a7f79e2004278338b93783af7dc6d26e3f30ee12dea433aebf91f98c3e056b2",
+   "i": 2636
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "随机传送的范围是一个默认在世界建筑高度限制的正方形（注意，不是正方体），确定这个范围大小时是填写这个范围边长的二分之一（比如边长是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "200，范围边长½就填100）。需要注意，“范围边长½”这个参数的值不能小于“最小间距”。如果填写了under，可以规定传送的最大高度。这个参数并不只是单纯的将这个正方形从世界建筑高度限制拉下来，而是还有个作用：",
+     "p": {}
+    }
+   ],
+   "text": "随机传送的范围是一个默认在世界建筑高度限制的正方形（注意，不是正方体），确定这个范围大小时是填写这个范围边长的二分之一（比如边长是200，范围边长½就填100）。需要注意，“范围边长½”这个参数的值不能小于“最小间距”。如果填写了under，可以规定传送的最大高度。这个参数并不只是单纯的将这个正方形从世界建筑高度限制拉下来，而是还有个作用：",
+   "sha256": "0c6a034e0ea4bf07a53089913a5629183b633ea5f3fb72ce0429d180c6132c98",
+   "i": 2637
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "随机传送时，实体就不会被传到高空然后掉下来摔死，而是会直接来到",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Y轴最高的方块上（注意，这个方块的Y坐标不能大于最大高度参数的值）。",
+     "p": {}
+    }
+   ],
+   "text": "随机传送时，实体就不会被传到高空然后掉下来摔死，而是会直接来到Y轴最高的方块上（注意，这个方块的Y坐标不能大于最大高度参数的值）。",
+   "sha256": "4a6acefad8c3aa5131c3f4dfbb9a992d883ed220b4b52ff29955a8aac648b1fc",
+   "i": 2638
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "随机传送的实体可以有很多个，但每个实体在不考虑队伍的情况下都是单独传送。既然是单独传送，就有可能有两个或更多实体挨得很近。所以，最小间距也是个很重要的参数，它规定了随机传送时实体们的最小间距。比如随机传送参数的值为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "7，那么执行时就算有两个实体随机到了很近的地方，它们的距离也绝对不会小于七格。",
+     "p": {}
+    }
+   ],
+   "text": "随机传送的实体可以有很多个，但每个实体在不考虑队伍的情况下都是单独传送。既然是单独传送，就有可能有两个或更多实体挨得很近。所以，最小间距也是个很重要的参数，它规定了随机传送时实体们的最小间距。比如随机传送参数的值为7，那么执行时就算有两个实体随机到了很近的地方，它们的距离也绝对不会小于七格。",
+   "sha256": "282baf44055b715d74c0bf05dabb6c2e56a37dd5f7779fdd6b29885b9ac39158",
+   "i": 2639
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子，比如：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子，比如：",
+   "sha256": "227b99003c71a01b233b9e6e8e6e018b0c6eb87ee5df588261c313e7576468ff",
+   "i": 2640
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spreadplayers 100 100 30 300 under 128 true @a[tag=hunger_games_Teams]",
+     "p": {}
+    }
+   ],
+   "text": "/spreadplayers 100 100 30 300 under 128 true @a[tag=hunger_games_Teams]",
+   "sha256": "e937e65d28b1159dcac4f053e89e4210936bdd356fd39989b30f9cd48778a796",
+   "i": 2641
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "执行时会先确定范围：一个中心在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(100，100)的正方形，边长为600格。随后将以队伍为单位，随机传送所有具有hunger_games_Teams标签的玩家类队员到该范围内，并且直接来到Y轴最高（但不能超过128格）的方块上面，且两个队伍间距最小为30格。",
+     "p": {}
+    }
+   ],
+   "text": "执行时会先确定范围：一个中心在(100，100)的正方形，边长为600格。随后将以队伍为单位，随机传送所有具有hunger_games_Teams标签的玩家类队员到该范围内，并且直接来到Y轴最高（但不能超过128格）的方块上面，且两个队伍间距最小为30格。",
+   "sha256": "716fee25d804773c6d2b713ff8349d49221d15c9bd3cfec83a02394322192e97",
+   "i": 2642
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spreadplayers并不只可以随机传送玩家，正如那位将宝箱随机放在世界各处的腐竹用/spreadplayers随机传送盔甲架一样，/spreadplayers还可以随机传送任何实体。",
+     "p": {}
+    }
+   ],
+   "text": "/spreadplayers并不只可以随机传送玩家，正如那位将宝箱随机放在世界各处的腐竹用/spreadplayers随机传送盔甲架一样，/spreadplayers还可以随机传送任何实体。",
+   "sha256": "165e3e5d211c8ba141597339366c3143e867e860b70f9e8952216f89affb7f6c",
+   "i": 2643
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/spreadplayers可以用在服务器具有大场地的任何玩法中，如资源区（随机传送玩家）和吃鸡玩法类型游戏（随机传送玩家、空投箱）。",
+     "p": {}
+    }
+   ],
+   "text": "所以，/spreadplayers可以用在服务器具有大场地的任何玩法中，如资源区（随机传送玩家）和吃鸡玩法类型游戏（随机传送玩家、空投箱）。",
+   "sha256": "6160cea9201a1d67fb826d8cb6165f8186a2e3cba5b3445c25f3bf09015e9f41",
+   "i": 2644
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "历史",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "历史",
+   "sha256": "b0385cfe4b424d835963f2ce8a27a7fec98018affaf7c44645933266b8869727",
+   "i": 2645
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {}
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 2646
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.6.1——加入了/spreadplayers",
+     "p": {}
+    }
+   ],
+   "text": "1.6.1——加入了/spreadplayers",
+   "sha256": "ceb6657f800fb5e774c131c5466f8bbf7891983ebe0c68ff4cc103d8a3995f7c",
+   "i": 2647
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16——加入了“under”和“最大高度”参数",
+     "p": {}
+    }
+   ],
+   "text": "1.16——加入了“under”和“最大高度”参数",
+   "sha256": "51c544268921e34ae0d943bb9644455aa6763f9b46835e165ca6d4772dd5bbe6",
+   "i": 2648
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "携带版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "携带版",
+   "sha256": "2635643c1d3380222ab8e9ce8d4bee59a064d2450fba26b2081a507d04a33f80",
+   "i": 2649
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.0.5——加入了/spreadplayers",
+     "p": {}
+    }
+   ],
+   "text": "1.0.5——加入了/spreadplayers",
+   "sha256": "4d26942dbd775f0ac268bca8fb31bf7d563ae94ca36e8aaf71210f6486783fd9",
+   "i": 2650
+  }
+ ],
+ "text_sha256": "c742bfd991a2f6eb741d1fdf30d93b406a454378dd77943b0e2af9bc11994971",
+ "chars": 1555
+}

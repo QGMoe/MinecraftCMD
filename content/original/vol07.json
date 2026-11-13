@@ -1,0 +1,74 @@
+{
+ "id": "vol07",
+ "kind": "volume",
+ "number": 7,
+ "title": "第七卷 更多的指令",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   3738,
+   3739
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "spacing": {
+     "line": "720",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "t": "第七卷 ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "更多的指令",
+     "p": {}
+    }
+   ],
+   "text": "第七卷 更多的指令",
+   "sha256": "09bba25763ce7ae3a542e05ef17837c2027e89dbe01fd7f7bfad94bbbeade298",
+   "i": 3738
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "现在该学习更多实用的指令了！",
+     "p": {
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "现在该学习更多实用的指令了！",
+   "sha256": "dd5d3d20f78c4285e8d3b50791565b89954c2d1a2c51a2495fcaf0d7410df587",
+   "i": 3739
+  }
+ ],
+ "text_sha256": "ddc3cf5b75cfb6a7747c132e1a6bc7abfc5e1852778039c1cecc1582b7dcb29d",
+ "chars": 23
+}

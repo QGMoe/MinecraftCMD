@@ -1,0 +1,1127 @@
+{
+ "id": "ch038",
+ "kind": "chapter",
+ "number": 38,
+ "title": "第三十八章 replaceitem-头上顶着一个TNT",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   2739,
+   2796
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第三十八章_replaceitem-头上顶着一个TNT"
+    },
+    {
+     "t": "第三十八章 replaceitem-头上顶着一个TNT",
+     "p": {}
+    }
+   ],
+   "text": "第三十八章 replaceitem-头上顶着一个TNT",
+   "sha256": "9799c19e94841e36d929d6fa96f4d644a4d4e554eab1cc04e2a41866e9bd444e",
+   "i": 2739
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是一个很牛逼的指令。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这是一个很牛逼的指令。",
+   "sha256": "e56df1e644e3e38f94dee3707032978d2488d726ce895aece32c7f679a2f7540",
+   "i": 2740
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "真的真的很",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "666。",
+     "p": {}
+    }
+   ],
+   "text": "真的真的很666。",
+   "sha256": "c33f15ef52c4fe12072a466de2fa39f8383a0521d3e1e75aa9f62e2ba168f2fb",
+   "i": 2741
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "它就是：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "它就是：",
+   "sha256": "c875a6000e9be811a3a343843612a99fb1d78c8734f1e32277ad05243b379f7b",
+   "i": 2742
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem",
+   "sha256": "8fc1fb2d781ef8e7a928c99506574eef93eaf11673099b3fb09ca1b7c5fad343",
+   "i": 2743
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/replaceitem其实由replace和item组成。replace，之前见到过，意为“代替”；item，之前见到过，没讲过，它在Minecraft中意为“物品”。所以，replaceitem意为“代替物品”。",
+     "p": {}
+    }
+   ],
+   "text": "首先，/replaceitem其实由replace和item组成。replace，之前见到过，意为“代替”；item，之前见到过，没讲过，它在Minecraft中意为“物品”。所以，replaceitem意为“代替物品”。",
+   "sha256": "8654b24046ab55f97085e7f1d6f8d76beeca5a6fea46f38f31d530a8394406a4",
+   "i": 2744
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem",
+   "sha256": "8fc1fb2d781ef8e7a928c99506574eef93eaf11673099b3fb09ca1b7c5fad343",
+   "i": 2745
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：替换容器方块或实体物品栏内的物品。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：替换容器方块或实体物品栏内的物品。",
+   "sha256": "c7b4c7803322bde2e38b6df4824d8bd87a563cc42af4edd6c52062d5e1b9e252",
+   "i": 2746
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2，基岩-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2，基岩-1",
+   "sha256": "04ff054666196c9f14a59c65f5ddb9a79efed2f3d2b519540dd5715299ff7c53",
+   "i": 2747
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 2748
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 2749
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.17以前",
+     "p": {}
+    }
+   ],
+   "text": "Java1.17以前",
+   "sha256": "745fddb3a7d3aeb8721b36be0d71dc29fb882b4f6e7dc1637a23b372841e3305",
+   "i": 2750
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem block <方块位置：坐标><栏位><物品>[数量]",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem block <方块位置：坐标><栏位><物品>[数量]",
+   "sha256": "361b8bbbb6f15964e10cfab60df6aa46a1c45039aa80c60da598425dce284213",
+   "i": 2751
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem entity <实体：目标选择器><栏位><物品>[数量]",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem entity <实体：目标选择器><栏位><物品>[数量]",
+   "sha256": "39cefb3907a50dda8f0d73178f8e7c5d5b2e8b4c95e301b45e4f129f2a77e880",
+   "i": 2752
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "基岩",
+   "sha256": "aeddf2a534cd58b9e5842fbc242faee30e0dfb207b5079136c9b370ee21f518f",
+   "i": 2753
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem block <方块坐标><栏位类型><栏位编号>[<原物品处理：destroy|keep>]<物品>[数量][数据值]",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem block <方块坐标><栏位类型><栏位编号>[<原物品处理：destroy|keep>]<物品>[数量][数据值]",
+   "sha256": "fe5417e990f0f111a473e84754c3550b3d84e4f46b3ef81bb45335acbc71a0c4",
+   "i": 2754
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem entity <实体：目标选择器><栏位编号>[<原物品处理：destroy|keep>]<物品>[数量][数据值]",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem entity <实体：目标选择器><栏位编号>[<原物品处理：destroy|keep>]<物品>[数量][数据值]",
+   "sha256": "83b0bfeb82301e62b573b04eedaf8d3fc1c02a39f06374c280a6fedf1d5ad04c",
+   "i": 2755
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem的block（方块）和entity（实体）格式，差别就只是选定的方式和栏位有所不同。",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem的block（方块）和entity（实体）格式，差别就只是选定的方式和栏位有所不同。",
+   "sha256": "c5157f6f47552f101986e39f0eb907e8bfe41242afb2b7f4cb2426be8e7df807",
+   "i": 2756
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "什么是栏位呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "什么是栏位呢？",
+   "sha256": "6c1869a4348dae072b67d32505afa8460d0eae783305e0e52eba63d0d33a5804",
+   "i": 2757
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft中任何可以放置物品的格子，都是栏位。一个栏位的身份由栏位类型和栏位编号组成。",
+     "p": {}
+    }
+   ],
+   "text": "Minecraft中任何可以放置物品的格子，都是栏位。一个栏位的身份由栏位类型和栏位编号组成。",
+   "sha256": "6673eaca2f3b02a4e14f6efe597417d049dc21f3769f48f688f0bbb7b02c2290",
+   "i": 2758
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java版中，栏位类型和栏位ID是合并在一起的：",
+     "p": {}
+    }
+   ],
+   "text": "在Java版中，栏位类型和栏位ID是合并在一起的：",
+   "sha256": "4c3ec327e5f838711cff9de8e0a297787b50443d1520ba6031a608847ae5f1ca",
+   "i": 2759
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "slot.<类型>.<栏位编号>",
+     "p": {}
+    }
+   ],
+   "text": "slot.<类型>.<栏位编号>",
+   "sha256": "d581eda82dcc2a09b40ab6daa04663ca4ba37887cd2199a974b9f28f19af4569",
+   "i": 2760
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "slot.enderchest.2（末影箱第一行从左往右第三格）",
+     "p": {}
+    }
+   ],
+   "text": "比如slot.enderchest.2（末影箱第一行从左往右第三格）",
+   "sha256": "a2893752857c5f1ebc1e9a850d373c8b01433fb1376f1b6203174e9131224907",
+   "i": 2761
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在基岩版中，栏位类型和栏位",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "ID是分开的：",
+     "p": {}
+    }
+   ],
+   "text": "在基岩版中，栏位类型和栏位ID是分开的：",
+   "sha256": "7e50911aafd889145b876a3f88ae10d0b726d53c7eb37f78783221eda0066bb6",
+   "i": 2762
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "slot.<栏位类型>空格<栏位编号>",
+     "p": {}
+    }
+   ],
+   "text": "slot.<栏位类型>空格<栏位编号>",
+   "sha256": "fdec413b2db2bf1f0f7a93453e41b709f0ca0af706d2cbb58175d38d4e2f9202",
+   "i": 2763
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "slot.armor.head 0（生物的帽子栏位）",
+     "p": {}
+    }
+   ],
+   "text": "比如slot.armor.head 0（生物的帽子栏位）",
+   "sha256": "4402535ace0fdc99588d01fd78b5e0714e24739dd8985916f3a2e8434c7581cb",
+   "i": 2764
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "怎么判断栏位编号呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "怎么判断栏位编号呢？",
+   "sha256": "6f5ae7c1b5df619657808b3f17b10ad8a029025848c013611e8fe82946c9e5a0",
+   "i": 2765
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最上面一排左边的第一个格子的栏位被编号为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0，而后从左到右、从上到下递增（例如，箱子的第一行栏位被从左至右编号为0至8）。但是注意一点：大型箱子与大型陷阱箱被视为两个独立的容器方块，也就是说你选中箱子的左边，那么只能控制一半；选中箱子的右边，也只能控制一半。",
+     "p": {}
+    }
+   ],
+   "text": "最上面一排左边的第一个格子的栏位被编号为0，而后从左到右、从上到下递增（例如，箱子的第一行栏位被从左至右编号为0至8）。但是注意一点：大型箱子与大型陷阱箱被视为两个独立的容器方块，也就是说你选中箱子的左边，那么只能控制一半；选中箱子的右边，也只能控制一半。",
+   "sha256": "df0fa262b98462a01799a9397c899452d351c84214546834cb3adce235ac9aaf",
+   "i": 2766
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "酿造台底部栏位从左至右编号为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0至2，而其顶部栏位为3。",
+     "p": {}
+    }
+   ],
+   "text": "酿造台底部栏位从左至右编号为0至2，而其顶部栏位为3。",
+   "sha256": "7b3feb6dab4ce28148347fb7713d665d1712f6bf661dfef86d90c0172d80fdda",
+   "i": 2767
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "熔炉的栏位中输入栏的栏位编号为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0，燃料栏的栏位编号为1，而输出栏栏位为2。",
+     "p": {}
+    }
+   ],
+   "text": "熔炉的栏位中输入栏的栏位编号为0，燃料栏的栏位编号为1，而输出栏栏位为2。",
+   "sha256": "ab26957028575a1e079ab275991a022a6d618bfa20e5a8fce90b04dcc6f3904a",
+   "i": 2768
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "现在举个例子：",
+   "sha256": "f4cd6b08e39350ccbcfa7285d509dbeef074664fe072f71daa028485b4db56d6",
+   "i": 2769
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem entity @a slot.armor.head minecraft:TNT——Java1.17之前",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem entity @a slot.armor.head minecraft:TNT——Java1.17之前",
+   "sha256": "d9f6b0f13aaa073030ac6a185f2e7d47a1e624d3738344cac3f6cce23487fb34",
+   "i": 2770
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem entity @a slot.armor.head 0 TNT——基岩",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem entity @a slot.armor.head 0 TNT——基岩",
+   "sha256": "f8048988d771e5ba58ef8ced90ef31dde7f40e58a2a880104037bb56b3b543f9",
+   "i": 2771
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令的作用是：让所有玩家头上都顶着一个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "TNT。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令的作用是：让所有玩家头上都顶着一个TNT。",
+   "sha256": "c897cb21bbc066981a1cfa606fbda5da6076db54b29add79e26cb875562605a5",
+   "i": 2772
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/replaceitem甚至可以修改末影箱内的东西。比如：",
+     "p": {}
+    }
+   ],
+   "text": "使用/replaceitem甚至可以修改末影箱内的东西。比如：",
+   "sha256": "d265ad46aec627191b8e1daf62d36150fbd7e560843b7f50a41a737aa5309fbe",
+   "i": 2773
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem entity @s slot.enderchest.16 minecraft:diamond 64——Java1.17之前",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem entity @s slot.enderchest.16 minecraft:diamond 64——Java1.17之前",
+   "sha256": "c2e674633a3b45a794104379837fb332348747bea808f5e07284bc694b5b35c5",
+   "i": 2774
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem entity @s slot.enderchest 16 minecraft:diamond 64——基岩",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem entity @s slot.enderchest 16 minecraft:diamond 64——基岩",
+   "sha256": "94bba286fa7c497a2187905b9bf17e92a8c252caf9d4c7d43d17eff1eea2ed3d",
+   "i": 2775
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用是：将执行者自己的末影箱第二排第八格替换成",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "64颗钻石",
+     "p": {}
+    }
+   ],
+   "text": "作用是：将执行者自己的末影箱第二排第八格替换成64颗钻石",
+   "sha256": "325716024af79a460802c4712e67f0181b1293966afc791b106c8e443b7fac35",
+   "i": 2776
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem好是好，但这样子替换东西原来的东西就没掉了。",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem好是好，但这样子替换东西原来的东西就没掉了。",
+   "sha256": "accf694e89cb01bd7a29ab0f7bb36b37379eda775bc4f5aa5efef65a752f3f39",
+   "i": 2777
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那该怎么办？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "那该怎么办？",
+   "sha256": "f93ebd83ff6b233ccfa066eff3467a9cf24a2ca5a97ccf0b6b4866ef892f2969",
+   "i": 2778
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Mojang给了我们两个替换模式：",
+     "p": {}
+    }
+   ],
+   "text": "Mojang给了我们两个替换模式：",
+   "sha256": "753dd8f51ae463e1cd87b8c63affda70c77bf7b03c4b26a13f4cf3bee582c65f",
+   "i": 2779
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "destroy和keep",
+     "p": {}
+    }
+   ],
+   "text": "destroy和keep",
+   "sha256": "c9bd2765d21a00c8a21155aeac19683fa8304e272715cc0acfd5e3f56a3a9931",
+   "i": 2780
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "destroy——默认方式，直接替换",
+     "p": {}
+    }
+   ],
+   "text": "destroy——默认方式，直接替换",
+   "sha256": "0638af71d53616c451617bea43ab32c2d62ee0ca6ad88b2e46afb7f85db15d00",
+   "i": 2781
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "keep——如果该栏位已有物品则不替换",
+     "p": {}
+    }
+   ],
+   "text": "keep——如果该栏位已有物品则不替换",
+   "sha256": "e0e5650bb351efc60bd22f8b570cbdf5d626913ec924d95d56bc4acce7b058ea",
+   "i": 2782
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "比如：",
+   "sha256": "a9527ddcd686491dc2f56c436383c4f102e02b2389a057e3d7bfc0caf93382a4",
+   "i": 2783
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/replaceitem entity @s slot.enderchest 0 keep minecraft:air——仅基岩1.16及以上版本",
+     "p": {}
+    }
+   ],
+   "text": "/replaceitem entity @s slot.enderchest 0 keep minecraft:air——仅基岩1.16及以上版本",
+   "sha256": "5e0e6b5b283b1a91e97aba61dddde764d94820d6410fe57ec6674adbb7a76b79",
+   "i": 2784
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令的作用就是：如果自己的末影箱第一个栏位没东西，那么替换个空气；如果有，那么啥事也没有。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令的作用就是：如果自己的末影箱第一个栏位没东西，那么替换个空气；如果有，那么啥事也没有。",
+   "sha256": "abeb301be9d5378da839d48a0c2804b5f8c58990181d491068ccc95207622fbb",
+   "i": 2785
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "真•替换了个空气",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "真•替换了个空气",
+   "sha256": "6fff11e0333ae4f2840dc364fab4bd161d0a28d31e159ddacca0ca7fc095b2da",
+   "i": 2786
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在你学会了",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/replaceitem了吧？但是有件事情得注意：像这样子乱戴（不按常理出牌）只有在Java版才有显示，基岩版没有显示。但是除玩家以外大部分都有显示（比如僵尸）。村民两个版本都不显示，就算你给他们带上钻石头盔等正常的东西。但是虽然不显示，却有作用。",
+     "p": {}
+    }
+   ],
+   "text": "现在你学会了/replaceitem了吧？但是有件事情得注意：像这样子乱戴（不按常理出牌）只有在Java版才有显示，基岩版没有显示。但是除玩家以外大部分都有显示（比如僵尸）。村民两个版本都不显示，就算你给他们带上钻石头盔等正常的东西。但是虽然不显示，却有作用。",
+   "sha256": "c47f4bb55759a1d383c46c727ad699030dce0256744fadc6151f734705fcaf99",
+   "i": 2787
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "历史",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "历史",
+   "sha256": "b0385cfe4b424d835963f2ce8a27a7fec98018affaf7c44645933266b8869727",
+   "i": 2788
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {}
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 2789
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.8——加入了/replaceitem",
+     "p": {}
+    }
+   ],
+   "text": "1.8——加入了/replaceitem",
+   "sha256": "c2ae952f6494ff1e640fbfc20576d3636520483794b26d69a7172688dd899b79",
+   "i": 2790
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.14——/replaceitem现在支持物品展示框",
+     "p": {}
+    }
+   ],
+   "text": "1.14——/replaceitem现在支持物品展示框",
+   "sha256": "cfd2dc6b7ba19e4f38e4b116cca3ba1f91fcb2e23d7f7c0d4fc418d0fdeceae2",
+   "i": 2791
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.17——被/item取代",
+     "p": {}
+    }
+   ],
+   "text": "1.17——被/item取代",
+   "sha256": "3bdccd308e6acc6ed3f3ff0c3cb5b233c983a471264d540cf0aa3a973e807a9d",
+   "i": 2792
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "携带版和基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "携带版和基岩版",
+   "sha256": "e0b00f203384e935934753bac902d6263c7d6733e142ff425e9514b171b2d57e",
+   "i": 2793
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.0.5——加入了/replaceitem",
+     "p": {}
+    }
+   ],
+   "text": "1.0.5——加入了/replaceitem",
+   "sha256": "5e1472729bb8ccfd605849f8607516b4222ff362fd5c325ddb21dc6c089f0aa9",
+   "i": 2794
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.1.0——/replaceitem现在支持canplaceon和candestroy物品组件",
+     "p": {}
+    }
+   ],
+   "text": "1.1.0——/replaceitem现在支持canplaceon和candestroy物品组件",
+   "sha256": "60eefde9377cb5f49a03714096c9f46616d5cf9e23797ea4658fa6abd4edbacc",
+   "i": 2795
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16.0——为/replaceitem添加了替换模式参数",
+     "p": {}
+    }
+   ],
+   "text": "1.16.0——为/replaceitem添加了替换模式参数",
+   "sha256": "81ee3c536b8bafd4bc56d1ce7f4b3339e9352cb603ee720f08713a340b905231",
+   "i": 2796
+  }
+ ],
+ "text_sha256": "13ea5641dbe32e477942c9a9ce27e22089ab27626bdee20d560afabab4f4b140",
+ "chars": 1806
+}

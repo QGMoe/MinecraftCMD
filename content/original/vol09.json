@@ -1,0 +1,73 @@
+{
+ "id": "vol09",
+ "kind": "volume",
+ "number": 9,
+ "title": "第九卷 㕛是一些指令",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   5715,
+   5716
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "t": "第九卷 㕛是一些指令",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "第九卷 㕛是一些指令",
+   "sha256": "a12b601c9833a9924ce67a6070cf70765b7a705634123659638e37f82e7a5d0a",
+   "i": 5715
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "这些指令是什么？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "这些指令是什么？",
+   "sha256": "9fb6e53810f8cdda4471f85990feb293006ccc70f9faa25dca2a6e758acab437",
+   "i": 5716
+  }
+ ],
+ "text_sha256": "d201167e804cc90629ff981583070b585673030b4a0b1d4c6046838b74b9f9f6",
+ "chars": 18
+}

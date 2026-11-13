@@ -1,0 +1,984 @@
+{
+ "id": "cover",
+ "kind": "cover",
+ "number": null,
+ "title": "Minecraft指令手册",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   0,
+   48
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 1",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "ascii": "STXinwei",
+      "eastAsia": "STXinwei"
+     }
+    }
+   },
+   "c": [
+    {
+     "placement": "anchor",
+     "extent": {
+      "cx": "2825750",
+      "cy": "3765550"
+     },
+     "name": "图片 47",
+     "descr": null,
+     "kind": "image",
+     "media": "word/media/image1.jpeg"
+    },
+    {
+     "t": "Minecraft指令手册",
+     "p": {
+      "font": {
+       "ascii": "STXinwei",
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "Minecraft指令手册",
+   "sha256": "c43aaafcd8de8327f08b5193a09a7454d9393fc021dfac5704f01c908e9703b3",
+   "i": 0
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 1
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 2
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 3
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 4
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 5
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 6
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 7
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 8
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 9
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 10
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 11
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 12
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 13
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 14
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 15
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 16
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 17
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 18
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 19
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 20
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 21
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 22
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 23
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 24
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 25
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 26
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 27
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 28
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 29
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [
+    {
+     "t": "本书是用于教大家MC指令，非MC玩家勿入。",
+     "p": {
+      "font": {
+       "eastAsia": "SimSun"
+      }
+     }
+    }
+   ],
+   "text": "本书是用于教大家MC指令，非MC玩家勿入。",
+   "sha256": "2e5a6adf6fdcb6f3b4503cb1c4edc2ea73b92d4843960a9484b698f46ae50202",
+   "i": 30
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [
+    {
+     "t": "适合各路MC玩家观看。",
+     "p": {
+      "font": {
+       "eastAsia": "SimSun"
+      }
+     }
+    }
+   ],
+   "text": "适合各路MC玩家观看。",
+   "sha256": "b7882265bbce79e2be0e4f7b47ed3d070087b5bb7196f44e61805bfdebc240cb",
+   "i": 31
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [
+    {
+     "t": "MC指令交流群：936503067（QQ）",
+     "p": {
+      "font": {
+       "eastAsia": "SimSun"
+      }
+     }
+    }
+   ],
+   "text": "MC指令交流群：936503067（QQ）",
+   "sha256": "32a2de410b7195dcef80adce1525ee45bdc9a8db2fb4c074a305d4f6d3ba8b5b",
+   "i": 32
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     }
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 33
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "当前本书状态：第一次大修",
+     "p": {
+      "font": {
+       "eastAsia": "SimSun"
+      },
+      "i": true,
+      "iCs": true
+     }
+    },
+    {
+     "t": "完成",
+     "p": {
+      "font": {
+       "eastAsia": "SimSun",
+       "hint": "eastAsia"
+      },
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "当前本书状态：第一次大修完成",
+   "sha256": "8bc4333c5afa35220dcfd097582237a915db9e2d5a0da123def8e6e86bf4259d",
+   "i": 34
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 35
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 36
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 37
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 38
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 39
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 40
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 41
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 42
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 43
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "482"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "KaiTi"
+     },
+     "b": true,
+     "bCs": true,
+     "sz": "24",
+     "szCs": "32"
+    }
+   },
+   "c": [
+    {
+     "t": "MC不倒，陪你到老；MC要倒，我们扶好。",
+     "p": {
+      "font": {
+       "eastAsia": "KaiTi"
+      },
+      "b": true,
+      "bCs": true,
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "MC不倒，陪你到老；MC要倒，我们扶好。",
+   "sha256": "77ecec4a0ea070c3d22cbedba54613f0104f300e8acebb8e076e2666f626b429",
+   "i": 44
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 45
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 46
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [],
+   "text": "",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "i": 47
+  },
+  {
+   "ppr": {
+    "other": [
+     "widowControl"
+    ],
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "left",
+    "markRun": {
+     "font": {
+      "eastAsia": "SimSun"
+     },
+     "i": true,
+     "iCs": true
+    },
+    "sectPr": true
+   },
+   "c": [
+    {
+     "br": "page",
+     "p": {
+      "font": {
+       "eastAsia": "SimSun"
+      },
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "\n",
+   "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+   "i": 48
+  }
+ ],
+ "text_sha256": "87886d846d3cb0a512ee04e62f6c76aa3aee73092f749bd159b067ef0fcf0a07",
+ "chars": 101
+}

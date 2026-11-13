@@ -1,0 +1,1672 @@
+{
+ "id": "ch125",
+ "kind": "chapter",
+ "number": 125,
+ "title": "第一百二十五章 玩家与JSON的交互事件 上",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   10014,
+   10116
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "第一百二十五章 玩家与JSON的交互事件 上",
+     "p": {}
+    }
+   ],
+   "text": "第一百二十五章 玩家与JSON的交互事件 上",
+   "sha256": "ffdf30b6eb0111edfb6ee34404165178d0508bdaa0d20017b0827a051d3e1e33",
+   "i": 10014
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看，这是一段JSON文本输出的文字。",
+     "p": {}
+    }
+   ],
+   "text": "看，这是一段JSON文本输出的文字。",
+   "sha256": "27c92650b4f58cdce621a6f5e970f570a0b61792ddcd5fa2e3206af56169ddf9",
+   "i": 10015
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "只不过这段文字就是一段文字，你无法操控它，或者是它操控你（？？？）。",
+     "p": {}
+    }
+   ],
+   "text": "只不过这段文字就是一段文字，你无法操控它，或者是它操控你（？？？）。",
+   "sha256": "c67acec32e80a143a9f8741d8634df185849edb297bc164d4751bc0c5ffb0b54",
+   "i": 10016
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你真的可以点击这段文字并产生一些作用，比如打开了一个新的网站，你点击文字的做法，就叫做你与文本的“交互事件”。",
+     "p": {}
+    }
+   ],
+   "text": "如果你真的可以点击这段文字并产生一些作用，比如打开了一个新的网站，你点击文字的做法，就叫做你与文本的“交互事件”。",
+   "sha256": "a08fa493deb02076399b2ec816bd8bad88e2304b72969643b723d8236f71abd9",
+   "i": 10017
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在JSON文本中，专门管理玩家与JSON文本的交互事件元素统称为“交互事件”。",
+     "p": {}
+    }
+   ],
+   "text": "在JSON文本中，专门管理玩家与JSON文本的交互事件元素统称为“交互事件”。",
+   "sha256": "b668430750ab552babea66f4d3822e780ac54c03a3ed00fe81cd7d92d6358851",
+   "i": 10018
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "下面，我们就来研究研究，这些交互事件元素，到底该怎么用。",
+     "p": {}
+    }
+   ],
+   "text": "下面，我们就来研究研究，这些交互事件元素，到底该怎么用。",
+   "sha256": "8e63d13eba7361a4a9fa6f7156e926d37c5a381c19a9af127c7c3ec4949d1e3d",
+   "i": 10019
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一个：insertion。",
+     "p": {}
+    }
+   ],
+   "text": "第一个：insertion。",
+   "sha256": "a1907f117a7a9ffff093706f04aebc5c56009665d7abcf9a2c44f4eb0d24d21f",
+   "i": 10020
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一个也就是最简单的一个。insertion的作用就是当玩家按住Shift并点击insertion所在对象显示的文字时，游戏就会自动将insertion的值填入聊天框中，且并不会覆盖已在聊天框输入的文字，比如：",
+     "p": {}
+    }
+   ],
+   "text": "第一个也就是最简单的一个。insertion的作用就是当玩家按住Shift并点击insertion所在对象显示的文字时，游戏就会自动将insertion的值填入聊天框中，且并不会覆盖已在聊天框输入的文字，比如：",
+   "sha256": "86067c1554805404d9bf346f4f06ca7e80c6b6bbf0caefecb271751732db1f7d",
+   "i": 10021
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“按住Shift点击有惊喜“，“insertion“:“惊喜！“}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“按住Shift点击有惊喜“，“insertion“:“惊喜！“}",
+   "sha256": "b62b42d780ccf894b7cab0d24ea8eef31ebebeee2deec04e466cbc92c12b0a6c",
+   "i": 10022
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "运行之后你就会发现输出了：",
+     "p": {}
+    }
+   ],
+   "text": "运行之后你就会发现输出了：",
+   "sha256": "1f7e62d102c2cf53080ecec9d88fb5525c29a3a95e4af8c8d272fdaa79e40b65",
+   "i": 10023
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "按住Shift点击有惊喜",
+     "p": {}
+    }
+   ],
+   "text": "按住Shift点击有惊喜",
+   "sha256": "f75739511f044455743e0589c29463592e06ba27fe84d9b5993b92a640d7e7c8",
+   "i": 10024
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样一段普普通通的消息。但如果你点击T键打开消息界面，并按住Shift点击文字，你就会发现聊天栏自动输入了：“惊喜！”二字。",
+     "p": {}
+    }
+   ],
+   "text": "这样一段普普通通的消息。但如果你点击T键打开消息界面，并按住Shift点击文字，你就会发现聊天栏自动输入了：“惊喜！”二字。",
+   "sha256": "8f4b318653830ca3d8539572c4cf09377fed4de7375a3e570194f19c20a37f76",
+   "i": 10025
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是insertion的用法，是不是特别简单？",
+     "p": {}
+    }
+   ],
+   "text": "这就是insertion的用法，是不是特别简单？",
+   "sha256": "476569b18a8e81809419607cf494b0759ec8509973f0e6bb28695d4e64a5586d",
+   "i": 10026
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "只不过该元素只有出现在聊天栏时，比如使用tellraw执行才有意义，你直接写在告示牌或者是书里是没有任何用处的。",
+     "p": {}
+    }
+   ],
+   "text": "只不过该元素只有出现在聊天栏时，比如使用tellraw执行才有意义，你直接写在告示牌或者是书里是没有任何用处的。",
+   "sha256": "5dcbf25a99c805f779aa876f0402f7ae38522527f0cd0ca5e220a8e4de456c80",
+   "i": 10027
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后第二个：clickEvent",
+     "p": {}
+    }
+   ],
+   "text": "然后第二个：clickEvent",
+   "sha256": "81ff2f9029d7379bf4b492b07e2a7ef352dbacedc7cf4875bd111a4a9a77c912",
+   "i": 10028
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "clickEvent元素的作用就是当玩家点击文字（注意没有按Shift，是直接点击的那种）所产生的事情。所以clickEvent从该层面上来讲就和超链接很类似了（自信点，把“类似”去掉）。",
+     "p": {}
+    }
+   ],
+   "text": "clickEvent元素的作用就是当玩家点击文字（注意没有按Shift，是直接点击的那种）所产生的事情。所以clickEvent从该层面上来讲就和超链接很类似了（自信点，把“类似”去掉）。",
+   "sha256": "b6382d56426517e7874be0ba2380d03c17816b460e643d3041c32d01747619b6",
+   "i": 10029
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "既然是超链接，这让你想到了什么？",
+     "p": {}
+    }
+   ],
+   "text": "既然是超链接，这让你想到了什么？",
+   "sha256": "1b5e55c2ec1840f729d6cbba0657fdb2fe72a5b5422206b31c6681b770848204",
+   "i": 10030
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首当其冲的肯定就是打开网址，没错，clickEvent确实可以实现。",
+     "p": {}
+    }
+   ],
+   "text": "首当其冲的肯定就是打开网址，没错，clickEvent确实可以实现。",
+   "sha256": "d33716bad2964c53b9107708ff42c22578aaeddb4c14251bef759c5b74cde8c7",
+   "i": 10031
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后呢？然后我们就不要再联想了，直接看看clickEvent到底该怎么用吧。",
+     "p": {}
+    }
+   ],
+   "text": "然后呢？然后我们就不要再联想了，直接看看clickEvent到底该怎么用吧。",
+   "sha256": "4a14642c51bc867c32d871c0125194143951c5637da199df6884e9b532e25ea0",
+   "i": 10032
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "clickEvent元素的值是一个对象，即：",
+     "p": {}
+    }
+   ],
+   "text": "clickEvent元素的值是一个对象，即：",
+   "sha256": "77b1b99b97ebee38713e94fb5b99c851780ff6060fc329a31783ee72955dd902",
+   "i": 10033
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“clickEvent“:{}}",
+     "p": {}
+    }
+   ],
+   "text": "{“clickEvent“:{}}",
+   "sha256": "cb76b1a0b382028cddde7453c6129ebdd84e6acd4a29ea0509e6a6d42b25fa61",
+   "i": 10034
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在clickEvent值里面有两个参数：",
+     "p": {}
+    }
+   ],
+   "text": "在clickEvent值里面有两个参数：",
+   "sha256": "be06a9b2206703ff86893c99cc239a06ebabc5f8241de67173bf13c8265bed69",
+   "i": 10035
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "action和value。",
+     "p": {}
+    }
+   ],
+   "text": "action和value。",
+   "sha256": "ea6c9e0a2ce226cd8208da4de20e9f64ce0f5d56dc39bf6adef9fa6b6ba55444",
+   "i": 10036
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这两个参数都是必须填的，其中action为设置点击后会产生什么样的事情，value就是点击产生的事情所需要的值。",
+     "p": {}
+    }
+   ],
+   "text": "这两个参数都是必须填的，其中action为设置点击后会产生什么样的事情，value就是点击产生的事情所需要的值。",
+   "sha256": "8f3df853af96b07226c2312f556eac7c6dadc922cbf64727004f647474ef6a32",
+   "i": 10037
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "action有六种事件：",
+     "p": {}
+    }
+   ],
+   "text": "action有六种事件：",
+   "sha256": "fddbdaa699619100b71cc9b33c1bca46f009de5dcc81e896710c5a7ddc49e4b5",
+   "i": 10038
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "open_url——使用系统默认浏览器打开value的网址",
+     "p": {}
+    }
+   ],
+   "text": "open_url——使用系统默认浏览器打开value的网址",
+   "sha256": "09a6ba238eda26d3fd71ca704249b478a74316baaa52e81468e8d29f4aa6b3ea",
+   "i": 10039
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "open_file——打开位于value路径的文件",
+     "p": {}
+    }
+   ],
+   "text": "open_file——打开位于value路径的文件",
+   "sha256": "7a7f1097fa85947caf09c8d66f2c503f19244933c2364ba10c384b1dbbfc7daa",
+   "i": 10040
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "run_command——运行value中的指令",
+     "p": {}
+    }
+   ],
+   "text": "run_command——运行value中的指令",
+   "sha256": "8b2e0b2b5d9b2d7582bce9389f0e5d2cc4688002326d777eb4d7cd3a06c2ab46",
+   "i": 10041
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "suggest_command——打开聊天栏并输入value里的值，会覆盖原本输入的消息",
+     "p": {}
+    }
+   ],
+   "text": "suggest_command——打开聊天栏并输入value里的值，会覆盖原本输入的消息",
+   "sha256": "7e39931043129d17c882208ccc9448d420c7c01f10347a20fd49e8c97665ca3d",
+   "i": 10042
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "change_page——翻页到value页",
+     "p": {}
+    }
+   ],
+   "text": "change_page——翻页到value页",
+   "sha256": "22b3b93bb10681e995640887fb814234a5dfed4637134b952dbc6bb9cb6cac66",
+   "i": 10043
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "copy_to_clipboard——将value里的值复制到粘贴板",
+     "p": {}
+    }
+   ],
+   "text": "copy_to_clipboard——将value里的值复制到粘贴板",
+   "sha256": "42d5bfd3cb23c69096412bda57ee30214fc75b7a5b5b270dbfc88ab0fbb6aef0",
+   "i": 10044
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "open_url是最常用的事件，当玩家点击的时候游戏会跳出一个界面：",
+     "p": {}
+    }
+   ],
+   "text": "open_url是最常用的事件，当玩家点击的时候游戏会跳出一个界面：",
+   "sha256": "2e3a9f2d971393935ea26b9f897fb3fa9c494cf8cda9c7dd185f3b90892f7ea2",
+   "i": 10045
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你确定你要打开以下网页？",
+     "p": {}
+    }
+   ],
+   "text": "你确定你要打开以下网页？",
+   "sha256": "9b92d48f979e6f41ea7d9dd5656f6dd0d69c5ef3cee969beb9ce32ce542f3c6e",
+   "i": 10046
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "https://XXXXXX",
+     "p": {}
+    }
+   ],
+   "text": "https://XXXXXX",
+   "sha256": "8c017665e8111a47f044eb37ed4cd8bbacf710eb466add603033e8c388c5939a",
+   "i": 10047
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后下面还有一行粉红色的字：",
+     "p": {}
+    }
+   ],
+   "text": "然后下面还有一行粉红色的字：",
+   "sha256": "7377f858abcddfa3c9f1a879bc993c6a7292b0a3877c7721b69b5254f4811066",
+   "i": 10048
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "永远不要打开从你不信任的人得到的链接！",
+     "p": {}
+    }
+   ],
+   "text": "永远不要打开从你不信任的人得到的链接！",
+   "sha256": "1b966de568121f0c83fd62ba0cf93a77b86ebc5a9cca74732561d4fc8f4a4bc3",
+   "i": 10049
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "接着就是三个选项：是、复制到剪贴板、否",
+     "p": {}
+    }
+   ],
+   "text": "接着就是三个选项：是、复制到剪贴板、否",
+   "sha256": "9ad90fd0f1b62df1a21b153511bbe7aec8df43c950a7b2a68f735ac97e3e684f",
+   "i": 10050
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果选是，那么游戏将会使用默认浏览器打开；如果选复制到剪贴板，将会真的复制到你的剪贴板，只不过网页需要你自己打开浏览器复制进去；如果选否，那么恭喜你，啥也不会发生，只不过界面被关掉了而已。",
+     "p": {}
+    }
+   ],
+   "text": "如果选是，那么游戏将会使用默认浏览器打开；如果选复制到剪贴板，将会真的复制到你的剪贴板，只不过网页需要你自己打开浏览器复制进去；如果选否，那么恭喜你，啥也不会发生，只不过界面被关掉了而已。",
+   "sha256": "44beb3d63b22e2207bf98c17fa9ad063756c59f4bcee5b20ae37c482abcae04c",
+   "i": 10051
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么如果我们要点击的时候打开百度搜索首页该怎么办？",
+     "p": {}
+    }
+   ],
+   "text": "那么如果我们要点击的时候打开百度搜索首页该怎么办？",
+   "sha256": "e9b2ac60c64acf03aad10c841b7ff80bf9e4d5aeda46323126202a7db065ecef",
+   "i": 10052
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很简单：",
+     "p": {}
+    }
+   ],
+   "text": "很简单：",
+   "sha256": "42aed8eddb8c4c5e3ef95b605315cc33ab60e4ce34b0e012c9163ca4d3b56f90",
+   "i": 10053
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“百度搜索“，“clickEvent“:{“action“:“open_url“，“value“:“https://www.baidu.com“}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“百度搜索“，“clickEvent“:{“action“:“open_url“，“value“:“https://www.baidu.com“}}",
+   "sha256": "cd6589cb13fe9ef48439ac04b9c92dfb3160265f7f52bf2e21e007ca19d8010f",
+   "i": 10054
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "运行，点击一下“百度搜索”再点击“是”你就发现你打开了百度。",
+     "p": {}
+    }
+   ],
+   "text": "运行，点击一下“百度搜索”再点击“是”你就发现你打开了百度。",
+   "sha256": "a447a4f0e53481a2ed345688138bd77e3bb3e53bfc408e87098998f0bec53915",
+   "i": 10055
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "等等，这样子做的话，那么我们是不是可以在服务器里做出一个网址大全？",
+     "p": {}
+    }
+   ],
+   "text": "等等，这样子做的话，那么我们是不是可以在服务器里做出一个网址大全？",
+   "sha256": "1fce64b6608d74629365ccbe0bddcf969983f1f3385c55261326477b04b89a16",
+   "i": 10056
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "嗯，一个很不错的想法，可惜你的想法早在1999年就被李兴平想到了，只不过鉴于你是在服务器里做的网址大全.......或许会因为其特殊性吸引更多的用户？",
+     "p": {}
+    }
+   ],
+   "text": "嗯，一个很不错的想法，可惜你的想法早在1999年就被李兴平想到了，只不过鉴于你是在服务器里做的网址大全.......或许会因为其特殊性吸引更多的用户？",
+   "sha256": "fc372ec2fe538a4d35097ff3bcad1ffd0422e0599e567896e7b5eec14c1d28a5",
+   "i": 10057
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后是第二个：open_file",
+     "p": {}
+    }
+   ],
+   "text": "然后是第二个：open_file",
+   "sha256": "27b6fe2ab83a41b3aad0cc19a5ad525465fb4c0b5a5214220c33bb5499a8a8b4",
+   "i": 10058
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "open_file和open_url类似，只不过open_url是打开网上的网址，而open_file是打开本地的文件，比如：",
+     "p": {}
+    }
+   ],
+   "text": "open_file和open_url类似，只不过open_url是打开网上的网址，而open_file是打开本地的文件，比如：",
+   "sha256": "1841ed37467360cbb8f4bb4b1fb8511d9257b3edc71acc4f5e472f864eb5d011",
+   "i": 10059
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“你猜猜这有什么用“，“clickEvent“:{“action“:“open_file“，“value“:“C:\\\\“}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“你猜猜这有什么用“，“clickEvent“:{“action“:“open_file“，“value“:“C:\\\\“}}",
+   "sha256": "382e345fb30e11faa2c9792e0eecc990454dedfbb69433973a6e30947a0d8783",
+   "i": 10060
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "点击就可以打开C盘.......？为什么不能打开？",
+     "p": {}
+    }
+   ],
+   "text": "点击就可以打开C盘.......？为什么不能打开？",
+   "sha256": "34f8091d03525a60065e1ede3448c7abe6fa82e7d7a7f09ce910d955eecd7682",
+   "i": 10061
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为什么呢？",
+     "p": {}
+    }
+   ],
+   "text": "为什么呢？",
+   "sha256": "bd815207ac76c5b5977fdcc4c624624cc289a54f7f6eee979edeb4b7be7c08c3",
+   "i": 10062
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们找到Minecraft WIKI，会发现上面说了一句话：“",
+     "p": {}
+    }
+   ],
+   "text": "我们找到Minecraft WIKI，会发现上面说了一句话：“",
+   "sha256": "3ac19520778f1bacea63cb86dec164eb847db89f4d2cfdbe9e55111ee59d4ee8",
+   "i": 10063
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "且出于安全原因禁止玩家使用。”",
+     "p": {}
+    }
+   ],
+   "text": "且出于安全原因禁止玩家使用。”",
+   "sha256": "9b0032ade04378d6458315bd4ee3de5fd6b0c4514de6f36568a6178b8bab4aa0",
+   "i": 10064
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "原来如此！Mojang竟然考虑得如此周到！不愧是Mojang！",
+     "p": {}
+    }
+   ],
+   "text": "原来如此！Mojang竟然考虑得如此周到！不愧是Mojang！",
+   "sha256": "10e9d1a16bf6b5742a5b11e5422bb478c985dba065769ccdeb16e32e9b1c86ae",
+   "i": 10065
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以open_file无法在游戏里运行，但是在游戏外，比如你开发的mod，就可以运行。",
+     "p": {}
+    }
+   ],
+   "text": "所以open_file无法在游戏里运行，但是在游戏外，比如你开发的mod，就可以运行。",
+   "sha256": "b92be8267912e206231b244f30251d4a79c0b66ce25f4e7df6cdafa23b631f71",
+   "i": 10066
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "open_file在Minecraft的作用就是用于游戏自动产生的消息中，比如你按了F2截图，你就会发现你可以点击消息中的带有下划线文字部分来打开你的截图照片。",
+     "p": {}
+    }
+   ],
+   "text": "open_file在Minecraft的作用就是用于游戏自动产生的消息中，比如你按了F2截图，你就会发现你可以点击消息中的带有下划线文字部分来打开你的截图照片。",
+   "sha256": "a7c9cab15dec1f3af31e29560bfa4262836a0bc79d8e691dd3522549918f9722",
+   "i": 10067
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（等等，那么用在MC函数中可以运行吗？）",
+     "p": {}
+    }
+   ],
+   "text": "（等等，那么用在MC函数中可以运行吗？）",
+   "sha256": "7fa3b2f3f199321026a6649a08480568beb89bc9d8daa761ad510f6844be3358",
+   "i": 10068
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三个：run_command",
+     "p": {}
+    }
+   ],
+   "text": "第三个：run_command",
+   "sha256": "e01707aa1b377be491045b6e63707c4d94114133383cb367be2005e8d8ef96fe",
+   "i": 10069
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "run_command就比较直白了：运行指令。比如：",
+     "p": {}
+    }
+   ],
+   "text": "run_command就比较直白了：运行指令。比如：",
+   "sha256": "b7b852cde29b490cc7fb731203cc51bb660df5ef151c090abc80ae7d258d22cd",
+   "i": 10070
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“你猜猜这有什么用“，“clickEvent“:{“action“:“run_command“，“value“:“/give @p diamond“}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“你猜猜这有什么用“，“clickEvent“:{“action“:“run_command“，“value“:“/give @p diamond“}}",
+   "sha256": "3e6cea6c714031940042d8d9bf6a12f359a0a9d837e7f500c8c844192e95ee7c",
+   "i": 10071
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "运行，并点击一下文字，你会发现你获得了一颗钻石！",
+     "p": {}
+    }
+   ],
+   "text": "运行，并点击一下文字，你会发现你获得了一颗钻石！",
+   "sha256": "7fa86ada6f5b22742ed0a8caba5808f7e7e7a20e45c72a4dc6abc9ea6028dbbb",
+   "i": 10072
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但如果你忘记在value的开头打上/，那么你就会发现你发送了一条消息：give @p diamond",
+     "p": {}
+    }
+   ],
+   "text": "但如果你忘记在value的开头打上/，那么你就会发现你发送了一条消息：give @p diamond",
+   "sha256": "ec1a4989df7215b4fc5bd72fe6a7485e77d13623d70cf60af46ffd10a08bcc84",
+   "i": 10073
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是怎么回事？",
+     "p": {}
+    }
+   ],
+   "text": "这是怎么回事？",
+   "sha256": "08e545989257e136c6ce8c9aca520fb1c8d22601567692bb4ad22800388f425d",
+   "i": 10074
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就要联系到run_command的运作方式了。",
+     "p": {}
+    }
+   ],
+   "text": "这就要联系到run_command的运作方式了。",
+   "sha256": "7c527ea4b17eed8bb0923173c5acf4733ef00133ed720547071a0025bfc82198",
+   "i": 10075
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在聊天消息以及书里，当一位玩家点击了带有run_command属性的clickEvent那段文字，游戏就会默认该玩家为指令执行者，并自动在该玩家的聊天栏输入value里的指令并发送。",
+     "p": {}
+    }
+   ],
+   "text": "在聊天消息以及书里，当一位玩家点击了带有run_command属性的clickEvent那段文字，游戏就会默认该玩家为指令执行者，并自动在该玩家的聊天栏输入value里的指令并发送。",
+   "sha256": "92f800d5826e707ba320c326edd3f5a23544b39a97c85b2f4c0dc277e626ce2d",
+   "i": 10076
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以说，run_command就只是点击发送消息咯？",
+     "p": {}
+    }
+   ],
+   "text": "所以说，run_command就只是点击发送消息咯？",
+   "sha256": "2f7fb30f367415ef161a2fca00e4297d8d0ba329776a172728cbeff4bc213421",
+   "i": 10077
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错就是这样的，具体能不能执行只能看该玩家的权限等级了。",
+     "p": {}
+    }
+   ],
+   "text": "没错就是这样的，具体能不能执行只能看该玩家的权限等级了。",
+   "sha256": "708199f862a714e242a2c8c1823dec3e84bb23cfd1b33b3276fdf634b2a5d57b",
+   "i": 10078
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么该怎么样让不够等级的玩家也能使用run_command运行指令呢？",
+     "p": {}
+    }
+   ],
+   "text": "那么该怎么样让不够等级的玩家也能使用run_command运行指令呢？",
+   "sha256": "7749d93b7e2b82287fad92e0e938cc7ee42fe738774c5548e2703c976fbfc242",
+   "i": 10079
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用告示牌就行了。",
+     "p": {}
+    }
+   ],
+   "text": "用告示牌就行了。",
+   "sha256": "349fc5a044a0ee415552f61cc14951489dd0f1234a353c91742c241e5fb38a99",
+   "i": 10080
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但是在告示牌上面怎么写JSON啊？",
+     "p": {}
+    }
+   ],
+   "text": "但是在告示牌上面怎么写JSON啊？",
+   "sha256": "c1df31dd52fa3b549f7f8dc0bbb24e3c14af29c57965c3096aa5708d2173ffdf",
+   "i": 10081
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很简单，用指令放置一个带有JSON的告示牌就行了，比如上面这条指令就可以：",
+     "p": {}
+    }
+   ],
+   "text": "很简单，用指令放置一个带有JSON的告示牌就行了，比如上面这条指令就可以：",
+   "sha256": "cece6e1bb2fd80c6767b3336d63eba5ca2518040004e5cad627701abd1f79591",
+   "i": 10082
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/setblock ~~~ minecraft:sign{Text1:“{\\“text\\“:\\“你猜猜这有什么用\\“，\\“clickEvent\\“:{\\“action\\“:\\“run_command\\“，\\“value\\“:\\“give @p diamond\\“}}“}",
+     "p": {}
+    }
+   ],
+   "text": "/setblock ~~~ minecraft:sign{Text1:“{\\“text\\“:\\“你猜猜这有什么用\\“，\\“clickEvent\\“:{\\“action\\“:\\“run_command\\“，\\“value\\“:\\“give @p diamond\\“}}“}",
+   "sha256": "f9205c23d590302b31e527f3135d2960a6cba5450effe70fc622941e301fad11",
+   "i": 10083
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（注：此为1.13版本指令，低于该版本或高于该版本均无法使用，其他版本：",
+     "p": {}
+    }
+   ],
+   "text": "（注：此为1.13版本指令，低于该版本或高于该版本均无法使用，其他版本：",
+   "sha256": "7dec12ded6e1a41959582439acf17e1a5f65a2298b6df4a05ef0eeaa216efcc8",
+   "i": 10084
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "低于1.13——/setblock ~~~ minecraft:standing_sign 0 replace {Text1:“{\\“text\\“:\\“你猜猜这有什么用\\“，\\“clickEvent\\“:{\\“action\\“:\\“run_command\\“，\\“value\\“:\\“give @p diamond\\“}}“}",
+     "p": {}
+    }
+   ],
+   "text": "低于1.13——/setblock ~~~ minecraft:standing_sign 0 replace {Text1:“{\\“text\\“:\\“你猜猜这有什么用\\“，\\“clickEvent\\“:{\\“action\\“:\\“run_command\\“，\\“value\\“:\\“give @p diamond\\“}}“}",
+   "sha256": "65901a265a76c5e47d6e11c45b15e94b2decb8761db2fb2237c3f949a15bf3b1",
+   "i": 10085
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "高于1.13——/setblock ~~~ minecraft:oak_sign{Text1:“{\\“text\\“:\\“你猜猜这有什么用\\“，\\“clickEvent\\“:{\\“action\\“:\\“run_command\\“，\\“value\\“:\\“give @p diamond\\“}}“}）",
+     "p": {}
+    }
+   ],
+   "text": "高于1.13——/setblock ~~~ minecraft:oak_sign{Text1:“{\\“text\\“:\\“你猜猜这有什么用\\“，\\“clickEvent\\“:{\\“action\\“:\\“run_command\\“，\\“value\\“:\\“give @p diamond\\“}}“}）",
+   "sha256": "e03c6f349b400fde78506787c7e56b67605af153d2493b0527f33917162fd843",
+   "i": 10086
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "运行一下，你就会发现出现了一个告示牌，如果你一直点这个告示牌，那么你就一直会获得钻石。（注意不是左键啊，是右键）",
+     "p": {}
+    }
+   ],
+   "text": "运行一下，你就会发现出现了一个告示牌，如果你一直点这个告示牌，那么你就一直会获得钻石。（注意不是左键啊，是右键）",
+   "sha256": "3476dc15b91e7cfa95cc514b156c9948cb2a9648291617b74f6c5a1f7a35b86b",
+   "i": 10087
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "而且，就算你撤了你的op，你还是可以获得钻石。",
+     "p": {}
+    }
+   ],
+   "text": "而且，就算你撤了你的op，你还是可以获得钻石。",
+   "sha256": "8d803f3871a5b86bc02ec3b1a060a7cb3e6b91af7f79d59599d20bd394c77ffc",
+   "i": 10088
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "并且！在告示牌上，你是不需要在value的开头加上\\的。",
+     "p": {}
+    }
+   ],
+   "text": "并且！在告示牌上，你是不需要在value的开头加上\\的。",
+   "sha256": "cafbf8618b688a8a7b3a240b758c1966217b8a736a4fe359c9992fa569cd3e9d",
+   "i": 10089
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为什么？",
+     "p": {}
+    }
+   ],
+   "text": "为什么？",
+   "sha256": "ee2173408f9f3044b3996b0f491f0a70b47af8fe6cce559c323310bfdbe996bd",
+   "i": 10090
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "因为在告示牌上，你点击了告示牌，游戏会检查告示牌的JSON，发现了clickEvent，游戏就会发现这个JSON不简单，于是检查了一下clickEvent，发现了run_command。",
+     "p": {}
+    }
+   ],
+   "text": "因为在告示牌上，你点击了告示牌，游戏会检查告示牌的JSON，发现了clickEvent，游戏就会发现这个JSON不简单，于是检查了一下clickEvent，发现了run_command。",
+   "sha256": "c386625b293904852f5c63c76f646eee1657924e0dab6b3e1c4ebfaf6ec896d3",
+   "i": 10091
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "此时游戏恍然大悟，然后游戏就把value交给了服务器处理。服务器会把这条value按照命令方块处理指令的方式来处理，这个时候指令执行地点就是告示牌，指令执行者就是命令方块。",
+     "p": {}
+    }
+   ],
+   "text": "此时游戏恍然大悟，然后游戏就把value交给了服务器处理。服务器会把这条value按照命令方块处理指令的方式来处理，这个时候指令执行地点就是告示牌，指令执行者就是命令方块。",
+   "sha256": "83e33c105ee190e9187d8796a78a0572d45764ad77a80d61a2908e62f217e526",
+   "i": 10092
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "而命令方块处理指令本身也就不需要加上/，自然告示牌上的JSON运行指令也就不需要加上/了。",
+     "p": {}
+    }
+   ],
+   "text": "而命令方块处理指令本身也就不需要加上/，自然告示牌上的JSON运行指令也就不需要加上/了。",
+   "sha256": "830466179f52d4e3d2fb9efa8a973e0b5bc0626c0803a8a9a85ad8608d79b8fc",
+   "i": 10093
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第四个：suggest_command",
+     "p": {}
+    }
+   ],
+   "text": "第四个：suggest_command",
+   "sha256": "bee43941fdac5df929fc39955e3996c05b44f2a4f19d3290b5e99a2dfc70ac28",
+   "i": 10094
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "suggest_command很简单，就是玩家点击时将value的值覆盖（注意这个词）到玩家的聊天栏输入框，玩家可以自由选择要回车，还是删掉。这很简单就不再多说了。",
+     "p": {}
+    }
+   ],
+   "text": "suggest_command很简单，就是玩家点击时将value的值覆盖（注意这个词）到玩家的聊天栏输入框，玩家可以自由选择要回车，还是删掉。这很简单就不再多说了。",
+   "sha256": "a5448478036675cf292ce6c1811dc7e684fc881b6f67c67b29b1fc60c58c9750",
+   "i": 10095
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第五个：change_page",
+     "p": {}
+    }
+   ],
+   "text": "第五个：change_page",
+   "sha256": "ab8a9ab0b353bc338a5ecafa208a5895cc03c91d2c4b2d9060c0332f34ebd1cc",
+   "i": 10096
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "change_page这个是专门给书用的，就是在书里点击文字就可以自动跳转到value值的页面，比如：",
+     "p": {}
+    }
+   ],
+   "text": "change_page这个是专门给书用的，就是在书里点击文字就可以自动跳转到value值的页面，比如：",
+   "sha256": "c8e197ea34ff3912f7f098dfcda420ed6963f61d1c4f71906b0fa9eed83074f8",
+   "i": 10097
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/give @a written_book{author:“你好MC“，title:“《Minecraft指令手册》第一卷“，pages:[“{\\“text\\“:\\“第五章：坐标\\“，\\“clickEvent\\“:{\\“action\\“:\\“change_page\\“，\\“value\\“:4}}“，““，““，““]}",
+     "p": {}
+    }
+   ],
+   "text": "/give @a written_book{author:“你好MC“，title:“《Minecraft指令手册》第一卷“，pages:[“{\\“text\\“:\\“第五章：坐标\\“，\\“clickEvent\\“:{\\“action\\“:\\“change_page\\“，\\“value\\“:4}}“，““，““，““]}",
+   "sha256": "1a3dfdca865775fdcf24dbd3d4f8fef5e7e2e7ad95156553bbb81fe00aaca27a",
+   "i": 10098
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此为1.13版本指令）",
+     "p": {}
+    }
+   ],
+   "text": "（此为1.13版本指令）",
+   "sha256": "666ebad7e069dedc9e0608fb93919fffa22f330b0f7a830884616f9b9f2c3b9b",
+   "i": 10099
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "获得一本由你好MC写的“《Minecraft指令手册》第一卷”，然后在第一页里显示着：",
+     "p": {}
+    }
+   ],
+   "text": "获得一本由你好MC写的“《Minecraft指令手册》第一卷”，然后在第一页里显示着：",
+   "sha256": "3335155b973e73cf19d6ca3ba8a742e72bb492305f8a6961918134b3ad7d99a5",
+   "i": 10100
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第五章：坐标",
+     "p": {}
+    }
+   ],
+   "text": "第五章：坐标",
+   "sha256": "6c9b4204aa0c320c3a4513d969a2f9cf21a083cb00a258055878dc50bc28436e",
+   "i": 10101
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "点击这串文字，就会自动跳转到3-4页。",
+     "p": {}
+    }
+   ],
+   "text": "点击这串文字，就会自动跳转到3-4页。",
+   "sha256": "8b7f3fa799b01cb9006d5767f1a261f4fae00bb5fcbe56d1006e5dbe9deb3d92",
+   "i": 10102
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你细心观察上面的指令，你就会发现这里的value不是字符串，而是数字。",
+     "p": {}
+    }
+   ],
+   "text": "如果你细心观察上面的指令，你就会发现这里的value不是字符串，而是数字。",
+   "sha256": "7727d24e9a530637bfc2ee4348ccd70a078b844033e9ca3910dfda042c63d729",
+   "i": 10103
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错，change_page属性的value只能是数字值，不能选择字符串或者是布尔值。",
+     "p": {}
+    }
+   ],
+   "text": "没错，change_page属性的value只能是数字值，不能选择字符串或者是布尔值。",
+   "sha256": "5fa61920cc96d8965ad868e5df716f7df2e9fe998f2ec2ac5aa9c419a743dba0",
+   "i": 10104
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是change_page的用法。",
+     "p": {}
+    }
+   ],
+   "text": "这就是change_page的用法。",
+   "sha256": "16b9ba6ecc816cbde4814b364625ba2908efb6f971f53213e05a2a989edde728",
+   "i": 10105
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第六个：copy_to_clipboard",
+     "p": {}
+    }
+   ],
+   "text": "第六个：copy_to_clipboard",
+   "sha256": "5f76ed475056ede9101f84208aa44d242b7fd359e4018b3ebfff2c2adfe107bd",
+   "i": 10106
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是在1.15版本才加入的新功能，作用就是玩家点击时可以自动将value值复制到玩家的剪贴板，通过这个功能或许可以方便我们让服务器更加的智能化。",
+     "p": {}
+    }
+   ],
+   "text": "这是在1.15版本才加入的新功能，作用就是玩家点击时可以自动将value值复制到玩家的剪贴板，通过这个功能或许可以方便我们让服务器更加的智能化。",
+   "sha256": "335b307a7b23ccbba00f689692a5a2bd60c28e2ae552a8146827257f1ef328cf",
+   "i": 10107
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "由于篇幅有限，剩下的内容我们下章再讲。",
+     "p": {}
+    }
+   ],
+   "text": "由于篇幅有限，剩下的内容我们下章再讲。",
+   "sha256": "f27b0015853893fc9fb05593ce652591d74cbeba061aff1a60886ed387f91775",
+   "i": 10108
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——————————————",
+     "p": {}
+    }
+   ],
+   "text": "——————————————",
+   "sha256": "924530d16f9cd8de28b12f6eab37ccb91cf3e25d548080d5ffb78287a22692ac",
+   "i": 10109
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "clickEvent各事件可用性：",
+     "p": {}
+    }
+   ],
+   "text": "clickEvent各事件可用性：",
+   "sha256": "786bad3d351139d221590845f2ec37124efa185c48698b05df7fa4f4ff98623e",
+   "i": 10110
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "open_url——聊天界面、书",
+     "p": {}
+    }
+   ],
+   "text": "open_url——聊天界面、书",
+   "sha256": "0da90ca6b54d343b9f0d557cdff7e56a0bb8638fc547a06e7fbbabe59b954ac1",
+   "i": 10111
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "open_file——无法在游戏里使用",
+     "p": {}
+    }
+   ],
+   "text": "open_file——无法在游戏里使用",
+   "sha256": "ab5a1a92e5e4618949b78b95d01d640e89f344174fdb7cbb1f53725bb7ca0153",
+   "i": 10112
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "run_command——聊天界面、书、告示牌",
+     "p": {}
+    }
+   ],
+   "text": "run_command——聊天界面、书、告示牌",
+   "sha256": "a1704991dd86989c44d7edb5b9dc47db05933665dc6923c64e3587d7f6ca1987",
+   "i": 10113
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "suggest_command——聊天界面",
+     "p": {}
+    }
+   ],
+   "text": "suggest_command——聊天界面",
+   "sha256": "f5f281c06e3217136991bb66f169f3c7f881191934e297ab50ad8dd998e07caf",
+   "i": 10114
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "change_page——书",
+     "p": {}
+    }
+   ],
+   "text": "change_page——书",
+   "sha256": "f435955bea5ea6385474771ff028ce12c682e93f4be5fed2c8a6e6ef10c9d464",
+   "i": 10115
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "copy_to_clipboard——聊天界面、书",
+     "p": {}
+    }
+   ],
+   "text": "copy_to_clipboard——聊天界面、书",
+   "sha256": "b39e8fe40ec7a5b2d53207c0be0465b4bcd9862425ce6c89b17e38593dbeb695",
+   "i": 10116
+  }
+ ],
+ "text_sha256": "51baf9854d770fbb01cc5dafdf60caf7c44a4594dc90b92f942b12b8ebf0b8d8",
+ "chars": 3950
+}

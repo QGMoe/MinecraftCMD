@@ -1,0 +1,2811 @@
+{
+ "id": "ch066",
+ "kind": "chapter",
+ "number": 66,
+ "title": "第六十六章 指令大杂烩",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   4642,
+   4774
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第六十六章_指令大杂烩"
+    },
+    {
+     "t": "第六十六章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " 指令大杂烩",
+     "p": {}
+    }
+   ],
+   "text": "第六十六章 指令大杂烩",
+   "sha256": "37ef084e0f08406c281eeca950d1e010df176da36ac77b1cc5bd5ea5460ff8cd",
+   "i": 4642
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本章整理了一些比较有用但很简单、篇幅不长的指令。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "本章整理了一些比较有用但很简单、篇幅不长的指令。",
+   "sha256": "b81cd81eda7d792a9ee71c94e3086e2e9c880e34c85ec29463faaad209708a49",
+   "i": 4643
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一个——",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/teammsg（/tm）——Minecraft里的『队伍频道』",
+     "p": {}
+    }
+   ],
+   "text": "第一个——/teammsg（/tm）——Minecraft里的『队伍频道』",
+   "sha256": "f8c9b1d0a02836cba6041d6ac22174df8c7725f5d5fe671d0fde381e48c25ad0",
+   "i": 4644
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.14-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：Java1.14-今",
+   "sha256": "2e4104e5914352da6d0f7d8be1fd674c6899ac5367802460a37328f4dc11ab21",
+   "i": 4645
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "别名：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/tm",
+     "p": {}
+    }
+   ],
+   "text": "别名：/tm",
+   "sha256": "f806ca109c26c9a54c24af3e09aa1bb6dd6cb2bc791e43bc4860d42391270346",
+   "i": 4646
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：0",
+   "sha256": "8858a9af51a242aee2d953798820891c94c135109eac43343687bcea96f98ad2",
+   "i": 4647
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：否",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：否",
+   "sha256": "b3a9c3c7cb901faebf261066d5ee0cbf4b4552bf726ddbf04e48ff9ad9e0f423",
+   "i": 4648
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "命令方块兼容性：由于命令方块无法被添加进队伍，因此无法执行",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "命令方块兼容性：由于命令方块无法被添加进队伍，因此无法执行",
+   "sha256": "fbcbd7381acdafb38ddb6f2011ed0c930289a40df6645e33ecaefd2044bb2f68",
+   "i": 4649
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 4650
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/teammsg <信息>",
+     "p": {}
+    }
+   ],
+   "text": "/teammsg <信息>",
+   "sha256": "8090837d25629182a7283d7294d3f76827298d821de1f86d716f2651807bc32b",
+   "i": 4651
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/tm <信息>",
+     "p": {}
+    }
+   ],
+   "text": "/tm <信息>",
+   "sha256": "ad064d8d62184daea675d44beac45f5abf05ea8ee9ff69df307db210d278fe40",
+   "i": 4652
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用法",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/效果：",
+     "p": {}
+    }
+   ],
+   "text": "用法/效果：",
+   "sha256": "35722b5164ab8d9bab28bf02ebab0fd4d0079acc55d5565e3ef5a2707c7d37cc",
+   "i": 4653
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这可以使得命令执行者给全体队员发送一条消息，也就是在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft中的『队伍频道』中发送消息。需要注意，命令执行者必须归属于一个队伍，并且不能是个命令方块甚至是服务器控制台，也就是说必须是一个实体。",
+     "p": {}
+    }
+   ],
+   "text": "这可以使得命令执行者给全体队员发送一条消息，也就是在Minecraft中的『队伍频道』中发送消息。需要注意，命令执行者必须归属于一个队伍，并且不能是个命令方块甚至是服务器控制台，也就是说必须是一个实体。",
+   "sha256": "966b0e3d7e6d71757a5fd4f4111ce3db40244df5804dd9f40056e6fedc2df958",
+   "i": 4654
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二个——",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/daylock（/alwaysday）——控制昼夜循环",
+     "p": {}
+    }
+   ],
+   "text": "第二个——/daylock（/alwaysday）——控制昼夜循环",
+   "sha256": "84cb67652c0a71b9cf28de7176b9491d30efd1278a863cbf41298040b6131f45",
+   "i": 4655
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.2.0-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：基岩版1.2.0-今",
+   "sha256": "af892f7aa605a955c7df2ff2c7333f3308d9d5ecd27d51df90b128ba62f6ef6f",
+   "i": 4656
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "别名：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/alwaysday",
+     "p": {}
+    }
+   ],
+   "text": "别名：/alwaysday",
+   "sha256": "490463c3da734ec9cacb1e4df89fc42a8149c6c0e3f1c8de00e565455a5eb931",
+   "i": 4657
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：1",
+   "sha256": "5aec58f5e5f881cfea1b6dae4eb5ddcc5aea2ef4bde9c190e90a0b4aba6abb30",
+   "i": 4658
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 4659
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 4660
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/daylock [锁定昼夜更替：布尔值]",
+     "p": {}
+    }
+   ],
+   "text": "/daylock [锁定昼夜更替：布尔值]",
+   "sha256": "5f1fb861747f4c56234daed741478b5b4b0d296fc3a78d71bf073401bca0863d",
+   "i": 4661
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/alwaysday [锁定昼夜更替：布尔值]",
+     "p": {}
+    }
+   ],
+   "text": "/alwaysday [锁定昼夜更替：布尔值]",
+   "sha256": "3efebec8d1d67e9d8abbde617372243f72f5b28b2197dd3a142abd490c9f80a3",
+   "i": 4662
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用法",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/效果：",
+     "p": {}
+    }
+   ],
+   "text": "用法/效果：",
+   "sha256": "35722b5164ab8d9bab28bf02ebab0fd4d0079acc55d5565e3ef5a2707c7d37cc",
+   "i": 4663
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果『锁定昼夜更替』参数为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "true，则使得游戏时间不会流动，并保持白日（就是打开了设置界面的『终为白日』并关闭了『开启昼夜更替』。如果为false则使得游戏时间回归原来的样子，即流动状态。如果未填写则默认为true，即锁定昼夜更替。",
+     "p": {}
+    }
+   ],
+   "text": "如果『锁定昼夜更替』参数为true，则使得游戏时间不会流动，并保持白日（就是打开了设置界面的『终为白日』并关闭了『开启昼夜更替』。如果为false则使得游戏时间回归原来的样子，即流动状态。如果未填写则默认为true，即锁定昼夜更替。",
+   "sha256": "2932da3448412288a87482e09224fdb429369f86bd68395f338833bc54a4cd4f",
+   "i": 4664
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三个——",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/difficulty——查询或改变游戏难度",
+     "p": {}
+    }
+   ],
+   "text": "第三个——/difficulty——查询或改变游戏难度",
+   "sha256": "7d7ffea180be0b7d0be95e960b82b7c7e7c2e526ae971d67f850f9477084c1d8",
+   "i": 4665
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.4.2-今|基岩版1.0.5-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：Java1.4.2-今|基岩版1.0.5-今",
+   "sha256": "0c3cfead8c2fbd665d70788b667531373f51571f5e38c05d4151d5f79a8985df",
+   "i": 4666
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2 基岩-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2 基岩-1",
+   "sha256": "d38d484d46dfcc9f6825bbc6e9ab1189d11bd87bac959b14876cdbcafdd4b009",
+   "i": 4667
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 4668
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 4669
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/difficulty [难度ID]",
+     "p": {}
+    }
+   ],
+   "text": "/difficulty [难度ID]",
+   "sha256": "24de1585160fcd031fdd18c7daf45ff286c54017a04882f64c5831b5dbbeb4c8",
+   "i": 4670
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用法",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/效果：",
+     "p": {}
+    }
+   ],
+   "text": "用法/效果：",
+   "sha256": "35722b5164ab8d9bab28bf02ebab0fd4d0079acc55d5565e3ef5a2707c7d37cc",
+   "i": 4671
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果未填写难度",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "ID，可以查询当前游戏的难度。",
+     "p": {}
+    }
+   ],
+   "text": "如果未填写难度ID，可以查询当前游戏的难度。",
+   "sha256": "688af1777e68523d4aaf6f04c86a8c796f16c6016089bb9c830606a5dda6f858",
+   "i": 4672
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "难度",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "ID可以填写难度的ID全称、简称和数字ID。对于Java1.13及以上版本，只能填写难度ID的全称。",
+     "p": {}
+    }
+   ],
+   "text": "难度ID可以填写难度的ID全称、简称和数字ID。对于Java1.13及以上版本，只能填写难度ID的全称。",
+   "sha256": "238bcaccbdd6e502c5e6d62214c77346d648cdb0ae645df88079e24e64c1dcbc",
+   "i": 4673
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "难度",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "ID如下：",
+     "p": {}
+    }
+   ],
+   "text": "难度ID如下：",
+   "sha256": "2001f5f6050b3b56162f1fe0b065be57cab2d78ff2c4fd46aa4090dfe4fad731",
+   "i": 4674
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "难度名称—全称—简称—数字",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "ID",
+     "p": {}
+    }
+   ],
+   "text": "难度名称—全称—简称—数字ID",
+   "sha256": "454f739bad641f1d038660d2e96492d78e03e9200078d6abd79fb083c8606ae5",
+   "i": 4675
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "和平—",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "peaceful—p—0",
+     "p": {}
+    }
+   ],
+   "text": "和平—peaceful—p—0",
+   "sha256": "68f93415dfec7f50cd9764583ae3c6b850a01d3e9b5cd9d438a8e119b8e7d33a",
+   "i": 4676
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "简单—",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "easy—e—1",
+     "p": {}
+    }
+   ],
+   "text": "简单—easy—e—1",
+   "sha256": "a196bfff02e416a8b7348f173f02b07a4ceb576d16da9bc536b333464f440ef4",
+   "i": 4677
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "普通—",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "normal—n—2",
+     "p": {}
+    }
+   ],
+   "text": "普通—normal—n—2",
+   "sha256": "8e8718f5e2a1a287f186c78e6930b6f21f69d49901871f676a61fa27c65e0778",
+   "i": 4678
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "困难—",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "hard—h—3",
+     "p": {}
+    }
+   ],
+   "text": "困难—hard—h—3",
+   "sha256": "b36db0c9282dd9ae0e8ec2c002c7792d0a8a72fab041d1c140d45ef3ec8e85ed",
+   "i": 4679
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "例子：",
+   "sha256": "3f0405104a40a8731fb96a0ea8391f42a16e5e2c184a284ec489099a7318982b",
+   "i": 4680
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/difficulty e ——在Java1.13以下版本和基岩版中，这条指令可以将游戏难度改为简单。对于Java1.13及以上版本，需要运行/difficulty easy才能达到同样的效果。",
+     "p": {}
+    }
+   ],
+   "text": "/difficulty e ——在Java1.13以下版本和基岩版中，这条指令可以将游戏难度改为简单。对于Java1.13及以上版本，需要运行/difficulty easy才能达到同样的效果。",
+   "sha256": "d1bee984bed5e33b56b7acae68c8fefdbbc03032a89c989bc1f17b7ef7d5e54c",
+   "i": 4681
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第四个——",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/mobevent——查询或控制允许运行的生物事件",
+     "p": {}
+    }
+   ],
+   "text": "第四个——/mobevent——查询或控制允许运行的生物事件",
+   "sha256": "3e919b90a5728fc4e7663f04baeeffbbd1f0ac04f8592dffa98016dce921ec23",
+   "i": 4682
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.11.0-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：基岩版1.11.0-今",
+   "sha256": "3d696597990217f9f67cc09ede74951d69d14237a9f1ce5fafd01230a0485fbb",
+   "i": 4683
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：基岩",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：基岩-1",
+   "sha256": "c776dc502f93bddcfb5f38bcfa47fdba10694eb4dd7b56059998d4ca0c7da1ee",
+   "i": 4684
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 4685
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 4686
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/mobevent <事件名称>[允许运行：布尔值]",
+     "p": {}
+    }
+   ],
+   "text": "/mobevent <事件名称>[允许运行：布尔值]",
+   "sha256": "b59a364428c55ddc424e2d08107ae8780bde7ccfee3dfa7f5c3a336c5f0f6adc",
+   "i": 4687
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用法",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/效果：",
+     "p": {}
+    }
+   ],
+   "text": "用法/效果：",
+   "sha256": "35722b5164ab8d9bab28bf02ebab0fd4d0079acc55d5565e3ef5a2707c7d37cc",
+   "i": 4688
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令很像",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "gamerule，唯一的区别是前者是控制游戏规则，后者是控制生物事件。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令很像gamerule，唯一的区别是前者是控制游戏规则，后者是控制生物事件。",
+   "sha256": "5193ad69cf40471b2d57098bb08352bc3c20d5003812c6aa0185331ad3b9fd0c",
+   "i": 4689
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "截止基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.19版本，这条指令支持控制4个生物事件：",
+     "p": {}
+    }
+   ],
+   "text": "截止基岩版1.19版本，这条指令支持控制4个生物事件：",
+   "sha256": "9852991d37c4e1188ed59522f873e48df351d2f78c6c8b907ecb5edaeb2e5b7a",
+   "i": 4690
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:ender_dragon_event——控制初次进入末地时是否生成末影龙。",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:ender_dragon_event——控制初次进入末地时是否生成末影龙。",
+   "sha256": "9ed904cca1a406fd3ba6b159c9bac8594fccfc2ab0b17060f36d20b5c8fb011b",
+   "i": 4691
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:pillager_patrols_event——控制生成灾厄巡逻队。",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:pillager_patrols_event——控制生成灾厄巡逻队。",
+   "sha256": "6dff2e0c7168a21729337e739fd920fe5f1ed4a1b58c2ae7fe864f376dbfdaaf",
+   "i": 4692
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft:wandering_trader_event——控制是否生成流浪商人。",
+     "p": {}
+    }
+   ],
+   "text": "minecraft:wandering_trader_event——控制是否生成流浪商人。",
+   "sha256": "dfe8acc6c484ebe613561fe6a743ea08efa5b3dfe80a5c27a1ba5f69f8909832",
+   "i": 4693
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "events_enabled——控制是否开启事件子系统。",
+     "p": {}
+    }
+   ],
+   "text": "events_enabled——控制是否开启事件子系统。",
+   "sha256": "4abd5a4e6dd6f9028af08ac8d1a9d3cc80732e82dc3a349615676c6aa4bab0b3",
+   "i": 4694
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果未填写『允许运行』参数，可以查询指定的事件是否被允许运行。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "如果未填写『允许运行』参数，可以查询指定的事件是否被允许运行。",
+   "sha256": "d81949cd5c0c25a27bae6b4a72017db51eb9d39454126c0f4e6d4b9ae3e52530",
+   "i": 4695
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『允许运行』参数可以填写",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "true和false。如为true则允许事件运行，false则禁用事件运行。",
+     "p": {}
+    }
+   ],
+   "text": "『允许运行』参数可以填写true和false。如为true则允许事件运行，false则禁用事件运行。",
+   "sha256": "d18a87a668ed11e81391b27d7c2bdfafb8637b753cffab4586c516e71b96f715",
+   "i": 4696
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "events_enabled可以控制整个事件系统。如果禁用它，所有单独事件将不会运行。如果启用，仅仅被单独禁用的事件将不会运行。",
+     "p": {}
+    }
+   ],
+   "text": "events_enabled可以控制整个事件系统。如果禁用它，所有单独事件将不会运行。如果启用，仅仅被单独禁用的事件将不会运行。",
+   "sha256": "f00492e71f36e67111e82961d7cc84ebd949ae34a2a603cf82e0d4b8e1ebc3a3",
+   "i": 4697
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "例子：",
+   "sha256": "3f0405104a40a8731fb96a0ea8391f42a16e5e2c184a284ec489099a7318982b",
+   "i": 4698
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/mobevent minecraft:wandering_trader_event false",
+     "p": {}
+    }
+   ],
+   "text": "/mobevent minecraft:wandering_trader_event false",
+   "sha256": "4ca1079d9029fb2e8d7e72e3ae028128941bdcc4cc2cd3546e406341aa606682",
+   "i": 4699
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令可以禁止流浪商人的生成。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令可以禁止流浪商人的生成。",
+   "sha256": "8fda87152c3646da58f5e8300bf2482769befa8d7d021e79934c0dc7d37554f3",
+   "i": 4700
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/mobevent events_enabled false",
+     "p": {}
+    }
+   ],
+   "text": "/mobevent events_enabled false",
+   "sha256": "a773287e797ca2eefabde6942a3c18581695168b31d25f1690a20c53769ff8a4",
+   "i": 4701
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令将禁止所有单独事件运行。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令将禁止所有单独事件运行。",
+   "sha256": "79347930459f46dff34c06b41dbab369f9701502a943802aa110fe7610eb8c76",
+   "i": 4702
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第五个——",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/defaultgamemode——设置默认游戏模式",
+     "p": {}
+    }
+   ],
+   "text": "第五个——/defaultgamemode——设置默认游戏模式",
+   "sha256": "09d5c9972b497f369dbcc020328046add4f836f5143cdc1819ef4ca470dac359",
+   "i": 4703
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.3.1-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：Java1.3.1-今",
+   "sha256": "1f78762b9edd11a90f5df47ea2883f76d331bbf0511d5923e7371d35e69b0f0a",
+   "i": 4704
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：2",
+   "sha256": "aff08ef25b94462afe12748911c3903ff5055b0df47bafd6b85a18f0aa89a86e",
+   "i": 4705
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：否",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：否",
+   "sha256": "b3a9c3c7cb901faebf261066d5ee0cbf4b4552bf726ddbf04e48ff9ad9e0f423",
+   "i": 4706
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 4707
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/defaultgamemode <游戏模式ID>",
+     "p": {}
+    }
+   ],
+   "text": "/defaultgamemode <游戏模式ID>",
+   "sha256": "28ca951c4a35edf21e7a374aac4b45e0adce4e59b540ba8b113f1a5ffbb17f82",
+   "i": 4708
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用法",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/效果：",
+     "p": {}
+    }
+   ],
+   "text": "用法/效果：",
+   "sha256": "35722b5164ab8d9bab28bf02ebab0fd4d0079acc55d5565e3ef5a2707c7d37cc",
+   "i": 4709
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用法和",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/gamemode类似，这里就不多讲了。",
+     "p": {}
+    }
+   ],
+   "text": "用法和/gamemode类似，这里就不多讲了。",
+   "sha256": "7c499038cb8c11b8bd0cedc7f707294f2090d991a4ec7a08470e0f29bcd035c4",
+   "i": 4710
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令可以控制新进入游戏玩家的默认游戏模式。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令可以控制新进入游戏玩家的默认游戏模式。",
+   "sha256": "3759b337cbbc633085db6a73a1f690d73f6e239cc39ca218ae713c91a9511013",
+   "i": 4711
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要注意，对于服务器来说，如果服务器配置文件",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "server.properties中的force-gamemode选项被开启（true），那么所有玩家都会被强制更改为此指令设定的模式。",
+     "p": {}
+    }
+   ],
+   "text": "需要注意，对于服务器来说，如果服务器配置文件server.properties中的force-gamemode选项被开启（true），那么所有玩家都会被强制更改为此指令设定的模式。",
+   "sha256": "2512a9eb752ee2a9cd69098420595ada0002f98334492b0620817efc851eb1f5",
+   "i": 4712
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "例子：",
+   "sha256": "3f0405104a40a8731fb96a0ea8391f42a16e5e2c184a284ec489099a7318982b",
+   "i": 4713
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/defaultgamemode adventure",
+     "p": {}
+    }
+   ],
+   "text": "/defaultgamemode adventure",
+   "sha256": "55129161c49b36f15dd45de6fbe89643297bd86bf87d2e76fb1f8825ae6ff5db",
+   "i": 4714
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会使得接下来新进入游戏的玩家的默认游戏模式为冒险模式。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会使得接下来新进入游戏的玩家的默认游戏模式为冒险模式。",
+   "sha256": "78271f7b60e5f8c89781a2562feac72e05bb226070f214b30fb782b2f74282b7",
+   "i": 4715
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第六个——",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/publish——开放单人游戏世界",
+     "p": {}
+    }
+   ],
+   "text": "第六个——/publish——开放单人游戏世界",
+   "sha256": "0fabfb1ee8eb877fec63e79827e28fa0851ef6486836c8bfe6164790be6c00a4",
+   "i": 4716
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.3.1-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：Java1.3.1-今",
+   "sha256": "1f78762b9edd11a90f5df47ea2883f76d331bbf0511d5923e7371d35e69b0f0a",
+   "i": 4717
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "4",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：4",
+   "sha256": "cde19cbfabd23124009db5e7c19c04c811394f596cf1d0d9c9a98aba9a7ebc47",
+   "i": 4718
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "仅单人游戏：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "仅单人游戏：是",
+   "sha256": "2ea6b7d87bbf9ca52301f9ccb75cde71543e7dccb7db1dbe515c6b726811a84d",
+   "i": 4719
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 4720
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.13更新前",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13更新前",
+   "sha256": "e052ebd690102a81207e0828464be87df42ce390412eba8a5fb00215083db19e",
+   "i": 4721
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/publish",
+     "p": {}
+    }
+   ],
+   "text": "/publish",
+   "sha256": "97b84fce1decc1786ed0f979ddffd508da915ca862284a27621c254a27b81d43",
+   "i": 4722
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.13及更高版本",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13及更高版本",
+   "sha256": "3afbcab3872285d21f2c3f482a2414611564d999a57792e276cf0504b127570c",
+   "i": 4723
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/publish [端口]",
+     "p": {}
+    }
+   ],
+   "text": "/publish [端口]",
+   "sha256": "0d8482679cd2c57563f48eeb1e30ed8f11c899a78771228b33f44e3de774577d",
+   "i": 4724
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用法",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/效果：",
+     "p": {}
+    }
+   ],
+   "text": "用法/效果：",
+   "sha256": "35722b5164ab8d9bab28bf02ebab0fd4d0079acc55d5565e3ef5a2707c7d37cc",
+   "i": 4725
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "相当于在暂停界面点击『对局域网开放』，也就是将本地的单人游戏在局域网上开放。对于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.13及以上版本来说，可以设定开放的端口（至少比直接在暂停界面设置强多了）。",
+     "p": {}
+    }
+   ],
+   "text": "相当于在暂停界面点击『对局域网开放』，也就是将本地的单人游戏在局域网上开放。对于Java1.13及以上版本来说，可以设定开放的端口（至少比直接在暂停界面设置强多了）。",
+   "sha256": "81bd5e4f93cb1ec9bef9b3ec96af209f2eafeb418c26fa8c7fa9a1ffe7dcc17c",
+   "i": 4726
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "端口必须是一个介于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0~65536的整数。如果未指定，游戏会随机选取一个大于1024的端口。",
+     "p": {}
+    }
+   ],
+   "text": "端口必须是一个介于0~65536的整数。如果未指定，游戏会随机选取一个大于1024的端口。",
+   "sha256": "cc53f5960c2f22de19605a4450381c2442e5feff0f1c7f51da3570a604dd5f7d",
+   "i": 4727
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "例子：",
+   "sha256": "3f0405104a40a8731fb96a0ea8391f42a16e5e2c184a284ec489099a7318982b",
+   "i": 4728
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/publish 11451",
+     "p": {}
+    }
+   ],
+   "text": "/publish 11451",
+   "sha256": "24f8465a14c585dbd322c58f1797cdc584ce428b288857240651ad0a3f860345",
+   "i": 4729
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会使得单人游戏公开到局域网，并占用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "11451端口进行通信。",
+     "p": {}
+    }
+   ],
+   "text": "这将会使得单人游戏公开到局域网，并占用11451端口进行通信。",
+   "sha256": "bed49c514bfe06fd8f6666330eab570383fa53e9eb08e973354a786f36794687",
+   "i": 4730
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第七个——",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/recipe——给予或剥夺合成配方",
+     "p": {}
+    }
+   ],
+   "text": "第七个——/recipe——给予或剥夺合成配方",
+   "sha256": "a0c645d6abf1b137f0749713f282f90b67fc6211286eac317d7fb9dcf0585fe6",
+   "i": 4731
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.12-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：Java1.12-今",
+   "sha256": "0f79e39559cd7d7aef55d2f8efc8b54df2827b53d282446dbece12d8e065c410",
+   "i": 4732
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：2",
+   "sha256": "aff08ef25b94462afe12748911c3903ff5055b0df47bafd6b85a18f0aa89a86e",
+   "i": 4733
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：否",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：否",
+   "sha256": "b3a9c3c7cb901faebf261066d5ee0cbf4b4552bf726ddbf04e48ff9ad9e0f423",
+   "i": 4734
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 4735
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/recipe (give|take)<目标玩家><物品ID>",
+     "p": {}
+    }
+   ],
+   "text": "/recipe (give|take)<目标玩家><物品ID>",
+   "sha256": "019d2c354a2f7358ba58dcecbbcc27c67cc5dcb57dd07691f6f57f17d8195282",
+   "i": 4736
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用法",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/效果：",
+     "p": {}
+    }
+   ],
+   "text": "用法/效果：",
+   "sha256": "35722b5164ab8d9bab28bf02ebab0fd4d0079acc55d5565e3ef5a2707c7d37cc",
+   "i": 4737
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令有两个子命令：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "give和take。give可以给予目标玩家指定的合成配方，take就是剥夺目标玩家的合成配方。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令有两个子命令：give和take。give可以给予目标玩家指定的合成配方，take就是剥夺目标玩家的合成配方。",
+   "sha256": "6b9980de60890e8d4e3e33dc5a22682a72240494debaa825fa97fc636df5a021",
+   "i": 4738
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『物品",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "ID』参数即具体要剥夺的合成配方对应的物品ID。比如指定minecraft:compass（指南针），就可以给予或剥夺目标玩家的指南针合成配方。这个参数也可以直接填写星号『*』来代指所有合成配方。",
+     "p": {}
+    }
+   ],
+   "text": "『物品ID』参数即具体要剥夺的合成配方对应的物品ID。比如指定minecraft:compass（指南针），就可以给予或剥夺目标玩家的指南针合成配方。这个参数也可以直接填写星号『*』来代指所有合成配方。",
+   "sha256": "e1b422c3002c89a2e4741c20c53acf79434e7bf6e1914e5fe97392fa10f4bd79",
+   "i": 4739
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（这条指令真的是没什么存在感，能用到的地方太少了）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（这条指令真的是没什么存在感，能用到的地方太少了）",
+   "sha256": "1dd8f044055839084739b048660eb3360b6dd38d38aa69b0e4bc8ea275539fca",
+   "i": 4740
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（当然，如果启用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "doLimitedCrafting游戏规则，即玩家只能使用已经解锁的合成配方来合成物品，那么这条指令瞬间就会变得十分有用）",
+     "p": {}
+    }
+   ],
+   "text": "（当然，如果启用doLimitedCrafting游戏规则，即玩家只能使用已经解锁的合成配方来合成物品，那么这条指令瞬间就会变得十分有用）",
+   "sha256": "ebf1c488a3f8db48c6e88c74473bb9f8db7c628763d57964341fc0ae946dea8a",
+   "i": 4741
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（这么说的话，一个新玩法就出来了！）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（这么说的话，一个新玩法就出来了！）",
+   "sha256": "847140a3c1aa86e188b6c6f9432e5adb8c6313ced4655bc3333c6f61f3261837",
+   "i": 4742
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "例子：",
+   "sha256": "3f0405104a40a8731fb96a0ea8391f42a16e5e2c184a284ec489099a7318982b",
+   "i": 4743
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/recipe give @s minecraft:compass",
+     "p": {}
+    }
+   ],
+   "text": "/recipe give @s minecraft:compass",
+   "sha256": "5accc0e4a6780de7c5be73a33c4e189973c5073f25107d97f25ee44af1e48249",
+   "i": 4744
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会给予指令执行者（也就是你自己）指南针的合成配方。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会给予指令执行者（也就是你自己）指南针的合成配方。",
+   "sha256": "a3d373193fd5838e9ecb50dad9727839926f1008427150027253d2e7cbbdd781",
+   "i": 4745
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/recipe take @a *",
+     "p": {}
+    }
+   ],
+   "text": "/recipe take @a *",
+   "sha256": "74d92641a1536832be1cbe4657dc66f9708403baef1e469013e9f762131bee19",
+   "i": 4746
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会剥夺所有玩家的所有合成配方。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会剥夺所有玩家的所有合成配方。",
+   "sha256": "7a01042837c409f1c3bed6fab2623a809716b519ea953d1ee5bbd77c99a2a04b",
+   "i": 4747
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第八个——",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/setmaxplayers——设置多人游戏玩家人数上限",
+     "p": {}
+    }
+   ],
+   "text": "第八个——/setmaxplayers——设置多人游戏玩家人数上限",
+   "sha256": "bc84989d9b688ad349ceac5292ba1780c5496f27fe9260dd900047958f2d70d3",
+   "i": 4748
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：携带版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.1.0-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：携带版1.1.0-今",
+   "sha256": "e13ac9717f12f0cf6ce6efd44de7540e0a82f099fc92280425ed230ced3b2a93",
+   "i": 4749
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "3",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：3",
+   "sha256": "868ab6056955ba73dc5bd4a9b0e48b61a7809cacb9b0c19cfbd191591e743d2b",
+   "i": 4750
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 4751
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 4752
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/setmaxplayers <玩家人数上限>",
+     "p": {}
+    }
+   ],
+   "text": "/setmaxplayers <玩家人数上限>",
+   "sha256": "03ac3b6d25b701a30efd6ce81714a90f0ed5b4a33c42e5e49e8e6a4e14585fcc",
+   "i": 4753
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用法",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/效果：",
+     "p": {}
+    }
+   ],
+   "text": "用法/效果：",
+   "sha256": "35722b5164ab8d9bab28bf02ebab0fd4d0079acc55d5565e3ef5a2707c7d37cc",
+   "i": 4754
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令可以设置基岩版多人游戏的玩家人数上限，最大支持",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "30人。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令可以设置基岩版多人游戏的玩家人数上限，最大支持30人。",
+   "sha256": "f3039dfb00cce3b6d286d8ec22c4833ebe00e06b5dec56aaabe038ff8f0f27b5",
+   "i": 4755
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『玩家人数上限』参数的值如果小于当前在线的人数或大于服务器最大支持的连接数量，游戏将会修正人数上限到上述范围内。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "『玩家人数上限』参数的值如果小于当前在线的人数或大于服务器最大支持的连接数量，游戏将会修正人数上限到上述范围内。",
+   "sha256": "f91c49f387f5bb049db12605625a31d483e99887e623db14a4641a938d27bcc2",
+   "i": 4756
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "只不过，作者三四年前曾经用过这条指令在网易我的世界尝试提高联机模式的人数，但并没有效果。所以你如果想到似乎能够这么用，那你就别想了，网易已经帮你想到了。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "只不过，作者三四年前曾经用过这条指令在网易我的世界尝试提高联机模式的人数，但并没有效果。所以你如果想到似乎能够这么用，那你就别想了，网易已经帮你想到了。",
+   "sha256": "cfbf7b0ef04205efe8084310c317c1c2c977b72f166af7af24f448ba9c20c3b8",
+   "i": 4757
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "例子：",
+   "sha256": "3f0405104a40a8731fb96a0ea8391f42a16e5e2c184a284ec489099a7318982b",
+   "i": 4758
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/setmaxplayers 20",
+     "p": {}
+    }
+   ],
+   "text": "/setmaxplayers 20",
+   "sha256": "fdd6657f6f7b968cff26518d220b54ebc655efb297058ada07b396eebe716d1c",
+   "i": 4759
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不出意外的话，这将会设置当前多人游戏的玩家数量上限为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "20人。",
+     "p": {}
+    }
+   ],
+   "text": "不出意外的话，这将会设置当前多人游戏的玩家数量上限为20人。",
+   "sha256": "0fbc5711007348c63b348cf1b8f4f06f0783ddb659f80c28848ec58fb829a3a9",
+   "i": 4760
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后一个——",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/spectate——控制旁观模式玩家的视角",
+     "p": {}
+    }
+   ],
+   "text": "最后一个——/spectate——控制旁观模式玩家的视角",
+   "sha256": "91e0053d7bef976ccab5f7103cc8e3fe5e979dbde04d7fad4ada0e1ce05a3b25",
+   "i": 4761
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.15-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：Java1.15-今",
+   "sha256": "1e8bd90d1e2ee4254edad7e617c522fd0483aa6304947c5b44fb506aa367940a",
+   "i": 4762
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：2",
+   "sha256": "aff08ef25b94462afe12748911c3903ff5055b0df47bafd6b85a18f0aa89a86e",
+   "i": 4763
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：否",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：否",
+   "sha256": "b3a9c3c7cb901faebf261066d5ee0cbf4b4552bf726ddbf04e48ff9ad9e0f423",
+   "i": 4764
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 4765
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spectate <要附身的对象>[玩家]",
+     "p": {}
+    }
+   ],
+   "text": "/spectate <要附身的对象>[玩家]",
+   "sha256": "a48e55e0bc3f1dcce4ad3b2f6395c75d37f6f704de1db4f54d3117eeab47c079",
+   "i": 4766
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\使目标玩家或执行者自己（必须处于旁观者模式下）的视角附身在指定的对象上，对象必须是单个玩家或实体\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\使目标玩家或执行者自己（必须处于旁观者模式下）的视角附身在指定的对象上，对象必须是单个玩家或实体\\\\",
+   "sha256": "64a95cb084d70019aa719cb34c16b4a64b7d86feff73207c5bf2c9e42c52849c",
+   "i": 4767
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spectate",
+     "p": {}
+    }
+   ],
+   "text": "/spectate",
+   "sha256": "c412d3d6e0c0f2faba2c6f8963dbbd9f0dc6074a1e2d364808d8d859bab857a2",
+   "i": 4768
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\使得执行者自己不再将视角附身于指定的对象上\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\使得执行者自己不再将视角附身于指定的对象上\\\\",
+   "sha256": "af469766d0d602c197b102ba26897b05de48ba6cc68711f8101ae42f0becbd52",
+   "i": 4769
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用法",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/效果：",
+     "p": {}
+    }
+   ],
+   "text": "用法/效果：",
+   "sha256": "35722b5164ab8d9bab28bf02ebab0fd4d0079acc55d5565e3ef5a2707c7d37cc",
+   "i": 4770
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面列格式时已经说了。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "上面列格式时已经说了。",
+   "sha256": "be8454689f5ddb2b0e7f39bd4dfb8d7b643746bbed4ebebcd5f57340d68a1145",
+   "i": 4771
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "例子：",
+   "sha256": "3f0405104a40a8731fb96a0ea8391f42a16e5e2c184a284ec489099a7318982b",
+   "i": 4772
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute as @a[gamemode=spectator] run spectate @p[distance=0.1..，gamemode=!spectator]@s",
+     "p": {}
+    }
+   ],
+   "text": "/execute as @a[gamemode=spectator] run spectate @p[distance=0.1..，gamemode=!spectator]@s",
+   "sha256": "03196687eceace40835b3079334646f5230578dce912373ad6aa006ae66655b4",
+   "i": 4773
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会使得所有处于旁观者模式的在线玩家附身到距离自己最近的一名不处于旁观者模式的玩家身上。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这将会使得所有处于旁观者模式的在线玩家附身到距离自己最近的一名不处于旁观者模式的玩家身上。",
+   "sha256": "01baa104ab5a11bdec2cbe77e33d435ac9b3a563b8916a968bf27baa47646bc6",
+   "i": 4774
+  }
+ ],
+ "text_sha256": "90f4f0fd186cc3a60bace260c22d2c77b0162a999722a553385960abf2980849",
+ "chars": 3112
+}

@@ -1,0 +1,1039 @@
+{
+ "id": "ch037",
+ "kind": "chapter",
+ "number": 37,
+ "title": "第三十七章 testforblock、testforblocks-探测 下",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   2687,
+   2738
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第三十七章_testforblock、testforblocks-探测"
+    },
+    {
+     "t": "第三十七章 testforblock、testforblocks-探测 下",
+     "p": {}
+    }
+   ],
+   "text": "第三十七章 testforblock、testforblocks-探测 下",
+   "sha256": "93f769e7156baccb1792e5a3343f6cee83a9a6ff4fde9d01005819cb77fef5d1",
+   "i": 2687
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们现在学会了如何探测实体，那方块呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "我们现在学会了如何探测实体，那方块呢？",
+   "sha256": "7d774dc191ba6007cf6775c8a5c33be965ee593f283cc8e35e2c8ebab34bae2d",
+   "i": 2688
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/testforblock和/testforblocks。",
+     "p": {}
+    }
+   ],
+   "text": "使用/testforblock和/testforblocks。",
+   "sha256": "a31e1f3fa25fa1ac3a238df2bde35a1d0e12028b36a157aa3846450ef143e45d",
+   "i": 2689
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这两个指令只相差",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1个字母，但是功能却大径相庭。在英文中，blocks是blcok的复数。也就是说，/testforblock是探测单个方块，而/testforblock是探测多个方块。",
+     "p": {}
+    }
+   ],
+   "text": "这两个指令只相差1个字母，但是功能却大径相庭。在英文中，blocks是blcok的复数。也就是说，/testforblock是探测单个方块，而/testforblock是探测多个方块。",
+   "sha256": "aa90f3d7d59206fc34b46db30182c97677b54cb9fdae9b77244f6d5b5296af03",
+   "i": 2690
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "真有这么简单吗？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "真有这么简单吗？",
+   "sha256": "c4fc6276c95d3915a77b2023e0782df3f239687b2b8e986ded1f0d71e69a233c",
+   "i": 2691
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblock",
+     "p": {}
+    }
+   ],
+   "text": "/testforblock",
+   "sha256": "9a6c7144e15c8c1175130c89f7c18971918ff4b2b8a441209a1c882d8b89c191",
+   "i": 2692
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：探测指定位置是否为某种方块。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：探测指定位置是否为某种方块。",
+   "sha256": "4f0354330d1abd5412198d524b928815f0e06c38776a61aa89ad87e5933afbc2",
+   "i": 2693
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2，基岩-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2，基岩-1",
+   "sha256": "04ff054666196c9f14a59c65f5ddb9a79efed2f3d2b519540dd5715299ff7c53",
+   "i": 2694
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 2695
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 2696
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "基岩版",
+   "sha256": "e1ef194dc07360ceff0a1bfe2e5ddb80aa088939ada629f4c1c7f9bde5641ae2",
+   "i": 2697
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblock <探测位置：坐标><方块ID：字符串>[数据值：整数]",
+     "p": {}
+    }
+   ],
+   "text": "/testforblock <探测位置：坐标><方块ID：字符串>[数据值：整数]",
+   "sha256": "b1128b7a36a56dea3ad0a085cead620deb6eb2b71403ca8f232a7b6ba4f7ab85",
+   "i": 2698
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.13之前",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13之前",
+   "sha256": "d39cab2b6ceac47f3e4b5445f85f0b42ed461eae8793295e1828edd18cb15894",
+   "i": 2699
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblock <探测位置：坐标><方块ID：字符串>[数据值：整数]",
+     "p": {}
+    }
+   ],
+   "text": "/testforblock <探测位置：坐标><方块ID：字符串>[数据值：整数]",
+   "sha256": "b1128b7a36a56dea3ad0a085cead620deb6eb2b71403ca8f232a7b6ba4f7ab85",
+   "i": 2700
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblock <探测位置：坐标><方块ID：字符串>[方块状态]",
+     "p": {}
+    }
+   ],
+   "text": "/testforblock <探测位置：坐标><方块ID：字符串>[方块状态]",
+   "sha256": "39de22669dbe52b81c90ae065a292e611d48e8d0e4319b1c4df0d2b1a56de7e8",
+   "i": 2701
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很不幸的是，虽然",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java版和基岩版都有加入这条指令，但是Java版中这条指令在1.13版本的第三个快照时被移除了。所以说：",
+     "p": {}
+    }
+   ],
+   "text": "很不幸的是，虽然Java版和基岩版都有加入这条指令，但是Java版中这条指令在1.13版本的第三个快照时被移除了。所以说：",
+   "sha256": "88c83c343c81916e7a9e01d3ee000bdd3b3fdccf80d947d493ee1c98d768af4e",
+   "i": 2702
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblock in Java",
+     "p": {}
+    }
+   ],
+   "text": "/testforblock in Java",
+   "sha256": "98ed27b289582a07fc948d52a0b79d01d0507e3868f7f812f53084f545f4723e",
+   "i": 2703
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "生于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.7.2版本13w37a",
+     "p": {}
+    }
+   ],
+   "text": "生于1.7.2版本13w37a",
+   "sha256": "7dd5e2ed6e38dfc8a4142ce176dfc8f95e3b28e74c96d962242d78ce4032c4a5",
+   "i": 2704
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "死于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.13版本17w45a",
+     "p": {}
+    }
+   ],
+   "text": "死于1.13版本17w45a",
+   "sha256": "6b635d69b222131db8a1c0519416e97c369f267a02a5b656c4d04dd1d508a3ad",
+   "i": 2705
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "算了，正经点。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "算了，正经点。",
+   "sha256": "b37abe2798eed4d5fc13bdcb173f9a9b2bc9d60e70b87465167c906cca1e1f3b",
+   "i": 2706
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子，比如：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子，比如：",
+   "sha256": "227b99003c71a01b233b9e6e8e6e018b0c6eb87ee5df588261c313e7576468ff",
+   "i": 2707
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute @a ~~~ testfor ~~-1 ~ minecraft:redstone_block",
+     "p": {}
+    }
+   ],
+   "text": "/execute @a ~~~ testfor ~~-1 ~ minecraft:redstone_block",
+   "sha256": "d4ed1b95badf6a119f460b2eebb8bf348bc79c7b30e616bb87fb7e361e034b65",
+   "i": 2708
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "就是探测每个玩家其脚底下是否是红石块，是则成功，否则失败。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "就是探测每个玩家其脚底下是否是红石块，是则成功，否则失败。",
+   "sha256": "dfb1f7b3d4dab2b55a2d5ce15462c97a7fedc3a6ff76ed93bffc8ab4f447caa7",
+   "i": 2709
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/testforblocks。刚才说过这里多了s，也就是多个方块，那么是怎么探测的呢？",
+     "p": {}
+    }
+   ],
+   "text": "然后是/testforblocks。刚才说过这里多了s，也就是多个方块，那么是怎么探测的呢？",
+   "sha256": "b2bad31d0415b4632c91c3ad405ada1f3e5ca1d8551fe2343ea32e597d28d4bf",
+   "i": 2710
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "先来个介绍：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "先来个介绍：",
+   "sha256": "b4adeb3e5835969aebb151ae49d914932dbc8752bcf710a5c7c6828cb0ade526",
+   "i": 2711
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblocks",
+     "p": {}
+    }
+   ],
+   "text": "/testforblocks",
+   "sha256": "97ed99f14511151124195d1215564cc9254f100a570a7e28a0886da3176ad4d6",
+   "i": 2712
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：探测指定区域是否与另外一个指定区域完全相同",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：探测指定区域是否与另外一个指定区域完全相同",
+   "sha256": "5a3647b5472adc390c32c96a3d3ec99c75c81bbf2fdf568cbaebe86a164f2c84",
+   "i": 2713
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2，基岩-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2，基岩-1",
+   "sha256": "04ff054666196c9f14a59c65f5ddb9a79efed2f3d2b519540dd5715299ff7c53",
+   "i": 2714
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 2715
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 2716
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblocks <源区域起始坐标><源区域终止坐标><比较区域下西北角坐标>[<模式:masked|all>]",
+     "p": {}
+    }
+   ],
+   "text": "/testforblocks <源区域起始坐标><源区域终止坐标><比较区域下西北角坐标>[<模式:masked|all>]",
+   "sha256": "d6d105d26be6bd91c1ed343212cebe7dcf0fca4cdc2649d3b96face5e5bfc33d",
+   "i": 2717
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比较时先通过",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/fill选择区域的方式确定源区域，再与要比较区域进行比较。只不过这个要比较区域的位置填写就挺蛋疼：你得找到要比较区域的下西北角（专业术语叫做区域基点）。",
+     "p": {}
+    }
+   ],
+   "text": "比较时先通过/fill选择区域的方式确定源区域，再与要比较区域进行比较。只不过这个要比较区域的位置填写就挺蛋疼：你得找到要比较区域的下西北角（专业术语叫做区域基点）。",
+   "sha256": "c19a6d04f877153d6690fd331e27b56190d010aa8479c1d95469b146612f19c7",
+   "i": 2718
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "哪里是下西北角呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "哪里是下西北角呢？",
+   "sha256": "83b937bcba5a23a4abfde31aa69cb3267dfa4a11199f93e37c23566c52cd9a46",
+   "i": 2719
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "区域内",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "XYZ三个值最小的地方。",
+     "p": {}
+    }
+   ],
+   "text": "区域内XYZ三个值最小的地方。",
+   "sha256": "a82d3e5b4f9b728a54d7a47943cc13aa98a59040c18bac523cd466f7ab35688f",
+   "i": 2720
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这两个区域的大小由第一个定，所以比较的区域就直接给一个角了。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这两个区域的大小由第一个定，所以比较的区域就直接给一个角了。",
+   "sha256": "d4e697fb7a6b21cc7f17bfac2906fe6d9d0635374c89f5c8ed0142f27a716b01",
+   "i": 2721
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "以后的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/clone指令（复制指令）也是这种形式。",
+     "p": {}
+    }
+   ],
+   "text": "以后的/clone指令（复制指令）也是这种形式。",
+   "sha256": "157586d1a3819f9a531465280b3e792e8750572eb8fd58271e737a1821680703",
+   "i": 2722
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 2723
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblocks ~-1 ~-1 ~-1 ~1 ~-1 ~1 ~-1 ~2 ~-1",
+     "p": {}
+    }
+   ],
+   "text": "/testforblocks ~-1 ~-1 ~-1 ~1 ~-1 ~1 ~-1 ~2 ~-1",
+   "sha256": "c043387042e89bbf2d8d8d583f683e5953b099560f3159dbcee19e90fcff5511",
+   "i": 2724
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用是：检测执行者脚下",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "3×3的区域是否和头顶3×3的区域完全一样",
+     "p": {}
+    }
+   ],
+   "text": "作用是：检测执行者脚下3×3的区域是否和头顶3×3的区域完全一样",
+   "sha256": "b8a0b575b8446382bd61796fb2b7c2dcfc8a873706cad38a5daf7be28af724ff",
+   "i": 2725
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/testforblocks还有两个比较模式：",
+     "p": {}
+    }
+   ],
+   "text": "/testforblocks还有两个比较模式：",
+   "sha256": "b9dd6f5a7552e7a77d0a27d4c452c44ba5d003a80b7b62fa6cb4d285dbcd9d46",
+   "i": 2726
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "all和masked。",
+     "p": {}
+    }
+   ],
+   "text": "all和masked。",
+   "sha256": "2c4646efaa0bf8e69131096d13aaee71d60db6d860f19dd35c66e38575553902",
+   "i": 2727
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "all（默认模式）——比较全部。",
+     "p": {}
+    }
+   ],
+   "text": "all（默认模式）——比较全部。",
+   "sha256": "6a6376a7493f12d5a768cffd43286ba94e0f4bc608ee9a710733dbd4b5f4cdad",
+   "i": 2728
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "masked——忽略源区域的空气方块（即源区域的空气方块可以代替要比较区域的任何方块）",
+     "p": {}
+    }
+   ],
+   "text": "masked——忽略源区域的空气方块（即源区域的空气方块可以代替要比较区域的任何方块）",
+   "sha256": "49057248f66041885e66ab933c7c86c2342d06f71813492ceaefc4c39a6cd0db",
+   "i": 2729
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这两章所讲的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "3条指令，要发挥全部作用就需要和红石比较器配合，不只是单单的用命令方块执行哦！",
+     "p": {}
+    }
+   ],
+   "text": "这两章所讲的3条指令，要发挥全部作用就需要和红石比较器配合，不只是单单的用命令方块执行哦！",
+   "sha256": "f4bc8a39756ea413fb22cf1cab0621fb705ef09340ac9fd524d9155e9f67b151",
+   "i": 2730
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "历史",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "历史",
+   "sha256": "b0385cfe4b424d835963f2ce8a27a7fec98018affaf7c44645933266b8869727",
+   "i": 2731
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {}
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 2732
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.7.2——加入了/testforblock",
+     "p": {}
+    }
+   ],
+   "text": "1.7.2——加入了/testforblock",
+   "sha256": "3720e03f09880ecb55911003ea9a17b1cf8c4ab65e8165e5e6a04434bf871935",
+   "i": 2733
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.8——加入了/testforblocks",
+     "p": {}
+    }
+   ],
+   "text": "1.8——加入了/testforblocks",
+   "sha256": "a2fb3e1b1113935e8e90a151c518c1e09b29b3d9da36870ebfd0bcddc8ac5024",
+   "i": 2734
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.11——/testforblock支持方块状态",
+     "p": {}
+    }
+   ],
+   "text": "1.11——/testforblock支持方块状态",
+   "sha256": "5978a2773cd2fb3bdd5d005f423626bb24ace7d477a3d1c70b4a4a6cd789ad4d",
+   "i": 2735
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——因为execute if的出现，/testforblock和/testforblocks被移除。",
+     "p": {}
+    }
+   ],
+   "text": "1.13——因为execute if的出现，/testforblock和/testforblocks被移除。",
+   "sha256": "49e4f31cf7ea80482ba609e5c23f6d7606c40a585cb7e74938b2c2eda808b8d9",
+   "i": 2736
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "携带版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Alpha",
+     "p": {}
+    }
+   ],
+   "text": "携带版Alpha",
+   "sha256": "453af58572e95094fccbcfbe84c76667c914a6d56205222c826934f1647afdb3",
+   "i": 2737
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "0.16.0——加入了/testforblock和/testforblocks",
+     "p": {}
+    }
+   ],
+   "text": "0.16.0——加入了/testforblock和/testforblocks",
+   "sha256": "1693d50cd29c55706f6e39b71cbd1e53c6620569a41271dffa1046236759dc53",
+   "i": 2738
+  }
+ ],
+ "text_sha256": "f564289a697fbc459e87b0a93b21a4eaea9d42b8d4aa9ef6a10744c91a22cacc",
+ "chars": 1327
+}

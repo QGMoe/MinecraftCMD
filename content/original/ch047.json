@@ -1,0 +1,683 @@
+{
+ "id": "ch047",
+ "kind": "chapter",
+ "number": 47,
+ "title": "第四十七章 team——队伍的颜色和规则",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   3362,
+   3393
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第四十七章_team——队伍的颜色和规则"
+    },
+    {
+     "t": "第四十七章 team——队伍的颜色和规则",
+     "p": {}
+    }
+   ],
+   "text": "第四十七章 team——队伍的颜色和规则",
+   "sha256": "d8d88dec910314e3bb8ec9b15e4bda7f4625912585045ed6c8a4363dbff999f5",
+   "i": 3362
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在上一章，我们了解到一个队伍是由“名称”、“显示名称”、“前缀和后缀”、“成员”、“队伍颜色”和“队伍规则”组成的。其中，队伍颜色和队伍规则是什么东西呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "在上一章，我们了解到一个队伍是由“名称”、“显示名称”、“前缀和后缀”、“成员”、“队伍颜色”和“队伍规则”组成的。其中，队伍颜色和队伍规则是什么东西呢？",
+   "sha256": "589c6d5511eec5816c8c51b30c9ba12c2d25bfa9db907010630784514efa24db",
+   "i": 3363
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "队伍颜色，顾名思义，就是一个队伍的颜色。一个队伍的颜色会体现在成员的头上、聊天栏、",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Tab菜单和侧边栏的名字中。当一个队伍设置了颜色，它的成员的名字也就会使用该队伍的颜色（比如设置成绿色？）。",
+     "p": {}
+    }
+   ],
+   "text": "队伍颜色，顾名思义，就是一个队伍的颜色。一个队伍的颜色会体现在成员的头上、聊天栏、Tab菜单和侧边栏的名字中。当一个队伍设置了颜色，它的成员的名字也就会使用该队伍的颜色（比如设置成绿色？）。",
+   "sha256": "71b106d688d418ebc2491b90efa0f32f7e8fabbf063fc3496f882546fe9304e5",
+   "i": 3364
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft中一共有16种队伍颜色：black（黑）、dark_blue（深蓝）、dark_green（深绿）、dark_aqua（深青）、dark_red（暗红）、dark_purple（暗紫）、gold（金）、gray（灰）、dark_gray（深灰）、blue（蓝）、green（绿）、aqua（青）、red（红）、light_purple（亮紫）、yellow（黄）和white（白）。（实际上还有一种：reset，即默认颜色。但这个颜色无法用于记分板侧边栏显示中，即并没有sidebar.team.reset这个侧边栏显示位置）",
+     "p": {}
+    }
+   ],
+   "text": "Minecraft中一共有16种队伍颜色：black（黑）、dark_blue（深蓝）、dark_green（深绿）、dark_aqua（深青）、dark_red（暗红）、dark_purple（暗紫）、gold（金）、gray（灰）、dark_gray（深灰）、blue（蓝）、green（绿）、aqua（青）、red（红）、light_purple（亮紫）、yellow（黄）和white（白）。（实际上还有一种：reset，即默认颜色。但这个颜色无法用于记分板侧边栏显示中，即并没有sidebar.team.reset这个侧边栏显示位置）",
+   "sha256": "5f06bd492a74709cd8565aec29a667b0e46ad6931baa37a8c1d792ac43fca136",
+   "i": 3365
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们可以通过使用子命令",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "option/modify中的color来设置队伍颜色。比如我们想要设置队伍team为黄色，我们只需要运行：",
+     "p": {}
+    }
+   ],
+   "text": "我们可以通过使用子命令option/modify中的color来设置队伍颜色。比如我们想要设置队伍team为黄色，我们只需要运行：",
+   "sha256": "8b703d1302412ed2bc00edda715f2cf5cc5bf8bb13bbd564c9cb6c721b3c5acd",
+   "i": 3366
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard teams option team color yellow",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard teams option team color yellow",
+   "sha256": "945ad824dd42c95bf20ae6156bdebb064f2668440b963c6b0e7e599e5dcdcd6d",
+   "i": 3367
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/team modify team color yellow）",
+     "p": {}
+    }
+   ],
+   "text": "（/team modify team color yellow）",
+   "sha256": "6a4e2042bdfc2a007dabf1aaa8791fdeb607d80ef6442811f81cd3b8d59ff79c",
+   "i": 3368
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "队伍的颜色实际上很有用。如果能妥善运用的话，或许能搞出类似于自定义",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "NPC mod内的中立方（黄色）、友好方（绿色）和敌对方（红色）。并且由于队伍颜色和记分板的侧边栏显示有关，如果能奉献几个肝，或许可以做出原版的起床战争，不用插件和mod的那种！",
+     "p": {}
+    }
+   ],
+   "text": "队伍的颜色实际上很有用。如果能妥善运用的话，或许能搞出类似于自定义NPC mod内的中立方（黄色）、友好方（绿色）和敌对方（红色）。并且由于队伍颜色和记分板的侧边栏显示有关，如果能奉献几个肝，或许可以做出原版的起床战争，不用插件和mod的那种！",
+   "sha256": "52e413471c3d52d07df1bc911cabf7b94ebad50deffbf5f7f095f4dbbb95fbed",
+   "i": 3369
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "队伍的规则（注：这个不是官方说法，仅仅是作者为了方便你们理解而分的类）有五个：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "队伍的规则（注：这个不是官方说法，仅仅是作者为了方便你们理解而分的类）有五个：",
+   "sha256": "aebb01db5254f711d11324c233e4df04765357d869cd72bec4fdedd1285e6e30",
+   "i": 3370
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "friendlyfire",
+     "p": {}
+    }
+   ],
+   "text": "①friendlyfire",
+   "sha256": "e85a7bf7b5c3ff91c00969cbcff1b9b04861a01c633369d148e0f5694d1dedb9",
+   "i": 3371
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... option/modify <队伍名称> friendlyfire <布尔值：true|false>",
+     "p": {}
+    }
+   ],
+   "text": "... option/modify <队伍名称> friendlyfire <布尔值：true|false>",
+   "sha256": "d9602f1384c7f8a9cebf3b73590e9733a56973322f5426dd854459693293439f",
+   "i": 3372
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个规则控制队伍内的成员是否可以互相攻击，默认为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "true。如果为false，则队伍成员间无法伤害到对方。当然，仅仅对队伍内成员有效，不属于本队成员的人照样可以攻击本队成员，本队成员也可以照常攻击非本队成员。",
+     "p": {}
+    }
+   ],
+   "text": "这个规则控制队伍内的成员是否可以互相攻击，默认为true。如果为false，则队伍成员间无法伤害到对方。当然，仅仅对队伍内成员有效，不属于本队成员的人照样可以攻击本队成员，本队成员也可以照常攻击非本队成员。",
+   "sha256": "7bf10ab9bfdc238e87a30bca8f084d217d287d86e2b34d74b612e6609d715095",
+   "i": 3373
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "seeFriendlyInvisibles",
+     "p": {}
+    }
+   ],
+   "text": "②seeFriendlyInvisibles",
+   "sha256": "29506006acceeb54521790ee2c042f3fa86bdea415aad5abd1b4e0b2f97bf91c",
+   "i": 3374
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... option/modify <队伍名称> seeFriendlyInvisibles <布尔值：true|false>",
+     "p": {}
+    }
+   ],
+   "text": "... option/modify <队伍名称> seeFriendlyInvisibles <布尔值：true|false>",
+   "sha256": "2fbfa94e45cf43a916e15fe4cebe66401d976867d04907232b7fa08305a638dc",
+   "i": 3375
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个规则控制队伍内成员是否可以看到其他处于隐身状态下的成员，默认为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "true。如果为true，本队成员就可以看到半透明的隐身本队成员；如果为false，则不能看到。当然，这个规则仍然仅对队伍内成员生效。",
+     "p": {}
+    }
+   ],
+   "text": "这个规则控制队伍内成员是否可以看到其他处于隐身状态下的成员，默认为true。如果为true，本队成员就可以看到半透明的隐身本队成员；如果为false，则不能看到。当然，这个规则仍然仅对队伍内成员生效。",
+   "sha256": "15e833a880bd813148e7aa12b8e5e7c175561417097fc391f21c37221ecd1815",
+   "i": 3376
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "nametagVisibility",
+     "p": {}
+    }
+   ],
+   "text": "③nametagVisibility",
+   "sha256": "ca1da2491b3be268afb11c8db329efde15326ca15f6c52d2a6e74737fd0f0ab1",
+   "i": 3377
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "该规则控制队伍内每个成员的名称牌（就是头上显示的名字）对其他人的可见性。该规则默认值是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "always，即公开显示，所有人都能看到。其他三个值如下（注：下面的例子中，张三和李四为红队，王五为蓝队。红队为本队，蓝队为他队。）：",
+     "p": {}
+    }
+   ],
+   "text": "该规则控制队伍内每个成员的名称牌（就是头上显示的名字）对其他人的可见性。该规则默认值是always，即公开显示，所有人都能看到。其他三个值如下（注：下面的例子中，张三和李四为红队，王五为蓝队。红队为本队，蓝队为他队。）：",
+   "sha256": "6cd5f20a71803c715fff38c4221c48abb3c0a21b048f5f3ebfab5c1263985d4a",
+   "i": 3378
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "never——私密，所有人（不管是本队的还是非本队的人）都看不见",
+     "p": {}
+    }
+   ],
+   "text": "never——私密，所有人（不管是本队的还是非本队的人）都看不见",
+   "sha256": "9fc29c8259f8f4d02253b9d7bf056b22d3094928a09621c33e5da7665ca5e762",
+   "i": 3379
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（即王五和李四都无法看见张三的名字）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（即王五和李四都无法看见张三的名字）",
+   "sha256": "71ca074b53676b09a6364216f27986bb9c7528004e2472f1eabbbcecbdbd837f",
+   "i": 3380
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "hideforotherteams——即hide for other teams（向其他队伍隐藏）。仅有本队成员可以互相看到名称牌，他队成员无法看见。",
+     "p": {}
+    }
+   ],
+   "text": "hideforotherteams——即hide for other teams（向其他队伍隐藏）。仅有本队成员可以互相看到名称牌，他队成员无法看见。",
+   "sha256": "426da76fd58afc3de33fa833b8b26e79535594532391ae40f735720d1ad28bea",
+   "i": 3381
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（李四和张三可以互相看见对方名字，但王五无法看见李四和张三的名字）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（李四和张三可以互相看见对方名字，但王五无法看见李四和张三的名字）",
+   "sha256": "6bbac8a63e07e99158e29df6e5f251c617413371378d9b68cf7299e4d09f83db",
+   "i": 3382
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "hideforownteam——即hide for own team（向本队隐藏）。仅其他队伍可以看见本队成员的名称牌，本队成员互相无法看见。",
+     "p": {}
+    }
+   ],
+   "text": "hideforownteam——即hide for own team（向本队隐藏）。仅其他队伍可以看见本队成员的名称牌，本队成员互相无法看见。",
+   "sha256": "94c7caf5de9e5f1cd35cb08296ac92f38d6ec7a965fb83c7cfc743075c940ef4",
+   "i": 3383
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（李四和张三无法看见对方的名字，但王五可以看见李四和张三的名字）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（李四和张三无法看见对方的名字，但王五可以看见李四和张三的名字）",
+   "sha256": "727328c58a1d41c188e6f3f9dfcedd01be37dc1f5e4eb3d86531597ce30abd50",
+   "i": 3384
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "④",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "deathMessageVisibility",
+     "p": {}
+    }
+   ],
+   "text": "④deathMessageVisibility",
+   "sha256": "4895f8523ca0f6761c95a1f4946b729403e4c1ad3ad6f2d570d6a4691f564366",
+   "i": 3385
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "该规则控制队伍成员死亡信息的可见性，内容和",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "nametagVisibility规则差不多。默认为always，即公开。其他三个还是never（私密）、hideforotherteams（向非本队成员隐藏）和hideforownteam（向本队成员隐藏）。",
+     "p": {}
+    }
+   ],
+   "text": "该规则控制队伍成员死亡信息的可见性，内容和nametagVisibility规则差不多。默认为always，即公开。其他三个还是never（私密）、hideforotherteams（向非本队成员隐藏）和hideforownteam（向本队成员隐藏）。",
+   "sha256": "668793c3dc2a17f18ad4420aac43f880725573ec4a314ac3e4cde7912ab8fa22",
+   "i": 3386
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "⑤",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "collisionRule",
+     "p": {}
+    }
+   ],
+   "text": "⑤collisionRule",
+   "sha256": "6c861391b2219478812283b2a802047583d5c5e5d43cadf344f384044f8ca75c",
+   "i": 3387
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "该规则控制队伍成员与本队成员还有他队成员的碰撞情况。默认为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "always，即队伍内每个成员与任何实体都会发生碰撞。其他三个值分别是：",
+     "p": {}
+    }
+   ],
+   "text": "该规则控制队伍成员与本队成员还有他队成员的碰撞情况。默认为always，即队伍内每个成员与任何实体都会发生碰撞。其他三个值分别是：",
+   "sha256": "dc8b475d1a3270d8cf8526f11c5ef19d831641204cf73edf0aafe48918a28baf",
+   "i": 3388
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "never——队伍成员不会和任何玩家或生物发生碰撞",
+     "p": {}
+    }
+   ],
+   "text": "never——队伍成员不会和任何玩家或生物发生碰撞",
+   "sha256": "0449c5c3af89aa2ec76b2feef0ad7db512633c0fda5b7335cd2e41365b9d5e56",
+   "i": 3389
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "pushownteam——即push own team，只会与本队成员发生碰撞。",
+     "p": {}
+    }
+   ],
+   "text": "pushownteam——即push own team，只会与本队成员发生碰撞。",
+   "sha256": "b6915347d4b7d6b18808f4f9c88f05e571e4943269c0ad215e4bf2884ae7be73",
+   "i": 3390
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "pushotherteams——即push other teams，只会与非本队成员发生碰撞。",
+     "p": {}
+    }
+   ],
+   "text": "pushotherteams——即push other teams，只会与非本队成员发生碰撞。",
+   "sha256": "f64cb8993f5993a6ba843bd0206a4db56c9569e7f75a8977fed371087ce7ade2",
+   "i": 3391
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "妥善运用队伍规则，可以更好地做出一个小游戏而尽量甚至完全不借助插件。比如",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "nametagVisibility用在迷宫当中就非常好。",
+     "p": {}
+    }
+   ],
+   "text": "妥善运用队伍规则，可以更好地做出一个小游戏而尽量甚至完全不借助插件。比如nametagVisibility用在迷宫当中就非常好。",
+   "sha256": "a8a792c3376c9b24b4840b727727180b20405be3b9c6fb5fd6f85cba1ec7ca81",
+   "i": 3392
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本章就到这儿。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "本章就到这儿。",
+   "sha256": "15eda5e37fe7ad3ceae54dd5fe0deeecb11d1f87b89cbc9789778b4498e6b05a",
+   "i": 3393
+  }
+ ],
+ "text_sha256": "4b18e352f12062c35ebd0122ac570fd2b92315d1e1f94153d89070eb5c56203b",
+ "chars": 1919
+}

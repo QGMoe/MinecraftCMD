@@ -1,0 +1,960 @@
+{
+ "id": "ch033",
+ "kind": "chapter",
+ "number": 33,
+ "title": "第三十三章 execute-这年头，猪都会说话了",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   2480,
+   2527
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "第三十三章 execute-这年头，猪都会说话了",
+     "p": {}
+    }
+   ],
+   "text": "第三十三章 execute-这年头，猪都会说话了",
+   "sha256": "2962468f8946bca25635971fcefe6f7273ce37dbb78dfd86c1fc150109b03a68",
+   "i": 2480
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft有一个很有意思且功能强大的指令。",
+     "p": {}
+    }
+   ],
+   "text": "在Minecraft有一个很有意思且功能强大的指令。",
+   "sha256": "a7c11ae5e54c4115606810eb3ce90dccd00983971493aeddabb57a45220e22f5",
+   "i": 2481
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错，它就是：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/execute。",
+     "p": {}
+    }
+   ],
+   "text": "没错，它就是：/execute。",
+   "sha256": "24981504d33ff6e2531effc03925a5f0bf8ff44c225e3dd5ddd0b475a64c0446",
+   "i": 2482
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是一个相当有用的指令，我们会在以后经常碰见它。为何？因为通过它，你可以使一个或多个实体作为执行源像命令方块一样执行指令，甚至可以添加一些条件来判断是否要执行指令。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这是一个相当有用的指令，我们会在以后经常碰见它。为何？因为通过它，你可以使一个或多个实体作为执行源像命令方块一样执行指令，甚至可以添加一些条件来判断是否要执行指令。",
+   "sha256": "827622e384fefd36ff24661bdbe77c3f054670601012c136c1d1b634ff283196",
+   "i": 2483
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "由于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.12.2以上版本和Java1.13以下版本、基岩版有很大的区别，所以今天我们只讨论Java1.13以下和基岩版的格式，这样子讲起来比较简单。",
+     "p": {}
+    }
+   ],
+   "text": "由于Java1.12.2以上版本和Java1.13以下版本、基岩版有很大的区别，所以今天我们只讨论Java1.13以下和基岩版的格式，这样子讲起来比较简单。",
+   "sha256": "59887829e24520e1ecd8f5aa137bf459323ae1a023a0a2f1b77996d7762ab484",
+   "i": 2484
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute",
+     "p": {}
+    }
+   ],
+   "text": "/execute",
+   "sha256": "e6c3b2c6fd8fc14eb008b34e63a7b30014c2152145302185798480ce05c4038f",
+   "i": 2485
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：使一个或多个实体分别作为执行者执行指令",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：使一个或多个实体分别作为执行者执行指令",
+   "sha256": "e31fd29d8c5a13cf336030d98130952fbe8140124f401f2c802770d0a828bbaf",
+   "i": 2486
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2，基岩-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2，基岩-1",
+   "sha256": "04ff054666196c9f14a59c65f5ddb9a79efed2f3d2b519540dd5715299ff7c53",
+   "i": 2487
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 2488
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式（基岩版、",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.13更新前）：",
+     "p": {}
+    }
+   ],
+   "text": "格式（基岩版、Java1.13更新前）：",
+   "sha256": "0abbc845b62bdf38c41a2bfa7c3d7f1d2fc628c349651a947596e595ff6c23c5",
+   "i": 2489
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute <执行者：目标选择器><基准点：坐标><执行的指令>",
+     "p": {}
+    }
+   ],
+   "text": "/execute <执行者：目标选择器><基准点：坐标><执行的指令>",
+   "sha256": "704004f5b5fd23534337fc70e56500a9f5b41284305b9a379425a198ebee0ea3",
+   "i": 2490
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute <执行者：目标选择器><基准点：坐标> detect <探测的坐标><方块id><方块数据值><执行的指令>",
+     "p": {}
+    }
+   ],
+   "text": "/execute <执行者：目标选择器><基准点：坐标> detect <探测的坐标><方块id><方块数据值><执行的指令>",
+   "sha256": "28ed76ea940948384a6da23e6df120e22eec03d25ccd8edc08ddf662f47b21b6",
+   "i": 2491
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "execute有什么用呢？它可以更改执行指令者和执行指令的基准点，如果有多个执行者则会每一个执行者都执行一遍指令。更进一步可以检测某个坐标的方块是否符合条件，符合条件就会执行指令。比如我们要让猪说话，就可以：",
+     "p": {}
+    }
+   ],
+   "text": "execute有什么用呢？它可以更改执行指令者和执行指令的基准点，如果有多个执行者则会每一个执行者都执行一遍指令。更进一步可以检测某个坐标的方块是否符合条件，符合条件就会执行指令。比如我们要让猪说话，就可以：",
+   "sha256": "8bb42bea2eaacdb23a27226479d8435b26bafdcdae5c1c76f427c9f834690090",
+   "i": 2492
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute @e [type =pig ]~~~ say 你好！",
+     "p": {}
+    }
+   ],
+   "text": "/execute @e [type =pig ]~~~ say 你好！",
+   "sha256": "1de7b22e23b510ec71f240a972e23021b917d887f588a1193314bf1691cdfb62",
+   "i": 2493
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令可以将所有猪作为执行者，它们的位置作为执行地点，分别执行『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "say 你好!』这条指令。这样子，主世界内的所有猪都会说：“你好！”了。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令可以将所有猪作为执行者，它们的位置作为执行地点，分别执行『say 你好!』这条指令。这样子，主世界内的所有猪都会说：“你好！”了。",
+   "sha256": "97b10bcc34d7bdd51800c6f70093ae728313c367f1fb53f945d6eea51e26afaf",
+   "i": 2494
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你无聊的时候，还可以像这样子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "你无聊的时候，还可以像这样子：",
+   "sha256": "c73105e569b420effcb2907c67e6fc15c269015393a45a3566869251ef8a3d1d",
+   "i": 2495
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute @e ~~~ execute @e ~~~ execute @e ~~~ execute @e ~~~ execute @e ~~~...............",
+     "p": {}
+    }
+   ],
+   "text": "/execute @e ~~~ execute @e ~~~ execute @e ~~~ execute @e ~~~ execute @e ~~~...............",
+   "sha256": "61c79ef0f8e7a0f1e1f35b52f10c0694dde4fa007b174dd3276b21921d6d01c8",
+   "i": 2496
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（没错作者在套娃）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（没错作者在套娃）",
+   "sha256": "18e46d0c542ecd2b428585ed8491a4913dbe0ac877f94acfa02870b13ea8dff9",
+   "i": 2497
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute，就可以干一些特别的事了。比如：",
+     "p": {}
+    }
+   ],
+   "text": "使用execute，就可以干一些特别的事了。比如：",
+   "sha256": "7890fb88b01ea19b0db6ace44720c8961ae76daccdd4d742b383e08961dab934",
+   "i": 2498
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute @a ~~~ setblock ~~-1 ~ diamond_block",
+     "p": {}
+    }
+   ],
+   "text": "/execute @a ~~~ setblock ~~-1 ~ diamond_block",
+   "sha256": "ac6267bfbc98d4d4970b8900e673cc5aa0eb4c62d3e1921d77e5e43cb97efb6e",
+   "i": 2499
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令将所有在线玩家作为执行者，他们的位置作为执行地点，分别执行『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "setblck ~ ~-1 ~ diamond_block』指令，在他们的脚下放置一个钻石块。这样子，所有玩家的脚下就会生成一个钻石块。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令将所有在线玩家作为执行者，他们的位置作为执行地点，分别执行『setblck ~ ~-1 ~ diamond_block』指令，在他们的脚下放置一个钻石块。这样子，所有玩家的脚下就会生成一个钻石块。",
+   "sha256": "c543deb16ab418420d6e1abdbdfb3d6180518bfb499ecec8e63ae4243c2825c0",
+   "i": 2500
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute甚至可以毁灭世界。这样子写：",
+     "p": {}
+    }
+   ],
+   "text": "使用execute甚至可以毁灭世界。这样子写：",
+   "sha256": "be48d2b50638d80236604eb9893ac9f1dfb07f08c2e22370cb45b591d72dce91",
+   "i": 2501
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute @e [type =item]~~~ fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air destroy",
+     "p": {}
+    }
+   ],
+   "text": "/execute @e [type =item]~~~ fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air destroy",
+   "sha256": "643eb5fadcf09c266432f360e31f7c225b8c6e97aef6cf28692605f32d9bd68a",
+   "i": 2502
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个是什么意思呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这个是什么意思呢？",
+   "sha256": "f63d57d51778d8664442bed44cc21e1e0072ec5ffe0a832dfbea047feb87ed05",
+   "i": 2503
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子写，如果有一个掉落物，那么这个掉落物就会破坏掉其周围的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "3x3的空间，并且其破坏掉的方块都会掉落成掉落物。然后这些掉落物又会破坏掉周围3x3的空间，然后掉落，扩大，再破坏、掉落、扩大.......。如果在重复、无条件的命令方块里运行，你的电脑（或手机）会在1游戏刻内到1秒内卡死。因为这个比2的次方还要恐怖。",
+     "p": {}
+    }
+   ],
+   "text": "这样子写，如果有一个掉落物，那么这个掉落物就会破坏掉其周围的3x3的空间，并且其破坏掉的方块都会掉落成掉落物。然后这些掉落物又会破坏掉周围3x3的空间，然后掉落，扩大，再破坏、掉落、扩大.......。如果在重复、无条件的命令方块里运行，你的电脑（或手机）会在1游戏刻内到1秒内卡死。因为这个比2的次方还要恐怖。",
+   "sha256": "505a41906b80e3d576f22fa9fc5271fd0a0213cdd256f4506d3def8c3c6add53",
+   "i": 2504
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "detect。",
+     "p": {}
+    }
+   ],
+   "text": "然后是detect。",
+   "sha256": "2a140363a90f534e8a21352821c28211320fe072567c88a98736db3fed5d6c95",
+   "i": 2505
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "前文说到，一个网易我的世界租贷服搞了一个回城雪球。后来，另一个服务器的腐竹由此受到启发，开发了一个“回城红石块”。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "前文说到，一个网易我的世界租贷服搞了一个回城雪球。后来，另一个服务器的腐竹由此受到启发，开发了一个“回城红石块”。",
+   "sha256": "85baecbf8c0fe8f4bb597371427c7c4b4cac24e512378d13786290818298b826",
+   "i": 2506
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个回城红石块很简单，只需要一个命令方块：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这个回城红石块很简单，只需要一个命令方块：",
+   "sha256": "adcf76e84aa8c3f73d6fa51c7084c38c869ad31833fe03ed440c2985136518fb",
+   "i": 2507
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A→",
+     "p": {}
+    }
+   ],
+   "text": "A→",
+   "sha256": "34e7e81bb8f9288c0e6a4cd1d574a1c86ad5b34af804e6a937f736bd7ecdb4dd",
+   "i": 2508
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A：重复执行，无条件，始终活动",
+     "p": {}
+    }
+   ],
+   "text": "A：重复执行，无条件，始终活动",
+   "sha256": "432d6fbf9a0315177cc7878ae9bb05afda4aba991995275b25fb9efb52aab073",
+   "i": 2509
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute @a ~~~ detect ~~-1 ~ redstone_block 0 tp @s 30 64 24",
+     "p": {}
+    }
+   ],
+   "text": "/execute @a ~~~ detect ~~-1 ~ redstone_block 0 tp @s 30 64 24",
+   "sha256": "f72d8ac5ff55c34b72d30e41d1c956df949787756f68ba7c8ab28d5831513ea9",
+   "i": 2510
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令的意思是：将所有玩家作为指令执行者，当其脚底下是数据值为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0的红石块时，传送他们自己到(30，64，24)。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令的意思是：将所有玩家作为指令执行者，当其脚底下是数据值为0的红石块时，传送他们自己到(30，64，24)。",
+   "sha256": "edabe33a0bc7d52e16532d0f1e86764d89ae9d23124ca66bce628d18ba938010",
+   "i": 2511
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，参数『方块数据值』可以填写",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "-1来代指不判断数据值。在Java1.11及以上版本，这个参数还可以填写方块状态，并用星号『*』来代指所有方块状态（也就是不判断方块状态）。",
+     "p": {}
+    }
+   ],
+   "text": "其中，参数『方块数据值』可以填写-1来代指不判断数据值。在Java1.11及以上版本，这个参数还可以填写方块状态，并用星号『*』来代指所有方块状态（也就是不判断方块状态）。",
+   "sha256": "eaaa91f9ec7458bf2615ff62e3968254c2d7edc33f404b30fcf3abe7851b9fb2",
+   "i": 2512
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "比如：",
+   "sha256": "a9527ddcd686491dc2f56c436383c4f102e02b2389a057e3d7bfc0caf93382a4",
+   "i": 2513
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute @a ~ ~ ~ detect ~ ~-1 ~ minecraft:magenta_glazed_terracotta facing=south tellraw @s [{\"text\":\"该箭头朝向\",\"color\":\"yellow\"},{\"text\":\"北方\",\"color\":\"light_purple\"}]",
+     "p": {}
+    }
+   ],
+   "text": "/execute @a ~ ~ ~ detect ~ ~-1 ~ minecraft:magenta_glazed_terracotta facing=south tellraw @s [{\"text\":\"该箭头朝向\",\"color\":\"yellow\"},{\"text\":\"北方\",\"color\":\"light_purple\"}]",
+   "sha256": "05bcf7a42ad4da503807a2244eeb0952260238fc3fa2182ac905f616295bd175",
+   "i": 2514
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令的意思是：将所有玩家作为指令执行者，他们的位置作为指令执行地点，如果他们脚下的方块是朝向南方的品红色带釉陶瓦（也就是上面有箭头的那一个粉色方块），就告诉他们『该箭头朝向（黄色）北方（浅紫色）』。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令的意思是：将所有玩家作为指令执行者，他们的位置作为指令执行地点，如果他们脚下的方块是朝向南方的品红色带釉陶瓦（也就是上面有箭头的那一个粉色方块），就告诉他们『该箭头朝向（黄色）北方（浅紫色）』。",
+   "sha256": "6b0200a3892aab680a523aa579c3957323b0dea1bc3956928ee2e534d72b8820",
+   "i": 2515
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，你应该能看得懂那个回城雪球的第一条指令吧？尝试理解一下：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "现在，你应该能看得懂那个回城雪球的第一条指令吧？尝试理解一下：",
+   "sha256": "079f4af398f9cbdd0ec6ffe27cf50637c81beffac8502be9b4652d0e7388ece5",
+   "i": 2516
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute @e[type=snowball]~~~ execute @p[r=1.5，rx=90，rxm=60]~~~ execute @e[type=snowball，c=1]~~~ tag @s add back_home",
+     "p": {}
+    }
+   ],
+   "text": "/execute @e[type=snowball]~~~ execute @p[r=1.5，rx=90，rxm=60]~~~ execute @e[type=snowball，c=1]~~~ tag @s add back_home",
+   "sha256": "b30f7227d3a2b7b0136b454f0ad272c2a19ad77d5e953ea3476abe0102afe690",
+   "i": 2517
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（实际上这条指令还有一个更好的替代方案：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（实际上这条指令还有一个更好的替代方案：",
+   "sha256": "6e3ddff773a4bc968b2c874977b88e4c333242e679d042b12aef3e84d14aa4c4",
+   "i": 2518
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute @a[rx=90，rxm=60]~~~ execute @e[r=1.5，type=snowball，c=1]~~~ tag @s add back_home",
+     "p": {}
+    }
+   ],
+   "text": "/execute @a[rx=90，rxm=60]~~~ execute @e[r=1.5，type=snowball，c=1]~~~ tag @s add back_home",
+   "sha256": "468d6ddceb5e4274edf1476cdd998a8e8105c3a3fb27849e6e7e8f885818d817",
+   "i": 2519
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "）",
+   "sha256": "f2e44c6c9545f08ba725de2c18e7dcc548cb28425cf6847278b68c3f03f59819",
+   "i": 2520
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "历史",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "历史",
+   "sha256": "b0385cfe4b424d835963f2ce8a27a7fec98018affaf7c44645933266b8869727",
+   "i": 2521
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {}
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 2522
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.8——加入了/execute命令。",
+     "p": {}
+    }
+   ],
+   "text": "1.8——加入了/execute命令。",
+   "sha256": "5ff35ac0e0033e7140858253a794dc09e88dba08345788fc9f8ccc5bd866bef7",
+   "i": 2523
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.11——/execute支持方块状态",
+     "p": {}
+    }
+   ],
+   "text": "1.11——/execute支持方块状态",
+   "sha256": "d2dad106bd9c3be0efadf4cbd5d76470aad63747ae15b63e34649e0cb97457ba",
+   "i": 2524
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——/execute的语法被拆分",
+     "p": {}
+    }
+   ],
+   "text": "1.13——/execute的语法被拆分",
+   "sha256": "915539bcd94c5f5b3662eddc9488489c6854fe10657a8cdc78eaedaa6e2df75f",
+   "i": 2525
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "携带版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Alpha",
+     "p": {}
+    }
+   ],
+   "text": "携带版Alpha",
+   "sha256": "453af58572e95094fccbcfbe84c76667c914a6d56205222c826934f1647afdb3",
+   "i": 2526
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "0.16.0——加入了/execute",
+     "p": {}
+    }
+   ],
+   "text": "0.16.0——加入了/execute",
+   "sha256": "6fc49467a629e4e9c7daad373dec26c718054c55b06cf841eb28c7b3f4869308",
+   "i": 2527
+  }
+ ],
+ "text_sha256": "982d314a9a8bc4b782e899128a7cabefc8a8a2cdf94dd770a81357d61fc339aa",
+ "chars": 2072
+}

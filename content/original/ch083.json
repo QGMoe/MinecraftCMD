@@ -1,0 +1,1315 @@
+{
+ "id": "ch083",
+ "kind": "chapter",
+ "number": 83,
+ "title": "第八十三章 bossbar-自定义BOSS栏 上",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   6067,
+   6131
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第八十三章_bossbar-自定义BOSS栏_上"
+    },
+    {
+     "t": "第八十三章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " bossbar-自定义BOSS栏 上",
+     "p": {}
+    }
+   ],
+   "text": "第八十三章 bossbar-自定义BOSS栏 上",
+   "sha256": "1bbbf5a9f6a706f53ad6887b87df6657e9882769dd969d868f741abc0cf850ec",
+   "i": 6067
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（此章节已于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2022年7月22日重写，重写时作者使用的是Java1.19版本）",
+     "p": {}
+    }
+   ],
+   "text": "（此章节已于2022年7月22日重写，重写时作者使用的是Java1.19版本）",
+   "sha256": "14aec6d690e1c68a4314ea338d0e8e5d82929c36707d49fc1f1767f8850b1d45",
+   "i": 6068
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们在第七十二章讲",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute的存储子命令时，曾经遇到过这么一个子命令：",
+     "p": {}
+    }
+   ],
+   "text": "我们在第七十二章讲execute的存储子命令时，曾经遇到过这么一个子命令：",
+   "sha256": "caf82ea6323cd97fb81eeca6f1fba748172bd61d7f1e77f3de0537f01fb12236",
+   "i": 6069
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "bossbar ——将值存储到BOSS栏中",
+     "p": {}
+    }
+   ],
+   "text": "bossbar ——将值存储到BOSS栏中",
+   "sha256": "9a472e6441455c5fa916700c38025821d8205312d2c844e5c6d160005afc532f",
+   "i": 6070
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当时我们并没有学过",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "bossbar的使用，所以就略过了这个子命令。",
+     "p": {}
+    }
+   ],
+   "text": "当时我们并没有学过bossbar的使用，所以就略过了这个子命令。",
+   "sha256": "b2d757529dd326e72accfdfc273c7509aeac6201003eeb2472d8ebd9697a5bf4",
+   "i": 6071
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "bossbar是什么呢？如何使用？能干什么？这就是我们这两章所要了解的内容。",
+     "p": {}
+    }
+   ],
+   "text": "那么bossbar是什么呢？如何使用？能干什么？这就是我们这两章所要了解的内容。",
+   "sha256": "d5541e908ad3c1c8ad6653851396623af0c35dde089b3f851d3b851c1e6b07fb",
+   "i": 6072
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，什么是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏（bossbar）呢？",
+     "p": {}
+    }
+   ],
+   "text": "首先，什么是BOSS栏（bossbar）呢？",
+   "sha256": "a93b6881a1898aac54be1222dcc1e2b8648ec8a99e7ad1c8b7edaed194c23bdd",
+   "i": 6073
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当你前往末地，或是生成一个凋零，你就会发现在屏幕的上方出现了一个粉色的血条，这就是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏。",
+     "p": {}
+    }
+   ],
+   "text": "当你前往末地，或是生成一个凋零，你就会发现在屏幕的上方出现了一个粉色的血条，这就是BOSS栏。",
+   "sha256": "29175b26736e4e80bbe18833cfc70b547ab2317abff78dc1a4d783796b54fe8c",
+   "i": 6074
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "只不过",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏虽然叫做『BOSS栏』，但它的用处不仅仅是表现BOSS的血量，它还有很多其他的用处，比如在村庄劫掠中用来当做劫掠的进度。",
+     "p": {}
+    }
+   ],
+   "text": "只不过BOSS栏虽然叫做『BOSS栏』，但它的用处不仅仅是表现BOSS的血量，它还有很多其他的用处，比如在村庄劫掠中用来当做劫掠的进度。",
+   "sha256": "f904e8c08a422845f628a17699b6a7a7a482012437d73622463ac34e808ef397",
+   "i": 6075
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.13及以上版本，你可以通过一条指令来使用BOSS栏：",
+     "p": {}
+    }
+   ],
+   "text": "在Java1.13及以上版本，你可以通过一条指令来使用BOSS栏：",
+   "sha256": "7a28a2fc591adf37524b57ed015a08f63ee6cc6e83f91d210fa6683315e377c0",
+   "i": 6076
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar",
+   "sha256": "1fc1e4a0dd9b615406bc32802315d3aea6cef5a64ce7e9bd255890ca259b1597",
+   "i": 6077
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：添加、修改或删除",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏",
+     "p": {}
+    }
+   ],
+   "text": "作用：添加、修改或删除BOSS栏",
+   "sha256": "08611826f193b8bf78902b812b446023caf3b52100fb039e139261a634dd01d2",
+   "i": 6078
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.13-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：Java1.13-今",
+   "sha256": "f365431aeb33d0e65639b6932b324e362ab42b3d7926a57e51039679bb6c44fd",
+   "i": 6079
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2",
+   "sha256": "948049f793c1bc733cdc3425f5f9a24dded5751cb88df6d6a984f5b81bd9c6cd",
+   "i": 6080
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：否",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：否",
+   "sha256": "b3a9c3c7cb901faebf261066d5ee0cbf4b4552bf726ddbf04e48ff9ad9e0f423",
+   "i": 6081
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 6082
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar add <ID> <名称：JSON文本>",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar add <ID> <名称：JSON文本>",
+   "sha256": "58e95a215157124dd74741bc3600362d34d3364035545b64f7897f29416a8ef3",
+   "i": 6083
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\添加一个BOSS栏\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\添加一个BOSS栏\\\\",
+   "sha256": "61ba74a4dc784b0572de545c051cc774e3a44acf664466a40377bbe454d429cb",
+   "i": 6084
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar get <ID> [max|players|value|visible]",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar get <ID> [max|players|value|visible]",
+   "sha256": "e016360fcf15369c0076cecac3bfd077ff80fac15c16d9bdef0807f14713dd4f",
+   "i": 6085
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\返回BOSS栏的某些值\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\返回BOSS栏的某些值\\\\",
+   "sha256": "8b191e9539ea1f134bc1a6059cdbd78f1bf5689e9f4ccf34f9e956bf761c0aec",
+   "i": 6086
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar list",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar list",
+   "sha256": "d0524ef1f076513c43c3893b128b6237888fc0af8228f71912b79ee065878d3d",
+   "i": 6087
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\列出当前所有BOSS栏\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\列出当前所有BOSS栏\\\\",
+   "sha256": "51682f2c2dfb7a3efc13d5b4babe2ef6941986f18c4d933550df9fffbbe2d673",
+   "i": 6088
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar remove <ID>",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar remove <ID>",
+   "sha256": "90f37939836290325a901c2382d821aec10fc2b107c966e73fa298289edc0838",
+   "i": 6089
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\移除一个BOSS栏\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\移除一个BOSS栏\\\\",
+   "sha256": "abeaeb8a67d3154db63580b8fd2af1629b3bc7e700809ca64a3ac54740b02a54",
+   "i": 6090
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar set <ID> (name|color|style|value|max|visible|players)",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar set <ID> (name|color|style|value|max|visible|players)",
+   "sha256": "d6526d2bdd3e16850695f9392f1ec65178545b9c9cfa59b4eac9739511bfe07a",
+   "i": 6091
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... set <ID> name <名称：JSON文本> ——设置BOSS栏名称",
+     "p": {}
+    }
+   ],
+   "text": "... set <ID> name <名称：JSON文本> ——设置BOSS栏名称",
+   "sha256": "8f60af60a4a1cc2eba1c55b3489701d25e4862b37bc40909012e1c0f2f3c3c8a",
+   "i": 6092
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... set <ID> color <颜色> ——设置BOSS栏颜色",
+     "p": {}
+    }
+   ],
+   "text": "... set <ID> color <颜色> ——设置BOSS栏颜色",
+   "sha256": "e03ce4e32a7f2090804856eb125b56491b0fed0829cc5543e9ca9227c48ded11",
+   "i": 6093
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... set <ID> style <样式> ——设置BOSS栏分段数",
+     "p": {}
+    }
+   ],
+   "text": "... set <ID> style <样式> ——设置BOSS栏分段数",
+   "sha256": "f11700473db760609a16ea3dab8ba8356af458530f97350cbf20ab96767a87f7",
+   "i": 6094
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... set <ID> value <值> ——设置BOSS栏的值",
+     "p": {}
+    }
+   ],
+   "text": "... set <ID> value <值> ——设置BOSS栏的值",
+   "sha256": "14d1c0a5b106548eb014cc37094fcc7c7b900b4b2dd15c42c3aeaa5830136e12",
+   "i": 6095
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... set <ID> max <最大值> ——设置BOSS栏的最大值",
+     "p": {}
+    }
+   ],
+   "text": "... set <ID> max <最大值> ——设置BOSS栏的最大值",
+   "sha256": "64696624b2e18ae48e2e31dd21224974c1d0af88b367b71d5e8e54ac8def8a78",
+   "i": 6096
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... set <ID> visible <是否显示：true|false> ——设置BOSS栏的显示状态",
+     "p": {}
+    }
+   ],
+   "text": "... set <ID> visible <是否显示：true|false> ——设置BOSS栏的显示状态",
+   "sha256": "1d288b3ab57fe8bc92925f1b358af318fae357fdf48e88004c7c29c40955e451",
+   "i": 6097
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... set <ID> players <目标玩家：目标选择器> ——设置对谁显示BOSS栏",
+     "p": {}
+    }
+   ],
+   "text": "... set <ID> players <目标玩家：目标选择器> ——设置对谁显示BOSS栏",
+   "sha256": "3ca8fddaefdeca29560bb18fa40e103051a21b2ce1fd1a8565e682552fb0a2d0",
+   "i": 6098
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不难发现，一个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏有很多属性，如名称、ID、值、最大值、颜色等等，这些属性除了ID外都可以通过bossbar的set子命令更改，大部分也能通过get子命令返回。只不过，我们得先创建一个BOSS栏：",
+     "p": {}
+    }
+   ],
+   "text": "不难发现，一个BOSS栏有很多属性，如名称、ID、值、最大值、颜色等等，这些属性除了ID外都可以通过bossbar的set子命令更改，大部分也能通过get子命令返回。只不过，我们得先创建一个BOSS栏：",
+   "sha256": "2644b051131b8c4dab8a081de5f8e68bae37cbd51cef3abd7e0766b13187b685",
+   "i": 6099
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar add server_owner \"腐竹\"",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar add server_owner \"腐竹\"",
+   "sha256": "1e00433f39acca005833c9f75f5813a3e5956caacf8ee9c28f4530d903fbd9ee",
+   "i": 6100
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会创建一个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "ID为『minecraft:server_owner』，叫做『腐竹』的BOSS栏。",
+     "p": {}
+    }
+   ],
+   "text": "这将会创建一个ID为『minecraft:server_owner』，叫做『腐竹』的BOSS栏。",
+   "sha256": "48918814d7ff98ab8de34e99140a86f30b5462281006c1706b9207172b2f4d27",
+   "i": 6101
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你并不会马上看到刚刚创建的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏，因为此时BOSS栏虽然处于显示状态，但并没有目标玩家，也就是没有对谁显示出这个BOSS栏。让我们稍微设置一下：",
+     "p": {}
+    }
+   ],
+   "text": "你并不会马上看到刚刚创建的BOSS栏，因为此时BOSS栏虽然处于显示状态，但并没有目标玩家，也就是没有对谁显示出这个BOSS栏。让我们稍微设置一下：",
+   "sha256": "275633dd7d6dea885d09c581d60efc4ca915bb8886f403112c14dc69043eed78",
+   "i": 6102
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar set server_owner players @s",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar set server_owner players @s",
+   "sha256": "20bf073f7c039a1dea2cc3aa2cda74ea0cc9b451b9e4c3536ac4c178e7d08480",
+   "i": 6103
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会设置成向我们自己展示『腐竹』",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Boss栏，然后你就会发现这个刚刚建立的BOSS栏是灰色的，值为0。这可不行，让我们来改一下它的颜色和值：",
+     "p": {}
+    }
+   ],
+   "text": "这将会设置成向我们自己展示『腐竹』Boss栏，然后你就会发现这个刚刚建立的BOSS栏是灰色的，值为0。这可不行，让我们来改一下它的颜色和值：",
+   "sha256": "0fa20847daa63e49befc343aedb383b81c09246272d12281a4da92798e54e6bc",
+   "i": 6104
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar set server_owner color pink",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar set server_owner color pink",
+   "sha256": "fcf6cb99fb05c94db5e49185a2fc14fc899ee0c789e5bef06c728d4b82950a27",
+   "i": 6105
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar set server_owner value 100",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar set server_owner value 100",
+   "sha256": "752bbc2f2651a32a33566b210d9d85aac19c356c2741f6ecca08049d4c912b4d",
+   "i": 6106
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一条指令将会设置",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏的颜色为粉色，也就是和末影龙、凋零同样的BOSS栏颜色。第二条指令将会设置BOSS栏的值为100，因为默认BOSS栏的最大值就是100，所以设置为100的话BOSS栏就满了。",
+     "p": {}
+    }
+   ],
+   "text": "第一条指令将会设置BOSS栏的颜色为粉色，也就是和末影龙、凋零同样的BOSS栏颜色。第二条指令将会设置BOSS栏的值为100，因为默认BOSS栏的最大值就是100，所以设置为100的话BOSS栏就满了。",
+   "sha256": "01b74da44e8f0d2f8466a16ba813b9a2d53a27adeba2f7eb5b8961ec2654f0a1",
+   "i": 6107
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "BOSS栏支持七种颜色：blue、green、pink、purple、red、white和yellow，默认颜色为white（白色）。只不过因为刚刚BOSS栏值为0，导致颜色暗度变大，我们就看到了灰色。",
+     "p": {}
+    }
+   ],
+   "text": "BOSS栏支持七种颜色：blue、green、pink、purple、red、white和yellow，默认颜色为white（白色）。只不过因为刚刚BOSS栏值为0，导致颜色暗度变大，我们就看到了灰色。",
+   "sha256": "dfc06951ddb233d95961818f2d5c07a05ddc0e28f8a3431c7db80887de2922b9",
+   "i": 6108
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不出意外的话，经过上面的设置，你应该会看到一个『满血』的腐竹",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏。我们可以尝试一下set子命令的其他功能，来个性化BOSS栏：",
+     "p": {}
+    }
+   ],
+   "text": "不出意外的话，经过上面的设置，你应该会看到一个『满血』的腐竹BOSS栏。我们可以尝试一下set子命令的其他功能，来个性化BOSS栏：",
+   "sha256": "bc6038cffb1cf7d4fb9adbebd62f7537a0adc8c6098a8bebdf0afb0553c4f41b",
+   "i": 6109
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar set server_owner name {\"selector\":\"@p\"}",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar set server_owner name {\"selector\":\"@p\"}",
+   "sha256": "49318f234e0c04a757a95076650e30c46f256d19760f254e309f179c18461a03",
+   "i": 6110
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会把",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏的名称改为距离指令执行地点最近玩家的名称，其中的『selector』JSON聊天组件我们会在以后专门讲JSON时遇到（其实已经在基岩版的JSON中遇到了）。",
+     "p": {}
+    }
+   ],
+   "text": "这将会把BOSS栏的名称改为距离指令执行地点最近玩家的名称，其中的『selector』JSON聊天组件我们会在以后专门讲JSON时遇到（其实已经在基岩版的JSON中遇到了）。",
+   "sha256": "70361efb093219e467200a48db71a7914a8c6449bcc52d853b852128213ab34f",
+   "i": 6111
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar set server_owner style notched_20",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar set server_owner style notched_20",
+   "sha256": "64942e3f139e30d23d9b696c01e8105922786fff6ca83caccee228c4847be042",
+   "i": 6112
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会把",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏的样式改为：20段，也就是这个BOSS栏在视觉上会被分为20段。",
+     "p": {}
+    }
+   ],
+   "text": "这将会把BOSS栏的样式改为：20段，也就是这个BOSS栏在视觉上会被分为20段。",
+   "sha256": "f6745223e1c11e892559c44e2388e467ecaca07ee3e7341aa3658ffc65ce501e",
+   "i": 6113
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "BOSS栏的样式参数支持5个值：progress（连续[默认]）、notched_6（分六段）、notched_10（分十段）、notched_12（分十二段）、notched_20（分二十段）。",
+     "p": {}
+    }
+   ],
+   "text": "BOSS栏的样式参数支持5个值：progress（连续[默认]）、notched_6（分六段）、notched_10（分十段）、notched_12（分十二段）、notched_20（分二十段）。",
+   "sha256": "a2fbe319c509c402ff5a825c4a3bf98b1ae232f4d9205053044e1b9ac76cc6e9",
+   "i": 6114
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar set server_owner max 20",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar set server_owner max 20",
+   "sha256": "c1f12fd4878722d6789a2f0e6cbe1129775a941e0c36ec0150c71c7e7a68ece8",
+   "i": 6115
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会把",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏的最大值改为20。相应的，BOSS栏的值也会减到20。",
+     "p": {}
+    }
+   ],
+   "text": "这将会把BOSS栏的最大值改为20。相应的，BOSS栏的值也会减到20。",
+   "sha256": "a3f901e64c3bd7ea7c4904bd2651895f3b757aff447ef7add519034f505bd670",
+   "i": 6116
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar set server_owner visible false",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar set server_owner visible false",
+   "sha256": "7ffba710c8592c6f62d41705f25d27e7219bec91db19c7d725ff606049a56771",
+   "i": 6117
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会隐藏",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏。",
+     "p": {}
+    }
+   ],
+   "text": "这将会隐藏BOSS栏。",
+   "sha256": "d18d7b6fa40199324d40efa6ed97957df89459eae460b928a1448f1c36e4000c",
+   "i": 6118
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面这些就是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "set子命令的全部用法，看起来功能很多，但其实相当的简单。至于其他的子命令就更加简单了，我们来举些例子：",
+     "p": {}
+    }
+   ],
+   "text": "上面这些就是set子命令的全部用法，看起来功能很多，但其实相当的简单。至于其他的子命令就更加简单了，我们来举些例子：",
+   "sha256": "257e341e3d12d6490951d5d6f581b0daa4c6e11b8595c5e5a8815f918e24a50d",
+   "i": 6119
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar get server_owner value",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar get server_owner value",
+   "sha256": "3147c25f1e2f97b6ccd1e7f6e2afd7b12895145d066af2ca2a04c41066c95d0e",
+   "i": 6120
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会返回『腐竹』",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏当前的值。",
+     "p": {}
+    }
+   ],
+   "text": "这将会返回『腐竹』BOSS栏当前的值。",
+   "sha256": "761853ba41897493ebde455eb81081c6a4784dec8b99cb05f58837dcce54739e",
+   "i": 6121
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar get server_owner players",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar get server_owner players",
+   "sha256": "3617279fb7b079137679b138d69580b4458b33ea08af2a88598b4e07e343c6af",
+   "i": 6122
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会返回『腐竹』",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏的目标玩家以及其数量",
+     "p": {}
+    }
+   ],
+   "text": "这将会返回『腐竹』BOSS栏的目标玩家以及其数量",
+   "sha256": "b11a441b4272fcd1bc38d57df5b2867989f525c2b45fa1224bec758d7d7af3b5",
+   "i": 6123
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/bossbar remove server_owner",
+     "p": {}
+    }
+   ],
+   "text": "/bossbar remove server_owner",
+   "sha256": "af934fc49e7acc075e9f4a4afe1dd539e4bff636093ea5ac1241c8992945bdef",
+   "i": 6124
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会移除『腐竹』",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "BOSS栏。",
+     "p": {}
+    }
+   ],
+   "text": "这将会移除『腐竹』BOSS栏。",
+   "sha256": "a270de6f1ee9604c8f00a321ff8ee5ed62772df80e48c0b20cff49e54d6b8042",
+   "i": 6125
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "可见，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "bossbar这东西虽然有很多功能，但其实易于理解，很好上手。所以本章就到这里，相信你已经懂得如何使用bossbar这条指令了。",
+     "p": {}
+    }
+   ],
+   "text": "可见，bossbar这东西虽然有很多功能，但其实易于理解，很好上手。所以本章就到这里，相信你已经懂得如何使用bossbar这条指令了。",
+   "sha256": "2e1c43d0f31f2c1ff2c7744e2642852688aef9a0a5796e29ab370ffc9070bdfc",
+   "i": 6126
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "附表：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "bossbar历史",
+     "p": {}
+    }
+   ],
+   "text": "附表：bossbar历史",
+   "sha256": "59a4c7ec3ce94c0269b7dd4bbb6d25c720d3233626d93390d9c55c32de2b9ffd",
+   "i": 6127
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {}
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 6128
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13 ——加入了/bossbar",
+     "p": {}
+    }
+   ],
+   "text": "1.13 ——加入了/bossbar",
+   "sha256": "2d462cc327cfcda3206c7a43fd6150ca8d235caa858cf5f4f6d444c0903af599",
+   "i": 6129
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/bossbar list会列出游戏本身的BOSS栏吗？）",
+     "p": {}
+    }
+   ],
+   "text": "（/bossbar list会列出游戏本身的BOSS栏吗？）",
+   "sha256": "418560146b73c6f127ebf14ec0f6cd1c9aab72e4a3dee82258ee73ffbacef7f6",
+   "i": 6130
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（当然不会啦，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Mojang哪里会给你这样的空子去钻）",
+     "p": {}
+    }
+   ],
+   "text": "（当然不会啦，Mojang哪里会给你这样的空子去钻）",
+   "sha256": "fe30fe5eb4a42eb90d24a2f2790e1bbf4e5783405105b8730155b8368c4ad542",
+   "i": 6131
+  }
+ ],
+ "text_sha256": "0f2f022f4b6e5a150042d66ed07d3f8eb32471c1af3628f754589735b8ee9f30",
+ "chars": 2428
+}

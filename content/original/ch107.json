@@ -1,0 +1,2267 @@
+{
+ "id": "ch107",
+ "kind": "chapter",
+ "number": 107,
+ "title": "第一百零七章 如何获取你在Minecraft中的头",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   8418,
+   8533
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第一百零七章_如何获取你在Minecraft中的头"
+    },
+    {
+     "t": "第一百零七章 如何获取你在Minecraft中的头",
+     "p": {}
+    }
+   ],
+   "text": "第一百零七章 如何获取你在Minecraft中的头",
+   "sha256": "327c1987f59b510952f3a19e29b7001902a0aadd5153dd524669bf7808695450",
+   "i": 8418
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这章我们来讨论些可怕的东西。",
+     "p": {}
+    }
+   ],
+   "text": "这章我们来讨论些可怕的东西。",
+   "sha256": "eea55cecf002a16b24cb3ec75d254af282a86ed05c8ac6524463e26f3bb68aab",
+   "i": 8419
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你是否想过一个问题：如何在Minecraft中获取你的头？",
+     "p": {}
+    }
+   ],
+   "text": "你是否想过一个问题：如何在Minecraft中获取你的头？",
+   "sha256": "083aa50f06b2d15a8b4af6e2d8c5e5ed842dde95693da34d394939aa3e261da2",
+   "i": 8420
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案是肯定的，你甚至可以把它拿在手上，然后.......",
+     "p": {}
+    }
+   ],
+   "text": "答案是肯定的，你甚至可以把它拿在手上，然后.......",
+   "sha256": "a12bbded33df1d0d2b5ccbb7eb574a0f654c208567ab7a140e1a3e6466ce6d55",
+   "i": 8421
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "挂在墙上（好滑稽啊啊啊啊啊！）",
+     "p": {}
+    }
+   ],
+   "text": "挂在墙上（好滑稽啊啊啊啊啊！）",
+   "sha256": "065eb0989f4ed524ab08de05334dcf7b5631d7c4ebc0be7614fc1a88fe5da49e",
+   "i": 8422
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（事实上真的有个JAVA服务器这么做了）",
+     "p": {}
+    }
+   ],
+   "text": "（事实上真的有个JAVA服务器这么做了）",
+   "sha256": "ab155d769faa1958a1768520533810f2cadc8d6d77005b6b0f763b49e213b15e",
+   "i": 8423
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "问题来了，怎么获取你的头呢？",
+     "p": {}
+    }
+   ],
+   "text": "问题来了，怎么获取你的头呢？",
+   "sha256": "4292f4f8739793fb25a58a7e0b02404769682699e0281ea8bb8210db738314bc",
+   "i": 8424
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个时候就要用到头颅这个物品。",
+     "p": {}
+    }
+   ],
+   "text": "这个时候就要用到头颅这个物品。",
+   "sha256": "9c08556be5e83a203cb59661f84f92f004d88fdc8975e5e9ccf7accf302b9bcd",
+   "i": 8425
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你应该知道，正常头颅的皮肤是Steve（史蒂夫）的头，也有骷髅、僵尸等怪物的头。",
+     "p": {}
+    }
+   ],
+   "text": "你应该知道，正常头颅的皮肤是Steve（史蒂夫）的头，也有骷髅、僵尸等怪物的头。",
+   "sha256": "c579d67432c64c94a873ce41d2a66c5960f69368f21b76688e27cb6d415103c8",
+   "i": 8426
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但你知道吗？你可以改变头颅的皮肤——变成其他玩家的。",
+     "p": {}
+    }
+   ],
+   "text": "但你知道吗？你可以改变头颅的皮肤——变成其他玩家的。",
+   "sha256": "ea45a2984f3825f236365defd28f5beb9882fca2d3b79edeb87da44a0287bcd9",
+   "i": 8427
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "头颅具有一个数据类型为文本的SkullOwner标签，你可以在这个标签内写上一个玩家的名字，然后就可以获取到这名玩家的头。比如我们籽岷大大的Minecraft正版用户名是Zi_Min，你就可以：",
+     "p": {}
+    }
+   ],
+   "text": "头颅具有一个数据类型为文本的SkullOwner标签，你可以在这个标签内写上一个玩家的名字，然后就可以获取到这名玩家的头。比如我们籽岷大大的Minecraft正版用户名是Zi_Min，你就可以：",
+   "sha256": "f85dc07f4d50e03b5148904a4cca3867599daa7886a1c36c811c124acbabb1d8",
+   "i": 8428
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.13以下版本",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13以下版本",
+   "sha256": "999d3f8b220d9f07d1f9a5428b636ffb0a9195a5fc1d2ec8197bdd256c1dbd9c",
+   "i": 8429
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s minecraft:skull 1 3 {SkullOwner:\"Zi_Min\"}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s minecraft:skull 1 3 {SkullOwner:\"Zi_Min\"}",
+   "sha256": "db517663aaea67f01aa6922622cfb73c7afd6d96a059e50daa6613f90c486f58",
+   "i": 8430
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "Java1.13及以上版本",
+     "p": {}
+    }
+   ],
+   "text": "Java1.13及以上版本",
+   "sha256": "19a8c91500eb4581ad01f87bc3f739d5a5d9d97b136149eba44cee5b4b496237",
+   "i": 8431
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/give @s minecraft:player_head{SkullOwner:\"Zi_Min\"}",
+     "p": {}
+    }
+   ],
+   "text": "/give @s minecraft:player_head{SkullOwner:\"Zi_Min\"}",
+   "sha256": "0b6a46337436e5eee50f8d2b13468438b29677a5cfb03e0cd4fc210f2d64cbba",
+   "i": 8432
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "（近日一外国小哥在Minecraft获得了籽岷的头，那么它是怎么.......）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "（近日一外国小哥在Minecraft获得了籽岷的头，那么它是怎么.......）",
+   "sha256": "626584b88e4d96f3def6b84093a5405eed7dfe336ea8740df68b86c75d391d5d",
+   "i": 8433
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要注意的是，上述方法仅仅适用于下面两种情况：",
+     "p": {}
+    }
+   ],
+   "text": "需要注意的是，上述方法仅仅适用于下面两种情况：",
+   "sha256": "fe85c30da6b777dbffe1cb581b9604ea19e48977b486a10053aecf3cd13d5288",
+   "i": 8434
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "你是通过离线账户来游玩Minecraft的",
+     "p": {}
+    }
+   ],
+   "text": "①你是通过离线账户来游玩Minecraft的",
+   "sha256": "8326f48d9942a40c398dcd4bcd58e8e457a7dd2557c564662822f131b0d49ccb",
+   "i": 8435
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "你是通过正版账户来游玩Minecraft的",
+     "p": {}
+    }
+   ],
+   "text": "②你是通过正版账户来游玩Minecraft的",
+   "sha256": "74fec497debc70f07772b00cbedb39281bbd8bd62f39ee1f730f56cc6bba421f",
+   "i": 8436
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为什么呢？因为游戏之所以能够获取到对应玩家的头颅，是因为游戏向Mojang官方服务器发送了请求，然后官方服务器再把这个皮肤数据传送回来，其过程有些类似于玩家登录服务器游玩。因此，当你在某离线或正版Java服务器中运行上述指令，腐竹就有可能在某一天无聊翻看服务器根目录的usercache.json文件时惊喜的发现：",
+     "p": {}
+    }
+   ],
+   "text": "为什么呢？因为游戏之所以能够获取到对应玩家的头颅，是因为游戏向Mojang官方服务器发送了请求，然后官方服务器再把这个皮肤数据传送回来，其过程有些类似于玩家登录服务器游玩。因此，当你在某离线或正版Java服务器中运行上述指令，腐竹就有可能在某一天无聊翻看服务器根目录的usercache.json文件时惊喜的发现：",
+   "sha256": "77f06093ce8ac984bf7670053d65c481805872bd8d6bccd123dcba356fdc8338",
+   "i": 8437
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{\"name\":\"Zi_Min\",\"uuid\":\"1aa95b71-48fc-4636-962b-e95de5071da6\",\"expiresOn\":\"202x-xx-xx xx:xx:xx +0800\"}",
+     "p": {}
+    }
+   ],
+   "text": "{\"name\":\"Zi_Min\",\"uuid\":\"1aa95b71-48fc-4636-962b-e95de5071da6\",\"expiresOn\":\"202x-xx-xx xx:xx:xx +0800\"}",
+   "sha256": "af23dac2a6e8da4b7cbd62bae076c9985a2412419cba9707b0b7fcc8f88168ef",
+   "i": 8438
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（？？？籽岷来玩我服务器了？）",
+     "p": {}
+    }
+   ],
+   "text": "（？？？籽岷来玩我服务器了？）",
+   "sha256": "c539d598ae134bfa933a8606e758667345df5cb880c25471931d52ec71f21a8b",
+   "i": 8439
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 8440
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "等等，你在运行上述指令后，只是获取到普通的玩家头颅，或者说获取到了看起来不是籽岷皮肤的头颅？",
+     "p": {}
+    }
+   ],
+   "text": "等等，你在运行上述指令后，只是获取到普通的玩家头颅，或者说获取到了看起来不是籽岷皮肤的头颅？",
+   "sha256": "df7fa85e0a2080020530ef5d2b07f6ce66509d51fbbd1b5f61682051ac3ece38",
+   "i": 8441
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你仅仅是获取到普通的玩家头颅，那大概率是你的问题：",
+     "p": {}
+    }
+   ],
+   "text": "如果你仅仅是获取到普通的玩家头颅，那大概率是你的问题：",
+   "sha256": "1838389edab522e8a7a273f0c2b2c085a0566cd0c2852b12e215f74a01f48222",
+   "i": 8442
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "①",
+     "p": {
+      "style": "Subtle Emphasis",
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "你写错了",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "①你写错了",
+   "sha256": "818fe8a3b90cab5ae5663160cb24b9907f3588d24d498ffa369c68c43ac78f3f",
+   "i": 8443
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "②",
+     "p": {
+      "style": "Subtle Emphasis",
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "你网断了",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "②你网断了",
+   "sha256": "055f07b563c1f25cfd0f1310f27aabae0473e135491df2b1cc21c5b192906b6e",
+   "i": 8444
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "③",
+     "p": {
+      "style": "Subtle Emphasis",
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "你用的基岩版",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "③你用的基岩版",
+   "sha256": "514a84a75272ffdc54be0e391ecf0c12b2bb9b28fa9c96be1edae5642ed27f62",
+   "i": 8445
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "④",
+     "p": {
+      "style": "Subtle Emphasis",
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "你在单人游戏中尝试，且没有打开『对局域网开放』",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "④你在单人游戏中尝试，且没有打开『对局域网开放』",
+   "sha256": "427d8377d5e8b8b495bfb7e21af11e3011f6251a3b5d12390b288726cb572a77",
+   "i": 8446
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "⑤",
+     "p": {
+      "style": "Subtle Emphasis",
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "你的电脑或服务器无法连接到官方服务器",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "⑤你的电脑或服务器无法连接到官方服务器",
+   "sha256": "993e80d02d34930ab22cea5cb3fd78290d19969eed75cb0f407b0dd6e654c5d8",
+   "i": 8447
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "⑥",
+     "p": {
+      "style": "Subtle Emphasis",
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "你电脑的防火墙阻止了你的Minecraft访问官方服务器",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "⑥你电脑的防火墙阻止了你的Minecraft访问官方服务器",
+   "sha256": "6c19937058f6d8fcd0406b475612ae0a20d3ad923fae757feeae93cfa7d3dc3a",
+   "i": 8448
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但如果你获取到了看起来不是籽岷皮肤的头颅，那就肯定是这个问题：",
+     "p": {}
+    }
+   ],
+   "text": "但如果你获取到了看起来不是籽岷皮肤的头颅，那就肯定是这个问题：",
+   "sha256": "555f218d1c77e86665104d75d58f76983720f1cfc103d363d810eb14c3a9edce",
+   "i": 8449
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "您正在使用外置登录游玩Minecraft",
+     "p": {}
+    }
+   ],
+   "text": "您正在使用外置登录游玩Minecraft",
+   "sha256": "113f0260252ffaab9709a3d9141ab7b9612581fed407f3024c14e6f5201a28c2",
+   "i": 8450
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "什么是『",
+     "p": {}
+    },
+    {
+     "t": "外置登录",
+     "p": {
+      "style": "Intense Emphasis"
+     }
+    },
+    {
+     "t": "』？",
+     "p": {}
+    }
+   ],
+   "text": "什么是『外置登录』？",
+   "sha256": "80c57fb98c310c45d067f3765c71a1faf0203ee0b777a844aeb9ddab27983bc5",
+   "i": 8451
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们知道，Minecraft的正版玩家能够登录并显示皮肤，是因为Minecraft游戏本体向官方服务器发送了玩家的登录信息，服务器经过验证无误后再返回皮肤等信息，最终你在游戏中的角色就有了皮肤。但对于一个没有正版账号的Minecraft玩家来说，发送一个虚假的登录信息给官方服务器肯定是不行的。那该如何让盗版玩家也能够享受上皮肤的好处呢？",
+     "p": {}
+    }
+   ],
+   "text": "我们知道，Minecraft的正版玩家能够登录并显示皮肤，是因为Minecraft游戏本体向官方服务器发送了玩家的登录信息，服务器经过验证无误后再返回皮肤等信息，最终你在游戏中的角色就有了皮肤。但对于一个没有正版账号的Minecraft玩家来说，发送一个虚假的登录信息给官方服务器肯定是不行的。那该如何让盗版玩家也能够享受上皮肤的好处呢？",
+   "sha256": "815b109c1b8df20f5fe83559f27b8f6916573a4ab03b8676518d5c37bb33ab11",
+   "i": 8452
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "要解决这个问题很简单。盗版玩家之所以无法显示皮肤，是因为将『虚假的登录信息』发送给了『正版服务器』。如果我们自己搭建一个盗版服务器，然后再让Minecraft将这个『对于盗版服务器来说是正确的但对正版服务器来说是虚假的登录信息』发送给『我们自己的盗版服务器』，这样子负负得正，我们发送的信息也就成为了『正确的登录信息』，Minecraft也就可以获取到『盗版服务器』传来的皮肤，最终在游戏内显示出来。",
+     "p": {}
+    }
+   ],
+   "text": "要解决这个问题很简单。盗版玩家之所以无法显示皮肤，是因为将『虚假的登录信息』发送给了『正版服务器』。如果我们自己搭建一个盗版服务器，然后再让Minecraft将这个『对于盗版服务器来说是正确的但对正版服务器来说是虚假的登录信息』发送给『我们自己的盗版服务器』，这样子负负得正，我们发送的信息也就成为了『正确的登录信息』，Minecraft也就可以获取到『盗版服务器』传来的皮肤，最终在游戏内显示出来。",
+   "sha256": "372502d4b2b7bccebd249aa11057938faa8b59d4909b7fd5acc465ec5a6c231a",
+   "i": 8453
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是『外置登录』的原理。在真正的『外置登录』中，各大皮肤站就是『盗版服务器』，我们在各大皮肤站注册的账号就是『对于盗版服务器来说是正确的登录信息』。当我们在诸如HMCL、PCL2之类的Minecraft Java第三方启动器中输入『对于盗版服务器来说是正确的登录信息』和该信息对应的『盗版服务器』，再让启动器以『外置登录』的方式启动时，Minecraft就会尝试发送『对于盗版服务器来说是正确的登录信息』给『正版服务器』。",
+     "p": {}
+    }
+   ],
+   "text": "这就是『外置登录』的原理。在真正的『外置登录』中，各大皮肤站就是『盗版服务器』，我们在各大皮肤站注册的账号就是『对于盗版服务器来说是正确的登录信息』。当我们在诸如HMCL、PCL2之类的Minecraft Java第三方启动器中输入『对于盗版服务器来说是正确的登录信息』和该信息对应的『盗版服务器』，再让启动器以『外置登录』的方式启动时，Minecraft就会尝试发送『对于盗版服务器来说是正确的登录信息』给『正版服务器』。",
+   "sha256": "2687ea562332c4c50b08c34acb3d46a089262e81b6992168d4aafc559c5232dc",
+   "i": 8454
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "（等等，这样子的话哪里会验证成功啊？）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "（等等，这样子的话哪里会验证成功啊？）",
+   "sha256": "68dd072e4ca340aff4af530f29267a6d3afe3824050a53b116d6fbe9acce0cdd",
+   "i": 8455
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "别急，好戏还在后头。",
+     "p": {}
+    }
+   ],
+   "text": "别急，好戏还在后头。",
+   "sha256": "10f7f27653f4211b5f41ce81c1903282791954a90e5dbbcadac12a3f7f13f320",
+   "i": 8456
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当启动器检测到Minecraft正将『对于盗版服务器来说是正确的登录信息』发送给『正版服务器』时，启动器会以迅雷不及掩耳之势，在消息还未发送到正版服务器时，就一把夺过Minecraft与『正版服务器』的通信，把这个通信从『正版服务器』上拔下来，插到指定的『盗版服务器』上面去。此时『对于盗版服务器来说是正确的登录信息』就不会发送给『正版服务器』，而是发送到对应的『盗版服务器』。『盗版服务器』在收到登录信息后，验证通过，发送皮肤等信息给Minecraft，Minecraft此时就会认为该登录信息正确，允许玩家登录游戏并显示皮肤。",
+     "p": {}
+    }
+   ],
+   "text": "当启动器检测到Minecraft正将『对于盗版服务器来说是正确的登录信息』发送给『正版服务器』时，启动器会以迅雷不及掩耳之势，在消息还未发送到正版服务器时，就一把夺过Minecraft与『正版服务器』的通信，把这个通信从『正版服务器』上拔下来，插到指定的『盗版服务器』上面去。此时『对于盗版服务器来说是正确的登录信息』就不会发送给『正版服务器』，而是发送到对应的『盗版服务器』。『盗版服务器』在收到登录信息后，验证通过，发送皮肤等信息给Minecraft，Minecraft此时就会认为该登录信息正确，允许玩家登录游戏并显示皮肤。",
+   "sha256": "ffdc4c5d77daea2199971d3f3b27426fed1494b65d1e26e3ad72fc12478637e6",
+   "i": 8457
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上述过程十分完美，但由此会产生出一个问题：",
+     "p": {}
+    }
+   ],
+   "text": "上述过程十分完美，但由此会产生出一个问题：",
+   "sha256": "0927a11f92e61dd5d352fb38f2ee522c39004cbade3ca627b3a460b0b2d0e5bc",
+   "i": 8458
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当我们通过指令获取指定玩家的头颅时，游戏本应该会发送请求给『正版服务器』，但启动器这么一操作就使得信息往『盗版服务器』那边发，最终导致我们获取到『盗版服务器』上对应玩家的头颅，而不是我们想要的正版玩家头颅。",
+     "p": {}
+    }
+   ],
+   "text": "当我们通过指令获取指定玩家的头颅时，游戏本应该会发送请求给『正版服务器』，但启动器这么一操作就使得信息往『盗版服务器』那边发，最终导致我们获取到『盗版服务器』上对应玩家的头颅，而不是我们想要的正版玩家头颅。",
+   "sha256": "bd6a9f95fa65aa723535fddcc4687ae88f7300a481fabadce75cac63696ac525",
+   "i": 8459
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子。假设你想要获取到籽岷的头颅，这时候你就会尝试通过上述指令获取。如果你用的是离线或正版登录，那没什么，游戏可以正常从官方服务器那边拿到正确的头颅。但如果你是在LittleSkin（一个皮肤站）上注册了一个账号，然后通过外置登录游玩Minecraft，此时你再尝试获取籽岷的头颅，就不会获取到正版玩家『Zi_Min』也就是籽岷的头颅，而是LittleSkin这个皮肤站上『Zi_Min』这个玩家的头颅。如果这名玩家也用的是籽岷皮肤那也没什么，但如果ta用的是其他的皮肤，你就可能会疑惑『籽岷怎么改皮肤了？』。",
+     "p": {}
+    }
+   ],
+   "text": "举个例子。假设你想要获取到籽岷的头颅，这时候你就会尝试通过上述指令获取。如果你用的是离线或正版登录，那没什么，游戏可以正常从官方服务器那边拿到正确的头颅。但如果你是在LittleSkin（一个皮肤站）上注册了一个账号，然后通过外置登录游玩Minecraft，此时你再尝试获取籽岷的头颅，就不会获取到正版玩家『Zi_Min』也就是籽岷的头颅，而是LittleSkin这个皮肤站上『Zi_Min』这个玩家的头颅。如果这名玩家也用的是籽岷皮肤那也没什么，但如果ta用的是其他的皮肤，你就可能会疑惑『籽岷怎么改皮肤了？』。",
+   "sha256": "83a2c11c06aae499a8aa97f83d6fa679ce74cf50a545490a4eb77a46e978c5f9",
+   "i": 8460
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是为什么用外置登录会获取到错误头颅的根本原因。",
+     "p": {}
+    }
+   ],
+   "text": "这就是为什么用外置登录会获取到错误头颅的根本原因。",
+   "sha256": "d559916f85ae1dc88941cb4880a86031aa62b7ac41b642dba556ceb6957664de",
+   "i": 8461
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "另外，网易我的世界虽然不是外置登录，但也和外置登录很类似——网易修改了Minecraft Java的源代码，使得皮肤请求会往网易服务器那边发。因此如果你在网易我的世界中尝试获取籽岷的头，实际上也无法获取到正确的头，仅仅只能得到网易服务器上『Zi_Min』玩家的头颅。",
+     "p": {}
+    }
+   ],
+   "text": "另外，网易我的世界虽然不是外置登录，但也和外置登录很类似——网易修改了Minecraft Java的源代码，使得皮肤请求会往网易服务器那边发。因此如果你在网易我的世界中尝试获取籽岷的头，实际上也无法获取到正确的头，仅仅只能得到网易服务器上『Zi_Min』玩家的头颅。",
+   "sha256": "9648cdfc41d287ebfaf2d0af2d0a7d5b24fa1261b7cb48fb38b723906959ee30",
+   "i": 8462
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面这些便是获取到指定玩家头颅的办法。但本章还未结束，因为在这，Mojang埋了一个大大的彩蛋：",
+     "p": {}
+    }
+   ],
+   "text": "上面这些便是获取到指定玩家头颅的办法。但本章还未结束，因为在这，Mojang埋了一个大大的彩蛋：",
+   "sha256": "9bad0f8fe01a5fcc45f5cd04f321a57984645acec8e380161aeccfb1475033c6",
+   "i": 8463
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Mojang是个好心人，他给了我们一些特殊的头颅。",
+     "p": {}
+    }
+   ],
+   "text": "Mojang是个好心人，他给了我们一些特殊的头颅。",
+   "sha256": "1ad6670755c7e6928e744ea145e446ec720292e318be80e707a16ef1c4f1826d",
+   "i": 8464
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这些头颅大多数是动物的，但其中不乏一些特别神奇的头颅。",
+     "p": {}
+    }
+   ],
+   "text": "这些头颅大多数是动物的，但其中不乏一些特别神奇的头颅。",
+   "sha256": "f6031d1fa41e9bde610653e762a038ff1e169879280871e72e195448f686b7af",
+   "i": 8465
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错，就是那个被玩梗玩到飞起的Herobrine！",
+     "p": {}
+    }
+   ],
+   "text": "没错，就是那个被玩梗玩到飞起的Herobrine！",
+   "sha256": "67f3a15c28a380893c3ee5dcfcc4d1b5661e58d1c21048c184ba7cd6b27a2751",
+   "i": 8466
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "（只不过这Herobrine的胡子好像被剃须刀刮掉了）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "（只不过这Herobrine的胡子好像被剃须刀刮掉了）",
+   "sha256": "23673e545aa041fef82d5b5c25b7a5de06856e33f456e133cc22ff8fe9bea487",
+   "i": 8467
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "下面是名单：",
+     "p": {}
+    }
+   ],
+   "text": "下面是名单：",
+   "sha256": "3997385bfb35fa762a16d1fa52d7a53bd0828285b2b3bc394000d567d68df01a",
+   "i": 8468
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Alex——Alex的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Alex——Alex的头",
+   "sha256": "45e7d2cc91c270242ffcd145a896b93c76f96f6c66c02e6b5e6cfa858dab2ae7",
+   "i": 8469
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Blaze——烈焰人的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Blaze——烈焰人的头",
+   "sha256": "52ea80cfcf1e9c4ea2137dec4927513e5f0a03661ca02d88e63246ecd2279ec0",
+   "i": 8470
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_CaveSpider——毒蜘蛛的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_CaveSpider——毒蜘蛛的头",
+   "sha256": "ea3f95bfb3b0c92f1594e16e879a3e24d78c042e8cc7d05b0e4f1478d02a5c91",
+   "i": 8471
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Chicken——鸡的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Chicken——鸡的头",
+   "sha256": "c7296290fb6502b4b41d7785c0941d56d563f1553a329b443a8d5732fa0756e5",
+   "i": 8472
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Cow——牛的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Cow——牛的头",
+   "sha256": "91c3f1421abcb47f213b9844f853f3e1376a284ba8d8591b863a922e54c13962",
+   "i": 8473
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Creeper——苦力怕的头（Creeper？）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Creeper——苦力怕的头（Creeper？）",
+   "sha256": "ca5579b303294baf9b7bfeef0060a05ea3f64bf42d02e3b95573eedcb32cb7f0",
+   "i": 8474
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Enderman——小黑的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Enderman——小黑的头",
+   "sha256": "87b7286bf01ea01fc0fb088d1d45d7b5b48c04fa45f91fd2c1c9c74d37818ee7",
+   "i": 8475
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Ghast——恶魂的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Ghast——恶魂的头",
+   "sha256": "4a4c368ed33dfbd1bc4d89856b7ba7597002e3397ce2aea2df456b6607d3cd1f",
+   "i": 8476
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Golem——铁傀儡的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Golem——铁傀儡的头",
+   "sha256": "91de679af9652ccda4906261c80d3cd6f78d575e20e34cfad867cac0bca36e18",
+   "i": 8477
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Herobrine——吾王Herobrine的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Herobrine——吾王Herobrine的头",
+   "sha256": "671e4bc3ff2113c2caab33f709ae00f79af4e0073144875d24ff632d477d09bc",
+   "i": 8478
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_LavaSlime——地狱史莱姆的头（我忘记这怪物叫啥了）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_LavaSlime——地狱史莱姆的头（我忘记这怪物叫啥了）",
+   "sha256": "dc8dff51a48be022fb22fd138c1150b72d4f98a7e111d34a671c0ec42869fab2",
+   "i": 8479
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_MushroomCow——蘑菇牛的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_MushroomCow——蘑菇牛的头",
+   "sha256": "762cc07421e43a14edd286e0160a01cb4c744d2e8f0f3ff68b5aad8e96a6add5",
+   "i": 8480
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Ocelot——豹猫的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Ocelot——豹猫的头",
+   "sha256": "0348093a53c049eaf3dad08c05fa86b8b1fa08ba84ad272406163467ee1ccfea",
+   "i": 8481
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Pig——猪的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Pig——猪的头",
+   "sha256": "22c497934ce4bf197c9cf6c352811282f780dd3035ec70b670cc0204f0e61ef8",
+   "i": 8482
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_PigZombie——猪人的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_PigZombie——猪人的头",
+   "sha256": "7b4befa004ee6f56cc7daa76d7d56ec5c52177c61e58202f8d73d8d79e4320a4",
+   "i": 8483
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Sheep——羊的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Sheep——羊的头",
+   "sha256": "25dd2b67e5134ce0e09d10781af2593d284c19d48abeeb19cf56f522d4cdfe92",
+   "i": 8484
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Skeleton——小白的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Skeleton——小白的头",
+   "sha256": "a6a0fe091c69285a41c16aac0e35007a180ed2598cddd7b99fe5a1103b8c0f4c",
+   "i": 8485
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Slime——史莱姆的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Slime——史莱姆的头",
+   "sha256": "79dc6328d98d56b4518f33a253261c9259a3b3b246ad1f74fdc606ec9ebf0fd5",
+   "i": 8486
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Spider-蜘蛛的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Spider-蜘蛛的头",
+   "sha256": "f01c329fc00d86b69b8e362a6e3fea2d9f50164b9fb1bc4291809f7eddf2f114",
+   "i": 8487
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Squid——鱿鱼的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Squid——鱿鱼的头",
+   "sha256": "226a057b5e08c12a74f38ac4ccfa911317318e59d3e6e86e70f3f66655fa6aba",
+   "i": 8488
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Steve——Steve的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Steve——Steve的头",
+   "sha256": "0c7dade2852c5c512441316bc3b38c86a1b47ee9c5f3af76a6a0632377d23948",
+   "i": 8489
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Villager——被砍了鼻子的村民的头（村————民————）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Villager——被砍了鼻子的村民的头（村————民————）",
+   "sha256": "8eb8ef7e4acdebcf2f2c4b586670e9a5fb5b6d7cfe2f8014cec745e602fd7fcb",
+   "i": 8490
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_WSkeleton——凋零骷髅的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_WSkeleton——凋零骷髅的头",
+   "sha256": "8aa373467a98c02ca2a34b29bcfec2ccb94bbe44031e25291b8c8750ae27f71d",
+   "i": 8491
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Zombie——僵尸的头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Zombie——僵尸的头",
+   "sha256": "e316d7ba61e0ac71afd14b9c066bf4c0f97679d4d40a646dec1c82cb5bb62460",
+   "i": 8492
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Intense Reference"
+    }
+   },
+   "c": [
+    {
+     "t": "（奇怪了？Herobrine的好兄弟Notch的头去哪了？）",
+     "p": {
+      "style": "Intense Reference"
+     }
+    }
+   ],
+   "text": "（奇怪了？Herobrine的好兄弟Notch的头去哪了？）",
+   "sha256": "653125aae5338e7d70371f1816172e51a765179668a3e7cc29d43f48c4bf1cf1",
+   "i": 8493
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Intense Reference"
+    }
+   },
+   "c": [
+    {
+     "t": "（其实获取Notch的头并不需要在前面添加上MHF，因为Notch本身就有MC帐户）",
+     "p": {
+      "style": "Intense Reference"
+     }
+    }
+   ],
+   "text": "（其实获取Notch的头并不需要在前面添加上MHF，因为Notch本身就有MC帐户）",
+   "sha256": "e44081c4e3ca9b54c2b38096873b86a0bfb9495e6c21439fe27400e36f814c71",
+   "i": 8494
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但Mojang不止砍了动物以及玩家的头，还饶有兴趣地把目光放在了部分方块上。",
+     "p": {}
+    }
+   ],
+   "text": "但Mojang不止砍了动物以及玩家的头，还饶有兴趣地把目光放在了部分方块上。",
+   "sha256": "468797f4b968db9f37ef05c1478940355cd9aa89868163a2d2db3b7722d18cea",
+   "i": 8495
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "于是名单上又多了：",
+     "p": {}
+    }
+   ],
+   "text": "于是名单上又多了：",
+   "sha256": "09dabed3fc645616dd97f730be9b4af7f550c1df69602decd207853071bf6b61",
+   "i": 8496
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Cactus——缩水的仙人掌",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Cactus——缩水的仙人掌",
+   "sha256": "dd284037a8793305123e5473d788e3a1a2ab6f4559b84b71deebd4bd1f043118",
+   "i": 8497
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Cake——小蛋糕",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Cake——小蛋糕",
+   "sha256": "cf18fb24a5c78e5749156e758cc008a5d9ba54583c774521055967b74e98fef8",
+   "i": 8498
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Chest——小箱子（并不能放东西）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Chest——小箱子（并不能放东西）",
+   "sha256": "1d84f800caae8ab7e3fbc305971c1c2d507f621a36632e38e813b9569d41d85e",
+   "i": 8499
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_CoconutB——棕色的椰子",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_CoconutB——棕色的椰子",
+   "sha256": "8f26f5f23971d57ade6b48db8659ca2494141fb16ec218aff95b8157b7e36e6f",
+   "i": 8500
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_CoconutG——绿色的椰子",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_CoconutG——绿色的椰子",
+   "sha256": "114f9f2413b884a71fddc2cab68dcd38fad2696cb67288d061062b8a473f657f",
+   "i": 8501
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Melon——在贫瘠土地上生长的西瓜",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Melon——在贫瘠土地上生长的西瓜",
+   "sha256": "cd883485f81eccec85b48ec0c904b0b644b35938b4d62cbd765ae2927a4369dd",
+   "i": 8502
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_OakLog——在贫瘠土地上生长的木头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_OakLog——在贫瘠土地上生长的木头",
+   "sha256": "fdc99bec481ac25f1184c2f0d4fa295e1349c049e01cd65d63378ecbfd593f7e",
+   "i": 8503
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Present1——绿色的.......礼包？",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Present1——绿色的.......礼包？",
+   "sha256": "e3a9d3f778361596dd7278b99b318a500a37f15947a0ed2a800d8b2f96c9ae25",
+   "i": 8504
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Present2——红色的........礼包？",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Present2——红色的........礼包？",
+   "sha256": "e605ab41514c5f6a07d08061da742d80ab1776887b1d5fe1eaa5cbb8fb4e535b",
+   "i": 8505
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Pumpkin——在贫瘠土地上生长的南瓜",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Pumpkin——在贫瘠土地上生长的南瓜",
+   "sha256": "5ae68d5f403204aacd34c2c52978ded6973afc380281655dd85aabd92d049f92",
+   "i": 8506
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_TNT——被做成标本的TNT",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_TNT——被做成标本的TNT",
+   "sha256": "56fe1cb70fc3c670604cd74b499375ce494e6ab9d6cc5212be56d4dbfed850e9",
+   "i": 8507
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_TNT2——被做成标本的TNT（另一个材质）",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_TNT2——被做成标本的TNT（另一个材质）",
+   "sha256": "1b1148f6ebf3dd3ef184f04506634660f74cf05fb07f0394f999d1bd94bb513f",
+   "i": 8508
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Mojang不止把心思放在了动物和方块上（还有一些彩蛋），还把目光投向了地图制作者。",
+     "p": {}
+    }
+   ],
+   "text": "Mojang不止把心思放在了动物和方块上（还有一些彩蛋），还把目光投向了地图制作者。",
+   "sha256": "f10e9d8a68cc64f35580161409c7f90a03b26d11bf46f3162100e456fb4b0d71",
+   "i": 8509
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "于是他们给地图制作者添加了以下几个比较有用的头颅：",
+     "p": {}
+    }
+   ],
+   "text": "于是他们给地图制作者添加了以下几个比较有用的头颅：",
+   "sha256": "3aa0f90cd9dbc09fe859a777105721835ecafadffae1ca1f21e6373a0d7588fe",
+   "i": 8510
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_ArrowUp——朝上的箭头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_ArrowUp——朝上的箭头",
+   "sha256": "86da48673334d8bbb1c67f07fae45d64660ec00e45910a7e1047f210350050e7",
+   "i": 8511
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_ArrowDown——朝下的箭头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_ArrowDown——朝下的箭头",
+   "sha256": "8f6100dee130fc9c6317a377f02016e6e1a2d6a02d3614f202caeec66047d1ab",
+   "i": 8512
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_ArrowLeft——朝左的箭头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_ArrowLeft——朝左的箭头",
+   "sha256": "400ee7874375dbd1c9efa8d36282c5e3ec6e27d7dae78d1b444cd57f5f67184a",
+   "i": 8513
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_ArrowRight——朝右的箭头",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_ArrowRight——朝右的箭头",
+   "sha256": "4cd289afac807f0918d8ae2b18a0c5c4b31fadb613908609a06864e29b388609",
+   "i": 8514
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Exclamation——一个感叹号",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Exclamation——一个感叹号",
+   "sha256": "c2ec787655cae6657f043483f67c7215d398f3bf96907b6259f4891bdd6498b3",
+   "i": 8515
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "MHF_Question——一个问号",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "MHF_Question——一个问号",
+   "sha256": "27206ca11ff5f971c13d10fe8f82bc967c67019f40ccc975d6884af6f6b0cd83",
+   "i": 8516
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这一章到此为.......奇怪了这存档里所有树的树叶都被偷了？",
+     "p": {}
+    }
+   ],
+   "text": "这一章到此为.......奇怪了这存档里所有树的树叶都被偷了？",
+   "sha256": "3fbdfc1dd3c8c26437d7265589af77077cb37f7f093274c836d607f067112b56",
+   "i": 8517
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这到广",
+     "p": {}
+    }
+   ],
+   "text": "这到广",
+   "sha256": "8fbd9909561c51c7a1c0ccdc4ab7eb1a7fb0bc29c1f9264cf1ec70c3275d4496",
+   "i": 8518
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 8519
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 8520
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 8521
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 8522
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "附录：头颅历史",
+     "p": {}
+    }
+   ],
+   "text": "附录：头颅历史",
+   "sha256": "0ba1eaf79b43b73f364df891e88b58867dd313bbfd016a2bb10e58716e8a7223",
+   "i": 8523
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 8524
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.4.2——加入了头颅。此时虽然可以获取自定义头颅，但只能通过修改游戏的NBT文件才能实现。",
+     "p": {}
+    }
+   ],
+   "text": "1.4.2——加入了头颅。此时虽然可以获取自定义头颅，但只能通过修改游戏的NBT文件才能实现。",
+   "sha256": "0a934a1247d1d5542e4619a447a5af98cd416fc23a8e85ea9faac804c77ed9a6",
+   "i": 8525
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.7.2——现在可通过指令获取到自定义头颅。",
+     "p": {}
+    }
+   ],
+   "text": "1.7.2——现在可通过指令获取到自定义头颅。",
+   "sha256": "590bf1217dd49f450543663e9fd8659135fd5ff23a41d3c5d4dcb0daf65750d4",
+   "i": 8526
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.8——骷髅、僵尸、苦力怕和凋灵骷髅的头颅可通过相应生物被闪电苦力怕炸死来获得。",
+     "p": {}
+    }
+   ],
+   "text": "1.8——骷髅、僵尸、苦力怕和凋灵骷髅的头颅可通过相应生物被闪电苦力怕炸死来获得。",
+   "sha256": "a472f1ee25febacdb11b19b8d29095fb772f00edb43ba6fd5fc3be3b8f921d5b",
+   "i": 8527
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.8.4——自定义玩家头颅的来源现在只能是官方服务器。",
+     "p": {}
+    }
+   ],
+   "text": "1.8.4——自定义玩家头颅的来源现在只能是官方服务器。",
+   "sha256": "5bbc9ebfb5acc5c7ba9d6f8eb3b113926b315b1c79b7374b7b2552bb19c23cb7",
+   "i": 8528
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.9——加入了龙首。",
+     "p": {}
+    }
+   ],
+   "text": "1.9——加入了龙首。",
+   "sha256": "609a8de6d98cf7760c90083419e53ed2f7d149fc5389b4e403932e4a42c48786",
+   "i": 8529
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13——头颅的命名空间ID被改变。",
+     "p": {}
+    }
+   ],
+   "text": "1.13——头颅的命名空间ID被改变。",
+   "sha256": "52391ab8c329e9a7b60f5aaa30ddcb856faffb6183db96f90766d7b335dd7b7a",
+   "i": 8530
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "携带版/基岩版",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "携带版/基岩版",
+   "sha256": "d45b284e2340115de225260f453e519450c84f1e997d49953aa43baae83bc3e3",
+   "i": 8531
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "0.12.1——加入了头颅",
+     "p": {}
+    }
+   ],
+   "text": "0.12.1——加入了头颅",
+   "sha256": "44d642444a2513d99b4df9b23fb60812f7a871b204fdf4e6640008a54a1dbc24",
+   "i": 8532
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.0.0——加入了龙首",
+     "p": {}
+    }
+   ],
+   "text": "1.0.0——加入了龙首",
+   "sha256": "344d8919be181fd4d52a28481a86147cc53566c825d74e1b2f6403072f8504fe",
+   "i": 8533
+  }
+ ],
+ "text_sha256": "748558688011ad1744e421457d1cf616f7efb76abf1d2f80effb9006b13c81de",
+ "chars": 3924
+}

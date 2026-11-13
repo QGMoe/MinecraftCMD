@@ -1,0 +1,1781 @@
+{
+ "id": "ch145",
+ "kind": "chapter",
+ "number": 145,
+ "title": "第一百四十五章 箭共通标签",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   11896,
+   12001
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第一百四十五章_箭共通标签"
+    },
+    {
+     "t": "第一百四十五章 箭共通标签",
+     "p": {}
+    }
+   ],
+   "text": "第一百四十五章 箭共通标签",
+   "sha256": "afb29d48a0993f350732fd4a96143d7e24be5068345d11753cf6900111506824",
+   "i": 11896
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们都知道实体有实体共通标签，实体中的弹射物有弹射物共通标签。箭属于弹射物，它像矿车一样，拥有许多种类（额......实际上，除了光灵箭以外，其他的箭只是药水效果不同而已）。既然矿车拥有自己的共通标签，那箭呢？",
+     "p": {}
+    }
+   ],
+   "text": "我们都知道实体有实体共通标签，实体中的弹射物有弹射物共通标签。箭属于弹射物，它像矿车一样，拥有许多种类（额......实际上，除了光灵箭以外，其他的箭只是药水效果不同而已）。既然矿车拥有自己的共通标签，那箭呢？",
+   "sha256": "2986cffb5b51d80e394dc1b749b727ca8ebab655b3d94063fa0e9a2ce3d1d081",
+   "i": 11897
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Let us open Minecraft and have a look.",
+     "p": {}
+    }
+   ],
+   "text": "Let us open Minecraft and have a look.",
+   "sha256": "112d5266b9b0e2753c8515d3089494055e81c4f3027375a3078c5f63f217c0ab",
+   "i": 11898
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们打开1.12.2版本，一进游戏就先往天空射一发，然后在箭落地之前快速敲下“/entitydata @e[type=arrow]{have_a_look:1b}”，然后这支箭的NBT标签就多了一个：",
+     "p": {}
+    }
+   ],
+   "text": "我们打开1.12.2版本，一进游戏就先往天空射一发，然后在箭落地之前快速敲下“/entitydata @e[type=arrow]{have_a_look:1b}”，然后这支箭的NBT标签就多了一个：",
+   "sha256": "325abe0851fe29961879b0f92de2d6d774fe07a7a793f5bd00d6c10fd3f728aa",
+   "i": 11899
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "have_a_look:1b",
+     "p": {}
+    }
+   ],
+   "text": "have_a_look:1b",
+   "sha256": "b662eed4b060d126f1003f62f4187069ea690fe65dc184795562eafe9e5027d5",
+   "i": 11900
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "的标签，同时我们也获得了这支箭的NBT标签：",
+     "p": {}
+    }
+   ],
+   "text": "的标签，同时我们也获得了这支箭的NBT标签：",
+   "sha256": "f62a2c9c270b83f46729cf3dcb225ab3efa732a6f1152046c1e28dfde8d781df",
+   "i": 11901
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{Motion:[-0.017573624569493466d，1.2870474554049782d，-0.01 7998429037403802d]，damage:2.0d，shake:0b，xTile:-1，UUIDLeast:-85 75954613148320732L，inGround:0b，pickup:2b，Invulnerable:0b，Air:300s，OnGround:0b，Dimension:0，PortalCooldown:0，Rotation:[-135.68414f，89.041885f]，life:0s，FallDistance:0.0f，inTile:“minecraft:air“，UUIDMost:-2256734521454604841L，inData:0b，crit:1b，Pos:[651.21191092562d，57.02173662322392d，41.009244940034264d]，have _a_ look:1b，zTile:-1，Fire:0s，yTile:-1}",
+     "p": {}
+    }
+   ],
+   "text": "{Motion:[-0.017573624569493466d，1.2870474554049782d，-0.01 7998429037403802d]，damage:2.0d，shake:0b，xTile:-1，UUIDLeast:-85 75954613148320732L，inGround:0b，pickup:2b，Invulnerable:0b，Air:300s，OnGround:0b，Dimension:0，PortalCooldown:0，Rotation:[-135.68414f，89.041885f]，life:0s，FallDistance:0.0f，inTile:“minecraft:air“，UUIDMost:-2256734521454604841L，inData:0b，crit:1b，Pos:[651.21191092562d，57.02173662322392d，41.009244940034264d]，have _a_ look:1b，zTile:-1，Fire:0s，yTile:-1}",
+   "sha256": "5dc77f82d85aa2c2e2e34a9fab08182e7fb98c4b3a4e0c17b1f6416a7db9f91b",
+   "i": 11902
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看着有点晕是吧？好，那我们归纳一下。",
+     "p": {}
+    }
+   ],
+   "text": "看着有点晕是吧？好，那我们归纳一下。",
+   "sha256": "13052f09c42301d8387a38b8d7d8fd6441db1406e694e62fd4b5ff7584a0a8a7",
+   "i": 11903
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在这串NBT内，除了我们的have_a_look标签，其他的标签一共有24个。分类一下，可以得到：",
+     "p": {}
+    }
+   ],
+   "text": "在这串NBT内，除了我们的have_a_look标签，其他的标签一共有24个。分类一下，可以得到：",
+   "sha256": "eef6d0281abf1c74f99fa09c7f6c67e6728d639bdad37779f6963f2a4467f41a",
+   "i": 11904
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Tags common to all entities={Motion，UUIDLeast，Invulnerable，Air，OnGround，Dimension，PortalCooldown，Rotation，FallDistance，UUIDMost，inData，crit，Pos，Fire}",
+     "p": {}
+    }
+   ],
+   "text": "Tags common to all entities={Motion，UUIDLeast，Invulnerable，Air，OnGround，Dimension，PortalCooldown，Rotation，FallDistance，UUIDMost，inData，crit，Pos，Fire}",
+   "sha256": "dd80a77ab42a05c52337e787e82f55f5d3fba7cca13626840381cc637b604610",
+   "i": 11905
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Unknow tags={damage，shake，inGround，pickup，inTile，inData，crit，yTile，zTile，xTile}",
+     "p": {}
+    }
+   ],
+   "text": "Unknow tags={damage，shake，inGround，pickup，inTile，inData，crit，yTile，zTile，xTile}",
+   "sha256": "fff90c7f42b79769aa39e305297e8512c91730c8be586a7c9554a408fb0a585d",
+   "i": 11906
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这些标签中一共有10个我们还不知道是个啥，那今天我们就来仔细研究研究。",
+     "p": {}
+    }
+   ],
+   "text": "这些标签中一共有10个我们还不知道是个啥，那今天我们就来仔细研究研究。",
+   "sha256": "de92705430d109711682ba613df099008c27f69a430bc2c9f6571c53899d526c",
+   "i": 11907
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "“damage”这个单词是“损坏”的意思，可作为名词或动词。但实际上按照这个标签的用途来说，它在这应该是个使动用法的谓语动词（？？？？）：使......损坏。再看看上面这串NBT，它的值是“2.0d”，最后的这个“d”，说明damage的值是双精度浮点数。",
+     "p": {}
+    }
+   ],
+   "text": "“damage”这个单词是“损坏”的意思，可作为名词或动词。但实际上按照这个标签的用途来说，它在这应该是个使动用法的谓语动词（？？？？）：使......损坏。再看看上面这串NBT，它的值是“2.0d”，最后的这个“d”，说明damage的值是双精度浮点数。",
+   "sha256": "9931b97a3185a9754d5e5324137b26378d89e7773402a127ec67b36bd40ea8ab",
+   "i": 11908
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这标签的用途到底是什么？我们来个反向思维，damage的主语在这边应该是箭，即：",
+     "p": {}
+    }
+   ],
+   "text": "这标签的用途到底是什么？我们来个反向思维，damage的主语在这边应该是箭，即：",
+   "sha256": "7c93a4af2f4c5501c27b80fcf68b5953ca1c7a4e4a3bc3a463870bec5e8c15b1",
+   "i": 11909
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Arrows damage ......（箭使.......损坏了）",
+     "p": {}
+    }
+   ],
+   "text": "Arrows damage ......（箭使.......损坏了）",
+   "sha256": "b4112f0e37bd754764e72b22946df52f02f9ef1a95c5919cdabae486c468a130",
+   "i": 11910
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "箭会使什么东西损坏？肯定是射中的实体啦！所以damage的作用就是：",
+     "p": {}
+    }
+   ],
+   "text": "箭会使什么东西损坏？肯定是射中的实体啦！所以damage的作用就是：",
+   "sha256": "1ac2b61976ee29052a836a770406fd0ebe5b4f2c72f50fc73e6f3d2fea617a2c",
+   "i": 11911
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "设定箭将造成的伤害。",
+     "p": {}
+    }
+   ],
+   "text": "设定箭将造成的伤害。",
+   "sha256": "60982e618d31aa74e0053734436da252b3da150c3d3eee71eca6b61693952ede",
+   "i": 11912
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面NBT中damage的值是2.0d，就代表着这个箭射中实体将造成2滴血（1颗心）的伤害。由于是双精度浮点数的值，所以这不一定是个整数。这个值会随着发射该箭的武器所有的力量附魔等级而变化，具体是力量附魔每高一级，就会增加0.5的值。假设你用一个附魔了144514级力量的弓发射这支箭，那么该值将会是：",
+     "p": {}
+    }
+   ],
+   "text": "上面NBT中damage的值是2.0d，就代表着这个箭射中实体将造成2滴血（1颗心）的伤害。由于是双精度浮点数的值，所以这不一定是个整数。这个值会随着发射该箭的武器所有的力量附魔等级而变化，具体是力量附魔每高一级，就会增加0.5的值。假设你用一个附魔了144514级力量的弓发射这支箭，那么该值将会是：",
+   "sha256": "9cb3cbffd53a375e71b76356d5f3c2b978cbc1716bcff53e6cc79898c5fef40d",
+   "i": 11913
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "57259.0d（114514×0.5+2.0）",
+     "p": {}
+    }
+   ],
+   "text": "57259.0d（114514×0.5+2.0）",
+   "sha256": "b0d307ee0603874f7207c4b07767ce03a87cd3d921427971f757269f31dcf2d3",
+   "i": 11914
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "等等，实际上还要再加一个0.5，因为只要一把弓附魔了力量，不管是多少级，都会额外加上0.5，然后再加上(0.5×力量等级）。所以，实际上的值应该是：",
+     "p": {}
+    }
+   ],
+   "text": "等等，实际上还要再加一个0.5，因为只要一把弓附魔了力量，不管是多少级，都会额外加上0.5，然后再加上(0.5×力量等级）。所以，实际上的值应该是：",
+   "sha256": "dfb0f96354f554264c5c7074dcf04abad7bc9b4e85e33de33bdd965ba3419001",
+   "i": 11915
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "57259.5d",
+     "p": {}
+    }
+   ],
+   "text": "57259.5d",
+   "sha256": "ff6df9824b87f4d0c565686e926a6cbde64abdb73b357830258cabfa7207fd98",
+   "i": 11916
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "实际上箭造成的伤害不会那么低。箭的伤害还有被箭的速度影响，具体公式如下：",
+     "p": {}
+    }
+   ],
+   "text": "实际上箭造成的伤害不会那么低。箭的伤害还有被箭的速度影响，具体公式如下：",
+   "sha256": "6dcc4e5a4edbef829925cc38e9316849ce4bf4d85a4f796b0dc2261379a65232",
+   "i": 11917
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "V箭×damage+暴击伤害=真实伤害",
+     "p": {}
+    }
+   ],
+   "text": "V箭×damage+暴击伤害=真实伤害",
+   "sha256": "0992ac80f0c550b4552a32aeaa3a9363b65e485b3f2c303db94507a639bee413",
+   "i": 11918
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但还有一些情况伤害是个定值，如发射器射出的箭伤害一定是3滴血。",
+     "p": {}
+    }
+   ],
+   "text": "但还有一些情况伤害是个定值，如发射器射出的箭伤害一定是3滴血。",
+   "sha256": "1517d6de5666929d185d2ac7ea175c7da1d84c643a53b486a123be5e7ba33371",
+   "i": 11919
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "damage是这样，那接下来的shake又是何物？",
+     "p": {}
+    }
+   ],
+   "text": "damage是这样，那接下来的shake又是何物？",
+   "sha256": "287f215d3f1b712cfc367c566dc3125157705f708617de82f23f8bd9763fe1fe",
+   "i": 11920
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "shake的意思是“摇”，这个比较难猜，就直接上答案：",
+     "p": {}
+    }
+   ],
+   "text": "shake的意思是“摇”，这个比较难猜，就直接上答案：",
+   "sha256": "fab8069cb4719b3fa61ed9992d0b17b5c68a1b0b7c1f60a5adf81a943ca18c01",
+   "i": 11921
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当箭击中方块时，shake将会设定为7（单位为游戏刻）。在shake还未降为0时，就是箭的“抖动状态”，玩家此时不能捡起箭，需待shake为0时，方可捡起。",
+     "p": {}
+    }
+   ],
+   "text": "当箭击中方块时，shake将会设定为7（单位为游戏刻）。在shake还未降为0时，就是箭的“抖动状态”，玩家此时不能捡起箭，需待shake为0时，方可捡起。",
+   "sha256": "3b2befd327abd6c0412cc9067cd1966176d8276f15af455efd21fd4e85ea7518",
+   "i": 11922
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面NBT中的shake值为0b，b就说明这是字节型数值。这个0，说明这支箭可能还在飞行，也可能已经落地超过0.35秒了。",
+     "p": {}
+    }
+   ],
+   "text": "上面NBT中的shake值为0b，b就说明这是字节型数值。这个0，说明这支箭可能还在飞行，也可能已经落地超过0.35秒了。",
+   "sha256": "34c6ada5daab03e212a0bf592742f48e65a5765c3d60481997c544c448d651bb",
+   "i": 11923
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那该如何判断一支箭是否落地了呢？",
+     "p": {}
+    }
+   ],
+   "text": "那该如何判断一支箭是否落地了呢？",
+   "sha256": "c25651a13c8b2c574a53efc7e8c26ea4972c68c2150365d3713d4b5db3422d9c",
+   "i": 11924
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ground的意思是“地面”，作为动词时有“着陆”的意思。上面，我们归纳出的第三个我们还不知道是干啥的NBT标签是“inGround”。in the ground是一个短语，和on the ground意思差不多，都是“在地面”的意思，只不过前者更注重于强调“接触”。",
+     "p": {}
+    }
+   ],
+   "text": "ground的意思是“地面”，作为动词时有“着陆”的意思。上面，我们归纳出的第三个我们还不知道是干啥的NBT标签是“inGround”。in the ground是一个短语，和on the ground意思差不多，都是“在地面”的意思，只不过前者更注重于强调“接触”。",
+   "sha256": "bdc9672197efa2a08c5f7627239b477530117f25f024f7b4c574d7fcd7d4889f",
+   "i": 11925
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那“inGround”的作用大家应该猜到了吧？即：",
+     "p": {}
+    }
+   ],
+   "text": "那“inGround”的作用大家应该猜到了吧？即：",
+   "sha256": "3e71fb1a60364b8deb66b82c5d7401df4f0d57a7e6a95eb0981898f1fcb033cc",
+   "i": 11926
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "箭是否接触地面。",
+     "p": {}
+    }
+   ],
+   "text": "箭是否接触地面。",
+   "sha256": "9da1038ca8284fa2b4b9fbb322f7f1c2dee21e4841949be7ff8dd2380ad1384e",
+   "i": 11927
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面的NBT标签中，inGround的值是：",
+     "p": {}
+    }
+   ],
+   "text": "上面的NBT标签中，inGround的值是：",
+   "sha256": "8d5b214daf13d7e2fa8a1e1656f6e8a74e5ac1d27e83d0242dbd117dcaf7aed0",
+   "i": 11928
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "0b",
+     "p": {}
+    }
+   ],
+   "text": "0b",
+   "sha256": "635ca73d00d4f28b5f573b16eea56e9e4579d77e561c32aa68189d9769fa1753",
+   "i": 11929
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "说明inGround的数值类型为Byte（字节型），同时这个0（false）也说明了这支箭还在飞。如果这里的值不是0，而是1（true），那就是接触地面了。",
+     "p": {}
+    }
+   ],
+   "text": "说明inGround的数值类型为Byte（字节型），同时这个0（false）也说明了这支箭还在飞。如果这里的值不是0，而是1（true），那就是接触地面了。",
+   "sha256": "407a1453630bd6e1c7fb6dcdba8986d338e1ac3e8c568e4dab612fc890b805cc",
+   "i": 11930
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当一支箭接触到地面，就代表玩家可以捡起它。但，众所周知，小白射出的箭玩家是不能白嫖的，你知道这是为什么吗？",
+     "p": {}
+    }
+   ],
+   "text": "当一支箭接触到地面，就代表玩家可以捡起它。但，众所周知，小白射出的箭玩家是不能白嫖的，你知道这是为什么吗？",
+   "sha256": "4206f913f4ff9d1d097d42ff78c7ff469ee17012451d86461643c3c5b349ffb9",
+   "i": 11931
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你肯定不知道，但看完下面这一段，你就知道了。",
+     "p": {}
+    }
+   ],
+   "text": "你肯定不知道，但看完下面这一段，你就知道了。",
+   "sha256": "328a8d6cd7883ef3b954cd1d2eef1e2e52878f121d7b1237409f8be2d7b1852a",
+   "i": 11932
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "实际上，不光是小白的箭无法捡起。当你开启创造模式用弓射一发再调成生存时，你会发现你照样无法捡起创造模式射出来的箭。",
+     "p": {}
+    }
+   ],
+   "text": "实际上，不光是小白的箭无法捡起。当你开启创造模式用弓射一发再调成生存时，你会发现你照样无法捡起创造模式射出来的箭。",
+   "sha256": "c1127c5289195f4a4cae72cd4653b7226714fa6a43fbde87ce811d77a8e666bf",
+   "i": 11933
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为啥？",
+     "p": {}
+    }
+   ],
+   "text": "为啥？",
+   "sha256": "8356c9a7ddbb03f19fa059bf6bd6ca8ab146899ca195e6b6b5f8fee47b4da87d",
+   "i": 11934
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "pickup这个单词的意思是“皮卡”，但这边应该把它拆分成pick up（捡起）。",
+     "p": {}
+    }
+   ],
+   "text": "pickup这个单词的意思是“皮卡”，但这边应该把它拆分成pick up（捡起）。",
+   "sha256": "f6506a6dd5d4b58362384d34903559b13e075b3bd21e83238a5302d07ff59efc",
+   "i": 11935
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "既然pick up的意思是捡起，那么就是对捡起的设置咯？",
+     "p": {}
+    }
+   ],
+   "text": "既然pick up的意思是捡起，那么就是对捡起的设置咯？",
+   "sha256": "85a1de0de174d0ac34d9819254f0101963a77f156f9a584f94bc8762a627c13b",
+   "i": 11936
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "对！",
+     "p": {}
+    }
+   ],
+   "text": "对！",
+   "sha256": "f11b92ba308cba4c994ac25e83ef8b86e4f1e378f2a24205248fa86deef967cd",
+   "i": 11937
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在上面的NBT中，pickup的值是2b，b说明这也是一个byte字节型标签。那这个2说明了什么？",
+     "p": {}
+    }
+   ],
+   "text": "在上面的NBT中，pickup的值是2b，b说明这也是一个byte字节型标签。那这个2说明了什么？",
+   "sha256": "9d44a2a8b8a38cc0da9ca0687d2260b51d6c068337ae38cc481332898ec27df0",
+   "i": 11938
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "pickup的值你翻遍整个Minecraft之后会发现只有三种：",
+     "p": {}
+    }
+   ],
+   "text": "pickup的值你翻遍整个Minecraft之后会发现只有三种：",
+   "sha256": "cffd8aac8ee4df464a19c2541038ddfad9fd68217f7eab55790670c97aba0b5d",
+   "i": 11939
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "小白射出的箭——0",
+     "p": {}
+    }
+   ],
+   "text": "小白射出的箭——0",
+   "sha256": "fdfdeb689a3aed9e95b3a9baac39a17c27427bb1a244a7eb53255c2d25835cee",
+   "i": 11940
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你在非创造模式射出的箭——1",
+     "p": {}
+    }
+   ],
+   "text": "你在非创造模式射出的箭——1",
+   "sha256": "c87a74cdc7e46decc17a9b9e5f340de05ec3432ad9e88ceecebea961e8f58a4b",
+   "i": 11941
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你在创造模式射出的箭——2",
+     "p": {}
+    }
+   ],
+   "text": "你在创造模式射出的箭——2",
+   "sha256": "c00f0f0e99ec24966845b1d4310745c4a8248f67a308f0fa639eb7d8506be35e",
+   "i": 11942
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "结合你玩Minecraft的经验和作者上面分享的发现，可以得出：",
+     "p": {}
+    }
+   ],
+   "text": "结合你玩Minecraft的经验和作者上面分享的发现，可以得出：",
+   "sha256": "fc22dfa1324ab2783f86e419e3c34e16a8374cce62dab4c856d1409c81a46391",
+   "i": 11943
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "非玩家生物射出的箭：0——不可被玩家捡起",
+     "p": {}
+    }
+   ],
+   "text": "非玩家生物射出的箭：0——不可被玩家捡起",
+   "sha256": "533011ba9f58bee32409fc513c10b1961f7339e43c97f7cadef308717d4ef917",
+   "i": 11944
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "非创造模式玩家射出的箭（发射器也算）：1——可被除旁观者模式外其他模式玩家捡起（注：Wiki上言“可以被玩家在生存或创造模式中捡起”，未提冒险模式，但作者实测冒险模式也可以捡起）",
+     "p": {}
+    }
+   ],
+   "text": "非创造模式玩家射出的箭（发射器也算）：1——可被除旁观者模式外其他模式玩家捡起（注：Wiki上言“可以被玩家在生存或创造模式中捡起”，未提冒险模式，但作者实测冒险模式也可以捡起）",
+   "sha256": "f0e81e3ce079860ec888e144d47b1cf8a97657acecb99280a6a3fc3a8e282444",
+   "i": 11945
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "创造模式玩家射出的箭：2——只可被创造模式玩家捡起",
+     "p": {}
+    }
+   ],
+   "text": "创造模式玩家射出的箭：2——只可被创造模式玩家捡起",
+   "sha256": "94058fa41961105f5d5ec0a8538f6727cece3b1bff5375338f3d4b63dba418c0",
+   "i": 11946
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在我们可以回答上面的问题了：",
+     "p": {}
+    }
+   ],
+   "text": "现在我们可以回答上面的问题了：",
+   "sha256": "d67403bab056c1158b9b51ca41201c826e98465cfc7fb7174ca347d607f34eb3",
+   "i": 11947
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个2说明了这是一个创造模式玩家射出的箭",
+     "p": {}
+    }
+   ],
+   "text": "这个2说明了这是一个创造模式玩家射出的箭",
+   "sha256": "458b73b274ff89ac0c19b22d035acb4be0da6d85fdab49dc0a1e7cbf2265a808",
+   "i": 11948
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（注：用指令生成的箭pickup值也是0，即不可被捡起。推测是游戏本身产生的箭都不可以被玩家捡起）",
+     "p": {}
+    }
+   ],
+   "text": "（注：用指令生成的箭pickup值也是0，即不可被捡起。推测是游戏本身产生的箭都不可以被玩家捡起）",
+   "sha256": "a9523145f835cc370e58b50e4fe3fbf7afad384ecb494dccb2eb69e508cc1296",
+   "i": 11949
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "........",
+     "p": {}
+    }
+   ],
+   "text": "........",
+   "sha256": "d09f0ad06d6e59b908037317d6c044f7ababd3466cb46d5b901cf6f0855baf04",
+   "i": 11950
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在之前，我们遇见过两个在1.13扁平化中被合并的NBT标签，这两个标签相信大家还记得，它们是：",
+     "p": {}
+    }
+   ],
+   "text": "在之前，我们遇见过两个在1.13扁平化中被合并的NBT标签，这两个标签相信大家还记得，它们是：",
+   "sha256": "b0cbbdb5987de64e395690d301d8a5d40c5dd6f864c5822b7cd99322cc484be0",
+   "i": 11951
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DisplayTile+DisplayData=DisplayState（矿车共通标签）",
+     "p": {}
+    }
+   ],
+   "text": "DisplayTile+DisplayData=DisplayState（矿车共通标签）",
+   "sha256": "64c71fa060847439ecb94ac0ed19bc97e15926d9d37972fe936409fc9b96fc98",
+   "i": 11952
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Block+Data=BlockState（下落的方块）",
+     "p": {}
+    }
+   ],
+   "text": "Block+Data=BlockState（下落的方块）",
+   "sha256": "ade52a9b2bb813b5eed3fc3edc7b6e68dc8746fd677ccc1c7faf0da3334c5ffe",
+   "i": 11953
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们在1.12.2版本的箭共通标签遇见了：",
+     "p": {}
+    }
+   ],
+   "text": "现在，我们在1.12.2版本的箭共通标签遇见了：",
+   "sha256": "4eb001f868e391e1f5b21e7ac2614c5b2a8ee5cf790a65ba04f7862458bc9115",
+   "i": 11954
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "inTile和inData",
+     "p": {}
+    }
+   ],
+   "text": "inTile和inData",
+   "sha256": "58781677f8a7b7cf9546183bd418951fbc1935b116a100ccaba18f7ff5821e63",
+   "i": 11955
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这两个NBT标签和我们之前遇见的那两个标签在未合并之前的构造非常相似，那么它们是否在1.13版本中被合并了？",
+     "p": {}
+    }
+   ],
+   "text": "这两个NBT标签和我们之前遇见的那两个标签在未合并之前的构造非常相似，那么它们是否在1.13版本中被合并了？",
+   "sha256": "e2ffb86d3a35cb774787f8ee0c5ef1713953c232b30f18b319246c67fdba6fee",
+   "i": 11956
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "DisplayState和BlockState有个共同点，就在于他们都是与方块有关系。合并之前，它们都分别有一个用来表示数据值的标签：DisplayData和Data。数据值在1.13版本中被删除，所以这种类型的标签也就合并了。",
+     "p": {}
+    }
+   ],
+   "text": "DisplayState和BlockState有个共同点，就在于他们都是与方块有关系。合并之前，它们都分别有一个用来表示数据值的标签：DisplayData和Data。数据值在1.13版本中被删除，所以这种类型的标签也就合并了。",
+   "sha256": "4c450096fc6f7599a96c9e87462305952b6ca388b34804291e32e520594dfcb4",
+   "i": 11957
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "inData和DisplayData、Data一样，末尾都有一个“Data”，那inData是否就是表示方块数据值所用呢？",
+     "p": {}
+    }
+   ],
+   "text": "inData和DisplayData、Data一样，末尾都有一个“Data”，那inData是否就是表示方块数据值所用呢？",
+   "sha256": "b3176effee25fca86b44738813262f1005539dd84cdf7b6f3ad90fda93b7b3b4",
+   "i": 11958
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "inData如果真是表示数据值，那inTile呢？是不是用来表示方块id？",
+     "p": {}
+    }
+   ],
+   "text": "inData如果真是表示数据值，那inTile呢？是不是用来表示方块id？",
+   "sha256": "b31cb6fb5e1aa328b0214eaf185c6d30ccf55c3a566fe8458280deb54fcb027b",
+   "i": 11959
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "您别说，还真是。",
+     "p": {}
+    }
+   ],
+   "text": "您别说，还真是。",
+   "sha256": "af3c31675f7864d2f468a46204f6a136a200042794479f1654655b75ebe65ad5",
+   "i": 11960
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在上面的NBT中，这两个标签的值分别是：",
+     "p": {}
+    }
+   ],
+   "text": "在上面的NBT中，这两个标签的值分别是：",
+   "sha256": "1bd18e926dbf80ab30a1af7db367a6f48aa6e6b0083ff39eb51f1c4eeb2dc95b",
+   "i": 11961
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "inTile:“minecraft:air“",
+     "p": {}
+    }
+   ],
+   "text": "inTile:“minecraft:air“",
+   "sha256": "e06e4bf17b8a1b5b153ee7897f433ae7ef2439e28798767529ae4ff479b1529c",
+   "i": 11962
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "inData:0b",
+     "p": {}
+    }
+   ],
+   "text": "inData:0b",
+   "sha256": "440792258f64f4fc2c6a00e61bbf9a4d799997f93379474baed95cc2113cbcf2",
+   "i": 11963
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你看，这minecraft:air不就是空气方块吗？这“0”不就是方块数据值吗？",
+     "p": {}
+    }
+   ],
+   "text": "你看，这minecraft:air不就是空气方块吗？这“0”不就是方块数据值吗？",
+   "sha256": "edc7cb3f3bcbafb7ad0ec8f0151e4c803e60720ca4bd5a7bd5442dab14ba8d02",
+   "i": 11964
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这两个标签存的是啥我们知道了，但用处呢？",
+     "p": {}
+    }
+   ],
+   "text": "这两个标签存的是啥我们知道了，但用处呢？",
+   "sha256": "2bd07e2785127af13d73066e51c0041a1b070c114b81e17cda3b813faf913d63",
+   "i": 11965
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们已经知道这支箭是飞在空中的，既然这里是空气方块，那么这两个的作用难道是.......",
+     "p": {}
+    }
+   ],
+   "text": "我们已经知道这支箭是飞在空中的，既然这里是空气方块，那么这两个的作用难道是.......",
+   "sha256": "43b6cca35e88b6b446786ff3f23362562901e5e9f96287a822107140364cbcd2",
+   "i": 11966
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这支箭所处的方块？",
+     "p": {}
+    }
+   ],
+   "text": "这支箭所处的方块？",
+   "sha256": "942a8ce658ed8bdae690f03d0c965e8799692b749cdaeebfe9d747ab4c3db035",
+   "i": 11967
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "您别说，您又对了。这两个标签的作用还真是这样的。",
+     "p": {}
+    }
+   ],
+   "text": "您别说，您又对了。这两个标签的作用还真是这样的。",
+   "sha256": "bbcf6801994f09e0d3b1f4bcac4de6071f023b4ea6eba7ae468f7690798af255",
+   "i": 11968
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但我们还没有回答上面的问题呢。实际上的确是被合并了。至于合并成了什么东西.......",
+     "p": {}
+    }
+   ],
+   "text": "但我们还没有回答上面的问题呢。实际上的确是被合并了。至于合并成了什么东西.......",
+   "sha256": "eba24229a4d62a33f7ca49219965c03dedf476e412fa613fe7313ec66bbc1d7f",
+   "i": 11969
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "已知Block+Data=BlockState，Block=Tile，求单词式inTile+inData的单词值。",
+     "p": {}
+    }
+   ],
+   "text": "已知Block+Data=BlockState，Block=Tile，求单词式inTile+inData的单词值。",
+   "sha256": "e3a590b67570539b4cb9321b54463b6fc6db21cb84e45ffe4d1a9e9858414684",
+   "i": 11970
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "解：",
+     "p": {}
+    }
+   ],
+   "text": "解：",
+   "sha256": "7f1385f388c66a5373cbd040e7ce2a3dae823ab43b2219c7d8298e40ea492137",
+   "i": 11971
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "inTile+inData=in(Tile+Data)",
+     "p": {}
+    },
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "inTile+inData=in(Tile+Data)①",
+   "sha256": "0faa856f6a04fba1e69d1bc121708b0edac9c7b5783a8924e72dd5571e61bbbb",
+   "i": 11972
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "将Block=Tile代入",
+     "p": {}
+    },
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "，得",
+     "p": {}
+    }
+   ],
+   "text": "将Block=Tile代入①，得",
+   "sha256": "45813a3b209740f91ad35177cea8a639758ab0a23dc5a7900928dc85e590d9f3",
+   "i": 11973
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "inTile+inData=in(Block+Data)",
+     "p": {}
+    },
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "inTile+inData=in(Block+Data)②",
+   "sha256": "2a15de6d97a341dd69d78764f45eddfb5bd463bb0a27149f13c27210d194a91d",
+   "i": 11974
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "将Block+Data=BlockState代入",
+     "p": {}
+    },
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "，得",
+     "p": {}
+    }
+   ],
+   "text": "将Block+Data=BlockState代入②，得",
+   "sha256": "c17dbfa0036773164d722e68cdec3e165721832ddaef0338e53832ef2a6a58ae",
+   "i": 11975
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "inTile+inData=inBlockState",
+     "p": {}
+    }
+   ],
+   "text": "inTile+inData=inBlockState",
+   "sha256": "e2fb2da94a27c624501e185661da980e363037122f882087842a13fa7ff2569f",
+   "i": 11976
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "∴",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "inTile+inData=inBlockState",
+     "p": {}
+    }
+   ],
+   "text": "∴inTile+inData=inBlockState",
+   "sha256": "6fe719a4b1495404643185997158d9f8094cb658031b0c8d57e6c385ab65bdc5",
+   "i": 11977
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.13版本扁平化过后，inTile和inData被合并成inBlockState（值类型：复合标签），内含两个NBT标签：",
+     "p": {}
+    }
+   ],
+   "text": "1.13版本扁平化过后，inTile和inData被合并成inBlockState（值类型：复合标签），内含两个NBT标签：",
+   "sha256": "248054db9015aa7024150307d674856af49c712d14cfe698c884c4bd0f3518d1",
+   "i": 11978
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Name（字符串）——该方块的ID",
+     "p": {}
+    }
+   ],
+   "text": "Name（字符串）——该方块的ID",
+   "sha256": "32cde86e5716f2ac4b6db4a79e7928642e929f925ff28b49f2a7eae7808ee529",
+   "i": 11979
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Propertie（复合标签）——该方块的命名空间",
+     "p": {}
+    }
+   ],
+   "text": "Propertie（复合标签）——该方块的命名空间",
+   "sha256": "a464c7c368ed04f56cda05971672c9c6723a4f333e3dd0383bf487bc5c1f11ca",
+   "i": 11980
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——方块状态名称：值（类型：字符串）",
+     "p": {}
+    }
+   ],
+   "text": "——方块状态名称：值（类型：字符串）",
+   "sha256": "489f2b1550111106e0edc85fb25eddf95d2c1da60fec12c2bd63a6b4b8e963fa",
+   "i": 11981
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 11982
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "crit这个单词的意思是“暴击”。在上面的NBT中，crit标签的值是：",
+     "p": {}
+    }
+   ],
+   "text": "crit这个单词的意思是“暴击”。在上面的NBT中，crit标签的值是：",
+   "sha256": "c526a6365f74557b500d87f0203abfc944a44c640d25821b6e4a4cd765ecc438",
+   "i": 11983
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1b",
+     "p": {}
+    }
+   ],
+   "text": "1b",
+   "sha256": "2caf767aa0a1dc4247210e3c2cfd50b6321a91dd49ff5ee0fe8d2b8b52317d67",
+   "i": 11984
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "说明crit标签的值类型是Byte字节型。既然值类型是字节型，那就说明这个标签的作用不是确定这支箭暴击的伤害，而是这支箭是否会造成暴击。",
+     "p": {}
+    }
+   ],
+   "text": "说明crit标签的值类型是Byte字节型。既然值类型是字节型，那就说明这个标签的作用不是确定这支箭暴击的伤害，而是这支箭是否会造成暴击。",
+   "sha256": "d01437276e5c9c258b43adede6bd17413047b7e4da7735ec0822da375d5c7b04",
+   "i": 11985
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以，这支箭会造成暴击，因为它的crit值是1。",
+     "p": {}
+    }
+   ],
+   "text": "所以，这支箭会造成暴击，因为它的crit值是1。",
+   "sha256": "5f3971f6192854101ec92d8ff77c46becedc6dfb5b6f1ed52f13e0e313f9471f",
+   "i": 11986
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "crit标签在1.11版本才被添加，1.11版本前没有这个标签，这需要注意一下。",
+     "p": {}
+    }
+   ],
+   "text": "crit标签在1.11版本才被添加，1.11版本前没有这个标签，这需要注意一下。",
+   "sha256": "a8d37298cc35f77904bb1fc9a746946996e70188343b58117a81c7d8db52e12c",
+   "i": 11987
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后，我们还剩下三个我们还未曾见过的标签：",
+     "p": {}
+    }
+   ],
+   "text": "最后，我们还剩下三个我们还未曾见过的标签：",
+   "sha256": "11ea9a4f83e06e0c0cc52c970a5a8109986d0956e7b890aaaa96dad469e4a5c0",
+   "i": 11988
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "xTile，yTile，zTile",
+     "p": {}
+    }
+   ],
+   "text": "xTile，yTile，zTile",
+   "sha256": "5e3b61bb2e466b62f7bb56220ebfb680d7a647dbd0518011b9b68fb18121b606",
+   "i": 11989
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这三个标签在上面的NBT中值都为-1，且没有类型字母，应该是Long长整型。并且它们三看起来跟坐标有关，而且坐标的三个值也是长整型......",
+     "p": {}
+    }
+   ],
+   "text": "这三个标签在上面的NBT中值都为-1，且没有类型字母，应该是Long长整型。并且它们三看起来跟坐标有关，而且坐标的三个值也是长整型......",
+   "sha256": "66207653e90130d843ab8038cceb5b43daaeca3b05f1c6bcd4945b56bc8c0f66",
+   "i": 11990
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，我这边说一点，这三个标签不是箭共通标签内的，它们还出现在1.11以前的鱼竿浮标和火球类实体（如火焰弹，凋零之首）中。至于它们三有什么用，我们以后再了解。",
+     "p": {}
+    }
+   ],
+   "text": "首先，我这边说一点，这三个标签不是箭共通标签内的，它们还出现在1.11以前的鱼竿浮标和火球类实体（如火焰弹，凋零之首）中。至于它们三有什么用，我们以后再了解。",
+   "sha256": "180ee61ccc003467d852a1f708308d66bf13e4d7892be050efafe69d4638ee07",
+   "i": 11991
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在我们知道箭共通标签内有这些东西：",
+     "p": {}
+    }
+   ],
+   "text": "现在我们知道箭共通标签内有这些东西：",
+   "sha256": "fe565ebb765554313b68fac1018645ec4726b6af1368e52b4aafb4a854926aaa",
+   "i": 11992
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "damage、shake、inGround、pickup、inTile和inData（inBlockState）、crit，那这就是全部了吗？",
+     "p": {}
+    }
+   ],
+   "text": "damage、shake、inGround、pickup、inTile和inData（inBlockState）、crit，那这就是全部了吗？",
+   "sha256": "fa893cdee17ca62744d5deeafea44cf37a76bf3833dc7647673c61116a8768ed",
+   "i": 11993
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不，在更新的版本中，还有一些更新的标签：",
+     "p": {}
+    }
+   ],
+   "text": "不，在更新的版本中，还有一些更新的标签：",
+   "sha256": "e0f941c2db6aa466f3b0d059cb6b024dacc23c444c4c9c0e503676440213e8bf",
+   "i": 11994
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "PierceLevel（Byte：字节型）——中文Wiki介绍是“箭能射穿实体的时间长度”，但这好像并不是这个用途",
+     "p": {}
+    }
+   ],
+   "text": "PierceLevel（Byte：字节型）——中文Wiki介绍是“箭能射穿实体的时间长度”，但这好像并不是这个用途",
+   "sha256": "119fa953b1e4bcad895cffd9a8fdd7ff65aab1a9424625390c1e650e0e3caeff",
+   "i": 11995
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ShotFromCrossbow（Byte：字节型[true|false]）（1.14+）——表示这支箭是否来自于一把弩",
+     "p": {}
+    }
+   ],
+   "text": "ShotFromCrossbow（Byte：字节型[true|false]）（1.14+）——表示这支箭是否来自于一把弩",
+   "sha256": "7adb6b177d2d46ec11e0088982e590a8fa32ae562ff4462697a5a1c8e3627658",
+   "i": 11996
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "SoundEvent——击中东西时触发的声音事件",
+     "p": {}
+    }
+   ],
+   "text": "SoundEvent——击中东西时触发的声音事件",
+   "sha256": "d4a1a8d6f19c25f7bad95552943767af1b93813efbba8a6668e599e28db04c54",
+   "i": 11997
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "SoundEvent我们先不用管。这个PierceLevel我本人也搞不懂，返回的值一直是0b，这可能是在击中实体的那一瞬间才可能会变化。剩下的这个，就是ShotFromCrossbow。",
+     "p": {}
+    }
+   ],
+   "text": "SoundEvent我们先不用管。这个PierceLevel我本人也搞不懂，返回的值一直是0b，这可能是在击中实体的那一瞬间才可能会变化。剩下的这个，就是ShotFromCrossbow。",
+   "sha256": "75f270d9bc11a2f8f100290986ebb9c1d82b7d127738b41691623508ddd148df",
+   "i": 11998
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "ShotFromCrossbow很简单，上面都介绍过了，相信只要是看得懂的都能懂吧？",
+     "p": {}
+    }
+   ],
+   "text": "ShotFromCrossbow很简单，上面都介绍过了，相信只要是看得懂的都能懂吧？",
+   "sha256": "2083af612537e208cfd274ed6207bcbc76690086b2e145276718afb7a91b28ab",
+   "i": 11999
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "总之，只要ShotFromCrossbow的值为1b，那么这箭就来自一把弩，0b则来自其他的东东。",
+     "p": {}
+    }
+   ],
+   "text": "总之，只要ShotFromCrossbow的值为1b，那么这箭就来自一把弩，0b则来自其他的东东。",
+   "sha256": "42a23c00f0dfe11d7432d61655560a0038c28301a38261ad72678928efe725f5",
+   "i": 12000
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是“箭共通标签”。",
+     "p": {}
+    }
+   ],
+   "text": "这就是“箭共通标签”。",
+   "sha256": "fd40688b9c5870c9d67a6ba3eb9be9e5775ade397d085c4d38a176074e05203b",
+   "i": 12001
+  }
+ ],
+ "text_sha256": "11958db37d9e227c53d5f89a838190b1c2d076556b4b0c04c96cd8df92dea373",
+ "chars": 4538
+}

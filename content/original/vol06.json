@@ -1,0 +1,89 @@
+{
+ "id": "vol06",
+ "kind": "volume",
+ "number": 6,
+ "title": "第六卷 服务器中的指令",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   3485,
+   3486
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "bookmark": "_第六卷_服务器中的指令"
+    },
+    {
+     "t": "第六卷 ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "服务器中的指令",
+     "p": {}
+    }
+   ],
+   "text": "第六卷 服务器中的指令",
+   "sha256": "fe33d1f4166cc01bbde9fb761329f327074c2b9ee4eafa21f0184934ab825c14",
+   "i": 3485
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "本卷主要内容是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    },
+    {
+     "t": "Java版的服务器，也有部分指令和操作在基岩版中也是可用的。",
+     "p": {
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "本卷主要内容是Java版的服务器，也有部分指令和操作在基岩版中也是可用的。",
+   "sha256": "a94e325c9369be9b81905eaa6c2bb1115eba50c28391811a8534330c6671a4ed",
+   "i": 3486
+  }
+ ],
+ "text_sha256": "f4f9e1cacd861d6720770a5abaa8b0c005f69e10cb6dd815438d058f62ff0658",
+ "chars": 48
+}

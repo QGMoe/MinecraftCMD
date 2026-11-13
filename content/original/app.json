@@ -1,0 +1,40 @@
+{
+ "id": "app",
+ "kind": "appendix",
+ "number": null,
+ "title": "附录",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   13004,
+   13004
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 1",
+    "ind": {
+     "firstLine": "904"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "附录",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "附录",
+   "sha256": "5938c55b15dcaf09df8a928d2155c9c1b6edc59298a415b6d5beb301a6231d62",
+   "i": 13004
+  }
+ ],
+ "text_sha256": "5938c55b15dcaf09df8a928d2155c9c1b6edc59298a415b6d5beb301a6231d62",
+ "chars": 2
+}

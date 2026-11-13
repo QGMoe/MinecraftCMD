@@ -1,0 +1,1413 @@
+{
+ "id": "ch126",
+ "kind": "chapter",
+ "number": 126,
+ "title": "第一百二十六章 玩家与JSON的交互事件 下",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   10117,
+   10202
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "第一百二十六章 玩家与JSON的交互事件 下",
+     "p": {}
+    }
+   ],
+   "text": "第一百二十六章 玩家与JSON的交互事件 下",
+   "sha256": "9753954512347c53d31a32be8b229b1b81e191a5343f03cd6f45f656fb094a7d",
+   "i": 10117
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们知道玩家和JSON文本的交互方式有按住某个键并点击，或者是直接点击文本。",
+     "p": {}
+    }
+   ],
+   "text": "现在，我们知道玩家和JSON文本的交互方式有按住某个键并点击，或者是直接点击文本。",
+   "sha256": "600fb717cc72f548a003ad05d41f95613890e9bdfcef8460bc852a9e9b3e26bf",
+   "i": 10118
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "只不过从广义上来讲，这都是要点击文本。那么有没有什么不用点击文本就可以与文本产生交互事件的元素呢？",
+     "p": {}
+    }
+   ],
+   "text": "只不过从广义上来讲，这都是要点击文本。那么有没有什么不用点击文本就可以与文本产生交互事件的元素呢？",
+   "sha256": "e60a977c0a4ea49327f59adc901560437b5043819ee06b745bb82840d66812c3",
+   "i": 10119
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "有！这就是：hoverEvent",
+     "p": {}
+    }
+   ],
+   "text": "有！这就是：hoverEvent",
+   "sha256": "2723647dee97835fdd9d5f1a3acc30bec86c1cf7f0b5da153159ea673eec854d",
+   "i": 10120
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "hoverEvent的作用是当玩家把鼠标指针移到文字上面时产生的事情，而不是点击。",
+     "p": {}
+    }
+   ],
+   "text": "hoverEvent的作用是当玩家把鼠标指针移到文字上面时产生的事情，而不是点击。",
+   "sha256": "18cf8f4134c0e6a0610a67892d6cb14f52f45c46fdaca99442aa2d70e2a68f7e",
+   "i": 10121
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "hoverEvent和上一章讲的clickEvent比较类似，值都是一个对象，由action和value组成。",
+     "p": {}
+    }
+   ],
+   "text": "hoverEvent和上一章讲的clickEvent比较类似，值都是一个对象，由action和value组成。",
+   "sha256": "18a3563ccc198d96f4c1f1a66eb96a658c6c1616d507dbc1359aca6f1f16f7f1",
+   "i": 10122
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "有了上一章的经验，这两个的作用也就不需要再讲了吧？",
+     "p": {}
+    }
+   ],
+   "text": "有了上一章的经验，这两个的作用也就不需要再讲了吧？",
+   "sha256": "5308e9959870f788599dde679775268cdcb3e65b07999a2e9c42c42e16372af1",
+   "i": 10123
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "action有三种事件：",
+     "p": {}
+    }
+   ],
+   "text": "action有三种事件：",
+   "sha256": "3f0434c15b4dacd262ca1ac88828ab5cacfa1eb3078b8cb8d029b0feab323d27",
+   "i": 10124
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "show_text——显示条平平无奇的JSON文本",
+     "p": {}
+    }
+   ],
+   "text": "show_text——显示条平平无奇的JSON文本",
+   "sha256": "847633f3bd5add01fa0fd6685aa993c96ca4c9ce318008c7baca6d36012af299",
+   "i": 10125
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "show_item——显示一个物品的悬浮介绍文字",
+     "p": {}
+    }
+   ],
+   "text": "show_item——显示一个物品的悬浮介绍文字",
+   "sha256": "668e6e98e3222a8c116a0563e375458b5c8ff52a7a2b2ca0712353369f3b3c87",
+   "i": 10126
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "show_entity——显示一个实体",
+     "p": {}
+    }
+   ],
+   "text": "show_entity——显示一个实体",
+   "sha256": "fca15c14d23218a61dedcd9894df19a00689c320d342be0df237425f8e6a2ffc",
+   "i": 10127
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "show_text无疑是最简单的，你可以这样：",
+     "p": {}
+    }
+   ],
+   "text": "show_text无疑是最简单的，你可以这样：",
+   "sha256": "b31df6e7245837032827ccffa5c12c7fdf68bc29ef9de67703007cc29816ea7a",
+   "i": 10128
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_text“，“value“:“太棒了！感觉怎么样？“}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_text“，“value“:“太棒了！感觉怎么样？“}}",
+   "sha256": "3c7debd44ae59c43014294c00ddfd63c8c6e6c8bb40ad0c4cd7319d9c276a489",
+   "i": 10129
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子就会输出一串文字：快摸我！",
+     "p": {}
+    }
+   ],
+   "text": "这样子就会输出一串文字：快摸我！",
+   "sha256": "9aa00dc34293f3d0aebd69d99734a4a833fe9eca6784ae725c7082de73510493",
+   "i": 10130
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你把鼠标放在了上面，你就会发现上面出现了一串文字：太棒了！感觉怎么样？",
+     "p": {}
+    }
+   ],
+   "text": "如果你把鼠标放在了上面，你就会发现上面出现了一串文字：太棒了！感觉怎么样？",
+   "sha256": "1d171386bfe34b4b5be53bca3fb5b05437c66cb6ae7fdf147b7b8d2944ca5792",
+   "i": 10131
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你也可以这样：",
+     "p": {}
+    }
+   ],
+   "text": "你也可以这样：",
+   "sha256": "d66d892aae21c0e82950039e859cb20ef1a6f0918c64f7bf5a77f4abe581b86d",
+   "i": 10132
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_text“，“value“:{“text“:“太棒了！感觉怎么样？“}}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_text“，“value“:{“text“:“太棒了！感觉怎么样？“}}}",
+   "sha256": "70b39946c58a8485b9b617e0c5ffe2bf84e6a46ca5165fff6a8d109c649181fd",
+   "i": 10133
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "或是这样：",
+     "p": {}
+    }
+   ],
+   "text": "或是这样：",
+   "sha256": "cef85d8b0efbaeae2a06eabbb24a5bbd714eebb289dcfdbde9cef48238ab9053",
+   "i": 10134
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_text“，“value“:[{“text“:“太棒了！感觉怎么样？“}]}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_text“，“value“:[{“text“:“太棒了！感觉怎么样？“}]}}",
+   "sha256": "08789938a4102918bfb65394b3e880ad4deae8539db1e470ba4c3fcf79b3eea4",
+   "i": 10135
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "甚至是这样：",
+     "p": {}
+    }
+   ],
+   "text": "甚至是这样：",
+   "sha256": "8a46cb8d0b7888269dd62027d3938ea5ad300106b2308482b11e623ba219a664",
+   "i": 10136
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_text“，“value“:[{“translate“:“%s“，“with“:[{“translate“:“%s“，“with“:[{“translate“:“%s“，“with“:[{“translate“:“%s“，“with“:[{“text“:“太棒了！感觉怎么样？“}]}]}]}]}]}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_text“，“value“:[{“translate“:“%s“，“with“:[{“translate“:“%s“，“with“:[{“translate“:“%s“，“with“:[{“translate“:“%s“，“with“:[{“text“:“太棒了！感觉怎么样？“}]}]}]}]}]}}",
+   "sha256": "cb979d67ccc1407de918a33ec1634bd0b6c483f9b2a91cdd5d2a597576b4d372",
+   "i": 10137
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "都是可以达到一样的效果的，你也可以添加一些别的元素，比如改变文字颜色什么的。",
+     "p": {}
+    }
+   ],
+   "text": "都是可以达到一样的效果的，你也可以添加一些别的元素，比如改变文字颜色什么的。",
+   "sha256": "e2ec1a4eb9d94eaec38ff3395655278957e52061a7c4d79a7b00da741332a24b",
+   "i": 10138
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后是show_item，这个的作用详细一点说，就是放在文字上面可以显示一个物品的详细信息，就像是你在背包里把光标移到物品上面一样。",
+     "p": {}
+    }
+   ],
+   "text": "然后是show_item，这个的作用详细一点说，就是放在文字上面可以显示一个物品的详细信息，就像是你在背包里把光标移到物品上面一样。",
+   "sha256": "111eebd89565612fe36a4c0be85c1e16939c2a2ad5cb6150ed686c255183ae0d",
+   "i": 10139
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "show_item的value也是字符串，但是里面还要写一个对象，所以里面的引号前面都要加上转义符号，不理解的可以去上一章看看作者是怎么用指令放置一个带JSON的告示牌的，那条指令里面的JSON文本就跟这里的value是差不多的。",
+     "p": {}
+    }
+   ],
+   "text": "show_item的value也是字符串，但是里面还要写一个对象，所以里面的引号前面都要加上转义符号，不理解的可以去上一章看看作者是怎么用指令放置一个带JSON的告示牌的，那条指令里面的JSON文本就跟这里的value是差不多的。",
+   "sha256": "03938cce51720cc2fb40832f35b275dea97ac9c48cbc72183a07a1d3e42c37d8",
+   "i": 10140
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "OK，那么具体要怎么做呢？",
+     "p": {}
+    }
+   ],
+   "text": "OK，那么具体要怎么做呢？",
+   "sha256": "8b0faa80a0c21a6ae0877709efeca24e8978cd0769abbd720c0a4a468a38fc97",
+   "i": 10141
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在第一百零八章，我们讲到了物品的通用标签：",
+     "p": {}
+    }
+   ],
+   "text": "在第一百零八章，我们讲到了物品的通用标签：",
+   "sha256": "5f078d6afb280622406ea039bf3ff395ff5e3768d9f7ccc7343aeb53f18534c2",
+   "i": 10142
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "“Count——物品堆叠的数量",
+     "p": {}
+    }
+   ],
+   "text": "“Count——物品堆叠的数量",
+   "sha256": "5a67c1e7e0894c01fc979bc3e4f7905cd3d83ccd384c58d920a377a057379b9b",
+   "i": 10143
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Slot——物品所在的栏位（为掉落物时没有这个值）",
+     "p": {}
+    }
+   ],
+   "text": "Slot——物品所在的栏位（为掉落物时没有这个值）",
+   "sha256": "bf05e86751ae608f102cb6f1a00b221a576c385dd9965602c627d715434cfc2e",
+   "i": 10144
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "id——物品id，神奇的是如果你不填，那么生成出来的掉落物就是一块石头",
+     "p": {}
+    }
+   ],
+   "text": "id——物品id，神奇的是如果你不填，那么生成出来的掉落物就是一块石头",
+   "sha256": "b847bfba2c8f6248b034902e6299189110696b56cacfee2bf956ed3ae1c4678e",
+   "i": 10145
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "tag——这个接下来就是物品的非必填标签了，比如ench等都在里面。”",
+     "p": {}
+    }
+   ],
+   "text": "tag——这个接下来就是物品的非必填标签了，比如ench等都在里面。”",
+   "sha256": "426c99a43ac0ea8f7ab1181ffb6280bcc544f5b67b02c4bb94e0bdd918b3469f",
+   "i": 10146
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在这里，我们也需要用到物品的通用标签，这里我们拿悬浮显示一个“苹果”的悬浮文字举例。",
+     "p": {}
+    }
+   ],
+   "text": "在这里，我们也需要用到物品的通用标签，这里我们拿悬浮显示一个“苹果”的悬浮文字举例。",
+   "sha256": "b50295c6e5bf541c6bf3491392bf52a0c180af026cc6a1122efad2eddb09db03",
+   "i": 10147
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们需要先把value外边的JSON先给理清楚：",
+     "p": {}
+    }
+   ],
+   "text": "我们需要先把value外边的JSON先给理清楚：",
+   "sha256": "d53dea2084931d30600196097629f70466c77a9720256335eefb44fddc9d7738",
+   "i": 10148
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_item“，“value“:““}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_item“，“value“:““}}",
+   "sha256": "fee2943e44940b9c4786873eeaa4bfa243500fc944c2320a268f947973f927f5",
+   "i": 10149
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后我们就可以研究研究value该怎么写了，首先肯定要加上id，这是必须的：",
+     "p": {}
+    }
+   ],
+   "text": "然后我们就可以研究研究value该怎么写了，首先肯定要加上id，这是必须的：",
+   "sha256": "6beb78377c25682191e0af36b324709b3eb80889ae0d25650379561a4b8dce94",
+   "i": 10150
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "“value“:“{id:\\“minecraft:apple\\“}“",
+     "p": {}
+    }
+   ],
+   "text": "“value“:“{id:\\“minecraft:apple\\“}“",
+   "sha256": "01c51f4018020663272fd9082676e2a86587aee5f3c3f76d1c8935e7d1e88744",
+   "i": 10151
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后你可以试着先执行一下：",
+     "p": {}
+    }
+   ],
+   "text": "然后你可以试着先执行一下：",
+   "sha256": "de956a7616a1c57dead5820e090f709ca55e8b69ccd7f534e1431b026238d663",
+   "i": 10152
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_item“，“value“:“{id:\\“minecraft:apple\\“}“}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_item“，“value“:“{id:\\“minecraft:apple\\“}“}}",
+   "sha256": "2db815948f837722c3aec58f2bc94bce2d219cc78c1ddfaf1ad47b2ffe44b246",
+   "i": 10153
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "只不过光标一放上去，就显示了一条红色的文本：",
+     "p": {}
+    }
+   ],
+   "text": "只不过光标一放上去，就显示了一条红色的文本：",
+   "sha256": "97c93025492854ce70683979bcb6a7fa7e989b0aa0aa93038e6db2244ebdf20e",
+   "i": 10154
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Invalid Item",
+     "p": {}
+    }
+   ],
+   "text": "Invalid Item",
+   "sha256": "99e1d9ad903ac08d23da20791891034138e39c5975e9788b5ca35c65134439af",
+   "i": 10155
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这句话的意思是：无效的物品",
+     "p": {}
+    }
+   ],
+   "text": "这句话的意思是：无效的物品",
+   "sha256": "232f070c4a68465694a3eab4c370175c40dda3e940f8b8b9332865226b28abcb",
+   "i": 10156
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "既然无效，那么肯定就是我们有必填项没填，可以试着加一下Count参数：",
+     "p": {}
+    }
+   ],
+   "text": "既然无效，那么肯定就是我们有必填项没填，可以试着加一下Count参数：",
+   "sha256": "c4cfd82e344cb3825e82cb833f567025574d43e7ad46911c0492a7ae2c564db2",
+   "i": 10157
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "“value“:“{id:\\“minecraft:apple\\“，Count:1}“",
+     "p": {}
+    }
+   ],
+   "text": "“value“:“{id:\\“minecraft:apple\\“，Count:1}“",
+   "sha256": "4acc010dd650824252d587ffb3a3c3f79a4da0424b7b5f5d3d714b79f394d730",
+   "i": 10158
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后再试一下：",
+     "p": {}
+    }
+   ],
+   "text": "然后再试一下：",
+   "sha256": "de2a298598046c584184176bc2ed79542bb29fcbf9e0917717dcb3b0bbafe73d",
+   "i": 10159
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_item“，“value“:“{id:\\“minecraft:apple\\“，Count:1}“}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_item“，“value“:“{id:\\“minecraft:apple\\“，Count:1}“}}",
+   "sha256": "a62f570db11e0a3f3922e07381936e64b2fe7fcf1fd9be81bc5e296aa9b4ecd5",
+   "i": 10160
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你就会发现，你成功显示了一个苹果！",
+     "p": {}
+    }
+   ],
+   "text": "你就会发现，你成功显示了一个苹果！",
+   "sha256": "f72f0b1aad20b88623b54922bc40d791ff5082414ec883ec215d5c0b3b56a106",
+   "i": 10161
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "只不过显示苹果并没有什么奇特的，因为看起来这就跟普通的显示文本差不多啊？",
+     "p": {}
+    }
+   ],
+   "text": "只不过显示苹果并没有什么奇特的，因为看起来这就跟普通的显示文本差不多啊？",
+   "sha256": "9b34c1a77db88a9ccef29b28c0c7ea76d3c75deacccf8126061385c3986b777c",
+   "i": 10162
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其实并不一样，因为这个苹果文本和我们之前说过的translate显示出来的翻译文本差不多，你只要改变一下语言，再把光标一放，唉，立马就不一样了！而且还是实时更新，不需要更改语言后再执行一次。",
+     "p": {}
+    }
+   ],
+   "text": "其实并不一样，因为这个苹果文本和我们之前说过的translate显示出来的翻译文本差不多，你只要改变一下语言，再把光标一放，唉，立马就不一样了！而且还是实时更新，不需要更改语言后再执行一次。",
+   "sha256": "f555957257a72e4c292b690334f56eb1459bdcff74f0e00fa506aca970998fd0",
+   "i": 10163
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "只不过这还不是最特别的，你还可以尝试一下把苹果（apple）改成钻石剑：",
+     "p": {}
+    }
+   ],
+   "text": "只不过这还不是最特别的，你还可以尝试一下把苹果（apple）改成钻石剑：",
+   "sha256": "396bada38f55e0364c1b41deac6799054cf3f00c93cad0a5b31e5670575d6020",
+   "i": 10164
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_item“，“value“:“{id:\\“minecraft:diamond_sword\\“，Count:1}“}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_item“，“value“:“{id:\\“minecraft:diamond_sword\\“，Count:1}“}}",
+   "sha256": "ff04a57d70c6fbeb5452a94a2654cf56fbce53a1c7fb7cd16b31caf506494597",
+   "i": 10165
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后光标再一放：",
+     "p": {}
+    }
+   ],
+   "text": "然后光标再一放：",
+   "sha256": "ae90205fdedb63d578f6af626da12c6a10579e019b2ce3cf45c4036c41b32eb4",
+   "i": 10166
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "钻石剑",
+     "p": {}
+    }
+   ],
+   "text": "钻石剑",
+   "sha256": "fa4bea52320d3a0a92f2bc460f991cdb5f3b5f4cf83c58c9f7e7a1c3e9a23df6",
+   "i": 10167
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在主手时：",
+     "p": {}
+    }
+   ],
+   "text": "在主手时：",
+   "sha256": "2e4e6d917c5e7a7027eb4dca43d05e62f12a780863e47bf1ca62baf2336cbf19",
+   "i": 10168
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.6攻击速度",
+     "p": {}
+    }
+   ],
+   "text": "1.6攻击速度",
+   "sha256": "62e5956f0e5456967b727f84304a66ef9b055d18e5ce53801b3020122dbd4803",
+   "i": 10169
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "7攻击伤害",
+     "p": {}
+    }
+   ],
+   "text": "7攻击伤害",
+   "sha256": "2b90ebf7757e3a70401e3b843559be1166950b1116ed0e9a9ffcf83a98f917b3",
+   "i": 10170
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "是不是一模一样？",
+     "p": {}
+    }
+   ],
+   "text": "是不是一模一样？",
+   "sha256": "12f82ff8e5a4312ea2eab530ee9388a4ae54341e264ebd4b15ced40b561562da",
+   "i": 10171
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么这有什么用处呢？",
+     "p": {}
+    }
+   ],
+   "text": "那么这有什么用处呢？",
+   "sha256": "9dc3a222c3b67ba2bb3d3bc87910276cb079a4fc800d14f9f83a448100b59704",
+   "i": 10172
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你平常仔细观察，你就会发现如果我们使用/give指令：",
+     "p": {}
+    }
+   ],
+   "text": "如果你平常仔细观察，你就会发现如果我们使用/give指令：",
+   "sha256": "e0e00438af2d373c06b95c3d0d9d5e3e5e6ea4c6136c2b8bde46bdf07c19af83",
+   "i": 10173
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/give @s diamond_sword",
+     "p": {}
+    }
+   ],
+   "text": "/give @s diamond_sword",
+   "sha256": "2fb41b9cba4ee06aa8c4dc562617abb731ccc951dc33c23e0125de010ae2441f",
+   "i": 10174
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子获得一个钻石剑，把光标放在提示消息上，也会出现一样的效果。",
+     "p": {}
+    }
+   ],
+   "text": "这样子获得一个钻石剑，把光标放在提示消息上，也会出现一样的效果。",
+   "sha256": "27bc4974c975608f92bc079697ac3b6575b89a6f5569a86034622caeb4d6dd73",
+   "i": 10175
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后一个：show_entity",
+     "p": {}
+    }
+   ],
+   "text": "最后一个：show_entity",
+   "sha256": "1dcd7a7150e5b43c910c92a2ecb776a6ce593a4197c8d391e03103d7f986483f",
+   "i": 10176
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "show_entity这个和show_item差不多，value值也是字符串，仍然需要转义，只不过从物品变成了实体而已：",
+     "p": {}
+    }
+   ],
+   "text": "show_entity这个和show_item差不多，value值也是字符串，仍然需要转义，只不过从物品变成了实体而已：",
+   "sha256": "8db50d1ae4c22499e3089e191eae6e3bac3e170ff4b81a48c87e093f3ef18053",
+   "i": 10177
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_entity“，“value“:“{}“}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_entity“，“value“:“{}“}}",
+   "sha256": "5277b375c4ec64edce74e6ac7de40ea34b8ab78c495c33a60e6342d503a5081e",
+   "i": 10178
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么对象里面该填啥呢？可以填实体的name（名字）、type（种类）、tag（NBT标签）和id（UUID）。",
+     "p": {}
+    }
+   ],
+   "text": "那么对象里面该填啥呢？可以填实体的name（名字）、type（种类）、tag（NBT标签）和id（UUID）。",
+   "sha256": "bb62c688a3139a7d761e10e8eaa1f78d87ede6135d8900c584c39310187a76ea",
+   "i": 10179
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这三个属性可以方便我们“伪造”出一个虚拟的实体，比如我们最基础的可以伪造一名叫做“人”的玩家：",
+     "p": {}
+    }
+   ],
+   "text": "这三个属性可以方便我们“伪造”出一个虚拟的实体，比如我们最基础的可以伪造一名叫做“人”的玩家：",
+   "sha256": "c6a30034b1de9600f0bc3580ba58a345b99b5f155c9af1f5101679aa99b6843d",
+   "i": 10180
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_entity“，.“value“:“{name:\\“人\\“，type:\\“minecraft:player\\“}“}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_entity“，.“value“:“{name:\\“人\\“，type:\\“minecraft:player\\“}“}}",
+   "sha256": "a3f94a4cbd86255ff49d5787f5b75fb5e857e438a0a82640a5d2e1fe4ad692e7",
+   "i": 10181
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但是当你把光标放在上面之后，你就会发现：“唉，咋啥都没有呢？”",
+     "p": {}
+    }
+   ],
+   "text": "但是当你把光标放在上面之后，你就会发现：“唉，咋啥都没有呢？”",
+   "sha256": "4a368702577bb0843e1483a3730c0d1545f0278a558ebcc219898854fed4b745",
+   "i": 10182
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "别慌，我们可以再填一个id：",
+     "p": {}
+    }
+   ],
+   "text": "别慌，我们可以再填一个id：",
+   "sha256": "d2c11af56893572af8a9654d8f08b9b3e2e1f90c9b7611091c546f06d4f1528e",
+   "i": 10183
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_entity“，“value“:“{name:\\“人\\“，type:\\“minecraft:player\\“，id:\\“b5bef018-4307-48c8-894c-391f7bc3d8db\\“}“}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_entity“，“value“:“{name:\\“人\\“，type:\\“minecraft:player\\“，id:\\“b5bef018-4307-48c8-894c-391f7bc3d8db\\“}“}}",
+   "sha256": "f68b919738df6eafa7cc34454586a9e5e13b3849b3fa335d476d195962ca64ec",
+   "i": 10184
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "运行之后，唉还是没有出现。",
+     "p": {}
+    }
+   ],
+   "text": "运行之后，唉还是没有出现。",
+   "sha256": "598610e176007afd12641b12e275598cf7665bc9ef8981f31b54825e3195a5be",
+   "i": 10185
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这到底是怎么回事？",
+     "p": {}
+    }
+   ],
+   "text": "这到底是怎么回事？",
+   "sha256": "36ed4e93913d88eb3ae7b48a893dbd6e1563b268fa03d1667bd7c410176bd4c5",
+   "i": 10186
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "额，这个作者也不知道，但估计是版本的问题，于是作者换了一个版本（1.13.2到1.12.2）：",
+     "p": {}
+    }
+   ],
+   "text": "额，这个作者也不知道，但估计是版本的问题，于是作者换了一个版本（1.13.2到1.12.2）：",
+   "sha256": "6c50176f8f349e0eacb06a2a9db5d5de84a2126d1d0b5a294357f24c6201290a",
+   "i": 10187
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/tellraw @a {“text“:“快摸我！“，“hoverEvent“:{“action“:“show_entity“，“value“:“{name:\\“人\\“，type:\\“minecraft:player\\“，id:\\“b5bef018-4307-48c8-894c-391f7bc3d8db\\“}“}}",
+     "p": {}
+    }
+   ],
+   "text": "/tellraw @a {“text“:“快摸我！“，“hoverEvent“:{“action“:“show_entity“，“value“:“{name:\\“人\\“，type:\\“minecraft:player\\“，id:\\“b5bef018-4307-48c8-894c-391f7bc3d8db\\“}“}}",
+   "sha256": "bb25ffd073ef48c2e2aeb3fa5f2fce0f59963f3b58c7f12195fb1987edcd6776",
+   "i": 10188
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "结果还是不行。",
+     "p": {}
+    }
+   ],
+   "text": "结果还是不行。",
+   "sha256": "c4f17516fe58a451542d42662603bd371cf7173935d8c10c1df31567b742fedb",
+   "i": 10189
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么或许我们可以换一种思路——使用真实存在的玩家行不行？",
+     "p": {}
+    }
+   ],
+   "text": "那么或许我们可以换一种思路——使用真实存在的玩家行不行？",
+   "sha256": "8f3497c89f143b1517a0ea94a2e568ccadbb405c90fab452111e4a534364ac46",
+   "i": 10190
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为此作者又测试了一下，还是不行。",
+     "p": {}
+    }
+   ],
+   "text": "为此作者又测试了一下，还是不行。",
+   "sha256": "e7e4349262d0d012ce3a8199015ed680da8725d3c0627d710d794c0c8c0ffa60",
+   "i": 10191
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那就算了吧，可能是特性，毕竟如果错了，起码应该还有一个Invalid Entity的提示信息，啥也不显示估计是真的游戏bug了。",
+     "p": {}
+    }
+   ],
+   "text": "那就算了吧，可能是特性，毕竟如果错了，起码应该还有一个Invalid Entity的提示信息，啥也不显示估计是真的游戏bug了。",
+   "sha256": "2b028f750b351578eb194e71c67325658181e16f52b869f75ae56bc586efe53e",
+   "i": 10192
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么这就代表着本章结束了吗？",
+     "p": {}
+    }
+   ],
+   "text": "那么这就代表着本章结束了吗？",
+   "sha256": "f0f592c9134c42c2b131a62691410821e5f7f5f3f4f151a1687c6a925d88630e",
+   "i": 10193
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不，还没有！",
+     "p": {}
+    }
+   ],
+   "text": "不，还没有！",
+   "sha256": "3137f452e3b580604a496c3b2bb59e2c0f5c2ef5630d8ff8d50d199becdcfe13",
+   "i": 10194
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft 1.16更新，Mojang不用了value（我们还可以用，是支持的），转而使用了contents参数。contents参数和value类似，但有些地方有稍稍改进，比如show_item和show_entity就再也不是字符串了，所以我们的显示钻石剑就要被迫改成：",
+     "p": {}
+    }
+   ],
+   "text": "Minecraft 1.16更新，Mojang不用了value（我们还可以用，是支持的），转而使用了contents参数。contents参数和value类似，但有些地方有稍稍改进，比如show_item和show_entity就再也不是字符串了，所以我们的显示钻石剑就要被迫改成：",
+   "sha256": "594fb3d3e9c56477654a5b9e5384818acbccc77617e9c464c83bc2f470cb0f96",
+   "i": 10195
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_item“，“contents“:{“id“:“minecraft:diamond_sword“，“Count“:1}}}",
+     "p": {}
+    }
+   ],
+   "text": "{“text“:“快摸我！“，“hoverEvent“:{“action“:“show_item“，“contents“:{“id“:“minecraft:diamond_sword“，“Count“:1}}}",
+   "sha256": "7ba95016d0232adada4479908065941bcbfd2508aad312ffcd593c0e7cb62f80",
+   "i": 10196
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "可以发现，1.16的NBT更加JSON了，参数都要加上引号了。",
+     "p": {}
+    }
+   ],
+   "text": "可以发现，1.16的NBT更加JSON了，参数都要加上引号了。",
+   "sha256": "8ae20c026ef641b737e97a664660526761f3fd1e690006430687fc29d46cc6c2",
+   "i": 10197
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么我们的show_entity能用了吗？可以测试一下：",
+     "p": {}
+    }
+   ],
+   "text": "那么我们的show_entity能用了吗？可以测试一下：",
+   "sha256": "9b34ee56ac5aa7b4fe4fc6d5a10a2a01db55be3abd5897388b73a5de433577d7",
+   "i": 10198
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/tellraw @a {“text“:“快摸我！“，“hoverEvent“:{“action“:“show_entity“，“contents“:{“name“:“人“，“type“:“minecraft:player“，“id“:“b5bef018-4307-48c8-894c-391f7bc3d8db“}}}",
+     "p": {}
+    }
+   ],
+   "text": "/tellraw @a {“text“:“快摸我！“，“hoverEvent“:{“action“:“show_entity“，“contents“:{“name“:“人“，“type“:“minecraft:player“，“id“:“b5bef018-4307-48c8-894c-391f7bc3d8db“}}}",
+   "sha256": "41e384676080f000355911b87d5ccb779d171280b172f74da940c1fe883c8c76",
+   "i": 10199
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "结果还是不行，但既然到了最新版本还不行，这是否代表着我们是填对的，只不过.......",
+     "p": {}
+    }
+   ],
+   "text": "结果还是不行，但既然到了最新版本还不行，这是否代表着我们是填对的，只不过.......",
+   "sha256": "76d6787bc1c05d1bd6d7217393a25c468733072ae98ee322efd1268fc416f802",
+   "i": 10200
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没有可以显示的东西？",
+     "p": {}
+    }
+   ],
+   "text": "没有可以显示的东西？",
+   "sha256": "d815edbe28aaf56df5131ca7b6e38ce442d77d9602d28ef8cdd9b64448259441",
+   "i": 10201
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "lang": {
+      "eastAsia": "ja-JP"
+     }
+    }
+   },
+   "c": [
+    {
+     "t": "（注：1.16版本，实体的name标签已经支持了JSON文本。",
+     "p": {}
+    },
+    {
+     "t": "）",
+     "p": {
+      "lang": {
+       "eastAsia": "ja-JP"
+      }
+     }
+    }
+   ],
+   "text": "（注：1.16版本，实体的name标签已经支持了JSON文本。）",
+   "sha256": "21fb36dd125855172b23fe67005c2935d8c4ed23be3d4cb85d3124a1007cc7b3",
+   "i": 10202
+  }
+ ],
+ "text_sha256": "b02a874206998280a6a29e25696c030dcb00512efea60dc6a09e15681c9aae5f",
+ "chars": 3605
+}

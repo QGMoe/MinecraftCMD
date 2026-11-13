@@ -1,0 +1,2457 @@
+{
+ "id": "ch116",
+ "kind": "chapter",
+ "number": 116,
+ "title": "第一百一十六章 advancement-让人一夜回到解放前的指令",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   9121,
+   9271
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第一百一十六章_advancement-让人一夜回到解放前的指令"
+    },
+    {
+     "t": "第一百一十六章 advancement-让人一夜回到解放前的指令",
+     "p": {}
+    }
+   ],
+   "text": "第一百一十六章 advancement-让人一夜回到解放前的指令",
+   "sha256": "02e5986bbebc3e49b3281cd1f39b9854eae010a256683298bb4ad4f443ca6e0e",
+   "i": 9121
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "2017年6月7日，Mojang发布了一次Minecraft JAVA重大更新，即Minecraft JAVA1.12版本，又称“多彩世界更新”。在这次更新中，许多的方块和物品都迎来了“多彩时代”，然而，在其他方面的一些更新也是值得注意的。",
+     "p": {}
+    }
+   ],
+   "text": "2017年6月7日，Mojang发布了一次Minecraft JAVA重大更新，即Minecraft JAVA1.12版本，又称“多彩世界更新”。在这次更新中，许多的方块和物品都迎来了“多彩时代”，然而，在其他方面的一些更新也是值得注意的。",
+   "sha256": "8715d4c9a12c91eaa7c32fee7ae06d5d4040a557635e4c620736f1c203c853cc",
+   "i": 9122
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，最需要注意的就是成就系统被进度系统取代了。同时随着进度取代成就的，还有一个全新的指令：/advancement",
+     "p": {}
+    }
+   ],
+   "text": "其中，最需要注意的就是成就系统被进度系统取代了。同时随着进度取代成就的，还有一个全新的指令：/advancement",
+   "sha256": "fb5e12209445882fbef58e6ea8cc4ed8e11a8acc9f9ed2c72eee1b8ca4356d3b",
+   "i": 9123
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是什么指令呢？",
+     "p": {}
+    }
+   ],
+   "text": "这是什么指令呢？",
+   "sha256": "67954075c5bed13a10b8d37be6c3d0afe02697fa828e1ac5d1dca2c95271afaa",
+   "i": 9124
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先我们看看它的中文翻译：进度",
+     "p": {}
+    }
+   ],
+   "text": "首先我们看看它的中文翻译：进度",
+   "sha256": "205b44c9ed15107510c114b206574ddce7a4f4b9fbffc7402a294020b2a55dd1",
+   "i": 9125
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "看看它的中文翻译，这已经满脸都写着“进度”二字了。那么它到底有什么用？",
+     "p": {}
+    }
+   ],
+   "text": "看看它的中文翻译，这已经满脸都写着“进度”二字了。那么它到底有什么用？",
+   "sha256": "83cbb19583a84b381f82b925c630fa0c5f0520f41ad5d53b7d4be80569f6f2b1",
+   "i": 9126
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很简单，修改一个玩家的进度。",
+     "p": {}
+    }
+   ],
+   "text": "很简单，修改一个玩家的进度。",
+   "sha256": "c0064bb5e6f41ea0c79567411d3dc607764d7f305556f22b1789e4c6404519d3",
+   "i": 9127
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "没错，使用这条指令，你可以开局1秒不到就“结束了”，也可以在别人终于达成“就快到了”进度时，突然给它移除掉这个进度。",
+     "p": {}
+    }
+   ],
+   "text": "没错，使用这条指令，你可以开局1秒不到就“结束了”，也可以在别人终于达成“就快到了”进度时，突然给它移除掉这个进度。",
+   "sha256": "733d435df2dee889964c679af3b8c3e82eb84be90cf679b3ed1bcf4bbff93cf4",
+   "i": 9128
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "只不过我并不推荐你这么做，因为如果这样子做的话他会疯的（实际上并不只是“疯”那么简单，小心他会给你来个当场自杀，因为这可比删别人玩了10年的存档还要狠得多个亿古戈尔）。",
+     "p": {}
+    }
+   ],
+   "text": "只不过我并不推荐你这么做，因为如果这样子做的话他会疯的（实际上并不只是“疯”那么简单，小心他会给你来个当场自杀，因为这可比删别人玩了10年的存档还要狠得多个亿古戈尔）。",
+   "sha256": "d6b5880c14d1b33b0d0d58ecc18e69271408aed77e6e465e309e105bb62695cb",
+   "i": 9129
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么具体就来看看这条指令到底该怎么用吧。",
+     "p": {}
+    }
+   ],
+   "text": "那么具体就来看看这条指令到底该怎么用吧。",
+   "sha256": "2a95b1cfffa5f59b481a77ce3dc2497b8319d17791d0b7058de1628bb2d7842a",
+   "i": 9130
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/advancement",
+     "p": {}
+    }
+   ],
+   "text": "/advancement",
+   "sha256": "f08311facc83f0c479ac3350568abffbac87c792130ffd5516f8169953322dd2",
+   "i": 9131
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：对指定玩家进行移除或添加指定进度的操作。",
+     "p": {}
+    }
+   ],
+   "text": "作用：对指定玩家进行移除或添加指定进度的操作。",
+   "sha256": "00d3f9286469e71616eeb2bf3158e3aeac7167d087da52713008db6a17df6aa8",
+   "i": 9132
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用权限下限：管理员（OP）",
+     "p": {}
+    }
+   ],
+   "text": "使用权限下限：管理员（OP）",
+   "sha256": "2f81e33ac155c3bfc51acbe7c88fa098c5b3077fa220d2ce07a0f71f105455f4",
+   "i": 9133
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "是否可使用命令方块执行：是",
+     "p": {}
+    }
+   ],
+   "text": "是否可使用命令方块执行：是",
+   "sha256": "d795389f2e9d22d3db328ddd40b5c0d5f6eb0a8d163d9bdb916a6d3a9a02a770",
+   "i": 9134
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {}
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 9135
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/advancement <grant|revoke><目标选择器：玩家> only <进度id>[条件]",
+     "p": {}
+    }
+   ],
+   "text": "/advancement <grant|revoke><目标选择器：玩家> only <进度id>[条件]",
+   "sha256": "128337466c4df0d68da687e9b415fbc9a4f3bc91793acf6ada243a9c11ba5b3e",
+   "i": 9136
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/advancement <grant|revoke><目标选择器：玩家><until|from|through><进度id>",
+     "p": {}
+    }
+   ],
+   "text": "/advancement <grant|revoke><目标选择器：玩家><until|from|through><进度id>",
+   "sha256": "f1101be666c2b9b858939ea75486d1cfc424ce3f449201321d41bc2188cfc57b",
+   "i": 9137
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/advancement <grant|revoke><目标选择器：玩家> everything",
+     "p": {}
+    }
+   ],
+   "text": "/advancement <grant|revoke><目标选择器：玩家> everything",
+   "sha256": "4e61f3f5839835786cf65f9fb136bd484a069209e73dd2e88d1881027d8d61bf",
+   "i": 9138
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "首先，你需要选择你要进行哪种操作，即到底是grant（授予）还是revoke（移除）。",
+     "p": {}
+    }
+   ],
+   "text": "首先，你需要选择你要进行哪种操作，即到底是grant（授予）还是revoke（移除）。",
+   "sha256": "8a68a1c649d0bade6d6b7a744b05ddc2f5e87a78e572eef27880952e2f22491d",
+   "i": 9139
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后你就需要通过目标选择器来锁定你要操作哪个玩家。",
+     "p": {}
+    }
+   ],
+   "text": "然后你就需要通过目标选择器来锁定你要操作哪个玩家。",
+   "sha256": "39afaf7c0122d5d3ea82a17ae2fec5e68b3d809f4beeb9d631e0d1dbd38946a4",
+   "i": 9140
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "接着，就有点不一样了。",
+     "p": {}
+    }
+   ],
+   "text": "接着，就有点不一样了。",
+   "sha256": "93aa7609335e88fa388180bdf86e607b93588884f1bd029a92c3b36524ae233f",
+   "i": 9141
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一个格式这里是only，中文即“只有”，也就是你只有操作玩家的这个进度。",
+     "p": {}
+    }
+   ],
+   "text": "第一个格式这里是only，中文即“只有”，也就是你只有操作玩家的这个进度。",
+   "sha256": "48a1a084f063284c769a52ec4914fd3b3be897e3141bbc3734044991b15ff4b8",
+   "i": 9142
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二个格式就多得很了，你可以选择是until（直到.....为止）或是from（从）还是through（从头到尾）的操作。人工翻译成人话就是：",
+     "p": {}
+    }
+   ],
+   "text": "第二个格式就多得很了，你可以选择是until（直到.....为止）或是from（从）还是through（从头到尾）的操作。人工翻译成人话就是：",
+   "sha256": "a4e085abb03f31bc4b5774507fd951dfb61044ad0faf45b75256babe636ea65b",
+   "i": 9143
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "until——从这条进度类别的起始进度开始，直到这条进度的所有进度。",
+     "p": {}
+    }
+   ],
+   "text": "until——从这条进度类别的起始进度开始，直到这条进度的所有进度。",
+   "sha256": "7754fc95a6e85f2fc655e013136591cb330242fdcabdd19047129c4536aa28bf",
+   "i": 9144
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "from——从这条进度开始，下游的所有进度。",
+     "p": {}
+    }
+   ],
+   "text": "from——从这条进度开始，下游的所有进度。",
+   "sha256": "83f2540a0d13a02d8a44a8bdab337b88b4a897c6ac6bb627f043403645f06d5c",
+   "i": 9145
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "through——从这条进度类别的起始进度开始，通过这条进度，直到这条进度下游的所有进度。",
+     "p": {}
+    }
+   ],
+   "text": "through——从这条进度类别的起始进度开始，通过这条进度，直到这条进度下游的所有进度。",
+   "sha256": "db62bbb6576d7235e0179d6d2b73eac7a0023462e47bc5b33449fd96c8a7b95e",
+   "i": 9146
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么知道了这三个操作的作用，那么具体是锁定哪些进度呢？",
+     "p": {}
+    }
+   ],
+   "text": "那么知道了这三个操作的作用，那么具体是锁定哪些进度呢？",
+   "sha256": "dfb09393e25b73f311f6dd2a6d83086c3dd00da4b3f3c14bdf0f449887f574dd",
+   "i": 9147
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如下界里的“凋零山庄”这个进度，它的上游是：",
+     "p": {}
+    }
+   ],
+   "text": "比如下界里的“凋零山庄”这个进度，它的上游是：",
+   "sha256": "2ebb7f12c7b34a3a43405492d21c95a9e4c87e925891d9501d703f01e6caf7f6",
+   "i": 9148
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "下界（起始进度）——>可怕的要塞——>诡异又可怕的骷髅——>凋零山庄（1.12版本）",
+     "p": {}
+    }
+   ],
+   "text": "下界（起始进度）——>可怕的要塞——>诡异又可怕的骷髅——>凋零山庄（1.12版本）",
+   "sha256": "7a6aa00d5574abefeb388a9407386bd431a572224f59b11acf239959ffefc945",
+   "i": 9149
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "它的下游是：",
+     "p": {}
+    }
+   ],
+   "text": "它的下游是：",
+   "sha256": "3605a51cfe0935133e080654ceb68c8afad4c0ce7456dc883202a2aae5e5f21a",
+   "i": 9150
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "凋零山庄——>带信标回家——>信标工程师（1.12版本）",
+     "p": {}
+    }
+   ],
+   "text": "凋零山庄——>带信标回家——>信标工程师（1.12版本）",
+   "sha256": "d4c85257f23053157dfc4228e165c2180e7b6f75813379554031bdcec6672dd5",
+   "i": 9151
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么用only操作的话，那么只会操作“凋零山庄”这个进度。",
+     "p": {}
+    }
+   ],
+   "text": "那么用only操作的话，那么只会操作“凋零山庄”这个进度。",
+   "sha256": "c95c41b4519527e1df1319c4d9c80588551f243572207c5ead5efd5fc8a3ccea",
+   "i": 9152
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "而用until操作，则会操作“下界（起始进度）——>可怕的要塞——>诡异又可怕的骷髅——>凋零山庄”这一整条的所有进度。",
+     "p": {}
+    }
+   ],
+   "text": "而用until操作，则会操作“下界（起始进度）——>可怕的要塞——>诡异又可怕的骷髅——>凋零山庄”这一整条的所有进度。",
+   "sha256": "37279c254ef8de18ff27254853eeb412aaffa785ffac97629dd602059f2a29ff",
+   "i": 9153
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用from，则会操作“凋零山庄——>带信标回家——>信标工程师”这一整条的所有进度。",
+     "p": {}
+    }
+   ],
+   "text": "用from，则会操作“凋零山庄——>带信标回家——>信标工程师”这一整条的所有进度。",
+   "sha256": "398dffa0e2a57809e018baa564106120c0220ee74998408506c3b43be5b1960e",
+   "i": 9154
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用through，则会操作“下界（起始进度）——>可怕的要塞——>诡异又可怕的骷髅——>凋零山庄——>带信标回家——>信标工程师”这一整条的所有进度。",
+     "p": {}
+    }
+   ],
+   "text": "用through，则会操作“下界（起始进度）——>可怕的要塞——>诡异又可怕的骷髅——>凋零山庄——>带信标回家——>信标工程师”这一整条的所有进度。",
+   "sha256": "42a4b1d708088cf1dc49c3ceaf07d8a039ffc5492d1b5e6b9dc04545699c9864",
+   "i": 9155
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么问题来了，有些进度的下游它还有分支啊，那么这些分支该怎么办？",
+     "p": {}
+    }
+   ],
+   "text": "那么问题来了，有些进度的下游它还有分支啊，那么这些分支该怎么办？",
+   "sha256": "db4ee0c09b7108e67b3e39778ea6fc2159ecaf23a088ec6c9ec49d457cc7d169",
+   "i": 9156
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很简单，全选呗。",
+     "p": {}
+    }
+   ],
+   "text": "很简单，全选呗。",
+   "sha256": "37abcac5d99a9e64d351c852fe02d5b91b4b4fef227d7bbf990b4628fc555657",
+   "i": 9157
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如Minecraft里的“冰桶挑战”这个进度，它的下游是：",
+     "p": {}
+    }
+   ],
+   "text": "比如Minecraft里的“冰桶挑战”这个进度，它的下游是：",
+   "sha256": "4f8c57ef10641324eb0021c2067492af54ea499990534faf15c839fef2639588",
+   "i": 9158
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（假装这里是空格空格空格空格空）",
+     "p": {}
+    },
+    {
+     "t": "↱",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "僵尸科医生",
+     "p": {}
+    }
+   ],
+   "text": "（假装这里是空格空格空格空格空）↱僵尸科医生",
+   "sha256": "e8a79014b40f7753ed0d238c38650c969811479d2b35ecf2a8999a1ffc5a8b5f",
+   "i": 9159
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "冰桶挑战——>我们需要再深入些——>隔墙有眼——>结束了？（1.12版本）",
+     "p": {}
+    }
+   ],
+   "text": "冰桶挑战——>我们需要再深入些——>隔墙有眼——>结束了？（1.12版本）",
+   "sha256": "fc30d09af91e5c44826b699ab229fd824c18e896ba7f25d445620f2f3826cf59",
+   "i": 9160
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么使用from就会选择上面的所有进度。through同理。",
+     "p": {}
+    }
+   ],
+   "text": "那么使用from就会选择上面的所有进度。through同理。",
+   "sha256": "fbea0025c326414c0eb4c5a145d4c864a531e24f314e64e17c74ab356a1256d9",
+   "i": 9161
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么搞懂了这3个之后，最后的everything是什么呢？",
+     "p": {}
+    }
+   ],
+   "text": "那么搞懂了这3个之后，最后的everything是什么呢？",
+   "sha256": "aa363dcff32199957ff2d5e1496abf9f0d7969c257006f04201558b16e31c694",
+   "i": 9162
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "锁定全部成就啊！",
+     "p": {}
+    }
+   ],
+   "text": "锁定全部成就啊！",
+   "sha256": "833956bd4f6404e9d44b6f12a084233ef3dbddfe7a96dedb3511d3e165aebc23",
+   "i": 9163
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "也就是说，使用/advancement <grant|revoke>@s everything就可以在一秒内给予自己所有的成就或移除自己所有的成就喽。",
+     "p": {}
+    }
+   ],
+   "text": "也就是说，使用/advancement <grant|revoke>@s everything就可以在一秒内给予自己所有的成就或移除自己所有的成就喽。",
+   "sha256": "d4664ffa6482724542cdc0d9928632dd8e7e8680544857386d28c563cf61517e",
+   "i": 9164
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这真的是太棒了！",
+     "p": {}
+    }
+   ],
+   "text": "这真的是太棒了！",
+   "sha256": "3e0acf2d59a1f1c6b6be5b754e861d17f99623afd094019bf255fce598f5619d",
+   "i": 9165
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三段格式到此为止了，接下来我们看看“再接着”：进度id",
+     "p": {}
+    }
+   ],
+   "text": "第三段格式到此为止了，接下来我们看看“再接着”：进度id",
+   "sha256": "03d984ce797f8c61f00a3699cfa3b18e9a680c87e3cf687dc7eb1aaba33eee1e",
+   "i": 9166
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "进度id的格式和我们的文件夹路径的格式基本是一样的。Minecraft这台电脑有5个盘，分别是：story（Minecraft）、nether（下界）、end（末地）、adventure（冒险）",
+     "p": {}
+    }
+   ],
+   "text": "进度id的格式和我们的文件夹路径的格式基本是一样的。Minecraft这台电脑有5个盘，分别是：story（Minecraft）、nether（下界）、end（末地）、adventure（冒险）",
+   "sha256": "daf387d93f4a237fbb9eaecb900ee2374c6a38e69e3891d56eddf1786035f287",
+   "i": 9167
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以进度的id的最开始都是这五种。",
+     "p": {}
+    }
+   ],
+   "text": "所以进度的id的最开始都是这五种。",
+   "sha256": "22df9c0ecdb94cfade0eaf1898c2428bd28a30274c621e2ccfcfebee11a04545",
+   "i": 9168
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然而接下来就比较没有规律了，因为第二层就是进度id了。",
+     "p": {}
+    }
+   ],
+   "text": "然而接下来就比较没有规律了，因为第二层就是进度id了。",
+   "sha256": "58ba5d969e31f9b46018bc4056fda21b6a7581697cf3aea2db84dd22ffbe3aee",
+   "i": 9169
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如“热腾腾的”这个进度的id就是：story/lava_bucket（注：其实这也是有命名空间的：minecraft：story/lava_bucket，所以其他mod才有进度）。其中lava_bucket直译成中文就是：熔岩桶。",
+     "p": {}
+    }
+   ],
+   "text": "比如“热腾腾的”这个进度的id就是：story/lava_bucket（注：其实这也是有命名空间的：minecraft：story/lava_bucket，所以其他mod才有进度）。其中lava_bucket直译成中文就是：熔岩桶。",
+   "sha256": "5a118aa0bbd2a81310603cc3b31c6addd00fd7624110aca1eb982fa3efce271b",
+   "i": 9170
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但其实这也可以理解的，因为本身一个类别就没有多少进度，再细分那能够分吗？",
+     "p": {}
+    }
+   ],
+   "text": "但其实这也可以理解的，因为本身一个类别就没有多少进度，再细分那能够分吗？",
+   "sha256": "8a1f1eea19b9d2800f3f7a11041cb57fde7de7c1ae190a3164fd45142848cace",
+   "i": 9171
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么第二个格式也就到此为止了，我们可以根据“热腾腾的”举一些例子：",
+     "p": {}
+    }
+   ],
+   "text": "那么第二个格式也就到此为止了，我们可以根据“热腾腾的”举一些例子：",
+   "sha256": "cd2026c6c26a3a47eab121e83c5de613a7e37106629d602dbfd9c9df6aa1dde5",
+   "i": 9172
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1./advancement grant @s until story/lava_bucket——给自己达成“热腾腾的”、“来硬的”、“获得升级”、“石器时代”、“Minecraft”进度。",
+     "p": {}
+    }
+   ],
+   "text": "1./advancement grant @s until story/lava_bucket——给自己达成“热腾腾的”、“来硬的”、“获得升级”、“石器时代”、“Minecraft”进度。",
+   "sha256": "c119f98165ace359f9fd0baf9120230a9ac813fdf1172e08a603e9b62f64e8b0",
+   "i": 9173
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "2./advancement grant @a from story/lava_bucket——给所有人达成“热腾腾的”、“冰桶挑战”、“我们需要再深入些”、“隔墙有眼”、“僵尸科医生”、“结束了？”进度。",
+     "p": {}
+    }
+   ],
+   "text": "2./advancement grant @a from story/lava_bucket——给所有人达成“热腾腾的”、“冰桶挑战”、“我们需要再深入些”、“隔墙有眼”、“僵尸科医生”、“结束了？”进度。",
+   "sha256": "221691dd872f32bdc1f555e8ab20980eb449f90c898d548425578cebda7bf5e9",
+   "i": 9174
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "3./advancement grant @a through story/lava_bucket——给所有人达成“Minecraft”、“石器时代”、“获得升级”、“来硬的”、“热腾腾的”、“冰桶挑战”、“我们需要再深入些”、“隔墙有眼”、“僵尸科医生”、“结束了？”进度。",
+     "p": {}
+    }
+   ],
+   "text": "3./advancement grant @a through story/lava_bucket——给所有人达成“Minecraft”、“石器时代”、“获得升级”、“来硬的”、“热腾腾的”、“冰桶挑战”、“我们需要再深入些”、“隔墙有眼”、“僵尸科医生”、“结束了？”进度。",
+   "sha256": "1bece2387e592c9d29d85b741841cde90c627c86ded8782d961a8bf93f4f3404",
+   "i": 9175
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但你估计也发现了，第一个格式还没到此为止。",
+     "p": {}
+    }
+   ],
+   "text": "但你估计也发现了，第一个格式还没到此为止。",
+   "sha256": "4d42db44760960bbd0255c668d5034b3fbee26bd33ce6bd551aacb9fdfa7f078",
+   "i": 9176
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "因为在第一个格式的最后，还有一个非必填项：[条件]。",
+     "p": {}
+    }
+   ],
+   "text": "因为在第一个格式的最后，还有一个非必填项：[条件]。",
+   "sha256": "bf37e5ba3c19107f081d5dfe6523adef7612460f56292e53c6350f33e901b1d0",
+   "i": 9177
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是什么意思呢？",
+     "p": {}
+    }
+   ],
+   "text": "这是什么意思呢？",
+   "sha256": "52c36aaa0ae8ebded788b1d0339c38865d9a76140bae7417281b11669cd83ac9",
+   "i": 9178
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就要联系到进度的JSON文件存储格式了。",
+     "p": {}
+    }
+   ],
+   "text": "这就要联系到进度的JSON文件存储格式了。",
+   "sha256": "e1cfe4dc98c4c99271e5b79274d2ae478e10fc295e12b074a33678ed1bb0439b",
+   "i": 9179
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以条件我们就再拖....哦不是下次再讲了。",
+     "p": {}
+    }
+   ],
+   "text": "所以条件我们就再拖....哦不是下次再讲了。",
+   "sha256": "a25e059d29d2e8c17156017db34781d9e146d1de979b189623176001c1a90951",
+   "i": 9180
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（嘿，作者，那个“就快到了”成就的id是什么？）",
+     "p": {}
+    }
+   ],
+   "text": "（嘿，作者，那个“就快到了”成就的id是什么？）",
+   "sha256": "a1cb55fc61abe3c20fefbd9c940e8c9c092e5fe87b58b925305947f35e28eae7",
+   "i": 9181
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（不是之前就说了吗？是adventure/almost_there，你自己到九十五章到九十六章间的Minecraft2020愚人节更新介绍看，翻到最后有。）",
+     "p": {}
+    }
+   ],
+   "text": "（不是之前就说了吗？是adventure/almost_there，你自己到九十五章到九十六章间的Minecraft2020愚人节更新介绍看，翻到最后有。）",
+   "sha256": "831dad3aff61e3305a2e0a7284e381a7e56d04a5c85a2ab1f67e9ba3d5438663",
+   "i": 9182
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "进度ID大全：",
+     "p": {}
+    }
+   ],
+   "text": "进度ID大全：",
+   "sha256": "d2525dfbc6b30d23e4a91201b6ab7ec3ebeca1fef0d00bf5cb0c77539b87f836",
+   "i": 9183
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-Minecraft",
+     "p": {}
+    }
+   ],
+   "text": "-Minecraft",
+   "sha256": "309719acece7277d8437b00808ccb82a22b8faf4cfdae157dc62cb453d837841",
+   "i": 9184
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft——story/root",
+     "p": {}
+    }
+   ],
+   "text": "Minecraft——story/root",
+   "sha256": "b53a3ab20a95f2f592ecfbc22445a3874fd4a72877e70a09605042c86e22928c",
+   "i": 9185
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "石器时代——story/mine_stone",
+     "p": {}
+    }
+   ],
+   "text": "石器时代——story/mine_stone",
+   "sha256": "faa18892b46ac35026704878e2342b909ebf4e48bd6d49fa39ae6bbd7ae49250",
+   "i": 9186
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "获得升级——story/upgrade_tools",
+     "p": {}
+    }
+   ],
+   "text": "获得升级——story/upgrade_tools",
+   "sha256": "f9718eaeeadd6f542d3fc1ee694019261c63578f957fca60345fba5bafa3b04f",
+   "i": 9187
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "来硬的——story/smelt_iron",
+     "p": {}
+    }
+   ],
+   "text": "来硬的——story/smelt_iron",
+   "sha256": "210c00238434172430a9f0c242c4f2804b87dbc0580429a6e4371c9f3fd0dcb7",
+   "i": 9188
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "整装上阵——story/obtain_armor",
+     "p": {}
+    }
+   ],
+   "text": "整装上阵——story/obtain_armor",
+   "sha256": "52ff76b5a8caa71672b280b233fbc6a0da5c0cc4e550868cff483aee355558fb",
+   "i": 9189
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "热腾腾的——story/lava_bucket",
+     "p": {}
+    }
+   ],
+   "text": "热腾腾的——story/lava_bucket",
+   "sha256": "b6991c5af15405b2f266b4dafa77e71f5d8d7dc753b7fcdd3bd1706e509fa6b9",
+   "i": 9190
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这不是铁镐么——story/iron_tools",
+     "p": {}
+    }
+   ],
+   "text": "这不是铁镐么——story/iron_tools",
+   "sha256": "45b57bf663a95b21715f2ecc3695e87704d95bf138e9f37afabf34e6e73507e3",
+   "i": 9191
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不吃这套，谢谢——story/deflect_arrow",
+     "p": {}
+    }
+   ],
+   "text": "不吃这套，谢谢——story/deflect_arrow",
+   "sha256": "670f45d710334f1382727b1ff66f22d5a9d344a40934db07fd82812a56f13fcb",
+   "i": 9192
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "冰桶挑战——story/form_obsidian",
+     "p": {}
+    }
+   ],
+   "text": "冰桶挑战——story/form_obsidian",
+   "sha256": "05180d7bc174cd86c5c6b5cebc821b4cd1b1587856f789b8fa39874e77110770",
+   "i": 9193
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "钻石！——story/mine_diamond",
+     "p": {}
+    }
+   ],
+   "text": "钻石！——story/mine_diamond",
+   "sha256": "dad5161bd591cb316c5d683e3b7fee6afc09978255471234d60ab301eac31341",
+   "i": 9194
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "勇往直下——story/enter_the_nether",
+     "p": {}
+    }
+   ],
+   "text": "勇往直下——story/enter_the_nether",
+   "sha256": "14bd39219384fcee03b6b8fba796a67b918c5306e109369ae3723e7a0b91a836",
+   "i": 9195
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "钻石护体——story/shiny_gear",
+     "p": {}
+    }
+   ],
+   "text": "钻石护体——story/shiny_gear",
+   "sha256": "1072d0b83cb9b98b03b1a51eff9d781a86691431eb9103c8063abb4713a2ff75",
+   "i": 9196
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "附魔师——story/enchant_item",
+     "p": {}
+    }
+   ],
+   "text": "附魔师——story/enchant_item",
+   "sha256": "94d7d96d51226acf5cc98a621fbb1fffb4a1d8f2e0e4adcb307bfc7da1dece5a",
+   "i": 9197
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "僵尸科医生——story/cure_zombie_villager",
+     "p": {}
+    }
+   ],
+   "text": "僵尸科医生——story/cure_zombie_villager",
+   "sha256": "306e5a25bea7c20228352b2d19ebed8f6823301ba57357c9591b6a36f3c6b3ec",
+   "i": 9198
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "隔墙有眼——story/follow_ender_eye",
+     "p": {}
+    }
+   ],
+   "text": "隔墙有眼——story/follow_ender_eye",
+   "sha256": "974ab42e87a4cce709d27ca4bab1863c0030bd43aea88bd7bcb91f88814fed50",
+   "i": 9199
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "结束了？——story/enter_the_end",
+     "p": {}
+    }
+   ],
+   "text": "结束了？——story/enter_the_end",
+   "sha256": "0851f4fcb265a9a2e7e77c3448491811994ab32a2d23dcd53778d9332cb5d552",
+   "i": 9200
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-下界",
+     "p": {}
+    }
+   ],
+   "text": "-下界",
+   "sha256": "93116369591cea34f995572c027fa5e306154e5b7204d7b327b007304ba719e7",
+   "i": 9201
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "下界——nether/root",
+     "p": {}
+    }
+   ],
+   "text": "下界——nether/root",
+   "sha256": "75d89ab7ab83ea002a884de2ceca46dd6f2200baec14f318b5c3ac0679a91d83",
+   "i": 9202
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "见鬼去吧——nether/return_to_sender",
+     "p": {}
+    }
+   ],
+   "text": "见鬼去吧——nether/return_to_sender",
+   "sha256": "74624fc8a3bda931a15f1812ad5bd891d14ebcc22f717b958e7202d9852a7fca",
+   "i": 9203
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "光辉岁月——nether/find_bastion",
+     "p": {}
+    }
+   ],
+   "text": "光辉岁月——nether/find_bastion",
+   "sha256": "6b0e7d6e2694b73c85eb6895a0ea11aefb32196f5b6b0eb89614acd81ac21d12",
+   "i": 9204
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "深藏不露——nether/obtain_ancient_debris",
+     "p": {}
+    }
+   ],
+   "text": "深藏不露——nether/obtain_ancient_debris",
+   "sha256": "734b53e2e628a52081afeb00a5034ecc396376bc72a0ddef5fdc12a8329116e8",
+   "i": 9205
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "曲速泡——nether/fast_travel",
+     "p": {}
+    }
+   ],
+   "text": "曲速泡——nether/fast_travel",
+   "sha256": "24b0311ce82ebf943668642b8ec0148285822b0b16f1a64f7b56d4ee595905c7",
+   "i": 9206
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "阴森的要塞——nether/find_fortress",
+     "p": {}
+    }
+   ],
+   "text": "阴森的要塞——nether/find_fortress",
+   "sha256": "54818d15d57e204a83b8047f419a10fbcc11027693368ab761e46b9fd20446ae",
+   "i": 9207
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "谁在切洋葱？——nether/obtain_crying_obsidian",
+     "p": {}
+    }
+   ],
+   "text": "谁在切洋葱？——nether/obtain_crying_obsidian",
+   "sha256": "6bbf5dd33c68ff21cbd47056712b940f4d4214d7ab025793729dcf66070be00a",
+   "i": 9208
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "金光闪闪——nether/distract_piglin",
+     "p": {}
+    }
+   ],
+   "text": "金光闪闪——nether/distract_piglin",
+   "sha256": "d3395cc7b278ecbed7f7e113f6c36c803704dcc010205f2885eba592ed30336d",
+   "i": 9209
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "画船添足——nether/ride_strider",
+     "p": {}
+    }
+   ],
+   "text": "画船添足——nether/ride_strider",
+   "sha256": "ec431e5099354abfa39327b5c396575b140f8270104bcad6ded6511c6fed9ccb",
+   "i": 9210
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "脆弱的同盟——nether/uneasy_alliance",
+     "p": {}
+    }
+   ],
+   "text": "脆弱的同盟——nether/uneasy_alliance",
+   "sha256": "fbda782cdcd9e9166e5836faee12f792b349be4113073fba7ded90afd16b81c2",
+   "i": 9211
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "战猪——nether/loot_bastion",
+     "p": {}
+    }
+   ],
+   "text": "战猪——nether/loot_bastion",
+   "sha256": "8c1644117a658b2fd7d5cc3c73778d51d2e7f5ef83029cdf5b6bd729879fc31e",
+   "i": 9212
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "天涯共此石——nether/use_lodestone",
+     "p": {}
+    }
+   ],
+   "text": "天涯共此石——nether/use_lodestone",
+   "sha256": "953adfa2e5cc1a7606b79b6c7da4029483e372a40925027d44b11a012980fc1e",
+   "i": 9213
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "残骸裹身——nether/netherite_armor",
+     "p": {}
+    }
+   ],
+   "text": "残骸裹身——nether/netherite_armor",
+   "sha256": "3d61d06e502ef52f93e81efbf12a234a762197d1c75b610b67a66a0e135ff936",
+   "i": 9214
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "惊悚恐怖骷髅头——nether/get_wither_skull",
+     "p": {}
+    }
+   ],
+   "text": "惊悚恐怖骷髅头——nether/get_wither_skull",
+   "sha256": "4ecd882300e057735a20b8b0e85ed9b3bfa8219dae8fe36e033b9bdcbd7b7dfc",
+   "i": 9215
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "与火共舞——nether/obtain_blaze_rod",
+     "p": {}
+    }
+   ],
+   "text": "与火共舞——nether/obtain_blaze_rod",
+   "sha256": "6dbc97fa78d22c672e32e81f2bb6d553f50991535f4c42421fd1af7d57253be5",
+   "i": 9216
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "锚没有九条命——nether/charge_respawn_anchor",
+     "p": {}
+    }
+   ],
+   "text": "锚没有九条命——nether/charge_respawn_anchor",
+   "sha256": "11f03a0c36e6766198697990d1b729560513f9abc7921b8ca2c9fe3dd97fd7d5",
+   "i": 9217
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "热门景点——nether/explore_nether",
+     "p": {}
+    }
+   ],
+   "text": "热门景点——nether/explore_nether",
+   "sha256": "b86bc43b6df4fc92c56166cf440dd98fe7b117da4ec6fb6ef5ae623308ed3ff1",
+   "i": 9218
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "凋零山庄——nether/summon_wither",
+     "p": {}
+    }
+   ],
+   "text": "凋零山庄——nether/summon_wither",
+   "sha256": "457861ecf28fc2b354e85725e6d0fa4c96305cf8eebf86087d2f7166e6dd50d7",
+   "i": 9219
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本地的酿造厂——nether/brew_potion",
+     "p": {}
+    }
+   ],
+   "text": "本地的酿造厂——nether/brew_potion",
+   "sha256": "dcfed2771c0103fae93ef1de6fe48415c38d9a12e878a02bccc70e02b5e69e37",
+   "i": 9220
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "带信标回家——nether/create_beacon",
+     "p": {}
+    }
+   ],
+   "text": "带信标回家——nether/create_beacon",
+   "sha256": "849267da121eb221d6efde6e88fccfc8ed082b482329c734d2eb8c4c0502478e",
+   "i": 9221
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "狂乱的鸡尾酒——nether/all_potions",
+     "p": {}
+    }
+   ],
+   "text": "狂乱的鸡尾酒——nether/all_potions",
+   "sha256": "96bde98463eb7145bf4c9d768a15f86e7b6d5d60af465dd9b0f603ef07fb0712",
+   "i": 9222
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "信标工程师——nether/create_full_beacon",
+     "p": {}
+    }
+   ],
+   "text": "信标工程师——nether/create_full_beacon",
+   "sha256": "d7e497eb7d1550ef6405607de53da66b7c4cde842a594184e36a6303108be925",
+   "i": 9223
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为什么会变成这样呢？——nether/all_effects",
+     "p": {}
+    }
+   ],
+   "text": "为什么会变成这样呢？——nether/all_effects",
+   "sha256": "a7403869405a855be70f19cb5f0c65eaa519a198aeacd8d5c19c0ae6f2edbbb4",
+   "i": 9224
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-末地",
+     "p": {}
+    }
+   ],
+   "text": "-末地",
+   "sha256": "2f88a240f71838bfca34fbaf383b5f411ce9933c9e74881942bb20bc86068cb2",
+   "i": 9225
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "末地——end/root",
+     "p": {}
+    }
+   ],
+   "text": "末地——end/root",
+   "sha256": "db1c2691e040ee63e116863c020cbc412ed0bda39a0c51e55036884de30675f1",
+   "i": 9226
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "解放末地——end/kill_dragon",
+     "p": {}
+    }
+   ],
+   "text": "解放末地——end/kill_dragon",
+   "sha256": "f01256c91e7cbf92adc10d4f1c22b301f9233dde308d168a2043a4262f6aa312",
+   "i": 9227
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "下一世代——end/dragon_egg",
+     "p": {}
+    }
+   ],
+   "text": "下一世代——end/dragon_egg",
+   "sha256": "c33cebcf822d3834432565537a34b16448ad013d1d616ac86d02b81a5bbf850a",
+   "i": 9228
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "远程折跃——end/enter_end_gateway",
+     "p": {}
+    }
+   ],
+   "text": "远程折跃——end/enter_end_gateway",
+   "sha256": "05410f10f8bdf2b9d9ae4acb6486c78e70cc71ac086d58e4ff120a2282bb4ba7",
+   "i": 9229
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "结束了…再一次…——end/respawn_dragon",
+     "p": {}
+    }
+   ],
+   "text": "结束了…再一次…——end/respawn_dragon",
+   "sha256": "25991941f3fde54bf2754d504c4d0dc54b0fd7cda84ec66485642186107b444e",
+   "i": 9230
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你需要来点薄荷糖——end/dragon_breath",
+     "p": {}
+    }
+   ],
+   "text": "你需要来点薄荷糖——end/dragon_breath",
+   "sha256": "0ca9237d2714e936ba04b4742847bc89802b21ebd2a8d0cf45d223d7894c7950",
+   "i": 9231
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在游戏尽头的城市——end/find_end_city",
+     "p": {}
+    }
+   ],
+   "text": "在游戏尽头的城市——end/find_end_city",
+   "sha256": "ff1e7ca6a0bbbaa3c5d897a1675cdf4f6183e7fbe21f74f0d469d2a40bf02298",
+   "i": 9232
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "天空即为极限——end/elytra",
+     "p": {}
+    }
+   ],
+   "text": "天空即为极限——end/elytra",
+   "sha256": "691d5b0d6393ee251c2a9dcf288a7b76adc91504621ece799bde21b214bde080",
+   "i": 9233
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这上面的风景不错——end/levitate",
+     "p": {}
+    }
+   ],
+   "text": "这上面的风景不错——end/levitate",
+   "sha256": "644f1ecbdc6dd8f4a1f7a37d8dec11159272167d7095699b4651a2f71d378c6a",
+   "i": 9234
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-冒险",
+     "p": {}
+    }
+   ],
+   "text": "-冒险",
+   "sha256": "988ee88fecb209b2ff4ea881a94f76610052eebea91701b250c4e4b30e633b6a",
+   "i": 9235
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "冒险——adventure/root",
+     "p": {}
+    }
+   ],
+   "text": "冒险——adventure/root",
+   "sha256": "e35a715b146b431203d4be9343a36d6bbf9264ca55c67ce855cb38d0d25d484d",
+   "i": 9236
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "自我放逐——adventure/voluntary_exile",
+     "p": {}
+    }
+   ],
+   "text": "自我放逐——adventure/voluntary_exile",
+   "sha256": "a121e8659b5a504a4d799d1d9a0ad670639bf7d6b7ab020de187bf5d01ccc2f3",
+   "i": 9237
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "怪物猎人——adventure/kill_a_mob",
+     "p": {}
+    }
+   ],
+   "text": "怪物猎人——adventure/kill_a_mob",
+   "sha256": "fbfe9a08bb0a0d3a64e6eb85fec4300f9c194f75ab006cbd23dd74100126b4c4",
+   "i": 9238
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "成交！——adventure/trade",
+     "p": {}
+    }
+   ],
+   "text": "成交！——adventure/trade",
+   "sha256": "b2a68c0e9c077b67f5619f0945e585214f251cbccf7ae20fef9ba8ff576222a7",
+   "i": 9239
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "胶着状态——adventure/honey_block_slide",
+     "p": {}
+    }
+   ],
+   "text": "胶着状态——adventure/honey_block_slide",
+   "sha256": "d20623a5bc1774322a4e300de19d19760ccb5e18cc4ab3e0471862abd20c3b5a",
+   "i": 9240
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "扣下悬刀——adventure/ol_betsy",
+     "p": {}
+    }
+   ],
+   "text": "扣下悬刀——adventure/ol_betsy",
+   "sha256": "f881b0bdb8d4ff07b827073c480922d78466c5179ff0ba91dcc3f8aa3bd004cf",
+   "i": 9241
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "甜蜜的梦——adventure/sleep_in_bed",
+     "p": {}
+    }
+   ],
+   "text": "甜蜜的梦——adventure/sleep_in_bed",
+   "sha256": "2122e694207940a0a24cb63c51d34026857a3a8e46e7c51a125e0619ce24034d",
+   "i": 9242
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "村庄英雄——adventure/hero_of_the_village",
+     "p": {}
+    }
+   ],
+   "text": "村庄英雄——adventure/hero_of_the_village",
+   "sha256": "5c45763bc27472400400ede4fe5ad2efca0930e5f0bbd29f59c22fc64dcb5e8e",
+   "i": 9243
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "抖包袱——adventure/throw_trident",
+     "p": {}
+    }
+   ],
+   "text": "抖包袱——adventure/throw_trident",
+   "sha256": "f83bdf991ed6cd03ef6ce521c17acceba9349ac8e40ea67b256ef0f9e0c47222",
+   "i": 9244
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "瞄准目标——adventure/shoot_arrow",
+     "p": {}
+    }
+   ],
+   "text": "瞄准目标——adventure/shoot_arrow",
+   "sha256": "39d2e7c78f43dfe40b2ff482a2852d39e9f088f6ea80c4ea9ad7c46f903579f6",
+   "i": 9245
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "资深怪物猎人——adventure/kill_all_mobs",
+     "p": {}
+    }
+   ],
+   "text": "资深怪物猎人——adventure/kill_all_mobs",
+   "sha256": "44c2e84f76a3620112e3fc426195a2ec562d4b118b9891d334df0d8dfff29a3d",
+   "i": 9246
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "超越生死——adventure/totem_of_undying",
+     "p": {}
+    }
+   ],
+   "text": "超越生死——adventure/totem_of_undying",
+   "sha256": "30cdef271fa333414f2ab3b4f107e41ea16a0236cc75fc3b8b394dd5e013fee1",
+   "i": 9247
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "招募援兵——adventure/summon_iron_golem",
+     "p": {}
+    }
+   ],
+   "text": "招募援兵——adventure/summon_iron_golem",
+   "sha256": "42c08ad301bbdc441ab6199ad45914909dcc137d7cd9748b2ded3fee304ca94d",
+   "i": 9248
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "一箭双雕——adventure/two_birds_one_arrow",
+     "p": {}
+    }
+   ],
+   "text": "一箭双雕——adventure/two_birds_one_arrow",
+   "sha256": "048ef46a22af59de8fe1b81997796c69ccdd3093b68f44126b1e2a7e8adf55bb",
+   "i": 9249
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在谁才是掠夺者？——adventure/whos_the_pillager_now",
+     "p": {}
+    }
+   ],
+   "text": "现在谁才是掠夺者？——adventure/whos_the_pillager_now",
+   "sha256": "8731ba980c5ba06c36d0dbab13402be058bfa35c8895475c065903f86b37d60b",
+   "i": 9250
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "劲弩手——adventure/arbalistic",
+     "p": {}
+    }
+   ],
+   "text": "劲弩手——adventure/arbalistic",
+   "sha256": "11acd4c688af740fd6d240962a9041b159d57c7430c1328adee3b8edd06d9ead",
+   "i": 9251
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "探索的时光——adventure/adventuring_time",
+     "p": {}
+    }
+   ],
+   "text": "探索的时光——adventure/adventuring_time",
+   "sha256": "54e3a01d7b3911eaafc17960ea4ffbfa7f3b5f062d28ad22cd06b87ebc6797e5",
+   "i": 9252
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "魔女审判——adventure/very_very_frightening",
+     "p": {}
+    }
+   ],
+   "text": "魔女审判——adventure/very_very_frightening",
+   "sha256": "6b76821889074ecf3ba084c1318b55d26ef7550304d8c8ef718657de8ab87725",
+   "i": 9253
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "狙击手的对决——adventure/sniper_duel",
+     "p": {}
+    }
+   ],
+   "text": "狙击手的对决——adventure/sniper_duel",
+   "sha256": "3b05cdcf980b30e743544e4ee4b9d2969c315f05bf0f176491266b89627ade07",
+   "i": 9254
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "正中靶心——adventure/bullseye",
+     "p": {}
+    }
+   ],
+   "text": "正中靶心——adventure/bullseye",
+   "sha256": "d592af11e2f4483f4b2b3ff820132cefb2f57437e1eb80e01664ee7051231e92",
+   "i": 9255
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "-农牧业",
+     "p": {}
+    }
+   ],
+   "text": "-农牧业",
+   "sha256": "89428dcd773d9b3f61e96c15f16f77ffad07257b4db3170710f012f5fc3928cf",
+   "i": 9256
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "农牧业——husbandry/root",
+     "p": {}
+    }
+   ],
+   "text": "农牧业——husbandry/root",
+   "sha256": "b461f9e248f23083221803ad9f650ad24944e7c81aaacb00390f5fa69c77ff53",
+   "i": 9257
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "与蜂共舞——husbandry/safely_harvest_honey",
+     "p": {}
+    }
+   ],
+   "text": "与蜂共舞——husbandry/safely_harvest_honey",
+   "sha256": "ae3df4a08050ce6e3accb15013ed834e4db11cd760948e28fab319a840f4007a",
+   "i": 9258
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我从哪儿来？——husbandry/breed_an_animal",
+     "p": {}
+    }
+   ],
+   "text": "我从哪儿来？——husbandry/breed_an_animal",
+   "sha256": "ca3abfdcf195364618447addd39351110aab46d04ceaec2e3a7e09e1ce579b24",
+   "i": 9259
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "永恒的伙伴——husbandry/tame_an_animal",
+     "p": {}
+    }
+   ],
+   "text": "永恒的伙伴——husbandry/tame_an_animal",
+   "sha256": "d22e03869c290425987968bd064f8ee64471ef892b56ac047c9f07aab475d417",
+   "i": 9260
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "腥味十足的生意——husbandry/fishy_business",
+     "p": {}
+    }
+   ],
+   "text": "腥味十足的生意——husbandry/fishy_business",
+   "sha256": "33a032f3aa8063f01f0864cae51f1180dbb61ba65f7147df1626bd78b20af476",
+   "i": 9261
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举巢搬迁——husbandry/silk_touch_nest",
+     "p": {}
+    }
+   ],
+   "text": "举巢搬迁——husbandry/silk_touch_nest",
+   "sha256": "66d579dfa455f13084ea4ff64b5ec663a6f4aa747fb101d9dde3af52c1096691",
+   "i": 9262
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "开荒垦地——husbandry/plant_seed",
+     "p": {}
+    }
+   ],
+   "text": "开荒垦地——husbandry/plant_seed",
+   "sha256": "c4fc70e92830f6f94bcaf698de72dafe53186dd7928da70c1580cbc8fa1749e7",
+   "i": 9263
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "成双成对——husbandry/bred_all_animals",
+     "p": {}
+    }
+   ],
+   "text": "成双成对——husbandry/bred_all_animals",
+   "sha256": "2d2185513803221f91c182ab15b44d94cb5b9abc2afc6f58ae599a2a3b5cf98a",
+   "i": 9264
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "百猫全书——husbandry/complete_catalogue",
+     "p": {}
+    }
+   ],
+   "text": "百猫全书——husbandry/complete_catalogue",
+   "sha256": "457fdc2e3d53d31b63a137fd3c553979244e56afa869603769bd1d594cd9f87c",
+   "i": 9265
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "战术性钓鱼——husbandry/tactical_fishing",
+     "p": {}
+    }
+   ],
+   "text": "战术性钓鱼——husbandry/tactical_fishing",
+   "sha256": "078d24c56c558dc1c866eea65bb866b6c3036c3909ae606f194cbf65d66a0dfc",
+   "i": 9266
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "均衡饮食——husbandry/balanced_diet",
+     "p": {}
+    }
+   ],
+   "text": "均衡饮食——husbandry/balanced_diet",
+   "sha256": "b8e9d399a95af1b8f7a676a5ece36451dbe9c76ad7abd46bd73ad6e3b20430e8",
+   "i": 9267
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "终极奉献——husbandry/obtain_netherite_hoe",
+     "p": {}
+    }
+   ],
+   "text": "终极奉献——husbandry/obtain_netherite_hoe",
+   "sha256": "68b33e06810fc33493a3ccb4e940485a2ef10bc51de5675257ede3ec2eb04634",
+   "i": 9268
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/advancement历史：",
+     "p": {}
+    }
+   ],
+   "text": "/advancement历史：",
+   "sha256": "e71e7bbb710831742dbe4365f17c40301e4feb89ded8952851552d30de570688",
+   "i": 9269
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java版",
+     "p": {}
+    }
+   ],
+   "text": "Java版",
+   "sha256": "3a03cb4251ad4eca8294ce2df1e1d604cf434e4df0b17d0a3266dcc63e3afa15",
+   "i": 9270
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12——17w13a——加入了/advancement命令",
+     "p": {}
+    }
+   ],
+   "text": "1.12——17w13a——加入了/advancement命令",
+   "sha256": "29a3b6e7c4b2c11135f29220936cab62c3e1b123944bb0eca1a9c78665deb484",
+   "i": 9271
+  }
+ ],
+ "text_sha256": "650ae697f86025e7a363e4cd222bfe031d2333a6996ec0287caaf4f170449119",
+ "chars": 4745
+}

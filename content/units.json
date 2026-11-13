@@ -1,0 +1,2998 @@
+[
+ {
+  "id": "cover",
+  "kind": "cover",
+  "number": null,
+  "title": "Minecraft指令手册",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    0,
+    48
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "87886d846d3cb0a512ee04e62f6c76aa3aee73092f749bd159b067ef0fcf0a07",
+  "chars": 101
+ },
+ {
+  "id": "vol00",
+  "kind": "volume",
+  "number": 0,
+  "title": "第零卷 一些其他的东西",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    49,
+    49
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "04570655ac7381e02fa4c1134f923fa1d33e38eafcaeb58db47c75a2138805f4",
+  "chars": 11
+ },
+ {
+  "id": "f-minebbs-preface",
+  "kind": "front",
+  "number": null,
+  "title": "《Minecraft 指令手册》MineBBS 发布前言",
+  "source": {
+   "file": "MineBBS/0声明部分.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "c3b54370077d260e42808569ea0c0e75270ebcc1686fb7ca3c0e76b9999570c0",
+  "chars": 2282
+ },
+ {
+  "id": "f-afterword",
+  "kind": "front",
+  "number": null,
+  "title": "本书第一次大修完成感言",
+  "source": {
+   "file": "MineBBS/0声明部分.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "43a20509fa4a14b9114bcd925b69b08de5ffac7da942ecc687c64a26e78ced26",
+  "chars": 955
+ },
+ {
+  "id": "f-notes",
+  "kind": "front",
+  "number": null,
+  "title": "阅读本书需注意事项",
+  "source": {
+   "file": "MineBBS/0声明部分.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "fa8d834993f1ca55ecd84ea0dac1c8bca0191c73e0718e19173515c25ed6698f",
+  "chars": 1590
+ },
+ {
+  "id": "f-progress",
+  "kind": "front",
+  "number": null,
+  "title": "本书第一次大修进程表",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    91,
+    299
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "4fa4aa6ab328b3cb7fef6fdff9b45208d12e049b741c8695134c083757c99b32",
+  "chars": 3780
+ },
+ {
+  "id": "vol01",
+  "kind": "volume",
+  "number": 1,
+  "title": "第一卷 新手入门",
+  "source": {
+   "file": "MineBBS/0声明部分.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "605f0041f3aaf07025f9fbaa6e6d3ed63e78a5a89dd5637ac12be80503968d8e",
+  "chars": 27
+ },
+ {
+  "id": "preface",
+  "kind": "preface",
+  "number": null,
+  "title": "序言",
+  "source": {
+   "file": "MineBBS/0声明部分.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "67c50b340a80497ccf70d98e761295c5c945cb547f3cb57df45e90a037323727",
+  "chars": 2110
+ },
+ {
+  "id": "ch001",
+  "kind": "chapter",
+  "number": 1,
+  "title": "第一章 作弊与输入指令",
+  "source": {
+   "file": "MineBBS/1第一章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "51dbedcd49a23f3f569bb3bd4ad146db17e97f905d44b130fdefb7fa4c6471aa",
+  "chars": 3787
+ },
+ {
+  "id": "ch002",
+  "kind": "chapter",
+  "number": 2,
+  "title": "第二章 命令方块",
+  "source": {
+   "file": "MineBBS/2第二章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "133bbe51ac0a665ae84bca521686d5ee4c4a8ea7aa19ac35fe27f8184d3540aa",
+  "chars": 5073
+ },
+ {
+  "id": "ch003",
+  "kind": "chapter",
+  "number": 3,
+  "title": "第三章 §",
+  "source": {
+   "file": "MineBBS/3第三章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "de679d8bfef0412c900a88d59da86d86fa5a7ef213ab52b7761f0ec331a1c9d1",
+  "chars": 1860
+ },
+ {
+  "id": "ch004",
+  "kind": "chapter",
+  "number": 4,
+  "title": "第四章 目标选择器",
+  "source": {
+   "file": "MineBBS/4第四章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "0ccea63fe219ecf3e074fbe6ebfa177a474e6de885451a0e5933d7ae11a78df0",
+  "chars": 1377
+ },
+ {
+  "id": "ch005",
+  "kind": "chapter",
+  "number": 5,
+  "title": "第五章 坐标",
+  "source": {
+   "file": "MineBBS/5第五章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "2f4551be546254ff3d7f7d24baabe55e8f09594dff587a5c20d4a8aa28acd7d7",
+  "chars": 2755
+ },
+ {
+  "id": "ch006",
+  "kind": "chapter",
+  "number": 6,
+  "title": "第六章 玩家类别与权限等级",
+  "source": {
+   "file": "MineBBS/6第六章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "6f264599fa8ff8b960c96f8af241b6dabfa30223f9f44d89da4453a3cdd77455",
+  "chars": 2247
+ },
+ {
+  "id": "ch007",
+  "kind": "chapter",
+  "number": 7,
+  "title": "第七章 指令的格式与指令执行的三要素",
+  "source": {
+   "file": "MineBBS/7第七章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "cf60504752ca127cb1ea875f463169af2b27b099a380c836a3b4b3b3d5e3975b",
+  "chars": 2707
+ },
+ {
+  "id": "ch007-x1",
+  "kind": "extra",
+  "number": null,
+  "title": "MC新手要学习的基础—1—红石信号",
+  "source": {
+   "file": "MineBBS/8基础1.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "a87536197ca197353a02d6701f93ab012be5bf4677a2498f2e54179dd500a7d8",
+  "chars": 889
+ },
+ {
+  "id": "ch007-x2",
+  "kind": "extra",
+  "number": null,
+  "title": "MC新手要学习的基础—2—Minecraft版本的区分",
+  "source": {
+   "file": "MineBBS/9基础2.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "579e7d0fe7356fd1f6fb824399339fb96ed68c55aa409fd760f868ff4ef83763",
+  "chars": 6043
+ },
+ {
+  "id": "vol02",
+  "kind": "volume",
+  "number": 2,
+  "title": "第二卷 常用基础指令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    878,
+    879
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "42c845bc61971696b8232d17794d7ff33c91a5e5a41573e29d0feaf01ad2572c",
+  "chars": 27
+ },
+ {
+  "id": "ch008",
+  "kind": "chapter",
+  "number": 8,
+  "title": "第八章 /give的用法",
+  "source": {
+   "file": "MineBBS/201第八章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "2e70e894b9d6d1aa5cd212133d3387af8c88732cbe3f1d88adb1c5bfccf28453",
+  "chars": 2626
+ },
+ {
+  "id": "ch009",
+  "kind": "chapter",
+  "number": 9,
+  "title": "第九章 tp-传送指令",
+  "source": {
+   "file": "MineBBS/202第九章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "072d66c6a5dc5715e6e2eff0d8d4c2069cd8aece1ab9e7b451087af33a9b809e",
+  "chars": 2792
+ },
+ {
+  "id": "ch010",
+  "kind": "chapter",
+  "number": 10,
+  "title": "第十章 kill-熊孩子最喜欢的指令",
+  "source": {
+   "file": "MineBBS/203第十章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "846526499d1861ecb2bbdc71e27036d54d50cb2e26728f8a4eb3953132ea651e",
+  "chars": 1086
+ },
+ {
+  "id": "ch011",
+  "kind": "chapter",
+  "number": 11,
+  "title": "第十一章 gamemode-更改游戏模式",
+  "source": {
+   "file": "MineBBS/204第十一章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "8febc0ec26cd732d4ad205e585ce27eda4374bae18ef99f917d893d9709316d4",
+  "chars": 1818
+ },
+ {
+  "id": "ch012",
+  "kind": "chapter",
+  "number": 12,
+  "title": "第十二章 gamerule-自定游戏规则",
+  "source": {
+   "file": "MineBBS/205第十二章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "d4e50a4275a79c0e0fe3686adf7f7cc20801e336c0256eb32322e13cd1ac1293",
+  "chars": 4755
+ },
+ {
+  "id": "ch013",
+  "kind": "chapter",
+  "number": 13,
+  "title": "第十三章 clear-清除物品的指令",
+  "source": {
+   "file": "MineBBS/206第十三章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "9e160003a9e523b42922831ffbeca8088897401e6a01267273a358f7fccffed9",
+  "chars": 2697
+ },
+ {
+  "id": "ch014",
+  "kind": "chapter",
+  "number": 14,
+  "title": "第十四章 fill-填充指令",
+  "source": {
+   "file": "MineBBS/207第十四章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "0cad7993d244f92f78446303d5dd64ad4abfa09ddf9a2c2c931a4e3adbe35dfa",
+  "chars": 2282
+ },
+ {
+  "id": "ch015",
+  "kind": "chapter",
+  "number": 15,
+  "title": "第十五章 发送消息",
+  "source": {
+   "file": "MineBBS/208第十五章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "10eef7251fd332477847f33a4302bd6bfe6f311071e8a317b894c92518c4188d",
+  "chars": 1546
+ },
+ {
+  "id": "ch016",
+  "kind": "chapter",
+  "number": 16,
+  "title": "第十六章 title-屏幕标题",
+  "source": {
+   "file": "MineBBS/209第十六章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "108c4228787afa36bf17e989162090fb69e3c8e7dbc81927c5bf7efb9e3d397f",
+  "chars": 2537
+ },
+ {
+  "id": "ch017",
+  "kind": "chapter",
+  "number": 17,
+  "title": "第十七章 Java版JSON文本初识",
+  "source": {
+   "file": "MineBBS/210第十七章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "d97fe180616f3770d9ca9d66a1e1e297528543c7a49b9c1b765165e7544f5b06",
+  "chars": 6642
+ },
+ {
+  "id": "ch018",
+  "kind": "chapter",
+  "number": 18,
+  "title": "第十八章 在MC里斗表情",
+  "source": {
+   "file": "MineBBS/211第十八章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "5cb467345708b4dd6aa48593180870abe79134bed8cb35d4995664211328c2bc",
+  "chars": 3018
+ },
+ {
+  "id": "ch019",
+  "kind": "chapter",
+  "number": 19,
+  "title": "第十九章 time-改变时间",
+  "source": {
+   "file": "MineBBS/212第十九章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "0861ebf5fa241ed8476545e257cf73dd4132d92a2468523980fa25cf5e3a2469",
+  "chars": 1333
+ },
+ {
+  "id": "ch020",
+  "kind": "chapter",
+  "number": 20,
+  "title": "第二十章 weather-控制天气",
+  "source": {
+   "file": "MineBBS/213第二十章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "f0a64a0a7a87774852c01098467a197228d9b14ab777137a5482b32e4be905fb",
+  "chars": 1701
+ },
+ {
+  "id": "ch021",
+  "kind": "chapter",
+  "number": 21,
+  "title": "第二十一章 一些短小但不容忽视的指令",
+  "source": {
+   "file": "MineBBS/214第二十一章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "dc72dec0e5e51e7879a76ef185638d2743899bfb72d77d2554f095172e9174ea",
+  "chars": 3592
+ },
+ {
+  "id": "ch022",
+  "kind": "chapter",
+  "number": 22,
+  "title": "第二十二章 summon-生成实体",
+  "source": {
+   "file": "MineBBS/215第二十二章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "c69941d78ac893a163fb372ed9914dcc2b91c0232ccbf3f3d2540ccb38e33c68",
+  "chars": 1983
+ },
+ {
+  "id": "ch023",
+  "kind": "chapter",
+  "number": 23,
+  "title": "第二十三章 setblock-放置方块",
+  "source": {
+   "file": "MineBBS/216第二十三章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "eee612d1e8803b187de7c917d2b0c9966ec52b028d81143fa843a4e3a890c362",
+  "chars": 1469
+ },
+ {
+  "id": "ch024",
+  "kind": "chapter",
+  "number": 24,
+  "title": "第二十四章 xp-控制经验值",
+  "source": {
+   "file": "MineBBS/217第二十四章.txt"
+  },
+  "format": "bbcode-tokens",
+  "text_sha256": "3d9dfe4cbcdeafeee77cf0249ea04cc67e308f0eff72b69761e7b9f1a71fe3e2",
+  "chars": 2293
+ },
+ {
+  "id": "vol03",
+  "kind": "volume",
+  "number": 3,
+  "title": "第三卷 进入中等级别",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    1857,
+    1858
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "152c15338a25b4ba8a0cbc455f2f4bb2d704efa97288d12cfa45a15f7eb9d08c",
+  "chars": 36
+ },
+ {
+  "id": "ch025",
+  "kind": "chapter",
+  "number": 25,
+  "title": "第二十五章 更加精确的目标选择器 上",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    1859,
+    2043
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "f0b7960b4a7c5ecff3d85fe1a287015273ad14a2a1cfb1b2b153316f88d4ffc4",
+  "chars": 4912
+ },
+ {
+  "id": "ch026",
+  "kind": "chapter",
+  "number": 26,
+  "title": "第二十六章 更加精确的目标选择器 下",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2044,
+    2223
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "c32de26752b01850a75694bf90a7aabb14367a69100ab62ed2636cb1820dbebf",
+  "chars": 7638
+ },
+ {
+  "id": "ch027",
+  "kind": "chapter",
+  "number": 27,
+  "title": "第二十七章 游戏刻",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2224,
+    2232
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "6156e4ba6f55fa9a2cbd77d2bf8a2f9b5ee63ecf94b27a6442603139fc0e90d3",
+  "chars": 572
+ },
+ {
+  "id": "ch028",
+  "kind": "chapter",
+  "number": 28,
+  "title": "第二十八章 区块与区段",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2233,
+    2299
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "ad9df2bb552325a4fd33f13ea73237c1bf2ffe203c8b838a4dba86bb409553d8",
+  "chars": 2207
+ },
+ {
+  "id": "ch029",
+  "kind": "chapter",
+  "number": 29,
+  "title": "第二十九章 更深入地了解指令参数",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2300,
+    2324
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "9863fbf3e16714f05413940ae76956f2da53b0fba65308c52d8a5c608016bd3f",
+  "chars": 695
+ },
+ {
+  "id": "ch030",
+  "kind": "chapter",
+  "number": 30,
+  "title": "第三十章 方块",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2325,
+    2379
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "db656eb76d3d652ffd35272b5d4a249a9ad389e5853633b035b173c9027151fd",
+  "chars": 1567
+ },
+ {
+  "id": "ch031",
+  "kind": "chapter",
+  "number": 31,
+  "title": "第三十一章 实体",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2380,
+    2410
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "6c09511624fe7bd0a22b658f468d69e3e4529a6d04628227dada2dbb02e79a3e",
+  "chars": 1290
+ },
+ {
+  "id": "vol04",
+  "kind": "volume",
+  "number": 4,
+  "title": "第四卷 又是一些指令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2411,
+    2412
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "11124deb4eb85e845c5844d297bb5178f7ba4a9075726af7a9c6a01213950347",
+  "chars": 25
+ },
+ {
+  "id": "ch032",
+  "kind": "chapter",
+  "number": 32,
+  "title": "第三十二章 tickingarea-基岩版控制常加载区块",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2413,
+    2479
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "b4c748a836a9891b7152c036808e14c34a1877ea99fdfd181d0e68cb1b92b054",
+  "chars": 2424
+ },
+ {
+  "id": "ch033",
+  "kind": "chapter",
+  "number": 33,
+  "title": "第三十三章 execute-这年头，猪都会说话了",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2480,
+    2527
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "982d314a9a8bc4b782e899128a7cabefc8a8a2cdf94dd770a81357d61fc339aa",
+  "chars": 2072
+ },
+ {
+  "id": "ch034",
+  "kind": "chapter",
+  "number": 34,
+  "title": "第三十四章 setworldspawn、spawnpoint-出生点",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2528,
+    2617
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "033becd76537b99e156a0b038f50b35ce339f47627772bb36f69e89ea2a7b712",
+  "chars": 2294
+ },
+ {
+  "id": "ch035",
+  "kind": "chapter",
+  "number": 35,
+  "title": "第三十五章 spreadplayers-随机传送",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2618,
+    2650
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "c742bfd991a2f6eb741d1fdf30d93b406a454378dd77943b0e2af9bc11994971",
+  "chars": 1555
+ },
+ {
+  "id": "ch036",
+  "kind": "chapter",
+  "number": 36,
+  "title": "第三十六章 testfor -探测 上",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2651,
+    2686
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "8cdb49c17a4289c7b30cfc9cc33b865eb341ffa4c7ea87fc4b3d283c87c4ec1b",
+  "chars": 793
+ },
+ {
+  "id": "ch037",
+  "kind": "chapter",
+  "number": 37,
+  "title": "第三十七章 testforblock、testforblocks-探测 下",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2687,
+    2738
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "f564289a697fbc459e87b0a93b21a4eaea9d42b8d4aa9ef6a10744c91a22cacc",
+  "chars": 1327
+ },
+ {
+  "id": "ch038",
+  "kind": "chapter",
+  "number": 38,
+  "title": "第三十八章 replaceitem-头上顶着一个TNT",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2739,
+    2796
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "13ea5641dbe32e477942c9a9ce27e22089ab27626bdee20d560afabab4f4b140",
+  "chars": 1806
+ },
+ {
+  "id": "ch039",
+  "kind": "chapter",
+  "number": 39,
+  "title": "第三十九章 particle-在MC里做特效",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2797,
+    2908
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "ee336db56ccd884323d2beaeca2f584fac7395e2910f7c1efc30ef1afd1eb92f",
+  "chars": 3557
+ },
+ {
+  "id": "vol05",
+  "kind": "volume",
+  "number": 5,
+  "title": "第五卷 记分版/计分板（scoreboard）",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2909,
+    2910
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "9168801acc46816397a96046b1c0c9961e9519c088e18973750ecb5c134de374",
+  "chars": 71
+ },
+ {
+  "id": "ch040",
+  "kind": "chapter",
+  "number": 40,
+  "title": "第四十章 记分板是什么鬼",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2911,
+    2930
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "422bb7987b733613207c7a00fd40684667d98744dfd7811bf2614e69cec05770",
+  "chars": 1379
+ },
+ {
+  "id": "ch041",
+  "kind": "chapter",
+  "number": 41,
+  "title": "第四十一章 objectives——管理一个计分项",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    2931,
+    3033
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "4b850a3841486d89307d98a430496d7970f7bc14a50df9b1816a3074c040ff0b",
+  "chars": 6119
+ },
+ {
+  "id": "ch042",
+  "kind": "chapter",
+  "number": 42,
+  "title": "第四十二章 players——管理变量（分数）",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3034,
+    3094
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "7c1177e9690f3228ed719e26dd98c04c0d17325c21317968449ee88e6ba2e1bd",
+  "chars": 3304
+ },
+ {
+  "id": "ch043",
+  "kind": "chapter",
+  "number": 43,
+  "title": "第四十三章 players——记分板商店",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3095,
+    3141
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "fb83d20861847cf0a82290e9ad3298611105d04531c631e5253c2f5822073dde",
+  "chars": 1941
+ },
+ {
+  "id": "ch044",
+  "kind": "chapter",
+  "number": 44,
+  "title": "第四十四章 在Minecraft用指令算1+1=?",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3142,
+    3244
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "ae1a2643e3093ca80c87a184e8a53309df752767c47544872d20667fe2dff850",
+  "chars": 3771
+ },
+ {
+  "id": "ch044-x1",
+  "kind": "extra",
+  "number": null,
+  "title": "新年好！",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3245,
+    3253
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "15778603101680a3d412ee1a40721e2b33b4ec096be50ee9e6f5ff3ead41d5ca",
+  "chars": 371
+ },
+ {
+  "id": "ch045",
+  "kind": "chapter",
+  "number": 45,
+  "title": "第四十五章 变量的几种常用用途（破百收藏纪念）",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3254,
+    3298
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "ca191017d9e22e35f8abddf483c945ac5117b02f4f9b72f7a8665374e5cb8859",
+  "chars": 1479
+ },
+ {
+  "id": "ch046",
+  "kind": "chapter",
+  "number": 46,
+  "title": "第四十六章 team——管理队伍和成员",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3299,
+    3361
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "6ce3cf15c20d59bb6a3968e2a8f62f29226a8736fc6268a14882b9abe7e6f368",
+  "chars": 3555
+ },
+ {
+  "id": "ch047",
+  "kind": "chapter",
+  "number": 47,
+  "title": "第四十七章 team——队伍的颜色和规则",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3362,
+    3393
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "4b18e352f12062c35ebd0122ac570fd2b92315d1e1f94153d89070eb5c56203b",
+  "chars": 1919
+ },
+ {
+  "id": "ch048",
+  "kind": "chapter",
+  "number": 48,
+  "title": "第四十八章 tag-标签",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3394,
+    3429
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "d07dbf61c1ecd973dccd5655c33f42c3b6a7b010a0e745e9804dd8ab27ca6d31",
+  "chars": 1473
+ },
+ {
+  "id": "ch049",
+  "kind": "chapter",
+  "number": 49,
+  "title": "第四十九章 目标选择器中的记分板",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3430,
+    3484
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "eecdbf1ced110179298b14adf3b96271e6883ca344ef6d21cea51a5ed9d410ee",
+  "chars": 2266
+ },
+ {
+  "id": "vol06",
+  "kind": "volume",
+  "number": 6,
+  "title": "第六卷 服务器中的指令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3485,
+    3486
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "f4f9e1cacd861d6720770a5abaa8b0c005f69e10cb6dd815438d058f62ff0658",
+  "chars": 48
+ },
+ {
+  "id": "ch050",
+  "kind": "chapter",
+  "number": 50,
+  "title": "第五十章 多人游戏指令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3487,
+    3547
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "853b1b311d346a9a327aaa7babbe84ba28bcd9f711d55a212bb7de686ea676da",
+  "chars": 1669
+ },
+ {
+  "id": "ch051",
+  "kind": "chapter",
+  "number": 51,
+  "title": "第五十一章 whitelist-白名单",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3548,
+    3586
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "8c8275671432eb9d3b17e21f9b4fffe3b48ee294a163840586290ca928fa9994",
+  "chars": 2653
+ },
+ {
+  "id": "ch052",
+  "kind": "chapter",
+  "number": 52,
+  "title": "第五十二章 /kick和黑名单系统",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3587,
+    3634
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "12f0960820d36bc5e9f81a038a39946e056485ac87395886782ee1939deda335",
+  "chars": 2518
+ },
+ {
+  "id": "ch053",
+  "kind": "chapter",
+  "number": 53,
+  "title": "第五十三章 剩下的一些指令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3635,
+    3665
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "d0d7bf6c58faccfd014d168b314a373830b6e91261dec2a2e4242e25e80cbffe",
+  "chars": 1276
+ },
+ {
+  "id": "ch054",
+  "kind": "chapter",
+  "number": 54,
+  "title": "第五十四章 初识NBT",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3666,
+    3737
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "24b629b4be8d4380f073fdc94937108db988dff1eebda6abe38aada531d484c0",
+  "chars": 2597
+ },
+ {
+  "id": "vol07",
+  "kind": "volume",
+  "number": 7,
+  "title": "第七卷 更多的指令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3738,
+    3739
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "ddc3cf5b75cfb6a7747c132e1a6bc7abfc5e1852778039c1cecc1582b7dcb29d",
+  "chars": 23
+ },
+ {
+  "id": "ch055",
+  "kind": "chapter",
+  "number": 55,
+  "title": "第五十五章 effect-牛顿哭了",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3740,
+    3807
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "610b7f63da432fbfa4040c9a5ece4404bd05db64eeee0e40401d95457a04159f",
+  "chars": 2865
+ },
+ {
+  "id": "ch056",
+  "kind": "chapter",
+  "number": 56,
+  "title": "第五十六章 clone-拷贝方块",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3808,
+    3862
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "884f338ad343d0f65801b65a7f1acc121a9495685c7da03dabf1c2763537eebc",
+  "chars": 2159
+ },
+ {
+  "id": "ch057",
+  "kind": "chapter",
+  "number": 57,
+  "title": "第五十七章 enchant-简单的附魔",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3863,
+    3889
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "f7635947768cb5e99a3590f8ce07e3f4f5b2716e0458a99e91db241eac790592",
+  "chars": 1303
+ },
+ {
+  "id": "ch058",
+  "kind": "chapter",
+  "number": 58,
+  "title": "第五十八章 使用NBT来自定义附魔",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3890,
+    3921
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "c088e9ed5c6ee2e4695f289660870f0937a5b5565c5323a0c6908ac0ca04ed99",
+  "chars": 1580
+ },
+ {
+  "id": "ch059",
+  "kind": "chapter",
+  "number": 59,
+  "title": "第五十九章 更深入地了解坐标",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3922,
+    3955
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "25e71d718a546cc51d1e2cbd9810ec40ffa8137ffb970ec298475de28b5e9bc1",
+  "chars": 1538
+ },
+ {
+  "id": "ch060",
+  "kind": "chapter",
+  "number": 60,
+  "title": "第六十章 基岩版的JSON文本（破200收藏纪念）",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    3956,
+    4054
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "b65472e4322e7ebdc4f095a7a4de84e8b6220350ce6b96f356162985d19b46d9",
+  "chars": 4688
+ },
+ {
+  "id": "ch061",
+  "kind": "chapter",
+  "number": 61,
+  "title": "第六十一章 /stats与指令的输出结果",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    4055,
+    4104
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "13ba7b98ed6c44eb94ec7d7a2faaaf51939bdbc679e7dbf370574cb60e5a89d8",
+  "chars": 2375
+ },
+ {
+  "id": "ch062",
+  "kind": "chapter",
+  "number": 62,
+  "title": "第六十二章 命令方块矿车",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    4105,
+    4193
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "a9cae9fcd30ea70347d6d9542f72e0c13ad0953368e0fb6a89b8b1c160f41730",
+  "chars": 4132
+ },
+ {
+  "id": "ch063",
+  "kind": "chapter",
+  "number": 63,
+  "title": "第六十三章 游戏声音",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    4194,
+    4334
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "b302d77f2359c1498afbad66b820fb6ad9a5b22674dc08b4107d1570fcc42294",
+  "chars": 6295
+ },
+ {
+  "id": "ch064",
+  "kind": "chapter",
+  "number": 64,
+  "title": "第六十四章 tp和teleport-深入地了解传送指令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    4335,
+    4468
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "f9e043335dae6bfb790eb63413f4ba67ee1d5a2a278e6c0a4810b2bbd5ad8016",
+  "chars": 5122
+ },
+ {
+  "id": "ch064-x1",
+  "kind": "extra",
+  "number": null,
+  "title": "本书第一次大修新增章 ① 矿词与标签",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    4469,
+    4525
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "b0f6e9f07a56a4bc2a14653104069e8c9936d03bf0ea964331ae02d14d8c364b",
+  "chars": 2972
+ },
+ {
+  "id": "ch065",
+  "kind": "chapter",
+  "number": 65,
+  "title": "第六十五章 worldborder-MC是一款吃鸡游戏",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    4526,
+    4641
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "aeee468e458b321ca73d3445fc2ecf15d48fc648252c4069a2f11055b8699abd",
+  "chars": 5375
+ },
+ {
+  "id": "ch066",
+  "kind": "chapter",
+  "number": 66,
+  "title": "第六十六章 指令大杂烩",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    4642,
+    4774
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "90f4f0fd186cc3a60bace260c22d2c77b0162a999722a553385960abf2980849",
+  "chars": 3112
+ },
+ {
+  "id": "ch067",
+  "kind": "chapter",
+  "number": 67,
+  "title": "第六十七章 更高级的locate",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    4775,
+    4867
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "65ceaa4f7346b4532381cfc01989481d524b38d4c8da535766daf582d962fb64",
+  "chars": 2540
+ },
+ {
+  "id": "vol08",
+  "kind": "volume",
+  "number": 8,
+  "title": "第八卷 更高级的execute",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    4868,
+    4870
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "1fbaae77ec9d42c963b3ecd2775b3a8b2e720ff84121871d83bfbcd28b9cd050",
+  "chars": 63
+ },
+ {
+  "id": "ch068",
+  "kind": "chapter",
+  "number": 68,
+  "title": "第六十八章 新版execute的变化",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    4871,
+    4893
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "1698e4956f28128202c99336b5639628887f976cbcbcda285a3fe6d18915034a",
+  "chars": 1176
+ },
+ {
+  "id": "ch069",
+  "kind": "chapter",
+  "number": 69,
+  "title": "第六十九章 修饰子命令 上 三要素与修饰子命令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    4894,
+    4994
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "184eb1c1c9f4f76359520e6be065255e493df864e345bcbf73772c3da7f5a804",
+  "chars": 4709
+ },
+ {
+  "id": "ch070",
+  "kind": "chapter",
+  "number": 70,
+  "title": "第七十章 修饰子命令 下 剩下的5个修饰子命令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    4995,
+    5138
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "00d99be62910e45dcef1f5371654d3eb19f49554f324efbd7c87c9caeb514f61",
+  "chars": 7525
+ },
+ {
+  "id": "ch071",
+  "kind": "chapter",
+  "number": 71,
+  "title": "第七十一章 条件子命令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5139,
+    5260
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "51c174726674fa49149522fe4154c4705691141c372c04eb9e1f9ea5c038a410",
+  "chars": 5974
+ },
+ {
+  "id": "ch072",
+  "kind": "chapter",
+  "number": 72,
+  "title": "第七十二章 存储子命令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5261,
+    5356
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "0e2643130bfca89518643c8e67e96aff4466bc4ac60ac5c7b250f7460019e869",
+  "chars": 4254
+ },
+ {
+  "id": "ch073",
+  "kind": "chapter",
+  "number": 73,
+  "title": "第七十三章 基岩版的新版execute",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5357,
+    5383
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "90ce4e8fb65ac787bcfabab80674c8e580dfabd078d245862a195594b1932c8e",
+  "chars": 894
+ },
+ {
+  "id": "ch074",
+  "kind": "chapter",
+  "number": 74,
+  "title": "第七十四章 探究：execute的运行流程",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5384,
+    5552
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "be5a0c50b4ce3471c27b0ba97d80b23ed6f868b7d4bcb1481dc2935100f91b05",
+  "chars": 6308
+ },
+ {
+  "id": "ch075",
+  "kind": "chapter",
+  "number": 75,
+  "title": "第七十五章 局部坐标与执行朝向",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5553,
+    5589
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "90db9df1481c98862b6ec51838d28dea38bd15d617d4f9cdf598ae24f3ac3ba4",
+  "chars": 2849
+ },
+ {
+  "id": "ch076",
+  "kind": "chapter",
+  "number": 76,
+  "title": "第七十六章 camerashake-如何让一个玩家鬼畜",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5590,
+    5627
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "fd0b0fa7a5066e2e8bbf660c459e829d75934571bbf97d6c5f459db1407c9c81",
+  "chars": 1548
+ },
+ {
+  "id": "ch077",
+  "kind": "chapter",
+  "number": 77,
+  "title": "第七十七章 damage-造成伤害",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5628,
+    5714
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "bb9da9affb2a9468eef9ec46a95ecbb401e29a40dd16967b131b3c8f882d8348",
+  "chars": 2446
+ },
+ {
+  "id": "vol09",
+  "kind": "volume",
+  "number": 9,
+  "title": "第九卷 㕛是一些指令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5715,
+    5716
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "d201167e804cc90629ff981583070b585673030b4a0b1d4c6046838b74b9f9f6",
+  "chars": 18
+ },
+ {
+  "id": "ch078",
+  "kind": "chapter",
+  "number": 78,
+  "title": "第七十八章 event-生物事件",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5717,
+    5778
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "05cb43a9ce11fbb3f2ef3e98061a62a2cf994eeea31670636747bbeb14e0e677",
+  "chars": 2195
+ },
+ {
+  "id": "ch079",
+  "kind": "chapter",
+  "number": 79,
+  "title": "第七十九章 结构方块 上",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5779,
+    5862
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "1efd40747e49c7fe4b340250ba70b03a0b8a5054f2401a1e5eda1d9df62375d9",
+  "chars": 4021
+ },
+ {
+  "id": "ch080",
+  "kind": "chapter",
+  "number": 80,
+  "title": "第八十章 结构方块 下",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5863,
+    5944
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "3592f4d1fc435152fe2f371d55f224979bdfdfc363efbf2f118ff85275ba95e2",
+  "chars": 3199
+ },
+ {
+  "id": "ch081",
+  "kind": "chapter",
+  "number": 81,
+  "title": "第八十一章 structure-指令与结构方块",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5945,
+    5995
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "e41aa61d65c8616b79bd5c30b6481a13b3f9309bd615ee736b5d1488782f1a14",
+  "chars": 2328
+ },
+ {
+  "id": "ch082",
+  "kind": "chapter",
+  "number": 82,
+  "title": "第八十二章 fog-迷雾",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    5996,
+    6066
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "8d768f0a65382e50e6f44e03a6c2b38ac84251935b881057e9fa6405cfada054",
+  "chars": 3019
+ },
+ {
+  "id": "ch083",
+  "kind": "chapter",
+  "number": 83,
+  "title": "第八十三章 bossbar-自定义BOSS栏 上",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    6067,
+    6131
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "0f2f022f4b6e5a150042d66ed07d3f8eb32471c1af3628f754589735b8ee9f30",
+  "chars": 2428
+ },
+ {
+  "id": "ch084",
+  "kind": "chapter",
+  "number": 84,
+  "title": "第八十四章 bossbar-自定义BOSS栏 下",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    6132,
+    6162
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "dc818a3eeede5b3c3235a458e92270f865891ece882adf6ebbf8157b0ba8ad33",
+  "chars": 1491
+ },
+ {
+  "id": "ch085",
+  "kind": "chapter",
+  "number": 85,
+  "title": "第八十五章 item-更高级的replaceitem",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    6163,
+    6232
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "45fcec1bf4a59be7455991552c6f741efaea2e0517fb1e40a0eb460f43520951",
+  "chars": 2566
+ },
+ {
+  "id": "ch086",
+  "kind": "chapter",
+  "number": 86,
+  "title": "第八十六章 music-音乐",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    6233,
+    6337
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "4aba0034f30b91e48904da97f2285a813d0893ca0792b771c4e0efb9bf101c5b",
+  "chars": 3500
+ },
+ {
+  "id": "ch087",
+  "kind": "chapter",
+  "number": 87,
+  "title": "第八十七章 拼图方块",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    6338,
+    6471
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "c423ba649c3f7aa2b1e0467a2421f7a2f94f1038f3329249c966fb9b077268d1",
+  "chars": 4988
+ },
+ {
+  "id": "ch088",
+  "kind": "chapter",
+  "number": 88,
+  "title": "第八十八章 place-如何生成一个村庄",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    6472,
+    6614
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "0dac7d783f983e59b29c5a06ce1f8ab109b32bf310f906faf3174b7c5ac6403a",
+  "chars": 3344
+ },
+ {
+  "id": "ch089",
+  "kind": "chapter",
+  "number": 89,
+  "title": "第八十九章 ride-骑乘",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    6615,
+    6722
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "86110c61c35ddd280541972da507e109c8d8617efb48180867eb800940966e7f",
+  "chars": 4233
+ },
+ {
+  "id": "ch090",
+  "kind": "chapter",
+  "number": 90,
+  "title": "第九十章 命名空间ID",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    6723,
+    6780
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "f3e4f3fa3c6828dd05d7f8223cbca8f874a15a19d4f2727ad54399341ff78e4e",
+  "chars": 3837
+ },
+ {
+  "id": "vol10",
+  "kind": "volume",
+  "number": 10,
+  "title": "第十卷 真正进入中阶",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    6781,
+    6783
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "1898e376d95660be4d1326b4055db73add20844f74f1b42a8d42a4f4f9b06209",
+  "chars": 89
+ },
+ {
+  "id": "ch091",
+  "kind": "chapter",
+  "number": 91,
+  "title": "第九十一章 红石比较器",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    6784,
+    6959
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "e04a0cab4e51d8781ed242386641776999807882fd16eaddc180fdea0feee6c8",
+  "chars": 3679
+ },
+ {
+  "id": "ch092",
+  "kind": "chapter",
+  "number": 92,
+  "title": "第九十二章 简单的红石脉冲",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    6960,
+    7006
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "c620c1d43abe44b5c33685cf8484a6165c625bf842698429abf0b5b518bde6f5",
+  "chars": 1839
+ },
+ {
+  "id": "ch093",
+  "kind": "chapter",
+  "number": 93,
+  "title": "第九十三章 逻辑门 上",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7007,
+    7097
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "9065f34484ddaaaf06b43caa8767d2fae3560cbcf0e1f7af0ccb784a389ec03f",
+  "chars": 2996
+ },
+ {
+  "id": "ch094",
+  "kind": "chapter",
+  "number": 94,
+  "title": "第九十四章 逻辑门 下",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7098,
+    7190
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "9eb9808b9d3c5fff688bc4560047de4ab763f845816b78ed28cc85f268707e99",
+  "chars": 2235
+ },
+ {
+  "id": "ch095",
+  "kind": "chapter",
+  "number": 95,
+  "title": "第九十五章 初识逻辑组",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7191,
+    7262
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "4a13af0f2f3f2bc9245c930fff58ce960930c8a7fca2ebb043b735e8ee113dac",
+  "chars": 2779
+ },
+ {
+  "id": "ch096",
+  "kind": "chapter",
+  "number": 96,
+  "title": "第九十六章 如何正确使用一个盔甲架",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7263,
+    7384
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "55a49ca5426668dbbbcaea746a365b5a1cb364a981fbdf84f4fd8407d385338d",
+  "chars": 3130
+ },
+ {
+  "id": "ch096-x1",
+  "kind": "extra",
+  "number": null,
+  "title": "第九十六章番外 如何获得一个拥有手臂的盔甲架",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7385,
+    7427
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "4f41e40cc2be86525330212f7feba0d55eb21f22df9e15c5e66b6950ec887d95",
+  "chars": 1307
+ },
+ {
+  "id": "ch096-x2",
+  "kind": "extra",
+  "number": null,
+  "title": "第九十六章番外的番外 看，这个盔甲架高兴极了",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7428,
+    7459
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "26a6748267c364233113b1b0e57e6f3477d22cdf721ffe2a5b80c5a6115d0526",
+  "chars": 714
+ },
+ {
+  "id": "ch097",
+  "kind": "chapter",
+  "number": 97,
+  "title": "第九十七章 forceload-Java版控制常加载区块",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7460,
+    7519
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "87a888339577c4bb125455d01846b98c55c785c1a2127df5e3dc554f6c4a7ce5",
+  "chars": 2068
+ },
+ {
+  "id": "ch098",
+  "kind": "chapter",
+  "number": 98,
+  "title": "第九十八章 触发器-简单的注册/登录系统 上",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7520,
+    7607
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "21e1e877407c7e9cda238f7e0c43d37d9385d65a8c50ad8222fa2b18ae4b551c",
+  "chars": 3958
+ },
+ {
+  "id": "ch099",
+  "kind": "chapter",
+  "number": 99,
+  "title": "第九十九章 初识模块-简单的注册/登录系统 下",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7608,
+    7807
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "e5416227c56978aad7c2b0242d28100650d311897c31e9d960a91004e476d2d2",
+  "chars": 7593
+ },
+ {
+  "id": "vol11",
+  "kind": "volume",
+  "number": 11,
+  "title": "第十一卷 NBT时代",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7808,
+    7809
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "ac1f66bfe5cf745c8ff58c54d0cb7ad370f3d093b93e0afacb168ab65e59cd0f",
+  "chars": 25
+ },
+ {
+  "id": "ch100",
+  "kind": "chapter",
+  "number": 100,
+  "title": "第一百章 开启NBT时代（来，开杯香槟酒庆祝一下，100章了）",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7810,
+    7914
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "ff380ea8c67f75aee0156e4817f12a7effce3a8abfe1c10c08e913fb641445c5",
+  "chars": 3413
+ },
+ {
+  "id": "ch101",
+  "kind": "chapter",
+  "number": 101,
+  "title": "第一百零一章 简单了解数组",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7915,
+    7927
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "90ae4e9df35ee8a8c8ff973695c0da43f04904b3c14b24f7c632fdcc1285be60",
+  "chars": 658
+ },
+ {
+  "id": "ch102",
+  "kind": "chapter",
+  "number": 102,
+  "title": "第一百零二章 物品组件",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7928,
+    7994
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "c00647017ebfc2c32be23f63eb92024237137da80bec64784204050af6085f01",
+  "chars": 3148
+ },
+ {
+  "id": "ch103",
+  "kind": "chapter",
+  "number": 103,
+  "title": "第一百零三章 《关于工具耐久的这档事》",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    7995,
+    8020
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "b745fbd98fa00ac5ba02dccee86edd763aa01b5d57b39161809bb38a426dbfa1",
+  "chars": 996
+ },
+ {
+  "id": "ch104",
+  "kind": "chapter",
+  "number": 104,
+  "title": "第一百零四章 物品的显示属性",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    8021,
+    8142
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "19901b7403581a23a9534b6c4a9bcb51fd4fae25e4435e36550fc89d83904fe5",
+  "chars": 4572
+ },
+ {
+  "id": "ch104-x1",
+  "kind": "extra",
+  "number": null,
+  "title": "基岩版玩家的32767级锋利的苹果",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    8143,
+    8182
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "6954823b725e90cb60e6d67876f4bea5496997dc2e406830a30114f1c30a9794",
+  "chars": 1353
+ },
+ {
+  "id": "ch105",
+  "kind": "chapter",
+  "number": 105,
+  "title": "第一百零五章 属性修饰符 上-哪个MC玩家不想拥有一套神装呢？",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    8183,
+    8327
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "413525133e15309849cd9afc33b625aeb7239a2bd5137227c0a31ec5679f2d1d",
+  "chars": 5302
+ },
+ {
+  "id": "ch106",
+  "kind": "chapter",
+  "number": 106,
+  "title": "第一百零六章 属性修饰符 下-最终倍乘和/attribute指令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    8328,
+    8417
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "13c94972b87e455ce9e3a30b8e9e1d908da45bfe895ce1464724bc73af5c2523",
+  "chars": 3469
+ },
+ {
+  "id": "ch107",
+  "kind": "chapter",
+  "number": 107,
+  "title": "第一百零七章 如何获取你在Minecraft中的头",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    8418,
+    8533
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "748558688011ad1744e421457d1cf616f7efb76abf1d2f80effb9006b13c81de",
+  "chars": 3924
+ },
+ {
+  "id": "ch107-x1",
+  "kind": "extra",
+  "number": null,
+  "title": "祝贺Minecraft11周年生日快乐！",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    8534,
+    8641
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "dbf74fa4faeaa5b62272231ed57a3dae7f42da787ad83b3379ed00042684f2e3",
+  "chars": 3045
+ },
+ {
+  "id": "ch108",
+  "kind": "chapter",
+  "number": 108,
+  "title": "第一百零八章 掉落物的NBT 上 -物品通用标签",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    8642,
+    8714
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "b1f2aea809d74ffefd7cc0b5888060b9ceb8d39b54afddae4668639cb9749329",
+  "chars": 3161
+ },
+ {
+  "id": "ch109",
+  "kind": "chapter",
+  "number": 109,
+  "title": "第一百零九章 掉落物的NBT 下",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    8715,
+    8747
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "174e5ff22914f6392f5e3263b9f7af0d04b01675ee36330094217fceebbe9289",
+  "chars": 1151
+ },
+ {
+  "id": "ch110",
+  "kind": "chapter",
+  "number": 110,
+  "title": "第一百一十章 UUID",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    8748,
+    8822
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "cd748a1cba4604e13c39b9892be879383261026ef6fee863b68e06397e98ff7f",
+  "chars": 3370
+ },
+ {
+  "id": "ch111",
+  "kind": "chapter",
+  "number": 111,
+  "title": "第一百一十一章 网易的特性:实体mod",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    8823,
+    8888
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "bbe9cda73244ff0b0e671174eda86479bce646671f0057ccb0821e592eacfd8c",
+  "chars": 2613
+ },
+ {
+  "id": "ch112",
+  "kind": "chapter",
+  "number": 112,
+  "title": "第一百一十二章 实体的通用标签 上",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    8889,
+    8966
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "a140b2245c69b805fac324c3e5f44ee58600d2765e35d5652b5b63901c3cedd1",
+  "chars": 4113
+ },
+ {
+  "id": "ch113",
+  "kind": "chapter",
+  "number": 113,
+  "title": "第一百一十三章 实体的通用标签 下",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    8967,
+    9028
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "24aca7b66df2b7ce1300333ea73c04516f99b7c0fc8c3ab7e6a9f1855fedf574",
+  "chars": 2546
+ },
+ {
+  "id": "vol12",
+  "kind": "volume",
+  "number": 12,
+  "title": "第十二卷 中场休息",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9029,
+    9030
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "14bad233b74f94938eeb2d4085640eaa448caf95b6cc49df8c28895e0842179c",
+  "chars": 28
+ },
+ {
+  "id": "ch114",
+  "kind": "chapter",
+  "number": 114,
+  "title": "第一百一十四章 死亡的玩家到底是不是个实体？",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9031,
+    9092
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "84d9c468b88cb88548cc257b0f555c0522fba7868b3291ffadd20abfacfdcdff",
+  "chars": 1734
+ },
+ {
+  "id": "ch115",
+  "kind": "chapter",
+  "number": 115,
+  "title": "第一百一十五章 WebSocket在Minecraft里的用处",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9093,
+    9120
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "d039d39e5e5e4599eda7d52596e615932bd90eb3a422f6807a747863260a00f3",
+  "chars": 1190
+ },
+ {
+  "id": "ch116",
+  "kind": "chapter",
+  "number": 116,
+  "title": "第一百一十六章 advancement-让人一夜回到解放前的指令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9121,
+    9271
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "650ae697f86025e7a363e4cd222bfe031d2333a6996ec0287caaf4f170449119",
+  "chars": 4745
+ },
+ {
+  "id": "ch117",
+  "kind": "chapter",
+  "number": 117,
+  "title": "第一百一十七章 控制成就系统的指令",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9272,
+    9389
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "46399a9bdbcb566ebb8574a5d96e28ee20d1fb3a881242af374d0eb2e57b6f56",
+  "chars": 3654
+ },
+ {
+  "id": "ch118",
+  "kind": "chapter",
+  "number": 118,
+  "title": "第一百一十八章 ability-怎样禁言一个人",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9390,
+    9444
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "743e072dea29146cd1d355845bc1ab899fd7044d0c9d4e601609d36f94c03ee6",
+  "chars": 1426
+ },
+ {
+  "id": "ch119",
+  "kind": "chapter",
+  "number": 119,
+  "title": "第一百一十九章 称号系统",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9445,
+    9480
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "e95dc883ef5d80e90d7d2af5b20c644f2fa30ad821f4cc2a7f0604c45c6aff36",
+  "chars": 1453
+ },
+ {
+  "id": "ch120",
+  "kind": "chapter",
+  "number": 120,
+  "title": "第一百二十章 区块加载器",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9481,
+    9615
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "1139054670c892c7cec11ed3250c45f1aaba873beac84c16ba1e4b6d94971559",
+  "chars": 4806
+ },
+ {
+  "id": "vol13",
+  "kind": "volume",
+  "number": 13,
+  "title": "第十三卷 JAVA版的JSON",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9616,
+    9617
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "16a6f17e985dae8511f1cfdc458347cfeed6e6f923c97e492f2f7767700b25a1",
+  "chars": 42
+ },
+ {
+  "id": "ch121",
+  "kind": "chapter",
+  "number": 121,
+  "title": "第一百二十一章 JSON的格式",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9618,
+    9663
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "b5d0b45458ceccbfa73c1d0f75596a3dbcd083a919e9fe9bf8c641f3f8e76373",
+  "chars": 1633
+ },
+ {
+  "id": "ch122",
+  "kind": "chapter",
+  "number": 122,
+  "title": "第一百二十二章 JSON的内容 上",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9664,
+    9750
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "ecd9f901fa95295de17479275f9af7762240e2380912caf33b44d0673215f55c",
+  "chars": 2699
+ },
+ {
+  "id": "ch123",
+  "kind": "chapter",
+  "number": 123,
+  "title": "第一百二十三章 JSON的内容 下",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9751,
+    9916
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "f4f972a600b92920a5483ef1b360c8e84449323d5d5d798e0a7e77a492b576bb",
+  "chars": 6283
+ },
+ {
+  "id": "ch124",
+  "kind": "chapter",
+  "number": 124,
+  "title": "第一百二十四章 JSON的格式元素",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    9917,
+    10013
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "5c516e224444e7e17219250c42f1e92ad8ebd8285ae6783367c2ea13b1bd3a41",
+  "chars": 3097
+ },
+ {
+  "id": "ch125",
+  "kind": "chapter",
+  "number": 125,
+  "title": "第一百二十五章 玩家与JSON的交互事件 上",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    10014,
+    10116
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "51baf9854d770fbb01cc5dafdf60caf7c44a4594dc90b92f942b12b8ebf0b8d8",
+  "chars": 3950
+ },
+ {
+  "id": "ch126",
+  "kind": "chapter",
+  "number": 126,
+  "title": "第一百二十六章 玩家与JSON的交互事件 下",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    10117,
+    10202
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "b02a874206998280a6a29e25696c030dcb00512efea60dc6a09e15681c9aae5f",
+  "chars": 3605
+ },
+ {
+  "id": "ch127",
+  "kind": "chapter",
+  "number": 127,
+  "title": "第一百二十七章 JSON剩下の一些东西",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    10203,
+    10236
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "8e8636786cb243d461249fbe92355ef4d060f15eb7e946c9321e1ab21088c4df",
+  "chars": 1358
+ },
+ {
+  "id": "ch128",
+  "kind": "chapter",
+  "number": 128,
+  "title": "第一百二十八章 营销号写指令教程",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    10237,
+    10269
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "6a83dc5a3dc1869c1d13eeda21f8adad164c24becd7b46136cd3f141025d1643",
+  "chars": 1863
+ },
+ {
+  "id": "vol14",
+  "kind": "volume",
+  "number": 14,
+  "title": "第十四卷 实体与NBT 上",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    10270,
+    10271
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "df635112ed46cbbe22d82763e3bf85b7b4001e2d93b217931d4c38b50363ecd7",
+  "chars": 53
+ },
+ {
+  "id": "ch129",
+  "kind": "chapter",
+  "number": 129,
+  "title": "第一百二十九章 深入地了解一下实体",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    10272,
+    10397
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "425b6101b1b075e92d1ffa3fb200e5e9a5d2bef0cd78f51ca866204b1d5369a6",
+  "chars": 4335
+ },
+ {
+  "id": "ch130",
+  "kind": "chapter",
+  "number": 130,
+  "title": "第一百三十章 MC生物学",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    10398,
+    10469
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "b6679de917c260d15cc32e23043d9ab7df0fedc1628d1619be003ce8ed1edde3",
+  "chars": 2126
+ },
+ {
+  "id": "ch131",
+  "kind": "chapter",
+  "number": 131,
+  "title": "第一百三十一章 生物的共通NBT-1",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    10470,
+    10546
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "52f983e863305a9944e66ef05fe60509b6e40f9f0e92d32abc99f4286aa4a297",
+  "chars": 2855
+ },
+ {
+  "id": "ch132",
+  "kind": "chapter",
+  "number": 132,
+  "title": "第一百三十二章 生物的共通NBT-2",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    10547,
+    10667
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "9ec97c8a14e85892540c9477d4192ee590d40f15f7a0f115f93da8dee734d02c",
+  "chars": 3058
+ },
+ {
+  "id": "ch133",
+  "kind": "chapter",
+  "number": 133,
+  "title": "第一百三十三章 生物的共通NBT-3",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    10668,
+    10772
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "a2e4b49ecdd0a74faa7024792080a28a775edbf9214ee77252d16adf40111f88",
+  "chars": 4258
+ },
+ {
+  "id": "ch134",
+  "kind": "chapter",
+  "number": 134,
+  "title": "第一百三十四章 生物的共通NBT-4",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    10773,
+    10945
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "17cc00f6319a8983ae359b78e8f0063816506b25e4c8d7e5d6ee3a6be6ab19f1",
+  "chars": 5763
+ },
+ {
+  "id": "ch135",
+  "kind": "chapter",
+  "number": 135,
+  "title": "第一百三十五章 真正深入了解NBT-1",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    10946,
+    11077
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "e1cd5fba191959a07385f0b6485b725acc1bbc30e063025bd8a92f00f01bfa1c",
+  "chars": 3585
+ },
+ {
+  "id": "ch136",
+  "kind": "chapter",
+  "number": 136,
+  "title": "第一百三十六章 真正深入了解NBT-2",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    11078,
+    11141
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "9ef9c918c700699d572da25d54f6d83d842c47f3ce941b5d276320c550142eaa",
+  "chars": 2263
+ },
+ {
+  "id": "ch137",
+  "kind": "chapter",
+  "number": 137,
+  "title": "第一百三十七章 真正深入了解NBT-3",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    11142,
+    11234
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "3b23f748a61f24868e552c698b174f2deae71d33b215838816776c5af6f05815",
+  "chars": 2646
+ },
+ {
+  "id": "ch138",
+  "kind": "chapter",
+  "number": 138,
+  "title": "第一百三十八章 真正深入了解NBT-4",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    11235,
+    11297
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "85e7b879699025eaee85c98fef4df5a8821e95039edf5fc6c6faac0c1dec5b57",
+  "chars": 1649
+ },
+ {
+  "id": "ch139",
+  "kind": "chapter",
+  "number": 139,
+  "title": "第一百三十九章 真正深入了解NBT-5",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    11298,
+    11359
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "4705d17bc27f1bf4370ca63f46d0f8d9730f74b1e003a3ae41fa238a2b856225",
+  "chars": 1330
+ },
+ {
+  "id": "ch140",
+  "kind": "chapter",
+  "number": 140,
+  "title": "第一百四十章 真正深入了解NBT-6",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    11360,
+    11532
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "66002c271087b89a3532d78f67c9c6fbc49e2f3513b3539aff12aa0e8b355b9b",
+  "chars": 6339
+ },
+ {
+  "id": "ch141",
+  "kind": "chapter",
+  "number": 141,
+  "title": "第一百四十一章 牛顿心中的Minecraft：下落的方块",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    11533,
+    11715
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "c6bd61e1692c169ff35fd0f193cc3ff403cd1ebf7c2f6daedce711a439dcba15",
+  "chars": 8109
+ },
+ {
+  "id": "ch142",
+  "kind": "chapter",
+  "number": 142,
+  "title": "第一百四十二章 矿车共通标签",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    11716,
+    11827
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "d992bbf740b56167020b3d28cca2f53e18c8c749a7e8e98c60eea88b7df115c5",
+  "chars": 3653
+ },
+ {
+  "id": "ch143",
+  "kind": "chapter",
+  "number": 143,
+  "title": "第一百四十三章/entitydata-修改实体的NBT",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    11828,
+    11865
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "abe3cc77a63670c14c2309c3cd6931e504d1def894ac9ee673881a63071d2f00",
+  "chars": 2219
+ },
+ {
+  "id": "ch144",
+  "kind": "chapter",
+  "number": 144,
+  "title": "第一百四十四章 弹射物共通标签",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    11866,
+    11895
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "1c879a26f563427bd77c098dd7a24cc9ebb1fc1d053598d8a9f7b68f784d98a4",
+  "chars": 1867
+ },
+ {
+  "id": "ch145",
+  "kind": "chapter",
+  "number": 145,
+  "title": "第一百四十五章 箭共通标签",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    11896,
+    12001
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "11958db37d9e227c53d5f89a838190b1c2d076556b4b0c04c96cd8df92dea373",
+  "chars": 4538
+ },
+ {
+  "id": "ch146",
+  "kind": "chapter",
+  "number": 146,
+  "title": "第一百四十六章 火球",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12002,
+    12075
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "f056d1ffb4a3c7e311b551869b00c437ada5e1c4a04a119be0c360bd360ccac5",
+  "chars": 2631
+ },
+ {
+  "id": "ch147",
+  "kind": "chapter",
+  "number": 147,
+  "title": "第一百四十七章 可繁殖的生物共通标签",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12076,
+    12153
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "95b9e257a6ed5abb748faf35bf5b9c367e22a8f8d0e01ac96d11fdbfbf96c4ec",
+  "chars": 4607
+ },
+ {
+  "id": "vol15",
+  "kind": "volume",
+  "number": 15,
+  "title": "第十五卷 调戏Minecraft指南",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12154,
+    12155
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "692728161b7a32ac10f177506f49f63e4d106160df316418c63e6403821219e5",
+  "chars": 38
+ },
+ {
+  "id": "ch148",
+  "kind": "chapter",
+  "number": 148,
+  "title": "第一百四十八章 如何看懂调试界面 ①",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12156,
+    12254
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "25df6f7219695fdb5b8d68ce4ede37ca63ed5056340766f2dd576a9f03c71a81",
+  "chars": 4983
+ },
+ {
+  "id": "ch149",
+  "kind": "chapter",
+  "number": 149,
+  "title": "第一百四十九章 如何看懂调试界面 ②",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12255,
+    12332
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "45d8de530737d797f2891a0537cf1946c69a9ba0e0d1cffbd95df246de3f24b6",
+  "chars": 3005
+ },
+ {
+  "id": "ch150",
+  "kind": "chapter",
+  "number": 150,
+  "title": "第一百五十章 如何看懂调试界面 ③",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12333,
+    12497
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "29baf70efe3e4bf503fea6a28c449b47792e7137aeff1e573da8afed3ce63576",
+  "chars": 5948
+ },
+ {
+  "id": "ch151",
+  "kind": "chapter",
+  "number": 151,
+  "title": "第一百五十一章 如何看懂调试界面 ④",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12498,
+    12573
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "4f0a4c3bd2af0b53f24f2becbeb9bd95bc393400c4bfc5c0648ff86a8fedee4e",
+  "chars": 3221
+ },
+ {
+  "id": "ch152",
+  "kind": "chapter",
+  "number": 152,
+  "title": "第一百五十二章 调试棒和其他的一些关于调试的东西",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12574,
+    12623
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "05a4254de584f17a6fd89e4f17a4fb66f84bf9e4bd220abccc78e4f61bcfc554",
+  "chars": 1737
+ },
+ {
+  "id": "vol16",
+  "kind": "volume",
+  "number": 16,
+  "title": "第十六卷 村民与NPC",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12624,
+    12625
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "9e0be41abed06e8655ea81f0c3c99ac01c9fca23417f3fb88eb292c190df33ce",
+  "chars": 151
+ },
+ {
+  "id": "ch153",
+  "kind": "chapter",
+  "number": 153,
+  "title": "第一百五十三章 详细了解村庄更新之前的村民",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12626,
+    12681
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "696afca569918fa70125d27f9f4e3746a7d42bf5f1fc8f7a9b84f49eee968dd8",
+  "chars": 3489
+ },
+ {
+  "id": "ch154",
+  "kind": "chapter",
+  "number": 154,
+  "title": "第一百五十四章 村庄与掠夺更新前的自定义交易",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12682,
+    12752
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "9b981398d34bd95cd0555895bf20544bd4df3b68251dcb7e972e397dd64a957a",
+  "chars": 3594
+ },
+ {
+  "id": "ch154-x1",
+  "kind": "extra",
+  "number": null,
+  "title": "虎年快乐！",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12753,
+    12762
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "4a0e3d26d9ada3bc153edd28d682481b332fbf9b5443c70938aafb5edbfe249d",
+  "chars": 678
+ },
+ {
+  "id": "ch155",
+  "kind": "chapter",
+  "number": 155,
+  "title": "第一百五十五章 村庄与掠夺更新后的村民",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12763,
+    12864
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "739fcedeb3d770a369ed5bdd4219fc6f281bd1b9dfbb4833113d46c02a7d8bc0",
+  "chars": 4637
+ },
+ {
+  "id": "ch156",
+  "kind": "chapter",
+  "number": 156,
+  "title": "第一百五十六章 村庄与掠夺更新后的自定义交易",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    12865,
+    13003
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "56628a615ccfaa9b4ab9f9db0af08ac57a976cfae72c027af1932b49bb0c3676",
+  "chars": 6465
+ },
+ {
+  "id": "ch157",
+  "kind": "chapter",
+  "number": 157,
+  "title": "第一百五十七章 初识NPC",
+  "source": {
+   "file": "起点独有/157第一百五十七章.txt"
+  },
+  "format": "text",
+  "text_sha256": "5b3ee14b5323baa62247fbd5cf7fa7a51d43a2797433b1e15ed50f15676b6158",
+  "chars": 4681
+ },
+ {
+  "id": "vol17",
+  "kind": "volume",
+  "number": 17,
+  "title": "第十七卷 从NBT路径到/data指令",
+  "source": {
+   "file": "作者提供的起点截图（只有卷名）"
+  },
+  "format": "text",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "chars": 0
+ },
+ {
+  "id": "ch158",
+  "kind": "chapter",
+  "number": 158,
+  "title": "第一百五十八章 重新认识NBT",
+  "source": {
+   "file": "起点独有/158第一百五十八章.txt"
+  },
+  "format": "text",
+  "text_sha256": "7bd428f4adc7e7904979ac255f62ccd67ba41e90d5a2ada407fbf832b2783a1d",
+  "chars": 4192
+ },
+ {
+  "id": "ch159",
+  "kind": "chapter",
+  "number": 159,
+  "title": "第一百五十九章 深入了解NBT树和NBT路径",
+  "source": {
+   "file": "起点独有/159第一百五十九章.txt"
+  },
+  "format": "text",
+  "text_sha256": "1daf89845741fddf27e17e2d0692490a948d9801078cd867eca8e976350a763d",
+  "chars": 3524
+ },
+ {
+  "id": "app",
+  "kind": "appendix",
+  "number": null,
+  "title": "附录",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    13004,
+    13004
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "5938c55b15dcaf09df8a928d2155c9c1b6edc59298a415b6d5beb301a6231d62",
+  "chars": 2
+ },
+ {
+  "id": "app-quiz",
+  "kind": "appendix",
+  "number": null,
+  "title": "测试试题",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    13005,
+    13007
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "c1c332b2b25a130ca672b614cf598415b65253df578d5b85c15cff0777ad6994",
+  "chars": 91
+ },
+ {
+  "id": "app-index",
+  "kind": "appendix",
+  "number": null,
+  "title": "索引章节",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    13008,
+    13238
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "6988c0c29f88e802850662aa6bb4c0c2e88f779080b00c8aaefbf4ee8507d189",
+  "chars": 3370
+ },
+ {
+  "id": "app-refs",
+  "kind": "appendix",
+  "number": null,
+  "title": "参考/引用文献列表",
+  "source": {
+   "file": "主稿/Minecraft指令手册.docx",
+   "paragraphs": [
+    13239,
+    13245
+   ]
+  },
+  "format": "docx-paragraphs",
+  "text_sha256": "e65ebb0c44acaee97ac914f086aae4117d7189b0323f5278df4941ddd9131902",
+  "chars": 396
+ }
+]

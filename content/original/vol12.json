@@ -1,0 +1,74 @@
+{
+ "id": "vol12",
+ "kind": "volume",
+ "number": 12,
+ "title": "第十二卷 中场休息",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   9029,
+   9030
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "t": "第十二卷 ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "中场休息",
+     "p": {}
+    }
+   ],
+   "text": "第十二卷 中场休息",
+   "sha256": "9b5ddd1e08fd6dea67527cabf0eaee724c106516ac91e4626c8208a439bc0288",
+   "i": 9029
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "看了这么多章NBT后，总该休息一下了。",
+     "p": {
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "看了这么多章NBT后，总该休息一下了。",
+   "sha256": "542fd11b79e9943e926cff935b4a73bb32fada22648e561ea477bd8eccb255bf",
+   "i": 9030
+  }
+ ],
+ "text_sha256": "14bad233b74f94938eeb2d4085640eaa448caf95b6cc49df8c28895e0842179c",
+ "chars": 28
+}

@@ -1,0 +1,1936 @@
+{
+ "id": "ch041",
+ "kind": "chapter",
+ "number": 41,
+ "title": "第四十一章 objectives——管理一个计分项",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   2931,
+   3033
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "第四十一章 objectives——管理一个计分项",
+     "p": {}
+    }
+   ],
+   "text": "第四十一章 objectives——管理一个计分项",
+   "sha256": "7ebe6533ec3916b8adafbd05129f19639cd8007cfecc1304a950192b3d1124ec",
+   "i": 2931
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如何创建并管理一个计分项呢？这就需要使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/scoreboard。",
+     "p": {}
+    }
+   ],
+   "text": "如何创建并管理一个计分项呢？这就需要使用/scoreboard。",
+   "sha256": "3965656bd5407c7f368699a6dbc1ab706408dbc61bf7a62a62e007fc3039fdac",
+   "i": 2932
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard",
+   "sha256": "51da8f503ba66b9d61b7ef93c79e86d3697e69831e7c19c87459373b3488cc34",
+   "i": 2933
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：控制计分板",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：控制计分板",
+   "sha256": "8c22e8221a136ce0ac661941014cdea2151f7d274402fe7149cba54e5ddbd8ad",
+   "i": 2934
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2，基岩-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2，基岩-1",
+   "sha256": "04ff054666196c9f14a59c65f5ddb9a79efed2f3d2b519540dd5715299ff7c53",
+   "i": 2935
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 2936
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式（本章所涉及）：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式（本章所涉及）：",
+   "sha256": "ed9c77e7f976243e9080bac6ffaa3055899e40b2e3af1216862b1905edb551d8",
+   "i": 2937
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives ...",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives ...",
+   "sha256": "b2e1c0e13478dae4b1a085424bf2d15d5ef38d435f9f2e554b9a24b12ad8aef5",
+   "i": 2938
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java版",
+     "p": {}
+    }
+   ],
+   "text": "Java版",
+   "sha256": "3a03cb4251ad4eca8294ce2df1e1d604cf434e4df0b17d0a3266dcc63e3afa15",
+   "i": 2939
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... add <计分项名称><准则>[<显示名称：JSON>]——添加计分项（注：JE1.13以下版本“显示名称”参数的值类型为字符串）",
+     "p": {}
+    }
+   ],
+   "text": "... add <计分项名称><准则>[<显示名称：JSON>]——添加计分项（注：JE1.13以下版本“显示名称”参数的值类型为字符串）",
+   "sha256": "dac09ddf66bfc62c2c451ebb7618097baf2729fe1eddd722d10fc286c012f931",
+   "i": 2940
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... list ——列出当前所有计分项",
+     "p": {}
+    }
+   ],
+   "text": "... list ——列出当前所有计分项",
+   "sha256": "2b86d9014947e72c0ad0264a7aa1a14634acaadebcc63b717f3b96025215457f",
+   "i": 2941
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... modify <计分项名称>...——对指定计分项进行一些更改操作[1.13更新]",
+     "p": {}
+    }
+   ],
+   "text": "... modify <计分项名称>...——对指定计分项进行一些更改操作[1.13更新]",
+   "sha256": "79df2ee6efc7fc538af4c827982849942ced917f55681fb6670fdbbe7348e6da",
+   "i": 2942
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "...... displayname <显示名称：JSON>——更改指定计分项的显示名称[1.13更新]",
+     "p": {}
+    }
+   ],
+   "text": "...... displayname <显示名称：JSON>——更改指定计分项的显示名称[1.13更新]",
+   "sha256": "c0cb7432c1e79fb8cd6c4b089c29d7ff8e997f43b77e1f67aad1b3f3676c4a9b",
+   "i": 2943
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "...... rendertype <hearts|integer>——指定显示该计分项数值时是采用爱心（hearts）还是数值（integer）显示[1.13更新]",
+     "p": {}
+    }
+   ],
+   "text": "...... rendertype <hearts|integer>——指定显示该计分项数值时是采用爱心（hearts）还是数值（integer）显示[1.13更新]",
+   "sha256": "9b4ac8e31b63be45c79d4244ac4b0c439a840ca953facfa7263e0d483f61e156",
+   "i": 2944
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... remove <计分项名称>——删除计分项",
+     "p": {}
+    }
+   ],
+   "text": "... remove <计分项名称>——删除计分项",
+   "sha256": "f4daf8a0203f98a4c095cf6476c3c2fb0b80fd0152d14b3466d6b6e4929e1a5b",
+   "i": 2945
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... setdisplay <显示位置>[计分项名称]——指定特定的位置显示指定的计分项或取消显示计分项。",
+     "p": {}
+    }
+   ],
+   "text": "... setdisplay <显示位置>[计分项名称]——指定特定的位置显示指定的计分项或取消显示计分项。",
+   "sha256": "1f9a6637f6a9243473f851e1caccf663719d1e7a6df9c163ac34ec8f46ebcb59",
+   "i": 2946
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "基岩版",
+   "sha256": "e1ef194dc07360ceff0a1bfe2e5ddb80aa088939ada629f4c1c7f9bde5641ae2",
+   "i": 2947
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... add <计分项名称：字符串><准则>[<显示名称：字符串>]——添加计分项",
+     "p": {}
+    }
+   ],
+   "text": "... add <计分项名称：字符串><准则>[<显示名称：字符串>]——添加计分项",
+   "sha256": "dad741b683bc1ff89cbafe6c8d7f429786c895b4a6b93a6df4808fd7b26416c1",
+   "i": 2948
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... list ——列出当前所有计分项",
+     "p": {}
+    }
+   ],
+   "text": "... list ——列出当前所有计分项",
+   "sha256": "2b86d9014947e72c0ad0264a7aa1a14634acaadebcc63b717f3b96025215457f",
+   "i": 2949
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... remove <计分项名称：字符串>——删除计分项",
+     "p": {}
+    }
+   ],
+   "text": "... remove <计分项名称：字符串>——删除计分项",
+   "sha256": "eb352956d06a7286b6cb6cc53856d7b776aa223f09ab75bece4b7d4b2eef2d5c",
+   "i": 2950
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... setdisplay <显示位置>[计分项名称：字符串][排序方法：ascending|descending]——指定特定的位置显示指定的计分项或取消显示计分项。",
+     "p": {}
+    }
+   ],
+   "text": "... setdisplay <显示位置>[计分项名称：字符串][排序方法：ascending|descending]——指定特定的位置显示指定的计分项或取消显示计分项。",
+   "sha256": "58f7394909c37a14b09dbb768a2adb9ba45324658c7b85ee409bbf93e9c71623",
+   "i": 2951
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在让我们来试一试。首先来尝试添加一个最基本的计分项：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "现在让我们来试一试。首先来尝试添加一个最基本的计分项：",
+   "sha256": "1da7a917dfa4e04bf53be2f02a1de61a9da9e5c41cc7970fcead471407b3e65a",
+   "i": 2952
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives add coin dummy 金钱——仅Java1.13以下和基岩版",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives add coin dummy 金钱——仅Java1.13以下和基岩版",
+   "sha256": "0117579834e8f34c6357ed53eb06f2a20d8875b4365cfa0ffd5c3bacf846d1af",
+   "i": 2953
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives add coin dummy “金钱“——仅Java1.12.2以上",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives add coin dummy “金钱“——仅Java1.12.2以上",
+   "sha256": "2161836ed1fcac1e8b03f9c19fb43f80f77cc40da358cd37c20837c9d3dea40d",
+   "i": 2954
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面的指令将会添加一个准则为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "dummy，显示名称为“金钱”，叫做“coin”的计分项。",
+     "p": {}
+    }
+   ],
+   "text": "上面的指令将会添加一个准则为dummy，显示名称为“金钱”，叫做“coin”的计分项。",
+   "sha256": "34de09733b9b436d61620589c46312d3eab25692867f2e74dd590dbe65f5743a",
+   "i": 2955
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "添加计分项时我们需要特别注意准则的选择。正如上一章所说的“准则决定了记分项具体要跟踪的信息”，一个计分项的作用，很大程度上是由准则决定的。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "添加计分项时我们需要特别注意准则的选择。正如上一章所说的“准则决定了记分项具体要跟踪的信息”，一个计分项的作用，很大程度上是由准则决定的。",
+   "sha256": "b03f0de5ffd7fbd5dce27e1c911c860485c69631a1a65273f19e727c19419b74",
+   "i": 2956
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "准则在基岩版只有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "dummy（虚拟型），在Java版有两大类：单一准则和复合准则。",
+     "p": {}
+    }
+   ],
+   "text": "准则在基岩版只有dummy（虚拟型），在Java版有两大类：单一准则和复合准则。",
+   "sha256": "623338e7eec043af257cfe976d6b43ff28aea2d5faa1292785285bff45c20677",
+   "i": 2957
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "单一准则不可自定义，是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Mojang已经给你预设好的准则，目前有如下几种：",
+     "p": {}
+    }
+   ],
+   "text": "单一准则不可自定义，是Mojang已经给你预设好的准则，目前有如下几种：",
+   "sha256": "9c71b29a0bbf66b4a1e5c5975925378b1240aa50cbdabeef58b898b0ea123f02",
+   "i": 2958
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "dummy：虚拟型，最基础的准则，仅可通过/scoreboard players指令修改。",
+     "p": {}
+    }
+   ],
+   "text": "dummy：虚拟型，最基础的准则，仅可通过/scoreboard players指令修改。",
+   "sha256": "732fd6caaddb33f4254e0c42869f769be050bd7c3ee394559d6f5d19b67c069f",
+   "i": 2959
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "trigger：触发器，类似于dummy，但所有玩家均可修改自己的trigger型计分项。具体内容会在第九十八章讲到。",
+     "p": {}
+    }
+   ],
+   "text": "trigger：触发器，类似于dummy，但所有玩家均可修改自己的trigger型计分项。具体内容会在第九十八章讲到。",
+   "sha256": "c8682168642ce4dbe9d59754b6e8148233ea351d485efba8b3764cd111a1d37f",
+   "i": 2960
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "deathCount：玩家死亡次数，当玩家死亡时游戏会自动增加他的分数，可以通过指令修改。（Java版的死亡榜就是这么搞的）",
+     "p": {}
+    }
+   ],
+   "text": "deathCount：玩家死亡次数，当玩家死亡时游戏会自动增加他的分数，可以通过指令修改。（Java版的死亡榜就是这么搞的）",
+   "sha256": "88d86051317f956e0125f6baabef197d5a3c7279ae78a283e5f91f17f5efac0f",
+   "i": 2961
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "playerKillCount：玩家击杀（玩家）数，当玩家击杀其他玩家时游戏会自动增加他的分数，可以通过指令修改。",
+     "p": {}
+    }
+   ],
+   "text": "playerKillCount：玩家击杀（玩家）数，当玩家击杀其他玩家时游戏会自动增加他的分数，可以通过指令修改。",
+   "sha256": "4adbaed48616535de636edd9aa4a8fb0fdd43bbc7814f2743ddb1ed2a2d50236",
+   "i": 2962
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "totalKillCount：玩家击杀（生物）数，当玩家击杀其他任意生物时游戏会自动增加他的分数，可以通过指令修改。",
+     "p": {}
+    }
+   ],
+   "text": "totalKillCount：玩家击杀（生物）数，当玩家击杀其他任意生物时游戏会自动增加他的分数，可以通过指令修改。",
+   "sha256": "53eefd6869281ff5f6ee4c12ee9b558c72935f6089ce1284b9875a54dbd18d91",
+   "i": 2963
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "health：玩家生命值，伤害吸收和生命提升的血也会计算在其中。当玩家第一次刷新生命值之前该玩家的分数会为0。不可通过指令修改。",
+     "p": {}
+    }
+   ],
+   "text": "health：玩家生命值，伤害吸收和生命提升的血也会计算在其中。当玩家第一次刷新生命值之前该玩家的分数会为0。不可通过指令修改。",
+   "sha256": "145979709b9b251503c17bbb53882a976847a4aca9533ad497c86978ca8cf2d1",
+   "i": 2964
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "xp：玩家经验值，不可通过指令修改。",
+     "p": {}
+    }
+   ],
+   "text": "xp：玩家经验值，不可通过指令修改。",
+   "sha256": "c34b4c10dc3198014dca2e64b5a706619b75ea2ec5906d06b9034a261ecb0bab",
+   "i": 2965
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "level：玩家经验等级（注意和xp准则区分），不可通过指令修改。",
+     "p": {}
+    }
+   ],
+   "text": "level：玩家经验等级（注意和xp准则区分），不可通过指令修改。",
+   "sha256": "8d819061376ecba65a2f8907595e1812284eae1d084935d199ce9cff5ad85fa0",
+   "i": 2966
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "food：玩家饱和度，和health准则一样，在玩家第一次刷新饱和度之前该玩家的分数会为0，不可通过指令修改。",
+     "p": {}
+    }
+   ],
+   "text": "food：玩家饱和度，和health准则一样，在玩家第一次刷新饱和度之前该玩家的分数会为0，不可通过指令修改。",
+   "sha256": "af81dedaf63bd4f192b5d49b47d7153741ae030254583ab22f5d33d6c634d9ba",
+   "i": 2967
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "air：玩家空气值（就是潜水时显示的那个），不可通过指令修改。",
+     "p": {}
+    }
+   ],
+   "text": "air：玩家空气值（就是潜水时显示的那个），不可通过指令修改。",
+   "sha256": "1419373186ea45d1937be8a42c0748c27be0e9dab762984f9b4dafc045dca9b6",
+   "i": 2968
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "armor：玩家盔甲值，和health准则一样，在玩家第一次刷新盔甲值之前该玩家的分数会为0，不可通过指令修改。",
+     "p": {}
+    }
+   ],
+   "text": "armor：玩家盔甲值，和health准则一样，在玩家第一次刷新盔甲值之前该玩家的分数会为0，不可通过指令修改。",
+   "sha256": "1994d76c935531a16d31766967a709ec714d60e78db8ac694d9af57e9442848d",
+   "i": 2969
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "复合准则可以自定义，其格式如下：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "复合准则可以自定义，其格式如下：",
+   "sha256": "faacadbcda07a82e780ae55ba4036e71211c250db9502c090bdcbde838b52446",
+   "i": 2970
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "<基础准则ID：命名空间>:<次级准则>（1.12更新后）",
+     "p": {}
+    }
+   ],
+   "text": "<基础准则ID：命名空间>:<次级准则>（1.12更新后）",
+   "sha256": "ac2910e7ca0cbd3ba0bee54179870ffad175a00851ae25b389dc86806b1a65d3",
+   "i": 2971
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "复合准则实际上就是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Mojang将你菜单界面中的“统计数据”和计分板绑定在一起而已。基础准则具体有：",
+     "p": {}
+    }
+   ],
+   "text": "复合准则实际上就是Mojang将你菜单界面中的“统计数据”和计分板绑定在一起而已。基础准则具体有：",
+   "sha256": "33e6f91d729dd639195e5154531d9d485435fdb55ea976b65f1eeee16ce93341",
+   "i": 2972
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "teamkill.<队伍颜色>——玩家杀死指定颜色的队伍成员便会增加分数",
+     "p": {}
+    }
+   ],
+   "text": "teamkill.<队伍颜色>——玩家杀死指定颜色的队伍成员便会增加分数",
+   "sha256": "2e84c0eddbad9b93e831a9f10f8d406df14470a34a2f7a148452b4a557d8fa77",
+   "i": 2973
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "killedByTeam.<队伍颜色>——玩家被指定颜色的队伍成员杀死便会增加分数",
+     "p": {}
+    }
+   ],
+   "text": "killedByTeam.<队伍颜色>——玩家被指定颜色的队伍成员杀死便会增加分数",
+   "sha256": "612161c1fd9810dda220ee50bd25de672c2be6abe4f0f07e0c93ea5206d7a881",
+   "i": 2974
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft.custom:<Emmm....不知道怎么描述>——对应的是统计信息菜单中的“通用”一栏信息。比如准则minecraft.custom:minecraft.leave_game就是跟踪每一名玩家统计菜单中的“游戏退出次数”。具体的每项统计信息所对应的命名空间ID就太多了，需要的可以自行到Minecraft Wiki查看（指明路线：统计信息→命名空间ID→统计信息列表）。",
+     "p": {}
+    }
+   ],
+   "text": "minecraft.custom:<Emmm....不知道怎么描述>——对应的是统计信息菜单中的“通用”一栏信息。比如准则minecraft.custom:minecraft.leave_game就是跟踪每一名玩家统计菜单中的“游戏退出次数”。具体的每项统计信息所对应的命名空间ID就太多了，需要的可以自行到Minecraft Wiki查看（指明路线：统计信息→命名空间ID→统计信息列表）。",
+   "sha256": "323857f18bc7abb292537da161876e217ffe25a824491c0a7ef3e2c22400ac54",
+   "i": 2975
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft.picked_up:<物品ID>——玩家捡起指定物品时便会增加分数（对应统计菜单“物品”一栏的“拾起个数”）",
+     "p": {}
+    }
+   ],
+   "text": "minecraft.picked_up:<物品ID>——玩家捡起指定物品时便会增加分数（对应统计菜单“物品”一栏的“拾起个数”）",
+   "sha256": "d7942f38ef2d0f8a7f0810d019b15ad81f90bb8f29ac15e5b285a46c0428c9a5",
+   "i": 2976
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft.dropped:<物品ID>——玩家丢弃指定物品时便会增加分数（对应统计菜单“物品”一栏的“丢弃个数”）",
+     "p": {}
+    }
+   ],
+   "text": "minecraft.dropped:<物品ID>——玩家丢弃指定物品时便会增加分数（对应统计菜单“物品”一栏的“丢弃个数”）",
+   "sha256": "3202c9996db9666426f10252ebb17497ac8f369c92be5705f750c9a728447339",
+   "i": 2977
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft.used:<物品ID>——玩家使用指定物品时便会增加分数（对应统计菜单“物品”一栏的“使用次数”）",
+     "p": {}
+    }
+   ],
+   "text": "minecraft.used:<物品ID>——玩家使用指定物品时便会增加分数（对应统计菜单“物品”一栏的“使用次数”）",
+   "sha256": "df6190a1f5f346ebb865bc89c80eedc152596041eabc0b2a88eef1fb89fe3777",
+   "i": 2978
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft.broken:<物品ID>——玩家消耗指定物品时便会增加分数（对应统计菜单“物品”一栏的“工具消耗数”）",
+     "p": {}
+    }
+   ],
+   "text": "minecraft.broken:<物品ID>——玩家消耗指定物品时便会增加分数（对应统计菜单“物品”一栏的“工具消耗数”）",
+   "sha256": "ef7178cc45d5c923bd257ef1c933219775dc006da9fff015e8972acd24eda3f7",
+   "i": 2979
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft.crafted:<物品ID>——玩家合成指定物品时便会增加分数（对应统计菜单“物品”一栏的“合成次数”）",
+     "p": {}
+    }
+   ],
+   "text": "minecraft.crafted:<物品ID>——玩家合成指定物品时便会增加分数（对应统计菜单“物品”一栏的“合成次数”）",
+   "sha256": "7898e32bdfeb89c54dd91a85528bd165c1832a5e26859833746d0b50ea689ee6",
+   "i": 2980
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft.mined:<方块ID>——玩家挖掘指定方块时便会增加分数（对应统计菜单“方块”一栏的“开采次数”）",
+     "p": {}
+    }
+   ],
+   "text": "minecraft.mined:<方块ID>——玩家挖掘指定方块时便会增加分数（对应统计菜单“方块”一栏的“开采次数”）",
+   "sha256": "3a0839eacaab11f378b6c587d1712988ed0e8dfa0cbcf4762adebb965125d1e9",
+   "i": 2981
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft.killed:<实体ID>——玩家击杀指定实体时便会增加分数（对应统计菜单“生物”一栏的“你杀死了n只xxx”中的n）",
+     "p": {}
+    }
+   ],
+   "text": "minecraft.killed:<实体ID>——玩家击杀指定实体时便会增加分数（对应统计菜单“生物”一栏的“你杀死了n只xxx”中的n）",
+   "sha256": "c3a1b6db64045799587e93f260805c0514445dddb2e43234ac377f8224dc2d0e",
+   "i": 2982
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "minecraft.killed_by:<实体ID>——玩家被指定实体击杀时便会增加分数（对应统计菜单“生物”一栏的“xxx杀死了你n次”中的n）",
+     "p": {}
+    }
+   ],
+   "text": "minecraft.killed_by:<实体ID>——玩家被指定实体击杀时便会增加分数（对应统计菜单“生物”一栏的“xxx杀死了你n次”中的n）",
+   "sha256": "3dc68af36fb0d5de006e573f10f9b2a9d7e69a4565e236ca9f5f324885847af7",
+   "i": 2983
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "注意：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.13更新中将统计信息中的“方块”并到“物品”一栏。",
+     "p": {}
+    }
+   ],
+   "text": "注意：Java1.13更新中将统计信息中的“方块”并到“物品”一栏。",
+   "sha256": "9379bf8b4858bd8f620c21de3c94212b1d010f5dcbc33af2f08862a5a87b7df2",
+   "i": 2984
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们有了一个计分项。但如果你想要修改显示名称该怎么办？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "现在，我们有了一个计分项。但如果你想要修改显示名称该怎么办？",
+   "sha256": "e103af1489c4c511ddd42d4438a87b5b38d90f3280627e3fe4bf5491433ada14",
+   "i": 2985
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在基岩版和",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.13以下版本中，你只能删了重新搞。这时候你就需要使用remove：",
+     "p": {}
+    }
+   ],
+   "text": "在基岩版和Java1.13以下版本中，你只能删了重新搞。这时候你就需要使用remove：",
+   "sha256": "a49ba1d30fd5232a91aad04922c73eeadaf5220cc5be3ba95e66cc4dd511a823",
+   "i": 2986
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives remove coin",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives remove coin",
+   "sha256": "60cd5bb1e942fb9918645cfb03f04956ee2764a0e50b53f351995765173e12c8",
+   "i": 2987
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子就可以删掉叫做",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "coin的计分项。",
+     "p": {}
+    }
+   ],
+   "text": "这样子就可以删掉叫做coin的计分项。",
+   "sha256": "a491ad9731b8f113b037d657253d530bfca723990b24033d64efa10ccb4571b2",
+   "i": 2988
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但如果你忘记了计分项的名称该怎么办？使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "list列出所有计分项以查看：",
+     "p": {}
+    }
+   ],
+   "text": "但如果你忘记了计分项的名称该怎么办？使用list列出所有计分项以查看：",
+   "sha256": "63907aad03db517ce7605f2a44bc83643294d4ffb3f8b90d1d61b33ad5a9e7ab",
+   "i": 2989
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives list",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives list",
+   "sha256": "5a1610d945a6dd520f372750d686466623838492bf348870ad6fd324b68b7042",
+   "i": 2990
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（注意，在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.12.2以上版本中，如果你的计分项设置了显示名称，那么list只会列出该计分项的显示名称，要查看具体的名称需要将鼠标移到列出的计分项显示名称的上方）",
+     "p": {}
+    }
+   ],
+   "text": "（注意，在Java1.12.2以上版本中，如果你的计分项设置了显示名称，那么list只会列出该计分项的显示名称，要查看具体的名称需要将鼠标移到列出的计分项显示名称的上方）",
+   "sha256": "cdb09b5fbc3757c4adf0239b43168b0300c9729c573d51ef6f729da47f23578a",
+   "i": 2991
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.12.2以上版本中，有一种便捷的方法可以不删除计分项就可以更改显示名称：modify。",
+     "p": {}
+    }
+   ],
+   "text": "在Java1.12.2以上版本中，有一种便捷的方法可以不删除计分项就可以更改显示名称：modify。",
+   "sha256": "78c382512a53c32add034c5ea83a0ee55ed33d5adb3731e53c134d5ed30918ac",
+   "i": 2992
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：假设你想要修改我们刚才创建的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "coin计分项的名称为“软妹币”，你就需要执行：",
+     "p": {}
+    }
+   ],
+   "text": "举个例子：假设你想要修改我们刚才创建的coin计分项的名称为“软妹币”，你就需要执行：",
+   "sha256": "b8b490ad54155c7d0974132d610dee1f321de513481aa5efd74807b5dd36f9e2",
+   "i": 2993
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives modify coin displayname “软妹币“",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives modify coin displayname “软妹币“",
+   "sha256": "b2b80f024480a5467cda6b6cdb566dd0f9d3fd4e7b24dca7502fd094fd3cc8d4",
+   "i": 2994
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "modify不只是可以修改名称，它还可以修改计分项中玩家分数的值的显示方式。",
+     "p": {}
+    }
+   ],
+   "text": "modify不只是可以修改名称，它还可以修改计分项中玩家分数的值的显示方式。",
+   "sha256": "610d8eb3d4563ac7bce0670ed928cca4a4038a3ccf8348b2db94a555c5317f9a",
+   "i": 2995
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当然在研究这个值显示方式之前，我们得了解一下",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "setdisplay的作用。",
+     "p": {}
+    }
+   ],
+   "text": "当然在研究这个值显示方式之前，我们得了解一下setdisplay的作用。",
+   "sha256": "5a30a282210f2552ce241bc624e437424f7fc4669617a943e0e16016bc1e6182",
+   "i": 2996
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面列格式时就已经提到过",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "setdisplay的作用了：显示计分项于某个位置。",
+     "p": {}
+    }
+   ],
+   "text": "上面列格式时就已经提到过setdisplay的作用了：显示计分项于某个位置。",
+   "sha256": "0146edf7d544fd514e33f9aa0c778cea2421ea666b7a03f7e570f132a4088e61",
+   "i": 2997
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "具体的这个位置有哪些呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "具体的这个位置有哪些呢？",
+   "sha256": "69c10fe0668aa230176470f99cb4aaf20b47c764b316099b7a321e8ea8c7b222",
+   "i": 2998
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "list——Java版中是在Tab玩家列表中显示每名玩家的分数（不显示具体是哪个计分项），基岩版中是在暂停界面显示。",
+     "p": {}
+    }
+   ],
+   "text": "list——Java版中是在Tab玩家列表中显示每名玩家的分数（不显示具体是哪个计分项），基岩版中是在暂停界面显示。",
+   "sha256": "0ce14ac7d4b715921f4f47b1ace2930fea63b03d9535bb676e82da1f8e5c4bf9",
+   "i": 2999
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "sidebar——在屏幕的右侧显示列表，并在列表的最上方显示该计分项的显示名称",
+     "p": {}
+    }
+   ],
+   "text": "sidebar——在屏幕的右侧显示列表，并在列表的最上方显示该计分项的显示名称",
+   "sha256": "72c2014deaf8abac0bcd934209dfe42e74e4b749f9477ffde3d4f8d817ae77e0",
+   "i": 3000
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "sidebar.team.<队伍颜色>——和sidebar作用相同，只是只会给指定颜色的队伍查看[仅Java版]",
+     "p": {}
+    }
+   ],
+   "text": "sidebar.team.<队伍颜色>——和sidebar作用相同，只是只会给指定颜色的队伍查看[仅Java版]",
+   "sha256": "583305d7c3a3c1f333e2db4f7e7620c5aa288e81185450d430467d9800844914",
+   "i": 3001
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "belowName——在玩家的头上面显示该玩家的分数",
+     "p": {}
+    }
+   ],
+   "text": "belowName——在玩家的头上面显示该玩家的分数",
+   "sha256": "a205d44111fe1515e20d2315f70e79f09809eda71a9d5dbc24ea5c2433d39d5b",
+   "i": 3002
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 3003
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives setdisplay sidebar coin",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives setdisplay sidebar coin",
+   "sha256": "e2e33f370124c588faa44fc03acd5b26b7b1e5142599148bc573a0f8bfb55853",
+   "i": 3004
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "执行指令，就可以将我们刚才创建的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "coin计分项以列表的形式显示在右侧。需要注意，如果已经有其他计分项显示在该位置，执行该条指令后将会覆盖显示为coin计分项。",
+     "p": {}
+    }
+   ],
+   "text": "执行指令，就可以将我们刚才创建的coin计分项以列表的形式显示在右侧。需要注意，如果已经有其他计分项显示在该位置，执行该条指令后将会覆盖显示为coin计分项。",
+   "sha256": "1ce56a83c471afbd6f055f62172a337fc89090a22f53e9b6361dedd0fa696742",
+   "i": 3005
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在基岩版，使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "list和sidebar位置时还可以指定列表排序方式：ascending（从小到大）和descending（从大到小[默认]）。比如：",
+     "p": {}
+    }
+   ],
+   "text": "在基岩版，使用list和sidebar位置时还可以指定列表排序方式：ascending（从小到大）和descending（从大到小[默认]）。比如：",
+   "sha256": "a34812dfcd77f0c96f9d2881c030222c8304e7b0044a54b1aa567bc8e9388235",
+   "i": 3006
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives setdisplay sidebar coin ascending",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives setdisplay sidebar coin ascending",
+   "sha256": "33d1150807948d460a41e3f80951209713f34c72237395e117cdf5a4df9737b8",
+   "i": 3007
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "就可以将最穷的玩家显示在列表最上方的位置。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "就可以将最穷的玩家显示在列表最上方的位置。",
+   "sha256": "a2ea54cea440b6b8e7f85d473f0e3cab2efbbf09433d6a41e79a315548a850c1",
+   "i": 3008
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你仔细看了",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "setdisplay的格式，你会发现“计分项名称”这个参数是选填的。那如果不填会发生什么？",
+     "p": {}
+    }
+   ],
+   "text": "如果你仔细看了setdisplay的格式，你会发现“计分项名称”这个参数是选填的。那如果不填会发生什么？",
+   "sha256": "9287af3e8561c2f1cde57e0c592675db7b7be9f97a1cb75f8671641fee8121ae",
+   "i": 3009
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "重置该位置，也就是取消显示计分项在该位置。比如：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "重置该位置，也就是取消显示计分项在该位置。比如：",
+   "sha256": "1150ef0e987ee9ab9f836442646ac5f28f1ac624c3ad9ae1e4dd1736e1f2005b",
+   "i": 3010
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives setdisplay sidebar",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives setdisplay sidebar",
+   "sha256": "1abb36caf5bee8ff70da749586bd8dbbf6337e17f13d0f1ebc590f2cc4be8ee7",
+   "i": 3011
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "就可以让右侧一栏重回清净。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "就可以让右侧一栏重回清净。",
+   "sha256": "ac8574080d394b98a0607e184b0ca1f9ff9d77556686b379e322470e947be25a",
+   "i": 3012
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "通过",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "modify的rendertype我们还可以修改指定计分项的分数显示时的样子。Mojang给了我们两个选择：hearts（生命值）和integer（数值）。",
+     "p": {}
+    }
+   ],
+   "text": "通过modify的rendertype我们还可以修改指定计分项的分数显示时的样子。Mojang给了我们两个选择：hearts（生命值）和integer（数值）。",
+   "sha256": "e8e51b746efb483b2187509e84cff578ba0624b3dc13870e9ec5462a1522e192",
+   "i": 3013
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "比如：",
+   "sha256": "a9527ddcd686491dc2f56c436383c4f102e02b2389a057e3d7bfc0caf93382a4",
+   "i": 3014
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/scoreboard objectives modify coin rendertype hearts",
+     "p": {}
+    }
+   ],
+   "text": "/scoreboard objectives modify coin rendertype hearts",
+   "sha256": "751f85475ebd4b7479d49dabc9a9f60a87543a429280cc0d9f454d6cfe1971cd",
+   "i": 3015
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "就会将",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "coin计分项中每名玩家的分数以生命值的形式显示出来。",
+     "p": {}
+    }
+   ],
+   "text": "就会将coin计分项中每名玩家的分数以生命值的形式显示出来。",
+   "sha256": "de8e73480f6c0f5a6f8b4b5294d0cd98679209e59bfd88469fdf282c480522cb",
+   "i": 3016
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要注意的是，生命值形式仅支持",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Tab玩家列表。",
+     "p": {}
+    }
+   ],
+   "text": "需要注意的是，生命值形式仅支持Tab玩家列表。",
+   "sha256": "297da8c86162e7e2a22e1963d2108f5f976308e4cc7c702fb4736222df89e3c1",
+   "i": 3017
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 3018
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 3019
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 3020
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.13更新前，计分项的复合准则并不是这样，而是：",
+     "p": {}
+    }
+   ],
+   "text": "在Java1.13更新前，计分项的复合准则并不是这样，而是：",
+   "sha256": "96137918ef57094ea4e70f961075a3c96d9431f91e06fd4e7a0a42170b643ae7",
+   "i": 3021
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "<一级准则>.<二级准则>.[次一级准则].[次二级准则]（1.13更新前）",
+     "p": {}
+    }
+   ],
+   "text": "<一级准则>.<二级准则>.[次一级准则].[次二级准则]（1.13更新前）",
+   "sha256": "d57de5ce50a3d0932f1dac64c85a8d3a3cb354e47a974741649ffec2e9af8619",
+   "i": 3022
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "复合准则也并不是完全和统计菜单的数据绑定。在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.13更新前，复合准则具体有如下内容：",
+     "p": {}
+    }
+   ],
+   "text": "复合准则也并不是完全和统计菜单的数据绑定。在1.13更新前，复合准则具体有如下内容：",
+   "sha256": "f6c6373b67b8bf18a5713467a192601c9fc8088da472819f372f39d9c2c55ac0",
+   "i": 3023
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "achievement.<成就ID>——（1.12版本中被移除）以一个玩家达成指定成就数量作为值。比如achievement.diamonds就是“钻石”成就的达成次数。这个成就的达成次数是什么意思呢？举个例子，你获得到1块钻石，就达成了“钻石”成就1次。如果你再次获得一块钻石，虽然游戏不会告诉你你又一次达成了“钻石”成就，但是你实打实地达成了这个成就两次。由于Minecraft Wiki会慢慢舍弃旧游戏内容，我就把成就ID全放这了，具体指的是什么成就自己扔进生草机里翻译：“acquireIron“、“bakeCake“、“blazeRod“、“bookcase“、“breedCow“、“buildBetterPickaxe“、“buildFurnace“、“buildHoe“、“buildPickaxe“、“buildSword“、“buildWorkBench“、“cookFish“、“diamonds“、“diamondsToYou“、“enchantments“、“exploreAllBiomes“、“flyPig“、“fullBeacon“、“ghast“、“killCow“、“killEnemy“",
+     "p": {}
+    },
+    {
+     "t": "、“",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "killWither“、“makeBread“、“mineWood“、“onARail“、“openInventory“、“overkill“、“overpowered“、“portal“、“potion“、“snipeSkeleton“、“spawnWither“、“theEnd“、“theEnd2“。",
+     "p": {}
+    }
+   ],
+   "text": "achievement.<成就ID>——（1.12版本中被移除）以一个玩家达成指定成就数量作为值。比如achievement.diamonds就是“钻石”成就的达成次数。这个成就的达成次数是什么意思呢？举个例子，你获得到1块钻石，就达成了“钻石”成就1次。如果你再次获得一块钻石，虽然游戏不会告诉你你又一次达成了“钻石”成就，但是你实打实地达成了这个成就两次。由于Minecraft Wiki会慢慢舍弃旧游戏内容，我就把成就ID全放这了，具体指的是什么成就自己扔进生草机里翻译：“acquireIron“、“bakeCake“、“blazeRod“、“bookcase“、“breedCow“、“buildBetterPickaxe“、“buildFurnace“、“buildHoe“、“buildPickaxe“、“buildSword“、“buildWorkBench“、“cookFish“、“diamonds“、“diamondsToYou“、“enchantments“、“exploreAllBiomes“、“flyPig“、“fullBeacon“、“ghast“、“killCow“、“killEnemy“、“killWither“、“makeBread“、“mineWood“、“onARail“、“openInventory“、“overkill“、“overpowered“、“portal“、“potion“、“snipeSkeleton“、“spawnWither“、“theEnd“、“theEnd2“。",
+   "sha256": "60a66168a853ccedbf093dbb29d482a2435008136d8a93eb491fa1e792b6eab2",
+   "i": 3024
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "stat.<内容>——对应1.13更新后的“minecraft.custom:<emmm....不知道怎么描述>”。比如stat.sneakTime准则就是玩家的潜行时间。“内容”可以填“animalsBred“、“armorCleaned“、“bannerCleaned“、“beaconInteraction“、“boatOneCm“、“brewingstandInteraction“、“cakeSlicesEaten“、“cauldronFilled“、“cauldronUsed“、“chestOpened“、“climbOneCm“、“craftingTableInteraction“、“crouchOneCm“、“damageDealt“、“damageTaken“、“deaths“、“dispenserInspected“、“diveOneCm“、“drop“、“dropperInspected“、“enderchestOpened“、“fallOneCm“、“fishCaught“、“flowerPotted“、“flyOneCm“、“furnaceInteraction“、“hopperInspected“、“horseOneCm“、“itemEnchanted“、“jump“、“junkFished“、“leaveGame“、“minecartOneCm“、“mobKills“、“noteblockPlayed“、“noteblockTuned“、“pigOneCm“、“playerKills“、“playOneMinute“、“recordPlayed“、“sneakTime“、“sprintOneCm“、“swimOneCm“、“talkedToVillager“、“timeSinceDeath“、“tradedWithVillager“、“trappedChestTriggered“、“treasureFished“和“walkOneCm“。",
+     "p": {}
+    }
+   ],
+   "text": "stat.<内容>——对应1.13更新后的“minecraft.custom:<emmm....不知道怎么描述>”。比如stat.sneakTime准则就是玩家的潜行时间。“内容”可以填“animalsBred“、“armorCleaned“、“bannerCleaned“、“beaconInteraction“、“boatOneCm“、“brewingstandInteraction“、“cakeSlicesEaten“、“cauldronFilled“、“cauldronUsed“、“chestOpened“、“climbOneCm“、“craftingTableInteraction“、“crouchOneCm“、“damageDealt“、“damageTaken“、“deaths“、“dispenserInspected“、“diveOneCm“、“drop“、“dropperInspected“、“enderchestOpened“、“fallOneCm“、“fishCaught“、“flowerPotted“、“flyOneCm“、“furnaceInteraction“、“hopperInspected“、“horseOneCm“、“itemEnchanted“、“jump“、“junkFished“、“leaveGame“、“minecartOneCm“、“mobKills“、“noteblockPlayed“、“noteblockTuned“、“pigOneCm“、“playerKills“、“playOneMinute“、“recordPlayed“、“sneakTime“、“sprintOneCm“、“swimOneCm“、“talkedToVillager“、“timeSinceDeath“、“tradedWithVillager“、“trappedChestTriggered“、“treasureFished“和“walkOneCm“。",
+   "sha256": "ce5200478c48e656e17ff982cfff4ac40563aa9466b229057b3b9ec624851ac8",
+   "i": 3025
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "stat.craftItem.<物品数字ID或英文ID>——对应1.13更新后的minecraft.crafted:<物品ID>。如stat.craftItem.261准则就是玩家合成弓的次数，stat.craftItem.minecraft.bow也是玩家合成弓的次数。注意，使用英文ID，命名空间就需要作为次1级准则，物品ID就要放到次2级准则中。",
+     "p": {}
+    }
+   ],
+   "text": "stat.craftItem.<物品数字ID或英文ID>——对应1.13更新后的minecraft.crafted:<物品ID>。如stat.craftItem.261准则就是玩家合成弓的次数，stat.craftItem.minecraft.bow也是玩家合成弓的次数。注意，使用英文ID，命名空间就需要作为次1级准则，物品ID就要放到次2级准则中。",
+   "sha256": "821860f8007012f8c996f23da9850b70b71fe6f166ed9890dd3d7a5c5d57fe5f",
+   "i": 3026
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "stat.useItem.<物品数字ID或英文ID>——对应1.13更新后的minecraft.used:<物品ID>，用法和stat.craftItem.<物品数字ID或英文ID>一样。",
+     "p": {}
+    }
+   ],
+   "text": "stat.useItem.<物品数字ID或英文ID>——对应1.13更新后的minecraft.used:<物品ID>，用法和stat.craftItem.<物品数字ID或英文ID>一样。",
+   "sha256": "e26b5ae10112ae92721acc6de6c0a5f5550718070d52763f5b5c82fdd276140a",
+   "i": 3027
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "stat.breakItem.<物品数字ID或英文ID>——对应1.13更新后的minecraft.broken:<物品ID>，用法也一样。",
+     "p": {}
+    }
+   ],
+   "text": "stat.breakItem.<物品数字ID或英文ID>——对应1.13更新后的minecraft.broken:<物品ID>，用法也一样。",
+   "sha256": "4cf886367ed21683d6cfaf3fd5c709a5847b5ad2b9dd0dca276f9456b3e60112",
+   "i": 3028
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "stat.mineBlock.<方块数字ID或英文ID>——对应1.13更新后的minecraft.mined:<方块ID>，用法仍然一样。",
+     "p": {}
+    }
+   ],
+   "text": "stat.mineBlock.<方块数字ID或英文ID>——对应1.13更新后的minecraft.mined:<方块ID>，用法仍然一样。",
+   "sha256": "b6ea39f6720f43fde60895277548daf02a8e4e3de99e1e74ea603559ec7753bb",
+   "i": 3029
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "stat.killEntity.<实体ID>——对应1.13更新后的minecraft.killed:<实体ID>。只不过支持的实体ID相比于1.13更新后的版本要少许多，并且不支持mod实体，因为没有命名空间。如stat.killEntity.Villager就是杀死村民的次数。",
+     "p": {}
+    }
+   ],
+   "text": "stat.killEntity.<实体ID>——对应1.13更新后的minecraft.killed:<实体ID>。只不过支持的实体ID相比于1.13更新后的版本要少许多，并且不支持mod实体，因为没有命名空间。如stat.killEntity.Villager就是杀死村民的次数。",
+   "sha256": "58da57240eff9a3d7d2bc74d1ead20b0e639a014fb4796ec432e3701ebaf9053",
+   "i": 3030
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "stat.entityKilledBy.<实体ID>——对应1.13更新后的minecraft.killed_by:<实体ID>，用法和stat.killEntity.<实体ID>一样。",
+     "p": {}
+    }
+   ],
+   "text": "stat.entityKilledBy.<实体ID>——对应1.13更新后的minecraft.killed_by:<实体ID>，用法和stat.killEntity.<实体ID>一样。",
+   "sha256": "7bcb5757e14dd834f538bf0cc39d038844db27d3b8d68faf844f1519f4a96a89",
+   "i": 3031
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要注意，在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.8版本之前，stat.craftItem等准则是不支持物品和方块的ID名（英文ID）的。",
+     "p": {}
+    }
+   ],
+   "text": "需要注意，在Java1.8版本之前，stat.craftItem等准则是不支持物品和方块的ID名（英文ID）的。",
+   "sha256": "952d0a831c635459156b22520b17be341f336697310d8db40c0c3f66474dc452",
+   "i": 3032
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本章到此结束。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "本章到此结束。",
+   "sha256": "b3ed5ca637e92b53bea992780b96cb7ffcde5e299f37eaec95a3fccf5b7d73ae",
+   "i": 3033
+  }
+ ],
+ "text_sha256": "4b850a3841486d89307d98a430496d7970f7bc14a50df9b1816a3074c040ff0b",
+ "chars": 6119
+}

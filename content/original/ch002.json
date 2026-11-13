@@ -1,0 +1,1934 @@
+{
+ "id": "ch002",
+ "kind": "chapter",
+ "number": 2,
+ "title": "第二章 命令方块",
+ "source": {
+  "file": "MineBBS/2第二章.txt"
+ },
+ "format": "bbcode-tokens",
+ "content": [
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=1]",
+   "arg": "1"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "第二章 命令方块"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "I",
+   "raw": "[I]"
+  },
+  {
+   "text": "2020年1月3日 21:25 4341字"
+  },
+  {
+   "tag": "I",
+   "raw": "[/I]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "（本章写作时作者使用的是基岩版1.17.0版本和Java1.17.1版本）\r\n（本章内容有可能有些难，推荐在游玩Minecraft的情况下阅读本章）\r\n（本章于2022年7月10日进行大规模修改）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在你不知道指令的时候，你是否在玩地图的时候看到过一个五彩斑斓的方块？当你因好奇尝试去撸它的时候，你却发现：这根本撸不动！\r\n　　没错，这就是我们的"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "命令方块"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "，英文名 "
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "Command Block"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "，命名空间 ID 为 command_block，在 MC 指令圈中常常被简写成 "
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "CB "
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "。你可以通过 /give 指令来获得它，比如：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=Unifont]",
+   "arg": "Unifont"
+  },
+  {
+   "text": "/give @s command_block"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　目前你不需要去了解这个指令到底是啥，怎么用，看下去就完事了。\r\n　　如果你在输入了以上指令以后都没有获得，那么你最好去检查一下你的Minecraft游戏版本。你可以尝试使用命令方块的数字id：137。（/give 你的玩家名 137）\r\n　　如果还是不行，请你看一下你的Minecraft版本是否低于JAVA1.4.2或者是携带版1.0.5。低于这两个版本的Minecraft是没有命令方块的。\r\n　　命令方块有三种颜色，六种方向，具体为：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "颜色："
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(243, 121, 52)]",
+   "arg": "rgb(243, 121, 52)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "橙得一批"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "、"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(26, 188, 156)]",
+   "arg": "rgb(26, 188, 156)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "青得一批"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "、"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(147, 101, 184)]",
+   "arg": "rgb(147, 101, 184)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "紫得一批"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "方向："
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "东西南北上下"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　命令方块的硬度和基岩是一样的，都是-1。\r\n　　爆炸抗性也一模一样，都是3600000。\r\n　　命令方块的三种颜色，各代表着3种不同的种类：\r\n　　橙得一批的那个是"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "脉冲"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "，作用是你叫它动一下（接入红石信号），它就动一下（执行一次命令），并会向其指向的链命令方块发出执行信号。\r\n　　紫得一批的那个是"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "重复"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "，作用是你叫它动一下（接入红石信号），它就没完没了地动（每一游戏刻执行一次命令，一般1游戏刻=1/20秒），并且每动一下都会向其指向的链命令方块发出执行信号。\r\n　　青得一批的那个是"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "链"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "（又叫做"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "连锁"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "），作用是你叫它动一下（接入红石信号），它不会动。它只会在收到执行信号时，将该执行信号立马传递给下一个它指向的链命令方块，然后再根据当前条件判断是否要执行。听起来似乎有点复杂？举个例子：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "A→B→C→D→"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　其中，A是未被激活的脉冲命令块，BCD三个命令方块都是已被激活且无条件限制的链命令块。当A激活时，ABCD将会同时执行指令，因为A激活时向B发出了执行信号，B收到后也向C发出了信号，C也向D发出了信号，三个链命令方块也都没有条件限制。（关于无条件是个什么东西，下面会讲到）\r\n　　关于链命令方块还是比较复杂的，具体内容请到『第九十九章 初识模块-简单的注册/登录系统 下』了解。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "而方向的话，有什么用呢？"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　上面我们讲连锁命令方块时已经遇到过一次了："
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "当你将一个未被激活的脉冲或循环命令方块（A）指向另一个已被激活的连锁命令方块（B），那么当A被激活时，就会向B发出执行信号"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。（注意，B以及之后的CDE等一般都是连锁，作为开头的A一般是脉冲或循环命令方块）\r\n　　就像下面这样（箭头即该命令方块的朝向，符号☼代表此命令方块被激活，符号✪代表此命令方块收到执行信号）：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST=1]",
+   "arg": "1"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "A→B☼→\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "A☼→B☼→\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "text": "A☼→B☼✪→\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　但B并不一定会执行，还得看这个B是有条件（条件制约）还是无条件（不受制约）的。\r\n　　另外，只要这一串命令方块一直延伸下去，且除了第一个之外后面全都是链命令方块，那么不管这些链命令方块有没有被激活、是否会真的执行指令、指令有无错误，信号仍然会一直传递下去，直到默认指定的最大值。\r\n　　我们会在以后讨论更加复杂的情况，也就是在第九十九章进行讨论。在此之前，你可以自己做做实验，猜猜规律。\r\n　　需要注意，虽然通常情况下像这样一个接着一个的命令方块链是摆成一条直线的样子，但你也可以像下面这样摆成蛇形：\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "text": "B←A"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "text": "↓"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "text": "C→D→"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　这也是没有问题的。\r\n　　甚至你对着放，也是没有问题的：\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT=2]",
+   "arg": "2"
+  },
+  {
+   "text": "B→←A"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　总的来说，"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "命令方块的方向决定了执行信号传递的方向。一串方向正确且能够正常传递执行信号的命令方块，就是一个"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "命令方块链"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。命令方块链是命令方块知识点中最难的一部分，搞懂这个，你基本上也就入门了。还是那句话，我们会在第九十九章详细讨论这东西，也就是命令方块链和连锁型命令方块。\r\n　　现在我们来打开命令方块。\r\n　　右键（键鼠模式）、按下RT（手柄模式）或点击（触屏模式）命令方块以打开。打开命令方块要满足一定条件，Java版的条件是："
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "处于创造模式，并且玩家权限等级至少为2（正常单人游戏都能打得开）"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "；基岩版是"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "需要操作员权限（或者说玩家权限等级至少为1）"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "。如果条件不满足，是无法打开的。\r\n　　至于玩家权限是什么东西。放心，我们会在第六章了解到玩家权限的相关内容。\r\n　　打开命令方块后，Java版的界面顶上是输入框，框下面是一个“O”的按钮，按了可以打开一个框，并且按钮变成了“X”，这个框用途就是“显示上次执行、检查指令的结果”。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "为什么还要多出一个"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "检查"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "text": "呢？"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "检查跟执行是不一样的。当你修改完后退出界面，命令方块会自己检查一下，如果有错会显示一些信息，如果都正确那就什么也没有发生。执行的话就不一样了，执行就算正确也会显示消息。这个框在Java版默认不显示，在基岩版默认显示，据说关掉可以让游戏更流畅一点。\r\n　　再下面是三个选项，分别显示：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "脉冲|不受制约|红石控制"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　这三个选项具体的用途是：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST=1]",
+   "arg": "1"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "第一个显示脉冲的选项——"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "选择命令方块种类"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "，可以选择『脉冲、连锁和循环』，即上面介绍过的三种类型。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "第二个显示不受制约的选项——"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "这可以选择『不受制约』和『条件制约』"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "（基岩版中是『无条件』和『有条件的』）。默认是选择『不受制约』。下面我们会详细了解这选项。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "第三个显示红石控制的选项——"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "这可以选择『红石控制』和『保持开启』"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "（基岩版中是『需要红石』和『始终活动』）。默认是选择『红石控制』，即命令方块必须要收到红石信号后才能被激活。如果改成『保持开启』，那么命令方块将会始终处于激活状态。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "『不受制约』和『条件制约』分别有什么作用呢？"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　我们知道，命令方块可以执行指令，而执行指令无非就两种结果：指令执行成功和失败。\r\n　　命令方块其实会保留其最后一次执行指令的结果，这个保留下来的结果并不是只能被我们也就是玩家所看见，它还有三个作用：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST=1]",
+   "arg": "1"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "被其他指令探测，将结果信息输出到计分板中。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "被红石比较器探测，将指令执行成功的次数转化为红石信号强度等级。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "屁股对着这个命令方块的其他命令方块可以检测该命令方块的指令是否执行成功，并根据该条件判断自身是否需要执行指令。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　前两个作用我们会在以后了解到具体用法，第三个作用其实就对应着上面的『不受制约』那个选项。\r\n　　命令方块在执行前，如果这个命令方块是『条件制约』的，那么它就会检查一下它屁股对着的那个命令方块最后一次执行指令是否执行成功，如果成功才会执行。比如下面的例子：\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "←B←A\r\nA:循环，不受制约，始终活动\r\nB:循环，条件制约，始终活动"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　A不管如何，除非游戏停止运行，它都会一直运行指令，每秒最高可以运行20次。\r\n　　B不管如何，也会一直尝试运行指令。只不过由于它是『条件制约』的，所以它在尝试执行指令之前，会先检查一遍A命令方块是否运行成功，如果成功才会运行指令。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "那么这有什么用呢？"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　假设A里面写着一条指令，可以检测半径30m范围内是否有怪物出现，而B里面写着一条能够发送警告消息的指令。如果半径30m内一直没有怪物出现，那么A的指令就会一直执行失败，虽然B也在尝试执行，但由于A一直失败，B也就不会真正执行指令，也就是不会发出警报。但如果A突然执行成功了，也就是发现怪物，那么B就会真正执行指令，发出警报。\r\n　　当然，像这种由两个循环型命令方块构成的命令方块链十分少见，因为如果把B换成连锁型，也可以达成一样的效果，还可以降低一点CPU消耗，岂不美哉？\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[COLOR=rgb(44, 130, 201)]",
+   "arg": "rgb(44, 130, 201)"
+  },
+  {
+   "text": "总而言之，条件制约的命令方块在运行前会检测其屁股后面的命令方块最后一次运行指令是否成功执行，如果那个命令方块最后一次成功运行了指令，这个命令方块也会运行，反之则不会运行。对于不受制约的命令方块来说，则并不会进行上述检查，而是直接运行指令。"
+  },
+  {
+   "tag": "COLOR",
+   "raw": "[/COLOR]",
+   "close": true
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　懂了吧？如果不懂，多多实践即可。\r\n　　基岩版的命令方块界面和Java版大不相同——其界面有两列，左侧主要是对命令方块本身状态的一个设置，右侧主要是用于填写命令。\r\n　　右侧不用多说，这里需要讲的是左侧相比Java版多出来的内容。\r\n　　左侧最上面有一个“悬停说明”，旧版本是“悬浮文本”。这儿是修改命令方块名字的地方，并且修改后的名字会直接作用在一些指令中，比如/say。而且，正如其言，这个名字还会悬浮在命令方块上面，只不过用这个是无法做出浮空字的，因为这个浮空字仅仅会在玩家指向该命令方块时才会出现。你也可以使用铁砧重新命名命令方块，并且这个方法Java版同样适用。\r\n　　"
+  },
+  {
+   "tag": "B",
+   "raw": "[B]"
+  },
+  {
+   "text": "命令方块的默认名字在基岩版1.8.0及之后的版本是“!”，在Java版和基岩版1.8.0以下版本默认是“@”。"
+  },
+  {
+   "tag": "B",
+   "raw": "[/B]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　在“需要红石|始终活动”选项的下面，还有一个“执行第一个已选项”的按钮和一个“已选项中的延迟”框。这两个东西的作用如下：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "执行第一个已选项——命令方块类型为循环时可用，默认开启。开启将会让命令块在激活后立即执行指令，关闭则会先延迟“已选项中的延迟”设定的时间，再执行。即：\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "开启——激活命令方块→执行→等待x游戏刻→执行→等待x游戏刻→执行......"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "关闭——激活命令方块→等待x游戏刻→执行→等待x游戏刻→执行→等待x游戏刻→执行......\r\n （x值为“已选项中的延迟”的值，1游戏刻=1/20秒）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "已选项中的延迟‌‌——所有命令方块类型均可用，默认为0，单位为游戏刻。"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "对于脉冲和链命令块来说，就是指定激活命令块到执行指令的延迟。比如设定为5，那么："
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "激活→等待5游戏刻→执行"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[INDENT]"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[LIST]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "*",
+   "raw": "[*]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "对于循环的命令块来说，就是设定每次执行指令执行的间隔时间。比如设定为6，且关闭执行第一个已选项，那么："
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "LIST",
+   "raw": "[/LIST]",
+   "close": true
+  },
+  {
+   "tag": "INDENT",
+   "raw": "[/INDENT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "激活命令方块→执行→等待6游戏刻→执行→等待6游戏刻→执行....."
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "text": "\r\n　　循环型命令方块不管延迟是0还是1，结果都是延迟1游戏刻。而脉冲和链型命令方块则不同，延迟是0即按下就立马执行，1的话还是会延迟1游戏刻。\r\n　　现在，让我们尝试在输入框中输入点东西。注意，命令方块中输入指令，“/”前缀是可以省略的，因为不必和普通聊天消息作区分。在Java版1.13及以上版本中，命令方块中输入指令也会有像聊天栏中输入指令一样的提示；1.13以下的版本虽然没有提示，但也可以通过Tab键补全。\r\n　　接下来你就自行研究吧，还是那句话，第九十九章我们会重新来研究命令方块链。\r\n　　要不然最后我们留点作业吧？\r\n　　还是算了，毕竟现在你也不会写些指令。\r\n　　"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[FONT=SimSun]",
+   "arg": "SimSun"
+  },
+  {
+   "text": "（一天，张三把一个命令方块放到了一个矿车，然后.......）"
+  },
+  {
+   "tag": "FONT",
+   "raw": "[/FONT]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=2]",
+   "arg": "2"
+  },
+  {
+   "text": "附表：命令方块历史"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=3]",
+   "arg": "3"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "Java"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th]"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th]"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "1.4.2"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "加入命令方块"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "1.5"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "红石比较器会输出命令方块成功运行的信号，命令方块可用铁砧重命名"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "1.6.1"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "命令方块现在无法在生存模式中和爆炸中破坏\r\n（冷知识，在Java旧版本，生存模式也可以打开命令方块，并且可以破坏）"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "1.7.2"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "加入了“显示上一个输出”框，并将命令方块字符上限重256增加到了16369，用修改器最大可达32767"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "1.8"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "发射器会放置命令方块，命令方块内字符上限达到了32767"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "1.8.6"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "发射器不再放置命令方块"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "1.9"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "加入了连锁、循环型命令方块和方块朝向、条件制约模式、保持开启和红石控制模式。操作权限等级小于2的玩家无法放置命令方块"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "1.12"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "命令方块链中的链命令方块现在在同一游戏刻中执行，并加入了maxCommandChainLength规则以规定命令块链的最大长度"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[HEADING=3]",
+   "arg": "3"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "携带版/基岩版"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "HEADING",
+   "raw": "[/HEADING]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[TABLE]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th]"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "版本"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TH",
+   "raw": "[th]"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[CENTER]"
+  },
+  {
+   "text": "更新内容"
+  },
+  {
+   "tag": "CENTER",
+   "raw": "[/CENTER]",
+   "close": true
+  },
+  {
+   "tag": "TH",
+   "raw": "[/th]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "1.0.5"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "加入命令方块"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "1.8.0"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "更改命令方块默认名称重@到!"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[TR]"
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "1.12.0"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "tag": "TD",
+   "raw": "[td width=\"50.0000%\"]",
+   "attrs": "width=\"50.0000%\""
+  },
+  {
+   "text": "加入了已选项中的延迟和执行第一个已选项"
+  },
+  {
+   "tag": "TD",
+   "raw": "[/td]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TR",
+   "raw": "[/TR]",
+   "close": true
+  },
+  {
+   "text": "\r\n"
+  },
+  {
+   "tag": "TABLE",
+   "raw": "[/TABLE]",
+   "close": true
+  }
+ ],
+ "raw_sha256": "c10a76a5a4d37671f33ffe6b3479a3aec5ed37ea11a82bce9bbd7acb5beef260",
+ "text_sha256": "133bbe51ac0a665ae84bca521686d5ee4c4a8ea7aa19ac35fe27f8184d3540aa",
+ "chars": 5073
+}

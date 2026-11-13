@@ -1,0 +1,1719 @@
+{
+ "id": "ch034",
+ "kind": "chapter",
+ "number": 34,
+ "title": "第三十四章 setworldspawn、spawnpoint-出生点",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   2528,
+   2617
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第三十四章_setworldspawn、spawnpoint-出生点"
+    },
+    {
+     "t": "第三十四章 setworldspawn、spawnpoint-出生点",
+     "p": {}
+    }
+   ],
+   "text": "第三十四章 setworldspawn、spawnpoint-出生点",
+   "sha256": "919407e538204155df09bec05f99edf4b4a620522a6f4077d2ef129b692bf89e",
+   "i": 2528
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很久很久以前我们就已经提到过出生点（重生点）了。如果没有记录床时就会重生在出生点。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "很久很久以前我们就已经提到过出生点（重生点）了。如果没有记录床时就会重生在出生点。",
+   "sha256": "73d723b17ca688dab50e0fe67974196d5f61f87623abdafaa5827ce9568e7cb9",
+   "i": 2529
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但是，如果要制作一张地图，出生点和复活点（存档点）是必不可少的。那么，怎么才能更改出生点和重生点的位置呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "但是，如果要制作一张地图，出生点和复活点（存档点）是必不可少的。那么，怎么才能更改出生点和重生点的位置呢？",
+   "sha256": "ffe4f46644946d9936a322586880637001d44e459996e005e0520387cdb32527",
+   "i": 2530
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft允许我们用两种指令更改出生点和重生点。这两种指令的作用猛的看相似，仔细一研究就会发现其并没有那么简单。",
+     "p": {}
+    }
+   ],
+   "text": "Minecraft允许我们用两种指令更改出生点和重生点。这两种指令的作用猛的看相似，仔细一研究就会发现其并没有那么简单。",
+   "sha256": "45e9076f0f2ce2c5bb79090be239264410be52fb4c8cfe46693af38fbb34f8a0",
+   "i": 2531
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这两种指令就是：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/setworldspawn和/spawnpoint。",
+     "p": {}
+    }
+   ],
+   "text": "这两种指令就是：/setworldspawn和/spawnpoint。",
+   "sha256": "f920194404d94ee2445ae1fae26f811d370bbfd3f6672f56b78317e0dac22b5e",
+   "i": 2532
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "先来看看第一种。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/setworldspawn这个很长吧，不好记。其实，把它拆开，就好记了。",
+     "p": {}
+    }
+   ],
+   "text": "先来看看第一种。/setworldspawn这个很长吧，不好记。其实，把它拆开，就好记了。",
+   "sha256": "2246bb21d206dbdd912c26c62f49b1deba5f678e5ab7dc28ec5655aabb34de20",
+   "i": 2533
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "setworldspawn其一共是由三个单词组成的：set、world和spawn。set之前见到过，意为“设置”，world的中文意思是“世界”，spawn的中文是“产卵、产生”。",
+     "p": {}
+    }
+   ],
+   "text": "setworldspawn其一共是由三个单词组成的：set、world和spawn。set之前见到过，意为“设置”，world的中文意思是“世界”，spawn的中文是“产卵、产生”。",
+   "sha256": "e61970c50bc69c566b148e30b3d47af2b78848fc92e2b590719146117da80fa1",
+   "i": 2534
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么这样子就可以大致的知道",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "setworldspawn的意思：设置世界的产生地。",
+     "p": {}
+    }
+   ],
+   "text": "那么这样子就可以大致的知道setworldspawn的意思：设置世界的产生地。",
+   "sha256": "335d4ed26517aa173b60e6596d366f9f761db7fb4b04d76134f74b3d7d28b5f4",
+   "i": 2535
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子总有些怪怪的。其实英文本身语法跟中文不同。所以，正确的翻译是：设置世界的出生点。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这样子总有些怪怪的。其实英文本身语法跟中文不同。所以，正确的翻译是：设置世界的出生点。",
+   "sha256": "c06b36d2c16e2b19d1849962ccfbc29dd3b14cfaf4df0edffd421ff46a5096e2",
+   "i": 2536
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/setworldspawn",
+     "p": {}
+    }
+   ],
+   "text": "/setworldspawn",
+   "sha256": "5c75a2c780604b241c37cca5adc93f57c650909180b8a8e4a550c6fedc786d9b",
+   "i": 2537
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：设置世界（玩家）出生点。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：设置世界（玩家）出生点。",
+   "sha256": "a97532fb6b28f5bb1c6b16d9ea354f1d3d54d566958205ca3f744a971dcd1a43",
+   "i": 2538
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2，基岩-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2，基岩-1",
+   "sha256": "04ff054666196c9f14a59c65f5ddb9a79efed2f3d2b519540dd5715299ff7c53",
+   "i": 2539
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 2540
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 2541
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.16及以上版本",
+     "p": {}
+    }
+   ],
+   "text": "Java1.16及以上版本",
+   "sha256": "0df356fbfaa95fa20b29b1c0702932af644eef791db3117727c8648ec23255c9",
+   "i": 2542
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/setworldspawn [<坐标>][<水平旋转角度>]",
+     "p": {}
+    }
+   ],
+   "text": "/setworldspawn [<坐标>][<水平旋转角度>]",
+   "sha256": "b597c8ad34a02e5b1202f138e89dd86b7110d69fc003d5d4a9b58feb6262516e",
+   "i": 2543
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩和",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.16以下版本",
+     "p": {}
+    }
+   ],
+   "text": "基岩和Java1.16以下版本",
+   "sha256": "3268a813fc83c801a8857cd1eaae1ecbfdf609d8ebc6ddfe43ad41384cf4e1e6",
+   "i": 2544
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/setworldspawn [<坐标>]",
+     "p": {}
+    }
+   ],
+   "text": "/setworldspawn [<坐标>]",
+   "sha256": "fd8ec630c15930ad20fe4b88ddd0984f784a2de086015d53efb314ff647468e7",
+   "i": 2545
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/setworldspawn可以设置世界玩家出生点。如果不写坐标默认就是执行者的坐标，不写旋转角度默认是0.0，即朝正南方。比如：",
+     "p": {}
+    }
+   ],
+   "text": "使用/setworldspawn可以设置世界玩家出生点。如果不写坐标默认就是执行者的坐标，不写旋转角度默认是0.0，即朝正南方。比如：",
+   "sha256": "04fde71d52f9786a999832c6aa6a99b53f71836e7ef47d50d0ee16d0056b949f",
+   "i": 2546
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/setworldspawn 261 80 81 90",
+     "p": {}
+    }
+   ],
+   "text": "/setworldspawn 261 80 81 90",
+   "sha256": "137ad1e9f03ee6950804848cfe74c86ac2bf7150dac81482ac882a69c38475ae",
+   "i": 2547
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "即设置世界出生点为",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(261，80，81)，出生或重生时朝向正西。",
+     "p": {}
+    }
+   ],
+   "text": "即设置世界出生点为(261，80，81)，出生或重生时朝向正西。",
+   "sha256": "43e0f817487914f132bd897961489de1e6adf70941579a0fffb978c4f303155c",
+   "i": 2548
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要注意的是，如果该游戏存档默认不是冒险模式，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Y轴会被无视，玩家会直接出生或重生在该坐标的Y轴最高点。默认冒险则可以解决这个问题，只不过如果设定的出生点没有空气，出生点还是会往上移动直到有空气的地方，最高到256格（1.18预览版为319格）。",
+     "p": {}
+    }
+   ],
+   "text": "需要注意的是，如果该游戏存档默认不是冒险模式，Y轴会被无视，玩家会直接出生或重生在该坐标的Y轴最高点。默认冒险则可以解决这个问题，只不过如果设定的出生点没有空气，出生点还是会往上移动直到有空气的地方，最高到256格（1.18预览版为319格）。",
+   "sha256": "b68b0e5f8a73ce481e4ade079811eec5c29a4e4f221bd4e412c1700a949b98ee",
+   "i": 2549
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "还有一点需要注意的是，如果要让玩家精确无比地生成在该坐标，游戏规则",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "spawnRadius就要设为0，不然生成点最大会偏移10格（Java）或5格（基岩）。",
+     "p": {}
+    }
+   ],
+   "text": "还有一点需要注意的是，如果要让玩家精确无比地生成在该坐标，游戏规则spawnRadius就要设为0，不然生成点最大会偏移10格（Java）或5格（基岩）。",
+   "sha256": "9c6c14519118d37701bd937825a8b44ee22e5b2274634d548a4035c60bf56cb2",
+   "i": 2550
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/setworldspawn可以解决世界出生点和重生点的问题。但在服务器或是专门给多人玩的小游戏地图中，玩家的重生点并不是在一起的，那该怎么办？",
+     "p": {}
+    }
+   ],
+   "text": "使用/setworldspawn可以解决世界出生点和重生点的问题。但在服务器或是专门给多人玩的小游戏地图中，玩家的重生点并不是在一起的，那该怎么办？",
+   "sha256": "8773b568c21363c92f50569644999045c139120554e7c065ae57bce7ae04e060",
+   "i": 2551
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/spawnpoint。",
+     "p": {}
+    }
+   ],
+   "text": "使用/spawnpoint。",
+   "sha256": "6b5cecfa672436caac36745bb5b708e13d0211464ce4a0e713a92f14461d3410",
+   "i": 2552
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spawnpoint，由spawn和point组合而成。point即“点”的意思，也就是说，spawn point就是出生点的意思。只不过它设定的并不是世界的出生点，而是单个或多个玩家的重生点。",
+     "p": {}
+    }
+   ],
+   "text": "/spawnpoint，由spawn和point组合而成。point即“点”的意思，也就是说，spawn point就是出生点的意思。只不过它设定的并不是世界的出生点，而是单个或多个玩家的重生点。",
+   "sha256": "7e7b6a4166063c24383c28ca4563538301c2a07c822e88846e417777171b557a",
+   "i": 2553
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spawnpoint",
+     "p": {}
+    }
+   ],
+   "text": "/spawnpoint",
+   "sha256": "5ca2386c4bb407c170c9028102b5edca46d3104db4f472cdba58e493fc9c1de9",
+   "i": 2554
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：设定一个或多个玩家的重生点。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：设定一个或多个玩家的重生点。",
+   "sha256": "8087fe77ad72b7178c29294778df1e1e87fae53c62fa9ae98aa8af667570f5a0",
+   "i": 2555
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java-2，基岩-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2，基岩-1",
+   "sha256": "04ff054666196c9f14a59c65f5ddb9a79efed2f3d2b519540dd5715299ff7c53",
+   "i": 2556
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 2557
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 2558
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Java1.16及以上版本",
+     "p": {}
+    }
+   ],
+   "text": "Java1.16及以上版本",
+   "sha256": "0df356fbfaa95fa20b29b1c0702932af644eef791db3117727c8648ec23255c9",
+   "i": 2559
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spawnpoint [<玩家：目标选择器>][<坐标>][<角度>]",
+     "p": {}
+    }
+   ],
+   "text": "/spawnpoint [<玩家：目标选择器>][<坐标>][<角度>]",
+   "sha256": "e9c87666c0f457f101473190c6cf136504db9d26b696bff5d3e31df00e1908f0",
+   "i": 2560
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩和",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.16以下版本",
+     "p": {}
+    }
+   ],
+   "text": "基岩和Java1.16以下版本",
+   "sha256": "3268a813fc83c801a8857cd1eaae1ecbfdf609d8ebc6ddfe43ad41384cf4e1e6",
+   "i": 2561
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spawnpoint [<玩家：目标选择器>][<坐标>]",
+     "p": {}
+    }
+   ],
+   "text": "/spawnpoint [<玩家：目标选择器>][<坐标>]",
+   "sha256": "d742ed8baf2297004daf94c3ca3eb09bd2e566c194cab9e6173c9008d72aa06a",
+   "i": 2562
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果只填上",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/spawnpoint，那么将会设定自己的重生点于自己的位置。",
+     "p": {}
+    }
+   ],
+   "text": "如果只填上/spawnpoint，那么将会设定自己的重生点于自己的位置。",
+   "sha256": "5bf1d2707f94e0f787e76d257cd1368e29479ee4acaacb26ecca22755258116a",
+   "i": 2563
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果填上目标选择器，不填坐标，那么将会设定目标的重生点于自己的位置。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "如果填上目标选择器，不填坐标，那么将会设定目标的重生点于自己的位置。",
+   "sha256": "4caa04ba8e646e845673f41c1e89b8e63e38e3d9af4bba4ed6220cda63047452",
+   "i": 2564
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果全部都填，那么将会指定目标的重生点于指定的坐标。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "如果全部都填，那么将会指定目标的重生点于指定的坐标。",
+   "sha256": "b2eba4a0f0cd1e16589d952f600c1043c185a92da0942a068d1f3c7092bbaae9",
+   "i": 2565
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么这两个指令有什么不同呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "那么这两个指令有什么不同呢？",
+   "sha256": "741b913b4b625aadb3a9d04438ec5c27de8e19c375665a612828f35f597e295a",
+   "i": 2566
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/setworldspawn是设定世界默认出生点，会影响到设定后进入的玩家，但不会覆盖/spawnpoint。",
+     "p": {}
+    }
+   ],
+   "text": "/setworldspawn是设定世界默认出生点，会影响到设定后进入的玩家，但不会覆盖/spawnpoint。",
+   "sha256": "8e62c64ef866a80d7c086d66e181471b6f5f4d90e5a3c63784c17326facd9bd4",
+   "i": 2567
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spawnpoint是设定单个或多个玩家的重生点，一般用于制作地图中的存档点（又叫重生点），但不会覆盖床。",
+     "p": {}
+    }
+   ],
+   "text": "/spawnpoint是设定单个或多个玩家的重生点，一般用于制作地图中的存档点（又叫重生点），但不会覆盖床。",
+   "sha256": "b3f894a3dce4fb01228806bf73ca8f8e363efce6b8c1a5cefb262ac1a19d575f",
+   "i": 2568
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "比如：",
+   "sha256": "a9527ddcd686491dc2f56c436383c4f102e02b2389a057e3d7bfc0caf93382a4",
+   "i": 2569
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute @a ~~~ detect ~~-1 ~ diamond_block 0 spawnpoint",
+     "p": {}
+    }
+   ],
+   "text": "/execute @a ~~~ detect ~~-1 ~ diamond_block 0 spawnpoint",
+   "sha256": "70bf0a89bdba54d93a0677c3c408c2a698dc339ece8a01279d9527b56265ee3f",
+   "i": 2570
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令的效果是：当任意一名玩家站在钻石块上时，就会设定他的重生点于此地。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令的效果是：当任意一名玩家站在钻石块上时，就会设定他的重生点于此地。",
+   "sha256": "2300d5772627a78eca61bf2a2cae58d41d210cc702888733c75929c97c6f7667",
+   "i": 2571
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/spawnpoint固然好用，但重生点设定之后就无法移除，只能通过/spawnpoint再次设定地点以覆盖。为此，Mojang搞了一个专门解决重生点的指令：",
+     "p": {}
+    }
+   ],
+   "text": "/spawnpoint固然好用，但重生点设定之后就无法移除，只能通过/spawnpoint再次设定地点以覆盖。为此，Mojang搞了一个专门解决重生点的指令：",
+   "sha256": "74d20da898ebdb966ccc0888cea2d3af9970f26ee1f322bc04a4176b598aed7e",
+   "i": 2572
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/clearspawnpoint",
+     "p": {}
+    }
+   ],
+   "text": "/clearspawnpoint",
+   "sha256": "8b1749b4b1d98b62c943cbce9da28a9b27e3ea5ac120e6d5321ea93c04953be5",
+   "i": 2573
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：清除一名或多名玩家的重生点。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：清除一名或多名玩家的重生点。",
+   "sha256": "844155df82724ca6ac376d400c4ad14b2f7cad4b96ea6a5b23fef6f31e80113f",
+   "i": 2574
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：1",
+   "sha256": "5aec58f5e5f881cfea1b6dae4eb5ddcc5aea2ef4bde9c190e90a0b4aba6abb30",
+   "i": 2575
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 2576
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "版本独占：基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "版本独占：基岩版",
+   "sha256": "f9ca27590dede3f19a9f71b99cb21eeecc8252d4a0fdbe91dc4c410658383467",
+   "i": 2577
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 2578
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/clearspawnpoint [<玩家：目标选择器>]",
+     "p": {}
+    }
+   ],
+   "text": "/clearspawnpoint [<玩家：目标选择器>]",
+   "sha256": "7f94fdf428300ce22d101b87b6354443bf6dca2759d4f5bf2b0fc0b560f6e5b9",
+   "i": 2579
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "默认是清除执行者自己的重生点。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "默认是清除执行者自己的重生点。",
+   "sha256": "f5bb6da304521dca798436f2c0aab081bc5d211182ec96c821efa85e62bdf458",
+   "i": 2580
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令哪都好，就是目前它是基岩版独占。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这条指令哪都好，就是目前它是基岩版独占。",
+   "sha256": "6f4710fd33dafbce63f279e956ac9a43d78c46362404c856404db806102cd517",
+   "i": 2581
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "历史",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "历史",
+   "sha256": "b0385cfe4b424d835963f2ce8a27a7fec98018affaf7c44645933266b8869727",
+   "i": 2582
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\Java\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\Java\\\\",
+   "sha256": "b93d6f45c2e4881e1b0c9331424fa8b3dde12906be26246643c203cbfb83524d",
+   "i": 2583
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Classic",
+     "p": {}
+    }
+   ],
+   "text": "Classic",
+   "sha256": "ae25d6481fc1741ffee4a95cd05de7b6375f7e1b0c63c006640b366094f2c4a9",
+   "i": 2584
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "0.0.17a——加入了/setspawn用于设置世界出生点",
+     "p": {}
+    }
+   ],
+   "text": "0.0.17a——加入了/setspawn用于设置世界出生点",
+   "sha256": "14d311254fa49d96f4fec16738f86f910b32138a2f19ea6feae47e04e5eed7cd",
+   "i": 2585
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Indev",
+     "p": {}
+    }
+   ],
+   "text": "Indev",
+   "sha256": "aab4ebfff62c34ebe0450105895640561bce2db1625199305891d3eb855d3079",
+   "i": 2586
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "0.31——移除了所有命令",
+     "p": {}
+    }
+   ],
+   "text": "0.31——移除了所有命令",
+   "sha256": "8406aea60b26b12954c7b7c5d2ad63b71e51cdf87f473d193a9efc052217c34e",
+   "i": 2587
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "正式版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "正式版",
+   "sha256": "93a48223a516e074c9f71d4116712437fa324fda94bd05c9bbe2d4fe4704d14d",
+   "i": 2588
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.4.2——加入了/spawnpoint",
+     "p": {}
+    }
+   ],
+   "text": "1.4.2——加入了/spawnpoint",
+   "sha256": "9177697790da65b98f9c2f758ef2ba360cf52d2093a29896ce68300469f6fd93",
+   "i": 2589
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.7.2——加入了/setworldspawn",
+     "p": {}
+    }
+   ],
+   "text": "1.7.2——加入了/setworldspawn",
+   "sha256": "505edc4c45bce85ab5d987411b91523ade196679cab579e0a9f71a47a6fa7756",
+   "i": 2590
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.9——加入了spawnRadius游戏规则",
+     "p": {}
+    }
+   ],
+   "text": "1.9——加入了spawnRadius游戏规则",
+   "sha256": "58a79c53b146a9270e2ba2f5738703a6440c076529b716833ab95293207b5a0d",
+   "i": 2591
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16——/spawnpoint现在在任意维度都可以使用",
+     "p": {}
+    }
+   ],
+   "text": "1.16——/spawnpoint现在在任意维度都可以使用",
+   "sha256": "9a5dbaa8781f0db282be116bf5a2db6cd4635a9a8133f4d7db0acd883032f69d",
+   "i": 2592
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16.2——为/spawnpoint和/setworldspawn添加了朝向参数",
+     "p": {}
+    }
+   ],
+   "text": "1.16.2——为/spawnpoint和/setworldspawn添加了朝向参数",
+   "sha256": "8e0730143687d2629a8bfae776c23f23d660bb82bafa0a143ae9c3bb680011a8",
+   "i": 2593
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\携带版和基岩版\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\携带版和基岩版\\\\",
+   "sha256": "8c21198ba5d8f62e4a7dd06b1d6c552f38ff2c368987c94675b7fc6ecc1bf33c",
+   "i": 2594
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Alpha",
+     "p": {}
+    }
+   ],
+   "text": "Alpha",
+   "sha256": "b1a96dd646bccaa24cef7a3db22a6f995f05658f4f1c3272913e258c03e6fb24",
+   "i": 2595
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "0.16.0——加入了/setworldspawn和/spawnpoint",
+     "p": {}
+    }
+   ],
+   "text": "0.16.0——加入了/setworldspawn和/spawnpoint",
+   "sha256": "4457550071f75459aab136aab5512336447b7b3896bb3af25216005bf4c9cf36",
+   "i": 2596
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "基岩版",
+   "sha256": "e1ef194dc07360ceff0a1bfe2e5ddb80aa088939ada629f4c1c7f9bde5641ae2",
+   "i": 2597
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.12.0——加入了spawnradius游戏规则",
+     "p": {}
+    }
+   ],
+   "text": "1.12.0——加入了spawnradius游戏规则",
+   "sha256": "613504b1fc20045c1d8bbdaa067ac5746ac91d76a04a009645e8c05880dc7e4c",
+   "i": 2598
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16.0——/spawnpoint可以在下界使用",
+     "p": {}
+    }
+   ],
+   "text": "1.16.0——/spawnpoint可以在下界使用",
+   "sha256": "1ad36202fc3c03d92fe69887cfa4525e854c9442d85cd1119e13e4f7c2aeaad1",
+   "i": 2599
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16.100——加入了/clearspawnpoint",
+     "p": {}
+    }
+   ],
+   "text": "1.16.100——加入了/clearspawnpoint",
+   "sha256": "af1ed08cb79d034499ea00904f7e36e3d2f21c64d94f5f2815b1a06652c81e24",
+   "i": 2600
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 2601
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 2602
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": ".......",
+     "p": {}
+    }
+   ],
+   "text": ".......",
+   "sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+   "i": 2603
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如何获取一个玩家的重生点位置？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "如何获取一个玩家的重生点位置？",
+   "sha256": "cb480223b1393473c8b084b87faf4a74b78e7c3bf8ace2e407680edec49ca47f",
+   "i": 2604
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "使用：",
+   "sha256": "726a8d275e81cb0c3906d796409c803d7088e7a8384d703f6fff73afd6adf435",
+   "i": 2605
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/getspawnpoint",
+     "p": {}
+    }
+   ],
+   "text": "/getspawnpoint",
+   "sha256": "21c0df81e34257cbca25c87fc09dadbbe4ea481e839a0331f90b5f8b977a16ce",
+   "i": 2606
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：获取单个玩家的重生点坐标",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：获取单个玩家的重生点坐标",
+   "sha256": "7190c952cecbc794998f542d650e2acaaaac823a500a5b26d93462f5d5a5b578",
+   "i": 2607
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "3",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：3",
+   "sha256": "868ab6056955ba73dc5bd4a9b0e48b61a7809cacb9b0c19cfbd191591e743d2b",
+   "i": 2608
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：否",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：否",
+   "sha256": "b3a9c3c7cb901faebf261066d5ee0cbf4b4552bf726ddbf04e48ff9ad9e0f423",
+   "i": 2609
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "版本独占：基岩版、教育版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "版本独占：基岩版、教育版",
+   "sha256": "dee61004bb10f1e392c511e46d421b874e6b52f194225a421a9fc8bf9a08a47a",
+   "i": 2610
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不显示在命令列表里：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "不显示在命令列表里：是",
+   "sha256": "d761d73778f45f68c918e925529701abc95ca8e2fb33341e5838425a15b01e26",
+   "i": 2611
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 2612
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/getspawnpoint <玩家：目标>",
+     "p": {}
+    }
+   ],
+   "text": "/getspawnpoint <玩家：目标>",
+   "sha256": "97c8559e59b7398a76acffdf1e52fda7c0949d64fbafef0fff1a454ac0fb9a72",
+   "i": 2613
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "由于此命令需要在基岩版服务器中使用，而且因为权限等级过高又隐藏在命令列表，故作者没有对此详细研究。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "由于此命令需要在基岩版服务器中使用，而且因为权限等级过高又隐藏在命令列表，故作者没有对此详细研究。",
+   "sha256": "bab338042e41096df9979ef3fb93043b09d883a6d5c596685a6692355e4cbabf",
+   "i": 2614
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 2615
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 2616
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "......",
+     "p": {}
+    }
+   ],
+   "text": "......",
+   "sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+   "i": 2617
+  }
+ ],
+ "text_sha256": "033becd76537b99e156a0b038f50b35ce339f47627772bb36f69e89ea2a7b712",
+ "chars": 2294
+}

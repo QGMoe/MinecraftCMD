@@ -1,0 +1,7170 @@
+{
+ "id": "f-progress",
+ "kind": "front",
+ "number": null,
+ "title": "本书第一次大修进程表",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   91,
+   299
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "本书第一次大修进程表",
+     "p": {}
+    }
+   ],
+   "text": "本书第一次大修进程表",
+   "sha256": "ea97fbc48413bbbadffa6c673c9549154fd05034504995cf6cbe38070d2656ca",
+   "i": 91
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个章节是『本书第一次大修』的进程表，我会在这里粗略列出各章节的修改情况。",
+     "p": {}
+    }
+   ],
+   "text": "这个章节是『本书第一次大修』的进程表，我会在这里粗略列出各章节的修改情况。",
+   "sha256": "420667d3c5a7d0b3fc0e3250d11543223eb9abdbb8fd0e5228889ffe38a5739f",
+   "i": 92
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "图例",
+     "p": {}
+    }
+   ],
+   "text": "图例",
+   "sha256": "5f6a03b217245ff838c75a71623ccf9478f181e15394c02e4b0cfbbaa074e9c2",
+   "i": 93
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "○······无修改计划，可能不会修改",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "○······无修改计划，可能不会修改",
+   "sha256": "f3d2732f30e4a8008edb583d5474fe644ce282f1a21d45a59222a2ab3037bea1",
+   "i": 94
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "833C0B"
+    }
+   },
+   "c": [
+    {
+     "t": "□······有修改计划，但还未修改",
+     "p": {
+      "color": "833C0B"
+     }
+    }
+   ],
+   "text": "□······有修改计划，但还未修改",
+   "sha256": "e4d95f9ad2760f051da0a9ef186bdf70e48470479dfc888cd6e88cd3bc33d830",
+   "i": 95
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "有被小幅度的修改",
+     "p": {}
+    }
+   ],
+   "text": "◇······有被小幅度的修改",
+   "sha256": "ad8c467f4839113c6e5dd51810f8470cc21450ad6c528af273df53a8be1ad784",
+   "i": 96
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "有被大幅度的修改，但未重写",
+     "p": {}
+    }
+   ],
+   "text": "☆······有被大幅度的修改，但未重写",
+   "sha256": "4042c4ca324761170322964768c822977ef91addb0d9025683d4e12187eaf420",
+   "i": 97
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "有被重写",
+     "p": {}
+    }
+   ],
+   "text": "★······有被重写",
+   "sha256": "ce72db25c5c7f36b7105e3b9ee2fbec3316ffd55e48f73dffe030378e64e6f15",
+   "i": 98
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "✎",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "······章节主要内容被改变",
+     "p": {
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "✎······章节主要内容被改变",
+   "sha256": "2f79ec2fcde69f2aab6560d1e7c2e4adbdb347cf7708c289ec967b4f38d08e76",
+   "i": 99
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "······章节名称被改变",
+     "p": {}
+    }
+   ],
+   "text": "✿······章节名称被改变",
+   "sha256": "c4bef3b705f8a63429676758bc91f1335e8e05f3f67f0ef34fa85fdd8e8a610d",
+   "i": 100
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "❁",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "······卷名被改变",
+     "p": {}
+    }
+   ],
+   "text": "❁······卷名被改变",
+   "sha256": "b5611d19363bb28257eed4354e9ad37467875229e195b82ed0e19f65147dc388",
+   "i": 101
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "00B050"
+    }
+   },
+   "c": [
+    {
+     "t": "✚",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "00B050"
+     }
+    },
+    {
+     "t": "······新增章节",
+     "p": {
+      "color": "00B050"
+     }
+    }
+   ],
+   "text": "✚······新增章节",
+   "sha256": "90257b32a5a3560cf71fcb2aba6c878d9348bd804c631c7008de124500c1e1b7",
+   "i": 102
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "FF0000"
+    }
+   },
+   "c": [
+    {
+     "t": "✕",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "FF0000"
+     }
+    },
+    {
+     "t": "······章节被删除",
+     "p": {
+      "color": "FF0000"
+     }
+    }
+   ],
+   "text": "✕······章节被删除",
+   "sha256": "d315693f0b305119500cd1ada23c787f8651b2b38ea4ff2618d669b241a24efc",
+   "i": 103
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "833C0B"
+    }
+   },
+   "c": [
+    {
+     "t": "⊙",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      },
+      "color": "833C0B"
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      },
+      "color": "833C0B"
+     }
+    },
+    {
+     "t": "将会被再次修改",
+     "p": {
+      "color": "833C0B"
+     }
+    }
+   ],
+   "text": "⊙······将会被再次修改",
+   "sha256": "8bde8e436225a2da71210ecbc1c097bcfb630c4b8508a0e0b5ac98fc54bca7c8",
+   "i": 104
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "章节列表",
+     "p": {}
+    }
+   ],
+   "text": "章节列表",
+   "sha256": "b944b729cbbef2b73fbbb263e2cd09a74d2e14bd7f5463b80365a58648871d77",
+   "i": 105
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24",
+     "szCs": "32"
+    }
+   },
+   "c": [
+    {
+     "t": "新手入门",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "新手入门",
+   "sha256": "bf72af99ece787885d00b00f60b85f450b8aa80cc83df83a0380dc5b1242d0f2",
+   "i": 106
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "序言",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "序言★",
+   "sha256": "f64e7505f4aba700480657949120d9b44010601f4936ee9a8e0b2a11afd18f12",
+   "i": 107
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "作弊与输入指令",
+     "p": {}
+    },
+    {
+     "t": "☆✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第一章 作弊与输入指令☆✿",
+   "sha256": "bd9af0758c11a1885dbf2804aba5d63e066af959012133864442f3c8066a3c47",
+   "i": 108
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "命令方块",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第二章 命令方块☆",
+   "sha256": "5008578320cee34b352b2b23a7359e2aae3b3bbc33500748c0b59246e18917fe",
+   "i": 109
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "§",
+     "p": {}
+    },
+    {
+     "t": "☆✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第三章 §☆✿",
+   "sha256": "5ef3e2baadcd4b23c463bf54de4425e0d1c1569470691ded8d50281678ebbbaf",
+   "i": 110
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第四章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "目标选择器",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第四章 目标选择器★",
+   "sha256": "47df66656d2f48d031babefa34f157f8a002160b7522fbf25dd6d0687fea3787",
+   "i": 111
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第五章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "坐标",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第五章 坐标★",
+   "sha256": "d96ab1073283bafa0beebfa095f26470f8219b2f338678e35e85b5607e374d4d",
+   "i": 112
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第六章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "玩家类别与权限等级",
+     "p": {}
+    },
+    {
+     "t": "☆✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第六章 玩家类别与权限等级☆✿",
+   "sha256": "006c018ae5029ef0a4c8f4bf48dc11f2b4db2a22f2add215db93678b83696101",
+   "i": 113
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第七章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "指令的格式与指令执行的三要素",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第七章 指令的格式与指令执行的三要素★✿",
+   "sha256": "92ab647e36ef10448fd035c9088b6789a55f5a3e43dbaeeac4f42a47ea5e94a5",
+   "i": 114
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "833C0B"
+    }
+   },
+   "c": [
+    {
+     "t": "MC新手要学习的基础—1—红石信号□",
+     "p": {
+      "color": "833C0B"
+     }
+    }
+   ],
+   "text": "MC新手要学习的基础—1—红石信号□",
+   "sha256": "af58c2d1d8ef25801f793997bce85dd2b951ba1e32709de1b0e65fc5cd26c433",
+   "i": 115
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "00B050"
+    }
+   },
+   "c": [
+    {
+     "t": "MC新手要学习的基础—2—Minecraft版本的区分",
+     "p": {
+      "color": "00B050"
+     }
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      },
+      "color": "00B050"
+     }
+    },
+    {
+     "t": "✚",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "00B050"
+     }
+    }
+   ],
+   "text": "MC新手要学习的基础—2—Minecraft版本的区分◇✚",
+   "sha256": "7e52e50f63e1a9cc20a8cbb46cb0508fbace9e073b92ec39f613565d1175ea9f",
+   "i": 116
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24",
+     "szCs": "32"
+    }
+   },
+   "c": [
+    {
+     "t": "常用基础指令",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "常用基础指令",
+   "sha256": "89ae22903f133b6fb903e68823306130873f5a129120fc5317f7a65beeb0cd2b",
+   "i": 117
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第八章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "    /give的用法",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第八章     /give的用法☆",
+   "sha256": "1dde6057fc558d0d4c583ec69dbd1099fc88c48b974f15313f79632c20178ebc",
+   "i": 118
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第九章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "    tp-传送指令",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第九章     tp-传送指令☆",
+   "sha256": "4736dc0ffa246d827e38b4210d35143fe07d0b5664432a190b7d7514133b1e83",
+   "i": 119
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第十章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "    kill-熊孩子最喜欢的指令",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "第十章     kill-熊孩子最喜欢的指令◇",
+   "sha256": "69688950b7e167996689353d49d1cf81da34d1aa76b541d5cae90bc5ce37f5d2",
+   "i": 120
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第十一章   gamemode-更改游戏模式",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "第十一章   gamemode-更改游戏模式◇",
+   "sha256": "e7c872b6e21822a5d37bb6269962f7be0495bda9c2e7c07677afebaf44bc0fcb",
+   "i": 121
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第十二章   gamerule-自定游戏规则",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "第十二章   gamerule-自定游戏规则◇",
+   "sha256": "bce04fad87beddacc2217030b36898e41f50796de478acb40627944944f2c825",
+   "i": 122
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第十三章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  clear-清除物品的指令",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第十三章   clear-清除物品的指令☆",
+   "sha256": "c04c010dbc9479c0a575de2491061487aefb43ceb19cd41cb04bdd320684d8b7",
+   "i": 123
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第十四章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  fill-填充指令",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "第十四章   fill-填充指令◇",
+   "sha256": "d2faa0b6940bb3431bdb3b39b0eaf4b63773da377ac6e1e417087acd2370058b",
+   "i": 124
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第十五章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  发送消息",
+     "p": {}
+    },
+    {
+     "t": "☆✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第十五章   发送消息☆✿",
+   "sha256": "bd0465006372f85de4afdd239c00cce3774cd42eabccbe29a03404025f548b72",
+   "i": 125
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第十六章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  title-屏幕标题",
+     "p": {}
+    },
+    {
+     "t": "☆✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第十六章   title-屏幕标题☆✿",
+   "sha256": "a777e829b4d39e3c3f6f476e8e5e885f4ec7bb3daa969db9f8cbc7d3614bb2c8",
+   "i": 126
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第十七章   Java版JSON文本初识",
+     "p": {}
+    },
+    {
+     "t": "☆✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第十七章   Java版JSON文本初识☆✿",
+   "sha256": "c24c4d7152aacc203ab0f4e71cb2765ec80cc4226928353260445ec834b004ff",
+   "i": 127
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第十八章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " ",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "基岩版特殊符号",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第十八章   基岩版特殊符号★",
+   "sha256": "5591ad04fefa58132568787bafc4ce4d108e153180c8f60b0220cc2050b706ef",
+   "i": 128
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第十九章   time-改变时间",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "第十九章   time-改变时间◇",
+   "sha256": "098c9072688ec018bcee912784a14fa0bbcf734e5956c1ff07e4146cb8509bdd",
+   "i": 129
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二十章   weather-控制天气",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "第二十章   weather-控制天气◇",
+   "sha256": "4fbf3df2b7a0cbe29791df4b569c58a6d1fe1d113b01e18840eee51231ecdc5a",
+   "i": 130
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二十一章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "一些短小但不容忽视的指令",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第二十一章 一些短小但不容忽视的指令☆",
+   "sha256": "5d0af6f8a13dd8809e65a2822ff8eda9779d6d0211112e087e8b72c2534b6311",
+   "i": 131
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二十二章 summon-生成实体",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第二十二章 summon-生成实体☆",
+   "sha256": "867f58ac7531ad70e81d5032ee24a8327bf5b1eb6a8f6ee6752a73b519d5f0e9",
+   "i": 132
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二十三章 setblock-放置方块",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "第二十三章 setblock-放置方块◇",
+   "sha256": "48d1f5e7e63f9a1de6a5aa1bb82bd49dfa2c2007c35ada4edb059cb486cd3a48",
+   "i": 133
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二十四章 xp-控制经验值",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第二十四章 xp-控制经验值☆",
+   "sha256": "4e956656064538423a53651414ca0ef5d986f8e037364a6dd8afbaf5b2d05741",
+   "i": 134
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24",
+     "szCs": "32"
+    }
+   },
+   "c": [
+    {
+     "t": "进入中等级别",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    },
+    {
+     "t": "❁",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "eastAsia": "STXinwei",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "进入中等级别❁",
+   "sha256": "da5c387cb501a23d6d37965bd11a705dd369c05e87ccf3a4f61d633a39a48c09",
+   "i": 135
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二十五章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "更加精确的目标选择器上",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第二十五章 更加精确的目标选择器上☆",
+   "sha256": "6ba708603f926255be537c900a0ea451be917a4e22ec46094d0e242013f71743",
+   "i": 136
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二十六章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "更加精确的目标选择器下",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第二十六章 更加精确的目标选择器下☆",
+   "sha256": "2eadc7d2c203be0fd2849a9e0025be4a9e700927066b4b5db6810c7e77bd4d5c",
+   "i": 137
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二十七章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "游戏刻",
+     "p": {}
+    },
+    {
+     "t": "☆✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第二十七章 游戏刻☆✿",
+   "sha256": "af9b82fd2d33590be769b78cfdd3c8667a9f9bfb9b7ed90362f8db93efefac47",
+   "i": 138
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二十八章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "区块与区段",
+     "p": {}
+    },
+    {
+     "t": "☆✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第二十八章 区块与区段☆✿",
+   "sha256": "6740086bbf71239adc3960b156c3c566a80abd609415fa2e921051650837ab4e",
+   "i": 139
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第二十九章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "更深入地了解指令参数",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第二十九章 更深入地了解指令参数★✎✿",
+   "sha256": "1df224f653ea165ee5d50b8b7bafd1ca6da99820ccaac01bc5beea29da3a1285",
+   "i": 140
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三十章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  方块",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第三十章   方块☆",
+   "sha256": "573163ffb3148a244cfe9e9e1a1b81f5189210f3362b81f39ca7dbdbd27bf0da",
+   "i": 141
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三十一章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "实体",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第三十一章 实体☆",
+   "sha256": "84cbced81625c5feb484f6348bd0fb4ec93e42afe635ed51d26107859005de08",
+   "i": 142
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     }
+    }
+   },
+   "c": [
+    {
+     "t": "又是一些指令",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    },
+    {
+     "t": "❁",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "eastAsia": "STXinwei",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "又是一些指令❁",
+   "sha256": "285046342fb8dd5d3300563558928c6cde4a96cab29775b7839a981c9cf4c992",
+   "i": 143
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三十二章 tickingarea-基岩版控制常加载区块",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第三十二章 tickingarea-基岩版控制常加载区块★✿",
+   "sha256": "4a0ce73761fb33d87f6d16d70d9936914fbb929b73be42ce1e5bccf41ec8789b",
+   "i": 144
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三十三章 execute-这年头，猪都会说话了",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第三十三章 execute-这年头，猪都会说话了★",
+   "sha256": "c01177afae5a2c6b6e6cbf36a9b463adef1befacd49c72ae214d84f0d24a1033",
+   "i": 145
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三十四章 setworldspawn、spawnpoint-出生点",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第三十四章 setworldspawn、spawnpoint-出生点★",
+   "sha256": "95fb61745a95c7e4f74617763b315dedd2f5dda2627346576216af204d35d0e9",
+   "i": 146
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三十五章 spreadplayers-随机传送",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第三十五章 spreadplayers-随机传送★",
+   "sha256": "92b19e36b22919c2d9b9ae3ac93de0587ac98f6cb6a2ed83951483c608a02f14",
+   "i": 147
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三十六章 testfor -探测上",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第三十六章 testfor -探测上☆",
+   "sha256": "2cd2ad387390efb4054a667464965c51ec4de63edebdf897f5521972d1cba9a6",
+   "i": 148
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三十七章 testforblock、testforblocks-探测下",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第三十七章 testforblock、testforblocks-探测下★",
+   "sha256": "fa400b6ff3ad7785c255fbbcb570a146594cd134426418b80fa30f132e33a068",
+   "i": 149
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三十八章 replaceitem-头上顶着一个TNT",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第三十八章 replaceitem-头上顶着一个TNT☆",
+   "sha256": "4c6e3b870d2e1278aa72c9b0b7e142e6dd2ed175c7823908ede1c99db16c1e67",
+   "i": 150
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第三十九章 particle-在MC里做特效",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第三十九章 particle-在MC里做特效★",
+   "sha256": "2b4f7373f23958d0b6dff2f59bcf0ba3685c8f12b957eea81f643e8750928cfc",
+   "i": 151
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24",
+     "szCs": "32"
+    }
+   },
+   "c": [
+    {
+     "t": "记分版/计分板（scoreboard）",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    },
+    {
+     "t": "❁",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "eastAsia": "STXinwei",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "记分版/计分板（scoreboard）❁",
+   "sha256": "e4c3000226768de3cfee27d41de109de2e3dc66e8aee48ca1cfbb223154e78ed",
+   "i": 152
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第四十章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  记分板是什么鬼",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第四十章   记分板是什么鬼★✿",
+   "sha256": "8956c3f4684117cad7ed4d2b1d2ed87e33ab8b67bacb5052021555a41faa8604",
+   "i": 153
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第四十一章 objectives——管理一个计分项",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第四十一章 objectives——管理一个计分项★",
+   "sha256": "9a39d966eebe591076dd7bcecedb1df961c603c746905702d3bde4b22cee841c",
+   "i": 154
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第四十二章 players——管理变量（分数）",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第四十二章 players——管理变量（分数）★✿",
+   "sha256": "988c147d0b4f1282f23bc5827744bce17ee39f99be093662fd1b4568c5ba5635",
+   "i": 155
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第四十三章 players——记分板商店",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第四十三章 players——记分板商店★✿",
+   "sha256": "94676e372c8c901c744948d7a8fb22bfffcdf773999ec2df277a7fabff201ab4",
+   "i": 156
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第四十四章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "在Minecraft用指令算1+1=?",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第四十四章 在Minecraft用指令算1+1=?★",
+   "sha256": "a45fb623436005288b6062283dafe30d9091b5c72d15f9ae94074ff70ec6a717",
+   "i": 157
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "新年好！",
+     "p": {}
+    }
+   ],
+   "text": "新年好！",
+   "sha256": "35279b63e7d6cdfa0b806e824a76b9701d1470738df7b00f03c2c1d2e41acf70",
+   "i": 158
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第四十五章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "变量的几种常用用途（破百收藏纪念）",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "第四十五章 变量的几种常用用途（破百收藏纪念）◇",
+   "sha256": "2cbd7f8ae1fc8a43736eaec94e56e48d4bae8f09d4c3b0487b1011916c702b2a",
+   "i": 159
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第四十六章 team——管理队伍和成员",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第四十六章 team——管理队伍和成员★✿",
+   "sha256": "1a1d23ab151ceacfa045202d22d06b209628ae1f07305d3114c1e403ab6ab61f",
+   "i": 160
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第四十七章 team——队伍的颜色和规则",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第四十七章 team——队伍的颜色和规则★✿",
+   "sha256": "a706cf9571aa35835078f246e89d779232d7b54ebf9c3db7e901e0684acb034d",
+   "i": 161
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第四十八章 tag-标签",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第四十八章 tag-标签★✎✿",
+   "sha256": "0531ee0e3b4f8eee30d43c7a67e1b2c70ca41ef47642679434a58711d2154674",
+   "i": 162
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第四十九章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "目标选择器中的记分板",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第四十九章 目标选择器中的记分板★✿",
+   "sha256": "b229b382152f4cd0ca1a4b91e175732ca55be651609723b8e8d3aa1139cbdc36",
+   "i": 163
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24",
+     "szCs": "32"
+    }
+   },
+   "c": [
+    {
+     "t": "服务器中的指令",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    },
+    {
+     "t": "❁",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "eastAsia": "STXinwei",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "服务器中的指令❁",
+   "sha256": "434dde8501e57f6cc3520906a7ce7553cca19c4f643445fc1fc5241ed2a5fa01",
+   "i": 164
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第五十章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "  多人游戏指令",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第五十章   多人游戏指令★✎✿",
+   "sha256": "747890c46c95b362966705e346d8995662a11393234eb1fecfa992b9887da2d0",
+   "i": 165
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第五十一章 whitelist-白名单",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第五十一章 whitelist-白名单★",
+   "sha256": "ea782f7813b6f3c377b9b7e573d629052ff78d8218133c6e9606b5fec1d6cca1",
+   "i": 166
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第五十二章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "/kick和黑名单系统",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第五十二章 /kick和黑名单系统★✎✿",
+   "sha256": "97888c33bcd22fcc979ac2833a7a23635c0bd766cf80cc638a5e4558a0c5ac5f",
+   "i": 167
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第五十三章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "剩下的一些指令",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第五十三章 剩下的一些指令★✎✿",
+   "sha256": "fc2eb1d064af3f0e179b275fe00820b57bfc7257c83d9e986214524d72c0ff10",
+   "i": 168
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第五十四章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "初识NBT",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第五十四章 初识NBT★✎✿",
+   "sha256": "d38d632bfe98a35873a3a7539c2d1d3f9020eb16fd851a22423d461866a426ba",
+   "i": 169
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24",
+     "szCs": "28"
+    }
+   },
+   "c": [
+    {
+     "t": "更多的指令",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "28"
+     }
+    }
+   ],
+   "text": "更多的指令",
+   "sha256": "bfbe87dcfb51edb595488836614313aef1dc45226676961461e884c2c224aab5",
+   "i": 170
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第五十五章 effect-牛顿哭了",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第五十五章 effect-牛顿哭了★",
+   "sha256": "9acb2179ba1c89a3c67a1d4a8a26a03dcde09a5951fef426b87080dfd51bb3ca",
+   "i": 171
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第五十六章 clone-拷贝方块",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第五十六章 clone-拷贝方块★✿",
+   "sha256": "fed3fba00aec8aee93be385b9302add64efe45d14d8f00e9ce769b9a52c17398",
+   "i": 172
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第五十七章 enchant-简单的附魔",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第五十七章 enchant-简单的附魔★",
+   "sha256": "fefbe60e09ac3ad8b9fecc2d03640af2b8ad01fae07c9e4fa69c5a1a59b3688f",
+   "i": 173
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第五十八章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "使用NBT来自定义附魔",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第五十八章 使用NBT来自定义附魔★✿",
+   "sha256": "a763fb18cdd0451f8b8e34dfb24f95d67fb38d426f57482b4d83550cc53b8050",
+   "i": 174
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第五十九章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "更深入地了解坐标",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第五十九章 更深入地了解坐标★",
+   "sha256": "3494382fc048abb9da1866379b41245a779a5aa0018b050c633e7dc1409ce4ee",
+   "i": 175
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第六十章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  基岩版的JSON文本（破200收藏纪念）",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第六十章   基岩版的JSON文本（破200收藏纪念）★",
+   "sha256": "5d3ef44af1f00bbcad504281c90355ed003daa258d28f423698f03c98d3a00a9",
+   "i": 176
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第六十一章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "/stats与指令的输出结果",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第六十一章 /stats与指令的输出结果★✎✿",
+   "sha256": "4ade3d3195531020ca4b9a69ff77faada52bc533d3f5fd428847827307173c6f",
+   "i": 177
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第六十二章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "命令方块矿车",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第六十二章 命令方块矿车★",
+   "sha256": "14049e3989a01de0df13b9a21ef53376fa225bb5e7e1e221c3d80805fd17a704",
+   "i": 178
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第六十三章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "游戏声音",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第六十三章 游戏声音★✿",
+   "sha256": "a156e83945e016a287eb149ded9740aeaa8c6de2910a7e448fe89ce27e106601",
+   "i": 179
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第六十四章 tp和teleport-深入地了解传送指令",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第六十四章 tp和teleport-深入地了解传送指令★✿",
+   "sha256": "0ef1fdca6504c5b9abe0d624a230af6ca8fd7b3ee30a74028d50f4a0ce403bd1",
+   "i": 180
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "FF0000"
+    }
+   },
+   "c": [
+    {
+     "t": "第六十四章番外",
+     "p": {
+      "color": "FF0000"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "FF0000"
+     }
+    },
+    {
+     "t": "我在这里！",
+     "p": {
+      "color": "FF0000"
+     }
+    },
+    {
+     "t": "✕",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "FF0000"
+     }
+    }
+   ],
+   "text": "第六十四章番外 我在这里！✕",
+   "sha256": "2022b65ac7114d99f00481fbdc3c8211b8f373e94ec90aa217a543bfe17bba92",
+   "i": 181
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本书第一次大修新增章",
+     "p": {
+      "color": "00B050"
+     }
+    },
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      },
+      "color": "00B050"
+     }
+    },
+    {
+     "t": "矿词与标签",
+     "p": {
+      "color": "00B050"
+     }
+    },
+    {
+     "t": "✚",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "00B050"
+     }
+    }
+   ],
+   "text": "本书第一次大修新增章①矿词与标签✚",
+   "sha256": "a723b2be6854ea2fcdb20b78db67c48004ce3132b0a9aa75b565ca2fb40d25ea",
+   "i": 182
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第六十五章 worldborder-MC是一款吃鸡游戏",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第六十五章 worldborder-MC是一款吃鸡游戏★",
+   "sha256": "3248e4c1f356625f95b789c436477f3f75e6105ca16525b06ceebb45c486b4a7",
+   "i": 183
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第六十六章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "指令大杂烩",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第六十六章 指令大杂烩★✎✿",
+   "sha256": "45006581f6306e94f507c47acc0f9acef12ad2c97ffff3be40ca5607c3194a60",
+   "i": 184
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第六十七章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "更高级的locate",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第六十七章 更高级的locate★✿",
+   "sha256": "0221b5403cb65f90aa36f58bac77a4e5eafbe1dc734988d25551168ef7b87a4a",
+   "i": 185
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     }
+    }
+   },
+   "c": [
+    {
+     "t": "更高级的execute",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    },
+    {
+     "t": "❁",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "eastAsia": "STXinwei",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "更高级的execute❁",
+   "sha256": "572ecadd72f3bf837bc5eb0aa8823f285a42dc7404ac5bac37a41533a0dc7ef9",
+   "i": 186
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第六十八章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "新版execute的变化",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第六十八章 新版execute的变化★✎✿",
+   "sha256": "811d0a6a71124fdf058b6e55c73d580b11295789281711c760cc50e04e9960cd",
+   "i": 187
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第六十九章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "修饰子命令上三要素与修饰子命令",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第六十九章 修饰子命令上三要素与修饰子命令★✎✿",
+   "sha256": "b78d16dc253e7a293c656c73b4e747204be29085576a282d0ec0bb2f6070d3a5",
+   "i": 188
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第七十章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "  修饰子命令下剩下的5个修饰子命令",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第七十章   修饰子命令下剩下的5个修饰子命令★✎✿",
+   "sha256": "27d1e660134ad57f4b356c1947d4eeaff5e4835e849f3d2ee11370d0e429eaaf",
+   "i": 189
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第七十一章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "条件子命令",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第七十一章 条件子命令★✎✿",
+   "sha256": "011a236f7d8faf8ab7971bf4ea7a24d712b5b21d9dc9af8a96eb50baf43e9bf2",
+   "i": 190
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第七十二章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "存储子命令",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第七十二章 存储子命令★✎✿",
+   "sha256": "9f056616ab51945cc703a0a42c1f96e30a86f35c251ec1616f66b0d2e2870209",
+   "i": 191
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第七十三章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "基岩版的新版execute",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第七十三章 基岩版的新版execute★✎✿",
+   "sha256": "fe6f21b5b805de9eb88a2a5b8542ce320ef6b8f713d5aae8866a01a85c2f3d4f",
+   "i": 192
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第七十四章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "探究：execute的运行流程",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第七十四章 探究：execute的运行流程★✎✿",
+   "sha256": "4025b6ec935d1cb4037edfc8813165a8ca2316c783ae70671980b1e6aa396e75",
+   "i": 193
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第七十五章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "局部坐标与执行朝向",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第七十五章 局部坐标与执行朝向★✎✿",
+   "sha256": "94b2ed84743d7de65f8fb5926470b466bafe11de062bcb308d2012b9930ef199",
+   "i": 194
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第七十六章 camerashake-如何让一个玩家鬼畜",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第七十六章 camerashake-如何让一个玩家鬼畜★✎✿",
+   "sha256": "206b818c6629f588530749bf86b6448643d3cdd1f6c3d2cf7b48224f997c3371",
+   "i": 195
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第七十七章 damage-造成伤害",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第七十七章 damage-造成伤害★✎✿",
+   "sha256": "c91fb6d9730eb4ce784418e87801468ccc822025936fdb819491a966701bbc87",
+   "i": 196
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24",
+     "szCs": "32"
+    }
+   },
+   "c": [
+    {
+     "t": "㕛",
+     "p": {
+      "font": {
+       "eastAsia": "Microsoft YaHei",
+       "cs": "Microsoft YaHei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    },
+    {
+     "t": "是一些指令",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "cs": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    },
+    {
+     "t": "❁",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "eastAsia": "STXinwei",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "㕛是一些指令❁",
+   "sha256": "23e37871880849abbb8643e55c44e7553e27ce18f09379b66a411f9dae9c475f",
+   "i": 197
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第七十八章 event-生物事件",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第七十八章 event-生物事件★✎✿",
+   "sha256": "cde0c407de32ccbf61bea0603507e3bd59c181d411e80a8f4a74923ac01ca078",
+   "i": 198
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第七十九章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "结构方块上",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第七十九章 结构方块上★✿",
+   "sha256": "a1c6bfae26be9ba257fabb1f758fcc062a88f606187c6ce777e5c4b2dff70ff8",
+   "i": 199
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第八十章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  结构方块下",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第八十章   结构方块下★",
+   "sha256": "d46d8c65f1743f297520e9702b1c297a7547a0d12faa85755d6ea07481cfaecd",
+   "i": 200
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第八十一章 structure-指令与结构方块",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第八十一章 structure-指令与结构方块★✎✿",
+   "sha256": "b11be616ac9a179465b169efcca0008f7370b5fdb1f900e28e84c82078685a9c",
+   "i": 201
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第八十二章 fog-迷雾",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第八十二章 fog-迷雾★✎✿",
+   "sha256": "8d3beb644a8528e94786a50c83b5aaff781f15852015f9eb1cabb0620d2f7377",
+   "i": 202
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第八十三章 bossbar-自定义BOSS栏上",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第八十三章 bossbar-自定义BOSS栏上★",
+   "sha256": "b374415839c64c98cd280d8182c9ae3f0736cc64cd610651ae8be721f86e6885",
+   "i": 203
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第八十四章 bossbar-自定义BOSS栏下",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第八十四章 bossbar-自定义BOSS栏下★",
+   "sha256": "2fd61b2b5b017929df064e5904df9ce1a740c154925acc723ff3217df8baa3dc",
+   "i": 204
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第八十五章 item-更高级的replaceitem",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第八十五章 item-更高级的replaceitem★✎✿",
+   "sha256": "934aadc3b2bdebe284eb3c5db8569df52a723e2e8582e53c637a04538324579e",
+   "i": 205
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第八十六章 music-音乐",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第八十六章 music-音乐★✎✿",
+   "sha256": "0e4466ef90ed30b468781cb0707fb78625220ed5fbb3a7c0aa03e99fed75d1da",
+   "i": 206
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第八十七章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "拼图方块",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第八十七章 拼图方块★✎✿",
+   "sha256": "f93b7e606236756b42f8f76fa9f01960a3d9c479581f6ea399cd9350e4d6168b",
+   "i": 207
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第八十八章 place-如何生成一个村庄",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第八十八章 place-如何生成一个村庄★✎✿",
+   "sha256": "069c6cdf978281d1907367dea8c72baed6a989d4169c93434fb88ec717bec56e",
+   "i": 208
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "FF0000"
+    }
+   },
+   "c": [
+    {
+     "t": "关于最近为什么没更的问题",
+     "p": {
+      "color": "FF0000"
+     }
+    },
+    {
+     "t": "✕",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "FF0000"
+     }
+    }
+   ],
+   "text": "关于最近为什么没更的问题✕",
+   "sha256": "eb0c840a1f5cf4ef0c651577cba3b5a92339f06a832d6b824a4a304e184f9254",
+   "i": 209
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第八十九章 ride-骑乘",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第八十九章 ride-骑乘★✎✿",
+   "sha256": "4ed56c239699b8710d9de576e859a2399a98ae630f329869e9325f00bb77bc52",
+   "i": 210
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第九十章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  命名空间ID",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第九十章   命名空间ID★✿",
+   "sha256": "ed69631c3c490ddd889cf4ee73dfb55d1211cc7d40154c1d6aa2d754206eddac",
+   "i": 211
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24"
+    }
+   },
+   "c": [
+    {
+     "t": "真正进入中阶",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24"
+     }
+    },
+    {
+     "t": "❁",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "eastAsia": "STXinwei",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "sz": "24"
+     }
+    }
+   ],
+   "text": "真正进入中阶❁",
+   "sha256": "04d5620e392990203f5e6012d499ee522c3f9886169df035c6b6cce1734a2932",
+   "i": 212
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第九十一章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "红石比较器",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第九十一章 红石比较器★✎✿",
+   "sha256": "c571654c845a9d024f4cbbf0c756c119d05f31a690f1147cdc7737a50c01fa31",
+   "i": 213
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第九十二章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "简单的红石脉冲",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第九十二章 简单的红石脉冲★✎✿",
+   "sha256": "939647fa158e8b16d67f534aa983c4f77f8af951a3faa02748050b61a500426e",
+   "i": 214
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第九十三章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "逻辑门上",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第九十三章 逻辑门上★✿",
+   "sha256": "e6155fa20eadfb30587174876a4b5e75b932ea7c81f5845f61b527872305b396",
+   "i": 215
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第九十四章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "逻辑门下",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第九十四章 逻辑门下★✿",
+   "sha256": "8556a08324a910c20661ff1189daa1f8959c30c251e9077670d57a5acbf75860",
+   "i": 216
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第九十五章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "初识逻辑组",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第九十五章 初识逻辑组★✎✿",
+   "sha256": "bc51245e8ed0245f108864b985209842d0407cf97eaa2c17c5c52d3f89371af9",
+   "i": 217
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "FF0000"
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft2020愚人节更新介绍（实际上是让你看MC Wiki）",
+     "p": {
+      "color": "FF0000"
+     }
+    },
+    {
+     "t": "✕",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "FF0000"
+     }
+    }
+   ],
+   "text": "Minecraft2020愚人节更新介绍（实际上是让你看MC Wiki）✕",
+   "sha256": "f773da341210f1ebb9b31c70330dcd6e56158553b6acb30f17628cbfd36a493b",
+   "i": 218
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第九十六章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "如何正确使用一个盔甲架",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "第九十六章 如何正确使用一个盔甲架◇",
+   "sha256": "e23e1413c59b8aa4abdcbab15b150f3b70246b14652a1c00ce75c02745ad2397",
+   "i": 219
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第九十六章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "番外如何获得一个拥有手臂的盔甲架",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "第九十六章 番外如何获得一个拥有手臂的盔甲架◇",
+   "sha256": "0e9d18f694a64b849451d285de80922ac1d3278772dd9598a9e18944cf2e1b02",
+   "i": 220
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第九十六章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "番外的番外看，这个盔甲架高兴极了",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第九十六章 番外的番外看，这个盔甲架高兴极了☆",
+   "sha256": "d0893cbd66c3421737dffd567e3898e10141bcc4793eafa49ca0b899acf047fe",
+   "i": 221
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "要想成为一个指令大佬，首先你得拥有一个指令生成器",
+     "p": {
+      "color": "FF0000"
+     }
+    },
+    {
+     "t": "✕",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "FF0000"
+     }
+    }
+   ],
+   "text": "要想成为一个指令大佬，首先你得拥有一个指令生成器✕",
+   "sha256": "d272cda9168077c40045a16d18ef145888ba1ce85f4f6dea6a44318844c89134",
+   "i": 222
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第九十七章 forceload-Java版控制常加载区块",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第九十七章 forceload-Java版控制常加载区块★✿",
+   "sha256": "dc929d49cd3b899d6c580e52b87a350aa4ca2607ce0fa842f3e4eaf85642fc6d",
+   "i": 223
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第九十八章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "触发器-简单的注册/登录系统上",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第九十八章 触发器-简单的注册/登录系统上★✎✿",
+   "sha256": "42491fb33b1dd15748917b15d41c36c09b3d9c9e0f0b3a4293f9e7e62cc1f20c",
+   "i": 224
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第九十九章 初识模块-简单的注册/登录系统下",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第九十九章 初识模块-简单的注册/登录系统下★✎✿",
+   "sha256": "f7a9e98722dca8e56f2e10b308402810721d968aea035797fc5f3c90581cd8b7",
+   "i": 225
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24",
+     "szCs": "32"
+    }
+   },
+   "c": [
+    {
+     "t": "NBT时代",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "NBT时代",
+   "sha256": "353a5bdcab616f901fedce71e8eb4568cc48af2bd00e1008fc0d1d24a56a200f",
+   "i": 226
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百章开启",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "  NBT时代（来，开杯香槟酒庆祝一下，100章了）",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第一百章开启   NBT时代（来，开杯香槟酒庆祝一下，100章了）★✎✿",
+   "sha256": "af518738d4e947ff8298bf18eb336d990ed81eb35bdfd6a24f571eec5c94df9a",
+   "i": 227
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "7030A0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百零一章",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "  简单了解数组",
+     "p": {
+      "color": "7030A0"
+     }
+    },
+    {
+     "t": "★✎✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "7030A0"
+     }
+    }
+   ],
+   "text": "第一百零一章   简单了解数组★✎✿",
+   "sha256": "f44a5bf9e78b48d401a77340b9727a40cd54a33e270b946a3e3221248a5481a0",
+   "i": 228
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百零二章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  物品组件",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第一百零二章   物品组件★✿",
+   "sha256": "00f2a3e3b8dec1aa5c67aca7819efc1c3c8b08df3de7a9ae3415b36f2df5c62f",
+   "i": 229
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百零三章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  《关于工具耐久的这档事》",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第一百零三章   《关于工具耐久的这档事》★",
+   "sha256": "5b01c7d9760411e3199099c9ac9481bf4920ed6c0dfd8360fcaae41185cf463d",
+   "i": 230
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百零四章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  物品的显示属性",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第一百零四章   物品的显示属性★",
+   "sha256": "37ab9a11cc9b989f9af8e2fde9911f5271e5eec944aeecfd6cf600efba6d5316",
+   "i": 231
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版玩家的32767级锋利的苹果",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "基岩版玩家的32767级锋利的苹果☆",
+   "sha256": "2d2dfd5900190da4f450de60231500f651ae6c83aedb8b5a06e2a205f6d8cf49",
+   "i": 232
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百零五章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  属性修饰符上-哪个MC玩家不想拥有一套神装呢？",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第一百零五章   属性修饰符上-哪个MC玩家不想拥有一套神装呢？★✿",
+   "sha256": "112b649df08cb50e42e93c8253046c9109d344c22df1b52525f0becf460e98f4",
+   "i": 233
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百零六章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  属性修饰符下-最终倍乘和/attribute指令",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第一百零六章   属性修饰符下-最终倍乘和/attribute指令★✿",
+   "sha256": "e4cc1c3d0c523381500e501a3ae29268d63911aca73273af96c4903fcf303419",
+   "i": 234
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百零七章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  如何获取你在Minecraft中的头",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第一百零七章   如何获取你在Minecraft中的头★",
+   "sha256": "2330b6ac4d7cd644b5e76872748604c448a24f12821ad5997788093dff06d567",
+   "i": 235
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "FF0000"
+    }
+   },
+   "c": [
+    {
+     "t": "有一个坏消息",
+     "p": {
+      "color": "FF0000"
+     }
+    },
+    {
+     "t": "✕",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "FF0000"
+     }
+    }
+   ],
+   "text": "有一个坏消息✕",
+   "sha256": "687ca5909b474dbbb91ed95cb58a8861e441c197e3219693b0a9d15ea22cde79",
+   "i": 236
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "祝贺Minecraft11周年生日快乐！",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "祝贺Minecraft11周年生日快乐！◇",
+   "sha256": "c37dae732696748d04834fa44a493edcac4736eb3e93b18d472844eb881adea2",
+   "i": 237
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百零八章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  掉落物的NBT 上-物品通用标签",
+     "p": {}
+    },
+    {
+     "t": "★✿",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第一百零八章   掉落物的NBT 上-物品通用标签★✿",
+   "sha256": "976a8f6a4caa9aa18b2ab8b6f604f7c058d235738848f8326138fe79e215688a",
+   "i": 238
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百零九章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "  掉落物的NBT 下",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第一百零九章   掉落物的NBT 下☆",
+   "sha256": "cecbe16e0971d28ea544d18d6c04ef4b71e3b67262ac09b8023e63b16e024c9f",
+   "i": 239
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百一十章   UUID",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第一百一十章   UUID☆",
+   "sha256": "0c9b32140c0468daa509e5325eb7cd391e81757cdc8147c643cd6b6a2cbe67e2",
+   "i": 240
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "FF0000"
+    }
+   },
+   "c": [
+    {
+     "t": "请假条",
+     "p": {
+      "color": "FF0000"
+     }
+    },
+    {
+     "t": "✕",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "FF0000"
+     }
+    }
+   ],
+   "text": "请假条✕",
+   "sha256": "21a9be4fad2ec1586f2599ebdff1b3b88cb46d44cd9e1de21f0ab19a0e290278",
+   "i": 241
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百一十一章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "网易的特性:实体mod",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    }
+   ],
+   "text": "第一百一十一章 网易的特性:实体mod◇",
+   "sha256": "e549f99260217d6b5c892d86bfdd3d08211734fe348cfec47905ce81738f22e0",
+   "i": 242
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百一十二章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "实体的通用标签上",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第一百一十二章 实体的通用标签上★",
+   "sha256": "6d99f3750d2751b4fdc3a2e4f78f7e40a4989ba603c68c0dfbe97e5f0112a4b4",
+   "i": 243
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百一十三章",
+     "p": {}
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "实体的通用标签下",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    }
+   ],
+   "text": "第一百一十三章 实体的通用标签下☆",
+   "sha256": "5ade95377906f215a9c34c06c639f06ab2cae1bf31e0fc9fccdfcfeb71651cf9",
+   "i": 244
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "又是一张请假条",
+     "p": {
+      "color": "FF0000"
+     }
+    },
+    {
+     "t": "✕",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      },
+      "color": "FF0000"
+     }
+    }
+   ],
+   "text": "又是一张请假条✕",
+   "sha256": "232af695b713dd23584052739838388e546df71ba73eafc5120c406d1d6c1421",
+   "i": 245
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24",
+     "szCs": "32"
+    }
+   },
+   "c": [
+    {
+     "t": "中场休息",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "中场休息",
+   "sha256": "1d99c39cff87d83418ca9d21b746e48e43c3bef8dbb2be9f39a384e164386be7",
+   "i": 246
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百一十四章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "死亡的玩家到底是不是个实体？○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百一十四章 死亡的玩家到底是不是个实体？○",
+   "sha256": "3fd93be7e3a846f0c591b4c687ee83ae03c9269a70764704398cc389e20d276a",
+   "i": 247
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百一十五章 WebSocket在Minecraft里的用处□",
+     "p": {
+      "color": "833C0B"
+     }
+    }
+   ],
+   "text": "第一百一十五章 WebSocket在Minecraft里的用处□",
+   "sha256": "942fdfc0a4095479a4f22baa6a6fcec4ce7977389fe59aa0f92db83bfae04dfb",
+   "i": 248
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百一十六章 advancement-让人一夜回到解放前的指令○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百一十六章 advancement-让人一夜回到解放前的指令○",
+   "sha256": "cc0ee273b47a8c827633a05a213748fcd43f617308303ad4db0f3e85cd6d8d32",
+   "i": 249
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百一十七章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "控制成就系统的指令○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百一十七章 控制成就系统的指令○",
+   "sha256": "07664affce553c2c8541ec98b69d69365261d46a90939ec57ec7e351851259e3",
+   "i": 250
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百一十八章 ability-怎样禁言一个人○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百一十八章 ability-怎样禁言一个人○",
+   "sha256": "c6ea2f4f52aaa327e16e4f452cbe5a461d7d1f5d0cb2392b286870235f49adeb",
+   "i": 251
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "833C0B"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百一十九章",
+     "p": {
+      "color": "833C0B"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "833C0B"
+     }
+    },
+    {
+     "t": "称号系统□",
+     "p": {
+      "color": "833C0B"
+     }
+    }
+   ],
+   "text": "第一百一十九章 称号系统□",
+   "sha256": "0172a568ef72dcd2bc7811e4ded19f2f1ccd483bf664a65735d74ed5aab27745",
+   "i": 252
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百二十章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "  区块加载器○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百二十章   区块加载器○",
+   "sha256": "10c0ef3c46e3ca02eeda6c65a8a48efe1731f65516c3d8fee096677565bff957",
+   "i": 253
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24",
+     "szCs": "32"
+    }
+   },
+   "c": [
+    {
+     "t": "JAVA版的JSON",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "JAVA版的JSON",
+   "sha256": "a90c247f5bcfe2906a670d5bbc2bef4cf41a01409173bfcda8d6dbf414891a28",
+   "i": 254
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "833C0B"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百二十一章 JSON的格式□",
+     "p": {
+      "color": "833C0B"
+     }
+    }
+   ],
+   "text": "第一百二十一章 JSON的格式□",
+   "sha256": "deffce6dc3647c8ada5d7e6cb308ea2bc869aea7bc9d15ab84b9ab39237b8574",
+   "i": 255
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "833C0B"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百二十二章 JSON的内容上□",
+     "p": {
+      "color": "833C0B"
+     }
+    }
+   ],
+   "text": "第一百二十二章 JSON的内容上□",
+   "sha256": "0eca706f8b9d7f8f3ac8ff6949bbe7077037f75bc8d4fb9ed362009cb6491806",
+   "i": 256
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "833C0B"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百二十三章 JSON的内容下□",
+     "p": {
+      "color": "833C0B"
+     }
+    }
+   ],
+   "text": "第一百二十三章 JSON的内容下□",
+   "sha256": "1216b3bcaa88a6cb924f1fb326ff930a9af14ae2e7c52d4d70dd7f164b159ff8",
+   "i": 257
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "833C0B"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百二十四章 JSON的格式元素□",
+     "p": {
+      "color": "833C0B"
+     }
+    }
+   ],
+   "text": "第一百二十四章 JSON的格式元素□",
+   "sha256": "39a3f636d067ebe16163cecdee7bbc800206dd7ebc549e5664ed8e4b322a1f10",
+   "i": 258
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "833C0B"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百二十五章",
+     "p": {
+      "color": "833C0B"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "833C0B"
+     }
+    },
+    {
+     "t": "玩家与JSON的交互事件上□",
+     "p": {
+      "color": "833C0B"
+     }
+    }
+   ],
+   "text": "第一百二十五章 玩家与JSON的交互事件上□",
+   "sha256": "e6ae071cb084f2aa4d1eb6d4c685b36933df0c173a8f3a104c0263f7900c2ec0",
+   "i": 259
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "833C0B"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百二十六章",
+     "p": {
+      "color": "833C0B"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "833C0B"
+     }
+    },
+    {
+     "t": "玩家与JSON的交互事件下□",
+     "p": {
+      "color": "833C0B"
+     }
+    }
+   ],
+   "text": "第一百二十六章 玩家与JSON的交互事件下□",
+   "sha256": "b22c385da9193d9fc465750190c9272438e4bf67a189d54d69a2db94f961f3bc",
+   "i": 260
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "833C0B",
+     "lang": {
+      "eastAsia": "ja-JP"
+     }
+    }
+   },
+   "c": [
+    {
+     "t": "第一百二十七章 JSON剩下の一些东西□",
+     "p": {
+      "color": "833C0B",
+      "lang": {
+       "eastAsia": "ja-JP"
+      }
+     }
+    }
+   ],
+   "text": "第一百二十七章 JSON剩下の一些东西□",
+   "sha256": "f0bfe78e3489866d84a35cf233c750a3d5e19ef0a4e12a3bb62effaaa30f916c",
+   "i": 261
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "833C0B"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百二十八章",
+     "p": {
+      "color": "833C0B"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "833C0B"
+     }
+    },
+    {
+     "t": "营销号写指令教程□",
+     "p": {
+      "color": "833C0B"
+     }
+    }
+   ],
+   "text": "第一百二十八章 营销号写指令教程□",
+   "sha256": "5d3901ca637687fcbdbc33853e8afd9dfd912e30f51a19f815926df10a1cc418",
+   "i": 262
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     }
+    }
+   },
+   "c": [
+    {
+     "t": "实体与NBT 上",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "实体与NBT 上",
+   "sha256": "d33f588c0d37297c77b96a32cd9fcf32423a31334926d280f1a2e11ac537ddec",
+   "i": 263
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百二十九章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "深入地了解一下实体○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百二十九章 深入地了解一下实体○",
+   "sha256": "5b0a69ca4e4220874ec24c7d336d1e4a6ce21ee1e68a4fde21448f0e260d96f5",
+   "i": 264
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百三十章   MC生物学○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百三十章   MC生物学○",
+   "sha256": "03aaae71db81672f37a07ee55704a112de08b96ad765b5600c9fc317be701836",
+   "i": 265
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百三十一章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "生物的共通NBT-1○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百三十一章 生物的共通NBT-1○",
+   "sha256": "a487dfb0d316d3cef2bf5446e41c9cac6884a4cc2ab4b30efa83e380138d19ef",
+   "i": 266
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百三十二章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "生物的共通NBT-2○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百三十二章 生物的共通NBT-2○",
+   "sha256": "00867d5f88df7618043680452520b4a1ea0d1ed85280b5ee4f91a5621c242657",
+   "i": 267
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百三十三章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "生物的共通NBT-3○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百三十三章 生物的共通NBT-3○",
+   "sha256": "a1f3331152b690f33aa781cceaf69514e69e74def9f733b270dbd2de79d1a03a",
+   "i": 268
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百三十四章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "生物的共通NBT-4○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百三十四章 生物的共通NBT-4○",
+   "sha256": "66dcc01b7ce9b94a8517b9b25629359b530c17cb8b358cd1332d18494a9a9147",
+   "i": 269
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百三十五章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "真正深入了解NBT-1○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百三十五章 真正深入了解NBT-1○",
+   "sha256": "2e0d4abfa62e15e087da5f5d47703387c3f586bf3ce9130de8c8b17e8b7ea9f2",
+   "i": 270
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百三十六章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "真正深入了解NBT-2○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百三十六章 真正深入了解NBT-2○",
+   "sha256": "744347352ed8881ce521af61b7230282a3f6cfd5b5d35e05c480493dddb44b0c",
+   "i": 271
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百三十七章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "真正深入了解NBT-3○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百三十七章 真正深入了解NBT-3○",
+   "sha256": "3d82216f48cf8de017f308e3b371cb2fb8f9c6e2f18175fc3fa90a6b528d78b8",
+   "i": 272
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百三十八章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "真正深入了解NBT-4○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百三十八章 真正深入了解NBT-4○",
+   "sha256": "5411d0b07aff5614aa299804d1b8ceb8a92ce61875c4a768e55bfeeaa2429fed",
+   "i": 273
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百三十九章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "真正深入了解NBT-5○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百三十九章 真正深入了解NBT-5○",
+   "sha256": "0fe93e1d926fdad52ab0ccd88e6436a9e333c45a50afd88d240847dc491ac5e3",
+   "i": 274
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百四十章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "真正深入了解NBT-6○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百四十章 真正深入了解NBT-6○",
+   "sha256": "9e9bdab902cd12e45c080bb1de664c3bef00f0a316661c722aec5d07dda56218",
+   "i": 275
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百四十一章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "牛顿心中的Minecraft：下落的方块○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百四十一章 牛顿心中的Minecraft：下落的方块○",
+   "sha256": "42fa6abf40b85fdc1ff1add9ec330f17c7ceac215cca65d4dd183d7d0d8d8457",
+   "i": 276
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百四十二章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "矿车共通标签○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百四十二章 矿车共通标签○",
+   "sha256": "57891a5d34c6c8d7edabaec17096e2122711b9daf7d5379b440ae51bb8208282",
+   "i": 277
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百四十三章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "/entitydata-修改实体的NBT○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百四十三章 /entitydata-修改实体的NBT○",
+   "sha256": "64926f23e2340579c0079a65c9588b6d25c9788b9862a7dd94ccc0fe0d1c5e4e",
+   "i": 278
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百四十四章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "弹射物共通标签○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百四十四章 弹射物共通标签○",
+   "sha256": "4d9c820686d471be1a94733e7c39c4935fd82396db8615c1384b0ad830294464",
+   "i": 279
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百四十五章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "箭共通标签○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百四十五章 箭共通标签○",
+   "sha256": "912e09f4ff1d625329630358ee9b5bb314311e4eca9c08e956cbf412b5fba10d",
+   "i": 280
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百四十六章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "火球○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百四十六章 火球○",
+   "sha256": "52e4f85121e488abbf20c7651ee69d99a25e03922d14f78232c7006442dd3d29",
+   "i": 281
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百四十七章",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": " ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "可繁殖的生物共通标签○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百四十七章 可繁殖的生物共通标签○",
+   "sha256": "29132259b8da781616a08a54e1fafd8580c3de592ac350df069d2a05e50ff7e0",
+   "i": 282
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24"
+    }
+   },
+   "c": [
+    {
+     "t": "调戏Minecraft指南",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24"
+     }
+    }
+   ],
+   "text": "调戏Minecraft指南",
+   "sha256": "1641312db004d94d59a194f729b257cdcbee9b2d87945bfed7af7130b4e3f97a",
+   "i": 283
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百四十八章如何看懂调试界面",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "○",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      },
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百四十八章如何看懂调试界面①○",
+   "sha256": "02149c6bedb464a022f98eab9980712eca83f6b945c1e1c07b79ee447434606e",
+   "i": 284
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百四十九章如何看懂调试界面",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "○",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      },
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百四十九章如何看懂调试界面②○",
+   "sha256": "bc0e854da4e702774dd1747d3fae4e70cda9404cd6dfdcc83fbc20012271f604",
+   "i": 285
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百五十章如何看懂调试界面",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "③",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "○",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      },
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百五十章如何看懂调试界面③○",
+   "sha256": "024d53af6ec3c4f25d6c39aedbd247144d03bd131d2d2034025df4c544821026",
+   "i": 286
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百五十一章如何看懂调试界面",
+     "p": {
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "④",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      },
+      "color": "0070C0"
+     }
+    },
+    {
+     "t": "○",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      },
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百五十一章如何看懂调试界面④○",
+   "sha256": "0252c82fd1c182f3351dc4537ba939fea4220b7900348cd3da8aa77a3b09b910",
+   "i": 287
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百五十二章调试棒和其他的一些关于调试的东西○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百五十二章调试棒和其他的一些关于调试的东西○",
+   "sha256": "524a5fca236263f2d2d00db2f64d51d00c96ae5c39dea971a976d97bf7c446e2",
+   "i": 288
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "480"
+    },
+    "jc": "center",
+    "markRun": {
+     "font": {
+      "eastAsia": "STXinwei"
+     },
+     "sz": "24",
+     "szCs": "32"
+    }
+   },
+   "c": [
+    {
+     "t": "村民与NPC",
+     "p": {
+      "font": {
+       "eastAsia": "STXinwei",
+       "hint": "eastAsia"
+      },
+      "sz": "24",
+      "szCs": "32"
+     }
+    }
+   ],
+   "text": "村民与NPC",
+   "sha256": "5f45889acb4001af23fea984e93ec0519d2b507f3ca28552ecb1c2e88153cd36",
+   "i": 289
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百五十三章详细了解村庄更新之前的村民○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百五十三章详细了解村庄更新之前的村民○",
+   "sha256": "2d43dec53a2fb29ec9746d65366e8fd959301bf7a05e5ad5ebd3b1c40fb350a3",
+   "i": 290
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百五十四章村庄与掠夺更新前的自定义交易○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百五十四章村庄与掠夺更新前的自定义交易○",
+   "sha256": "98a50923dadbd930c58f72f9fed737374daae6df8f55636200aabb04115a2eca",
+   "i": 291
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "虎年快乐！○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "虎年快乐！○",
+   "sha256": "af6267b33d7cf420ec329f01e12bc00c9c244fe2399fad8bdbab6979285bea78",
+   "i": 292
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百五十五章村庄与掠夺更新后的村民○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百五十五章村庄与掠夺更新后的村民○",
+   "sha256": "3d57701ad042ffb2591fa2fa8a8dc66b57e9e8c382fcb0a6b3b2e7d0d8e36677",
+   "i": 293
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "color": "0070C0"
+    }
+   },
+   "c": [
+    {
+     "t": "第一百五十六章村庄与掠夺更新后的自定义交易○",
+     "p": {
+      "color": "0070C0"
+     }
+    }
+   ],
+   "text": "第一百五十六章村庄与掠夺更新后的自定义交易○",
+   "sha256": "4ba3b9aa580c856af89031506077f76defb5abe546fb43be2f13880901779e05",
+   "i": 294
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "温馨提示",
+     "p": {}
+    }
+   ],
+   "text": "温馨提示",
+   "sha256": "49f4c7f33678f149e6e009e00d45ad7cf3ba17646874f71ff50b191578e967c6",
+   "i": 295
+  },
+  {
+   "ppr": {
+    "style": "List Paragraph",
+    "num": {
+     "ilvl": "0",
+     "numId": "4"
+    },
+    "ind": {
+     "left": "0",
+     "firstLineChars": "0",
+     "firstLine": "0"
+    }
+   },
+   "c": [
+    {
+     "t": "对于",
+     "p": {}
+    },
+    {
+     "t": "★",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "有被重写且不计划再次修改的（没有",
+     "p": {}
+    },
+    {
+     "t": "⊙",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "），推荐重新阅读",
+     "p": {}
+    }
+   ],
+   "text": "对于★有被重写且不计划再次修改的（没有⊙），推荐重新阅读",
+   "sha256": "518fa447078c9a81c46a8cef96e9730dee3453c4bda62628bf8d5ca115271c85",
+   "i": 296
+  },
+  {
+   "ppr": {
+    "style": "List Paragraph",
+    "num": {
+     "ilvl": "0",
+     "numId": "4"
+    },
+    "ind": {
+     "left": "0",
+     "firstLineChars": "0",
+     "firstLine": "0"
+    }
+   },
+   "c": [
+    {
+     "t": "对于",
+     "p": {}
+    },
+    {
+     "t": "✎",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "章节主要内容改变的和",
+     "p": {}
+    },
+    {
+     "t": "✚",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "新增的章节，强烈推荐重新阅读",
+     "p": {}
+    }
+   ],
+   "text": "对于✎章节主要内容改变的和✚新增的章节，强烈推荐重新阅读",
+   "sha256": "78df7953e69633cda5f2841da0f67f3889bc8dbc4aec30a12685a2662f9e51bb",
+   "i": 297
+  },
+  {
+   "ppr": {
+    "style": "List Paragraph",
+    "num": {
+     "ilvl": "0",
+     "numId": "4"
+    },
+    "ind": {
+     "left": "0",
+     "firstLineChars": "0",
+     "firstLine": "0"
+    }
+   },
+   "c": [
+    {
+     "t": "对于带",
+     "p": {}
+    },
+    {
+     "t": "⊙",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "和□将要修改的，不推荐重新阅读",
+     "p": {}
+    }
+   ],
+   "text": "对于带⊙和□将要修改的，不推荐重新阅读",
+   "sha256": "e509efbb0e1534b33b963b2b68103d3c341a9eaaf78dbbca257be0eb56051829",
+   "i": 298
+  },
+  {
+   "ppr": {
+    "style": "List Paragraph",
+    "num": {
+     "ilvl": "0",
+     "numId": "4"
+    },
+    "ind": {
+     "left": "0",
+     "firstLineChars": "0",
+     "firstLine": "0"
+    }
+   },
+   "c": [
+    {
+     "t": "对于",
+     "p": {}
+    },
+    {
+     "t": "☆",
+     "p": {
+      "font": {
+       "ascii": "Segoe UI Symbol",
+       "hAnsi": "Segoe UI Symbol",
+       "cs": "Segoe UI Symbol"
+      }
+     }
+    },
+    {
+     "t": "大幅度修改和",
+     "p": {}
+    },
+    {
+     "t": "◇",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "小幅度修改的，不太推荐重新阅读",
+     "p": {}
+    }
+   ],
+   "text": "对于☆大幅度修改和◇小幅度修改的，不太推荐重新阅读",
+   "sha256": "dccc2292ba907bfabe8b1bbc5acc2db27a6826a086782925411470ce25a329bd",
+   "i": 299
+  }
+ ],
+ "text_sha256": "4fa4aa6ab328b3cb7fef6fdff9b45208d12e049b741c8695134c083757c99b32",
+ "chars": 3780
+}

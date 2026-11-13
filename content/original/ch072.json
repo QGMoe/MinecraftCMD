@@ -1,0 +1,2048 @@
+{
+ "id": "ch072",
+ "kind": "chapter",
+ "number": 72,
+ "title": "第七十二章 存储子命令",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   5261,
+   5356
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "第七十二章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " 存储子命令",
+     "p": {}
+    }
+   ],
+   "text": "第七十二章 存储子命令",
+   "sha256": "71f6438ccddbf97e8ff43f0e1cc429697d4afbb5b49d457a97f1ab1772c6924e",
+   "i": 5261
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（本章已于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2022年7月16日重写）",
+     "p": {}
+    }
+   ],
+   "text": "（本章已于2022年7月16日重写）",
+   "sha256": "f967bacd238c2757af12996227308be689cb33b8c8ba2e49a3f7a7c1d6fefb95",
+   "i": 5262
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，我们只剩下了一个存储子命令，即",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "store。",
+     "p": {}
+    }
+   ],
+   "text": "现在，我们只剩下了一个存储子命令，即store。",
+   "sha256": "0fa5bd330e666056c957859fed787aac66146c40775945eee55818975b76d1cf",
+   "i": 5263
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这个",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "store可不是商店，而是一个动词，意为『储存』。",
+     "p": {}
+    }
+   ],
+   "text": "这个store可不是商店，而是一个动词，意为『储存』。",
+   "sha256": "4c74682f82999c3275455b97581139b9316350f01b81e4bbbc4271fa26f0a440",
+   "i": 5264
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "和",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "if子命令一样，store子命令也有许多子命令。截止1.19版本，store子命令一共有5个子命令，但在这我们只能讲一个。",
+     "p": {}
+    }
+   ],
+   "text": "和if子命令一样，store子命令也有许多子命令。截止1.19版本，store子命令一共有5个子命令，但在这我们只能讲一个。",
+   "sha256": "b081fa609d58de5eff65fb22440bbdff08c4d98ce57162b67765faf9ae25ec57",
+   "i": 5265
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为什么？你仔细看看这五个子命令，斟酌一下你的水平，然后你就会发现在这里我们的确也只能讲一个。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "为什么？你仔细看看这五个子命令，斟酌一下你的水平，然后你就会发现在这里我们的确也只能讲一个。",
+   "sha256": "602fdbfd39af324b40de43424a687d4dc8b05f667133b53caa22acaea0e99cdd",
+   "i": 5266
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这五个子命令分别是：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "这五个子命令分别是：",
+   "sha256": "7a50fc3b77ea740caaf8ba94a5827275cdbe04ff1a5c5317c4facb15cde89791",
+   "i": 5267
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "block ——将值存储到方块实体（方块NBT）中",
+     "p": {}
+    }
+   ],
+   "text": "block ——将值存储到方块实体（方块NBT）中",
+   "sha256": "ff2c7c1dddc4105d21c950e2881bf8c6fe1725ec9e8c37f3a1e0c1b07e0a6ba1",
+   "i": 5268
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "bossbar ——将值存储到BOSS栏中",
+     "p": {}
+    }
+   ],
+   "text": "bossbar ——将值存储到BOSS栏中",
+   "sha256": "9a472e6441455c5fa916700c38025821d8205312d2c844e5c6d160005afc532f",
+   "i": 5269
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "entity ——将值存储到实体NBT中",
+     "p": {}
+    }
+   ],
+   "text": "entity ——将值存储到实体NBT中",
+   "sha256": "9c5759ac23ebec5d19ace34b49cdcd4c87f3056a3c799bfe8764e651dbcf1b4a",
+   "i": 5270
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "score ——将值存储到计分板中",
+     "p": {}
+    }
+   ],
+   "text": "score ——将值存储到计分板中",
+   "sha256": "a571dad965202f08f28f99ea90d1ce0e6bf7b669f0d9a91acc258f71ea172ac8",
+   "i": 5271
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "storage ——将值存储到硬盘中",
+     "p": {}
+    }
+   ],
+   "text": "storage ——将值存储到硬盘中",
+   "sha256": "33a0d0bba8bca94c25a651d29786c9193c9eefbef7520bb9e4fb49749ffe69b8",
+   "i": 5272
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "额，其实",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "storage子命令我们也可以稍微讲一下......",
+     "p": {}
+    }
+   ],
+   "text": "额，其实storage子命令我们也可以稍微讲一下......",
+   "sha256": "70bbb02a2b80643dd20edf34ecc110457468248d13c4e1ad2f2e8756f2f6baf7",
+   "i": 5273
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在开讲之前，让我们先回顾一下第六十一章的内容。在那一章，我们了解到指令的返回结果有五种类型：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "在开讲之前，让我们先回顾一下第六十一章的内容。在那一章，我们了解到指令的返回结果有五种类型：",
+   "sha256": "b4d710d413165831f0e76aefca8263b8c2debac853e906d787dd0208f61e046a",
+   "i": 5274
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①指令执行成功的次数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "SuccessCount）",
+     "p": {}
+    }
+   ],
+   "text": "①指令执行成功的次数（SuccessCount）",
+   "sha256": "5cd4da4b9a6c5c1008a0f7830adae6ad1bac329391a47ad9245164c146b52d8b",
+   "i": 5275
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②指令的查询结果（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "QueryResult）",
+     "p": {}
+    }
+   ],
+   "text": "②指令的查询结果（QueryResult）",
+   "sha256": "ea8fa4bcdc4a37d4dec56693228cc83f7c61cc498086537c614f2a840da97793",
+   "i": 5276
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③受到该指令影响的物品数量（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "AffectedItems）",
+     "p": {}
+    }
+   ],
+   "text": "③受到该指令影响的物品数量（AffectedItems）",
+   "sha256": "cce609dad5718db8e1318a1c821092b9184efcc62049e3f9cddd9d55d641b786",
+   "i": 5277
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "④受到该指令影响的实体数量（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "AffectedEntities）",
+     "p": {}
+    }
+   ],
+   "text": "④受到该指令影响的实体数量（AffectedEntities）",
+   "sha256": "c716898f736202e882fbb36b404dea2e4c259acaffe729fcad6b4ccd5ebf0a48",
+   "i": 5278
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "⑤受到该指令影响的方块数量（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "AffectedBlocks）",
+     "p": {}
+    }
+   ],
+   "text": "⑤受到该指令影响的方块数量（AffectedBlocks）",
+   "sha256": "61d0ecf376bf149dc68c5f1717551dd621800c6ee0406f7276c5d8d0f12004d6",
+   "i": 5279
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Mojang可能觉得这五种太多了，而且2、3、4、5分得那么细也没啥用。于是，在Java1.13版本中，后四类合并成了一类，加上原先『指令执行成功的次数』，就变成了两大类型：",
+     "p": {}
+    }
+   ],
+   "text": "但Mojang可能觉得这五种太多了，而且2、3、4、5分得那么细也没啥用。于是，在Java1.13版本中，后四类合并成了一类，加上原先『指令执行成功的次数』，就变成了两大类型：",
+   "sha256": "c27d6b0f35faca4674461b930fba9de96a89cddf4e1814844776a13e65f32527",
+   "i": 5280
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①指令执行成功的次数（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "success）",
+     "p": {}
+    }
+   ],
+   "text": "①指令执行成功的次数（success）",
+   "sha256": "60f55e278d62d39f63e38dba923f98bf46c13725ceb9742cfd51bd71c3e7969a",
+   "i": 5281
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②指令返回的结果（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "result）",
+     "p": {}
+    }
+   ],
+   "text": "②指令返回的结果（result）",
+   "sha256": "c8619c03e7519a42ef9906e3d2e5f57eaa591f1b2b7c34aecc797817fab3cc23",
+   "i": 5282
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，前者可以被我们的比较器探测到并输出为红石信号强度。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "其中，前者可以被我们的比较器探测到并输出为红石信号强度。",
+   "sha256": "02ace6193dd07b2423c9ef1d97f54201a5103d974070b1e6442c31a211214ddd",
+   "i": 5283
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "回到",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "store子命令上。虽然现在指令执行的结果只剩下两大类型，但也是有分类的嘛。所以说，store子命令的格式如下：",
+     "p": {}
+    }
+   ],
+   "text": "回到store子命令上。虽然现在指令执行的结果只剩下两大类型，但也是有分类的嘛。所以说，store子命令的格式如下：",
+   "sha256": "dc09ff4a75da9ca464dc6418490b7f6b5cb60b6752368193a5e8136adb9c9ff6",
+   "i": 5284
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... store <返回类型> (block|bossbar|entity|score|storage) ...",
+     "p": {}
+    }
+   ],
+   "text": "... store <返回类型> (block|bossbar|entity|score|storage) ...",
+   "sha256": "fda75dea2c5a5433c2a0b48664241f59d262b87ae407322d764257e5db7fc081",
+   "i": 5285
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "比如：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "比如：",
+   "sha256": "a9527ddcd686491dc2f56c436383c4f102e02b2389a057e3d7bfc0caf93382a4",
+   "i": 5286
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... store result block ...",
+     "p": {}
+    }
+   ],
+   "text": "... store result block ...",
+   "sha256": "5baedf4c9558d02da9a4362776d04e02dbc6df807cb50f121e1c74aa70c78994",
+   "i": 5287
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会指定将指令执行所返回的结果（一般是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "run子命令执行的结果）存储到方块实体（方块NBT）中。",
+     "p": {}
+    }
+   ],
+   "text": "这将会指定将指令执行所返回的结果（一般是run子命令执行的结果）存储到方块实体（方块NBT）中。",
+   "sha256": "d7080aefe60fcb33a270f3afc8a05214ba64106679fe0eff51df6e450286e3d5",
+   "i": 5288
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "考虑到我们尚未真正开始学习",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "NBT，因此这里我们就不讲block、bossbar和entity了，就仔细学习一下score，并稍微讲一下storage即可。",
+     "p": {}
+    }
+   ],
+   "text": "考虑到我们尚未真正开始学习NBT，因此这里我们就不讲block、bossbar和entity了，就仔细学习一下score，并稍微讲一下storage即可。",
+   "sha256": "1b289be2cd6885567d57912446c74a6535444d5ad1277e3a62e58891c8b0a88f",
+   "i": 5289
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "store的score子命令，其格式如下：",
+     "p": {}
+    }
+   ],
+   "text": "store的score子命令，其格式如下：",
+   "sha256": "76666831425538cd3c241b1356005833f58a37bba6b753f4f7d271342a379918",
+   "i": 5290
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... store <返回类型> score <分数持有者> <计分项> ...",
+     "p": {}
+    }
+   ],
+   "text": "... store <返回类型> score <分数持有者> <计分项> ...",
+   "sha256": "0a68db2d79894d6b829019383b0e77f8a5d9e58a4456e082351a2883d21b11c7",
+   "i": 5291
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很简单吧？至少比",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/stats指令要简单许多。我们只需要指定返回类型，然后指定要存储到谁在哪个计分项上的分数即可。我们不需要考虑会不会受到其他指令的影响，也不需要考虑要在开始存储之后停止存储，甚至不需要考虑指定的分数持有者是否在被指定的计分项追踪。",
+     "p": {}
+    }
+   ],
+   "text": "很简单吧？至少比/stats指令要简单许多。我们只需要指定返回类型，然后指定要存储到谁在哪个计分项上的分数即可。我们不需要考虑会不会受到其他指令的影响，也不需要考虑要在开始存储之后停止存储，甚至不需要考虑指定的分数持有者是否在被指定的计分项追踪。",
+   "sha256": "7d6e386d2afd2f502cbe43c3dd0cc25dc5ddd28ef434364730a350b924542198",
+   "i": 5292
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个简单的例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个简单的例子：",
+   "sha256": "0f1f7bcbe3ada99ff50c28306e8147bcbef9cc65538c0a120fdb4a746ccf2b78",
+   "i": 5293
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute as @a store result score @s ore_count run clear @s #forge:ores 0",
+     "p": {}
+    }
+   ],
+   "text": "/execute as @a store result score @s ore_count run clear @s #forge:ores 0",
+   "sha256": "938f650ea3bb70c863664953e2016f6421b4726ec18356dc9b1b87db75f1525b",
+   "i": 5294
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在装了",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Forge模组加载器的情况下，运行上述指令将会将所有玩家背包内的矿石数量储存到每名玩家的ore_count计分项上。假设在线玩家张三（id:Zhang_San)背包内有25个铁矿石、17个深层铁矿石、45个工业时代2的锡矿石，那么运行上述指令后，张三在ore_count计分项上的分数会更改为87（25+17+45）。",
+     "p": {}
+    }
+   ],
+   "text": "在装了Forge模组加载器的情况下，运行上述指令将会将所有玩家背包内的矿石数量储存到每名玩家的ore_count计分项上。假设在线玩家张三（id:Zhang_San)背包内有25个铁矿石、17个深层铁矿石、45个工业时代2的锡矿石，那么运行上述指令后，张三在ore_count计分项上的分数会更改为87（25+17+45）。",
+   "sha256": "ed234cba71d5277ff2e793f23e65564dd8a9ff886d582d74c3fff8e4f9755a2d",
+   "i": 5295
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "store子命令比较常见的用法。",
+     "p": {}
+    }
+   ],
+   "text": "这是store子命令比较常见的用法。",
+   "sha256": "00bbe037985d0956fce8e22595d3cb7f5bdde56c7bd28f4ec5fed3d839c1feed",
+   "i": 5296
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但在上一章讲条件子命令时，我曾经说过这么一句话：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "但在上一章讲条件子命令时，我曾经说过这么一句话：",
+   "sha256": "27c72a44b78f64069efc3830ea6903d82dbc98f2450c36cda7569880426f422f",
+   "i": 5297
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『因为条件子命令也可以看做是一个具有功能的，能够返回东西的指令（毕竟原来就是由几条单独指令结合在一起的嘛）。』",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "『因为条件子命令也可以看做是一个具有功能的，能够返回东西的指令（毕竟原来就是由几条单独指令结合在一起的嘛）。』",
+   "sha256": "1ad0d0721bcf055ab9df5bbb2113de16ac4bffd33a3c2df71cd8c57d9d136475",
+   "i": 5298
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以，",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "store子命令是否可以存储条件子命令所返回的结果呢？",
+     "p": {}
+    }
+   ],
+   "text": "所以，store子命令是否可以存储条件子命令所返回的结果呢？",
+   "sha256": "f2c8b7d9e59a3800e759189c1da20b25b49070f086b9173b08ef831368020e86",
+   "i": 5299
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案是可以的。比如下面这一条：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "答案是可以的。比如下面这一条：",
+   "sha256": "f00908f7721ed6773f52f7c28eb4b5bde71d80b9508532740ea7d711b16622af",
+   "i": 5300
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute store result score slime_count counter if entity @e[type=minecraft:slime]",
+     "p": {}
+    }
+   ],
+   "text": "/execute store result score slime_count counter if entity @e[type=minecraft:slime]",
+   "sha256": "c7e6e8c2cf5610f424c9dc0c4b67445cb8efeacf1f9e15a1482e12f7e897a252",
+   "i": 5301
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会统计出当前所有已加载维度的已加载区块的史莱姆数量，并将其以分数的形式储存到虚假玩家",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "slime_count于计分项counter上的值。",
+     "p": {}
+    }
+   ],
+   "text": "这将会统计出当前所有已加载维度的已加载区块的史莱姆数量，并将其以分数的形式储存到虚假玩家slime_count于计分项counter上的值。",
+   "sha256": "6b58ec021cc85602bb52451cc1fdfea6b6acf0c73c84ba326beddcd6f60c2031",
+   "i": 5302
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要注意的是，你不能这么写：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要注意的是，你不能这么写：",
+   "sha256": "bf6da56e4c8fd674bb5eb255d608aa94c5e3f7ae43c52c4877fa30ff8a10f3b6",
+   "i": 5303
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute if entity @e[type=minecraft:slime] store result score slime_count counter",
+     "p": {}
+    }
+   ],
+   "text": "/execute if entity @e[type=minecraft:slime] store result score slime_count counter",
+   "sha256": "59f72d1a3aefb01cab46f67770a46e5662631a0abf8948c957e9f04e474e1fd5",
+   "i": 5304
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "虽然这么写也能执行指令，但是将会没有任何效果。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "虽然这么写也能执行指令，但是将会没有任何效果。",
+   "sha256": "1e332b1182e75d638f5d5aa92c0d42f51b50a5fbe0ac18813e196cbb6da12c8d",
+   "i": 5305
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "下面我们再来看两个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "下面我们再来看两个例子：",
+   "sha256": "1b0a0b19b650e79ce5729c23bced08d2fc0443803b5e99b100be47e7a28600a5",
+   "i": 5306
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/execute store result score item_count counter if entity @e[type=minecraft:item] store result score cow_count counter if entity @e[type=cow]",
+     "p": {}
+    }
+   ],
+   "text": "①/execute store result score item_count counter if entity @e[type=minecraft:item] store result score cow_count counter if entity @e[type=cow]",
+   "sha256": "782125098cb40fcfe9592e22c0c3d29d643332437cce4c244b5d3ee50a500883",
+   "i": 5307
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/execute store result score item_count susu if entity @e[type=minecraft:item] store result score cow_count susu if entity @e[type=cow] store result score player_count susu run execute if entity @e[type=player]",
+     "p": {}
+    }
+   ],
+   "text": "②/execute store result score item_count susu if entity @e[type=minecraft:item] store result score cow_count susu if entity @e[type=cow] store result score player_count susu run execute if entity @e[type=player]",
+   "sha256": "ab9f92eef87e472eb62879c63002f8567db21c0c9e5d69ab9b8573aff76f3737",
+   "i": 5308
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "第一个例子中有两组",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "store+if。第二个例子中，在第一个例子的基础上，又加上了第三个store和一个run子命令来运行『execute if entity @e[type=player]』。",
+     "p": {}
+    }
+   ],
+   "text": "第一个例子中有两组store+if。第二个例子中，在第一个例子的基础上，又加上了第三个store和一个run子命令来运行『execute if entity @e[type=player]』。",
+   "sha256": "782ccad6ed093b874c2c521bac323cb8e0326975829873b5e36058b32c5630a4",
+   "i": 5309
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们先来看看第一个例子。假设现在有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2个掉落物，3头牛，请你猜一猜，运行这条指令会发生什么？",
+     "p": {}
+    }
+   ],
+   "text": "我们先来看看第一个例子。假设现在有2个掉落物，3头牛，请你猜一猜，运行这条指令会发生什么？",
+   "sha256": "cb263e9742549c47bb3cfd01fa898a35880e6bc595b6e89fe5dc47ca5157c3bf",
+   "i": 5310
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A.出现错误。",
+     "p": {}
+    }
+   ],
+   "text": "A.出现错误。",
+   "sha256": "f1d041f2c00f7e8aa1d86a6a281fc9a458fe59313f5f827782214be9bd1b67ea",
+   "i": 5311
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "B.item_count的分数变成2，cow_count的分数变为3。",
+     "p": {}
+    }
+   ],
+   "text": "B.item_count的分数变成2，cow_count的分数变为3。",
+   "sha256": "199e3b19ca1dec229dc879db242286b8519667c5686a2f79b08358690445f5c6",
+   "i": 5312
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C.item_count的分数变为3，cow_count的分数变为3。",
+     "p": {}
+    }
+   ],
+   "text": "C.item_count的分数变为3，cow_count的分数变为3。",
+   "sha256": "45850a5c4455849e4dee620ea14fa6fbcafa92c25bef6aed4aa5bb1a5e9a5f30",
+   "i": 5313
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "D.item_count的分数变成2，cow_count的分数变为2。",
+     "p": {}
+    }
+   ],
+   "text": "D.item_count的分数变成2，cow_count的分数变为2。",
+   "sha256": "6ac28b656139767fc3c21eac2acf944c75044b504035cf624377635d9dfe381a",
+   "i": 5314
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "请你将公屏，打在你的答案上。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "请你将公屏，打在你的答案上。",
+   "sha256": "c3791faf4edb12497436312fb01adc1adbe45d65c44f007dd4799dff80092668",
+   "i": 5315
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（这哪有公屏，这只有评论啊）",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "（这哪有公屏，这只有评论啊）",
+   "sha256": "9e5bb897b1de04aaacb042058580e0239a338f9096c331a0cadd15a788b96cad",
+   "i": 5316
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们等五秒钟，看看答案是什么。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "让我们等五秒钟，看看答案是什么。",
+   "sha256": "358832f8b81082072247e2d9a029f26e8f38b79f0b1e0f8bafa7d9bbc8130aac",
+   "i": 5317
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "五",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "五",
+   "sha256": "c9b87f516a38ea36a0ca35f5137d4676a0705b6af36302cac4b68927a1e42c60",
+   "i": 5318
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "四",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "四",
+   "sha256": "754a9d5828d502f19ae91df8f089811d9affe9e0a487b20528975700f7c90f75",
+   "i": 5319
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "三",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "三",
+   "sha256": "a4c3313deb180960469d0e79a770b9deee47fdeed74fe0f74d0bf51006fcc4f0",
+   "i": 5320
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "二",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "二",
+   "sha256": "084b42f6e95e4e6545e236975ade8e205383fefe1021c9d793f758c21f9377dc",
+   "i": 5321
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "一",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "一",
+   "sha256": "51a75f4634dfa8598a0a1436da0b7764830edd1f3a97661222387da2fe2b38d1",
+   "i": 5322
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案是：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "答案是：",
+   "sha256": "4cc6dcc94d45d544c4843054a9e5de41a5d32c8d91ebdb0753da336c0f211006",
+   "i": 5323
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C！",
+     "p": {}
+    }
+   ],
+   "text": "C！",
+   "sha256": "06b0a993c497409d2ba4709c4f2eb54ac63d39e55a2e7623b12e086cb4266e44",
+   "i": 5324
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当一个不带有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "run子命令的execute指令中含有多个store和条件子命令时，除了在最后一个条件子命令后面的store子命令收不到数据以外，其他的store子命令将会获取到最后一个条件子命令的数据。",
+     "p": {}
+    }
+   ],
+   "text": "当一个不带有run子命令的execute指令中含有多个store和条件子命令时，除了在最后一个条件子命令后面的store子命令收不到数据以外，其他的store子命令将会获取到最后一个条件子命令的数据。",
+   "sha256": "2b6d45bdbccbbcaf8719eb9d2f4c1bdb0dd82c379a7819d3643fc4c4650a995d",
+   "i": 5325
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但需要注意，虽然",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "store子命令只能获取到最后一个条件子命令的数据，但是这不代表其他条件子命令没有作用。如果前面的条件子命令发现条件不符合的话，那么store就会无法获取到任何数据而不更改分数。",
+     "p": {}
+    }
+   ],
+   "text": "但需要注意，虽然store子命令只能获取到最后一个条件子命令的数据，但是这不代表其他条件子命令没有作用。如果前面的条件子命令发现条件不符合的话，那么store就会无法获取到任何数据而不更改分数。",
+   "sha256": "e9bae041a938ea38433cec022ff9a2171c8a056d05814297ddd379486da7c477",
+   "i": 5326
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们再来看看第二个例子。假设现在还是有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "2个掉落物，3头牛，1个玩家，请你猜一猜，运行第二个例子会发生什么？",
+     "p": {}
+    }
+   ],
+   "text": "我们再来看看第二个例子。假设现在还是有2个掉落物，3头牛，1个玩家，请你猜一猜，运行第二个例子会发生什么？",
+   "sha256": "bf113efd8929384a7a5a1371432579d6dcfcc691527ff231a923140f8da06d92",
+   "i": 5327
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "答案是：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "item_count、cow_count和player_count的分数均会变为1",
+     "p": {}
+    }
+   ],
+   "text": "答案是：item_count、cow_count和player_count的分数均会变为1",
+   "sha256": "ac5e15ddf58db9205762c419fe210ba378b18023e566899e4fd615df3db523db",
+   "i": 5328
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当一个带有",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "run子命令的execute指令中含有多个store和条件子命令时，store子命令仅仅只会获取到run子命令运行的数据，并不会获取到其他条件子命令的数据。",
+     "p": {}
+    }
+   ],
+   "text": "当一个带有run子命令的execute指令中含有多个store和条件子命令时，store子命令仅仅只会获取到run子命令运行的数据，并不会获取到其他条件子命令的数据。",
+   "sha256": "770497e8e9872bd14dd14f5923d58ca9aa99bdcfadec5c7edb72e0012d53d1dd",
+   "i": 5329
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你听懂了吗？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "你听懂了吗？",
+   "sha256": "a8aff3e3803618c42fb96872cc912500fbd00297db4a912851015e7b40f5f22f",
+   "i": 5330
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在本章的最后，我们来稍微了解一下",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "store的这个storage子命令。",
+     "p": {}
+    }
+   ],
+   "text": "在本章的最后，我们来稍微了解一下store的这个storage子命令。",
+   "sha256": "536fc6d829c417f069628b125d91e1c38c314edda2c9a24c6d95c0538e533050",
+   "i": 5331
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "storage子命令（store）和predicate子命令（if|unless）都是在Java1.15版本中被添加的，并不是Java1.13一开始就有的。有趣的是，这两个东西都和数据包有较大关系。谓词我们已经知道了，那这个storage子命令又是什么呢？",
+     "p": {}
+    }
+   ],
+   "text": "storage子命令（store）和predicate子命令（if|unless）都是在Java1.15版本中被添加的，并不是Java1.13一开始就有的。有趣的是，这两个东西都和数据包有较大关系。谓词我们已经知道了，那这个storage子命令又是什么呢？",
+   "sha256": "f793665af5dab881b5c3177b7c66ab8feb594fab27ecaff0b677fa4fe9ca085b",
+   "i": 5332
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "正如我对这条子命令的描述一样，这条子命令可以将返回的值存储到硬盘上。更确切地说，是存储到指定的存储容器中（这是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft Wiki的说法）。",
+     "p": {}
+    }
+   ],
+   "text": "正如我对这条子命令的描述一样，这条子命令可以将返回的值存储到硬盘上。更确切地说，是存储到指定的存储容器中（这是Minecraft Wiki的说法）。",
+   "sha256": "6760339c98863e86c7670d7fe94a687aa3265f6cb662aa4def63c27e6e67f9d6",
+   "i": 5333
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "硬盘？存储容器？都是什么鬼！",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "硬盘？存储容器？都是什么鬼！",
+   "sha256": "ef9fde34770248735224c11e3141f3c4f43434e52fe4092ad4420ac78f9066fd",
+   "i": 5334
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "待会你就知道是什么鬼了。让我们先来看看这东西的格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "待会你就知道是什么鬼了。让我们先来看看这东西的格式：",
+   "sha256": "580f7d5ea69eba5d20a490a2dd8cb44092129d4e2216d9d06f520618ae8fdc74",
+   "i": 5335
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "... store <返回类型> storage <目标存储容器ID> <NBT路径> <数据类型> <倍率> ...",
+     "p": {}
+    }
+   ],
+   "text": "... store <返回类型> storage <目标存储容器ID> <NBT路径> <数据类型> <倍率> ...",
+   "sha256": "c9cb6f507cc691e4701ca9b7e81c944e0e9ec06c30932902bc2bd59114405499",
+   "i": 5336
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个简单的例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个简单的例子：",
+   "sha256": "0f1f7bcbe3ada99ff50c28306e8147bcbef9cc65538c0a120fdb4a746ccf2b78",
+   "i": 5337
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/execute store result storage minecraft:distance To_the_nearest_village double 1.0 run locate structure #minecraft:village",
+     "p": {}
+    }
+   ],
+   "text": "/execute store result storage minecraft:distance To_the_nearest_village double 1.0 run locate structure #minecraft:village",
+   "sha256": "5defde57bf135795ad2f71adc6da35f726baeb67a2a586f2c9b9795521863a1f",
+   "i": 5338
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这条指令适用于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Java1.19及以上版本，效果是：将执行地点与最近村庄的距离以double双精度浮点数类型存储到名为『minecraft:distance』容器内的To_the_nearest_village标签。",
+     "p": {}
+    }
+   ],
+   "text": "这条指令适用于Java1.19及以上版本，效果是：将执行地点与最近村庄的距离以double双精度浮点数类型存储到名为『minecraft:distance』容器内的To_the_nearest_village标签。",
+   "sha256": "90dbb1a5ca36785f4a3d7ae51547b4d0878ecb09c627fbb1e5b66490a5f70ec2",
+   "i": 5339
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你的存档是个全新的，那么你在运行上述指令后，首先游戏将会给你创建一个叫做『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "minecraft:distance』的存储容器，这个存储容器以NBT树状结构存储数据，并放置于你的存档目录下的data文件夹内的command_storage_minecraft.dat文件中，具体路径如下：",
+     "p": {}
+    }
+   ],
+   "text": "如果你的存档是个全新的，那么你在运行上述指令后，首先游戏将会给你创建一个叫做『minecraft:distance』的存储容器，这个存储容器以NBT树状结构存储数据，并放置于你的存档目录下的data文件夹内的command_storage_minecraft.dat文件中，具体路径如下：",
+   "sha256": "2e2c09332723cadd725ef113d71f0a865086b492fd781544289e1099fe51622f",
+   "i": 5340
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存档根目录",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/data/command_storage_minecraft.dat.data.contents.distance",
+     "p": {}
+    }
+   ],
+   "text": "存档根目录/data/command_storage_minecraft.dat.data.contents.distance",
+   "sha256": "e181156386752e2c838747ee7fad7a74506fa9fc1feb53f4c4422c61c9ade589",
+   "i": 5341
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "其中，前面的『存档根目录",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/data/command_storage_minecraft.dat』是文件路径，后面的『data.contents.distance』是NBT路径。",
+     "p": {}
+    }
+   ],
+   "text": "其中，前面的『存档根目录/data/command_storage_minecraft.dat』是文件路径，后面的『data.contents.distance』是NBT路径。",
+   "sha256": "309e54ba7ac1e0801c5f8244777d9c390709c4dbdad76521948ae78034a8567d",
+   "i": 5342
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果你看不懂也没关系，你只需要了解一件事情：计分板数据也是差不多这样子存储的——计分板存储在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "data文件夹下面的另外一个叫做scoreboard.dat的文件中。",
+     "p": {}
+    }
+   ],
+   "text": "如果你看不懂也没关系，你只需要了解一件事情：计分板数据也是差不多这样子存储的——计分板存储在data文件夹下面的另外一个叫做scoreboard.dat的文件中。",
+   "sha256": "b2e9021e27a8e4f723898b68fcc1655ce097b19a558db0f1b8a4edbfcee707a0",
+   "i": 5343
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "然后，游戏会在这个叫做『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "minecraft:distance』的存储容器内部，在NBT根目录创建一个To_the_nearest_village标签，并以double的形式写上取得的数据。",
+     "p": {}
+    }
+   ],
+   "text": "然后，游戏会在这个叫做『minecraft:distance』的存储容器内部，在NBT根目录创建一个To_the_nearest_village标签，并以double的形式写上取得的数据。",
+   "sha256": "706035707f133a091049800ab69e994103d8786cbc0bc3a9c4850329d65ce27b",
+   "i": 5344
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子，你通过",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "execute指令获得的数据就存储在了硬盘上，而且你可以随时调用。",
+     "p": {}
+    }
+   ],
+   "text": "这样子，你通过execute指令获得的数据就存储在了硬盘上，而且你可以随时调用。",
+   "sha256": "12ce9b654604989c168a40c732d2d89462ed3ace3e1dc45c26411a61c948755b",
+   "i": 5345
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "怎么个调用法？使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/data指令获取：",
+     "p": {}
+    }
+   ],
+   "text": "怎么个调用法？使用/data指令获取：",
+   "sha256": "5e83fd0d0a6ae89d152a99ed0773792102f5c6098cfb5f4521d9f1c520e1aaf0",
+   "i": 5346
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/data get storage minecraft:distance",
+     "p": {}
+    }
+   ],
+   "text": "/data get storage minecraft:distance",
+   "sha256": "4c632ed719192f2242217f1e61d2683465b9bc3df95fb5cefd493c061725f6cc",
+   "i": 5347
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "如果先前你运行指令时，执行地点与最近村庄的距离世",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "362格，那么这将会返回：",
+     "p": {}
+    }
+   ],
+   "text": "如果先前你运行指令时，执行地点与最近村庄的距离世362格，那么这将会返回：",
+   "sha256": "c9269c08758ffb2f411cb9bd92cfb151566245b6e000570b9ea01cc9e5625706",
+   "i": 5348
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存储",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "minecraft:distance含有以下内容：{To_the_nearest_village:362.0d}",
+     "p": {}
+    }
+   ],
+   "text": "存储minecraft:distance含有以下内容：{To_the_nearest_village:362.0d}",
+   "sha256": "9b5057a67e8bc0678c806ad167f94a2e9ac00b1e15a7c4973bebd5dcde25a83f",
+   "i": 5349
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "虽然使用起来十分容易，但由于涉及到较多的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "NBT知识，以及我们尚未讲过的/data指令（这玩意可比execute更加复杂），所以这边就不细讲了。",
+     "p": {}
+    }
+   ],
+   "text": "虽然使用起来十分容易，但由于涉及到较多的NBT知识，以及我们尚未讲过的/data指令（这玩意可比execute更加复杂），所以这边就不细讲了。",
+   "sha256": "b040413f5676eff3829c6220d69e350cb7a0cda5e26ccb4b8834f36fa3cf100c",
+   "i": 5350
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "你只需要知道四点：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "你只需要知道四点：",
+   "sha256": "77257d63a7c68f2362039bc654e5e7cb3d4ed8fa2c4a3a6484080ba5c668ee71",
+   "i": 5351
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①这玩意可方便了",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "①这玩意可方便了",
+   "sha256": "ddccd885f35a89a213c93ba9b4754067630a11d901c8d014c07cf88b80631923",
+   "i": 5352
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②容器名称只要符合规范，随便写（如",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "hentai:Photos、I_am_a_shuabi:things）",
+     "p": {}
+    }
+   ],
+   "text": "②容器名称只要符合规范，随便写（如hentai:Photos、I_am_a_shuabi:things）",
+   "sha256": "2a33b93593a501436acfb326ad0d2e12666036fd1df8a1e99ca6237c61161bc9",
+   "i": 5353
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "③标签名称只要符合规范，也随便写（如",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "a_photo、what_up）",
+     "p": {}
+    }
+   ],
+   "text": "③标签名称只要符合规范，也随便写（如a_photo、what_up）",
+   "sha256": "2e78c11c18cde7863c9e93667ca45dae7e45713e7419e9eca690a0db10e82b0b",
+   "i": 5354
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "④数据类型一般用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "int即可",
+     "p": {}
+    }
+   ],
+   "text": "④数据类型一般用int即可",
+   "sha256": "66b12cdeefd3579b343d88a72b0800d2996eac72e1164f1030f773fdc3dcd110",
+   "i": 5355
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "那么本章就到此结束了。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "那么本章就到此结束了。",
+   "sha256": "26cfc9ab455b0710fea02e0edd03f3974f20b0ce391b0f04939a149c9878c557",
+   "i": 5356
+  }
+ ],
+ "text_sha256": "0e2643130bfca89518643c8e67e96aff4466bc4ac60ac5c7b250f7460019e869",
+ "chars": 4254
+}

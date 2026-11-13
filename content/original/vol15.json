@@ -1,0 +1,77 @@
+{
+ "id": "vol15",
+ "kind": "volume",
+ "number": 15,
+ "title": "第十五卷 调戏Minecraft指南",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   12154,
+   12155
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 2",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    }
+   },
+   "c": [
+    {
+     "bookmark": "_第十五卷_调戏Minecraft指南"
+    },
+    {
+     "t": "第十五卷 ",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "调戏Minecraft指南",
+     "p": {}
+    }
+   ],
+   "text": "第十五卷 调戏Minecraft指南",
+   "sha256": "757d8ed4f8716938a6716870a5dca52326fb721eeb735c79a017a1a28c6dae35",
+   "i": 12154
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "b": true,
+     "bCs": true,
+     "i": true,
+     "iCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "想要调戏Minecraft，就从F3开始",
+     "p": {
+      "b": true,
+      "bCs": true,
+      "i": true,
+      "iCs": true
+     }
+    }
+   ],
+   "text": "想要调戏Minecraft，就从F3开始",
+   "sha256": "bcf06075e35e79150c2fe5c7d7af334fc849877fc460e04bac039ad9a0987b36",
+   "i": 12155
+  }
+ ],
+ "text_sha256": "692728161b7a32ac10f177506f49f63e4d106160df316418c63e6403821219e5",
+ "chars": 38
+}

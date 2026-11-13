@@ -1,0 +1,2021 @@
+{
+ "id": "ch106",
+ "kind": "chapter",
+ "number": 106,
+ "title": "第一百零六章 属性修饰符 下-最终倍乘和/attribute指令",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   8328,
+   8417
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第一百零六章_属性修饰符_下-最终倍乘和/attribute指令"
+    },
+    {
+     "t": "第一百零六章 属性修饰符 下-最终倍乘和/attribute指令",
+     "p": {}
+    }
+   ],
+   "text": "第一百零六章 属性修饰符 下-最终倍乘和/attribute指令",
+   "sha256": "1232ca56d08cbf0edde762e9c42cf2dd4df9d679e2a75997e388fea57204a109",
+   "i": 8328
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在上一章，我们了解了Operation的『属性增量』和『倍率增量』计算模式，还有一个『最终倍乘』。那什么是最终倍乘呢？",
+     "p": {}
+    }
+   ],
+   "text": "在上一章，我们了解了Operation的『属性增量』和『倍率增量』计算模式，还有一个『最终倍乘』。那什么是最终倍乘呢？",
+   "sha256": "e37914ce0fe95b9ce08478e1874e7b45f0727542f367b746582f3192e8ffbbbc",
+   "i": 8329
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『最终倍乘』是这样计算的：",
+     "p": {}
+    }
+   ],
+   "text": "『最终倍乘』是这样计算的：",
+   "sha256": "ddd7b9a94d4475af7e68ee16eeb0312e76e177d1e3a30a9d1808a31cc09d2dbf",
+   "i": 8330
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "R=C",
+     "p": {}
+    },
+    {
+     "t": "₁",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "×",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1+A",
+     "p": {}
+    },
+    {
+     "t": "₁",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": ")",
+     "p": {}
+    },
+    {
+     "t": "×",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1+A",
+     "p": {}
+    },
+    {
+     "t": "₂",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": ")",
+     "p": {}
+    },
+    {
+     "t": "×",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "......",
+     "p": {}
+    },
+    {
+     "t": "×",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1+A",
+     "p": {}
+    },
+    {
+     "t": "ₙ",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": ")",
+     "p": {}
+    }
+   ],
+   "text": "R=C₁×(1+A₁)×(1+A₂)×......×(1+Aₙ)",
+   "sha256": "dcdb8a4c2813416b7af4879ccbcc76cf0f7903f598ef22b5983c808c0b8ded87",
+   "i": 8331
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C",
+     "p": {}
+    },
+    {
+     "t": "₁",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "=C",
+     "p": {}
+    },
+    {
+     "t": "₀",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "×",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "(1+a",
+     "p": {}
+    },
+    {
+     "t": "₁",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "+a",
+     "p": {}
+    },
+    {
+     "t": "₂",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "+.....+a",
+     "p": {}
+    },
+    {
+     "t": "ₙ",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": ")",
+     "p": {}
+    }
+   ],
+   "text": "C₁=C₀×(1+a₁+a₂+.....+aₙ)",
+   "sha256": "9ccf5e7c5c5c741aaecc5c583cc4cfe1b9dad1a02de71a23a0241016bd4b879c",
+   "i": 8332
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C",
+     "p": {}
+    },
+    {
+     "t": "₀",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "=C+m",
+     "p": {}
+    },
+    {
+     "t": "₁",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "+m",
+     "p": {}
+    },
+    {
+     "t": "₂",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "+.....+m",
+     "p": {}
+    },
+    {
+     "t": "ₙ",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    }
+   ],
+   "text": "C₀=C+m₁+m₂+.....+mₙ",
+   "sha256": "01144103455ea8f03e0b489e4c3c8427e395cfb51a3360fe52d5a57b1ddb5c9c",
+   "i": 8333
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "R······最终结果",
+     "p": {}
+    }
+   ],
+   "text": "R······最终结果",
+   "sha256": "d22d07d3c0468c92960bf54c582fd5c69e2311b6d944c5a2a6d8ca1b3283176f",
+   "i": 8334
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "A",
+     "p": {}
+    },
+    {
+     "t": "₁₂",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "...",
+     "p": {}
+    },
+    {
+     "t": "ₙ",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "计算模式为『最终倍乘』的修饰符的Amount值",
+     "p": {}
+    }
+   ],
+   "text": "A₁₂...ₙ······计算模式为『最终倍乘』的修饰符的Amount值",
+   "sha256": "36352a3be01938a664d11e8e4685f386944cdf91cc629779f24dad8b6e2b4587",
+   "i": 8335
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "a",
+     "p": {}
+    },
+    {
+     "t": "₁₂",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "...",
+     "p": {}
+    },
+    {
+     "t": "ₙ",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "计算模式为『倍率增量』的修饰符的Amount值",
+     "p": {}
+    }
+   ],
+   "text": "a₁₂...ₙ······计算模式为『倍率增量』的修饰符的Amount值",
+   "sha256": "9c23176373d6253a9cd557f0600cc67bab33e35fd03ca7e934e268ea932c1af2",
+   "i": 8336
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "m",
+     "p": {}
+    },
+    {
+     "t": "₁₂",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "...",
+     "p": {}
+    },
+    {
+     "t": "ₙ",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "计算模式为『属性增量』的修饰符的Amount值",
+     "p": {}
+    }
+   ],
+   "text": "m₁₂...ₙ······计算模式为『属性增量』的修饰符的Amount值",
+   "sha256": "543e841b398e5fee9a7c792258396543d09facf780b08b22db5786a4fb2997ca",
+   "i": 8337
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C",
+     "p": {}
+    },
+    {
+     "t": "₁",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "『倍率增量』计算结果",
+     "p": {}
+    }
+   ],
+   "text": "C₁······『倍率增量』计算结果",
+   "sha256": "fba695a12c3911e1c6d9ade6f528cb2f88a920158bae952dfe6faabe3922116c",
+   "i": 8338
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "C",
+     "p": {}
+    },
+    {
+     "t": "₀",
+     "p": {
+      "font": {
+       "cs": "Times New Roman"
+      }
+     }
+    },
+    {
+     "t": "······",
+     "p": {
+      "font": {
+       "eastAsia": "DengXian",
+       "cs": "DengXian",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "『属性增量』计算结果",
+     "p": {}
+    }
+   ],
+   "text": "C₀······『属性增量』计算结果",
+   "sha256": "3084ddbdb670aabaeb6684529c38c0219bb313c3954687efb487b696c7d30094",
+   "i": 8339
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子，假设现在有这些修饰符：",
+     "p": {}
+    }
+   ],
+   "text": "举个例子，假设现在有这些修饰符：",
+   "sha256": "432cb8c543cbf8016d372e134dc90714e50b62dda9ccc3bd64f7502ec1e64fc7",
+   "i": 8340
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeName:'generic.max_health',Amount:5.0,Operation:0}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeName:'generic.max_health',Amount:5.0,Operation:0}",
+   "sha256": "0c477aec1b6f95ef95480698682c4d1b28fa8830f64a9e4f9dcae086e285b0f4",
+   "i": 8341
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeName:'generic.max_health',Amount:3.0,Operation:0}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeName:'generic.max_health',Amount:3.0,Operation:0}",
+   "sha256": "d1d0b3e6fd12425b78cabcbf4ad2f868f15462c3f60a288c1fda9dda0b76c9e4",
+   "i": 8342
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeName:'generic.max_health',Amount:2.0,Operation:1}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeName:'generic.max_health',Amount:2.0,Operation:1}",
+   "sha256": "fa42eaf73c9bc3c8cdf5094ec1633265274389d4ad868d9040a24495ff01dfa6",
+   "i": 8343
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeName:'generic.max_health',Amount:1.5,Operation:1}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeName:'generic.max_health',Amount:1.5,Operation:1}",
+   "sha256": "483ae9b3a393c311543f95cc0ffe1afdfaae939d9547fc812566cc40c510d9d1",
+   "i": 8344
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeName:'generic.max_health',Amount:1.1,Operation:2}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeName:'generic.max_health',Amount:1.1,Operation:2}",
+   "sha256": "89feee3d200badcd76746f6e419c80ada4bbb59eb86b1ee64ead6961c757a5f7",
+   "i": 8345
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "{AttributeName:'generic.max_health',Amount:0.1,Operation:2}",
+     "p": {}
+    }
+   ],
+   "text": "{AttributeName:'generic.max_health',Amount:0.1,Operation:2}",
+   "sha256": "90019498410436beda850187500c42278d4fd8bfa1d61879557965b4f9660f52",
+   "i": 8346
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "当这些修饰符在一个玩家身上全部生效，且该名玩家的最大生命值仅仅受这些修饰符影响时，这名玩家的生命值上限将会从20.0点变成291.06点。这个『291.06』是这样得出来的：",
+     "p": {}
+    }
+   ],
+   "text": "当这些修饰符在一个玩家身上全部生效，且该名玩家的最大生命值仅仅受这些修饰符影响时，这名玩家的生命值上限将会从20.0点变成291.06点。这个『291.06』是这样得出来的：",
+   "sha256": "6b1554e5822de0b3789709136886ed8576ce4e67fbc6218eb0156f7a9996ae8e",
+   "i": 8347
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "[(20+5+3)×(1+2+1.5)]×(1+1.1)×(1+0.1)",
+     "p": {}
+    }
+   ],
+   "text": "[(20+5+3)×(1+2+1.5)]×(1+1.1)×(1+0.1)",
+   "sha256": "a1749b66e337f5f696c7f7c5837d0b65feea02a5a776a9add72b980e7b57f2ee",
+   "i": 8348
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "↓先计算『属性增量』↓",
+     "p": {}
+    }
+   ],
+   "text": "↓先计算『属性增量』↓",
+   "sha256": "f8be5c48652d231a7e4f687200ec9c0c17a7cbcf8d8098d4bcbd07c37a8d3d80",
+   "i": 8349
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "[28×(1+2+1.5)]×(1+1.1)×(1+0.1)",
+     "p": {}
+    }
+   ],
+   "text": "[28×(1+2+1.5)]×(1+1.1)×(1+0.1)",
+   "sha256": "9302d4ff49e1c6475e759d130b94c073abe34d34560f2a4a04bfcc8f0e914d7e",
+   "i": 8350
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "↓再计算『倍率增量』↓",
+     "p": {}
+    }
+   ],
+   "text": "↓再计算『倍率增量』↓",
+   "sha256": "8413f2b7ab6c951cab2942d83016a939c51cdc7313b4bd831f70ed26618bf456",
+   "i": 8351
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "126×(1+1.1)×(1+0.1)",
+     "p": {}
+    }
+   ],
+   "text": "126×(1+1.1)×(1+0.1)",
+   "sha256": "e12ddece795f72265259afd1d417760665d3f8fbf44ab4d6313bfa708beb882e",
+   "i": 8352
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "↓最后计算『最终倍乘』↓",
+     "p": {}
+    }
+   ],
+   "text": "↓最后计算『最终倍乘』↓",
+   "sha256": "4658e7e1401cb724adf4283cbef17cc68b23f268815e5698accc663619617d99",
+   "i": 8353
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "291.06",
+     "p": {}
+    }
+   ],
+   "text": "291.06",
+   "sha256": "75db6f364eb17f452fdc81579a55979e09d657f883402c7b15b761b05aaa076e",
+   "i": 8354
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这就是『最终倍乘』，到这Operation的全部内容也就讲完了。",
+     "p": {}
+    }
+   ],
+   "text": "这就是『最终倍乘』，到这Operation的全部内容也就讲完了。",
+   "sha256": "be984ac44f3efcdf820a550775a697a62ad7935d4e64e8e759e8d6d7bdaa44d8",
+   "i": 8355
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "但这不代表本章到此结束。还记得上一章提到的/attribute指令吗？让我们来了解下这指令如何使用：",
+     "p": {}
+    }
+   ],
+   "text": "但这不代表本章到此结束。还记得上一章提到的/attribute指令吗？让我们来了解下这指令如何使用：",
+   "sha256": "5c7e1ce62e4437897d58e7d264769002a0ffe3a3f658c66c0a62a22f47b85742",
+   "i": 8356
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "markRun": {
+     "style": "Intense Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute",
+     "p": {
+      "style": "Intense Emphasis"
+     }
+    }
+   ],
+   "text": "/attribute",
+   "sha256": "00b882180c569db246282315babd0239a3550dc2d3bd41cdb75224aa856b2b21",
+   "i": 8357
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    }
+   },
+   "c": [
+    {
+     "t": "作用",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    },
+    {
+     "t": "：可以更改和读取属性",
+     "p": {}
+    }
+   ],
+   "text": "作用：可以更改和读取属性",
+   "sha256": "57dc17522811d6fd927073e4d9b7f01d459ec2aad1acd7a817bc15e2ca6a2a09",
+   "i": 8358
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    },
+    {
+     "t": "：Java1.16-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：Java1.16-今",
+   "sha256": "c74b982dbe606bc80dfb9dbab10fde3effb0b9003778e8b3677c5b3f8c700d83",
+   "i": 8359
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    },
+    {
+     "t": "：Java-2",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：Java-2",
+   "sha256": "948049f793c1bc733cdc3425f5f9a24dded5751cb88df6d6a984f5b81bd9c6cd",
+   "i": 8360
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    },
+    {
+     "t": "：是",
+     "p": {}
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 8361
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    }
+   },
+   "c": [
+    {
+     "t": "格式",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    },
+    {
+     "t": "：",
+     "p": {}
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 8362
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute <目标玩家/生物> <属性> [base] get [乘数]",
+     "p": {}
+    }
+   ],
+   "text": "/attribute <目标玩家/生物> <属性> [base] get [乘数]",
+   "sha256": "27a90ec2024baafe9160df709bd537b94a9dd18d36c832dace72ce78e473835a",
+   "i": 8363
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\返回指定属性的『总值』。如果指定了base，则返回『基值』\\\\",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "\\\\返回指定属性的『总值』。如果指定了base，则返回『基值』\\\\",
+   "sha256": "f03709bbb369cb613dc55b237ca500c23e8e508165e0336387791750ccf5393e",
+   "i": 8364
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute <目标玩家/生物> <属性> base set <值>",
+     "p": {}
+    }
+   ],
+   "text": "/attribute <目标玩家/生物> <属性> base set <值>",
+   "sha256": "8df5443b51f4fb6d135f4c75637f3cc5007debef3c76aa64ccd58ca544cd10b6",
+   "i": 8365
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\将指定属性的『基值』设定为指定的值\\\\",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "\\\\将指定属性的『基值』设定为指定的值\\\\",
+   "sha256": "695618dcb0b35f9258b990ddd23c0135d95d103dc6bbd14f4249ae0e0ff89a94",
+   "i": 8366
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute <目标玩家/生物> <属性> modifier add <UUID> <名字><值> (add|multiply|multiply_base)",
+     "p": {}
+    }
+   ],
+   "text": "/attribute <目标玩家/生物> <属性> modifier add <UUID> <名字><值> (add|multiply|multiply_base)",
+   "sha256": "57d64638d0dd8aa6c643251b3afece715937eff0548b6f6b8ac4f0a46f8f065a",
+   "i": 8367
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\如果没有UUID相同的属性修饰符，就给指定属性添加上属性修饰符\\\\",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "\\\\如果没有UUID相同的属性修饰符，就给指定属性添加上属性修饰符\\\\",
+   "sha256": "538fe32c3eef9e19ea1a3318fb904e6afcda75985761ccc13eb2d19a741e8237",
+   "i": 8368
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute <目标玩家/生物> <属性> modifier remove <UUID>",
+     "p": {}
+    }
+   ],
+   "text": "/attribute <目标玩家/生物> <属性> modifier remove <UUID>",
+   "sha256": "5100ecbd8342c8d78d3c73f685a680c98edbfd8e7d2cc10b37156217f6c859df",
+   "i": 8369
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\移除指定属性的具有指定UUID的修饰符\\\\",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "\\\\移除指定属性的具有指定UUID的修饰符\\\\",
+   "sha256": "99e52db8116fc69185ee9db183af96fd128591ac73843aaad99b073526c16a5f",
+   "i": 8370
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute <目标玩家/生物> <属性> modifier value get <UUID> [乘数]",
+     "p": {}
+    }
+   ],
+   "text": "/attribute <目标玩家/生物> <属性> modifier value get <UUID> [乘数]",
+   "sha256": "c3ff8d68d482c485ee13dae0fad629c2639aa87544e136b8886372585065202e",
+   "i": 8371
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "Subtle Emphasis"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\返回具有指定UUID的属性修饰符的值\\\\",
+     "p": {
+      "style": "Subtle Emphasis"
+     }
+    }
+   ],
+   "text": "\\\\返回具有指定UUID的属性修饰符的值\\\\",
+   "sha256": "92e21015fcaf59bbb5d589ca1b8692c6c6f23be2d47dd8d2f99ce085cf17c015",
+   "i": 8372
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用这条指令可以很方便地修改实体的属性，以及为实体添加上属性修饰符。只不过由于/attribute指令是直接给实体添加上修饰符，没有物品作为载体，所以在这边添加的修饰符无需指定『栏位』参数。",
+     "p": {}
+    }
+   ],
+   "text": "使用这条指令可以很方便地修改实体的属性，以及为实体添加上属性修饰符。只不过由于/attribute指令是直接给实体添加上修饰符，没有物品作为载体，所以在这边添加的修饰符无需指定『栏位』参数。",
+   "sha256": "f8e7fca92c851740f928c612a727d5681423907bc1e0b8335f0d26ee9c6a49ce",
+   "i": 8373
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "让我们来试一试，直接修改属性的值。比如，把我们的生命值上限改成40点：",
+     "p": {}
+    }
+   ],
+   "text": "让我们来试一试，直接修改属性的值。比如，把我们的生命值上限改成40点：",
+   "sha256": "d1454901fe512487c8c2142eebf3923c12bbf713600f59032bcabc994e5b72f0",
+   "i": 8374
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute @s generic.max_health base set 40.0",
+     "p": {}
+    }
+   ],
+   "text": "/attribute @s generic.max_health base set 40.0",
+   "sha256": "29d2928fa25dcf7ef91146741f98afd742a9caf58bd58a98dc3ce04ad8fef818",
+   "i": 8375
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "left"
+   },
+   "c": [
+    {
+     "t": "实体xxx的属性最大生命值的基值已设置为40.0",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    }
+   ],
+   "text": "实体xxx的属性最大生命值的基值已设置为40.0",
+   "sha256": "8e77d16e9885662906a38ffc1252f990e6a11ef0402fb2473b216aea49bf929b",
+   "i": 8376
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很好，这下子我们就有40点生命值了。只不过要注意，玩家的属性会在死亡后重置，也就是说如果你死一次，最大生命值就会变回20点。",
+     "p": {}
+    }
+   ],
+   "text": "很好，这下子我们就有40点生命值了。只不过要注意，玩家的属性会在死亡后重置，也就是说如果你死一次，最大生命值就会变回20点。",
+   "sha256": "d3850f4f247c6e1b06e5d88289542f87fd729aa55e1adcd53fe04f9e86a1ef3a",
+   "i": 8377
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "get子命令可以获得我们属性的总值或基值。总值也就是经过修饰符修饰后最终的值，基值也就是没有修饰过的初始值。比如：",
+     "p": {}
+    }
+   ],
+   "text": "get子命令可以获得我们属性的总值或基值。总值也就是经过修饰符修饰后最终的值，基值也就是没有修饰过的初始值。比如：",
+   "sha256": "355a78c184c07ca977f70ab304cf66f71f0e22b9158db8d72e54d9f6e215af13",
+   "i": 8378
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/attribute @s generic.max_health base get",
+     "p": {}
+    }
+   ],
+   "text": "/attribute @s generic.max_health base get",
+   "sha256": "e5ab9a23c5b9f1546be3ebc29ec4521e33b8d8d8909ee7e7baa850045dd414da",
+   "i": 8379
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "由于上面我们已经把基值改成了40.0，因此这将会返回：",
+     "p": {}
+    }
+   ],
+   "text": "由于上面我们已经把基值改成了40.0，因此这将会返回：",
+   "sha256": "5178b1baf36325f6c26cd623167a6e61e9a0ccba1e7f3131b18eae554b058058",
+   "i": 8380
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "实体xxx的属性最大生命值的基值为40.0",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    }
+   ],
+   "text": "实体xxx的属性最大生命值的基值为40.0",
+   "sha256": "a8d9de905aa07459549e84a1aab63f7c51965848f96afea0629e74838509159f",
+   "i": 8381
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "等等，这个『乘数』参数有什么用？让我们试一试：",
+     "p": {}
+    }
+   ],
+   "text": "等等，这个『乘数』参数有什么用？让我们试一试：",
+   "sha256": "b13319bf1b5e46c4d2bbbdc76de30e70abb67b378e04104912887bc5b9978902",
+   "i": 8382
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "/attribute @s generic.max_health base get 2.0",
+     "p": {}
+    }
+   ],
+   "text": "/attribute @s generic.max_health base get 2.0",
+   "sha256": "3add073eaf0b6217f4085e993374e01ab124a4b26a172125527a7d6558316b93",
+   "i": 8383
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "MC内容 字符"
+    }
+   },
+   "c": [
+    {
+     "t": "实体xxx的属性最大生命值的基值为40.0",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    }
+   ],
+   "text": "实体xxx的属性最大生命值的基值为40.0",
+   "sha256": "a8d9de905aa07459549e84a1aab63f7c51965848f96afea0629e74838509159f",
+   "i": 8384
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "不难发现，这个乘数参数没有任何的用处.......呃，其实有用的。",
+     "p": {}
+    }
+   ],
+   "text": "不难发现，这个乘数参数没有任何的用处.......呃，其实有用的。",
+   "sha256": "5b255beea035265d3a25cda4777e422e962eac3f4abe13b857d4913cd72d8a94",
+   "i": 8385
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "用在哪呢？execute的store子命令：",
+     "p": {}
+    }
+   ],
+   "text": "用在哪呢？execute的store子命令：",
+   "sha256": "1f4c80b70fd41e8eab5582b6776f87435c11784d0e59e4dd4195b801cb44e68c",
+   "i": 8386
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "MC内容 字符"
+    }
+   },
+   "c": [
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "/execute store result score @s health_max run attribute @s generic.max_health base get",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    }
+   ],
+   "text": "①/execute store result score @s health_max run attribute @s generic.max_health base get",
+   "sha256": "30d7d4fde3de254859a7ac4d608e0fdc199cc16f7050437906af77d7fbc35ad8",
+   "i": 8387
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "MC内容 字符"
+    }
+   },
+   "c": [
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "/execute store result score @s health_max run attribute @s generic.max_health base get 2.0",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    }
+   ],
+   "text": "②/execute store result score @s health_max run attribute @s generic.max_health base get 2.0",
+   "sha256": "f74bf28d878f3f28e7b20925630511162887694bd1c1bac5df7d32214eaf89cd",
+   "i": 8388
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "指令",
+     "p": {}
+    },
+    {
+     "t": "①",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "的返回值为正常的40.0，也就是将我们自己在health_max计分项上的值改为40。指令",
+     "p": {}
+    },
+    {
+     "t": "②",
+     "p": {
+      "font": {
+       "ascii": "Cambria Math",
+       "hAnsi": "Cambria Math",
+       "cs": "Cambria Math"
+      }
+     }
+    },
+    {
+     "t": "虽然给我们的消息是40.0，但实际返回的是80.0，计分项上的分数也会改为80。",
+     "p": {}
+    }
+   ],
+   "text": "指令①的返回值为正常的40.0，也就是将我们自己在health_max计分项上的值改为40。指令②虽然给我们的消息是40.0，但实际返回的是80.0，计分项上的分数也会改为80。",
+   "sha256": "596e1b6454efaa15d994a6d137439ff2b4fc2e08b26535651c7f52435155ed0d",
+   "i": 8389
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "所以，『乘数』参数并不是没有用，而是它的用处在于影响指令的返回值。",
+     "p": {}
+    }
+   ],
+   "text": "所以，『乘数』参数并不是没有用，而是它的用处在于影响指令的返回值。",
+   "sha256": "e45c4658460ba802c3707557f0117b35e660113b6d92bd4bcbdd666a8cd6aded",
+   "i": 8390
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "修改属性还是很简单的。那使用/attribute给实体添加修饰符呢？让我们再试一试：",
+     "p": {}
+    }
+   ],
+   "text": "修改属性还是很简单的。那使用/attribute给实体添加修饰符呢？让我们再试一试：",
+   "sha256": "cf01d2d32b3131d20347232cce08c24bee9b92115a90bc50caa95134ed5d55ed",
+   "i": 8391
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute @s generic.max_health modifier add 1-1-1-1-1 A 1.0 add",
+     "p": {}
+    }
+   ],
+   "text": "/attribute @s generic.max_health modifier add 1-1-1-1-1 A 1.0 add",
+   "sha256": "6cbf20365ed8a32feec0e0f8b58a35713fd5f0f16158a7715c0f78dec9eed5ca",
+   "i": 8392
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "MC内容 字符"
+    }
+   },
+   "c": [
+    {
+     "t": "为实体xxx的属性最大生命值添加了修饰符00000001-0001-0001-0001-000000000001",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    }
+   ],
+   "text": "为实体xxx的属性最大生命值添加了修饰符00000001-0001-0001-0001-000000000001",
+   "sha256": "958787198c3df14fc83c5643dab59e7f4382dca1f458f9b6031885ff4b94b9b8",
+   "i": 8393
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在上面的指令中，使用了『modifier』子命令的『add』子命令来添加一个修饰符，参数『1-1-1-1-1』指定了该修饰符的UUID，『A』指定了该修饰符的名称，『1.0』指定了该修饰符的值，『add』指定了该修饰符的计算模式是『属性增量』。其中得讲一下的就是这个UUID参数。",
+     "p": {}
+    }
+   ],
+   "text": "在上面的指令中，使用了『modifier』子命令的『add』子命令来添加一个修饰符，参数『1-1-1-1-1』指定了该修饰符的UUID，『A』指定了该修饰符的名称，『1.0』指定了该修饰符的值，『add』指定了该修饰符的计算模式是『属性增量』。其中得讲一下的就是这个UUID参数。",
+   "sha256": "5a93f56e43fc3a98969c003fbdded21d6f6ea38c301b77a8b54e5d5b6bd38654",
+   "i": 8394
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "在这边的UUID参数，填写的是『带连字符的十六进制UUID』。这种形式的UUID很常见，它长下面这样：",
+     "p": {}
+    }
+   ],
+   "text": "在这边的UUID参数，填写的是『带连字符的十六进制UUID』。这种形式的UUID很常见，它长下面这样：",
+   "sha256": "b0f82c2b0b9f4acd23719c9db3550818f4501b6441fba45ce08afb2b43bffe9e",
+   "i": 8395
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+     "p": {}
+    }
+   ],
+   "text": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+   "sha256": "e1b185d5d88e6646c1cde8f05564bb814683e42cff1dac7aed93c92f371177eb",
+   "i": 8396
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "详细内容会在第一百一十章讲到，在这边你只需要把这东西当做填写五个用连字符『-』连在一起的整数即可：",
+     "p": {}
+    }
+   ],
+   "text": "详细内容会在第一百一十章讲到，在这边你只需要把这东西当做填写五个用连字符『-』连在一起的整数即可：",
+   "sha256": "2e19e44332d47e7ae563c7b843d8267adf964a055e217aacd386a8ec6ffee56e",
+   "i": 8397
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "t": "1-1-1-1-1",
+     "p": {}
+    }
+   ],
+   "text": "1-1-1-1-1",
+   "sha256": "fd134b43932772845a61764bf09b347921f99efc32eeb7c041260eba0daabacb",
+   "i": 8398
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面的『add』参数所在的位置，也可以填写multiply_base（倍率增量）和multiply（最终倍乘），来改变运算模式。",
+     "p": {}
+    }
+   ],
+   "text": "上面的『add』参数所在的位置，也可以填写multiply_base（倍率增量）和multiply（最终倍乘），来改变运算模式。",
+   "sha256": "099b1dbc640c758c12fd83d4f3356e1c7e0f30b1b97746d027c3d44ae2639fea",
+   "i": 8399
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，让我们看看的生命值上限是不是高达41.0：",
+     "p": {}
+    }
+   ],
+   "text": "现在，让我们看看的生命值上限是不是高达41.0：",
+   "sha256": "5766be4d365fd2868ac16ea3f8cb6af8f72151d775536b0b730b765e671b136b",
+   "i": 8400
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute @s generic.max_health base get",
+     "p": {}
+    }
+   ],
+   "text": "/attribute @s generic.max_health base get",
+   "sha256": "e5ab9a23c5b9f1546be3ebc29ec4521e33b8d8d8909ee7e7baa850045dd414da",
+   "i": 8401
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "实体xxx的属性最大生命值的基值为40.0",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    }
+   ],
+   "text": "实体xxx的属性最大生命值的基值为40.0",
+   "sha256": "a8d9de905aa07459549e84a1aab63f7c51965848f96afea0629e74838509159f",
+   "i": 8402
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "？怎么还是40.0？啊，是用错了，这获取到的是基值，应该把『base』参数去掉：",
+     "p": {}
+    }
+   ],
+   "text": "？怎么还是40.0？啊，是用错了，这获取到的是基值，应该把『base』参数去掉：",
+   "sha256": "64ff010d875863415fda0bc4f7e29bcaed1f0d06489ae686571d1ed8f57d9883",
+   "i": 8403
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute @s generic.max_health get",
+     "p": {}
+    }
+   ],
+   "text": "/attribute @s generic.max_health get",
+   "sha256": "29d796f9afd996b5eb1e08a3a0d6eab17ed1c3263b7ac14bf0b6af300e07aa16",
+   "i": 8404
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "MC内容 字符"
+    }
+   },
+   "c": [
+    {
+     "t": "实体xxx的属性最大生命值的值为41.0",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    }
+   ],
+   "text": "实体xxx的属性最大生命值的值为41.0",
+   "sha256": "9986911ba6996b9aa321fdb0a0c3d6d2dcb1fc81c57da29f32f9c47821374374",
+   "i": 8405
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "很好，所以你现在会用/attribute给实体添加属性修饰符了吗？",
+     "p": {}
+    }
+   ],
+   "text": "很好，所以你现在会用/attribute给实体添加属性修饰符了吗？",
+   "sha256": "b82fde03564ad9a8514a9c09bfad667f45325d4bc74605e69e9260fcd84c7770",
+   "i": 8406
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "remove和value get两个子命令的使用很简单，让我们试一试：",
+     "p": {}
+    }
+   ],
+   "text": "remove和value get两个子命令的使用很简单，让我们试一试：",
+   "sha256": "e6e8a74e8e47bfc5b6e804e02b802be4b0f0bde71e6f3f7aea0b44df145dec0d",
+   "i": 8407
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute @s minecraft:generic.max_health modifier value get 1-1-1-1-1 2.0",
+     "p": {}
+    }
+   ],
+   "text": "/attribute @s minecraft:generic.max_health modifier value get 1-1-1-1-1 2.0",
+   "sha256": "09c915f52bc833ae381a06dbeb3fa8ab813f6c3d7ef93213f1c96ec6dc132f64",
+   "i": 8408
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    },
+    "markRun": {
+     "style": "MC内容 字符"
+    }
+   },
+   "c": [
+    {
+     "t": "实体xxx的属性最大生命值中修饰符00000001-0001-0001-0001-000000000001值为1.0",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    }
+   ],
+   "text": "实体xxx的属性最大生命值中修饰符00000001-0001-0001-0001-000000000001值为1.0",
+   "sha256": "9e8271392c3da764705ad220e36b174e979ec1125c5c220f3b95c55ecc12680c",
+   "i": 8409
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "上面这条指令会返回这个修饰符的值。并且由于指定了乘数为『2.0』，这条指令的返回值还会是『2.0』（1.0×2.0）。",
+     "p": {}
+    }
+   ],
+   "text": "上面这条指令会返回这个修饰符的值。并且由于指定了乘数为『2.0』，这条指令的返回值还会是『2.0』（1.0×2.0）。",
+   "sha256": "b0cea31bd91870b50bf05a768e01d38367300cd4886a243591282beca163c4df",
+   "i": 8410
+  },
+  {
+   "ppr": {
+    "style": "MC内容",
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/attribute @s minecraft:generic.max_health modifier remove 1-1-1-1-1",
+     "p": {}
+    }
+   ],
+   "text": "/attribute @s minecraft:generic.max_health modifier remove 1-1-1-1-1",
+   "sha256": "ccfc00f85727ec33ffa92266b01338a349fdac49e6d21e061045b2d4cf91273d",
+   "i": 8411
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "为实体xxx的属性最大生命值移除了修饰符00000001-0001-0001-0001-000000000001",
+     "p": {
+      "style": "MC内容 字符"
+     }
+    }
+   ],
+   "text": "为实体xxx的属性最大生命值移除了修饰符00000001-0001-0001-0001-000000000001",
+   "sha256": "f2ecdbb2d059982cb7fbfdab4981e500cd5e027ba942e401caa225fa051ec473",
+   "i": 8412
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这样子我们就删掉了刚刚给我们自己添加的属性修饰符，生命值上限回到了40.0。",
+     "p": {}
+    }
+   ],
+   "text": "这样子我们就删掉了刚刚给我们自己添加的属性修饰符，生命值上限回到了40.0。",
+   "sha256": "a82ec345b221f1d4fa803125fddc395f4276acecd71ed6bc440a4e14abb0c06c",
+   "i": 8413
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本章到此为止。",
+     "p": {}
+    }
+   ],
+   "text": "本章到此为止。",
+   "sha256": "ad685ca57aa13e9c4e1c57947d7483a10b82160c3f878d96d224fec5f0b63a78",
+   "i": 8414
+  },
+  {
+   "ppr": {
+    "style": "小标题",
+    "ind": {
+     "firstLine": "560"
+    }
+   },
+   "c": [
+    {
+     "t": "附录：/attribute历史",
+     "p": {}
+    }
+   ],
+   "text": "附录：/attribute历史",
+   "sha256": "fc8029ff43b39b42e7dd482fed1e63019064d0c4f1723e7da313771d7caf122c",
+   "i": 8415
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "431"
+    },
+    "jc": "center",
+    "markRun": {
+     "b": true,
+     "bCs": true
+    }
+   },
+   "c": [
+    {
+     "t": "Java",
+     "p": {
+      "b": true,
+      "bCs": true
+     }
+    }
+   ],
+   "text": "Java",
+   "sha256": "c1ba60ce13586503a21a05e9ef0bb959f1ba74a1d37bcfcbf5fc6bfb548f684d",
+   "i": 8416
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16——加入了/attribute",
+     "p": {}
+    }
+   ],
+   "text": "1.16——加入了/attribute",
+   "sha256": "8205942b7937a889e5175897b025f7dd6b07716d6fe38c0f7d0e548708076b3a",
+   "i": 8417
+  }
+ ],
+ "text_sha256": "13c94972b87e455ce9e3a30b8e9e1d908da45bfe895ce1464724bc73af5c2523",
+ "chars": 3469
+}

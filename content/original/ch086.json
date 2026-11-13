@@ -1,0 +1,1993 @@
+{
+ "id": "ch086",
+ "kind": "chapter",
+ "number": 86,
+ "title": "第八十六章 music-音乐",
+ "source": {
+  "file": "主稿/Minecraft指令手册.docx",
+  "paragraphs": [
+   6233,
+   6337
+  ]
+ },
+ "format": "docx-paragraphs",
+ "content": [
+  {
+   "ppr": {
+    "style": "heading 3",
+    "spacing": {
+     "line": "415",
+     "lineRule": "auto"
+    },
+    "ind": {
+     "firstLine": "657"
+    },
+    "jc": "center"
+   },
+   "c": [
+    {
+     "bookmark": "_第八十六章_music-音乐"
+    },
+    {
+     "t": "第八十六章",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": " music-音乐",
+     "p": {}
+    }
+   ],
+   "text": "第八十六章 music-音乐",
+   "sha256": "e3cd436ccc17fb2b869667b44ef64e722a23e739bfbb3d213f2854b7ab3cf0fb",
+   "i": 6233
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（本章重写时作者使用的是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft Windows10基岩版1.19.10版本）",
+     "p": {}
+    }
+   ],
+   "text": "（本章重写时作者使用的是Minecraft Windows10基岩版1.19.10版本）",
+   "sha256": "8e0e790759c0e5cf70a168c04b7fab1584dfe5f02ba7202442d63176e08f21df",
+   "i": 6234
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（本章节有许多内容由作者自己实验或寻找得出，在",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft Wiki上可能并未记载，或是与Minecraft Wiki上的记载有些许出入。如遇问题，请以Minecraft Wiki上的内容为准。——2022/7/23 作者注）",
+     "p": {}
+    }
+   ],
+   "text": "（本章节有许多内容由作者自己实验或寻找得出，在Minecraft Wiki上可能并未记载，或是与Minecraft Wiki上的记载有些许出入。如遇问题，请以Minecraft Wiki上的内容为准。——2022/7/23 作者注）",
+   "sha256": "a0f2ff6fbb3a006f8e47bbf328062c1ad08bbd47872b990fe4b3c34c8822983b",
+   "i": 6235
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们在第六十三章中，讲到了一条控制声音的指令：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/playsound。但在基岩版，还有一条和/playsound很类似的指令，这条指令同样也是用来控制声音，只不过具体点说，是控制音乐。这条指令就是：",
+     "p": {}
+    }
+   ],
+   "text": "我们在第六十三章中，讲到了一条控制声音的指令：/playsound。但在基岩版，还有一条和/playsound很类似的指令，这条指令同样也是用来控制声音，只不过具体点说，是控制音乐。这条指令就是：",
+   "sha256": "c8b9669e018d9439f98a28659467c96d0f2fc69aeafef862a3caf324dd12a8de",
+   "i": 6236
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music",
+     "p": {}
+    }
+   ],
+   "text": "/music",
+   "sha256": "d47414a78375815e0ae299a5f3a716f859e62b21ab9aa7d819ff54ec2d5a96c0",
+   "i": 6237
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "作用：控制音乐",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "作用：控制音乐",
+   "sha256": "d41a5a25af2c44d671dd33b67925f2eefef8a00395fdda28c2377d6a6e5253ba",
+   "i": 6238
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "存在版本：基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.16.100-今",
+     "p": {}
+    }
+   ],
+   "text": "存在版本：基岩版1.16.100-今",
+   "sha256": "ecc5577d2a014bfabde3b3f4a1e130299bf44f893ec2fa3cb766551121df50e8",
+   "i": 6239
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要权限等级：基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "-1",
+     "p": {}
+    }
+   ],
+   "text": "需要权限等级：基岩版-1",
+   "sha256": "6211c898a8cc8649a12ee9536dccc4443b9a29d61e73ea3c8c05de42660a2fcd",
+   "i": 6240
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "需要作弊：是",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "需要作弊：是",
+   "sha256": "68ab0ac4ec148c61a35c7d49179a290dad77ef40852d88b26320a684047c6636",
+   "i": 6241
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "格式：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "格式：",
+   "sha256": "92764091f04f0073b1cec5df4f7f599c798efe1843334853c48803de45bfa950",
+   "i": 6242
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music play <音乐名称> [音量] [淡入淡出时间：秒] [播放模式]",
+     "p": {}
+    }
+   ],
+   "text": "/music play <音乐名称> [音量] [淡入淡出时间：秒] [播放模式]",
+   "sha256": "cec0dd42e03546e866e5c423a66f2f9c7e16e1d031287ce626b83b272059a923",
+   "i": 6243
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\播放指定的音乐\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\播放指定的音乐\\\\",
+   "sha256": "c3618dcd503b808b0dce5e30575b839e88dd96140a85ec86d9c1f68bfb13e779",
+   "i": 6244
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music queue <音乐名称> [音量] [淡入淡出时间：秒] [播放模式]",
+     "p": {}
+    }
+   ],
+   "text": "/music queue <音乐名称> [音量] [淡入淡出时间：秒] [播放模式]",
+   "sha256": "edf2313d09b4d919a57b41eb1eb9bd8b033d4accd5d95781efd2dcf4b97c9a81",
+   "i": 6245
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\将指定音乐加入到待播放列表中\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\将指定音乐加入到待播放列表中\\\\",
+   "sha256": "e88b49dc1d0f03723281ed198b4183d3e9291c653c7e71c67b2a1cba94e789d8",
+   "i": 6246
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music stop [音乐淡出时间：秒]",
+     "p": {}
+    }
+   ],
+   "text": "/music stop [音乐淡出时间：秒]",
+   "sha256": "617856752203f7c739ca38a8c480400a1280b368cbe6227b08333196653be082",
+   "i": 6247
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\停止播放音乐\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\停止播放音乐\\\\",
+   "sha256": "afd01eb6122cbe79806deb528e1db5a22697b7eb4688251783e164e5480159e6",
+   "i": 6248
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music volume <音量>",
+     "p": {}
+    }
+   ],
+   "text": "/music volume <音量>",
+   "sha256": "cb2343c78c9877cd4f7cebc6ee2a491a6bedbe373ce66ed1c2a5357f0536be49",
+   "i": 6249
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "\\\\调整播放音量\\\\",
+     "p": {}
+    }
+   ],
+   "text": "\\\\调整播放音量\\\\",
+   "sha256": "95d310a4882502d3a4f26b6fbc7b4b369fd5680784fb37bc3784a737bb5e0340",
+   "i": 6250
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "和",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/playsound不一样的是，指令/music仅仅只能控制执行者自己的游戏背景音乐。又因为同一时间内又不能播放多首游戏背景音乐，所以/music虽然作用和/playsound很像，但两者的格式却大不一样，深层次的效果也不一样。",
+     "p": {}
+    }
+   ],
+   "text": "和/playsound不一样的是，指令/music仅仅只能控制执行者自己的游戏背景音乐。又因为同一时间内又不能播放多首游戏背景音乐，所以/music虽然作用和/playsound很像，但两者的格式却大不一样，深层次的效果也不一样。",
+   "sha256": "a1af79b875af70b1d06a5a9b86c4ea831f5a6631e004d9c45a4267aab8443fde",
+   "i": 6251
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "Minecraft基岩版的游戏背景音乐播放器简直就像是一个音乐软件，拥有『当前正在播放的歌曲』和『播放清单』，你可以指定播放的『音量』大小，还能够设置播放的模式是『顺序播放』还是『单曲循环』模式等等。只不过，『Minecraft音乐』这款软件的控制方法和其他音乐软件大不一样，你需要使用Minecraft内置的『命令行』应用——指令——来控制这款软件。",
+     "p": {}
+    }
+   ],
+   "text": "Minecraft基岩版的游戏背景音乐播放器简直就像是一个音乐软件，拥有『当前正在播放的歌曲』和『播放清单』，你可以指定播放的『音量』大小，还能够设置播放的模式是『顺序播放』还是『单曲循环』模式等等。只不过，『Minecraft音乐』这款软件的控制方法和其他音乐软件大不一样，你需要使用Minecraft内置的『命令行』应用——指令——来控制这款软件。",
+   "sha256": "4ebc7a789e4c48bbd687d201a948f66297cae74c79918cac74284343d1f2fbc0",
+   "i": 6252
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "先让我们停止一下游戏自动给我们“推送”的音乐：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "先让我们停止一下游戏自动给我们“推送”的音乐：",
+   "sha256": "765e5ffa678946387d7c3425280495b2cf047d07f0254532007293d8c983efc7",
+   "i": 6253
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music stop",
+     "p": {}
+    }
+   ],
+   "text": "/music stop",
+   "sha256": "bb3f1218e7c49b6aea9c929eab32d40f0daf52fe7e0f2f67c32119db8406c0ee",
+   "i": 6254
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会停止执行者自己，也就是我们自己的",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft正在播放的背景音乐，并清除『播放清单』内的所有音乐。然后我们就可以尝试让游戏播放一些指定的歌曲。",
+     "p": {}
+    }
+   ],
+   "text": "这将会停止执行者自己，也就是我们自己的Minecraft正在播放的背景音乐，并清除『播放清单』内的所有音乐。然后我们就可以尝试让游戏播放一些指定的歌曲。",
+   "sha256": "7858c853eb8c754db5151aff55582c42bacac79a3bdf25dbbc7ccd2058b0ef6f",
+   "i": 6255
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "问题来了：怎么知道我们可以播放什么音乐呢？",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "问题来了：怎么知道我们可以播放什么音乐呢？",
+   "sha256": "9958f8315cb606dadf1ac9e4aa41af32fbf4d07e82ed61bdeaaf1b17b86ccc4f",
+   "i": 6256
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这时候我们就需要请出那个大名鼎鼎的文件：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "sound_definitions.json",
+     "p": {}
+    }
+   ],
+   "text": "这时候我们就需要请出那个大名鼎鼎的文件：sound_definitions.json",
+   "sha256": "ee09ab9a962dea8432db3e40dc0a3bcee382e161c9411168f76f5f0707b0bbc4",
+   "i": 6257
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "还记得这个文件吗？我们在第六十三章中，起码花费了超过四分之一的篇幅来讲解如何找到这个文件，相信你应该还记得吧？让我们重新把那个文件找出来，或者上",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Minecraft Wiki查找也行。",
+     "p": {}
+    }
+   ],
+   "text": "还记得这个文件吗？我们在第六十三章中，起码花费了超过四分之一的篇幅来讲解如何找到这个文件，相信你应该还记得吧？让我们重新把那个文件找出来，或者上Minecraft Wiki查找也行。",
+   "sha256": "7d911d46e927603433c2a9587de59eb09be37e8f9878e25c857c1bac575aed13",
+   "i": 6258
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用文本编辑器打开这个文件（当然如果装了一些诸如",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "VS Code的软件更好），你就会再一次看到一大堆的你大概率看不懂的东西。别担心，对于/music指令来说，这里大多数都是废话。/music指令能播放的音乐只认两种：",
+     "p": {}
+    }
+   ],
+   "text": "使用文本编辑器打开这个文件（当然如果装了一些诸如VS Code的软件更好），你就会再一次看到一大堆的你大概率看不懂的东西。别担心，对于/music指令来说，这里大多数都是废话。/music指令能播放的音乐只认两种：",
+   "sha256": "28e87d6bb4351e8b3834aca5e097dda65afdf7a1d720d9d38672eb7ddfa78460",
+   "i": 6259
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "①声音名称开头为『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "music.』的",
+     "p": {}
+    }
+   ],
+   "text": "①声音名称开头为『music.』的",
+   "sha256": "32a500920118e1e580e1bfb81ed093b54b8fc0d397a1e02b36522057dd30af01",
+   "i": 6260
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "②声音名称开头为『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "record.』的",
+     "p": {}
+    }
+   ],
+   "text": "②声音名称开头为『record.』的",
+   "sha256": "387a34fd9302b9ec49f2741d04d6e069b69c866b746cf6e4d474cbd1150ddfc5",
+   "i": 6261
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "使用",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "Ctrl+F或Command",
+     "p": {}
+    },
+    {
+     "t": "⌘",
+     "p": {
+      "font": {
+       "eastAsia": "MS Mincho",
+       "cs": "MS Mincho",
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "+F开启查找模式，搜索『music.』或『record.』，你应该能够找到一些结果，比如『music.menu』（游戏主界面音乐）或『record.cat』（唱片C418 - cat的音乐）。这些音乐就是可以被/music所播放的音乐。让我们来试一试：",
+     "p": {}
+    }
+   ],
+   "text": "使用Ctrl+F或Command⌘+F开启查找模式，搜索『music.』或『record.』，你应该能够找到一些结果，比如『music.menu』（游戏主界面音乐）或『record.cat』（唱片C418 - cat的音乐）。这些音乐就是可以被/music所播放的音乐。让我们来试一试：",
+   "sha256": "24bca3cd5c535fca32e985bf044849f2ee7f806d383f4b9c39be345b9e11b567",
+   "i": 6262
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music play music.game.nether",
+     "p": {}
+    }
+   ],
+   "text": "/music play music.game.nether",
+   "sha256": "2d0b24fe83e5a9d26c136cee436cbf90113e005bf67d740a15392e7b64b197b2",
+   "i": 6263
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会先停止当前播放的音乐并清除『播放清单』内的所有音乐，然后再播放下界的背景音乐。只不过由于『",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "music.game.nether』这个音乐名称指定了多个音乐，所以游戏会从中随机播放一首。不出意外的话，你应该会听到一些很小声的不同的音乐，这就是下界的背景音乐。",
+     "p": {}
+    }
+   ],
+   "text": "这将会先停止当前播放的音乐并清除『播放清单』内的所有音乐，然后再播放下界的背景音乐。只不过由于『music.game.nether』这个音乐名称指定了多个音乐，所以游戏会从中随机播放一首。不出意外的话，你应该会听到一些很小声的不同的音乐，这就是下界的背景音乐。",
+   "sha256": "764aa20bea1dca1cb785def183ba572879a3c94e8c08b74d92372b332ee0a8ab",
+   "i": 6264
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "现在，游戏的『播放清单』只有一首我们刚刚添加进去的音乐，让我们再添加一首：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "现在，游戏的『播放清单』只有一首我们刚刚添加进去的音乐，让我们再添加一首：",
+   "sha256": "948805d06404da42227b8fe1f12c7c018d3f7ea5453d0fae4bcd2a80989f1226",
+   "i": 6265
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music queue music.game.swamp_music",
+     "p": {}
+    }
+   ],
+   "text": "/music queue music.game.swamp_music",
+   "sha256": "0bffa54dd77ce13da47a8e9be91cc9d734fac24520c00e44a139dd8e4f51dd19",
+   "i": 6266
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这可能是沼泽生物群系的音乐。如果你对",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "MC音乐比较熟的话可以仔细听一听，看看这到底放的是什么音乐。这个音乐并不在sound_definitions.json这个文件内，而是在它旁边的music_definitions.json这个文件内（你应该有看到这个文件）。",
+     "p": {}
+    }
+   ],
+   "text": "这可能是沼泽生物群系的音乐。如果你对MC音乐比较熟的话可以仔细听一听，看看这到底放的是什么音乐。这个音乐并不在sound_definitions.json这个文件内，而是在它旁边的music_definitions.json这个文件内（你应该有看到这个文件）。",
+   "sha256": "432da77c95e9dc80a790c0cb6ca441956e560fa679003b8b1957b502976197bc",
+   "i": 6267
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music_definitions.json这个文件可能是用于指定生物群系的特定背景音乐，比如你来到森林就播放森林的音乐，来到沼泽就播放沼泽的音乐......但有一点可以肯定的是，/music也可以播放该文件中event_name字段所指定的声音名称。",
+     "p": {}
+    }
+   ],
+   "text": "music_definitions.json这个文件可能是用于指定生物群系的特定背景音乐，比如你来到森林就播放森林的音乐，来到沼泽就播放沼泽的音乐......但有一点可以肯定的是，/music也可以播放该文件中event_name字段所指定的声音名称。",
+   "sha256": "4b333a46991720d6cf534c6e6e922dced46128b8594b275974088a7ee14370b1",
+   "i": 6268
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "总之，上面这条指令将会把这个音乐添加到游戏的『播放清单』当中，等到下界的音乐播放完，游戏就会自动继续播放沼泽生物群系的音乐，直到把『播放清单』内所有音乐播放完，游戏才会重新切回默认的背景音乐。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "总之，上面这条指令将会把这个音乐添加到游戏的『播放清单』当中，等到下界的音乐播放完，游戏就会自动继续播放沼泽生物群系的音乐，直到把『播放清单』内所有音乐播放完，游戏才会重新切回默认的背景音乐。",
+   "sha256": "37c07a95e69113679b0a438538a2d46a98da8e513ee7106426dce88120eac60d",
+   "i": 6269
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "我们还可以添加一些参数来指定音乐的音量和淡入淡出时间。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "我们还可以添加一些参数来指定音乐的音量和淡入淡出时间。",
+   "sha256": "e7f4ce42a34586979ada2c71d5bcc1c274b983c75331a769baab3ce4454ec987",
+   "i": 6270
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『音乐』参数的值是一个介于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0.0~1.0（含）的浮点数，举个例子：",
+     "p": {}
+    }
+   ],
+   "text": "『音乐』参数的值是一个介于0.0~1.0（含）的浮点数，举个例子：",
+   "sha256": "32e678cb3a0da3fd579fbf6c3473be16099cac38c287a6208669eb510f6f2065",
+   "i": 6271
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music play record.blocks 1.0",
+     "p": {}
+    }
+   ],
+   "text": "/music play record.blocks 1.0",
+   "sha256": "4dae8ba8e3671f1c65495fde409dae078c824a1ff2adf38a092988d12279fc52",
+   "i": 6272
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会以",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "1.0（100%）的音量播放C418 - blocks这个唱片的音乐。当然，这条指令同样也会切断当前正在播放的音乐，并清空『播放清单』。",
+     "p": {}
+    }
+   ],
+   "text": "这将会以1.0（100%）的音量播放C418 - blocks这个唱片的音乐。当然，这条指令同样也会切断当前正在播放的音乐，并清空『播放清单』。",
+   "sha256": "637ce0b7c634e287e9db5c43ad7b1bc97d0848c57208dd93690e504673724388",
+   "i": 6273
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "『淡入淡出时间』和『音乐淡出时间』两个参数其实都是一样的，其值是一个介于",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "0~10（含）的整数，单位为秒。举个例子：",
+     "p": {}
+    }
+   ],
+   "text": "『淡入淡出时间』和『音乐淡出时间』两个参数其实都是一样的，其值是一个介于0~10（含）的整数，单位为秒。举个例子：",
+   "sha256": "6744a9bbc71073e1868e936c48f37799a7b399dd0d8a62b0072a75d4f302d1f0",
+   "i": 6274
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music play record.wait 1.0 10",
+     "p": {}
+    }
+   ],
+   "text": "/music play record.wait 1.0 10",
+   "sha256": "018be053057975cc738dbb433d6550d403c847cad0dcd1bc39d37502f9176adc",
+   "i": 6275
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会以最大的音量播放",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "C418 - wait这个唱片的音乐，并且游戏会在音乐开始播放前以及结束播放后空出10秒时间不播放任何音乐以实现『淡入淡出』的效果。",
+     "p": {}
+    }
+   ],
+   "text": "这将会以最大的音量播放C418 - wait这个唱片的音乐，并且游戏会在音乐开始播放前以及结束播放后空出10秒时间不播放任何音乐以实现『淡入淡出』的效果。",
+   "sha256": "579a5ce6aa2a5fc488a9b62096b0c191c14bd45e95781c0fae1957fb6967e6a2",
+   "i": 6276
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "PS：当你使用/music播放record.开头的音乐时，其实就相当于使用/playsound在指令执行地点向你自己播放了个一样的音乐，因此你跑远的话照样会听不到音乐）",
+     "p": {}
+    }
+   ],
+   "text": "（PS：当你使用/music播放record.开头的音乐时，其实就相当于使用/playsound在指令执行地点向你自己播放了个一样的音乐，因此你跑远的话照样会听不到音乐）",
+   "sha256": "a1f0fb47520a943d07020def6673d254cbf419c693f3bedca213bb84eb13eedb",
+   "i": 6277
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后，『播放模式』可以指定两个模式，即：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "最后，『播放模式』可以指定两个模式，即：",
+   "sha256": "4692dc3a011767a55577f2c8ab482012624a719eb1053acb343cad932f92e203",
+   "i": 6278
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "play_once ——只播放一次，即『顺序播放』，这是默认模式",
+     "p": {}
+    }
+   ],
+   "text": "play_once ——只播放一次，即『顺序播放』，这是默认模式",
+   "sha256": "89bc7aa758726aac95373f22cc1a1089f903a2a1fb46cc8e76aef96c85c56911",
+   "i": 6279
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "loop ——洗脑循环模式，即『单曲循环』",
+     "p": {}
+    }
+   ],
+   "text": "loop ——洗脑循环模式，即『单曲循环』",
+   "sha256": "89c214bf4811cac88c917527de68b084e0480d74ec98ed3f0dbe823feb867084",
+   "i": 6280
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "举个例子：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "举个例子：",
+   "sha256": "cf6567fb955742e263f829459aeba257e2c52585b30153d924049f9bfaba5ff0",
+   "i": 6281
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music queue record.mall 1.0 0 loop",
+     "p": {}
+    }
+   ],
+   "text": "/music queue record.mall 1.0 0 loop",
+   "sha256": "0f1899f038953dcf1d4a191eaf6d3969e52358a625274e696e9bf2fe6925b3d9",
+   "i": 6282
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会在『播放清单』上添加",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "C418 - mall唱片的音乐，游戏顺序播放到这个音乐时就会不断重复播放这个音乐，直到你使用stop子命令停止播放或者退出游戏。",
+     "p": {}
+    }
+   ],
+   "text": "这将会在『播放清单』上添加C418 - mall唱片的音乐，游戏顺序播放到这个音乐时就会不断重复播放这个音乐，直到你使用stop子命令停止播放或者退出游戏。",
+   "sha256": "ffeeb33cb72f91af23801be87082b53b88195743382dd571d13176435d3137be",
+   "i": 6283
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "最后，让我们来尝试改变一下当前正在播放的背景音乐的音量：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "最后，让我们来尝试改变一下当前正在播放的背景音乐的音量：",
+   "sha256": "6e00d0243d5e7b698e5a2c07a1e9bf32686818da08df9524791b82932682ff74",
+   "i": 6284
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "/music volume 0.5",
+     "p": {}
+    }
+   ],
+   "text": "/music volume 0.5",
+   "sha256": "9c8c395858dfba575f83988f0ad18ae4eb2524aa6db398eac4b8cea66a45ca6d",
+   "i": 6285
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "这将会把当前正在播放的背景音乐的音量调整到",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "50%。",
+     "p": {}
+    }
+   ],
+   "text": "这将会把当前正在播放的背景音乐的音量调整到50%。",
+   "sha256": "51228e1ab4c5fda4eaf0c8d8e6ce0d121fe15c35f3b3d8ffa47e61a825871679",
+   "i": 6286
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "本章到此为止。",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "本章到此为止。",
+   "sha256": "ad685ca57aa13e9c4e1c57947d7483a10b82160c3f878d96d224fec5f0b63a78",
+   "i": 6287
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——附表①：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/music可用的声音清单（作者自己整理，可能不全）",
+     "p": {}
+    }
+   ],
+   "text": "——附表①：/music可用的声音清单（作者自己整理，可能不全）",
+   "sha256": "cc247f882599401e415055dd3c34abda6e3bb175daf99c4b3087ca10d9beccc9",
+   "i": 6288
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "唱片音乐",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "唱片音乐",
+   "sha256": "b8011da509146f20cc749f55128732fca577f7e8837251dbd4af9aa00dc20173",
+   "i": 6289
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.13",
+     "p": {}
+    }
+   ],
+   "text": "record.13",
+   "sha256": "90c040f217efca9c5dd7dc5c069a3770a35d083b139e0869067c2142826c7999",
+   "i": 6290
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.cat",
+     "p": {}
+    }
+   ],
+   "text": "record.cat",
+   "sha256": "d9bac6ea657073407f0626a3ea2fb7afc75df9b80d068e897b09402823b2c22c",
+   "i": 6291
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.blocks",
+     "p": {}
+    }
+   ],
+   "text": "record.blocks",
+   "sha256": "9b310564be0c75780f2f7400f4da816f59f71de032eb1a53601541b7d2f398ac",
+   "i": 6292
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.chirp",
+     "p": {}
+    }
+   ],
+   "text": "record.chirp",
+   "sha256": "4dcc532642a746a144e6e4418e57e10f7497f684f8a6acea7fa7148a7226baae",
+   "i": 6293
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.far",
+     "p": {}
+    }
+   ],
+   "text": "record.far",
+   "sha256": "eb67a0c22b38b1835c16ca6273dbaf386dddd2cb9738c25c1ccc5cf20f25b934",
+   "i": 6294
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.mall",
+     "p": {}
+    }
+   ],
+   "text": "record.mall",
+   "sha256": "f0c073a9ee6f8ab6198663120134c30a2397afbd1eb2c3b11f03bf552cdb6230",
+   "i": 6295
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.mellohi",
+     "p": {}
+    }
+   ],
+   "text": "record.mellohi",
+   "sha256": "745f7945e60b6141255253e85bb34bf4d1f4a7db58e728a72cfe2e2f20d2111a",
+   "i": 6296
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.stal",
+     "p": {}
+    }
+   ],
+   "text": "record.stal",
+   "sha256": "27ff8d74ab81a0c537cd64e57ec3e77a63fb1e91338cd2e4b78dda1c457b4e9e",
+   "i": 6297
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.strad",
+     "p": {}
+    }
+   ],
+   "text": "record.strad",
+   "sha256": "f77533627f57447fb31960779cac5f291da397c619cdf6320657ffd76bd0a9af",
+   "i": 6298
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.ward",
+     "p": {}
+    }
+   ],
+   "text": "record.ward",
+   "sha256": "258165f7305fb7855759994a7b4fdf69d38907bdfa786382ab481d9a0c72b23f",
+   "i": 6299
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.11",
+     "p": {}
+    }
+   ],
+   "text": "record.11",
+   "sha256": "bd687ce3980db3de4e14faf425e5139c4d918b8a3fc9bfd3b8576394c8700318",
+   "i": 6300
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.wait",
+     "p": {}
+    }
+   ],
+   "text": "record.wait",
+   "sha256": "66d8516a1818123725e21c90b4c8adbb3fa9425ae475b2d9c69e16871b1b8984",
+   "i": 6301
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.5*",
+     "p": {}
+    }
+   ],
+   "text": "record.5*",
+   "sha256": "787bcce44584e648f7cc6d7c07cc0fc11cace55343a5daeeb7ffc71d46dc6343",
+   "i": 6302
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.pigstep*",
+     "p": {}
+    }
+   ],
+   "text": "record.pigstep*",
+   "sha256": "7bb88d005f24e116d050ab21be842f866db36851a35d82154480b1c727ed21c9",
+   "i": 6303
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "record.otherside*",
+     "p": {}
+    }
+   ],
+   "text": "record.otherside*",
+   "sha256": "12fe65278c6bc09acaa8e58e517f652dcb89fbf9db1e8430487ac802dc7dbf42",
+   "i": 6304
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "生物群系音乐",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "生物群系音乐",
+   "sha256": "50d4444aa64f81e7f0b90e4a892b10ae3ae4306b9b44b237da7ff9d09f5e87ba",
+   "i": 6305
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.deep_dark",
+     "p": {}
+    }
+   ],
+   "text": "music.game.deep_dark",
+   "sha256": "98af946b98b2b5abc6bcbc91ba7dffebe2681665280a8cf76f92be5c4d57e9a8",
+   "i": 6306
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.swamp_music",
+     "p": {}
+    }
+   ],
+   "text": "music.game.swamp_music",
+   "sha256": "509b78ac4916337ed364ee8dfe69ed188a17bc9ea0ad0303fc3d6857aa90f484",
+   "i": 6307
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game_and_wild_equal_chance",
+     "p": {}
+    }
+   ],
+   "text": "music.game_and_wild_equal_chance",
+   "sha256": "13ab67a16732c0655ccd1ea30dabebad037a6de64b7aec79d041ce38bf691729",
+   "i": 6308
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game_and_wild_favor_game",
+     "p": {}
+    }
+   ],
+   "text": "music.game_and_wild_favor_game",
+   "sha256": "abbc35f061c3dbf8356f3d5d2ca97386c06861765bf95d3e74c4c075cc5c3a3e",
+   "i": 6309
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.lush_caves*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.lush_caves*",
+   "sha256": "8c49e8b49bf3f0c6a1405b95bff59e8263f85bbce7b12d41b2ab48554bac6a9b",
+   "i": 6310
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.dripstone_caves*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.dripstone_caves*",
+   "sha256": "ee8dd609cb3ba9b882cef1129e8ce0c2397067b4ade9b326e4412da19b352048",
+   "i": 6311
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.grove*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.grove*",
+   "sha256": "3602d3c410a57f5bd0892013f802c7d6a51926b47c6661387fe68afb95dffa2d",
+   "i": 6312
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.jagged_peaks*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.jagged_peaks*",
+   "sha256": "0cef4ff687b19a977a048ccf9c40c4123be1f0e2343a1df9434f3236d4fc05fc",
+   "i": 6313
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.lush_caves*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.lush_caves*",
+   "sha256": "8c49e8b49bf3f0c6a1405b95bff59e8263f85bbce7b12d41b2ab48554bac6a9b",
+   "i": 6314
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.meadow*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.meadow*",
+   "sha256": "8a14d11d2b5455d1770da632027219a4c6df4c445e17a7ffc3dafd2acf18ff01",
+   "i": 6315
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.frozen_peaks*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.frozen_peaks*",
+   "sha256": "62b5b06401d57c11b3e0f029530b9facf839995deeb01f97355fa3e06b62d5e6",
+   "i": 6316
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.snowy_slopes*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.snowy_slopes*",
+   "sha256": "33a8a4b8001da41e003ddbaad6876384e844d7994d0c20c6767888672adf7e13",
+   "i": 6317
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.stony_peaks*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.stony_peaks*",
+   "sha256": "51172999ba7046568bd0a05ba64318fb4351e3b0c743985cc359456067366f28",
+   "i": 6318
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.basalt_deltas*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.basalt_deltas*",
+   "sha256": "9eaed49dff88ea83a70fd59839f0d5b68dffb8c29af13ca342333750cd60e2a7",
+   "i": 6319
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.nether_wastes*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.nether_wastes*",
+   "sha256": "93350432594829197a35f5374534653f8c3e840e1dba6b5ea3af81d7d2ef373d",
+   "i": 6320
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.soul_sand_valley*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.soul_sand_valley*",
+   "sha256": "9a4c429cb506cdf781f32126314737d7c3cf2e71de1a54794d33a730c527d849",
+   "i": 6321
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.warped_forest*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.warped_forest*",
+   "sha256": "abc6dfb1e2488623168f9d694ca55246cfd82b35e0d711c57753e77699a7c13b",
+   "i": 6322
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.soulsand_valley*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.soulsand_valley*",
+   "sha256": "074cfbc32b9849861a155daa8503331279c8a3315cf5e08394a0268eae763680",
+   "i": 6323
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.crimson_forest*",
+     "p": {}
+    }
+   ],
+   "text": "music.game.crimson_forest*",
+   "sha256": "e5378e33a010b477f344cbb5210f5bc6a2397144345411e84fdaf49dc08ab731",
+   "i": 6324
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "普通背景音乐",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "普通背景音乐",
+   "sha256": "a993f60f00a4eb94df935b761d8dd6e9c718d0ab95a131108aa30259fcbb9512",
+   "i": 6325
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.menu",
+     "p": {}
+    }
+   ],
+   "text": "music.menu",
+   "sha256": "9b2d85d597f042427b1c2706452d8343249d8344810531c0177e4530d858ebc0",
+   "i": 6326
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game",
+     "p": {}
+    }
+   ],
+   "text": "music.game",
+   "sha256": "9b22755c4c3f22822f551ab26c5eba2847c50691fcc368a6580bbc41141c79b1",
+   "i": 6327
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.creative",
+     "p": {}
+    }
+   ],
+   "text": "music.game.creative",
+   "sha256": "49320af099be513fcb6656e3c5fc6b6875024928ebc54d2e3d596e3552439b28",
+   "i": 6328
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.water",
+     "p": {}
+    }
+   ],
+   "text": "music.game.water",
+   "sha256": "1f81a82a24656157fd09dbdea38d661f2ebc3199fe9887bcd9e2308b5d6c4597",
+   "i": 6329
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.end",
+     "p": {}
+    }
+   ],
+   "text": "music.game.end",
+   "sha256": "7e886813a62f5ad07fb65b19df87b6e83c672c4e9c5c875cbe83476e7d7046a5",
+   "i": 6330
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.endboss",
+     "p": {}
+    }
+   ],
+   "text": "music.game.endboss",
+   "sha256": "617b32171b70bffbc406babcf5e44e8a70fc826fd45ead4d538b00d3ac2c10d7",
+   "i": 6331
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.nether",
+     "p": {}
+    }
+   ],
+   "text": "music.game.nether",
+   "sha256": "deacbb0543e713aacd4ab3c2b7555b08caaf61e51d7ba1fc171b6a9ee0608222",
+   "i": 6332
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "music.game.credits",
+     "p": {}
+    }
+   ],
+   "text": "music.game.credits",
+   "sha256": "f7f048a9d191c759e3c574459ab1fa0a7eb96361ccc1623eb160ee67d5e823f9",
+   "i": 6333
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "（",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "PS:其中标上星号『*』的音乐代表着这个音乐并不是从vanilla目录下找到的，而是从各版本的vanilla目录下找到的）",
+     "p": {}
+    }
+   ],
+   "text": "（PS:其中标上星号『*』的音乐代表着这个音乐并不是从vanilla目录下找到的，而是从各版本的vanilla目录下找到的）",
+   "sha256": "623acf8b704fcd4496561e17ca1da5890279444007e115cd80e4b6c8138a68ee",
+   "i": 6334
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "——附表②：",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    },
+    {
+     "t": "/music历史",
+     "p": {}
+    }
+   ],
+   "text": "——附表②：/music历史",
+   "sha256": "dae6101563d62bd0c1c4221fa363ebdc25bdb4410bee1db060f13a585a55f737",
+   "i": 6335
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "基岩版",
+     "p": {
+      "font": {
+       "hint": "eastAsia"
+      }
+     }
+    }
+   ],
+   "text": "基岩版",
+   "sha256": "e1ef194dc07360ceff0a1bfe2e5ddb80aa088939ada629f4c1c7f9bde5641ae2",
+   "i": 6336
+  },
+  {
+   "ppr": {
+    "ind": {
+     "firstLine": "420"
+    }
+   },
+   "c": [
+    {
+     "t": "1.16.100——加入了/music",
+     "p": {}
+    }
+   ],
+   "text": "1.16.100——加入了/music",
+   "sha256": "a824f7fa47f433b112487a685d5dbdb4516cebfc4b71867d41176ab25e47c363",
+   "i": 6337
+  }
+ ],
+ "text_sha256": "4aba0034f30b91e48904da97f2285a813d0893ca0792b771c4e0efb9bf101c5b",
+ "chars": 3500
+}
